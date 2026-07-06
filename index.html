@@ -1,0 +1,1070 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>워크멘토 — 채용과 정부지원사업을 하나로</title>
+<meta name="description" content="채용공고, 기업 네트워킹, 정부 지원사업 실시간 정보를 하나로 모은 중소기업 통합 플랫폼" />
+
+<!-- 가독성 중심 폰트: Noto Sans KR (본문/제목), IBM Plex Mono (숫자) -->
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700;800&family=IBM+Plex+Mono:wght@500;600&display=swap" rel="stylesheet" />
+
+<style>
+/* ==========================================================
+   워크멘토 디자인 토큰
+   채용/기업(HR) = 블루, 지원사업(FUND) = 골드
+   ========================================================== */
+:root {
+  --paper: #F5F6FA;
+  --ink: #1A2233;
+  --navy: #17264B;
+  --blue: #2757C9;
+  --blue-soft: #E8EEFC;
+  --gold: #B57F0A;
+  --gold-soft: #FBF3E0;
+  --line: #E2E5EE;
+  --white: #FFFFFF;
+  --danger: #C2402A;
+  --ok: #1E7B4D;
+  --sans: 'Noto Sans KR', sans-serif;
+  --mono: 'IBM Plex Mono', monospace;
+  --radius: 12px;
+}
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body {
+  font-family: var(--sans);
+  background: var(--paper);
+  color: var(--ink);
+  line-height: 1.7;
+  word-break: keep-all;       /* 한국어 단어 단위 줄바꿈 → 가독성 개선 */
+  letter-spacing: -0.01em;
+}
+button { font-family: inherit; cursor: pointer; }
+input, select, textarea { font-family: inherit; font-size: 14px; }
+:focus-visible { outline: 2px solid var(--blue); outline-offset: 2px; }
+img { max-width: 100%; }
+
+/* ---------- 상단 바 ---------- */
+.topbar { position: sticky; top: 0; z-index: 50; background: var(--white); border-bottom: 1px solid var(--line); }
+.topbar-in { max-width: 1160px; margin: 0 auto; padding: 0 20px; display: flex; align-items: center; gap: 8px; height: 62px; }
+.logo { font-weight: 800; font-size: 21px; color: var(--navy); letter-spacing: -0.02em; margin-right: 14px; white-space: nowrap; }
+.logo .accent { color: var(--gold); }
+nav { display: flex; gap: 2px; flex: 1; overflow-x: auto; }
+nav button { background: none; border: none; padding: 8px 13px; font-size: 14.5px; font-weight: 500; color: #5A6478; border-radius: 8px; white-space: nowrap; }
+nav button:hover { background: var(--paper); }
+nav button.on { color: var(--navy); font-weight: 700; background: var(--blue-soft); }
+.cta { background: var(--navy); color: #fff; border: none; border-radius: 8px; padding: 9px 15px; font-size: 13.5px; font-weight: 700; white-space: nowrap; }
+.cta:hover { background: #0F1A38; }
+.cta.gold { background: var(--gold); }
+
+.wrap { max-width: 1160px; margin: 0 auto; padding: 30px 20px 90px; }
+.page { display: none; }
+.page.on { display: block; animation: fade 0.22s ease; }
+@keyframes fade { from { opacity: 0; transform: translateY(5px); } to { opacity: 1; } }
+@media (prefers-reduced-motion: reduce) { .page.on { animation: none; } }
+
+/* ---------- 공통 ---------- */
+h2.section { font-weight: 800; font-size: 24px; color: var(--navy); letter-spacing: -0.02em; margin-bottom: 4px; }
+.section-sub { color: #5A6478; font-size: 14.5px; margin-bottom: 20px; }
+.card { background: var(--white); border: 1px solid var(--line); border-radius: var(--radius); padding: 20px; }
+.badge { display: inline-block; font-size: 11.5px; font-weight: 700; padding: 3px 9px; border-radius: 99px; vertical-align: middle; }
+.badge.hr { background: var(--blue-soft); color: var(--blue); }
+.badge.fund { background: var(--gold-soft); color: var(--gold); }
+.badge.hot { background: #FBE7E2; color: var(--danger); }
+.badge.paid { background: #E5F3EC; color: var(--ok); }
+.badge.free { background: #EEF0F5; color: #5A6478; }
+.mono { font-family: var(--mono); font-variant-numeric: tabular-nums; }
+.empty { text-align: center; color: #7A8398; padding: 40px 0; font-size: 14px; }
+
+/* ---------- 히어로 (타이포 개선: 두께·자간·행간 조정) ---------- */
+.hero { background: var(--navy); border-radius: 16px; padding: clamp(32px, 6vw, 56px); color: #DFE5F4; margin-bottom: 28px; }
+.hero .kicker { font-size: 13px; font-weight: 700; letter-spacing: 0.14em; color: #8FA8E8; margin-bottom: 12px; }
+.hero h1 {
+  font-weight: 800;
+  font-size: clamp(26px, 4.4vw, 42px);
+  line-height: 1.42;               /* 행간을 넉넉하게 */
+  letter-spacing: -0.015em;        /* 과한 압축 없이 */
+  color: #fff;
+  margin-bottom: 16px;
+  max-width: 640px;
+}
+.hero h1 .hl-hr { color: #8FB0F7; }
+.hero h1 .hl-fund { color: #EFC565; }
+.hero p { max-width: 560px; font-size: 15.5px; line-height: 1.8; }
+.hero .actions { margin-top: 26px; display: flex; gap: 10px; flex-wrap: wrap; }
+.hero .actions button { border: none; border-radius: 8px; padding: 12px 22px; font-size: 15px; font-weight: 700; }
+.btn-blue { background: var(--blue); color: #fff; }
+.btn-gold { background: #EFC565; color: #4A3502; }
+
+/* ---------- 홈: 매칭 카드 ---------- */
+.match { display: grid; grid-template-columns: 1fr 44px 1fr; align-items: stretch; margin-bottom: 16px; }
+@media (max-width: 720px) { .match { grid-template-columns: 1fr; } .match .link-col { height: 40px; } }
+.match .side { padding: 20px; background: var(--white); border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); }
+.match .side.hr { border-left: 4px solid var(--blue); border-radius: var(--radius) 0 0 var(--radius); }
+.match .side.fund { border-right: 4px solid var(--gold); border-radius: 0 var(--radius) var(--radius) 0; }
+.match .link-col { display: flex; align-items: center; justify-content: center; background: var(--white); border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); color: var(--gold); font-size: 20px; }
+.match h3 { font-size: 16px; margin: 6px 0 3px; font-weight: 700; }
+.match .meta { font-size: 13px; color: #5A6478; }
+.match .money { font-family: var(--mono); font-weight: 600; color: var(--gold); font-size: 17px; margin-top: 6px; }
+
+/* ---------- 필터 바 (기업마당 스타일 세분화) ---------- */
+.filterbar { background: var(--white); border: 1px solid var(--line); border-radius: var(--radius); padding: 16px; margin-bottom: 16px; display: grid; gap: 12px; }
+.filterrow { display: flex; align-items: flex-start; gap: 10px; flex-wrap: wrap; }
+.filterrow .flabel { font-size: 13px; font-weight: 700; color: var(--navy); min-width: 64px; padding-top: 6px; }
+.chips { display: flex; gap: 6px; flex-wrap: wrap; flex: 1; }
+.chips button { border: 1px solid var(--line); background: var(--white); border-radius: 99px; padding: 6px 13px; font-size: 13px; font-weight: 500; color: #444E63; }
+.chips button.on.hrf { background: var(--blue); border-color: var(--blue); color: #fff; }
+.chips button.on.fundf { background: var(--gold); border-color: var(--gold); color: #fff; }
+.searchrow { display: flex; gap: 8px; }
+.searchrow input { flex: 1; border: 1px solid var(--line); border-radius: 8px; padding: 10px 14px; background: var(--paper); }
+.status { font-size: 12.5px; color: #7A8398; }
+.status.live { color: var(--ok); font-weight: 700; }
+
+/* ---------- 리스트 ---------- */
+.list { display: grid; gap: 12px; }
+.row { display: grid; grid-template-columns: 1fr auto; gap: 14px; align-items: center; cursor: pointer; transition: border-color 0.15s; }
+.row:hover { border-color: var(--blue); }
+.row .title { font-size: 15.5px; font-weight: 700; line-height: 1.5; }
+.row .sub { font-size: 13px; color: #5A6478; margin-top: 3px; }
+.row .tags { margin-top: 8px; display: flex; gap: 6px; flex-wrap: wrap; }
+.row .right { text-align: right; min-width: 108px; }
+.row .pay { font-family: var(--mono); font-weight: 600; font-size: 15px; }
+.row .dday { font-family: var(--mono); font-weight: 600; font-size: 15px; color: var(--danger); }
+.row .dday.far { color: #5A6478; }
+.linked { margin-top: 10px; padding: 8px 12px; background: var(--gold-soft); border-radius: 8px; font-size: 13px; color: #6B4E08; }
+.linked b { color: var(--gold); }
+
+/* ---------- 기업 디렉토리 카드 ---------- */
+.cogrid { display: grid; grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); gap: 14px; }
+.cocard { overflow: hidden; padding: 0; cursor: pointer; transition: border-color 0.15s; }
+.cocard:hover { border-color: var(--blue); }
+.cocard .thumb { height: 140px; background: linear-gradient(135deg, #1E3A6E, #17264B); display: flex; align-items: center; justify-content: center; color: #7E92C4; font-size: 30px; font-weight: 800; overflow: hidden; }
+.cocard .thumb img { width: 100%; height: 100%; object-fit: cover; }
+.cocard .body { padding: 14px 16px 16px; }
+.cocard h3 { font-size: 15.5px; font-weight: 700; }
+.cocard .co-sub { font-size: 12.5px; color: #5A6478; margin: 2px 0 8px; }
+.cocard .desc { font-size: 13px; color: #444E63; line-height: 1.6; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
+
+/* ---------- 모달 ---------- */
+.modal-bg { display: none; position: fixed; inset: 0; z-index: 100; background: rgba(20,26,45,0.55); align-items: flex-start; justify-content: center; padding: 30px 16px; overflow-y: auto; }
+.modal-bg.on { display: flex; }
+.modal { background: #fff; border-radius: 14px; padding: 26px; max-width: 680px; width: 100%; }
+.modal h3 { font-size: 19px; font-weight: 800; line-height: 1.45; margin-bottom: 4px; color: var(--navy); }
+.modal .m-sub { font-size: 13.5px; color: #5A6478; margin-bottom: 14px; }
+.modal .m-body { font-size: 14.5px; line-height: 1.8; padding: 14px 0; border-top: 1px solid var(--line); white-space: pre-wrap; }
+.modal .m-img { border-radius: 10px; margin-bottom: 14px; max-height: 320px; object-fit: cover; width: 100%; }
+.modal .m-files { border-top: 1px solid var(--line); padding-top: 14px; }
+.modal .m-files a, .filebtn { display: inline-block; background: var(--blue-soft); color: var(--blue); font-size: 13px; font-weight: 700; padding: 8px 14px; border-radius: 8px; text-decoration: none; margin: 4px 6px 4px 0; border: none; }
+.modal iframe.doc { width: 100%; height: 480px; border: 1px solid var(--line); border-radius: 10px; margin-top: 12px; }
+.modal .btns { display: flex; gap: 8px; margin-top: 18px; }
+.modal .btns button { flex: 1; border: none; border-radius: 8px; padding: 12px; font-weight: 700; font-size: 14.5px; }
+.btn-ghost { background: var(--paper); color: var(--ink); }
+.locknote { background: var(--gold-soft); border-radius: 10px; padding: 14px; font-size: 13.5px; color: #6B4E08; margin-top: 12px; }
+.demo-note { background: #FBE7E2; color: var(--danger); font-size: 12.5px; font-weight: 700; padding: 8px 12px; border-radius: 8px; margin: 12px 0; }
+.sum { display: flex; justify-content: space-between; padding: 10px 0; border-top: 1px solid var(--line); font-size: 14.5px; }
+.sum.total { font-weight: 700; font-size: 16px; }
+
+/* ---------- 요금제 ---------- */
+.plans { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; }
+@media (max-width: 820px) { .plans { grid-template-columns: 1fr; } }
+.plan h3 { font-weight: 800; font-size: 19px; color: var(--navy); }
+.plan .price { font-family: var(--mono); font-weight: 600; font-size: 25px; margin: 10px 0 2px; }
+.plan .per { font-size: 13px; color: #5A6478; }
+.plan ul { list-style: none; margin: 16px 0; font-size: 14px; }
+.plan li { padding: 6px 0; border-bottom: 1px dashed var(--line); }
+.plan li::before { content: "✓ "; color: var(--blue); font-weight: 700; }
+.plan.best { border: 2px solid var(--navy); position: relative; }
+.plan.best::after { content: "가장 인기"; position: absolute; top: -12px; left: 20px; background: var(--navy); color: #fff; font-size: 11.5px; font-weight: 700; padding: 3px 10px; border-radius: 99px; }
+.plan button { width: 100%; border: none; border-radius: 8px; padding: 12px; font-size: 15px; font-weight: 700; background: var(--navy); color: #fff; }
+
+/* ---------- Admin ---------- */
+.admin-login { max-width: 380px; margin: 40px auto; }
+.admin-login input { width: 100%; border: 1px solid var(--line); border-radius: 8px; padding: 12px 14px; margin: 8px 0; }
+.atabs { display: flex; gap: 6px; flex-wrap: wrap; margin-bottom: 16px; }
+.atabs button { border: 1px solid var(--line); background: var(--white); border-radius: 8px; padding: 8px 15px; font-size: 13.5px; font-weight: 600; color: #444E63; }
+.atabs button.on { background: var(--navy); border-color: var(--navy); color: #fff; }
+.apanel { display: none; }
+.apanel.on { display: block; }
+.form { display: grid; gap: 10px; }
+.form label { font-size: 13px; font-weight: 700; color: var(--navy); }
+.form input, .form select, .form textarea { width: 100%; border: 1px solid var(--line); border-radius: 8px; padding: 10px 12px; background: var(--paper); }
+.form textarea { min-height: 90px; resize: vertical; }
+.form .frow { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
+@media (max-width: 640px) { .form .frow { grid-template-columns: 1fr; } }
+.form .fsave { background: var(--navy); color: #fff; border: none; border-radius: 8px; padding: 12px; font-weight: 700; font-size: 14.5px; }
+.alist { margin-top: 18px; display: grid; gap: 8px; }
+.aitem { display: flex; align-items: center; gap: 10px; background: var(--white); border: 1px solid var(--line); border-radius: 10px; padding: 10px 14px; font-size: 14px; }
+.aitem .grow { flex: 1; }
+.aitem button { border: none; border-radius: 6px; padding: 6px 12px; font-size: 12.5px; font-weight: 700; }
+.aitem .edit { background: var(--blue-soft); color: var(--blue); }
+.aitem .del { background: #FBE7E2; color: var(--danger); }
+.hintbox { background: var(--blue-soft); border-radius: 10px; padding: 14px 16px; font-size: 13.5px; color: #24437E; line-height: 1.7; margin-bottom: 16px; }
+
+footer { max-width: 1160px; margin: 0 auto; padding: 0 20px 40px; font-size: 12.5px; color: #7A8398; }
+footer .viewmode { margin-top: 8px; }
+footer select { border: 1px solid var(--line); border-radius: 6px; padding: 4px 8px; font-size: 12.5px; }
+</style>
+</head>
+<body>
+
+<!-- ===== 상단 바 ===== -->
+<div class="topbar">
+  <div class="topbar-in">
+    <span class="logo">워크<span class="accent">멘토</span></span>
+    <nav id="nav">
+      <button data-page="home" class="on">홈</button>
+      <button data-page="funds">지원사업</button>
+      <button data-page="companies">기업정보</button>
+      <button data-page="jobs">채용공고</button>
+      <button data-page="plans">요금제</button>
+      <button data-page="about">소개</button>
+      <button data-page="admin">관리자</button>
+    </nav>
+    <button class="cta" onclick="go('plans')">기업 등록하기</button>
+  </div>
+</div>
+
+<div class="wrap">
+
+<!-- ============ 홈 ============ -->
+<section class="page on" id="page-home">
+  <div class="hero">
+    <p class="kicker">WORKMENTOR — 일과 지원금의 멘토</p>
+    <h1>
+      <span class="hl-hr">사람을 뽑는 일</span>과
+      <span class="hl-fund">지원금 받는 일</span>,<br />
+      워크멘토 한 곳에서 해결하세요
+    </h1>
+    <p>채용공고를 올리는 순간, 그 채용으로 받을 수 있는 정부 고용지원금을 자동으로 찾아드립니다.
+    구인·구직, 기업 간 거래처 연결, 그리고 정부 지원사업 실시간 정보까지 — 중소기업에 필요한 모든 것.</p>
+    <div class="actions">
+      <button class="btn-blue" onclick="go('jobs')">채용공고 보기</button>
+      <button class="btn-gold" onclick="go('funds')">지원사업 찾기</button>
+    </div>
+  </div>
+
+  <h2 class="section">채용 × 지원금 매칭</h2>
+  <p class="section-sub">워크멘토의 핵심 — 이 채용을 진행하면, 이 지원금을 받을 수 있습니다.</p>
+  <div id="homeMatches"></div>
+</section>
+
+<!-- ============ 지원사업 (기업마당 스타일 세분화) ============ -->
+<section class="page" id="page-funds">
+  <h2 class="section">정부 지원사업</h2>
+  <p class="section-sub">분야 · 소관기관 · 지역으로 세분화해 찾아보세요. <span id="fundStatus" class="status">예시 데이터 표시 중 — 관리자 페이지에서 기업마당 API를 연결하면 실시간 공고로 전환됩니다.</span></p>
+
+  <div class="filterbar">
+    <div class="filterrow"><span class="flabel">분야</span><div class="chips" id="fFields"></div></div>
+    <div class="filterrow"><span class="flabel">소관기관</span><div class="chips" id="fAgencies"></div></div>
+    <div class="filterrow"><span class="flabel">지역</span><div class="chips" id="fRegions"></div></div>
+    <div class="searchrow">
+      <input id="fundSearch" placeholder="사업명 검색 (예: 청년, 수출, R&D...)" />
+      <button class="cta gold" onclick="renderFunds()">검색</button>
+    </div>
+  </div>
+  <div class="list" id="fundList"></div>
+</section>
+
+<!-- ============ 기업정보 (알바몬식 기업 디렉토리) ============ -->
+<section class="page" id="page-companies">
+  <h2 class="section">기업정보</h2>
+  <p class="section-sub">거래처를 찾거나 인력을 구하는 기업들이 자신을 소개하는 공간입니다.</p>
+  <div class="filterbar">
+    <div class="filterrow"><span class="flabel">찾는 것</span><div class="chips" id="cWants"></div></div>
+    <div class="filterrow"><span class="flabel">업종</span><div class="chips" id="cInds"></div></div>
+    <div class="searchrow">
+      <input id="coSearch" placeholder="기업명·키워드 검색" />
+      <button class="cta" onclick="renderCompanies()">검색</button>
+    </div>
+  </div>
+  <div class="cogrid" id="coGrid"></div>
+</section>
+
+<!-- ============ 채용공고 ============ -->
+<section class="page" id="page-jobs">
+  <h2 class="section">채용공고</h2>
+  <p class="section-sub">지역·고용형태로 걸러보세요. 지원금 연계 공고에는 골드 배지가 붙습니다.</p>
+  <div class="filterbar">
+    <div class="filterrow"><span class="flabel">지역</span><div class="chips" id="jRegions"></div></div>
+    <div class="filterrow"><span class="flabel">고용형태</span><div class="chips" id="jTypes"></div></div>
+  </div>
+  <div class="list" id="jobList"></div>
+</section>
+
+<!-- ============ 요금제 ============ -->
+<section class="page" id="page-plans">
+  <h2 class="section">기업 요금제</h2>
+  <p class="section-sub">채용공고 노출과 지원사업 알림, 기업 홍보를 하나의 구독으로.</p>
+  <div class="plans">
+    <div class="card plan">
+      <h3>베이직</h3>
+      <p class="price mono">0원</p><p class="per">평생 무료</p>
+      <ul>
+        <li>기업정보 등록 1건</li>
+        <li>채용공고 1건</li>
+        <li>지원사업 열람</li>
+      </ul>
+      <button onclick="openPay('베이직', 0)">무료로 시작</button>
+    </div>
+    <div class="card plan best">
+      <h3>스탠다드</h3>
+      <p class="price mono">99,000원</p><p class="per">월 / 부가세 별도</p>
+      <ul>
+        <li>기업정보 상단 노출 + 사진 갤러리</li>
+        <li>채용공고 10건 + 상단 노출</li>
+        <li>맞춤 지원사업 알림</li>
+        <li>채용 × 지원금 자동 매칭</li>
+        <li>연락처·홈페이지 공개</li>
+      </ul>
+      <button onclick="openPay('스탠다드', 99000)">시작하기</button>
+    </div>
+    <div class="card plan">
+      <h3>프리미엄</h3>
+      <p class="price mono">249,000원</p><p class="per">월 / 부가세 별도</p>
+      <ul>
+        <li>채용공고 무제한 + 최상단 고정</li>
+        <li>지원사업 신청서류 컨설팅 연결</li>
+        <li>전담 매니저 배정</li>
+        <li>전자근로계약서·급여관리</li>
+      </ul>
+      <button onclick="openPay('프리미엄', 249000)">시작하기</button>
+    </div>
+  </div>
+</section>
+
+<!-- ============ 소개 ============ -->
+<section class="page" id="page-about">
+  <h2 class="section">워크멘토 소개</h2>
+  <p class="section-sub">중소기업의 두 가지 고민, "사람"과 "돈"을 잇는 멘토가 되겠습니다.</p>
+  <div class="card">
+    <p>대한민국 중소기업 대표는 채용 플랫폼에서 사람을 찾고, 정부 포털에서 지원금을 찾느라
+    두 개의 세계를 오갑니다. 정작 이 둘은 깊이 연결되어 있는데도요 — 누구를 어떻게 채용하느냐에 따라
+    받을 수 있는 지원금이 달라집니다. 워크멘토는 채용 정보, 기업 간 네트워킹, 정부 지원사업 정보를
+    한 화면에 모아 기업이 성장을 설계할 수 있도록 돕는 통합 플랫폼입니다.</p>
+  </div>
+</section>
+
+<!-- ============ 관리자 ============ -->
+<section class="page" id="page-admin">
+  <!-- 로그인 -->
+  <div class="admin-login card" id="adminLogin">
+    <h2 class="section">관리자 로그인</h2>
+    <p class="section-sub">초기 비밀번호: <b>workmentor!</b> (로그인 후 변경하세요)</p>
+    <input type="password" id="adminPw" placeholder="비밀번호" onkeydown="if(event.key==='Enter')adminAuth()" />
+    <button class="cta" style="width:100%; padding:12px;" onclick="adminAuth()">로그인</button>
+  </div>
+
+  <!-- 대시보드 -->
+  <div id="adminDash" style="display:none;">
+    <h2 class="section">관리자 대시보드</h2>
+    <p class="section-sub">기업·채용공고 등록/수정/삭제, 회원 등급 관리, API 연동 설정을 할 수 있습니다.</p>
+    <div class="atabs">
+      <button class="on" data-tab="co" onclick="atab('co')">기업 관리</button>
+      <button data-tab="job" onclick="atab('job')">채용공고 관리</button>
+      <button data-tab="api" onclick="atab('api')">API 연동</button>
+      <button data-tab="data" onclick="atab('data')">데이터 백업</button>
+      <button data-tab="set" onclick="atab('set')">설정</button>
+    </div>
+
+    <!-- 기업 관리 -->
+    <div class="apanel on" id="apanel-co">
+      <div class="card form">
+        <input type="hidden" id="co-id" />
+        <div class="frow">
+          <div><label>기업명 *</label><input id="co-name" placeholder="(주)한빛물류" /></div>
+          <div><label>업종</label>
+            <select id="co-ind"><option>제조</option><option>물류/운송</option><option>IT/소프트웨어</option><option>도소매/유통</option><option>외식/서비스</option><option>건설</option><option>기타</option></select>
+          </div>
+        </div>
+        <div class="frow">
+          <div><label>지역</label>
+            <select id="co-region"><option>서울</option><option>경기</option><option>인천</option><option>부산</option><option>대구</option><option>대전</option><option>광주</option><option>기타</option></select>
+          </div>
+          <div><label>찾는 것</label>
+            <select id="co-want"><option>거래처</option><option>인력</option><option>거래처+인력</option></select>
+          </div>
+        </div>
+        <div><label>한 줄 소개</label><input id="co-intro" placeholder="수도권 새벽배송 전문 물류기업" /></div>
+        <div><label>상세 소개 (충분히 길게 작성 가능)</label><textarea id="co-detail" placeholder="회사 연혁, 주요 사업, 원하는 거래 조건 등을 자유롭게 작성하세요."></textarea></div>
+        <div class="frow">
+          <div><label>연락처 (유료회원에게만 공개)</label><input id="co-contact" placeholder="031-000-0000 / biz@example.com" /></div>
+          <div><label>회원 등급</label>
+            <select id="co-tier"><option value="free">무료회원</option><option value="paid">유료회원</option></select>
+          </div>
+        </div>
+        <div><label>대표 사진 (파일 업로드 → 사이트에 저장됨, 500KB 이하 권장)</label><input type="file" id="co-img" accept="image/*" /></div>
+        <button class="fsave" onclick="saveCompany()">기업 저장</button>
+      </div>
+      <div class="alist" id="coAdminList"></div>
+    </div>
+
+    <!-- 채용공고 관리 -->
+    <div class="apanel" id="apanel-job">
+      <div class="card form">
+        <input type="hidden" id="job-id" />
+        <div class="frow">
+          <div><label>공고 제목 *</label><input id="job-title" placeholder="물류센터 상하차 사원 (청년 정규직)" /></div>
+          <div><label>기업명</label><input id="job-company" placeholder="(주)한빛물류" /></div>
+        </div>
+        <div class="frow">
+          <div><label>지역</label>
+            <select id="job-region"><option>서울</option><option>경기</option><option>인천</option><option>부산</option><option>대구</option><option>대전</option><option>광주</option><option>기타</option></select>
+          </div>
+          <div><label>고용형태</label>
+            <select id="job-type"><option>정규직</option><option>계약직</option><option>아르바이트</option></select>
+          </div>
+        </div>
+        <div class="frow">
+          <div><label>급여</label><input id="job-pay" placeholder="월 280만 / 시급 12,000" /></div>
+          <div><label>연계 지원금 (없으면 비워두기)</label><input id="job-grant" placeholder="청년일자리도약장려금 · 최대 720만원/1인" /></div>
+        </div>
+        <div><label>상세 내용</label><textarea id="job-desc" placeholder="업무 내용, 근무 시간, 복리후생 등"></textarea></div>
+        <div><label>공고 이미지 (선택)</label><input type="file" id="job-img" accept="image/*" /></div>
+        <button class="fsave" onclick="saveJob()">공고 저장</button>
+      </div>
+      <div class="alist" id="jobAdminList"></div>
+    </div>
+
+    <!-- API 연동 -->
+    <div class="apanel" id="apanel-api">
+      <div class="hintbox">
+        <b>기업마당 실시간 API 연동 방법</b><br />
+        1) 기업마당(bizinfo.go.kr) → 활용정보 → 정책정보 개방에서 API 인증키를 무료로 신청합니다.<br />
+        2) 발급받은 인증키를 아래에 입력하고 저장하면 지원사업 페이지가 실시간 공고로 전환됩니다.<br />
+        3) 브라우저 보안(CORS) 때문에 직접 호출이 막히면, 함께 드린 <b>bizinfo-proxy-worker.js</b>를
+        Cloudflare Workers(무료)에 배포하고 그 주소를 프록시 URL에 넣으세요. 자세한 방법은 README 참고.
+      </div>
+      <div class="card form">
+        <div><label>기업마당 API 인증키 (crtfcKey)</label><input id="api-key" placeholder="발급받은 인증키 입력" /></div>
+        <div><label>프록시 URL (선택 — CORS 차단 시)</label><input id="api-proxy" placeholder="https://내워커이름.workers.dev" /></div>
+        <div class="frow">
+          <div><label>가져올 공고 수</label><input id="api-cnt" type="number" value="50" min="10" max="200" /></div>
+          <div style="display:flex; align-items:flex-end;"><button class="fsave" style="width:100%;" onclick="saveApi()">저장 후 실시간 데이터 불러오기</button></div>
+        </div>
+        <p class="status" id="apiStatus"></p>
+      </div>
+    </div>
+
+    <!-- 데이터 백업 -->
+    <div class="apanel" id="apanel-data">
+      <div class="hintbox">
+        지금 버전은 데이터가 <b>이 브라우저 안(localStorage)</b>에 저장됩니다. 다른 컴퓨터나 방문자에게는
+        보이지 않으니, 등록을 마친 뒤 <b>내보내기</b>로 JSON 파일을 받아 저장소에 함께 올리거나,
+        다음 단계에서 Supabase 같은 무료 DB로 옮기면 모두에게 공유됩니다.
+      </div>
+      <div class="card form">
+        <button class="fsave" onclick="exportData()">데이터 내보내기 (JSON 다운로드)</button>
+        <div><label>데이터 가져오기 (JSON 파일 선택)</label><input type="file" id="importFile" accept=".json" onchange="importData(event)" /></div>
+      </div>
+    </div>
+
+    <!-- 설정 -->
+    <div class="apanel" id="apanel-set">
+      <div class="card form">
+        <div><label>관리자 비밀번호 변경</label><input type="password" id="set-pw" placeholder="새 비밀번호" /></div>
+        <button class="fsave" onclick="changePw()">비밀번호 변경</button>
+        <p class="status">⚠ 이 로그인은 화면 잠금 수준의 보호입니다. 실서비스의 진짜 보안(서버 인증)은 다음 단계인 Supabase 연동에서 적용됩니다.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+</div>
+
+<!-- ===== 상세 모달 (지원사업/기업/채용 공용) ===== -->
+<div class="modal-bg" id="detailModal" role="dialog" aria-modal="true">
+  <div class="modal" id="detailBody"></div>
+</div>
+
+<!-- ===== 결제 데모 모달 ===== -->
+<div class="modal-bg" id="payModal" role="dialog" aria-modal="true">
+  <div class="modal">
+    <h3 id="payTitle"></h3>
+    <p class="demo-note">⚠ 결제 데모 화면입니다. 실서비스에서는 사업자등록 후 토스페이먼츠 등 PG사 심사를 거쳐 이 자리에 실제 결제창이 연동됩니다.</p>
+    <div class="sum"><span>월 이용료</span><span class="mono" id="payBase"></span></div>
+    <div class="sum"><span>부가세 (10%)</span><span class="mono" id="payVat"></span></div>
+    <div class="sum total"><span>합계</span><span class="mono" id="payTotal"></span></div>
+    <div class="btns">
+      <button class="btn-ghost" onclick="closeModal('payModal')">닫기</button>
+      <button class="cta" onclick="alert('데모: PG 연동 시 여기서 결제창이 열립니다.')">결제하기</button>
+    </div>
+  </div>
+</div>
+
+<footer>
+  본 사이트의 지원사업 정보 출처는 중소벤처기업부 기업마당(bizinfo.go.kr)입니다. 예시 데이터가 표시될 수 있으며,
+  최종 확인은 각 공고 원문을 따릅니다.
+  <div class="viewmode">
+    회원 등급 체험:
+    <select id="viewMode" onchange="DB.view=this.value; saveDB(); renderCompanies();">
+      <option value="guest">비회원</option>
+      <option value="free">무료회원</option>
+      <option value="paid">유료회원</option>
+    </select>
+    <span class="status">— 유료회원만 기업 연락처가 보입니다 (등급 정책 시뮬레이션)</span>
+  </div>
+</footer>
+
+<script>
+/* ==========================================================
+   데이터 계층
+   - localStorage에 저장 (브라우저별). 실서비스에선 Supabase로 교체.
+   - try/catch로 저장 불가 환경에서도 메모리로 동작.
+   ========================================================== */
+const DEFAULT_DB = {
+  view: "guest",
+  adminPw: "workmentor!",
+  api: { key: "", proxy: "", cnt: 50 },
+  companies: [
+    { id: 1, name: "(주)한빛물류", ind: "물류/운송", region: "경기", want: "인력", tier: "paid",
+      intro: "수도권 새벽배송 전문 물류기업", contact: "031-123-4567 / hr@hanbit.co.kr", img: "",
+      detail: "2015년 설립된 수도권 새벽배송 전문 물류기업입니다. 안산·시흥 물류센터 2곳을 운영하며 상하차·피킹·검수 인력을 상시 채용합니다. 청년 정규직 채용 시 정부 장려금 활용 노하우를 보유하고 있습니다." },
+    { id: 2, name: "대한정밀(주)", ind: "제조", region: "인천", want: "거래처+인력", tier: "paid",
+      intro: "자동차 부품 정밀가공 30년", contact: "032-555-0000", img: "",
+      detail: "남동공단 소재 자동차 부품 정밀가공 전문기업입니다. CNC 가공 라인 12기 보유. 신규 납품처(1차 벤더)를 찾고 있으며, 생산직 채용도 병행합니다." },
+    { id: 3, name: "테크브릿지", ind: "IT/소프트웨어", region: "서울", want: "거래처", tier: "free",
+      intro: "중소기업 전용 웹·앱 개발 스튜디오", contact: "02-777-8888", img: "",
+      detail: "중소기업 홈페이지·쇼핑몰·업무 시스템을 합리적 비용으로 제작합니다. 제조·물류 기업 프로젝트 경험 다수. 파트너십 제안 환영합니다." },
+    { id: 4, name: "카페 온도", ind: "외식/서비스", region: "서울", want: "인력", tier: "free",
+      intro: "성수동 스페셜티 카페", contact: "", img: "",
+      detail: "성수동에서 4년째 운영 중인 스페셜티 커피 전문점입니다. 주말 바리스타와 베이커를 찾습니다." }
+  ],
+  jobs: [
+    { id: 1, title: "물류센터 상하차 사원 (청년 정규직)", company: "(주)한빛물류", region: "경기", type: "정규직", pay: "월 280만", grant: "청년일자리도약장려금 · 최대 720만원/1인", img: "", desc: "주간 고정 / 주5일 / 4대보험 / 중식 제공. 만 34세 이하 청년 채용 시 기업이 장려금을 지원받는 공고입니다." },
+    { id: 2, title: "생산라인 오퍼레이터 (경력단절여성 우대)", company: "대한정밀(주)", region: "인천", type: "정규직", pay: "월 265만", grant: "고용촉진장려금 · 최대 720만원/1인", img: "", desc: "CNC 보조 및 검수 업무. 초보 교육 제공." },
+    { id: 3, title: "카페 주말 바리스타", company: "카페 온도", region: "서울", type: "아르바이트", pay: "시급 11,000", grant: "", img: "", desc: "토·일 오전 근무. 라떼아트 교육 지원." },
+    { id: 4, title: "웹 프론트엔드 개발자 (신입 가능)", company: "테크브릿지", region: "서울", type: "정규직", pay: "연 3,600만", grant: "청년일자리도약장려금 · 최대 720만원/1인", img: "", desc: "React 기반 웹 서비스 개발. 포트폴리오 제출 필수." }
+  ]
+};
+
+/* 예시 지원사업 (API 연동 전 기본 표시) */
+const SAMPLE_FUNDS = [
+  { id: "s1", field: "인력", title: "청년일자리도약장려금 (2026)", agency: "고용노동부", region: "전국", period: "20260101 ~ 20261231", amount: "최대 720만원/1인", summary: "만 15~34세 청년을 정규직으로 채용한 중소기업에 인건비를 지원하는 사업입니다.", url: "https://www.bizinfo.go.kr", file: null, fileName: null },
+  { id: "s2", field: "금융", title: "중소기업 정책자금 융자 (긴급경영안정자금)", agency: "중소벤처기업진흥공단", region: "전국", period: "20260601 ~ 20260711", amount: "최대 10억원 융자", summary: "일시적 경영애로를 겪는 중소기업에 저리 융자를 지원합니다.", url: "https://www.bizinfo.go.kr", file: null, fileName: null },
+  { id: "s3", field: "기술", title: "중소기업 기술혁신개발사업 R&D 지원", agency: "중소벤처기업부", region: "전국", period: "20260615 ~ 20260727", amount: "최대 5억원", summary: "혁신 기술 개발 중소기업에 R&D 자금을 지원합니다.", url: "https://www.bizinfo.go.kr", file: null, fileName: null },
+  { id: "s4", field: "수출", title: "수출바우처 지원사업 참여기업 모집", agency: "KOTRA", region: "전국", period: "20260620 ~ 20260715", amount: "최대 1억원 바우처", summary: "해외 마케팅·인증·물류 비용을 바우처로 지원합니다.", url: "https://www.bizinfo.go.kr", file: null, fileName: null },
+  { id: "s5", field: "창업", title: "예비창업패키지 (일반 분야)", agency: "창업진흥원", region: "전국", period: "20260701 ~ 20260805", amount: "최대 1억원", summary: "예비창업자의 사업화 자금과 멘토링을 지원합니다.", url: "https://www.bizinfo.go.kr", file: null, fileName: null },
+  { id: "s6", field: "인력", title: "고령자 계속고용장려금", agency: "고용노동부", region: "전국", period: "20260101 ~ 20261231", amount: "분기 90만원/1인", summary: "정년 이후에도 근로자를 계속 고용하는 기업을 지원합니다.", url: "https://www.bizinfo.go.kr", file: null, fileName: null },
+  { id: "s7", field: "경영", title: "중소기업 ESG 경영지원 컨설팅", agency: "경기도", region: "경기", period: "20260610 ~ 20260723", amount: "컨설팅 비용 90% 지원", summary: "ESG 진단과 개선 컨설팅 비용을 지원합니다.", url: "https://www.bizinfo.go.kr", file: null, fileName: null },
+  { id: "s8", field: "내수", title: "중소기업제품 온라인 쇼핑몰 입점 지원", agency: "중소기업유통센터", region: "서울", period: "20260625 ~ 20260714", amount: "입점·마케팅 비용 지원", summary: "국내 주요 온라인 쇼핑몰 입점과 마케팅을 지원합니다.", url: "https://www.bizinfo.go.kr", file: null, fileName: null }
+];
+
+let DB;
+function loadDB() {
+  try {
+    const raw = localStorage.getItem("workmentor-db");
+    DB = raw ? JSON.parse(raw) : structuredClone(DEFAULT_DB);
+  } catch (e) { DB = structuredClone(DEFAULT_DB); }
+}
+function saveDB() {
+  try { localStorage.setItem("workmentor-db", JSON.stringify(DB)); }
+  catch (e) { console.warn("저장 실패(용량 초과 가능):", e); alert("저장 공간이 부족합니다. 이미지 용량을 줄여주세요."); }
+}
+loadDB();
+
+let FUNDS = [...SAMPLE_FUNDS];
+let fundLive = false;
+
+/* ---------- 유틸 ---------- */
+const esc = (s) => String(s ?? "").replace(/[&<>"']/g, c => ({ "&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;" }[c]));
+const stripHtml = (s) => { const d = document.createElement("div"); d.innerHTML = s || ""; return d.textContent.trim(); };
+function ddayOf(period) {
+  const m = String(period || "").match(/(\d{8})\s*$/) || String(period || "").match(/~\s*(\d{8})/);
+  if (!m) return null;
+  const y = +m[1].slice(0,4), mo = +m[1].slice(4,6) - 1, d = +m[1].slice(6,8);
+  return Math.ceil((new Date(y, mo, d) - new Date()) / 86400000);
+}
+function fmtPeriod(p) { return String(p||"").replace(/(\d{4})(\d{2})(\d{2})/g, "$1.$2.$3"); }
+
+/* ---------- 페이지 전환 ---------- */
+function go(page) {
+  document.querySelectorAll(".page").forEach(p => p.classList.remove("on"));
+  document.getElementById("page-" + page).classList.add("on");
+  document.querySelectorAll("#nav button").forEach(b => b.classList.toggle("on", b.dataset.page === page));
+  window.scrollTo({ top: 0 });
+}
+document.querySelectorAll("#nav button").forEach(b => b.addEventListener("click", () => go(b.dataset.page)));
+
+/* ---------- 모달 공용 ---------- */
+function openModal(id) { document.getElementById(id).classList.add("on"); }
+function closeModal(id) { document.getElementById(id).classList.remove("on"); }
+document.querySelectorAll(".modal-bg").forEach(m => m.addEventListener("click", e => { if (e.target === m) m.classList.remove("on"); }));
+
+/* ==========================================================
+   지원사업: 기업마당 API 연동 + 세분화 필터
+   ========================================================== */
+let fState = { field: "전체", agency: "전체", region: "전체" };
+
+function normalizeFund(it, i) {
+  const base = "https://www.bizinfo.go.kr";
+  const filePath = it.printFlpthNm || it.flpthNm || null;
+  return {
+    id: it.pblancId || "api" + i,
+    title: stripHtml(it.pblancNm || it.title || ""),
+    field: stripHtml(it.pldirSportRealmLclasCodeNm || it.field || "기타") || "기타",
+    agency: stripHtml(it.jrsdInsttNm || it.excInsttNm || it.agency || "기타기관"),
+    region: stripHtml(it.areaNm || "") || "전국",
+    period: it.reqstBeginEndDe || "",
+    amount: "",
+    summary: stripHtml(it.bsnsSumryCn || ""),
+    url: it.pblancUrl ? (it.pblancUrl.startsWith("http") ? it.pblancUrl : base + it.pblancUrl) : "",
+    file: filePath ? (filePath.startsWith("http") ? filePath : base + filePath) : null,
+    fileName: it.printFileNm || it.fileNm || null
+  };
+}
+
+async function loadLiveFunds() {
+  const { key, proxy, cnt } = DB.api;
+  if (!key) return false;
+  const qs = `crtfcKey=${encodeURIComponent(key)}&dataType=json&searchCnt=${cnt || 50}`;
+  const url = proxy
+    ? proxy.replace(/\/$/, "") + "?" + qs
+    : "https://www.bizinfo.go.kr/uss/rss/bizinfoApi.do?" + qs;
+  const st = document.getElementById("apiStatus");
+  try {
+    if (st) st.textContent = "실시간 데이터 불러오는 중...";
+    const res = await fetch(url);
+    if (!res.ok) throw new Error("HTTP " + res.status);
+    const data = await res.json();
+    const arr = data.jsonArray || data.items || data.item || (Array.isArray(data) ? data : null);
+    if (!arr || !arr.length) throw new Error("데이터 형식을 해석하지 못했습니다.");
+    FUNDS = arr.map(normalizeFund);
+    fundLive = true;
+    const fs = document.getElementById("fundStatus");
+    fs.textContent = `● 기업마당 실시간 연동 중 — 공고 ${FUNDS.length}건`;
+    fs.className = "status live";
+    if (st) st.textContent = `✓ 성공! ${FUNDS.length}건의 실시간 공고를 불러왔습니다.`;
+    buildFundFilters(); renderFunds(); renderHomeMatches();
+    return true;
+  } catch (e) {
+    if (st) st.textContent = "✗ 불러오기 실패: " + e.message +
+      " — 브라우저 CORS 차단일 수 있습니다. README의 프록시(Cloudflare Worker) 설정을 진행한 뒤 프록시 URL을 입력하세요.";
+    return false;
+  }
+}
+
+function buildFundFilters() {
+  const fields = ["전체", "금융", "기술", "인력", "수출", "내수", "창업", "경영", "기타"];
+  const agencies = ["전체", ...new Set(FUNDS.map(f => f.agency))].slice(0, 13);
+  const regions = ["전체", ...new Set(FUNDS.map(f => f.region))].slice(0, 13);
+  const mk = (arr, boxId, key) => {
+    const box = document.getElementById(boxId);
+    box.innerHTML = "";
+    arr.forEach(v => {
+      const b = document.createElement("button");
+      b.textContent = v;
+      b.className = "fundf" + (fState[key] === v ? " on" : "");
+      b.onclick = () => { fState[key] = v; buildFundFilters(); renderFunds(); };
+      box.appendChild(b);
+    });
+  };
+  mk(fields, "fFields", "field");
+  mk(agencies, "fAgencies", "agency");
+  mk(regions, "fRegions", "region");
+}
+
+function renderFunds() {
+  const q = (document.getElementById("fundSearch").value || "").trim();
+  const box = document.getElementById("fundList");
+  box.innerHTML = "";
+  const rows = FUNDS.filter(f =>
+    (fState.field === "전체" || f.field.includes(fState.field)) &&
+    (fState.agency === "전체" || f.agency === fState.agency) &&
+    (fState.region === "전체" || f.region === fState.region) &&
+    (!q || f.title.includes(q) || f.summary.includes(q))
+  ).sort((a, b) => (ddayOf(a.period) ?? 9999) - (ddayOf(b.period) ?? 9999));
+
+  if (!rows.length) { box.innerHTML = '<p class="empty">조건에 맞는 공고가 없습니다.</p>'; return; }
+  rows.forEach(f => {
+    const dd = ddayOf(f.period);
+    const el = document.createElement("div");
+    el.className = "card row";
+    el.onclick = () => showFund(f);
+    el.innerHTML = `
+      <div>
+        <p class="title">${esc(f.title)}</p>
+        <p class="sub">${esc(f.agency)} · ${esc(f.region)} · ${fmtPeriod(f.period) || "상시"}</p>
+        <div class="tags">
+          <span class="badge fund">${esc(f.field)}</span>
+          ${dd !== null && dd >= 0 && dd <= 10 ? '<span class="badge hot">마감 임박</span>' : ''}
+          ${f.file ? '<span class="badge hr">첨부파일</span>' : ''}
+        </div>
+      </div>
+      <div class="right">
+        ${dd !== null && dd >= 0 ? `<p class="dday ${dd > 10 ? "far" : ""}">D-${dd}</p>` : ''}
+        ${f.amount ? `<p class="sub mono">${esc(f.amount)}</p>` : ''}
+      </div>`;
+    box.appendChild(el);
+  });
+}
+
+/* 지원사업 상세: 사이트 안에서 본문·첨부 열람 */
+function showFund(f) {
+  const isPdf = f.file && /\.pdf($|\?)/i.test(f.fileName || f.file);
+  document.getElementById("detailBody").innerHTML = `
+    <span class="badge fund">${esc(f.field)}</span>
+    <h3>${esc(f.title)}</h3>
+    <p class="m-sub">${esc(f.agency)} · ${esc(f.region)} · 접수 ${fmtPeriod(f.period) || "상시"}</p>
+    <div class="m-body">${esc(f.summary) || "요약 정보가 없습니다. 첨부파일이나 원문에서 상세 내용을 확인하세요."}</div>
+    ${f.file ? `
+      <div class="m-files">
+        <b style="font-size:13.5px;">첨부파일</b><br />
+        <a href="${esc(f.file)}" target="_blank" rel="noopener">📎 ${esc(f.fileName || "공고문 내려받기")}</a>
+        ${isPdf ? `<button class="filebtn" onclick="this.nextElementSibling.style.display='block'; this.style.display='none';">사이트에서 바로 열기</button>
+        <iframe class="doc" style="display:none;" src="${esc(f.file)}"></iframe>` : ""}
+      </div>` : ""}
+    <div class="btns">
+      <button class="btn-ghost" onclick="closeModal('detailModal')">닫기</button>
+      ${f.url ? `<button class="cta gold" onclick="window.open('${esc(f.url)}','_blank')">원문 공고 보기</button>` : ""}
+    </div>`;
+  openModal("detailModal");
+}
+
+/* ==========================================================
+   기업정보 (알바몬식 디렉토리 + 유료 게이팅)
+   ========================================================== */
+let cState = { want: "전체", ind: "전체" };
+function buildCoFilters() {
+  const wants = ["전체", "거래처", "인력", "거래처+인력"];
+  const inds = ["전체", ...new Set(DB.companies.map(c => c.ind))];
+  const mk = (arr, boxId, key) => {
+    const box = document.getElementById(boxId);
+    box.innerHTML = "";
+    arr.forEach(v => {
+      const b = document.createElement("button");
+      b.textContent = v;
+      b.className = "hrf" + (cState[key] === v ? " on" : "");
+      b.onclick = () => { cState[key] = v; buildCoFilters(); renderCompanies(); };
+      box.appendChild(b);
+    });
+  };
+  mk(wants, "cWants", "want");
+  mk(inds, "cInds", "ind");
+}
+function renderCompanies() {
+  const q = (document.getElementById("coSearch").value || "").trim();
+  const box = document.getElementById("coGrid");
+  box.innerHTML = "";
+  const rows = DB.companies.filter(c =>
+    (cState.want === "전체" || c.want === cState.want) &&
+    (cState.ind === "전체" || c.ind === cState.ind) &&
+    (!q || c.name.includes(q) || c.intro.includes(q) || c.detail.includes(q))
+  ).sort((a, b) => (b.tier === "paid") - (a.tier === "paid"));   /* 유료회원 상단 노출 */
+
+  if (!rows.length) { box.innerHTML = '<p class="empty">등록된 기업이 없습니다. 관리자 페이지에서 등록해보세요.</p>'; return; }
+  rows.forEach(c => {
+    const el = document.createElement("div");
+    el.className = "card cocard";
+    el.onclick = () => showCompany(c);
+    el.innerHTML = `
+      <div class="thumb">${c.img ? `<img src="${c.img}" alt="${esc(c.name)}" />` : esc(c.name.slice(0, 2))}</div>
+      <div class="body">
+        <h3>${esc(c.name)} ${c.tier === "paid" ? '<span class="badge paid">유료회원</span>' : '<span class="badge free">무료</span>'}</h3>
+        <p class="co-sub">${esc(c.ind)} · ${esc(c.region)} · <b>${esc(c.want)}</b> 찾는 중</p>
+        <p class="desc">${esc(c.intro)}</p>
+      </div>`;
+    box.appendChild(el);
+  });
+}
+function showCompany(c) {
+  const canSeeContact = DB.view === "paid";   /* 유료회원만 연락처 열람 */
+  document.getElementById("detailBody").innerHTML = `
+    ${c.img ? `<img class="m-img" src="${c.img}" alt="${esc(c.name)}" />` : ""}
+    <span class="badge hr">${esc(c.ind)}</span>
+    ${c.tier === "paid" ? '<span class="badge paid">유료회원</span>' : ''}
+    <h3>${esc(c.name)}</h3>
+    <p class="m-sub">${esc(c.region)} · <b>${esc(c.want)}</b>를 찾고 있습니다</p>
+    <div class="m-body">${esc(c.detail)}</div>
+    ${canSeeContact && c.contact
+      ? `<div class="m-files"><b style="font-size:13.5px;">연락처</b><br /><p class="mono" style="font-size:15px; margin-top:4px;">${esc(c.contact)}</p></div>`
+      : `<div class="locknote">🔒 연락처는 <b>유료회원</b>에게만 공개됩니다. (하단의 "회원 등급 체험"을 유료회원으로 바꾸면 미리 볼 수 있어요)</div>`}
+    <div class="btns"><button class="btn-ghost" onclick="closeModal('detailModal')">닫기</button></div>`;
+  openModal("detailModal");
+}
+
+/* ==========================================================
+   채용공고
+   ========================================================== */
+let jState = { region: "전체", type: "전체" };
+function buildJobFilters() {
+  const regions = ["전체", ...new Set(DB.jobs.map(j => j.region))];
+  const types = ["전체", "정규직", "계약직", "아르바이트"];
+  const mk = (arr, boxId, key) => {
+    const box = document.getElementById(boxId);
+    box.innerHTML = "";
+    arr.forEach(v => {
+      const b = document.createElement("button");
+      b.textContent = v;
+      b.className = "hrf" + (jState[key] === v ? " on" : "");
+      b.onclick = () => { jState[key] = v; buildJobFilters(); renderJobs(); };
+      box.appendChild(b);
+    });
+  };
+  mk(regions, "jRegions", "region");
+  mk(types, "jTypes", "type");
+}
+function renderJobs() {
+  const box = document.getElementById("jobList");
+  box.innerHTML = "";
+  const rows = DB.jobs.filter(j =>
+    (jState.region === "전체" || j.region === jState.region) &&
+    (jState.type === "전체" || j.type === jState.type));
+  if (!rows.length) { box.innerHTML = '<p class="empty">등록된 공고가 없습니다.</p>'; return; }
+  rows.forEach(j => {
+    const el = document.createElement("div");
+    el.className = "card row";
+    el.onclick = () => showJob(j);
+    el.innerHTML = `
+      <div>
+        <p class="title">${esc(j.title)}</p>
+        <p class="sub">${esc(j.company)} · ${esc(j.region)} · ${esc(j.type)}</p>
+        <div class="tags">
+          <span class="badge hr">${esc(j.type)}</span>
+          ${j.grant ? '<span class="badge fund">지원금 연계</span>' : ''}
+        </div>
+        ${j.grant ? `<p class="linked">💰 이 채용으로 받을 수 있는 지원금: <b>${esc(j.grant)}</b></p>` : ''}
+      </div>
+      <div class="right"><p class="pay">${esc(j.pay)}원</p></div>`;
+    box.appendChild(el);
+  });
+}
+function showJob(j) {
+  document.getElementById("detailBody").innerHTML = `
+    ${j.img ? `<img class="m-img" src="${j.img}" alt="" />` : ""}
+    <span class="badge hr">${esc(j.type)}</span>
+    ${j.grant ? '<span class="badge fund">지원금 연계</span>' : ''}
+    <h3>${esc(j.title)}</h3>
+    <p class="m-sub">${esc(j.company)} · ${esc(j.region)} · <span class="mono">${esc(j.pay)}원</span></p>
+    <div class="m-body">${esc(j.desc)}</div>
+    ${j.grant ? `<p class="linked">💰 이 채용으로 받을 수 있는 지원금: <b>${esc(j.grant)}</b></p>` : ''}
+    <div class="btns">
+      <button class="btn-ghost" onclick="closeModal('detailModal')">닫기</button>
+      <button class="cta" onclick="alert('데모: 실서비스에서는 이력서 지원 화면으로 연결됩니다.')">지원하기</button>
+    </div>`;
+  openModal("detailModal");
+}
+
+/* ---------- 홈 매칭 카드 ---------- */
+function renderHomeMatches() {
+  const box = document.getElementById("homeMatches");
+  box.innerHTML = "";
+  DB.jobs.filter(j => j.grant).slice(0, 3).forEach(j => {
+    const [gName, gAmt] = j.grant.split("·").map(s => s.trim());
+    const el = document.createElement("div");
+    el.className = "match";
+    el.innerHTML = `
+      <div class="side hr">
+        <span class="badge hr">채용공고</span>
+        <h3>${esc(j.title)}</h3>
+        <p class="meta">${esc(j.company)} · ${esc(j.region)} · ${esc(j.pay)}원</p>
+      </div>
+      <div class="link-col">⇄</div>
+      <div class="side fund">
+        <span class="badge fund">연계 지원금</span>
+        <h3>${esc(gName)}</h3>
+        <p class="meta">채용 조건 충족 시 기업에 지원</p>
+        <p class="money">${esc(gAmt || "")}</p>
+      </div>`;
+    box.appendChild(el);
+  });
+}
+
+/* ==========================================================
+   결제 데모
+   ========================================================== */
+function openPay(name, price) {
+  if (price === 0) { alert("데모: 무료 플랜은 회원가입 화면으로 연결됩니다."); return; }
+  document.getElementById("payTitle").textContent = name + " 플랜 구독";
+  document.getElementById("payBase").textContent = price.toLocaleString() + "원";
+  document.getElementById("payVat").textContent = Math.round(price * 0.1).toLocaleString() + "원";
+  document.getElementById("payTotal").textContent = Math.round(price * 1.1).toLocaleString() + "원";
+  openModal("payModal");
+}
+
+/* ==========================================================
+   관리자 (Admin)
+   ========================================================== */
+let isAdmin = false;
+function adminAuth() {
+  if (document.getElementById("adminPw").value === DB.adminPw) {
+    isAdmin = true;
+    document.getElementById("adminLogin").style.display = "none";
+    document.getElementById("adminDash").style.display = "block";
+    renderAdminLists();
+    document.getElementById("api-key").value = DB.api.key;
+    document.getElementById("api-proxy").value = DB.api.proxy;
+    document.getElementById("api-cnt").value = DB.api.cnt;
+  } else alert("비밀번호가 틀렸습니다.");
+}
+function atab(t) {
+  document.querySelectorAll(".atabs button").forEach(b => b.classList.toggle("on", b.dataset.tab === t));
+  document.querySelectorAll(".apanel").forEach(p => p.classList.remove("on"));
+  document.getElementById("apanel-" + t).classList.add("on");
+}
+function readImg(inputId) {
+  return new Promise(res => {
+    const f = document.getElementById(inputId).files[0];
+    if (!f) return res("");
+    if (f.size > 800 * 1024) { alert("이미지가 800KB를 넘습니다. 더 작은 파일을 사용해주세요."); return res(""); }
+    const r = new FileReader();
+    r.onload = () => res(r.result);
+    r.readAsDataURL(f);
+  });
+}
+
+/* --- 기업 CRUD --- */
+async function saveCompany() {
+  const name = document.getElementById("co-name").value.trim();
+  if (!name) return alert("기업명을 입력하세요.");
+  const img = await readImg("co-img");
+  const id = document.getElementById("co-id").value;
+  const obj = {
+    id: id ? +id : Date.now(),
+    name,
+    ind: document.getElementById("co-ind").value,
+    region: document.getElementById("co-region").value,
+    want: document.getElementById("co-want").value,
+    intro: document.getElementById("co-intro").value.trim(),
+    detail: document.getElementById("co-detail").value.trim(),
+    contact: document.getElementById("co-contact").value.trim(),
+    tier: document.getElementById("co-tier").value,
+    img: img || (id ? (DB.companies.find(c => c.id === +id)?.img || "") : "")
+  };
+  const i = DB.companies.findIndex(c => c.id === obj.id);
+  if (i >= 0) DB.companies[i] = obj; else DB.companies.unshift(obj);
+  saveDB();
+  clearCoForm(); renderAdminLists(); buildCoFilters(); renderCompanies();
+  alert("저장되었습니다.");
+}
+function editCompany(id) {
+  const c = DB.companies.find(x => x.id === id); if (!c) return;
+  document.getElementById("co-id").value = c.id;
+  document.getElementById("co-name").value = c.name;
+  document.getElementById("co-ind").value = c.ind;
+  document.getElementById("co-region").value = c.region;
+  document.getElementById("co-want").value = c.want;
+  document.getElementById("co-intro").value = c.intro;
+  document.getElementById("co-detail").value = c.detail;
+  document.getElementById("co-contact").value = c.contact;
+  document.getElementById("co-tier").value = c.tier;
+  window.scrollTo({ top: 0 });
+}
+function delCompany(id) {
+  if (!confirm("이 기업을 삭제할까요?")) return;
+  DB.companies = DB.companies.filter(c => c.id !== id);
+  saveDB(); renderAdminLists(); renderCompanies();
+}
+function clearCoForm() {
+  ["co-id","co-name","co-intro","co-detail","co-contact"].forEach(i => document.getElementById(i).value = "");
+  document.getElementById("co-img").value = "";
+}
+
+/* --- 채용공고 CRUD --- */
+async function saveJob() {
+  const title = document.getElementById("job-title").value.trim();
+  if (!title) return alert("공고 제목을 입력하세요.");
+  const img = await readImg("job-img");
+  const id = document.getElementById("job-id").value;
+  const obj = {
+    id: id ? +id : Date.now(),
+    title,
+    company: document.getElementById("job-company").value.trim(),
+    region: document.getElementById("job-region").value,
+    type: document.getElementById("job-type").value,
+    pay: document.getElementById("job-pay").value.trim(),
+    grant: document.getElementById("job-grant").value.trim(),
+    desc: document.getElementById("job-desc").value.trim(),
+    img: img || (id ? (DB.jobs.find(j => j.id === +id)?.img || "") : "")
+  };
+  const i = DB.jobs.findIndex(j => j.id === obj.id);
+  if (i >= 0) DB.jobs[i] = obj; else DB.jobs.unshift(obj);
+  saveDB();
+  ["job-id","job-title","job-company","job-pay","job-grant","job-desc"].forEach(x => document.getElementById(x).value = "");
+  document.getElementById("job-img").value = "";
+  renderAdminLists(); buildJobFilters(); renderJobs(); renderHomeMatches();
+  alert("저장되었습니다.");
+}
+function editJob(id) {
+  const j = DB.jobs.find(x => x.id === id); if (!j) return;
+  document.getElementById("job-id").value = j.id;
+  document.getElementById("job-title").value = j.title;
+  document.getElementById("job-company").value = j.company;
+  document.getElementById("job-region").value = j.region;
+  document.getElementById("job-type").value = j.type;
+  document.getElementById("job-pay").value = j.pay;
+  document.getElementById("job-grant").value = j.grant;
+  document.getElementById("job-desc").value = j.desc;
+  atab("job"); window.scrollTo({ top: 0 });
+}
+function delJob(id) {
+  if (!confirm("이 공고를 삭제할까요?")) return;
+  DB.jobs = DB.jobs.filter(j => j.id !== id);
+  saveDB(); renderAdminLists(); renderJobs(); renderHomeMatches();
+}
+
+function renderAdminLists() {
+  const co = document.getElementById("coAdminList");
+  co.innerHTML = "";
+  DB.companies.forEach(c => {
+    const el = document.createElement("div");
+    el.className = "aitem";
+    el.innerHTML = `<span class="grow"><b>${esc(c.name)}</b> · ${esc(c.ind)} · ${c.tier === "paid" ? '<span class="badge paid">유료</span>' : '<span class="badge free">무료</span>'}</span>
+      <button class="edit" onclick="editCompany(${c.id})">수정</button>
+      <button class="del" onclick="delCompany(${c.id})">삭제</button>`;
+    co.appendChild(el);
+  });
+  const jb = document.getElementById("jobAdminList");
+  jb.innerHTML = "";
+  DB.jobs.forEach(j => {
+    const el = document.createElement("div");
+    el.className = "aitem";
+    el.innerHTML = `<span class="grow"><b>${esc(j.title)}</b> · ${esc(j.company)}</span>
+      <button class="edit" onclick="editJob(${j.id})">수정</button>
+      <button class="del" onclick="delJob(${j.id})">삭제</button>`;
+    jb.appendChild(el);
+  });
+}
+
+/* --- API 설정 --- */
+function saveApi() {
+  DB.api.key = document.getElementById("api-key").value.trim();
+  DB.api.proxy = document.getElementById("api-proxy").value.trim();
+  DB.api.cnt = +document.getElementById("api-cnt").value || 50;
+  saveDB();
+  loadLiveFunds();
+}
+
+/* --- 백업 --- */
+function exportData() {
+  const blob = new Blob([JSON.stringify(DB, null, 2)], { type: "application/json" });
+  const a = document.createElement("a");
+  a.href = URL.createObjectURL(blob);
+  a.download = "workmentor-data.json";
+  a.click();
+}
+function importData(e) {
+  const f = e.target.files[0]; if (!f) return;
+  const r = new FileReader();
+  r.onload = () => {
+    try { DB = JSON.parse(r.result); saveDB(); location.reload(); }
+    catch { alert("올바른 JSON 파일이 아닙니다."); }
+  };
+  r.readAsText(f);
+}
+function changePw() {
+  const p = document.getElementById("set-pw").value.trim();
+  if (p.length < 4) return alert("4자 이상으로 정해주세요.");
+  DB.adminPw = p; saveDB(); alert("변경되었습니다.");
+}
+
+/* ---------- 초기화 ---------- */
+document.getElementById("viewMode").value = DB.view || "guest";
+buildFundFilters(); renderFunds();
+buildCoFilters(); renderCompanies();
+buildJobFilters(); renderJobs();
+renderHomeMatches();
+if (DB.api.key) loadLiveFunds();   /* 키가 저장돼 있으면 자동으로 실시간 전환 */
+</script>
+</body>
+</html>
