@@ -350,8 +350,9 @@ footer select { border: 1px solid var(--line); border-radius: 6px; padding: 4px 
   <!-- 로그인 -->
   <div class="admin-login card" id="adminLogin">
     <h2 class="section">관리자 로그인</h2>
-    <p class="section-sub">초기 비밀번호: <b>workmentor!</b> (로그인 후 변경하세요)</p>
-    <input type="password" id="adminPw" placeholder="비밀번호" onkeydown="if(event.key==='Enter')adminAuth()" />
+    <p class="section-sub" id="loginHint">초기 비밀번호: <b>workmentor!</b> (로그인 후 변경하세요)</p>
+    <input type="email" id="adminEmail" placeholder="관리자 이메일" style="display:none;" autocomplete="username" />
+    <input type="password" id="adminPw" placeholder="비밀번호" onkeydown="if(event.key==='Enter')adminAuth()" autocomplete="current-password" />
     <button class="cta" style="width:100%; padding:12px;" onclick="adminAuth()">로그인</button>
   </div>
 
@@ -506,11 +507,25 @@ footer select { border: 1px solid var(--line); border-radius: 6px; padding: 4px 
   </div>
 </footer>
 
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
 <script>
 /* ==========================================================
+   v2: Supabase 클라우드 설정
+   아래 두 값을 채우면 사이트가 자동으로 "클라우드 모드"로 전환됩니다.
+   - SUPABASE_URL: Supabase 대시보드 → Project Settings → API → Project URL
+   - SUPABASE_ANON_KEY: 같은 화면의 "anon public" 키
+     (anon 키는 공개되어도 되는 키입니다. 쓰기 권한은 서버의 RLS 규칙이 막아줍니다)
+   비워두면 기존처럼 이 브라우저 안(localStorage)에만 저장되는 로컬 모드로 동작합니다.
+   ========================================================== */
+const SUPABASE_URL = "https://aggndijeezodnfrnqpwp.supabase.co";
+const SUPABASE_ANON_KEY = "sb_publishable_gAJZTg5K7lS39m-4nkcQpw_GRaHWqk4";
+const useCloud = !!(SUPABASE_URL && SUPABASE_ANON_KEY);
+const sb = useCloud ? supabase.createClient(SUPABASE_URL, SUPABASE_ANON_KEY) : null;
+
+/* ==========================================================
    데이터 계층
-   - localStorage에 저장 (브라우저별). 실서비스에선 Supabase로 교체.
-   - try/catch로 저장 불가 환경에서도 메모리로 동작.
+   - 클라우드 모드: Supabase (모든 방문자에게 공유)
+   - 로컬 모드: localStorage (이 브라우저에만 저장)
    ========================================================== */
 const DEFAULT_DB = {
   view: "guest",
@@ -616,8 +631,8 @@ function normalizeFund(it, i) {
 
 async function loadLiveFunds() {
   const { key, proxy, cnt } = DB.api;
-  if (!key) return false;
-  const qs = `crtfcKey=${encodeURIComponent(key)}&dataType=json&searchCnt=${cnt || 50}`;
+  if (!key && !proxy) return false;   /* 키를 프록시 워커에 심었다면 프록시만으로도 호출 가능 */
+  const qs = (key ? `crtfcKey=${encodeURIComponent(key)}&` : "") + `dataType=json&searchCnt=${cnt || 50}`;
   const url = proxy
     ? proxy.replace(/\/$/, "") + "?" + qs
     : "https://www.bizinfo.go.kr/uss/rss/bizinfoApi.do?" + qs;
@@ -886,31 +901,59 @@ function openPay(name, price) {
    관리자 (Admin)
    ========================================================== */
 let isAdmin = false;
-function adminAuth() {
-  if (document.getElementById("adminPw").value === DB.adminPw) {
-    isAdmin = true;
-    document.getElementById("adminLogin").style.display = "none";
-    document.getElementById("adminDash").style.display = "block";
-    renderAdminLists();
-    document.getElementById("api-key").value = DB.api.key;
-    document.getElementById("api-proxy").value = DB.api.proxy;
-    document.getElementById("api-cnt").value = DB.api.cnt;
-  } else alert("비밀번호가 틀렸습니다.");
+async function adminAuth() {
+  if (useCloud) {
+    /* 클라우드 모드: Supabase 서버 인증 (진짜 보안) */
+    const email = document.getElementById("adminEmail").value.trim();
+    const pw = document.getElementById("adminPw").value;
+    if (!email) return alert("관리자 이메일을 입력하세요.");
+    const { error } = await sb.auth.signInWithPassword({ email, password: pw });
+    if (error) return alert("로그인 실패: " + error.message + "\nSupabase 대시보드 → Authentication → Users에 만든 계정인지 확인하세요.");
+  } else {
+    /* 로컬 모드: 화면 잠금 수준의 간단 비밀번호 */
+    if (document.getElementById("adminPw").value !== DB.adminPw) return alert("비밀번호가 틀렸습니다.");
+  }
+  isAdmin = true;
+  document.getElementById("adminLogin").style.display = "none";
+  document.getElementById("adminDash").style.display = "block";
+  renderAdminLists();
+  document.getElementById("api-key").value = DB.api.key;
+  document.getElementById("api-proxy").value = DB.api.proxy;
+  document.getElementById("api-cnt").value = DB.api.cnt;
 }
 function atab(t) {
   document.querySelectorAll(".atabs button").forEach(b => b.classList.toggle("on", b.dataset.tab === t));
   document.querySelectorAll(".apanel").forEach(p => p.classList.remove("on"));
   document.getElementById("apanel-" + t).classList.add("on");
 }
-function readImg(inputId) {
+async function readImg(inputId) {
+  const f = document.getElementById(inputId).files[0];
+  if (!f) return "";
+  if (useCloud) {
+    /* 클라우드 모드: Supabase Storage에 업로드하고 공개 URL을 저장 */
+    const path = Date.now() + "-" + f.name.replace(/[^\w.\-]/g, "_");
+    const { error } = await sb.storage.from("images").upload(path, f);
+    if (error) { alert("사진 업로드 실패: " + error.message + " (로그인 상태를 확인하세요)"); return ""; }
+    return sb.storage.from("images").getPublicUrl(path).data.publicUrl;
+  }
+  /* 로컬 모드: 브라우저 저장 용량 한계 때문에 작은 파일만 */
+  if (f.size > 800 * 1024) { alert("이미지가 800KB를 넘습니다. 더 작은 파일을 사용해주세요."); return ""; }
   return new Promise(res => {
-    const f = document.getElementById(inputId).files[0];
-    if (!f) return res("");
-    if (f.size > 800 * 1024) { alert("이미지가 800KB를 넘습니다. 더 작은 파일을 사용해주세요."); return res(""); }
     const r = new FileReader();
     r.onload = () => res(r.result);
     r.readAsDataURL(f);
   });
+}
+
+/* 클라우드에서 최신 데이터를 다시 불러와 화면 갱신 */
+async function cloudRefresh() {
+  const [cos, jbs] = await Promise.all([
+    sb.from("companies").select("*").order("created_at", { ascending: false }),
+    sb.from("jobs").select("*").order("created_at", { ascending: false })
+  ]);
+  if (cos.data) DB.companies = cos.data;
+  if (jbs.data) DB.jobs = jbs.data.map(j => ({ ...j, desc: j.descr ?? "", grant: j.grant_info ?? "" }));
+  renderAll(); renderAdminLists();
 }
 
 /* --- 기업 CRUD --- */
@@ -920,7 +963,6 @@ async function saveCompany() {
   const img = await readImg("co-img");
   const id = document.getElementById("co-id").value;
   const obj = {
-    id: id ? +id : Date.now(),
     name,
     ind: document.getElementById("co-ind").value,
     region: document.getElementById("co-region").value,
@@ -931,10 +973,18 @@ async function saveCompany() {
     tier: document.getElementById("co-tier").value,
     img: img || (id ? (DB.companies.find(c => c.id === +id)?.img || "") : "")
   };
-  const i = DB.companies.findIndex(c => c.id === obj.id);
-  if (i >= 0) DB.companies[i] = obj; else DB.companies.unshift(obj);
-  saveDB();
-  clearCoForm(); renderAdminLists(); buildCoFilters(); renderCompanies();
+  if (useCloud) {
+    const q = id ? sb.from("companies").update(obj).eq("id", +id) : sb.from("companies").insert(obj);
+    const { error } = await q;
+    if (error) return alert("저장 실패: " + error.message + "\n(관리자 로그인이 되어 있어야 저장할 수 있습니다)");
+    await cloudRefresh();
+  } else {
+    obj.id = id ? +id : Date.now();
+    const i = DB.companies.findIndex(c => c.id === obj.id);
+    if (i >= 0) DB.companies[i] = obj; else DB.companies.unshift(obj);
+    saveDB(); renderAdminLists(); buildCoFilters(); renderCompanies();
+  }
+  clearCoForm();
   alert("저장되었습니다.");
 }
 function editCompany(id) {
@@ -950,10 +1000,16 @@ function editCompany(id) {
   document.getElementById("co-tier").value = c.tier;
   window.scrollTo({ top: 0 });
 }
-function delCompany(id) {
+async function delCompany(id) {
   if (!confirm("이 기업을 삭제할까요?")) return;
-  DB.companies = DB.companies.filter(c => c.id !== id);
-  saveDB(); renderAdminLists(); renderCompanies();
+  if (useCloud) {
+    const { error } = await sb.from("companies").delete().eq("id", id);
+    if (error) return alert("삭제 실패: " + error.message);
+    await cloudRefresh();
+  } else {
+    DB.companies = DB.companies.filter(c => c.id !== id);
+    saveDB(); renderAdminLists(); renderCompanies();
+  }
 }
 function clearCoForm() {
   ["co-id","co-name","co-intro","co-detail","co-contact"].forEach(i => document.getElementById(i).value = "");
@@ -967,7 +1023,6 @@ async function saveJob() {
   const img = await readImg("job-img");
   const id = document.getElementById("job-id").value;
   const obj = {
-    id: id ? +id : Date.now(),
     title,
     company: document.getElementById("job-company").value.trim(),
     region: document.getElementById("job-region").value,
@@ -977,12 +1032,23 @@ async function saveJob() {
     desc: document.getElementById("job-desc").value.trim(),
     img: img || (id ? (DB.jobs.find(j => j.id === +id)?.img || "") : "")
   };
-  const i = DB.jobs.findIndex(j => j.id === obj.id);
-  if (i >= 0) DB.jobs[i] = obj; else DB.jobs.unshift(obj);
-  saveDB();
+  if (useCloud) {
+    /* DB 컬럼명 매핑: desc→descr, grant→grant_info (둘 다 SQL 예약어라 피함) */
+    const row = { ...obj, descr: obj.desc, grant_info: obj.grant };
+    delete row.desc;
+    delete row.grant;
+    const q = id ? sb.from("jobs").update(row).eq("id", +id) : sb.from("jobs").insert(row);
+    const { error } = await q;
+    if (error) return alert("저장 실패: " + error.message + "\n(관리자 로그인이 되어 있어야 저장할 수 있습니다)");
+    await cloudRefresh();
+  } else {
+    obj.id = id ? +id : Date.now();
+    const i = DB.jobs.findIndex(j => j.id === obj.id);
+    if (i >= 0) DB.jobs[i] = obj; else DB.jobs.unshift(obj);
+    saveDB(); renderAdminLists(); buildJobFilters(); renderJobs(); renderHomeMatches();
+  }
   ["job-id","job-title","job-company","job-pay","job-grant","job-desc"].forEach(x => document.getElementById(x).value = "");
   document.getElementById("job-img").value = "";
-  renderAdminLists(); buildJobFilters(); renderJobs(); renderHomeMatches();
   alert("저장되었습니다.");
 }
 function editJob(id) {
@@ -997,10 +1063,16 @@ function editJob(id) {
   document.getElementById("job-desc").value = j.desc;
   atab("job"); window.scrollTo({ top: 0 });
 }
-function delJob(id) {
+async function delJob(id) {
   if (!confirm("이 공고를 삭제할까요?")) return;
-  DB.jobs = DB.jobs.filter(j => j.id !== id);
-  saveDB(); renderAdminLists(); renderJobs(); renderHomeMatches();
+  if (useCloud) {
+    const { error } = await sb.from("jobs").delete().eq("id", id);
+    if (error) return alert("삭제 실패: " + error.message);
+    await cloudRefresh();
+  } else {
+    DB.jobs = DB.jobs.filter(j => j.id !== id);
+    saveDB(); renderAdminLists(); renderJobs(); renderHomeMatches();
+  }
 }
 
 function renderAdminLists() {
@@ -1027,10 +1099,17 @@ function renderAdminLists() {
 }
 
 /* --- API 설정 --- */
-function saveApi() {
+async function saveApi() {
   DB.api.key = document.getElementById("api-key").value.trim();
   DB.api.proxy = document.getElementById("api-proxy").value.trim();
   DB.api.cnt = +document.getElementById("api-cnt").value || 50;
+  if (useCloud) {
+    /* 클라우드에 저장하면 모든 방문자의 지원사업 페이지가 실시간 데이터로 보입니다.
+       주의: 이 설정은 공개 열람 가능하므로, 인증키를 감추려면 키는 비워두고
+       프록시 워커 안에 키를 심는 방식(EMBEDDED_KEY)을 쓰세요. */
+    const { error } = await sb.from("settings").upsert({ id: "api", value: DB.api });
+    if (error) alert("클라우드 저장 실패: " + error.message);
+  }
   saveDB();
   loadLiveFunds();
 }
@@ -1053,18 +1132,45 @@ function importData(e) {
   r.readAsText(f);
 }
 function changePw() {
+  if (useCloud) return alert("클라우드 모드에서는 Supabase 대시보드 → Authentication → Users에서 비밀번호를 변경하세요.");
   const p = document.getElementById("set-pw").value.trim();
   if (p.length < 4) return alert("4자 이상으로 정해주세요.");
   DB.adminPw = p; saveDB(); alert("변경되었습니다.");
 }
 
 /* ---------- 초기화 ---------- */
+function renderAll() {
+  buildFundFilters(); renderFunds();
+  buildCoFilters(); renderCompanies();
+  buildJobFilters(); renderJobs();
+  renderHomeMatches();
+}
+
+/* 클라우드 모드: Supabase에서 기업/공고/설정을 불러와 모든 방문자에게 동일하게 표시 */
+async function cloudInit() {
+  document.getElementById("adminEmail").style.display = "block";
+  document.getElementById("loginHint").innerHTML =
+    "클라우드 모드 — Supabase에 등록한 관리자 이메일과 비밀번호로 로그인하세요.";
+  try {
+    const [cos, jbs, set] = await Promise.all([
+      sb.from("companies").select("*").order("created_at", { ascending: false }),
+      sb.from("jobs").select("*").order("created_at", { ascending: false }),
+      sb.from("settings").select("*").eq("id", "api").maybeSingle()
+    ]);
+    if (cos.data) DB.companies = cos.data;
+    if (jbs.data) DB.jobs = jbs.data.map(j => ({ ...j, desc: j.descr ?? "", grant: j.grant_info ?? "" }));
+    if (set.data && set.data.value) DB.api = { ...DB.api, ...set.data.value };
+  } catch (e) {
+    console.warn("클라우드 초기화 실패(설정을 확인하세요):", e);
+  }
+  renderAll();
+  if (DB.api.key || DB.api.proxy) loadLiveFunds();
+}
+
 document.getElementById("viewMode").value = DB.view || "guest";
-buildFundFilters(); renderFunds();
-buildCoFilters(); renderCompanies();
-buildJobFilters(); renderJobs();
-renderHomeMatches();
-if (DB.api.key) loadLiveFunds();   /* 키가 저장돼 있으면 자동으로 실시간 전환 */
+renderAll();
+if (useCloud) cloudInit();
+else if (DB.api.key || DB.api.proxy) loadLiveFunds();
 </script>
 </body>
 </html>
