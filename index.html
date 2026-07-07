@@ -261,6 +261,7 @@ h2.section { font-weight: 800; font-size: 24px; color: var(--navy); letter-spaci
 .wm-market-briefing__card:nth-child(3) { animation-delay: .16s; }
 .wm-market-briefing__card:nth-child(4) { animation-delay: .24s; }
 @keyframes wmUp { from { opacity: 0; transform: translateY(10px); } to { opacity: 1; transform: none; } }
+.wm-card-wire { border-style: dashed; }
 .wm-market-briefing__card--urgent { border-color: rgba(255,110,90,.75); animation: wmUp .5s ease both, wmPulse 2.2s ease-in-out infinite; }
 @keyframes wmPulse { 0%,100% { box-shadow: inset 0 0 0 1px rgba(255,110,90,.25); } 50% { box-shadow: inset 0 0 0 1px rgba(255,110,90,.55), 0 0 18px rgba(255,110,90,.18); } }
 .wm-market-briefing__tag { display: inline-block; margin-bottom: 10px; padding: 4px 10px; border-radius: 999px; background: rgba(249,123,51,.16); color: #FFC49E; font-size: 12px; font-weight: 700; }
@@ -291,6 +292,14 @@ h2.section { font-weight: 800; font-size: 24px; color: var(--navy); letter-spaci
 .insbar { flex: 1; height: 14px; background: var(--paper); border-radius: 7px; overflow: hidden; }
 .insbar span { display: block; height: 100%; background: linear-gradient(90deg, var(--brand), #FFB185); border-radius: 7px; }
 .insval { min-width: 44px; text-align: right; font-size: 12px; color: #7A8398; }
+.showcase { display: grid; grid-template-columns: repeat(2, 1fr); gap: 16px; }
+@media (max-width: 720px) { .showcase { grid-template-columns: 1fr; } }
+.showcol-t { font-size: 14px; font-weight: 800; color: var(--navy); margin: 0 0 8px 2px; }
+.showstack { display: flex; flex-direction: column; gap: 14px; }
+.showcase .cocard { animation: wmUp 0.5s ease both; cursor: pointer; }
+.showcase .cocard:nth-child(2) { animation-delay: 0.07s; }
+.showcase .cocard:nth-child(3) { animation-delay: 0.14s; }
+.showcase .cocard:nth-child(4) { animation-delay: 0.21s; }
 .demo-note { background: #FBE7E2; color: var(--danger); font-size: 12.5px; font-weight: 700; padding: 8px 12px; border-radius: 8px; margin: 12px 0; }
 .sum { display: flex; justify-content: space-between; padding: 10px 0; border-top: 1px solid var(--line); font-size: 14.5px; }
 .sum.total { font-weight: 700; font-size: 16px; }
@@ -374,13 +383,13 @@ footer select { border: 1px solid var(--line); border-radius: 6px; padding: 4px 
     <p class="kicker">일과 사람 그리고 지원정책의 멘토</p>
     <h1>
       <span class="hl-hr">혁신과 인재 </span>그리고
-      <span class="hl-fund">정책 지원의 모든 것</span>,<br />
+      <span class="hl-fund">정책 지원의 모든 것.</span>,<br />
       '워크멘토' 한 곳에서 해결하세요.
     </h1>
     <p>기업과 사업의 존재를 알리는 순간,연결되어 얻을수 있는 모든 정보와 정책들 및 자원들을 실시간으로 이어드립니다.
     기업매니징·인재 구인·사업 홍보와 기업 간 거래처 연결, 그리고 지원사업과 실시간 정보까지 — 기업에 필요한 모든 것.</p>
     <div class="actions">
-      <button class="btn-blue" onclick="go('jobs')">채용공고 보기</button>
+      <button class="btn-blue" onclick="go('companies')">기업정보 보기</button>
       <button class="btn-gold" onclick="go('funds')">지원사업 찾기</button>
     </div>
   </div>
@@ -395,9 +404,12 @@ footer select { border: 1px solid var(--line); border-radius: 6px; padding: 4px 
     <button onclick="go('about')"><span class="ct">소개</span><span class="cs">자세히보기</span></button>
   </div>
 
-  <h2 class="section">최신 지원 정책  × 인재와 기술 × 기업매니징 기법의 완벽한 매칭</h2>
-  <p class="section-sub">워크멘토는 기업공고를 진행하면, 필요한 자원과 지원 정책들을 모두 확인할수 있습니다.</p>
-  <div id="homeMatches"></div>
+  <h2 class="section">기업정보 · 채용공고</h2>
+  <p class="section-sub">왼쪽은 워크멘토와 함께하는 기업, 오른쪽은 진행 중인 채용공고입니다. 5초마다 자동으로 전환되며, 카드를 누르면 상세를 볼 수 있습니다.</p>
+  <div class="showcase" id="homeShowcase">
+    <div class="showcol"><p class="showcol-t">기업정보</p><div class="showstack" id="homeCoCol"></div></div>
+    <div class="showcol"><p class="showcol-t">채용공고</p><div class="showstack" id="homeJobCol"></div></div>
+  </div>
 
   <!-- ============ 긴급 시장 속보 · AI/투자 브리핑 ============ -->
   <section id="wm-market-briefing" class="wm-market-briefing" aria-labelledby="wm-market-briefing-title">
@@ -1357,29 +1369,69 @@ function showLesson(l) {
 }
 
 /* ---------- 홈 매칭 카드 ---------- */
-function renderHomeMatches() {
-  const box = document.getElementById("homeMatches");
-  box.innerHTML = "";
-  DB.jobs.filter(j => j.grant).slice(0, 3).forEach(j => {
-    const [gName, gAmt] = j.grant.split("·").map(s => s.trim());
-    const el = document.createElement("div");
-    el.className = "match";
-    el.innerHTML = `
-      <div class="side hr">
-        <span class="badge hr">채용공고</span>
-        <h3>${esc(j.title)}</h3>
-        <p class="meta">${esc(j.company)} · ${esc(j.region)} · ${esc(j.pay)}원</p>
-      </div>
-      <div class="link-col">⇄</div>
-      <div class="side fund">
-        <span class="badge fund">연계 지원금</span>
-        <h3>${esc(gName)}</h3>
-        <p class="meta">채용 조건 충족 시 기업에 지원</p>
-        <p class="money">${esc(gAmt || "")}</p>
-      </div>`;
-    box.appendChild(el);
-  });
+/* ---------- 홈: 좌 기업정보 2칸 · 우 채용공고 2칸 (5초 자동 전환) ---------- */
+let hcIdx = 0, hjIdx = 0, hcTimer = null, hcHover = false;
+function renderHomeCompanies() {
+  if (!document.getElementById("homeCoCol")) return;
+  drawHomeShowcase();
+  if (hcTimer) { clearInterval(hcTimer); hcTimer = null; }
+  if ((DB.companies || []).length > 2 || (DB.jobs || []).length > 2) {
+    hcTimer = setInterval(() => {
+      if (hcHover) return;                 /* 마우스를 올려두면 잠시 멈춤 */
+      if ((DB.companies || []).length > 2) hcIdx = (hcIdx + 2) % DB.companies.length;
+      if ((DB.jobs || []).length > 2) hjIdx = (hjIdx + 2) % DB.jobs.length;
+      drawHomeShowcase();
+    }, 5000);
+  }
+  const wrap = document.getElementById("homeShowcase");
+  if (wrap && !wrap._hoverBound) {
+    wrap.addEventListener("mouseenter", () => { hcHover = true; });
+    wrap.addEventListener("mouseleave", () => { hcHover = false; });
+    wrap._hoverBound = true;
+  }
 }
+function drawHomeShowcase() {
+  const coBox = document.getElementById("homeCoCol");
+  const jobBox = document.getElementById("homeJobCol");
+  const cos = DB.companies || [], jobs = DB.jobs || [];
+
+  coBox.innerHTML = "";
+  if (!cos.length) coBox.innerHTML = '<p class="empty">등록된 기업이 없습니다.</p>';
+  for (let i = 0; i < Math.min(2, cos.length); i++) {
+    const c = cos[(hcIdx + i) % cos.length];
+    const el = document.createElement("div");
+    el.className = "card cocard";
+    el.onclick = () => showCompany(c);
+    el.innerHTML = `
+      <div class="thumb">${c.img ? `<img src="${esc(c.img)}" alt="${esc(c.name)}" />` : esc((c.name || "?").slice(0, 2))}</div>
+      <div class="body">
+        <h3>${esc(c.name)} ${c.tier === "paid" ? '<span class="badge paid">유료회원</span>' : '<span class="badge free">무료</span>'}</h3>
+        <p class="co-sub">${esc(c.ind || "")} · ${esc(c.region || "")}</p>
+        <p class="desc">${esc(c.intro || "")}</p>
+      </div>`;
+    coBox.appendChild(el);
+  }
+
+  jobBox.innerHTML = "";
+  if (!jobs.length) jobBox.innerHTML = '<p class="empty">등록된 공고가 없습니다.</p>';
+  for (let i = 0; i < Math.min(2, jobs.length); i++) {
+    const j = jobs[(hjIdx + i) % jobs.length];
+    const el = document.createElement("div");
+    el.className = "card cocard";
+    el.onclick = () => showJob(j);
+    el.innerHTML = `
+      <div class="body" style="padding-top:2px;">
+        <h3>${esc(j.title)}</h3>
+        <p class="co-sub">${esc(j.company)} · ${esc(j.region)} · ${esc(j.pay)}원</p>
+        <div class="tags" style="margin-top:6px;">
+          <span class="badge hr">${esc(j.type || "채용")}</span>
+          ${j.grant ? '<span class="badge fund">지원금 연계</span>' : ""}
+        </div>
+      </div>`;
+    jobBox.appendChild(el);
+  }
+}
+function renderHomeMatches() { renderHomeCompanies(); }   /* 기존 호출부 호환용 */
 
 /* ==========================================================
    결제 데모
@@ -1966,42 +2018,81 @@ function wmTextBlock(parent, label, value) {
   p.appendChild(document.createTextNode(value));
   parent.appendChild(p);
 }
+const BRIEF = { pool: [], idx: 0, timer: null, hover: false, listEl: null };
+function drawBriefCards() {
+  const list = BRIEF.listEl;
+  if (!list) return;
+  list.replaceChildren();
+  const page = [];
+  for (let i = 0; i < Math.min(6, BRIEF.pool.length); i++) page.push(BRIEF.pool[(BRIEF.idx + i) % BRIEF.pool.length]);
+  page.forEach(entry => {
+    if (entry.kind === "verified") {
+      const item = entry.it;
+      const card = wmEl("article", "wm-market-briefing__card" + (item.urgent ? " wm-market-briefing__card--urgent" : ""), "");
+      card.appendChild(wmEl("span", "wm-market-briefing__tag", item.category || "시장 속보"));
+      card.appendChild(wmEl("h3", "", item.title || "제목 없음"));
+      card.appendChild(wmEl("p", "", item.summary || ""));
+      wmTextBlock(card, "시장 영향", item.marketImpact || "");
+      card.appendChild(wmEl("div", "wm-market-briefing__time",
+        "게시/공시: " + (item.publishedAtKST || "-") + (item.confirmedAtKST ? " · 확인: " + item.confirmedAtKST : "")));
+      const sources = wmEl("div", "wm-market-briefing__sources", "");
+      (Array.isArray(item.sources) ? item.sources : []).forEach(s => {
+        if (!s || !s.url || !/^https?:\/\//i.test(String(s.url))) return;
+        const a = document.createElement("a");
+        a.href = s.url; a.target = "_blank"; a.rel = "noopener noreferrer";
+        a.textContent = s.name || "출처";
+        sources.appendChild(a);
+      });
+      card.appendChild(sources);
+      list.appendChild(card);
+    } else {
+      const h = entry.it;   /* 반검증: 언론 보도 (자동 수집) */
+      const card = wmEl("article", "wm-market-briefing__card wm-card-wire", "");
+      card.appendChild(wmEl("span", "wm-market-briefing__tag", (h.category || "경제") + " · 보도"));
+      card.appendChild(wmEl("h3", "", h.title || ""));
+      card.appendChild(wmEl("div", "wm-market-briefing__time", "언론 보도(교차검증 전) · " + (h.source || "") + (h.timeKST ? " · " + h.timeKST : "")));
+      if (h.link && /^https?:\/\//i.test(String(h.link))) {
+        card.style.cursor = "pointer";
+        card.onclick = () => { logActivity("헤드라인", h.title, [h.category, h.source].filter(Boolean).join(",")); window.open(h.link, "_blank", "noopener"); };
+      }
+      list.appendChild(card);
+    }
+  });
+}
+
 function renderBriefing(data) {
   const meta = document.getElementById("wm-market-briefing-meta");
   const list = document.getElementById("wm-market-briefing-list");
   const market = document.getElementById("wm-market-briefing-market");
   if (!meta || !list || !market) return;
   meta.textContent = "최근 업데이트: " + (data.updatedAtKST || "-") + " · 확인: " + (data.confirmedAtKST || "-");
-  list.replaceChildren();
-  const items = Array.isArray(data.items) ? data.items : [];
-  if (!items.length) {
+  /* 카드 풀 구성: 검증 뉴스 + 반검증 언론 보도(자동 수집) → 6칸씩 5초마다 회전 */
+  const verified = (Array.isArray(data.items) ? data.items : []).map(it => ({ kind: "verified", it }));
+  const wires = (Array.isArray(data.headlines) ? data.headlines : []).map(h => ({ kind: "wire", it: h }));
+  BRIEF.pool = verified.concat(wires);
+  BRIEF.listEl = list;
+  if (!BRIEF.pool.length) {
+    list.replaceChildren();
     const empty = wmEl("article", "wm-market-briefing__card", "");
     empty.appendChild(wmEl("h3", "", data.notice || "게시된 브리핑이 없습니다."));
-    empty.appendChild(wmEl("p", "", "확인된 긴급 속보가 있으면 이 영역에 표시됩니다."));
+    empty.appendChild(wmEl("p", "", "확인된 속보가 수집되면 이 영역에 표시됩니다."));
     list.appendChild(empty);
+  } else {
+    drawBriefCards();
+    if (BRIEF.timer) { clearInterval(BRIEF.timer); BRIEF.timer = null; }
+    if (BRIEF.pool.length > 6) {
+      BRIEF.timer = setInterval(() => {
+        if (BRIEF.hover) return;
+        BRIEF.idx = (BRIEF.idx + 6) % BRIEF.pool.length;
+        drawBriefCards();
+      }, 5000);
+    }
+    if (!list._hoverBound) {
+      list.addEventListener("mouseenter", () => { BRIEF.hover = true; });
+      list.addEventListener("mouseleave", () => { BRIEF.hover = false; });
+      list._hoverBound = true;
+    }
   }
-  items.forEach(item => {
-    const card = wmEl("article", "wm-market-briefing__card" + (item.urgent ? " wm-market-briefing__card--urgent" : ""), "");
-    card.appendChild(wmEl("span", "wm-market-briefing__tag", item.category || "시장 속보"));
-    card.appendChild(wmEl("h3", "", item.title || "제목 없음"));
-    card.appendChild(wmEl("p", "", item.summary || ""));
-    wmTextBlock(card, "시장 영향", item.marketImpact || "");
-    wmTextBlock(card, "왜 중요한가", item.whyImportant || "");
-    card.appendChild(wmEl("div", "wm-market-briefing__time",
-      "게시/공시: " + (item.publishedAtKST || "-") +
-      (item.originalTime ? " · 원문: " + item.originalTime : "") +
-      (item.confirmedAtKST ? " · 확인: " + item.confirmedAtKST : "")));
-    const sources = wmEl("div", "wm-market-briefing__sources", "");
-    (Array.isArray(item.sources) ? item.sources : []).forEach(s => {
-      if (!s || !s.url || !/^https?:\/\//i.test(String(s.url))) return;
-      const a = document.createElement("a");
-      a.href = s.url; a.target = "_blank"; a.rel = "noopener noreferrer";
-      a.textContent = s.name || "출처";
-      sources.appendChild(a);
-    });
-    card.appendChild(sources);
-    list.appendChild(card);
-  });
   market.replaceChildren();
   (Array.isArray(data.market) ? data.market : []).forEach(m => {
     const box = wmEl("div", "wm-market-briefing__metric", "");
@@ -2040,11 +2131,12 @@ function renderBriefing(data) {
     }
   }
 
-  /* 데이터가 30분 이상 오래됐으면 서버에 자동 갱신을 요청 (방문자 주도 실시간화) */
+  /* 데이터가 15분 이상 오래됐으면 서버에 갱신 요청 (10분마다 반복 시도 — 상시 실시간화) */
   const age = Date.now() - Number(data.autoRefreshedAt || 0);
-  if (!renderBriefing._asked && (isNaN(age) || age > 30 * 60 * 1000)) {
-    renderBriefing._asked = true;
-    fetch(MARKET_API + "/?api=market-refresh").then(() => setTimeout(loadMarketBriefing, 5000)).catch(() => {});
+  const sinceAsk = Date.now() - (renderBriefing._askedAt || 0);
+  if ((isNaN(age) || age > 15 * 60 * 1000) && sinceAsk > 10 * 60 * 1000) {
+    renderBriefing._askedAt = Date.now();
+    fetch(MARKET_API + "/?api=market-refresh").then(() => setTimeout(loadMarketBriefing, 6000)).catch(() => {});
   }
 }
 async function loadMarketBriefing() {
