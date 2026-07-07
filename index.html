@@ -285,7 +285,8 @@ h2.section { font-weight: 800; font-size: 24px; color: var(--navy); letter-spaci
 .wm-hl-head { display: flex; align-items: baseline; gap: 10px; flex-wrap: wrap; margin-bottom: 6px; }
 .wm-hl-title { font-size: 15px; font-weight: 800; color: #fff; }
 .wm-hl-note { font-size: 11.5px; color: #A79F93; }
-.wm-hl-list { max-height: 430px; overflow-y: auto; border-top: 1px solid rgba(255,255,255,.14); }
+.wm-hl-list { border-top: 1px solid rgba(255,255,255,.14); }
+.wm-hl-row { animation: wmUp 0.4s ease both; }
 .wm-hl-row { display: flex; align-items: baseline; gap: 10px; padding: 9px 4px; border-bottom: 1px dashed rgba(255,255,255,.12); font-size: 13.5px; animation: wmUp .4s ease both; }
 .wm-hl-src { color: #FFC49E; font-size: 12px; font-weight: 700; min-width: 84px; }
 .wm-hl-row a { color: #E9E5DE; text-decoration: none; flex: 1; }
@@ -2375,7 +2376,25 @@ function wmTextBlock(parent, label, value) {
   p.appendChild(document.createTextNode(value));
   parent.appendChild(p);
 }
-const BRIEF = { pool: [], idx: 0, timer: null, hover: false, listEl: null };
+const BRIEF = { pool: [], idx: 0, timer: null, hover: false, listEl: null, lastStamp: "" };
+const HL = { rows: [], idx: 0, timer: null, hover: false, listEl: null };
+
+/* 방문자 브라우저에서 직접 번역 (워커 번역 실패 시의 이중 안전장치, 결과는 기억해 재사용) */
+const TR_CACHE = {};
+async function koTitle(t) {
+  t = String(t || "");
+  if (!t || /[가-힣]/.test(t)) return t;
+  if (TR_CACHE[t]) return TR_CACHE[t];
+  try {
+    const r = await fetch("https://translate.googleapis.com/translate_a/single?client=gtx&sl=auto&tl=ko&dt=t&q=" + encodeURIComponent(t));
+    if (r.ok) {
+      const d = await r.json();
+      const out = Array.isArray(d) && Array.isArray(d[0]) ? d[0].map(s => (s && s[0]) || "").join("").trim() : "";
+      if (out) { TR_CACHE[t] = out; return out; }
+    }
+  } catch (_) {}
+  return t;
+}
 
 /* 검증 뉴스 카드 클릭 시 전체 내용을 상세창으로 표시 */
 function showBriefItem(item) {
@@ -2430,7 +2449,9 @@ function drawBriefCards() {
       const h = entry.it;   /* 반검증: 언론 보도 (자동 수집) */
       const card = wmEl("article", "wm-market-briefing__card wm-card-wire", "");
       card.appendChild(wmEl("span", "wm-market-briefing__tag", (h.category || "경제") + " · 보도"));
-      card.appendChild(wmEl("h3", "", h.title || ""));
+      const h3 = wmEl("h3", "", h._ko || h.title || "");
+      if (!h._ko) koTitle(h.title).then(t => { h._ko = t; if (h3.isConnected) h3.textContent = t; });
+      card.appendChild(h3);
       card.appendChild(wmEl("div", "wm-market-briefing__time", "언론 보도(교차검증 전) · " + (h.source || "") + (h.timeKST ? " · " + h.timeKST : "")));
       if (h.link && /^https?:\/\//i.test(String(h.link))) {
         card.style.cursor = "pointer";
@@ -2441,12 +2462,35 @@ function drawBriefCards() {
   });
 }
 
+function drawHeadlines() {
+  const listBox = HL.listEl;
+  if (!listBox) return;
+  listBox.replaceChildren();
+  const page = [];
+  for (let i = 0; i < Math.min(8, HL.rows.length); i++) page.push(HL.rows[(HL.idx + i) % HL.rows.length]);
+  page.forEach(r => {
+    const row = wmEl("div", "wm-hl-row", "");
+    row.appendChild(wmEl("span", "wm-hl-src", r.source || "보도"));
+    const a = document.createElement("a");
+    if (r.link && /^https?:\/\//i.test(String(r.link))) {
+      a.href = r.link; a.target = "_blank"; a.rel = "noopener noreferrer";
+    }
+    a.textContent = r._ko || r.title || "";
+    if (!r._ko) koTitle(r.title).then(t => { r._ko = t; if (a.isConnected) a.textContent = t; });
+    a.addEventListener("click", () => logActivity("헤드라인", r.title, [r.category, r.source].filter(Boolean).join(",")));
+    row.appendChild(a);
+    row.appendChild(wmEl("span", "wm-hl-time", r.timeKST || ""));
+    listBox.appendChild(row);
+  });
+}
+
 function renderBriefing(data) {
   const meta = document.getElementById("wm-market-briefing-meta");
   const list = document.getElementById("wm-market-briefing-list");
   const market = document.getElementById("wm-market-briefing-market");
   if (!meta || !list || !market) return;
   meta.textContent = "최근 업데이트: " + (data.updatedAtKST || "-") + " · 확인: " + (data.confirmedAtKST || "-");
+  BRIEF.lastStamp = data.headlinesUpdatedAtKST || data.updatedAtKST || "";
   /* 카드 풀 구성: 검증 뉴스 + 반검증 언론 보도(자동 수집) → 6칸씩 5초마다 회전 */
   const verified = (Array.isArray(data.items) ? data.items : []).map(it => ({ kind: "verified", it }));
   const wires = (Array.isArray(data.headlines) ? data.headlines : []).map(h => ({ kind: "wire", it: h }));
@@ -2499,20 +2543,21 @@ function renderBriefing(data) {
       head.appendChild(rbtn);
       hlBox.appendChild(head);
       const listBox = wmEl("div", "wm-hl-list", "");
-      rows.slice(0, 20).forEach(r => {
-        const row = wmEl("div", "wm-hl-row", "");
-        row.appendChild(wmEl("span", "wm-hl-src", r.source || "보도"));
-        const a = document.createElement("a");
-        if (r.link && /^https?:\/\//i.test(String(r.link))) {
-          a.href = r.link; a.target = "_blank"; a.rel = "noopener noreferrer";
-        }
-        a.textContent = r.title || "";
-        a.addEventListener("click", () => logActivity("헤드라인", r.title, [r.category, r.source].filter(Boolean).join(",")));
-        row.appendChild(a);
-        row.appendChild(wmEl("span", "wm-hl-time", r.timeKST || ""));
-        listBox.appendChild(row);
-      });
       hlBox.appendChild(listBox);
+      HL.rows = rows.slice(0, 20);
+      HL.listEl = listBox;
+      if (HL.idx >= HL.rows.length) HL.idx = 0;
+      listBox.addEventListener("mouseenter", () => { HL.hover = true; });
+      listBox.addEventListener("mouseleave", () => { HL.hover = false; });
+      drawHeadlines();
+      if (HL.timer) { clearInterval(HL.timer); HL.timer = null; }
+      if (HL.rows.length > 8) {
+        HL.timer = setInterval(() => {
+          if (HL.hover) return;                       /* 읽는 중엔 잠시 멈춤 */
+          HL.idx = (HL.idx + 8) % HL.rows.length;
+          drawHeadlines();
+        }, 10000);
+      }
     }
   }
 
@@ -2528,8 +2573,17 @@ function renderBriefing(data) {
 async function refreshHeadlinesNow() {
   const b = document.querySelector(".wm-hl-btn");
   if (b) { b.disabled = true; b.textContent = "갱신 중..."; b.style.color = "#FFC49E"; }
-  try { await fetch(MARKET_API + "/?api=market-refresh&force=1", { cache: "no-store" }); } catch (_) {}
+  const prev = BRIEF.lastStamp;
+  let workerOk = false;
+  try {
+    const r = await fetch(MARKET_API + "/?api=market-refresh&force=1", { cache: "no-store" });
+    const d = await r.json().catch(() => null);
+    workerOk = !!(d && (d.ok || d.headlines));
+  } catch (_) {}
   await loadMarketBriefing();
+  if (!workerOk && BRIEF.lastStamp === prev) {
+    alert("새 기사 수집이 이루어지지 않았습니다.\n워커가 최신(v18)으로 배포되었는지 확인해주세요:\n" + MARKET_API + "/?api=ping 에서 version 확인");
+  }
 }
 
 async function loadMarketBriefing() {
