@@ -23,6 +23,10 @@
   --blue-soft: #E8EEFC;
   --gold: #B57F0A;
   --gold-soft: #FBF3E0;
+  --brand: #F97B33;        /* 워크멘토 브랜드 오렌지 (밝은 톤) */
+  --brand-deep: #E06423;
+  --char: #524D46;         /* 밝은 웜그레이 (히어로 배경) */
+  --char-deep: #423E38;
   --line: #E2E5EE;
   --white: #FFFFFF;
   --danger: #C2402A;
@@ -49,7 +53,7 @@ img { max-width: 100%; }
 .topbar { position: sticky; top: 0; z-index: 50; background: var(--white); border-bottom: 1px solid var(--line); }
 .topbar-in { max-width: 1160px; margin: 0 auto; padding: 0 20px; display: flex; align-items: center; gap: 8px; height: 62px; }
 .logo { font-weight: 800; font-size: 21px; color: var(--navy); letter-spacing: -0.02em; margin-right: 14px; white-space: nowrap; }
-.logo .accent { color: var(--gold); }
+.logo .accent { color: var(--brand); }
 nav { display: flex; gap: 2px; flex: 1; overflow-x: auto; }
 nav button { background: none; border: none; padding: 8px 13px; font-size: 14.5px; font-weight: 500; color: #5A6478; border-radius: 8px; white-space: nowrap; }
 nav button:hover { background: var(--paper); }
@@ -77,31 +81,77 @@ h2.section { font-weight: 800; font-size: 24px; color: var(--navy); letter-spaci
 .mono { font-family: var(--mono); font-variant-numeric: tabular-nums; }
 .empty { text-align: center; color: #7A8398; padding: 40px 0; font-size: 14px; }
 
-/* ---------- 히어로 (타이포 개선: 두께·자간·행간 조정) ---------- */
-.hero { background: var(--navy); border-radius: 16px; padding: clamp(32px, 6vw, 56px); color: #DFE5F4; margin-bottom: 28px; }
-.hero .kicker { font-size: 13px; font-weight: 700; letter-spacing: 0.14em; color: #8FA8E8; margin-bottom: 12px; }
+/* ---------- 히어로: 워크멘토 브랜드 (밝은 웜그레이 + 오렌지) ---------- */
+.hero {
+  position: relative;
+  overflow: hidden;
+  background:
+    repeating-linear-gradient(115deg, rgba(255,255,255,0.05) 0 1px, transparent 1px 84px),
+    repeating-linear-gradient(65deg, rgba(255,255,255,0.035) 0 1px, transparent 1px 84px),
+    linear-gradient(180deg, var(--char) 0%, var(--char-deep) 100%);
+  border-radius: 16px 16px 0 0;
+  padding: clamp(40px, 7vw, 72px) clamp(20px, 5vw, 56px);
+  color: #E7E3DC;
+  margin-bottom: 0;
+  text-align: center;
+}
+.hero::after {  /* 상승하는 지붕선 모티프 */
+  content: "";
+  position: absolute;
+  left: 50%; bottom: -8%;
+  width: 340px; height: 340px;
+  transform: translateX(-50%) rotate(45deg);
+  border-top: 2px solid rgba(249, 123, 51, 0.4);
+  border-left: 2px solid rgba(249, 123, 51, 0.2);
+  pointer-events: none;
+}
+.brandmark { display: flex; align-items: center; justify-content: center; gap: 14px; margin-bottom: 22px; }
+.brandmark svg { display: block; }
+.brandmark .bm-divider { width: 2px; height: 52px; background: rgba(255,255,255,0.45); }
+.brandmark .bm-text { text-align: left; font-weight: 800; font-size: 27px; line-height: 1.12; letter-spacing: 0.12em; color: #fff; }
+.hero .kicker { font-size: 12.5px; font-weight: 700; letter-spacing: 0.22em; color: var(--brand); margin-bottom: 14px; text-transform: uppercase; }
 .hero h1 {
   font-weight: 800;
-  font-size: clamp(26px, 4.4vw, 42px);
-  line-height: 1.42;               /* 행간을 넉넉하게 */
-  letter-spacing: -0.015em;        /* 과한 압축 없이 */
+  font-size: clamp(25px, 4.2vw, 40px);
+  line-height: 1.45;
+  letter-spacing: -0.015em;
   color: #fff;
-  margin-bottom: 16px;
-  max-width: 640px;
+  margin: 0 auto 16px;
+  max-width: 680px;
 }
-.hero h1 .hl-hr { color: #8FB0F7; }
-.hero h1 .hl-fund { color: #EFC565; }
-.hero p { max-width: 560px; font-size: 15.5px; line-height: 1.8; }
-.hero .actions { margin-top: 26px; display: flex; gap: 10px; flex-wrap: wrap; }
-.hero .actions button { border: none; border-radius: 8px; padding: 12px 22px; font-size: 15px; font-weight: 700; }
-.btn-blue { background: var(--blue); color: #fff; }
-.btn-gold { background: #EFC565; color: #4A3502; }
+.hero h1 .hl-hr { color: #FFCBA6; }
+.hero h1 .hl-fund { color: var(--brand); }
+.hero p { max-width: 600px; margin: 0 auto; font-size: 15px; line-height: 1.85; color: #DAD5CC; }
+.hero .actions { margin-top: 28px; display: flex; gap: 10px; flex-wrap: wrap; justify-content: center; }
+.hero .actions button { border-radius: 8px; padding: 13px 26px; font-size: 15px; font-weight: 700; }
+.btn-blue { background: transparent; color: #fff; border: 1.5px solid rgba(255,255,255,0.6); }
+.btn-blue:hover { border-color: #fff; }
+.btn-gold { background: var(--brand); color: #fff; border: none; }
+.btn-gold:hover { background: var(--brand-deep); }
+
+/* ---------- 카테고리 스트립 (히어로 하단 오렌지 블록) ---------- */
+.catstrip { display: grid; grid-template-columns: repeat(7, 1fr); margin-bottom: 32px; border-radius: 0 0 14px 14px; overflow: hidden; }
+@media (max-width: 860px) { .catstrip { grid-template-columns: repeat(4, 1fr); } }
+@media (max-width: 560px) { .catstrip { grid-template-columns: repeat(2, 1fr); } }
+.catstrip button {
+  background: var(--brand);
+  border: none;
+  border-right: 1px solid rgba(255,255,255,0.25);
+  padding: 16px 8px 14px;
+  color: #fff;
+  text-align: center;
+  transition: background 0.15s;
+}
+.catstrip button:last-child { border-right: none; }
+.catstrip button:hover { background: var(--brand-deep); }
+.catstrip .ct { display: block; font-size: 16px; font-weight: 800; letter-spacing: -0.01em; }
+.catstrip .cs { display: block; font-size: 11px; margin-top: 4px; color: rgba(255,255,255,0.8); }
 
 /* ---------- 홈: 매칭 카드 ---------- */
 .match { display: grid; grid-template-columns: 1fr 44px 1fr; align-items: stretch; margin-bottom: 16px; }
 @media (max-width: 720px) { .match { grid-template-columns: 1fr; } .match .link-col { height: 40px; } }
 .match .side { padding: 20px; background: var(--white); border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); }
-.match .side.hr { border-left: 4px solid var(--blue); border-radius: var(--radius) 0 0 var(--radius); }
+.match .side.hr { border-left: 4px solid #C9CEDA; border-radius: var(--radius) 0 0 var(--radius); }
 .match .side.fund { border-right: 4px solid var(--gold); border-radius: 0 var(--radius) var(--radius) 0; }
 .match .link-col { display: flex; align-items: center; justify-content: center; background: var(--white); border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); color: var(--gold); font-size: 20px; }
 .match h3 { font-size: 16px; margin: 6px 0 3px; font-weight: 700; }
@@ -216,7 +266,7 @@ footer select { border: 1px solid var(--line); border-radius: 6px; padding: 4px 
 <!-- ===== 상단 바 ===== -->
 <div class="topbar">
   <div class="topbar-in">
-    <span class="logo">Work<span class="accent">Mentor</span></span>
+    <span class="logo"><svg width="18" height="18" viewBox="0 0 52 52" style="vertical-align:-2px; margin-right:6px;" aria-hidden="true"><rect x="4" y="34" width="14" height="14" fill="#F97B33"/><rect x="18" y="20" width="14" height="28" fill="#F97B33"/><rect x="32" y="4" width="14" height="44" fill="#F97B33"/></svg>Work<span class="accent">Mentor</span></span>
     <nav id="nav">
       <button data-page="home" class="on">홈</button>
       <button data-page="funds">지원사업</button>
@@ -236,7 +286,16 @@ footer select { border: 1px solid var(--line); border-radius: 6px; padding: 4px 
 <!-- ============ 홈 ============ -->
 <section class="page on" id="page-home">
   <div class="hero">
-    <p class="kicker">WORKMENTOR — 일과 사람 그리고 지원정책의 멘토</p>
+    <div class="brandmark">
+      <svg width="52" height="52" viewBox="0 0 52 52" aria-hidden="true">
+        <rect x="4"  y="34" width="14" height="14" fill="#F97B33"/>
+        <rect x="18" y="20" width="14" height="28" fill="#F97B33"/>
+        <rect x="32" y="4"  width="14" height="44" fill="#F97B33"/>
+      </svg>
+      <span class="bm-divider"></span>
+      <span class="bm-text">WORK<br />MENTOR</span>
+    </div>
+    <p class="kicker">일과 사람 그리고 지원정책의 멘토</p>
     <h1>
       <span class="hl-hr">직원 찾는 일</span>과
       <span class="hl-fund">정책 지원을 받는 일</span>,<br />
@@ -248,6 +307,16 @@ footer select { border: 1px solid var(--line); border-radius: 6px; padding: 4px 
       <button class="btn-blue" onclick="go('jobs')">채용공고 보기</button>
       <button class="btn-gold" onclick="go('funds')">지원사업 찾기</button>
     </div>
+  </div>
+
+  <div class="catstrip">
+    <button onclick="go('funds')"><span class="ct">지원사업</span><span class="cs">자세히보기</span></button>
+    <button onclick="go('jobs')"><span class="ct">채용공고</span><span class="cs">자세히보기</span></button>
+    <button onclick="go('companies')"><span class="ct">기업정보</span><span class="cs">자세히보기</span></button>
+    <button onclick="lState.cat='최신 정보'; buildLessonFilters(); renderLessons(); go('lessons')"><span class="ct">최신 정보</span><span class="cs">자세히보기</span></button>
+    <button onclick="go('lessons')"><span class="ct">경영수업</span><span class="cs">자세히보기</span></button>
+    <button onclick="go('plans')"><span class="ct">멤버쉽</span><span class="cs">자세히보기</span></button>
+    <button onclick="go('about')"><span class="ct">소개</span><span class="cs">자세히보기</span></button>
   </div>
 
   <h2 class="section">최신 지원 정책  × 인재와 기술 × 기업매니징 기법의 완벽한 매칭</h2>
@@ -538,7 +607,7 @@ footer select { border: 1px solid var(--line); border-radius: 6px; padding: 4px 
 
 <footer>
   본 사이트의 기업을 위한 지원사업 정보 출처는 중소벤처기업부와 각종 지자체 입니다. 예시 데이터가 표시될 수 있으며,
-  최종 확인은 각 공고 원문을 따릅니다. ('워크멘토' 사업자등록번호 133-16-02411)
+  최종 확인은 각 공고 원문을 따릅니다. (워크멘토 사업자등록번호 133-16-02411)
   <div class="viewmode">
     회원 등급:
     <select id="viewMode" onchange="DB.view=this.value; saveDB(); renderCompanies();">
@@ -941,7 +1010,7 @@ function showJob(j) {
    경영수업 (관리자가 올리는 정보·파일 자료실)
    ========================================================== */
 let lState = { cat: "최신 정보" };
-const LESSON_CATS = ["최신 정보", "전체", "세무/회계", "노무/인사", "마케팅", "지원금 신청", "계약/법률", "경영 일반"];
+const LESSON_CATS = ["최신 정보", "전체", "세무/회계", "노무/인사", "마케팅", "정책지원금", "계약/법률", "경영 일반"];
 
 /* ---- 최신 정보: 기업마당 행사정보 + 정책뉴스 자동 수집 ---- */
 let LATEST = [];
