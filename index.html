@@ -217,6 +217,7 @@ footer select { border: 1px solid var(--line); border-radius: 6px; padding: 4px 
       <button data-page="funds">지원사업</button>
       <button data-page="companies">기업정보</button>
       <button data-page="jobs">채용공고</button>
+      <button data-page="lessons">경영수업</button>
       <button data-page="plans">멤버쉽</button>
       <button data-page="about">소개</button>
       <button data-page="admin">관리자</button>
@@ -234,7 +235,7 @@ footer select { border: 1px solid var(--line); border-radius: 6px; padding: 4px 
     <h1>
       <span class="hl-hr">직원 찾는 일</span>과
       <span class="hl-fund">정책 지원을 받는 일</span>,<br />
-      워크멘토 한 곳에서 해결하세요.
+      '워크멘토' 한 곳에서 해결하세요.
     </h1>
     <p>채용공고를 올리는 순간, 그 채용으로 받을 수 있는 정부 지원 정책들 및 지식들을 실시간으로 찾아드립니다.
     구인·구직, 사업 홍보와 기업 간 거래처 연결, 그리고 정부 지원사업 실시간 정보까지 — 중소기업에 필요한 모든 것.</p>
@@ -290,6 +291,20 @@ footer select { border: 1px solid var(--line); border-radius: 6px; padding: 4px 
     <div class="filterrow"><span class="flabel">고용형태</span><div class="chips" id="jTypes"></div></div>
   </div>
   <div class="list" id="jobList"></div>
+</section>
+
+<!-- ============ 경영수업 ============ -->
+<section class="page" id="page-lessons">
+  <h2 class="section">경영수업</h2>
+  <p class="section-sub">기업마당의 행사정보·정책뉴스가 <b>최신 정보</b>에 실시간으로 올라오고, 그 외 분류에는 워크멘토가 고른 자료가 제공됩니다. 유료회원 전용 자료에는 골드 배지가 붙습니다.</p>
+  <div class="filterbar">
+    <div class="filterrow"><span class="flabel">분류</span><div class="chips" id="lCats"></div></div>
+    <div class="searchrow">
+      <input id="lessonSearch" placeholder="자료 검색 (예: 세무, 근로계약, 지원금 신청...)" />
+      <button class="cta" onclick="renderLessons()">검색</button>
+    </div>
+  </div>
+  <div class="list" id="lessonList"></div>
 </section>
 
 <!-- ============ 멤버쉽 ============ -->
@@ -363,6 +378,7 @@ footer select { border: 1px solid var(--line); border-radius: 6px; padding: 4px 
     <div class="atabs">
       <button class="on" data-tab="co" onclick="atab('co')">기업 관리</button>
       <button data-tab="job" onclick="atab('job')">채용공고 관리</button>
+      <button data-tab="lesson" onclick="atab('lesson')">경영수업 관리</button>
       <button data-tab="api" onclick="atab('api')">API 연동</button>
       <button data-tab="data" onclick="atab('data')">데이터 백업</button>
       <button data-tab="set" onclick="atab('set')">설정</button>
@@ -425,6 +441,28 @@ footer select { border: 1px solid var(--line); border-radius: 6px; padding: 4px 
         <button class="fsave" onclick="saveJob()">공고 저장</button>
       </div>
       <div class="alist" id="jobAdminList"></div>
+    </div>
+
+    <!-- 경영수업 관리 -->
+    <div class="apanel" id="apanel-lesson">
+      <div class="card form">
+        <input type="hidden" id="ls-id" />
+        <div class="frow">
+          <div><label>자료 제목 *</label><input id="ls-title" placeholder="처음 하는 4대보험 신고, 순서대로 따라하기" /></div>
+          <div><label>분류</label>
+            <select id="ls-cat"><option>세무/회계</option><option>노무/인사</option><option>마케팅</option><option>지원금 신청</option><option>계약/법률</option><option>경영 일반</option></select>
+          </div>
+        </div>
+        <div class="frow">
+          <div><label>공개 범위</label>
+            <select id="ls-access"><option value="free">전체 공개</option><option value="paid">유료회원 전용</option></select>
+          </div>
+          <div><label>첨부파일 (PDF, 한글, 엑셀 등 — 클라우드 모드 권장)</label><input type="file" id="ls-file" /></div>
+        </div>
+        <div><label>내용 설명</label><textarea id="ls-desc" placeholder="이 자료가 어떤 내용이고 어떻게 활용하면 좋은지 소개해주세요."></textarea></div>
+        <button class="fsave" onclick="saveLesson()">자료 저장</button>
+      </div>
+      <div class="alist" id="lessonAdminList"></div>
     </div>
 
     <!-- API 연동 -->
@@ -550,6 +588,12 @@ const DEFAULT_DB = {
     { id: 2, title: "생산라인 오퍼레이터 (경력단절여성 우대)", company: "대한정밀(주)", region: "인천", type: "정규직", pay: "월 265만", grant: "고용촉진장려금 · 최대 720만원/1인", img: "", desc: "CNC 보조 및 검수 업무. 초보 교육 제공." },
     { id: 3, title: "카페 주말 바리스타", company: "카페 온도", region: "서울", type: "아르바이트", pay: "시급 11,000", grant: "", img: "", desc: "토·일 오전 근무. 라떼아트 교육 지원." },
     { id: 4, title: "웹 프론트엔드 개발자 (신입 가능)", company: "테크브릿지", region: "서울", type: "정규직", pay: "연 3,600만", grant: "청년일자리도약장려금 · 최대 720만원/1인", img: "", desc: "React 기반 웹 서비스 개발. 포트폴리오 제출 필수." }
+  ],
+  lessons: [
+    { id: 1, title: "처음 하는 4대보험 신고, 순서대로 따라하기", category: "노무/인사", access: "free",
+      descr: "직원을 처음 채용한 대표님을 위한 가이드입니다. 4대보험 취득 신고의 순서, 필요한 서류, 자주 하는 실수를 정리했습니다.", file: "", file_name: "" },
+    { id: 2, title: "정부지원금 신청서 작성 실전 노하우", category: "지원금 신청", access: "paid",
+      descr: "심사에서 좋은 평가를 받는 사업계획서의 구조와, 반려되는 신청서의 공통점을 사례 중심으로 정리한 자료입니다.", file: "", file_name: "" }
   ]
 };
 
@@ -577,6 +621,7 @@ function saveDB() {
   catch (e) { console.warn("저장 실패(용량 초과 가능):", e); alert("저장 공간이 부족합니다. 이미지 용량을 줄여주세요."); }
 }
 loadDB();
+DB.lessons = DB.lessons || [];   /* 이전 버전 저장 데이터 호환 */
 
 let FUNDS = [...SAMPLE_FUNDS];
 let fundLive = false;
@@ -860,6 +905,183 @@ function showJob(j) {
   openModal("detailModal");
 }
 
+/* ==========================================================
+   경영수업 (관리자가 올리는 정보·파일 자료실)
+   ========================================================== */
+let lState = { cat: "최신 정보" };
+const LESSON_CATS = ["최신 정보", "전체", "세무/회계", "노무/인사", "마케팅", "지원금 신청", "계약/법률", "경영 일반"];
+
+/* ---- 최신 정보: 기업마당 행사정보 + 정책뉴스 자동 수집 ---- */
+let LATEST = [];
+let latestState = "idle";   /* idle → loading → done | error */
+
+function bizFeedUrl(api) {
+  const { key, proxy } = DB.api;
+  const qs = (key ? `crtfcKey=${encodeURIComponent(key)}&` : "") + `dataType=json&searchCnt=30&api=${api}`;
+  if (proxy) return proxy.replace(/\/$/, "") + "?" + qs;
+  const path = api === "event" ? "bizinfoEventApi.do" : api === "law" ? "bizinfoLawApi.do" : "bizinfoNewsApi.do";
+  return "https://www.bizinfo.go.kr/uss/rss/" + path + "?" + qs.replace("&api=" + api, "");
+}
+
+/* 출처별 배지 색: 행사정보=파랑, 정책뉴스=골드, 입법·고시=초록 */
+function srcBadge(source) {
+  return source === "행사정보" ? "hr" : source === "정책뉴스" ? "fund" : "paid";
+}
+
+/* JSON이든 XML(RSS)이든 알아서 해석하는 관용 파서 */
+function parseFeed(text, source) {
+  let items = [];
+  try {
+    const data = JSON.parse(text);
+    items = data.jsonArray || data.items || data.item || (Array.isArray(data) ? data : []);
+  } catch (_) {
+    const doc = new DOMParser().parseFromString(text, "text/xml");
+    items = [...doc.querySelectorAll("item")].map(n => ({
+      title: n.querySelector("title") ? n.querySelector("title").textContent : "",
+      link: n.querySelector("link") ? n.querySelector("link").textContent : "",
+      pubDate: n.querySelector("pubDate") ? n.querySelector("pubDate").textContent : "",
+      description: n.querySelector("description") ? n.querySelector("description").textContent : ""
+    }));
+  }
+  return (items || []).map(it => {
+    const link = it.link || it.detailUrl || it.pblancUrl || "";
+    return {
+      source,
+      title: stripHtml(it.title || it.pblancNm || it.sj || ""),
+      url: link ? (String(link).startsWith("http") ? String(link) : "https://www.bizinfo.go.kr" + link) : "",
+      date: stripHtml(String(it.pubDate || it.creatPnttm || it.registDt || it.regDt || "")),
+      summary: stripHtml(it.description || it.bsnsSumryCn || it.cn || "")
+    };
+  }).filter(x => x.title);
+}
+
+function fmtDate(s) {
+  const d = new Date(s);
+  if (isNaN(d)) return s || "";
+  return d.getFullYear() + "." + String(d.getMonth() + 1).padStart(2, "0") + "." + String(d.getDate()).padStart(2, "0");
+}
+
+async function loadLatestInfo() {
+  if (latestState === "loading") return;
+  if (!DB.api.proxy && !DB.api.key) { latestState = "error"; drawLessonList(); return; }
+  latestState = "loading"; drawLessonList();
+  const feeds = [["event", "행사정보"], ["news", "정책뉴스"], ["law", "입법·행정예고/고시"]];
+  const results = await Promise.all(feeds.map(async ([api, label]) => {
+    try {
+      const res = await fetch(bizFeedUrl(api));
+      return parseFeed(await res.text(), label);
+    } catch (e) { return []; }
+  }));
+  LATEST = results.flat();
+  const t = x => { const d = new Date(x.date); return isNaN(d) ? 0 : d.getTime(); };
+  LATEST.sort((a, b) => t(b) - t(a));
+  latestState = LATEST.length ? "done" : "error";
+  drawLessonList();
+}
+
+function showLatest(x) {
+  document.getElementById("detailBody").innerHTML = `
+    <span class="badge ${srcBadge(x.source)}">${esc(x.source)}</span>
+    <h3>${esc(x.title)}</h3>
+    <p class="m-sub">기업마당 · ${esc(fmtDate(x.date))}</p>
+    <div class="m-body">${esc(x.summary) || "요약 정보가 없습니다. 원문에서 상세 내용을 확인하세요."}</div>
+    <div class="btns">
+      <button class="btn-ghost" onclick="closeModal('detailModal')">닫기</button>
+      ${x.url ? `<button class="cta gold" onclick="window.open('${esc(x.url)}','_blank')">원문 보기</button>` : ""}
+    </div>`;
+  openModal("detailModal");
+}
+
+function buildLessonFilters() {
+  const box = document.getElementById("lCats");
+  box.innerHTML = "";
+  LESSON_CATS.forEach(v => {
+    const b = document.createElement("button");
+    b.textContent = v;
+    b.className = "hrf" + (lState.cat === v ? " on" : "");
+    b.onclick = () => { lState.cat = v; buildLessonFilters(); renderLessons(); };
+    box.appendChild(b);
+  });
+}
+
+function renderLessons() {
+  /* "최신 정보" 분류: 기업마당에서 자동 수집 / 나머지 분류: 관리자 등록 자료 */
+  if (lState.cat === "최신 정보" && latestState === "idle") { loadLatestInfo(); return; }
+  drawLessonList();
+}
+
+function drawLessonList() {
+  const q = (document.getElementById("lessonSearch").value || "").trim();
+  const box = document.getElementById("lessonList");
+  box.innerHTML = "";
+
+  if (lState.cat === "최신 정보") {
+    if (latestState === "loading") { box.innerHTML = '<p class="empty">기업마당에서 최신 행사정보와 정책뉴스를 불러오는 중...</p>'; return; }
+    if (latestState === "error") { box.innerHTML = '<p class="empty">최신 정보를 불러오지 못했습니다. 관리자 → API 연동에 프록시 URL이 설정되어 있는지, 프록시 워커가 최신 버전(행사정보·정책뉴스 지원)인지 확인해주세요.</p>'; return; }
+    const rows = LATEST.filter(x => !q || x.title.includes(q) || x.summary.includes(q));
+    if (!rows.length) { box.innerHTML = '<p class="empty">검색 결과가 없습니다.</p>'; return; }
+    rows.forEach(x => {
+      const el = document.createElement("div");
+      el.className = "card row";
+      el.onclick = () => showLatest(x);
+      el.innerHTML = `
+        <div>
+          <p class="title">${esc(x.title)}</p>
+          <p class="sub">기업마당 · ${esc(x.source)}</p>
+          <div class="tags">
+            <span class="badge ${srcBadge(x.source)}">${esc(x.source)}</span>
+            <span class="badge free">실시간</span>
+          </div>
+        </div>
+        <div class="right"><p class="sub mono">${esc(fmtDate(x.date))}</p></div>`;
+      box.appendChild(el);
+    });
+    return;
+  }
+
+  const rows = (DB.lessons || []).filter(l =>
+    (lState.cat === "전체" || l.category === lState.cat) &&
+    (!q || (l.title || "").includes(q) || (l.descr || "").includes(q)));
+  if (!rows.length) { box.innerHTML = '<p class="empty">등록된 자료가 없습니다. 관리자 페이지에서 등록해보세요.</p>'; return; }
+  rows.forEach(l => {
+    const el = document.createElement("div");
+    el.className = "card row";
+    el.onclick = () => showLesson(l);
+    el.innerHTML = `
+      <div>
+        <p class="title">${esc(l.title)}</p>
+        <p class="sub">${esc(l.category || "경영 일반")}</p>
+        <div class="tags">
+          <span class="badge hr">${esc(l.category || "경영 일반")}</span>
+          ${l.access === "paid" ? '<span class="badge fund">유료회원 전용</span>' : '<span class="badge free">전체 공개</span>'}
+          ${l.file ? '<span class="badge hr">첨부파일</span>' : ''}
+        </div>
+      </div>
+      <div class="right"></div>`;
+    box.appendChild(el);
+  });
+}
+
+function showLesson(l) {
+  /* 유료 전용 자료는 유료회원만 내용·파일 열람 */
+  const locked = l.access === "paid" && DB.view !== "paid";
+  document.getElementById("detailBody").innerHTML = `
+    <span class="badge hr">${esc(l.category || "경영 일반")}</span>
+    ${l.access === "paid" ? '<span class="badge fund">유료회원 전용</span>' : ''}
+    <h3>${esc(l.title)}</h3>
+    ${locked
+      ? `<div class="locknote">🔒 이 자료는 <b>유료회원 전용</b>입니다. 멤버쉽에 가입하면 전체 내용과 첨부파일을 열람할 수 있습니다.
+         (하단의 "회원 등급 체험"을 유료회원으로 바꾸면 미리 볼 수 있어요)</div>`
+      : `<div class="m-body">${esc(l.descr || "")}</div>
+         ${l.file ? `<div class="m-files"><b style="font-size:13.5px;">첨부파일</b><br />
+           <a href="${esc(l.file)}" target="_blank" rel="noopener" ${l.file.startsWith("data:") ? `download="${esc(l.file_name || "자료")}"` : ""}>📎 ${esc(l.file_name || "자료 내려받기")}</a></div>` : ""}`}
+    <div class="btns">
+      <button class="btn-ghost" onclick="closeModal('detailModal')">닫기</button>
+      ${locked ? `<button class="cta gold" onclick="closeModal('detailModal'); go('plans')">멤버쉽 보기</button>` : ""}
+    </div>`;
+  openModal("detailModal");
+}
+
 /* ---------- 홈 매칭 카드 ---------- */
 function renderHomeMatches() {
   const box = document.getElementById("homeMatches");
@@ -946,13 +1168,35 @@ async function readImg(inputId) {
 }
 
 /* 클라우드에서 최신 데이터를 다시 불러와 화면 갱신 */
+/* 이미지 외 임의 파일(PDF, 한글, 엑셀 등) 업로드 — 경영수업 자료용 */
+async function readAnyFile(inputId) {
+  const f = document.getElementById(inputId).files[0];
+  if (!f) return null;
+  if (useCloud) {
+    const path = "lessons/" + Date.now() + "-" + f.name.replace(/[^\w.\-가-힣]/g, "_");
+    const { error } = await sb.storage.from("images").upload(path, f);
+    if (error) { alert("파일 업로드 실패: " + error.message + " (로그인 상태를 확인하세요)"); return null; }
+    return { url: sb.storage.from("images").getPublicUrl(path).data.publicUrl, name: f.name };
+  }
+  /* 로컬 모드: 브라우저 저장 한계 때문에 1.5MB 이하만 */
+  if (f.size > 1500 * 1024) { alert("로컬 모드에서는 1.5MB 이하 파일만 가능합니다. 클라우드 모드에서는 큰 파일도 올라갑니다."); return null; }
+  const url = await new Promise(res => {
+    const r = new FileReader();
+    r.onload = () => res(r.result);
+    r.readAsDataURL(f);
+  });
+  return { url, name: f.name };
+}
+
 async function cloudRefresh() {
-  const [cos, jbs] = await Promise.all([
+  const [cos, jbs, lsn] = await Promise.all([
     sb.from("companies").select("*").order("created_at", { ascending: false }),
-    sb.from("jobs").select("*").order("created_at", { ascending: false })
+    sb.from("jobs").select("*").order("created_at", { ascending: false }),
+    sb.from("lessons").select("*").order("created_at", { ascending: false })
   ]);
   if (cos.data) DB.companies = cos.data;
   if (jbs.data) DB.jobs = jbs.data.map(j => ({ ...j, desc: j.descr ?? "", grant: j.grant_info ?? "" }));
+  if (lsn.data) DB.lessons = lsn.data;
   renderAll(); renderAdminLists();
 }
 
@@ -1075,6 +1319,57 @@ async function delJob(id) {
   }
 }
 
+/* --- 경영수업 CRUD --- */
+async function saveLesson() {
+  const title = document.getElementById("ls-title").value.trim();
+  if (!title) return alert("자료 제목을 입력하세요.");
+  const up = await readAnyFile("ls-file");
+  const id = document.getElementById("ls-id").value;
+  const prev = id ? (DB.lessons.find(l => l.id === +id) || {}) : {};
+  const obj = {
+    title,
+    category: document.getElementById("ls-cat").value,
+    access: document.getElementById("ls-access").value,
+    descr: document.getElementById("ls-desc").value.trim(),
+    file: up ? up.url : (prev.file || ""),
+    file_name: up ? up.name : (prev.file_name || "")
+  };
+  if (useCloud) {
+    const q = id ? sb.from("lessons").update(obj).eq("id", +id) : sb.from("lessons").insert(obj);
+    const { error } = await q;
+    if (error) return alert("저장 실패: " + error.message + "\n(lessons 테이블이 없다면 add-lessons.sql을 먼저 실행하세요)");
+    await cloudRefresh();
+  } else {
+    obj.id = id ? +id : Date.now();
+    const i = DB.lessons.findIndex(l => l.id === obj.id);
+    if (i >= 0) DB.lessons[i] = obj; else DB.lessons.unshift(obj);
+    saveDB(); renderAdminLists(); renderLessons();
+  }
+  ["ls-id","ls-title","ls-desc"].forEach(x => document.getElementById(x).value = "");
+  document.getElementById("ls-file").value = "";
+  alert("저장되었습니다.");
+}
+function editLesson(id) {
+  const l = DB.lessons.find(x => x.id === id); if (!l) return;
+  document.getElementById("ls-id").value = l.id;
+  document.getElementById("ls-title").value = l.title;
+  document.getElementById("ls-cat").value = l.category || "경영 일반";
+  document.getElementById("ls-access").value = l.access || "free";
+  document.getElementById("ls-desc").value = l.descr || "";
+  atab("lesson"); window.scrollTo({ top: 0 });
+}
+async function delLesson(id) {
+  if (!confirm("이 자료를 삭제할까요?")) return;
+  if (useCloud) {
+    const { error } = await sb.from("lessons").delete().eq("id", id);
+    if (error) return alert("삭제 실패: " + error.message);
+    await cloudRefresh();
+  } else {
+    DB.lessons = DB.lessons.filter(l => l.id !== id);
+    saveDB(); renderAdminLists(); renderLessons();
+  }
+}
+
 function renderAdminLists() {
   const co = document.getElementById("coAdminList");
   co.innerHTML = "";
@@ -1096,6 +1391,16 @@ function renderAdminLists() {
       <button class="del" onclick="delJob(${j.id})">삭제</button>`;
     jb.appendChild(el);
   });
+  const ls = document.getElementById("lessonAdminList");
+  ls.innerHTML = "";
+  (DB.lessons || []).forEach(l => {
+    const el = document.createElement("div");
+    el.className = "aitem";
+    el.innerHTML = `<span class="grow"><b>${esc(l.title)}</b> · ${esc(l.category || "")} · ${l.access === "paid" ? '<span class="badge fund">유료 전용</span>' : '<span class="badge free">전체 공개</span>'}${l.file ? ' 📎' : ''}</span>
+      <button class="edit" onclick="editLesson(${l.id})">수정</button>
+      <button class="del" onclick="delLesson(${l.id})">삭제</button>`;
+    ls.appendChild(el);
+  });
 }
 
 /* --- API 설정 --- */
@@ -1111,7 +1416,9 @@ async function saveApi() {
     if (error) alert("클라우드 저장 실패: " + error.message);
   }
   saveDB();
+  latestState = "idle";
   loadLiveFunds();
+  if (lState.cat === "최신 정보") loadLatestInfo();
 }
 
 /* --- 백업 --- */
@@ -1143,23 +1450,27 @@ function renderAll() {
   buildFundFilters(); renderFunds();
   buildCoFilters(); renderCompanies();
   buildJobFilters(); renderJobs();
+  buildLessonFilters(); renderLessons();
   renderHomeMatches();
 }
 
-/* 클라우드 모드: Supabase에서 기업/공고/설정을 불러와 모든 방문자에게 동일하게 표시 */
+/* 클라우드 모드: Supabase에서 기업/공고/자료/설정을 불러와 모든 방문자에게 동일하게 표시 */
 async function cloudInit() {
   document.getElementById("adminEmail").style.display = "block";
   document.getElementById("loginHint").innerHTML =
     "클라우드 모드 — Supabase에 등록한 관리자 이메일과 비밀번호로 로그인하세요.";
   try {
-    const [cos, jbs, set] = await Promise.all([
+    const [cos, jbs, lsn, set] = await Promise.all([
       sb.from("companies").select("*").order("created_at", { ascending: false }),
       sb.from("jobs").select("*").order("created_at", { ascending: false }),
+      sb.from("lessons").select("*").order("created_at", { ascending: false }),
       sb.from("settings").select("*").eq("id", "api").maybeSingle()
     ]);
     if (cos.data) DB.companies = cos.data;
     if (jbs.data) DB.jobs = jbs.data.map(j => ({ ...j, desc: j.descr ?? "", grant: j.grant_info ?? "" }));
+    if (lsn.data) DB.lessons = lsn.data;
     if (set.data && set.data.value) DB.api = { ...DB.api, ...set.data.value };
+    latestState = "idle";   /* 설정을 받았으니 최신 정보 수집을 다시 시도 */
   } catch (e) {
     console.warn("클라우드 초기화 실패(설정을 확인하세요):", e);
   }
