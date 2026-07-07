@@ -220,7 +220,9 @@ h2.section { font-weight: 800; font-size: 24px; color: var(--navy); letter-spaci
 /* ---------- 소통방 ---------- */
 .chatbox { display: flex; flex-direction: column; height: 540px; padding: 0; overflow: hidden; }
 .chatlog { flex: 1; overflow-y: auto; padding: 16px; display: flex; flex-direction: column; gap: 8px; background: var(--paper); }
-.msg { max-width: 72%; padding: 9px 13px; border-radius: 12px; font-size: 14px; line-height: 1.6; word-break: break-all; }
+.msg { position: relative; max-width: 72%; padding: 9px 13px; border-radius: 12px; font-size: 14px; line-height: 1.6; word-break: break-all; }
+.msg .mdel { display: none; position: absolute; top: -9px; right: -9px; width: 20px; height: 20px; border: none; border-radius: 50%; background: var(--danger); color: #fff; font-size: 11px; line-height: 20px; padding: 0; cursor: pointer; }
+.msg:hover .mdel { display: block; }
 .msg.me { align-self: flex-end; background: var(--brand); color: #fff; border-bottom-right-radius: 4px; }
 .msg.me a { color: #fff; text-decoration: underline; }
 .msg.other { align-self: flex-start; background: var(--white); border: 1px solid var(--line); border-bottom-left-radius: 4px; }
@@ -310,11 +312,11 @@ footer select { border: 1px solid var(--line); border-radius: 6px; padding: 4px 
     </div>
     <p class="kicker">일과 사람 그리고 지원정책의 멘토</p>
     <h1>
-      <span class="hl-hr">인재와 정보</span>그리고
+      <span class="hl-hr">직원 찾는 일</span>과
       <span class="hl-fund">정책 지원을 받는 일</span>,<br />
       '워크멘토' 한 곳에서 해결하세요.
     </h1>
-    <p>기업과 사업의 존재를 알리는 순간,연결되어 얻을수 있는 모든 기업 지원 정책들 및 지식들을 실시간으로 이어드립니다.
+    <p>기업과 사업의 존재를 알리는 순간,연계되어 얻을수 있는 모든 기업 지원 정책들 및 지식들을 실시간으로 이어드립니다.
     기업매니징·인재 구인·사업 홍보와 기업 간 거래처 연결, 그리고 정부 지원사업 실시간 정보까지 — 중소기업에 필요한 모든 것.</p>
     <div class="actions">
       <button class="btn-blue" onclick="go('jobs')">채용공고 보기</button>
@@ -671,7 +673,7 @@ footer select { border: 1px solid var(--line); border-radius: 6px; padding: 4px 
 
 <footer>
   본 사이트의 기업을 위한 지원사업 정보 출처는 중소벤처기업부와 각종 지자체 입니다. 예시 데이터가 표시될 수 있으며,
-  최종 확인은 각 공고 원문을 따릅니다. ('워크멘토' 사업자등록번호 133-16-02411)
+  최종 확인은 각 공고 원문을 따릅니다. ( 사업자등록번호 133-16-02411 워크멘토 )
   <div class="viewmode">
     회원 등급:
     <select id="viewMode" onchange="DB.view=this.value; saveDB(); renderCompanies();">
@@ -1676,6 +1678,7 @@ async function fetchChat() {
     if (r.error) { stopChatPoll(); return; }
     rows = r.data || [];
   }
+  CHAT.rows = rows;
   renderChat(rows);
 }
 function fmtTime(s) {
@@ -1691,12 +1694,15 @@ function renderChat(rows) {
     const mine = m.sender === me;
     const who = m.sender === "admin" ? "관리자" : "기업";
     const isImg = m.file && /\.(png|jpe?g|gif|webp)(\?|$)/i.test(m.file_name || m.file);
+    const szTxt = m.file_size ? " (" + fmtBytes(m.file_size) + ")" : "";
+    const bigMark = m.file_size && m.file_size > 5 * 1024 * 1024 ? " 🔶" : "";
     const fileHtml = m.file
       ? (isImg
-        ? `<a href="${esc(m.file)}" target="_blank" rel="noopener"><img src="${esc(m.file)}" style="max-width:200px; border-radius:8px; display:block; margin-top:4px;" /></a>`
-        : `<a href="${esc(m.file)}" target="_blank" rel="noopener" style="display:inline-block; margin-top:4px;">📎 ${esc(m.file_name || "파일")}</a>`)
+        ? `<a href="${esc(m.file)}" target="_blank" rel="noopener"><img src="${esc(m.file)}" style="max-width:200px; border-radius:8px; display:block; margin-top:4px;" /></a><span style="font-size:11px; opacity:.75;">${esc(m.file_name || "이미지")}${szTxt}${bigMark}</span>`
+        : `<a href="${esc(m.file)}" target="_blank" rel="noopener" style="display:inline-block; margin-top:4px;">📎 ${esc(m.file_name || "파일")}${szTxt}${bigMark}</a>`)
       : "";
-    return `<div class="msg ${mine ? "me" : "other"}">${m.content ? esc(m.content) : ""}${fileHtml}<span class="mtime">${who} · ${fmtTime(m.created_at)}</span></div>`;
+    const delBtn = CHAT.mode === "admin" ? `<button class="mdel" title="메시지 삭제 (첨부 시 저장소 파일도 삭제)" onclick="delChatMsg(${m.id})">✕</button>` : "";
+    return `<div class="msg ${mine ? "me" : "other"}">${delBtn}${m.content ? esc(m.content) : ""}${fileHtml}<span class="mtime">${who} · ${fmtTime(m.created_at)}</span></div>`;
   }).join("") || '<p class="empty">첫 메시지를 보내보세요!</p>';
   if (nearBottom || rows.length <= 1) log.scrollTop = log.scrollHeight;
 }
@@ -1707,16 +1713,50 @@ async function sendChat() {
   inp.value = "";
   await pushChat(t, null, null);
 }
-async function pushChat(content, file, fileName) {
+async function pushChat(content, file, fileName, fileSize) {
   if (CHAT.mode === "admin") {
-    const { error } = await sb.from("messages").insert({ company_id: CHAT.companyId, sender: "admin", content, file, file_name: fileName });
+    const { error } = await sb.from("messages").insert({ company_id: CHAT.companyId, sender: "admin", content, file, file_name: fileName, file_size: fileSize || null });
     if (error) return alert("전송 실패: " + error.message + "\n(add-chat.sql 실행 여부를 확인하세요)");
   } else {
-    const { error } = await sb.rpc("chat_send", { p_company: CHAT.companyId, p_code: CHAT.code, p_content: content, p_file: file, p_file_name: fileName });
+    const { error } = await sb.rpc("chat_send", { p_company: CHAT.companyId, p_code: CHAT.code, p_content: content, p_file: file, p_file_name: fileName, p_file_size: fileSize || null });
     if (error) return alert("전송 실패: " + error.message);
   }
   fetchChat();
 }
+function fmtBytes(n) {
+  if (!n) return "";
+  if (n >= 1024 * 1024) return (n / 1048576).toFixed(1) + "MB";
+  if (n >= 1024) return Math.round(n / 1024) + "KB";
+  return n + "B";
+}
+
+/* 관리자: 메시지 삭제 (+ 첨부파일은 R2 저장소에서도 삭제해 용량 회수) */
+async function delChatMsg(id) {
+  const m = (CHAT.rows || []).find(x => x.id === id);
+  if (!m) return;
+  const q = m.file
+    ? "이 메시지를 삭제할까요?\n첨부파일(" + (m.file_name || "파일") + (m.file_size ? ", " + fmtBytes(m.file_size) : "") + ")도 저장소에서 함께 삭제되어 용량이 회수됩니다."
+    : "이 메시지를 삭제할까요?";
+  if (!confirm(q)) return;
+  if (m.file) {
+    try {
+      const key = new URL(m.file).searchParams.get("key");
+      const proxy = (DB.api.proxy || "").replace(/\/$/, "");
+      const s = await sb.auth.getSession();
+      const token = s && s.data && s.data.session ? s.data.session.access_token : null;
+      if (key && proxy && token) {
+        await fetch(proxy + "/?api=delete&key=" + encodeURIComponent(key), {
+          method: "POST",
+          headers: { "Authorization": "Bearer " + token }
+        });
+      }
+    } catch (_) { /* 파일 삭제 실패해도 메시지 삭제는 진행 */ }
+  }
+  const { error } = await sb.from("messages").delete().eq("id", id);
+  if (error) return alert("삭제 실패: " + error.message);
+  fetchChat();
+}
+
 async function sendChatFile(inputId) {
   const el = document.getElementById(inputId);
   const f = el.files[0];
@@ -1740,7 +1780,7 @@ async function sendChatFile(inputId) {
       up = { url: d.url, name: f.name };
     } catch (e) { return alert("파일 업로드 실패: " + e.message); }
   }
-  if (up) await pushChat("", up.url, up.name);
+  if (up) await pushChat("", up.url, up.name, f.size);
 }
 
 /* --- API 설정 --- */
