@@ -451,8 +451,8 @@ footer select { border: 1px solid var(--line); border-radius: 6px; padding: 4px 
   <h2 class="section">기업정보 · 채용공고</h2>
   <p class="section-sub">왼쪽은 워크멘토와 함께하는 기업, 오른쪽은 진행 중인 채용공고입니다. 10초마다 자동으로 전환되며, 카드를 누르면 상세를 볼 수 있습니다.</p>
   <div class="showcase" id="homeShowcase">
-    <div class="showcol"><p class="showcol-t">기업정보</p><div class="showstack" id="homeCoCol"></div></div>
-    <div class="showcol"><p class="showcol-t">채용공고</p><div class="showstack" id="homeJobCol"></div></div>
+    <div class="showcol"><p class="showcol-t">기업정보</p><div class="showstack" id="homeCoCol"><p class="empty">기업 목록을 불러오는 중...</p></div></div>
+    <div class="showcol"><p class="showcol-t">채용공고</p><div class="showstack" id="homeJobCol"><p class="empty">채용공고를 불러오는 중...</p></div></div>
   </div>
 
   <!-- ============ 긴급 시장 속보 · AI/투자 브리핑 ============ -->
@@ -1572,7 +1572,7 @@ function drawHomeShowcase() {
   const guestGate = () => { alert("회원가입 후 기업등록 및 홈페이지 여러 기능들을 이용 가능합니다."); openAuth("signup"); };
 
   coBox.innerHTML = "";
-  if (!cos.length) coBox.innerHTML = '<p class="empty">등록된 기업이 없습니다.</p>';
+  if (!cos.length) coBox.innerHTML = '<p class="empty">기업 정보를 불러오지 못했습니다. (잠시 후 새로고침 — 계속되면 관리자에게 문의)</p>';
   for (let i = 0; i < Math.min(2, cos.length); i++) {
     const c = cos[(hcIdx + i) % cos.length];
     const el = document.createElement("div");
@@ -1588,7 +1588,7 @@ function drawHomeShowcase() {
   }
 
   jobBox.innerHTML = "";
-  if (!jobs.length) jobBox.innerHTML = '<p class="empty">등록된 공고가 없습니다.</p>';
+  if (!jobs.length) jobBox.innerHTML = '<p class="empty">채용공고를 불러오지 못했습니다. (잠시 후 새로고침 — 계속되면 관리자에게 문의)</p>';
   for (let i = 0; i < Math.min(2, jobs.length); i++) {
     const j = jobs[(hjIdx + i) % jobs.length];
     const el = document.createElement("div");
@@ -2592,12 +2592,11 @@ async function changePw() {
 
 /* ---------- 초기화 ---------- */
 function renderAll() {
-  buildFundFilters(); renderFunds();
-  buildCoFilters(); renderCompanies();
-  buildJobFilters(); renderJobs();
-  buildLessonFilters(); renderLessons();
-  renderHomeMatches();
-  fillChatSelects();
+  [buildFundFilters, renderFunds, buildCoFilters, renderCompanies,
+   buildJobFilters, renderJobs, buildLessonFilters, renderLessons,
+   renderHomeMatches, fillChatSelects].forEach(fn => {
+    try { fn(); } catch (e) { console.error("화면 그리기 단계 오류(" + fn.name + "):", e); }
+  });
 }
 
 /* 클라우드 모드: Supabase에서 기업/공고/자료/설정을 불러와 모든 방문자에게 동일하게 표시 */
