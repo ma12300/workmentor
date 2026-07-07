@@ -928,12 +928,12 @@ function srcBadge(source) {
   return source === "행사정보" ? "hr" : source === "정책뉴스" ? "fund" : "paid";
 }
 
-/* JSON이든 XML(RSS)이든 알아서 해석하는 관용 파서 */
+/* JSON이든 XML(RSS)이든, 기업마당이든 공공데이터포털이든 알아서 해석하는 관용 파서 */
 function parseFeed(text, source) {
   let items = [];
   try {
     const data = JSON.parse(text);
-    items = data.jsonArray || data.items || data.item || (Array.isArray(data) ? data : []);
+    items = data.jsonArray || data.data || data.items || data.item || (Array.isArray(data) ? data : []);
   } catch (_) {
     const doc = new DOMParser().parseFromString(text, "text/xml");
     items = [...doc.querySelectorAll("item")].map(n => ({
@@ -944,13 +944,13 @@ function parseFeed(text, source) {
     }));
   }
   return (items || []).map(it => {
-    const link = it.link || it.detailUrl || it.pblancUrl || "";
+    const link = it.link || it.detailUrl || it.pblancUrl || it["상세링크 주소"] || it["상세링크주소"] || it["상세링크"] || "";
     return {
       source,
-      title: stripHtml(it.title || it.pblancNm || it.sj || ""),
+      title: stripHtml(it.title || it.pblancNm || it.sj || it["제목"] || ""),
       url: link ? (String(link).startsWith("http") ? String(link) : "https://www.bizinfo.go.kr" + link) : "",
-      date: stripHtml(String(it.pubDate || it.creatPnttm || it.registDt || it.regDt || "")),
-      summary: stripHtml(it.description || it.bsnsSumryCn || it.cn || "")
+      date: stripHtml(String(it.pubDate || it.creatPnttm || it.registDt || it.regDt || it["등록일"] || "")),
+      summary: stripHtml(it.description || it.bsnsSumryCn || it.cn || it["본문내용"] || "")
     };
   }).filter(x => x.title);
 }
