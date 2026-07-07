@@ -405,7 +405,7 @@ footer select { border: 1px solid var(--line); border-radius: 6px; padding: 4px 
       <button data-page="about">워크멘토 소개</button>
       <button data-page="admin">관리자</button>
     </nav>
-    <span id="authArea" class="authArea"></span>
+    <span id="authArea" class="authArea"><button class="authbtn" onclick="openAuth('login')">로그인</button><button class="authbtn strong" onclick="openAuth('signup')">회원가입</button></span>
     <button class="cta" id="ctaMain" style="display:none;" onclick="ctaClick()">기업 등록하기</button>
   </div>
 </div>
@@ -1559,8 +1559,16 @@ function drawHomeShowcase() {
   const coBox = document.getElementById("homeCoCol");
   const jobBox = document.getElementById("homeJobCol");
   const cos = DB.companies || [], jobs = DB.jobs || [];
-  const guest = DB.view === "guest" && !(typeof MEMBER !== "undefined" && MEMBER.isAdmin);
-  const mask = t => guest ? `<span class="blurname">${esc(t)}</span>` : esc(t);
+  const guest = DB.view === "guest";   /* 관리자·회원은 syncViewerTier가 view를 올려주므로 이 값만으로 충분 */
+  const mask = t => {
+    t = String(t || "");
+    if (!guest) return esc(t);
+    /* 첫 글자(괄호 상호는 괄호 포함 첫 글자까지)만 보여주고 나머지는 ◯ 처리 */
+    const m = t.match(/^([(\[]?[^)\]]{0,3}[)\]]\s*)?(.)(.*)$/);
+    const head = (m ? (m[1] || "") + m[2] : t.slice(0, 1));
+    const restLen = Math.min(Math.max(t.length - head.length, 2), 4);
+    return esc(head) + "◯".repeat(restLen);
+  };
   const guestGate = () => { alert("회원가입 후 기업등록 및 홈페이지 여러 기능들을 이용 가능합니다."); openAuth("signup"); };
 
   coBox.innerHTML = "";
