@@ -242,6 +242,40 @@ h2.section { font-weight: 800; font-size: 24px; color: var(--navy); letter-spaci
 .msg .mtime { display: block; font-size: 10.5px; opacity: 0.65; margin-top: 4px; }
 .chatin { display: flex; gap: 8px; padding: 12px; border-top: 1px solid var(--line); background: var(--white); align-items: center; }
 .chatin input:not([type="file"]) { flex: 1; border: 1px solid var(--line); border-radius: 8px; padding: 11px 13px; background: var(--paper); }
+
+/* ---------- 시장 브리핑 (홈) ---------- */
+.wm-market-briefing { margin: 36px 0 8px; padding: 28px; border-radius: 18px; color: #E9E5DE;
+  background:
+    repeating-linear-gradient(115deg, rgba(255,255,255,0.04) 0 1px, transparent 1px 84px),
+    linear-gradient(180deg, var(--char) 0%, var(--char-deep) 100%); }
+.wm-market-briefing__head { max-width: 920px; margin-bottom: 20px; }
+.wm-market-briefing__eyebrow { margin: 0 0 8px; font-size: 12px; letter-spacing: .16em; color: var(--brand); font-weight: 800; display: flex; align-items: center; gap: 8px; }
+.wm-live-dot { width: 8px; height: 8px; border-radius: 50%; background: #FF5A4E; animation: wmBlink 1.4s ease-in-out infinite; }
+@keyframes wmBlink { 0%,100% { opacity: 1; box-shadow: 0 0 0 0 rgba(255,90,78,.5); } 50% { opacity: .45; box-shadow: 0 0 0 5px rgba(255,90,78,0); } }
+.wm-market-briefing h2 { margin: 0 0 8px; font-size: clamp(21px, 3vw, 30px); color: #fff; }
+.wm-market-briefing__head p { color: #CFC9C0; line-height: 1.65; font-size: 14px; }
+.wm-market-briefing__meta { font-size: 13px; color: #E4DFD7; }
+.wm-market-briefing__grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 14px; }
+.wm-market-briefing__card { padding: 18px; border: 1px solid rgba(255,255,255,.14); border-radius: 14px; background: rgba(0,0,0,.22); animation: wmUp .5s ease both; }
+.wm-market-briefing__card:nth-child(2) { animation-delay: .08s; }
+.wm-market-briefing__card:nth-child(3) { animation-delay: .16s; }
+.wm-market-briefing__card:nth-child(4) { animation-delay: .24s; }
+@keyframes wmUp { from { opacity: 0; transform: translateY(10px); } to { opacity: 1; transform: none; } }
+.wm-market-briefing__card--urgent { border-color: rgba(255,110,90,.75); animation: wmUp .5s ease both, wmPulse 2.2s ease-in-out infinite; }
+@keyframes wmPulse { 0%,100% { box-shadow: inset 0 0 0 1px rgba(255,110,90,.25); } 50% { box-shadow: inset 0 0 0 1px rgba(255,110,90,.55), 0 0 18px rgba(255,110,90,.18); } }
+.wm-market-briefing__tag { display: inline-block; margin-bottom: 10px; padding: 4px 10px; border-radius: 999px; background: rgba(249,123,51,.16); color: #FFC49E; font-size: 12px; font-weight: 700; }
+.wm-market-briefing__card h3 { margin: 0 0 8px; font-size: 16.5px; line-height: 1.4; color: #fff; }
+.wm-market-briefing__card p { margin: 7px 0; color: #D6D1C8; line-height: 1.6; font-size: 13.5px; }
+.wm-market-briefing__card p strong { color: #FFB185; }
+.wm-market-briefing__time { margin-top: 10px; color: #A79F93; font-size: 12px; }
+.wm-market-briefing__sources { margin-top: 10px; display: flex; flex-wrap: wrap; gap: 10px; }
+.wm-market-briefing__sources a { color: #FFB185; font-size: 13px; text-decoration: none; }
+.wm-market-briefing__sources a:hover { text-decoration: underline; }
+.wm-market-briefing__market { margin-top: 16px; display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 10px; }
+.wm-market-briefing__metric { padding: 12px; border-radius: 12px; background: rgba(255,255,255,.07); animation: wmUp .5s ease both; }
+.wm-market-briefing__metric strong { display: block; font-size: 12.5px; color: #CFC9C0; }
+.wm-market-briefing__metric span { display: block; margin-top: 4px; font-size: 16.5px; font-weight: 800; color: #fff; }
+.wm-market-briefing__metric small { display: block; margin-top: 3px; font-size: 11px; color: #A79F93; }
 .demo-note { background: #FBE7E2; color: var(--danger); font-size: 12.5px; font-weight: 700; padding: 8px 12px; border-radius: 8px; margin: 12px 0; }
 .sum { display: flex; justify-content: space-between; padding: 10px 0; border-top: 1px solid var(--line); font-size: 14.5px; }
 .sum.total { font-weight: 700; font-size: 16px; }
@@ -349,6 +383,18 @@ footer select { border: 1px solid var(--line); border-radius: 6px; padding: 4px 
   <h2 class="section">최신 지원 정책  × 인재와 기술 × 기업매니징 기법의 완벽한 매칭</h2>
   <p class="section-sub">워크멘토는 기업공고를 진행하면, 필요한 자원과 지원 정책들을 모두 확인할수 있습니다.</p>
   <div id="homeMatches"></div>
+
+  <!-- ============ 긴급 시장 속보 · AI/투자 브리핑 ============ -->
+  <section id="wm-market-briefing" class="wm-market-briefing" aria-labelledby="wm-market-briefing-title">
+    <div class="wm-market-briefing__head">
+      <p class="wm-market-briefing__eyebrow"><span class="wm-live-dot"></span>REAL-TIME INTELLIGENCE</p>
+      <h2 id="wm-market-briefing-title">긴급 시장 속보 · AI/투자 브리핑</h2>
+      <p>AI·기술, 미국·한국 증시, 비트코인·이더리움, 가상화폐 정책·규제, 환율·금리·원자재 이슈를 교차검증 후 제공합니다.</p>
+      <p id="wm-market-briefing-meta" class="wm-market-briefing__meta">브리핑 확인 중...</p>
+    </div>
+    <div id="wm-market-briefing-list" class="wm-market-briefing__grid" aria-live="polite"></div>
+    <div id="wm-market-briefing-market" class="wm-market-briefing__market"></div>
+  </section>
 </section>
 
 <!-- ============ 지원사업 (기업마당 스타일 세분화) ============ -->
@@ -509,6 +555,7 @@ footer select { border: 1px solid var(--line); border-radius: 6px; padding: 4px 
       <button data-tab="job" onclick="atab('job')">채용공고 관리</button>
       <button data-tab="lesson" onclick="atab('lesson')">경영수업 관리</button>
       <button data-tab="chat" onclick="atab('chat')">소통방</button>
+      <button data-tab="brief" onclick="atab('brief')">시장 브리핑</button>
       <button data-tab="api" onclick="atab('api')">API 연동</button>
       <button data-tab="data" onclick="atab('data')">데이터 백업</button>
       <button data-tab="set" onclick="atab('set')">설정</button>
@@ -614,6 +661,19 @@ footer select { border: 1px solid var(--line); border-radius: 6px; padding: 4px 
           <input id="achat-msg" placeholder="관리자 답변 입력..." onkeydown="if(event.key==='Enter')sendChat()" />
           <button class="cta gold" onclick="sendChat()">전송</button>
         </div>
+      </div>
+    </div>
+
+    <!-- 시장 브리핑 게시 -->
+    <div class="apanel" id="apanel-brief">
+      <div class="card form">
+        <p class="section-sub" style="margin-bottom:10px;">ChatGPT에서 받은 브리핑 JSON 전체를 아래에 붙여넣고 <b>게시하기</b>를 누르면 홈 화면의 "긴급 시장 속보"가 즉시 교체됩니다. (매일 오전 9시 · 오후 6시 게시 권장)</p>
+        <div><label>브리핑 JSON</label><textarea id="brief-json" rows="14" style="font-family:monospace; font-size:12.5px;" placeholder='{"id":"briefing-...", "items":[...], "market":[...]}'></textarea></div>
+        <div style="display:flex; gap:8px; margin-top:10px;">
+          <button type="button" class="filebtn" style="margin:0;" onclick="loadBriefingToEditor()">현재 게시본 불러오기</button>
+          <button type="button" class="fsave" style="flex:1;" onclick="publishBriefing()">게시하기</button>
+        </div>
+        <p class="status" id="brief-status" style="margin-top:8px;">대기 중</p>
       </div>
     </div>
 
@@ -1793,6 +1853,113 @@ async function sendChatFile(inputId) {
     } catch (e) { return alert("파일 업로드 실패: " + e.message); }
   }
   if (up) await pushChat("", up.url, up.name, f.size);
+}
+
+/* ==========================================================
+   시장 브리핑: 홈 표시 + 관리자 게시
+   ========================================================== */
+const MARKET_API = "https://workmentor.dbsghddls123.workers.dev";
+
+function wmEl(tag, className, text) {
+  const node = document.createElement(tag);
+  if (className) node.className = className;
+  if (text != null) node.textContent = text;
+  return node;
+}
+function wmTextBlock(parent, label, value) {
+  if (!value) return;
+  const p = wmEl("p", "", "");
+  p.appendChild(wmEl("strong", "", label + ": "));
+  p.appendChild(document.createTextNode(value));
+  parent.appendChild(p);
+}
+function renderBriefing(data) {
+  const meta = document.getElementById("wm-market-briefing-meta");
+  const list = document.getElementById("wm-market-briefing-list");
+  const market = document.getElementById("wm-market-briefing-market");
+  if (!meta || !list || !market) return;
+  meta.textContent = "최근 업데이트: " + (data.updatedAtKST || "-") + " · 확인: " + (data.confirmedAtKST || "-");
+  list.replaceChildren();
+  const items = Array.isArray(data.items) ? data.items : [];
+  if (!items.length) {
+    const empty = wmEl("article", "wm-market-briefing__card", "");
+    empty.appendChild(wmEl("h3", "", data.notice || "게시된 브리핑이 없습니다."));
+    empty.appendChild(wmEl("p", "", "확인된 긴급 속보가 있으면 이 영역에 표시됩니다."));
+    list.appendChild(empty);
+  }
+  items.forEach(item => {
+    const card = wmEl("article", "wm-market-briefing__card" + (item.urgent ? " wm-market-briefing__card--urgent" : ""), "");
+    card.appendChild(wmEl("span", "wm-market-briefing__tag", item.category || "시장 속보"));
+    card.appendChild(wmEl("h3", "", item.title || "제목 없음"));
+    card.appendChild(wmEl("p", "", item.summary || ""));
+    wmTextBlock(card, "시장 영향", item.marketImpact || "");
+    wmTextBlock(card, "왜 중요한가", item.whyImportant || "");
+    card.appendChild(wmEl("div", "wm-market-briefing__time",
+      "게시/공시: " + (item.publishedAtKST || "-") +
+      (item.originalTime ? " · 원문: " + item.originalTime : "") +
+      (item.confirmedAtKST ? " · 확인: " + item.confirmedAtKST : "")));
+    const sources = wmEl("div", "wm-market-briefing__sources", "");
+    (Array.isArray(item.sources) ? item.sources : []).forEach(s => {
+      if (!s || !s.url || !/^https?:\/\//i.test(String(s.url))) return;
+      const a = document.createElement("a");
+      a.href = s.url; a.target = "_blank"; a.rel = "noopener noreferrer";
+      a.textContent = s.name || "출처";
+      sources.appendChild(a);
+    });
+    card.appendChild(sources);
+    list.appendChild(card);
+  });
+  market.replaceChildren();
+  (Array.isArray(data.market) ? data.market : []).forEach(m => {
+    const box = wmEl("div", "wm-market-briefing__metric", "");
+    box.appendChild(wmEl("strong", "", m.label || "지표"));
+    box.appendChild(wmEl("span", "", [m.value, m.change].filter(Boolean).join(" ")));
+    if (m.note || m.asOfKST) box.appendChild(wmEl("small", "", [m.note, m.asOfKST].filter(Boolean).join(" · ")));
+    market.appendChild(box);
+  });
+}
+async function loadMarketBriefing() {
+  const meta = document.getElementById("wm-market-briefing-meta");
+  try {
+    const res = await fetch(MARKET_API + "/?api=market&v=" + Date.now(), { cache: "no-store" });
+    if (!res.ok) throw new Error("HTTP " + res.status);
+    renderBriefing(await res.json());
+  } catch (e) {
+    if (meta) meta.textContent = "브리핑 데이터를 불러오지 못했습니다. 잠시 후 자동으로 다시 시도합니다.";
+  }
+}
+loadMarketBriefing();
+setInterval(loadMarketBriefing, 5 * 60 * 1000);   /* 5분마다 자동 갱신 */
+
+/* 관리자: ChatGPT 브리핑 JSON 게시 */
+function setBriefStatus(m) { const el = document.getElementById("brief-status"); if (el) el.textContent = m; }
+async function loadBriefingToEditor() {
+  try {
+    const r = await fetch(MARKET_API + "/?api=market&v=" + Date.now(), { cache: "no-store" });
+    document.getElementById("brief-json").value = JSON.stringify(await r.json(), null, 2);
+    setBriefStatus("현재 게시본을 불러왔습니다.");
+  } catch (e) { setBriefStatus("불러오기 실패: " + e.message); }
+}
+async function publishBriefing() {
+  const raw = document.getElementById("brief-json").value.trim();
+  if (!raw) return setBriefStatus("ChatGPT에서 받은 브리핑 JSON을 붙여넣어 주세요.");
+  let obj;
+  try { obj = JSON.parse(raw); } catch (e) { return setBriefStatus("JSON 형식 오류: " + e.message + " — 전체를 온전히 복사했는지 확인하세요."); }
+  const s = await sb.auth.getSession();
+  const token = s && s.data && s.data.session ? s.data.session.access_token : null;
+  if (!token) return setBriefStatus("관리자 로그인이 필요합니다.");
+  setBriefStatus("게시 중...");
+  try {
+    const r = await fetch(MARKET_API + "/?api=market-update", {
+      method: "POST",
+      headers: { "Authorization": "Bearer " + token, "Content-Type": "application/json" },
+      body: JSON.stringify(obj)
+    });
+    const d = await r.json().catch(() => null);
+    if (!r.ok) return setBriefStatus("게시 실패: " + (d && d.error ? d.error : "HTTP " + r.status));
+    setBriefStatus("✅ 게시 완료! 홈 화면에 반영되었습니다.");
+    loadMarketBriefing();
+  } catch (e) { setBriefStatus("게시 실패: " + e.message); }
 }
 
 /* --- API 설정 --- */
