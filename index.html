@@ -4,7 +4,7 @@
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <title>워크멘토 — 인재,기술 개발과 정부지원사업을 하나로</title>
-<meta name="description" content="채용공고, 기업 네트워킹, 정부 지원사업 실시간 정보를 하나로 모은 중소기업 통합 플랫폼" />
+<meta name="description" content="요청공고, 기업 네트워킹, 정부 지원사업 실시간 정보를 하나로 모은 중소기업 통합 플랫폼" />
 
 <!-- 검색·공유 최적화: 링크 공유 시 뜨는 미리보기 명함 (Open Graph) -->
 <meta name="naver-site-verification" content="d2836e7fd3cca3490dd11efba3069c8478967b40" />
@@ -12,7 +12,7 @@
 <link rel="canonical" href="https://www.workmentor.co.kr/" />
 <meta property="og:type" content="website" />
 <meta property="og:title" content="워크멘토 — 인재,기술 개발과 정부지원사업을 하나로" />
-<meta property="og:description" content="채용공고, 기업 네트워킹, 정부 지원사업 실시간 정보를 하나로 모은 중소기업 통합 플랫폼" />
+<meta property="og:description" content="요청공고, 기업 네트워킹, 정부 지원사업 실시간 정보를 하나로 모은 중소기업 통합 플랫폼" />
 <meta property="og:url" content="https://www.workmentor.co.kr/" />
 <meta property="og:image" content="https://www.workmentor.co.kr/og-image.png" />
 <meta property="og:site_name" content="워크멘토" />
@@ -402,7 +402,7 @@ footer select { border: 1px solid var(--line); border-radius: 6px; padding: 4px 
       <button data-page="home" class="on">홈</button>
       <button data-page="funds">지원사업</button>
       <button data-page="companies">기업정보</button>
-      <button data-page="jobs">채용공고</button>
+      <button data-page="jobs">요청공고</button>
       <button data-page="lessons">경영수업</button>
       <button data-page="chat">소통방</button>
       <button data-page="plans">멤버쉽</button>
@@ -444,7 +444,7 @@ footer select { border: 1px solid var(--line); border-radius: 6px; padding: 4px 
 
   <div class="catstrip">
     <button onclick="go('funds')"><span class="ct">지원사업</span><span class="cs">자세히보기</span></button>
-    <button onclick="go('jobs')"><span class="ct">채용공고</span><span class="cs">자세히보기</span></button>
+    <button onclick="go('jobs')"><span class="ct">요청공고</span><span class="cs">자세히보기</span></button>
     <button onclick="go('companies')"><span class="ct">기업정보</span><span class="cs">자세히보기</span></button>
     <button onclick="lState.cat='최신 정보'; buildLessonFilters(); renderLessons(); go('lessons')"><span class="ct">최신 정보</span><span class="cs">자세히보기</span></button>
     <button onclick="go('lessons')"><span class="ct">경영수업</span><span class="cs">자세히보기</span></button>
@@ -452,11 +452,11 @@ footer select { border: 1px solid var(--line); border-radius: 6px; padding: 4px 
     <button onclick="go('about')"><span class="ct">소개</span><span class="cs">자세히보기</span></button>
   </div>
 
-  <h2 class="section">기업정보 · 채용공고</h2>
-  <p class="section-sub">왼쪽은 워크멘토와 함께하는 기업, 오른쪽은 진행 중인 채용공고입니다. 10초마다 자동으로 전환되며, 카드를 누르면 상세를 볼 수 있습니다.</p>
+  <h2 class="section">기업정보 · 요청공고</h2>
+  <p class="section-sub">왼쪽은 워크멘토와 함께하는 기업, 오른쪽은 진행 중인 요청공고(인력채용·거래처·원자재)입니다. 10초마다 자동으로 전환되며, 카드를 누르면 상세를 볼 수 있습니다.</p>
   <div class="showcase" id="homeShowcase">
     <div class="showcol"><p class="showcol-t">기업정보</p><div class="showstack" id="homeCoCol"><p class="empty">기업 목록을 불러오는 중...</p></div></div>
-    <div class="showcol"><p class="showcol-t">채용공고</p><div class="showstack" id="homeJobCol"><p class="empty">채용공고를 불러오는 중...</p></div></div>
+    <div class="showcol"><p class="showcol-t">요청공고</p><div class="showstack" id="homeJobCol"><p class="empty">요청공고를 불러오는 중...</p></div></div>
   </div>
 
   <!-- ============ 긴급 시장 속보 · AI/투자 브리핑 ============ -->
@@ -505,13 +505,14 @@ footer select { border: 1px solid var(--line); border-radius: 6px; padding: 4px 
   <div class="cogrid" id="coGrid"></div>
 </section>
 
-<!-- ============ 채용공고 ============ -->
+<!-- ============ 요청공고 ============ -->
 <section class="page" id="page-jobs">
-  <h2 class="section">채용공고</h2>
-  <p class="section-sub">지역·고용형태로 걸러보세요. 지원금 연계 공고에는 골드 배지가 붙습니다.</p>
+  <h2 class="section">요청공고</h2>
+  <p class="section-sub">인력채용은 물론 거래처·원자재/물품 요청까지 — 기업이 필요한 것을 올리고 연결됩니다. 유형·지역으로 걸러보세요. 지원금 연계 공고에는 골드 배지가 붙습니다.</p>
   <div class="filterbar">
+    <div class="filterrow"><span class="flabel">요청 유형</span><div class="chips" id="jReqs"></div></div>
     <div class="filterrow"><span class="flabel">지역</span><div class="chips" id="jRegions"></div></div>
-    <div class="filterrow"><span class="flabel">고용형태</span><div class="chips" id="jTypes"></div></div>
+    <div class="filterrow"><span class="flabel">세부 형태</span><div class="chips" id="jTypes"></div></div>
   </div>
   <div class="list" id="jobList"></div>
 </section>
@@ -561,14 +562,14 @@ footer select { border: 1px solid var(--line); border-radius: 6px; padding: 4px 
 <!-- ============ 멤버쉽 ============ -->
 <section class="page" id="page-plans">
   <h2 class="section">기업 멤버쉽</h2>
-  <p class="section-sub">채용공고 노출과 지원사업 알림, 기업 홍보를 하나의 구독으로.</p>
+  <p class="section-sub">요청공고 노출과 지원사업 알림, 기업 홍보를 하나의 구독으로.</p>
   <div class="plans">
     <div class="card plan">
       <h3>베이직</h3>
       <p class="price mono">0원</p><p class="per">평생 무료</p>
       <ul>
         <li>기업정보 등록 1건</li>
-        <li>채용공고 1건</li>
+        <li>요청공고 1건</li>
         <li>지원사업 열람</li>
       </ul>
       <button onclick="openPay('베이직', 0)">무료로 시작</button>
@@ -578,7 +579,7 @@ footer select { border: 1px solid var(--line); border-radius: 6px; padding: 4px 
       <p class="price mono">99,000원</p><p class="per">월 / 부가세 별도</p>
       <ul>
         <li>기업정보 상단 노출 + 사진 갤러리</li>
-        <li>채용공고 10건 + 상단 노출</li>
+        <li>요청공고 10건 + 상단 노출</li>
         <li>맞춤 지원사업 알림</li>
         <li>채용 × 지원금 자동 매칭</li>
         <li>연락처·홈페이지 공개</li>
@@ -589,7 +590,7 @@ footer select { border: 1px solid var(--line); border-radius: 6px; padding: 4px 
       <h3>프리미엄</h3>
       <p class="price mono">249,000원</p><p class="per">월 / 부가세 별도</p>
       <ul>
-        <li>채용공고 무제한 + 최상단 고정</li>
+        <li>요청공고 무제한 + 최상단 고정</li>
         <li>지원사업 신청서류 컨설팅 연결</li>
         <li>전담 매니저 배정</li>
         <li>전자근로계약서·급여관리</li>
@@ -711,10 +712,10 @@ footer select { border: 1px solid var(--line); border-radius: 6px; padding: 4px 
   <!-- 대시보드 -->
   <div id="adminDash" style="display:none;">
     <h2 class="section">관리자 대시보드</h2>
-    <p class="section-sub">기업·채용공고 등록/수정/삭제, 회원 등급 관리, API 연동 설정을 할 수 있습니다.</p>
+    <p class="section-sub">기업·요청공고 등록/수정/삭제, 회원 등급 관리, API 연동 설정을 할 수 있습니다.</p>
     <div class="atabs">
       <button class="on" data-tab="co" onclick="atab('co')">기업 관리</button>
-      <button data-tab="job" onclick="atab('job')">채용공고 관리</button>
+      <button data-tab="job" onclick="atab('job')">요청공고 관리</button>
       <button data-tab="lesson" onclick="atab('lesson')">경영수업 관리</button>
       <button data-tab="chat" onclick="atab('chat')">소통방</button>
       <button data-tab="brief" onclick="atab('brief')">시장 브리핑</button>
@@ -761,27 +762,33 @@ footer select { border: 1px solid var(--line); border-radius: 6px; padding: 4px 
       <div class="alist" id="coAdminList"></div>
     </div>
 
-    <!-- 채용공고 관리 -->
+    <!-- 요청공고 관리 -->
     <div class="apanel" id="apanel-job">
       <div class="card form">
         <input type="hidden" id="job-id" />
         <div class="frow">
-          <div><label>공고 제목 *</label><input id="job-title" placeholder="물류센터 상하차 사원 (청년 정규직)" /></div>
+          <div><label>요청 유형 *</label>
+            <select id="job-reqtype"><option>인력채용</option><option>거래처</option><option>원자재·물품</option><option>기타</option></select>
+          </div>
           <div><label>기업명</label><input id="job-company" placeholder="(주)한빛물류" /></div>
+        </div>
+        <div class="frow">
+          <div><label>공고 제목 *</label><input id="job-title" placeholder="예: 상하차 사원 채용 / 파렛트 정기 납품처 구함 / IPA 원자재 견적 요청" /></div>
+          <div><label>급여 / 예산·수량</label><input id="job-pay" placeholder="월 280만 · 월 500박스 · 견적 협의" /></div>
         </div>
         <div class="frow">
           <div><label>지역</label>
             <select id="job-region"><option>서울</option><option>경기</option><option>인천</option><option>부산</option><option>대구</option><option>대전</option><option>광주</option><option>기타</option></select>
           </div>
-          <div><label>고용형태</label>
-            <select id="job-type"><option>정규직</option><option>계약직</option><option>아르바이트</option></select>
+          <div><label>세부 형태</label>
+            <select id="job-type"><option>정규직</option><option>계약직</option><option>아르바이트</option><option>정기거래</option><option>단발거래</option><option>견적요청</option></select>
           </div>
         </div>
         <div class="frow">
-          <div><label>급여</label><input id="job-pay" placeholder="월 280만 / 시급 12,000" /></div>
           <div><label>연계 지원금 (없으면 비워두기)</label><input id="job-grant" placeholder="청년일자리도약장려금 · 최대 720만원/1인" /></div>
+          <div><label>&nbsp;</label><p class="status" style="margin:0;">거래처·원자재 요청은 지원금 칸을 비워두면 됩니다.</p></div>
         </div>
-        <div><label>상세 내용</label><textarea id="job-desc" placeholder="업무 내용, 근무 시간, 복리후생 등"></textarea></div>
+        <div><label>상세 내용</label><textarea id="job-desc" placeholder="업무 내용·근무 조건, 또는 원하는 거래 조건·품목 규격·납기 등"></textarea></div>
         <div><label>공고 이미지 (선택)</label><input type="file" id="job-img" accept="image/*" /></div>
         <button class="fsave" onclick="saveJob()">공고 저장</button>
       </div>
@@ -1299,12 +1306,14 @@ function showCompany(c) {
 }
 
 /* ==========================================================
-   채용공고
+   요청공고
    ========================================================== */
-let jState = { region: "전체", type: "전체" };
+let jState = { region: "전체", type: "전체", req: "전체" };
+function reqBadgeCls(rt) { return rt === "거래처" ? "paid" : (rt === "원자재·물품" ? "fund" : (rt === "기타" ? "free" : "hr")); }
 function buildJobFilters() {
   const regions = ["전체", ...new Set(DB.jobs.map(j => j.region))];
-  const types = ["전체", "정규직", "계약직", "아르바이트"];
+  const types = ["전체", "정규직", "계약직", "아르바이트", "정기거래", "단발거래", "견적요청"];
+  const reqs = ["전체", "인력채용", "거래처", "원자재·물품", "기타"];
   const mk = (arr, boxId, key) => {
     const box = document.getElementById(boxId);
     box.innerHTML = "";
@@ -1316,6 +1325,7 @@ function buildJobFilters() {
       box.appendChild(b);
     });
   };
+  mk(reqs, "jReqs", "req");
   mk(regions, "jRegions", "region");
   mk(types, "jTypes", "type");
 }
@@ -1323,6 +1333,7 @@ function renderJobs() {
   const box = document.getElementById("jobList");
   box.innerHTML = "";
   const rows = DB.jobs.filter(j =>
+    (jState.req === "전체" || (j.req_type || "인력채용") === jState.req) &&
     (jState.region === "전체" || j.region === jState.region) &&
     (jState.type === "전체" || j.type === jState.type));
   if (!rows.length) { box.innerHTML = '<p class="empty">등록된 공고가 없습니다.</p>'; return; }
@@ -1335,6 +1346,7 @@ function renderJobs() {
         <p class="title">${esc(j.title)}</p>
         <p class="sub">${esc(j.company)} · ${esc(j.region)} · ${esc(j.type)}</p>
         <div class="tags">
+          <span class="badge ${reqBadgeCls(j.req_type || "인력채용")}">${esc(j.req_type || "인력채용")}</span>
           <span class="badge hr">${esc(j.type)}</span>
           ${j.grant ? '<span class="badge fund">지원금 연계</span>' : ''}
         </div>
@@ -1347,6 +1359,7 @@ function renderJobs() {
 function showJob(j) {
   document.getElementById("detailBody").innerHTML = `
     ${j.img ? `<img class="m-img" src="${j.img}" alt="" />` : ""}
+    <span class="badge ${reqBadgeCls(j.req_type || "인력채용")}">${esc(j.req_type || "인력채용")}</span>
     <span class="badge hr">${esc(j.type)}</span>
     ${j.grant ? '<span class="badge fund">지원금 연계</span>' : ''}
     <h3>${esc(j.title)}</h3>
@@ -1541,7 +1554,7 @@ function showLesson(l) {
 }
 
 /* ---------- 홈 매칭 카드 ---------- */
-/* ---------- 홈: 좌 기업정보 2칸 · 우 채용공고 2칸 (5초 자동 전환) ---------- */
+/* ---------- 홈: 좌 기업정보 2칸 · 우 요청공고 2칸 (5초 자동 전환) ---------- */
 let hcIdx = 0, hjIdx = 0, hcTimer = null, hcHover = false;
 function renderHomeCompanies() {
   if (!document.getElementById("homeCoCol")) return;
@@ -1595,7 +1608,7 @@ function drawHomeShowcase() {
   }
 
   jobBox.innerHTML = "";
-  if (!jobs.length) jobBox.innerHTML = '<p class="empty">채용공고를 불러오지 못했습니다. (잠시 후 새로고침 — 계속되면 관리자에게 문의)</p>';
+  if (!jobs.length) jobBox.innerHTML = '<p class="empty">요청공고를 불러오지 못했습니다. (잠시 후 새로고침 — 계속되면 관리자에게 문의)</p>';
   for (let i = 0; i < Math.min(2, jobs.length); i++) {
     const j = jobs[(hjIdx + i) % jobs.length];
     const el = document.createElement("div");
@@ -1606,7 +1619,8 @@ function drawHomeShowcase() {
         <h3>${esc(j.title)}</h3>
         <p class="co-sub">${mask(j.company)} · ${esc(j.region)} · ${esc(j.pay)}원</p>
         <div class="tags" style="margin-top:6px;">
-          <span class="badge hr">${esc(j.type || "채용")}</span>
+          <span class="badge ${reqBadgeCls(j.req_type || "인력채용")}">${esc(j.req_type || "인력채용")}</span>
+          <span class="badge hr">${esc(j.type || "요청")}</span>
           ${j.grant ? '<span class="badge fund">지원금 연계</span>' : ""}
         </div>
       </div>`;
@@ -1805,7 +1819,7 @@ function clearCoForm() {
   document.getElementById("co-img").value = "";
 }
 
-/* --- 채용공고 CRUD --- */
+/* --- 요청공고 CRUD --- */
 async function saveJob() {
   const title = document.getElementById("job-title").value.trim();
   if (!title) return alert("공고 제목을 입력하세요.");
@@ -1813,6 +1827,7 @@ async function saveJob() {
   const id = document.getElementById("job-id").value;
   const obj = {
     title,
+    req_type: document.getElementById("job-reqtype").value,
     company: document.getElementById("job-company").value.trim(),
     region: document.getElementById("job-region").value,
     type: document.getElementById("job-type").value,
@@ -1844,6 +1859,7 @@ function editJob(id) {
   const j = DB.jobs.find(x => x.id === id); if (!j) return;
   document.getElementById("job-id").value = j.id;
   document.getElementById("job-title").value = j.title;
+  document.getElementById("job-reqtype").value = j.req_type || "인력채용";
   document.getElementById("job-company").value = j.company;
   document.getElementById("job-region").value = j.region;
   document.getElementById("job-type").value = j.type;
