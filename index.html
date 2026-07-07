@@ -302,8 +302,8 @@ h2.section { font-weight: 800; font-size: 24px; color: var(--navy); letter-spaci
 .authArea .hello { font-size: 13px; font-weight: 700; color: var(--navy); display: flex; gap: 6px; align-items: center; }
 .adzone { margin-top: 20px; }
 .ad-title { font-size: 10px; letter-spacing: 0.16em; color: #B0A99F; margin-bottom: 7px; font-weight: 700; }
-.ad-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 10px; }
-.ad-slot { min-height: 92px; border: 1px dashed var(--line); border-radius: 10px; display: flex; align-items: center; justify-content: center; color: #B7BECD; font-size: 12px; background: var(--white); overflow: hidden; }
+.ad-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(170px, 1fr)); gap: 10px; }
+.ad-slot { min-height: 72px; border: 1px dashed var(--line); border-radius: 10px; display: flex; align-items: center; justify-content: center; color: #B7BECD; font-size: 12px; background: var(--white); overflow: hidden; }
 
 /* ---------- 워크멘토 소개: 기업 매니징·컨설팅 통합 안내판 ---------- */
 .ab-head { text-align: center; margin: 40px 0 26px; }
@@ -958,7 +958,10 @@ footer select { border: 1px solid var(--line); border-radius: 6px; padding: 4px 
     <div class="ad-grid">
       <div class="ad-slot" id="ad-slot-1"><!-- 승인 후 이 주석 자리에 구글 애드센스 광고 코드를 붙여넣으세요 --><span>광고 자리 A (애드센스)</span></div>
       <div class="ad-slot" id="ad-slot-2"><!-- 쿠팡 파트너스 배너 코드 자리 --><span>광고 자리 B (쿠팡 파트너스)</span></div>
-      <div class="ad-slot" id="ad-slot-3"><!-- 제휴 배너/자체 광고 자리 --><span>광고 자리 C (제휴 배너)</span></div>
+      <div class="ad-slot" id="ad-slot-3"><!-- 제휴 배너 코드 자리 --><span>광고 자리 C (제휴 배너)</span></div>
+      <div class="ad-slot" id="ad-slot-4"><!-- 광고 코드 자리 --><span>광고 자리 D</span></div>
+      <div class="ad-slot" id="ad-slot-5"><!-- 광고 코드 자리 --><span>광고 자리 E</span></div>
+      <div class="ad-slot" id="ad-slot-6"><!-- 광고 코드 자리 --><span>광고 자리 F</span></div>
     </div>
   </div>
 </footer>
@@ -2623,7 +2626,8 @@ async function cloudInit() {
   if (DB.api.key || DB.api.proxy) loadLiveFunds();
 }
 
-document.getElementById("viewMode").value = DB.view || "guest";
+/* v3: 등급은 로그인 상태(syncViewerTier)가 결정 — 옛 체험 셀렉트 참조 제거 */
+DB.view = DB.view || "guest";
 renderAll();
 if (useCloud) cloudInit().then(() => { if (typeof refreshMember === 'function') refreshMember(); });
 else if (DB.api.key || DB.api.proxy) loadLiveFunds();
