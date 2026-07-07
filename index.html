@@ -161,6 +161,11 @@ h2.section { font-weight: 800; font-size: 24px; color: var(--navy); letter-spaci
 .modal .btns button { flex: 1; border: none; border-radius: 8px; padding: 12px; font-weight: 700; font-size: 14.5px; }
 .btn-ghost { background: var(--paper); color: var(--ink); }
 .locknote { background: var(--gold-soft); border-radius: 10px; padding: 14px; font-size: 13.5px; color: #6B4E08; margin-top: 12px; }
+.origbox { margin-top: 14px; display: none; }
+.origbox h4 { font-size: 15px; font-weight: 700; color: var(--navy); margin-bottom: 8px; }
+.origtext { max-height: 380px; overflow-y: auto; background: var(--paper); border: 1px solid var(--line); border-radius: 10px; padding: 14px 16px; font-size: 13.5px; line-height: 1.75; white-space: pre-wrap; }
+.origbox .src { font-size: 12px; color: #7A8398; margin-top: 8px; }
+.origbox .src a { color: var(--blue); }
 .demo-note { background: #FBE7E2; color: var(--danger); font-size: 12.5px; font-weight: 700; padding: 8px 12px; border-radius: 8px; margin: 12px 0; }
 .sum { display: flex; justify-content: space-between; padding: 10px 0; border-top: 1px solid var(--line); font-size: 14.5px; }
 .sum.total { font-weight: 700; font-size: 16px; }
@@ -774,11 +779,36 @@ function showFund(f) {
         ${isPdf ? `<button class="filebtn" onclick="this.nextElementSibling.style.display='block'; this.style.display='none';">사이트에서 바로 열기</button>
         <iframe class="doc" style="display:none;" src="${esc(f.file)}"></iframe>` : ""}
       </div>` : ""}
+    <div class="origbox" id="origBox"></div>
     <div class="btns">
       <button class="btn-ghost" onclick="closeModal('detailModal')">닫기</button>
-      ${f.url ? `<button class="cta gold" onclick="window.open('${esc(f.url)}','_blank')">원문 공고 보기</button>` : ""}
+      ${f.url ? `<button class="cta gold" onclick="viewOriginal('${esc(f.url)}')">원문 내용 보기</button>` : ""}
     </div>`;
   openModal("detailModal");
+}
+
+/* 원문 공고를 워크멘토 안에서 펼쳐 보여주기 (워커의 detail 추출 기능 이용) */
+async function viewOriginal(url) {
+  const box = document.getElementById("origBox");
+  if (!box) return;
+  if (!DB.api.proxy) { window.open(url, "_blank"); return; }   /* 프록시 미설정 시 기존 방식 */
+  box.style.display = "block";
+  box.innerHTML = '<p class="empty">원문을 불러오는 중...</p>';
+  box.scrollIntoView({ behavior: "smooth", block: "nearest" });
+  try {
+    const res = await fetch(DB.api.proxy.replace(/\/$/, "") + "?api=detail&url=" + encodeURIComponent(url));
+    const d = await res.json();
+    if (!d || !d.content) throw new Error("내용을 찾지 못함");
+    box.innerHTML = `
+      ${d.title ? `<h4>${esc(d.title)}</h4>` : ""}
+      <div class="origtext">${esc(d.content)}</div>
+      ${d.files && d.files.length ? `<div class="m-files">` + d.files.map(f =>
+        `<a href="${esc(f.url)}" target="_blank" rel="noopener">📎 ${esc(f.name)}</a>`).join("") + `</div>` : ""}
+      <p class="src">출처: 중소벤처기업부 기업마당 · <a href="${esc(url)}" target="_blank" rel="noopener">기업마당 원문 페이지</a></p>`;
+  } catch (e) {
+    box.innerHTML = `<p class="empty">원문을 사이트 안에서 불러오지 못했습니다.
+      <a href="${esc(url)}" target="_blank" rel="noopener">기업마당에서 열기</a></p>`;
+  }
 }
 
 /* ==========================================================
@@ -984,10 +1014,11 @@ function showLatest(x) {
     <span class="badge ${srcBadge(x.source)}">${esc(x.source)}</span>
     <h3>${esc(x.title)}</h3>
     <p class="m-sub">기업마당 · ${esc(fmtDate(x.date))}</p>
-    <div class="m-body">${esc(x.summary) || "요약 정보가 없습니다. 원문에서 상세 내용을 확인하세요."}</div>
+    <div class="m-body">${esc(x.summary) || "요약 정보가 없습니다. 아래 버튼으로 원문 내용을 펼쳐보세요."}</div>
+    <div class="origbox" id="origBox"></div>
     <div class="btns">
       <button class="btn-ghost" onclick="closeModal('detailModal')">닫기</button>
-      ${x.url ? `<button class="cta gold" onclick="window.open('${esc(x.url)}','_blank')">원문 보기</button>` : ""}
+      ${x.url ? `<button class="cta gold" onclick="viewOriginal('${esc(x.url)}')">원문 내용 보기</button>` : ""}
     </div>`;
   openModal("detailModal");
 }
