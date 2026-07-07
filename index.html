@@ -286,6 +286,11 @@ h2.section { font-weight: 800; font-size: 24px; color: var(--navy); letter-spaci
 .wm-hl-row a { color: #E9E5DE; text-decoration: none; flex: 1; }
 .wm-hl-row a:hover { color: #fff; text-decoration: underline; }
 .wm-hl-time { color: #A79F93; font-size: 11.5px; white-space: nowrap; }
+.insrow { display: flex; align-items: center; gap: 10px; margin: 5px 0; }
+.inslabel { min-width: 110px; font-size: 13.5px; font-weight: 700; color: var(--navy); }
+.insbar { flex: 1; height: 14px; background: var(--paper); border-radius: 7px; overflow: hidden; }
+.insbar span { display: block; height: 100%; background: linear-gradient(90deg, var(--brand), #FFB185); border-radius: 7px; }
+.insval { min-width: 44px; text-align: right; font-size: 12px; color: #7A8398; }
 .demo-note { background: #FBE7E2; color: var(--danger); font-size: 12.5px; font-weight: 700; padding: 8px 12px; border-radius: 8px; margin: 12px 0; }
 .sum { display: flex; justify-content: space-between; padding: 10px 0; border-top: 1px solid var(--line); font-size: 14.5px; }
 .sum.total { font-weight: 700; font-size: 16px; }
@@ -475,7 +480,7 @@ footer select { border: 1px solid var(--line); border-radius: 6px; padding: 4px 
       <div><label>기업 선택</label><select id="chat-co"></select></div>
       <div><label>소통방 코드</label><input id="chat-code" placeholder="관리자에게 받은 코드 입력" onkeydown="if(event.key==='Enter')joinChat()" /></div>
       <button class="fsave" onclick="joinChat()">입장하기</button>
-      <p class="status">코드가 없다면 워크멘토 관리자에게 문의하세요. 대화 내용은 해당 기업과 관리자만 볼 수 있습니다.</p>
+      <p class="status">코드가 없다면 워크멘토 관리자에게 문의하세요. 대화 내용은 해당 기업과 관리자만 볼 수 있으며, 입장 후에는 맞춤 정보 추천을 위해 이 브라우저의 정보 열람 활동이 기업 단위로 기록됩니다.</p>
     </div>
   </div>
 
@@ -567,6 +572,7 @@ footer select { border: 1px solid var(--line); border-radius: 6px; padding: 4px 
       <button data-tab="lesson" onclick="atab('lesson')">경영수업 관리</button>
       <button data-tab="chat" onclick="atab('chat')">소통방</button>
       <button data-tab="brief" onclick="atab('brief')">시장 브리핑</button>
+      <button data-tab="insight" onclick="atab('insight')">관심 분석</button>
       <button data-tab="api" onclick="atab('api')">API 연동</button>
       <button data-tab="data" onclick="atab('data')">데이터 백업</button>
       <button data-tab="set" onclick="atab('set')">설정</button>
@@ -686,6 +692,19 @@ footer select { border: 1px solid var(--line); border-radius: 6px; padding: 4px 
         </div>
         <p class="status" id="brief-status" style="margin-top:8px;">대기 중</p>
       </div>
+    </div>
+
+    <!-- 관심 분석 -->
+    <div class="apanel" id="apanel-insight">
+      <div class="card form">
+        <p class="section-sub" style="margin-bottom:10px;">기업이 소통방에 입장한 뒤 열람한 지원사업·최신 정보·경영수업·헤드라인이 자동 기록됩니다. 기업별로 어떤 분야에 관심이 집중되는지 확인하고 맞춤 솔루션 제안에 활용하세요.</p>
+        <div class="frow">
+          <div><label>기업 선택</label><select id="ins-co"><option value="">전체 기업</option></select></div>
+          <div><label>기간</label><select id="ins-days"><option value="30">최근 30일</option><option value="90">최근 90일</option><option value="">전체 기간</option></select></div>
+        </div>
+        <button type="button" class="fsave" style="margin-top:10px;" onclick="runInsight()">분석하기</button>
+      </div>
+      <div id="ins-out" style="margin-top:14px;"></div>
     </div>
 
     <!-- API 연동 -->
@@ -1004,6 +1023,7 @@ function showFund(f) {
       ${f.url ? `<button class="cta gold" onclick="viewOriginal('${esc(f.url)}')">원문 내용 보기</button>` : ""}
     </div>`;
   openModal("detailModal");
+  logActivity("지원사업", f.title, [f.field, f.org, f.region].filter(Boolean).join(","));
 }
 
 /* 원문 공고를 워크멘토 안에서 펼쳐 보여주기 (워커의 detail 추출 기능 이용) */
@@ -1242,6 +1262,7 @@ function showLatest(x) {
       ${x.url ? `<button class="cta gold" onclick="viewOriginal('${esc(x.url)}')">원문 내용 보기</button>` : ""}
     </div>`;
   openModal("detailModal");
+  logActivity(x.source || "최신 정보", x.title, x.source || "");
 }
 
 function buildLessonFilters() {
@@ -1315,6 +1336,7 @@ function drawLessonList() {
 }
 
 function showLesson(l) {
+  logActivity("경영수업", l.title, l.category || "");
   /* 유료 전용 자료는 유료회원만 내용·파일 열람 */
   const locked = l.access === "paid" && DB.view !== "paid";
   document.getElementById("detailBody").innerHTML = `
@@ -1699,7 +1721,7 @@ function genCode() {
   return o;
 }
 function fillChatSelects() {
-  ["chat-co", "achat-co"].forEach(id => {
+  ["chat-co", "achat-co", "ins-co"].forEach(id => {
     const el = document.getElementById(id);
     if (!el) return;
     const cur = el.value;
@@ -1729,6 +1751,7 @@ async function joinChat() {
   if (data !== true) return alert("소통방 코드가 올바르지 않습니다.");
   CHAT.mode = "company"; CHAT.companyId = cid; CHAT.code = code;
   const co = DB.companies.find(c => c.id === cid);
+  try { localStorage.setItem("wm_identity", JSON.stringify({ companyId: cid, code, name: co ? co.name : "" })); } catch (_) {}
   document.getElementById("chatEntry").style.display = "none";
   document.getElementById("chatRoom").style.display = "block";
   document.getElementById("chatRoomTitle").innerHTML = `<b>${esc(co ? co.name : "기업")}</b> ↔ 워크멘토 관리자`;
@@ -1867,6 +1890,65 @@ async function sendChatFile(inputId) {
 }
 
 /* ==========================================================
+   기업 관심 기록 (소통방 입장으로 신원 확인된 브라우저만)
+   ========================================================== */
+function logActivity(kind, title, tags) {
+  if (!useCloud) return;
+  let idn = null;
+  try { idn = JSON.parse(localStorage.getItem("wm_identity") || "null"); } catch (_) {}
+  if (!idn || !idn.companyId || !idn.code) return;
+  sb.rpc("log_activity", {
+    p_company: idn.companyId, p_code: idn.code,
+    p_kind: kind, p_title: String(title || "").slice(0, 200), p_tags: String(tags || "").slice(0, 200)
+  }).then(() => {}).catch(() => {});
+}
+
+/* ---------- 관리자: 관심 분석 ---------- */
+const INS_STOP = new Set(["지원","사업","공고","모집","안내","선정","계획","공모","신청","관련","위한","대상","기업","중소기업","및","제","차","년","월","일","the","and","for"]);
+async function runInsight() {
+  const out = document.getElementById("ins-out");
+  out.innerHTML = '<p class="empty">분석 중...</p>';
+  const cid = +document.getElementById("ins-co").value || null;
+  const days = document.getElementById("ins-days").value;
+  let q = sb.from("activity").select("*").order("created_at", { ascending: false }).limit(500);
+  if (cid) q = q.eq("company_id", cid);
+  if (days) q = q.gte("created_at", new Date(Date.now() - (+days) * 86400000).toISOString());
+  const { data: rows, error } = await q;
+  if (error) { out.innerHTML = '<p class="empty">조회 실패: ' + esc(error.message) + ' (add-analytics.sql 실행 여부와 관리자 로그인을 확인하세요)</p>'; return; }
+  if (!rows || !rows.length) { out.innerHTML = '<p class="empty">아직 기록이 없습니다. 기업이 소통방에 코드로 입장한 뒤 정보를 열람하면 여기에 쌓입니다.</p>'; return; }
+
+  /* 키워드 집계: 분야 태그(가중 3점) + 제목 단어(1점) */
+  const kw = {}, kinds = {};
+  rows.forEach(r => {
+    kinds[r.kind || "기타"] = (kinds[r.kind || "기타"] || 0) + 1;
+    String(r.tags || "").split(",").map(s => s.trim()).filter(s => s.length >= 2 && !INS_STOP.has(s)).forEach(t => kw[t] = (kw[t] || 0) + 3);
+    String(r.title || "").split(/[^가-힣A-Za-z0-9]+/).filter(w => w.length >= 2 && !INS_STOP.has(w) && !/^\d+$/.test(w)).forEach(w => kw[w] = (kw[w] || 0) + 1);
+  });
+  const topKw = Object.entries(kw).sort((a, b) => b[1] - a[1]).slice(0, 10);
+  const maxV = topKw.length ? topKw[0][1] : 1;
+  const coName = cid ? (DB.companies.find(c => c.id === cid) || {}).name : "전체 기업";
+
+  out.innerHTML = `
+    <div class="card" style="padding:18px;">
+      <p class="title" style="margin-bottom:4px;">${esc(coName || "기업")} · 총 ${rows.length}건 열람</p>
+      <p class="sub" style="margin-bottom:14px;">유형: ${Object.entries(kinds).sort((a,b)=>b[1]-a[1]).map(([k,v]) => esc(k) + " " + v + "건").join(" · ")}</p>
+      <p class="title" style="font-size:14px; margin-bottom:8px;">관심 키워드 TOP ${topKw.length}</p>
+      ${topKw.map(([k, v]) => `
+        <div class="insrow">
+          <span class="inslabel">${esc(k)}</span>
+          <span class="insbar"><span style="width:${Math.round(v / maxV * 100)}%"></span></span>
+          <span class="insval">${v}점</span>
+        </div>`).join("")}
+      <p class="title" style="font-size:14px; margin:16px 0 8px;">최근 열람 10건</p>
+      ${rows.slice(0, 10).map(r => `
+        <p class="sub" style="margin:4px 0;">
+          <span class="badge free">${esc(r.kind || "")}</span> ${esc((r.title || "").slice(0, 60))}
+          <span class="mono" style="color:#9AA3B5; font-size:11px;"> · ${esc(String(r.created_at).slice(0, 16).replace("T", " "))}</span>
+        </p>`).join("")}
+    </div>`;
+}
+
+/* ==========================================================
    시장 브리핑: 홈 표시 + 관리자 게시
    ========================================================== */
 const MARKET_API = "https://workmentor.dbsghddls123.workers.dev";
@@ -1949,6 +2031,7 @@ function renderBriefing(data) {
           a.href = r.link; a.target = "_blank"; a.rel = "noopener noreferrer";
         }
         a.textContent = r.title || "";
+        a.addEventListener("click", () => logActivity("헤드라인", r.title, [r.category, r.source].filter(Boolean).join(",")));
         row.appendChild(a);
         row.appendChild(wmEl("span", "wm-hl-time", r.timeKST || ""));
         listBox.appendChild(row);
