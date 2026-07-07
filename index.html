@@ -776,8 +776,8 @@ function showFund(f) {
       <div class="m-files">
         <b style="font-size:13.5px;">첨부파일</b><br />
         <a href="${esc(f.file)}" target="_blank" rel="noopener">📎 ${esc(f.fileName || "공고문 내려받기")}</a>
-        ${isPdf ? `<button class="filebtn" onclick="this.nextElementSibling.style.display='block'; this.style.display='none';">사이트에서 바로 열기</button>
-        <iframe class="doc" style="display:none;" src="${esc(f.file)}"></iframe>` : ""}
+        ${isPdf ? `<button class="filebtn" onclick="const ifr=this.nextElementSibling; ifr.src=ifr.dataset.src; ifr.style.display='block'; this.style.display='none';">사이트에서 바로 열기</button>
+        <iframe class="doc" style="display:none;" data-src="${esc(f.file)}"></iframe>` : ""}
       </div>` : ""}
     <div class="origbox" id="origBox"></div>
     <div class="btns">
