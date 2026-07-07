@@ -216,6 +216,18 @@ h2.section { font-weight: 800; font-size: 24px; color: var(--navy); letter-spaci
 .origtext { max-height: 380px; overflow-y: auto; background: var(--paper); border: 1px solid var(--line); border-radius: 10px; padding: 14px 16px; font-size: 13.5px; line-height: 1.75; white-space: pre-wrap; }
 .origbox .src { font-size: 12px; color: #7A8398; margin-top: 8px; }
 .origbox .src a { color: var(--blue); }
+
+/* ---------- 소통방 ---------- */
+.chatbox { display: flex; flex-direction: column; height: 540px; padding: 0; overflow: hidden; }
+.chatlog { flex: 1; overflow-y: auto; padding: 16px; display: flex; flex-direction: column; gap: 8px; background: var(--paper); }
+.msg { max-width: 72%; padding: 9px 13px; border-radius: 12px; font-size: 14px; line-height: 1.6; word-break: break-all; }
+.msg.me { align-self: flex-end; background: var(--brand); color: #fff; border-bottom-right-radius: 4px; }
+.msg.me a { color: #fff; text-decoration: underline; }
+.msg.other { align-self: flex-start; background: var(--white); border: 1px solid var(--line); border-bottom-left-radius: 4px; }
+.msg.other a { color: var(--blue); }
+.msg .mtime { display: block; font-size: 10.5px; opacity: 0.65; margin-top: 4px; }
+.chatin { display: flex; gap: 8px; padding: 12px; border-top: 1px solid var(--line); background: var(--white); align-items: center; }
+.chatin input:not([type="file"]) { flex: 1; border: 1px solid var(--line); border-radius: 8px; padding: 11px 13px; background: var(--paper); }
 .demo-note { background: #FBE7E2; color: var(--danger); font-size: 12.5px; font-weight: 700; padding: 8px 12px; border-radius: 8px; margin: 12px 0; }
 .sum { display: flex; justify-content: space-between; padding: 10px 0; border-top: 1px solid var(--line); font-size: 14.5px; }
 .sum.total { font-weight: 700; font-size: 16px; }
@@ -273,6 +285,7 @@ footer select { border: 1px solid var(--line); border-radius: 6px; padding: 4px 
       <button data-page="companies">기업정보</button>
       <button data-page="jobs">채용공고</button>
       <button data-page="lessons">경영수업</button>
+      <button data-page="chat">소통방</button>
       <button data-page="plans">멤버쉽</button>
       <button data-page="about">소개</button>
       <button data-page="admin">관리자</button>
@@ -297,11 +310,11 @@ footer select { border: 1px solid var(--line); border-radius: 6px; padding: 4px 
     </div>
     <p class="kicker">일과 사람 그리고 지원정책의 멘토</p>
     <h1>
-      <span class="hl-hr">직원 찾는 일</span>과
+      <span class="hl-hr">인재와 기업 혁신</span>그리고
       <span class="hl-fund">정책 지원을 받는 일</span>,<br />
       '워크멘토' 한 곳에서 해결하세요.
     </h1>
-    <p>기업과 사업의 존재를 알리는 순간,연계되어 얻을수 있는 모든 기업 지원 정책들 및 지식들을 실시간으로 이어드립니다.
+    <p>기업과 사업의 존재를 알리는 순간,연결되어 얻을수 있는 모든 기업 지원 정책들 및 지식들을 실시간으로 이어드립니다.
     기업매니징·인재 구인·사업 홍보와 기업 간 거래처 연결, 그리고 정부 지원사업 실시간 정보까지 — 중소기업에 필요한 모든 것.</p>
     <div class="actions">
       <button class="btn-blue" onclick="go('jobs')">채용공고 보기</button>
@@ -381,6 +394,34 @@ footer select { border: 1px solid var(--line); border-radius: 6px; padding: 4px 
   <div class="list" id="lessonList"></div>
 </section>
 
+<!-- ============ 소통방 ============ -->
+<section class="page" id="page-chat">
+  <h2 class="section">소통방</h2>
+  <p class="section-sub">등록 기업과 워크멘토 관리자가 1:1로 대화하고 파일을 주고받는 전용 공간입니다.</p>
+
+  <div class="card" id="chatEntry" style="max-width:460px;">
+    <div class="form">
+      <div><label>기업 선택</label><select id="chat-co"></select></div>
+      <div><label>소통방 코드</label><input id="chat-code" placeholder="관리자에게 받은 코드 입력" onkeydown="if(event.key==='Enter')joinChat()" /></div>
+      <button class="fsave" onclick="joinChat()">입장하기</button>
+      <p class="status">코드가 없다면 워크멘토 관리자에게 문의하세요. 대화 내용은 해당 기업과 관리자만 볼 수 있습니다.</p>
+    </div>
+  </div>
+
+  <div id="chatRoom" style="display:none;">
+    <p class="section-sub" id="chatRoomTitle"></p>
+    <div class="card chatbox">
+      <div class="chatlog" id="chatLog"></div>
+      <div class="chatin">
+        <label class="filebtn" style="cursor:pointer; margin:0;">📎<input type="file" id="chat-file" style="display:none;" onchange="sendChatFile('chat-file')" /></label>
+        <input id="chat-msg" placeholder="메시지 입력..." onkeydown="if(event.key==='Enter')sendChat()" />
+        <button class="cta gold" onclick="sendChat()">전송</button>
+      </div>
+    </div>
+    <p class="status" style="margin-top:8px;">📎로 파일을 보낼 수 있습니다 (25MB 이하) · <a href="#" onclick="leaveChat(); return false;">소통방 나가기</a></p>
+  </div>
+</section>
+
 <!-- ============ 멤버쉽 ============ -->
 <section class="page" id="page-plans">
   <h2 class="section">기업 멤버쉽</h2>
@@ -453,6 +494,7 @@ footer select { border: 1px solid var(--line); border-radius: 6px; padding: 4px 
       <button class="on" data-tab="co" onclick="atab('co')">기업 관리</button>
       <button data-tab="job" onclick="atab('job')">채용공고 관리</button>
       <button data-tab="lesson" onclick="atab('lesson')">경영수업 관리</button>
+      <button data-tab="chat" onclick="atab('chat')">소통방</button>
       <button data-tab="api" onclick="atab('api')">API 연동</button>
       <button data-tab="data" onclick="atab('data')">데이터 백업</button>
       <button data-tab="set" onclick="atab('set')">설정</button>
@@ -483,6 +525,10 @@ footer select { border: 1px solid var(--line); border-radius: 6px; padding: 4px 
           <div><label>회원 등급</label>
             <select id="co-tier"><option value="free">무료회원</option><option value="paid">유료회원</option></select>
           </div>
+        </div>
+        <div class="frow">
+          <div><label>소통방 코드 (이 기업에게 전달할 입장 코드)</label><input id="co-chatcode" placeholder="예: HB2026 — 비워두면 소통방 미개설" /></div>
+          <div style="display:flex; align-items:flex-end;"><button type="button" class="filebtn" style="margin:0;" onclick="document.getElementById('co-chatcode').value=genCode()">코드 자동생성</button></div>
         </div>
         <div><label>대표 사진 (파일 업로드 → 사이트에 저장됨, 500KB 이하 권장)</label><input type="file" id="co-img" accept="image/*" /></div>
         <button class="fsave" onclick="saveCompany()">기업 저장</button>
@@ -537,6 +583,24 @@ footer select { border: 1px solid var(--line); border-radius: 6px; padding: 4px 
         <button class="fsave" onclick="saveLesson()">자료 저장</button>
       </div>
       <div class="alist" id="lessonAdminList"></div>
+    </div>
+
+    <!-- 소통방 관리 -->
+    <div class="apanel" id="apanel-chat">
+      <div class="card form">
+        <div class="frow">
+          <div><label>기업 선택</label><select id="achat-co" onchange="adminOpenChat()"></select></div>
+          <div><label>이 기업의 소통방 코드 (기업에게 전달)</label><input id="achat-code" readonly placeholder="기업 관리에서 코드를 저장하세요" /></div>
+        </div>
+      </div>
+      <div class="card chatbox" style="margin-top:12px;">
+        <div class="chatlog" id="aChatLog"><p class="empty">기업을 선택하면 대화가 표시됩니다.</p></div>
+        <div class="chatin">
+          <label class="filebtn" style="cursor:pointer; margin:0;">📎<input type="file" id="achat-file" style="display:none;" onchange="sendChatFile('achat-file')" /></label>
+          <input id="achat-msg" placeholder="관리자 답변 입력..." onkeydown="if(event.key==='Enter')sendChat()" />
+          <button class="cta gold" onclick="sendChat()">전송</button>
+        </div>
+      </div>
     </div>
 
     <!-- API 연동 -->
@@ -607,7 +671,7 @@ footer select { border: 1px solid var(--line); border-radius: 6px; padding: 4px 
 
 <footer>
   본 사이트의 기업을 위한 지원사업 정보 출처는 중소벤처기업부와 각종 지자체 입니다. 예시 데이터가 표시될 수 있으며,
-  최종 확인은 각 공고 원문을 따릅니다. (워크멘토 사업자등록번호 133-16-02411)
+  최종 확인은 각 공고 원문을 따릅니다. ('워크멘토' 사업자등록번호 133-16-02411)
   <div class="viewmode">
     회원 등급:
     <select id="viewMode" onchange="DB.view=this.value; saveDB(); renderCompanies();">
@@ -717,6 +781,7 @@ function go(page) {
   document.getElementById("page-" + page).classList.add("on");
   document.querySelectorAll("#nav button").forEach(b => b.classList.toggle("on", b.dataset.page === page));
   window.scrollTo({ top: 0 });
+  if (typeof chatOnNavigate === "function") chatOnNavigate(page);
 }
 document.querySelectorAll("#nav button").forEach(b => b.addEventListener("click", () => go(b.dataset.page)));
 
@@ -1010,7 +1075,7 @@ function showJob(j) {
    경영수업 (관리자가 올리는 정보·파일 자료실)
    ========================================================== */
 let lState = { cat: "최신 정보" };
-const LESSON_CATS = ["최신 정보", "전체", "세무/회계", "노무/인사", "마케팅", "정책지원금", "계약/법률", "경영 일반"];
+const LESSON_CATS = ["최신 정보", "전체", "세무/회계", "노무/인사", "마케팅", "지원금 신청", "계약/법률", "경영 일반"];
 
 /* ---- 최신 정보: 기업마당 행사정보 + 정책뉴스 자동 수집 ---- */
 let LATEST = [];
@@ -1249,6 +1314,7 @@ function atab(t) {
   document.querySelectorAll(".atabs button").forEach(b => b.classList.toggle("on", b.dataset.tab === t));
   document.querySelectorAll(".apanel").forEach(p => p.classList.remove("on"));
   document.getElementById("apanel-" + t).classList.add("on");
+  if (typeof chatOnTab === "function") chatOnTab(t);
 }
 /* 클라우드 파일 업로드: 워커를 거쳐 Cloudflare R2 창고에 저장 (관리자 로그인 검증) */
 async function uploadToR2(f, folder) {
@@ -1335,9 +1401,20 @@ async function saveCompany() {
     img: img || (id ? (DB.companies.find(c => c.id === +id)?.img || "") : "")
   };
   if (useCloud) {
-    const q = id ? sb.from("companies").update(obj).eq("id", +id) : sb.from("companies").insert(obj);
-    const { error } = await q;
-    if (error) return alert("저장 실패: " + error.message + "\n(관리자 로그인이 되어 있어야 저장할 수 있습니다)");
+    let cid = id ? +id : null;
+    if (cid) {
+      const { error } = await sb.from("companies").update(obj).eq("id", cid);
+      if (error) return alert("저장 실패: " + error.message + "\n(관리자 로그인이 되어 있어야 저장할 수 있습니다)");
+    } else {
+      const { data, error } = await sb.from("companies").insert(obj).select("id").single();
+      if (error) return alert("저장 실패: " + error.message + "\n(관리자 로그인이 되어 있어야 저장할 수 있습니다)");
+      cid = data.id;
+    }
+    const codeVal = document.getElementById("co-chatcode").value.trim();
+    if (codeVal) {
+      const { error: ce } = await sb.from("chat_codes").upsert({ company_id: cid, code: codeVal });
+      if (ce) alert("소통방 코드 저장 실패: " + ce.message + "\n(add-chat.sql을 먼저 실행했는지 확인하세요)");
+    }
     await cloudRefresh();
   } else {
     obj.id = id ? +id : Date.now();
@@ -1359,6 +1436,11 @@ function editCompany(id) {
   document.getElementById("co-detail").value = c.detail;
   document.getElementById("co-contact").value = c.contact;
   document.getElementById("co-tier").value = c.tier;
+  document.getElementById("co-chatcode").value = "";
+  if (useCloud) {
+    sb.from("chat_codes").select("code").eq("company_id", c.id).maybeSingle()
+      .then(r => { if (r.data) document.getElementById("co-chatcode").value = r.data.code; });
+  }
   window.scrollTo({ top: 0 });
 }
 async function delCompany(id) {
@@ -1373,7 +1455,7 @@ async function delCompany(id) {
   }
 }
 function clearCoForm() {
-  ["co-id","co-name","co-intro","co-detail","co-contact"].forEach(i => document.getElementById(i).value = "");
+  ["co-id","co-name","co-intro","co-detail","co-contact","co-chatcode"].forEach(i => document.getElementById(i).value = "");
   document.getElementById("co-img").value = "";
 }
 
@@ -1520,6 +1602,147 @@ function renderAdminLists() {
   });
 }
 
+/* ==========================================================
+   소통방 (기업 <-> 관리자 1:1 대화 + 파일)
+   ========================================================== */
+const CHAT = { mode: null, companyId: null, code: "", timer: null };
+
+function genCode() {
+  const s = "ABCDEFGHJKMNPQRSTUVWXYZ23456789";
+  let o = "";
+  for (let i = 0; i < 6; i++) o += s[Math.floor(Math.random() * s.length)];
+  return o;
+}
+function fillChatSelects() {
+  ["chat-co", "achat-co"].forEach(id => {
+    const el = document.getElementById(id);
+    if (!el) return;
+    const cur = el.value;
+    el.innerHTML = '<option value="">기업 선택...</option>' +
+      DB.companies.map(c => `<option value="${c.id}">${esc(c.name)}</option>`).join("");
+    el.value = cur;
+  });
+}
+function stopChatPoll() { if (CHAT.timer) { clearInterval(CHAT.timer); CHAT.timer = null; } }
+function startChatPoll() { stopChatPoll(); fetchChat(); CHAT.timer = setInterval(fetchChat, 4000); }
+function chatOnNavigate(page) {
+  if (page !== "chat" && CHAT.mode === "company") stopChatPoll();
+  if (page === "chat" && CHAT.mode === "company" && CHAT.companyId) startChatPoll();
+}
+function chatOnTab(t) {
+  if (t !== "chat" && CHAT.mode === "admin") stopChatPoll();
+  if (t === "chat" && CHAT.mode === "admin" && CHAT.companyId) startChatPoll();
+}
+
+async function joinChat() {
+  if (!useCloud) return alert("소통방은 클라우드 모드에서 사용할 수 있습니다.");
+  const cid = +document.getElementById("chat-co").value;
+  const code = document.getElementById("chat-code").value.trim();
+  if (!cid || !code) return alert("기업을 선택하고 코드를 입력하세요.");
+  const { data, error } = await sb.rpc("chat_check", { p_company: cid, p_code: code });
+  if (error) return alert("확인 실패: " + error.message + "\n(add-chat.sql이 실행되었는지 확인하세요)");
+  if (data !== true) return alert("소통방 코드가 올바르지 않습니다.");
+  CHAT.mode = "company"; CHAT.companyId = cid; CHAT.code = code;
+  const co = DB.companies.find(c => c.id === cid);
+  document.getElementById("chatEntry").style.display = "none";
+  document.getElementById("chatRoom").style.display = "block";
+  document.getElementById("chatRoomTitle").innerHTML = `<b>${esc(co ? co.name : "기업")}</b> ↔ 워크멘토 관리자`;
+  startChatPoll();
+}
+function leaveChat() {
+  stopChatPoll(); CHAT.mode = null; CHAT.companyId = null; CHAT.code = "";
+  document.getElementById("chatRoom").style.display = "none";
+  document.getElementById("chatEntry").style.display = "block";
+}
+async function adminOpenChat() {
+  const cid = +document.getElementById("achat-co").value;
+  document.getElementById("achat-code").value = "";
+  if (!cid) { stopChatPoll(); document.getElementById("aChatLog").innerHTML = '<p class="empty">기업을 선택하면 대화가 표시됩니다.</p>'; return; }
+  CHAT.mode = "admin"; CHAT.companyId = cid; CHAT.code = "";
+  if (useCloud) {
+    const r = await sb.from("chat_codes").select("code").eq("company_id", cid).maybeSingle();
+    document.getElementById("achat-code").value = r.data ? r.data.code : "(미설정 — 기업 관리에서 코드 저장)";
+  }
+  startChatPoll();
+}
+async function fetchChat() {
+  if (!CHAT.companyId) return;
+  let rows = [];
+  if (CHAT.mode === "admin") {
+    const r = await sb.from("messages").select("*").eq("company_id", CHAT.companyId).order("created_at", { ascending: true }).limit(200);
+    rows = r.data || [];
+  } else {
+    const r = await sb.rpc("chat_fetch", { p_company: CHAT.companyId, p_code: CHAT.code });
+    if (r.error) { stopChatPoll(); return; }
+    rows = r.data || [];
+  }
+  renderChat(rows);
+}
+function fmtTime(s) {
+  const d = new Date(s);
+  return isNaN(d) ? "" : String(d.getHours()).padStart(2, "0") + ":" + String(d.getMinutes()).padStart(2, "0");
+}
+function renderChat(rows) {
+  const log = document.getElementById(CHAT.mode === "admin" ? "aChatLog" : "chatLog");
+  if (!log) return;
+  const me = CHAT.mode === "admin" ? "admin" : "company";
+  const nearBottom = log.scrollHeight - log.scrollTop - log.clientHeight < 90;
+  log.innerHTML = rows.map(m => {
+    const mine = m.sender === me;
+    const who = m.sender === "admin" ? "관리자" : "기업";
+    const isImg = m.file && /\.(png|jpe?g|gif|webp)(\?|$)/i.test(m.file_name || m.file);
+    const fileHtml = m.file
+      ? (isImg
+        ? `<a href="${esc(m.file)}" target="_blank" rel="noopener"><img src="${esc(m.file)}" style="max-width:200px; border-radius:8px; display:block; margin-top:4px;" /></a>`
+        : `<a href="${esc(m.file)}" target="_blank" rel="noopener" style="display:inline-block; margin-top:4px;">📎 ${esc(m.file_name || "파일")}</a>`)
+      : "";
+    return `<div class="msg ${mine ? "me" : "other"}">${m.content ? esc(m.content) : ""}${fileHtml}<span class="mtime">${who} · ${fmtTime(m.created_at)}</span></div>`;
+  }).join("") || '<p class="empty">첫 메시지를 보내보세요!</p>';
+  if (nearBottom || rows.length <= 1) log.scrollTop = log.scrollHeight;
+}
+async function sendChat() {
+  const inp = document.getElementById(CHAT.mode === "admin" ? "achat-msg" : "chat-msg");
+  const t = inp.value.trim();
+  if (!t || !CHAT.companyId) return;
+  inp.value = "";
+  await pushChat(t, null, null);
+}
+async function pushChat(content, file, fileName) {
+  if (CHAT.mode === "admin") {
+    const { error } = await sb.from("messages").insert({ company_id: CHAT.companyId, sender: "admin", content, file, file_name: fileName });
+    if (error) return alert("전송 실패: " + error.message + "\n(add-chat.sql 실행 여부를 확인하세요)");
+  } else {
+    const { error } = await sb.rpc("chat_send", { p_company: CHAT.companyId, p_code: CHAT.code, p_content: content, p_file: file, p_file_name: fileName });
+    if (error) return alert("전송 실패: " + error.message);
+  }
+  fetchChat();
+}
+async function sendChatFile(inputId) {
+  const el = document.getElementById(inputId);
+  const f = el.files[0];
+  el.value = "";
+  if (!f || !CHAT.companyId) return;
+  if (f.size > 25 * 1024 * 1024) return alert("25MB 이하 파일만 보낼 수 있습니다.");
+  let up = null;
+  if (CHAT.mode === "admin") {
+    up = await uploadToR2(f, "chat");
+  } else {
+    const proxy = (DB.api.proxy || "").replace(/\/$/, "");
+    if (!proxy) return alert("파일 전송이 아직 준비되지 않았습니다. 관리자에게 문의하세요.");
+    try {
+      const res = await fetch(proxy + "/?api=chatupload&company=" + CHAT.companyId + "&code=" + encodeURIComponent(CHAT.code) + "&name=" + encodeURIComponent(f.name), {
+        method: "POST",
+        headers: { "Content-Type": f.type || "application/octet-stream" },
+        body: f
+      });
+      const d = await res.json();
+      if (!res.ok || !d.url) return alert("파일 업로드 실패: " + (d.error || ("HTTP " + res.status)));
+      up = { url: d.url, name: f.name };
+    } catch (e) { return alert("파일 업로드 실패: " + e.message); }
+  }
+  if (up) await pushChat("", up.url, up.name);
+}
+
 /* --- API 설정 --- */
 async function saveApi() {
   DB.api.key = document.getElementById("api-key").value.trim();
@@ -1569,6 +1792,7 @@ function renderAll() {
   buildJobFilters(); renderJobs();
   buildLessonFilters(); renderLessons();
   renderHomeMatches();
+  fillChatSelects();
 }
 
 /* 클라우드 모드: Supabase에서 기업/공고/자료/설정을 불러와 모든 방문자에게 동일하게 표시 */
