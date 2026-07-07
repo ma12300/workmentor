@@ -255,8 +255,11 @@ h2.section { font-weight: 800; font-size: 24px; color: var(--navy); letter-spaci
 .wm-market-briefing h2 { margin: 0 0 8px; font-size: clamp(21px, 3vw, 30px); color: #fff; }
 .wm-market-briefing__head p { color: #CFC9C0; line-height: 1.65; font-size: 14px; }
 .wm-market-briefing__meta { font-size: 13px; color: #E4DFD7; }
-.wm-market-briefing__grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 14px; }
-.wm-market-briefing__card { padding: 18px; border: 1px solid rgba(255,255,255,.14); border-radius: 14px; background: rgba(0,0,0,.22); animation: wmUp .5s ease both; }
+.wm-market-briefing__grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); grid-auto-rows: 235px; gap: 14px; }
+.wm-market-briefing__card { padding: 16px 18px; border: 1px solid rgba(255,255,255,.14); border-radius: 14px; background: rgba(0,0,0,.22); animation: wmUp .5s ease both; height: 100%; overflow: hidden; display: flex; flex-direction: column; }
+.wm-market-briefing__card h3 { display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
+.wm-market-briefing__card > p { display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
+.wm-card-wire h3 { -webkit-line-clamp: 3; }
 .wm-market-briefing__card:nth-child(2) { animation-delay: .08s; }
 .wm-market-briefing__card:nth-child(3) { animation-delay: .16s; }
 .wm-market-briefing__card:nth-child(4) { animation-delay: .24s; }
@@ -268,8 +271,8 @@ h2.section { font-weight: 800; font-size: 24px; color: var(--navy); letter-spaci
 .wm-market-briefing__card h3 { margin: 0 0 8px; font-size: 16.5px; line-height: 1.4; color: #fff; }
 .wm-market-briefing__card p { margin: 7px 0; color: #D6D1C8; line-height: 1.6; font-size: 13.5px; }
 .wm-market-briefing__card p strong { color: #FFB185; }
-.wm-market-briefing__time { margin-top: 10px; color: #A79F93; font-size: 12px; }
-.wm-market-briefing__sources { margin-top: 10px; display: flex; flex-wrap: wrap; gap: 10px; }
+.wm-market-briefing__time { margin-top: auto; padding-top: 8px; color: #A79F93; font-size: 12px; }
+.wm-market-briefing__sources { margin-top: 6px; display: flex; flex-wrap: wrap; gap: 10px; }
 .wm-market-briefing__sources a { color: #FFB185; font-size: 13px; text-decoration: none; }
 .wm-market-briefing__sources a:hover { text-decoration: underline; }
 .wm-market-briefing__market { margin-top: 16px; display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 10px; }
@@ -296,6 +299,8 @@ h2.section { font-weight: 800; font-size: 24px; color: var(--navy); letter-spaci
 @media (max-width: 720px) { .showcase { grid-template-columns: 1fr; } }
 .showcol-t { font-size: 14px; font-weight: 800; color: var(--navy); margin: 0 0 8px 2px; }
 .showstack { display: flex; flex-direction: column; gap: 14px; }
+.showstack .cocard { height: 118px; overflow: hidden; align-items: flex-start; }
+.showstack .cocard .desc, .showstack .cocard .co-sub { display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
 .showcase .cocard { animation: wmUp 0.5s ease both; cursor: pointer; }
 .showcase .cocard:nth-child(2) { animation-delay: 0.07s; }
 .showcase .cocard:nth-child(3) { animation-delay: 0.14s; }
@@ -405,7 +410,7 @@ footer select { border: 1px solid var(--line); border-radius: 6px; padding: 4px 
   </div>
 
   <h2 class="section">기업정보 · 채용공고</h2>
-  <p class="section-sub">왼쪽은 워크멘토와 함께하는 기업, 오른쪽은 진행 중인 채용공고입니다. 5초마다 자동으로 전환되며, 카드를 누르면 상세를 볼 수 있습니다.</p>
+  <p class="section-sub">왼쪽은 워크멘토와 함께하는 기업, 오른쪽은 진행 중인 채용공고입니다. 10초마다 자동으로 전환되며, 카드를 누르면 상세를 볼 수 있습니다.</p>
   <div class="showcase" id="homeShowcase">
     <div class="showcol"><p class="showcol-t">기업정보</p><div class="showstack" id="homeCoCol"></div></div>
     <div class="showcol"><p class="showcol-t">채용공고</p><div class="showstack" id="homeJobCol"></div></div>
@@ -1381,7 +1386,7 @@ function renderHomeCompanies() {
       if ((DB.companies || []).length > 2) hcIdx = (hcIdx + 2) % DB.companies.length;
       if ((DB.jobs || []).length > 2) hjIdx = (hjIdx + 2) % DB.jobs.length;
       drawHomeShowcase();
-    }, 5000);
+    }, 10000);
   }
   const wrap = document.getElementById("homeShowcase");
   if (wrap && !wrap._hoverBound) {
@@ -1403,8 +1408,7 @@ function drawHomeShowcase() {
     el.className = "card cocard";
     el.onclick = () => showCompany(c);
     el.innerHTML = `
-      <div class="thumb">${c.img ? `<img src="${esc(c.img)}" alt="${esc(c.name)}" />` : esc((c.name || "?").slice(0, 2))}</div>
-      <div class="body">
+      <div class="body" style="padding-top:2px;">
         <h3>${esc(c.name)} ${c.tier === "paid" ? '<span class="badge paid">유료회원</span>' : '<span class="badge free">무료</span>'}</h3>
         <p class="co-sub">${esc(c.ind || "")} · ${esc(c.region || "")}</p>
         <p class="desc">${esc(c.intro || "")}</p>
@@ -2085,7 +2089,7 @@ function renderBriefing(data) {
         if (BRIEF.hover) return;
         BRIEF.idx = (BRIEF.idx + 6) % BRIEF.pool.length;
         drawBriefCards();
-      }, 5000);
+      }, 10000);
     }
     if (!list._hoverBound) {
       list.addEventListener("mouseenter", () => { BRIEF.hover = true; });
