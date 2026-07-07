@@ -276,6 +276,16 @@ h2.section { font-weight: 800; font-size: 24px; color: var(--navy); letter-spaci
 .wm-market-briefing__metric strong { display: block; font-size: 12.5px; color: #CFC9C0; }
 .wm-market-briefing__metric span { display: block; margin-top: 4px; font-size: 16.5px; font-weight: 800; color: #fff; }
 .wm-market-briefing__metric small { display: block; margin-top: 3px; font-size: 11px; color: #A79F93; }
+.wm-headlines { margin-top: 18px; }
+.wm-hl-head { display: flex; align-items: baseline; gap: 10px; flex-wrap: wrap; margin-bottom: 6px; }
+.wm-hl-title { font-size: 15px; font-weight: 800; color: #fff; }
+.wm-hl-note { font-size: 11.5px; color: #A79F93; }
+.wm-hl-list { max-height: 430px; overflow-y: auto; border-top: 1px solid rgba(255,255,255,.14); }
+.wm-hl-row { display: flex; align-items: baseline; gap: 10px; padding: 9px 4px; border-bottom: 1px dashed rgba(255,255,255,.12); font-size: 13.5px; animation: wmUp .4s ease both; }
+.wm-hl-src { color: #FFC49E; font-size: 12px; font-weight: 700; min-width: 84px; }
+.wm-hl-row a { color: #E9E5DE; text-decoration: none; flex: 1; }
+.wm-hl-row a:hover { color: #fff; text-decoration: underline; }
+.wm-hl-time { color: #A79F93; font-size: 11.5px; white-space: nowrap; }
 .demo-note { background: #FBE7E2; color: var(--danger); font-size: 12.5px; font-weight: 700; padding: 8px 12px; border-radius: 8px; margin: 12px 0; }
 .sum { display: flex; justify-content: space-between; padding: 10px 0; border-top: 1px solid var(--line); font-size: 14.5px; }
 .sum.total { font-weight: 700; font-size: 16px; }
@@ -394,6 +404,7 @@ footer select { border: 1px solid var(--line); border-radius: 6px; padding: 4px 
     </div>
     <div id="wm-market-briefing-list" class="wm-market-briefing__grid" aria-live="polite"></div>
     <div id="wm-market-briefing-market" class="wm-market-briefing__market"></div>
+    <div id="wm-market-headlines" class="wm-headlines"></div>
   </section>
 </section>
 
@@ -1917,6 +1928,41 @@ function renderBriefing(data) {
     if (m.note || m.asOfKST) box.appendChild(wmEl("small", "", [m.note, m.asOfKST].filter(Boolean).join(" · ")));
     market.appendChild(box);
   });
+
+  /* 실시간 헤드라인 (언론 보도 기준 · 자동 수집 · 교차검증 전) */
+  const hlBox = document.getElementById("wm-market-headlines");
+  if (hlBox) {
+    hlBox.replaceChildren();
+    const rows = Array.isArray(data.headlines) ? data.headlines : [];
+    if (rows.length) {
+      const head = wmEl("div", "wm-hl-head", "");
+      head.appendChild(wmEl("span", "wm-hl-title", "실시간 헤드라인"));
+      head.appendChild(wmEl("span", "wm-hl-note",
+        "언론 보도 기준 · 자동 수집 (교차검증 전 단계) · " + (data.headlinesUpdatedAtKST || "")));
+      hlBox.appendChild(head);
+      const listBox = wmEl("div", "wm-hl-list", "");
+      rows.slice(0, 20).forEach(r => {
+        const row = wmEl("div", "wm-hl-row", "");
+        row.appendChild(wmEl("span", "wm-hl-src", r.source || "보도"));
+        const a = document.createElement("a");
+        if (r.link && /^https?:\/\//i.test(String(r.link))) {
+          a.href = r.link; a.target = "_blank"; a.rel = "noopener noreferrer";
+        }
+        a.textContent = r.title || "";
+        row.appendChild(a);
+        row.appendChild(wmEl("span", "wm-hl-time", r.timeKST || ""));
+        listBox.appendChild(row);
+      });
+      hlBox.appendChild(listBox);
+    }
+  }
+
+  /* 데이터가 30분 이상 오래됐으면 서버에 자동 갱신을 요청 (방문자 주도 실시간화) */
+  const age = Date.now() - Number(data.autoRefreshedAt || 0);
+  if (!renderBriefing._asked && (isNaN(age) || age > 30 * 60 * 1000)) {
+    renderBriefing._asked = true;
+    fetch(MARKET_API + "/?api=market-refresh").then(() => setTimeout(loadMarketBriefing, 5000)).catch(() => {});
+  }
 }
 async function loadMarketBriefing() {
   const meta = document.getElementById("wm-market-briefing-meta");
