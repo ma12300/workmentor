@@ -255,10 +255,11 @@ h2.section { font-weight: 800; font-size: 24px; color: var(--navy); letter-spaci
 .wm-market-briefing h2 { margin: 0 0 8px; font-size: clamp(21px, 3vw, 30px); color: #fff; }
 .wm-market-briefing__head p { color: #CFC9C0; line-height: 1.65; font-size: 14px; }
 .wm-market-briefing__meta { font-size: 13px; color: #E4DFD7; }
-.wm-market-briefing__grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); grid-auto-rows: 235px; gap: 14px; }
+.wm-market-briefing__grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); grid-auto-rows: 242px; gap: 14px; }
 .wm-market-briefing__card { padding: 16px 18px; border: 1px solid rgba(255,255,255,.14); border-radius: 14px; background: rgba(0,0,0,.22); animation: wmUp .5s ease both; height: 100%; overflow: hidden; display: flex; flex-direction: column; }
+.wm-market-briefing__card > * { flex-shrink: 0; }
 .wm-market-briefing__card h3 { display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
-.wm-market-briefing__card > p { display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
+.wm-market-briefing__card > p { display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; flex-shrink: 1; min-height: 0; }
 .wm-card-wire h3 { -webkit-line-clamp: 3; }
 .wm-market-briefing__card:nth-child(2) { animation-delay: .08s; }
 .wm-market-briefing__card:nth-child(3) { animation-delay: .16s; }
@@ -295,6 +296,32 @@ h2.section { font-weight: 800; font-size: 24px; color: var(--navy); letter-spaci
 .insbar { flex: 1; height: 14px; background: var(--paper); border-radius: 7px; overflow: hidden; }
 .insbar span { display: block; height: 100%; background: linear-gradient(90deg, var(--brand), #FFB185); border-radius: 7px; }
 .insval { min-width: 44px; text-align: right; font-size: 12px; color: #7A8398; }
+
+/* ---------- 워크멘토 소개: 기업 매니징·컨설팅 통합 안내판 ---------- */
+.ab-head { text-align: center; margin: 40px 0 26px; }
+.ab-head h2 { font-size: clamp(22px, 3vw, 30px); font-weight: 800; color: var(--navy); letter-spacing: -0.01em; }
+.ab-head p { color: #7A8398; font-size: 14.5px; margin-top: 8px; }
+.ab-sec { margin: 34px 0 14px; display: flex; align-items: baseline; gap: 10px; flex-wrap: wrap; }
+.ab-sec b { font-size: 19px; color: var(--navy); border-left: 4px solid var(--brand); padding-left: 10px; }
+.ab-sec span { font-size: 11px; letter-spacing: 0.14em; color: #A9A29A; font-weight: 700; }
+.ab-grid { display: grid; gap: 14px; }
+.ab-g4 { grid-template-columns: repeat(auto-fit, minmax(230px, 1fr)); }
+.ab-g3 { grid-template-columns: repeat(auto-fit, minmax(255px, 1fr)); }
+.ab-card { background: var(--white); border: 1px solid var(--line); border-radius: 14px; padding: 18px 20px; }
+.ab-card .tag { display: inline-block; font-size: 10.5px; font-weight: 800; letter-spacing: 0.1em; color: var(--brand); background: rgba(249,123,51,0.1); border-radius: 999px; padding: 3px 10px; margin-bottom: 9px; }
+.ab-card h4 { font-size: 17.5px; font-weight: 800; color: var(--navy); margin-bottom: 9px; }
+.ab-card ul { margin: 0; padding: 0; }
+.ab-card li { font-size: 13.5px; line-height: 1.8; color: #4A5468; list-style: none; padding-left: 13px; position: relative; }
+.ab-card li::before { content: ""; position: absolute; left: 0; top: 11px; width: 5px; height: 5px; border-radius: 50%; background: var(--brand); }
+.ab-chips { display: flex; flex-wrap: wrap; gap: 8px; }
+.ab-chips span { background: var(--white); border: 1px solid var(--line); border-radius: 9px; padding: 9px 13px; font-size: 13.5px; font-weight: 700; color: var(--navy); }
+.ab-steps { display: grid; grid-template-columns: repeat(auto-fit, minmax(195px, 1fr)); gap: 14px; }
+.ab-step { background: var(--white); border: 1px solid var(--line); border-radius: 14px; padding: 16px 18px; }
+.ab-step .num { width: 34px; height: 34px; border-radius: 50%; background: var(--brand); color: #fff; font-weight: 800; display: flex; align-items: center; justify-content: center; margin-bottom: 10px; font-size: 15px; }
+.ab-step h5 { font-size: 15.5px; font-weight: 800; color: var(--navy); margin: 0; }
+.ab-step .en { font-size: 10.5px; color: #A9A29A; letter-spacing: 0.12em; font-weight: 700; display: block; margin: 3px 0 9px; }
+.ab-flow { margin-top: 20px; background: var(--char-deep); color: #E9E5DE; border-radius: 12px; padding: 17px 18px; text-align: center; font-size: 14px; font-weight: 700; line-height: 1.7; }
+.ab-flow b { color: var(--brand); }
 .showcase { display: grid; grid-template-columns: repeat(2, 1fr); gap: 16px; }
 @media (max-width: 720px) { .showcase { grid-template-columns: 1fr; } }
 .showcol-t { font-size: 14px; font-weight: 800; color: var(--navy); margin: 0 0 8px 2px; }
@@ -364,7 +391,7 @@ footer select { border: 1px solid var(--line); border-radius: 6px; padding: 4px 
       <button data-page="lessons">경영수업</button>
       <button data-page="chat">소통방</button>
       <button data-page="plans">멤버쉽</button>
-      <button data-page="about">소개</button>
+      <button data-page="about">워크멘토 소개</button>
       <button data-page="admin">관리자</button>
     </nav>
     <button class="cta" onclick="go('plans')">기업 등록하기</button>
@@ -566,6 +593,92 @@ footer select { border: 1px solid var(--line); border-radius: 6px; padding: 4px 
     워크멘토는 기업에 대한 모든것을 개별적으로 지원합니다. 또한 인재 채용 정보, 기업 간 네트워킹, 정부 지원사업에 관한 최신 
 	데이터와 정보를 모든 기업과 대표님들을 위해 모아 더 빠른 성장을 설계할 수 있도록 돕는 통합 플랫폼입니다.</p>
   </div>
+
+  <!-- ============ 기업 매니징·컨설팅 통합 안내판 ============ -->
+  <div class="ab-head">
+    <h2>기업 매니징·컨설팅 통합 안내판</h2>
+    <p>성장전략 · 자산관리 · 세무/법무/노무 · M&A · 플랫폼 실행까지 연결하는 원스톱 기업지원 체계</p>
+  </div>
+
+  <div class="ab-sec"><b>01. 핵심 이슈 맵</b><span>STRATEGIC ISSUE MAP</span></div>
+  <div class="ab-grid ab-g4">
+    <div class="ab-card"><span class="tag">REVENUE ENGINE</span><h4>➕ 자산을 만든다</h4>
+      <ul><li>사업수입 · 근로수입 · 양도수입</li><li>이자수입 · 배당수입 · 연금수입</li><li>증여수입 · 상속수입 · 퇴직수입 · 기타수입</li></ul></div>
+    <div class="ab-card"><span class="tag">INVESTMENT GROWTH</span><h4>📈 자산을 키운다</h4>
+      <ul><li>부동산 · 주식 · 채권 · 펀드 투자</li><li>연금 · ETF · 금 · 코인 투자</li><li>미술품 투자 · 기타 투자</li></ul></div>
+    <div class="ab-card"><span class="tag">RISK DEFENSE</span><h4>🛡 자산을 지킨다</h4>
+      <ul><li>위험 회피</li><li>위험 예방</li><li>위험 분산</li></ul></div>
+    <div class="ab-card"><span class="tag">TAX OPTIMIZATION</span><h4>🧾 세금을 줄인다</h4>
+      <ul><li>소득세 · 법인세 절세</li><li>상속세 · 증여세 절세</li><li>양도세 · 취득세 절세</li></ul></div>
+  </div>
+
+  <div class="ab-sec"><b>02. 전문센터 포트폴리오</b><span>SPECIALIZED CONSULTING CENTERS</span></div>
+  <div class="ab-grid ab-g3">
+    <div class="ab-card"><span class="tag">FUTURE STRATEGY</span><h4>미래전략센터</h4>
+      <ul><li>신사업</li><li>신시장 · 신마케팅</li><li>신서비스 · 신제품 · 신상품</li><li>신기술 · 신생산기지</li></ul></div>
+    <div class="ab-card"><span class="tag">BUSINESS IT</span><h4>IT전략센터</h4>
+      <ul><li>비즈비 ERP · 그룹웨어</li><li>비즈비 CRM</li><li>비즈비 AI · BRP</li></ul></div>
+    <div class="ab-card"><span class="tag">EQUITY STRATEGY</span><h4>주식전략센터</h4>
+      <ul><li>주식이동(양수도 · 상속 · 증여)</li><li>주식상장 · 주식투자(PE·VC·AC)</li><li>분할 · 합병 · 법인전환</li></ul></div>
+    <div class="ab-card"><span class="tag">EXIT STRATEGY</span><h4>출구전략센터</h4>
+      <ul><li>기업매각 · 기업상장</li><li>영업권 · 부동산 정리</li><li>가지급금 정리</li></ul></div>
+    <div class="ab-card"><span class="tag">M&amp;A ADVISORY</span><h4>M&amp;A센터</h4>
+      <ul><li>M&amp;A 코칭 · 매칭 · 중개</li><li>M&amp;A 실사</li><li>M&amp;A 인수금융</li></ul></div>
+    <div class="ab-card"><span class="tag">SUCCESSION</span><h4>가업승계센터</h4>
+      <ul><li>주식상속 · 증여 · 양수도</li><li>가업상속공제 · 증여특례 · 창업특례</li><li>신탁 · 유언장 · 유류분</li><li>후계자 법인설립 · M&amp;A · 교육 · 기업구조조정</li></ul></div>
+    <div class="ab-card"><span class="tag">CORPORATE FINANCE</span><h4>기업자금센터</h4>
+      <ul><li>유상증자 · 투자유치(RCPS·CB·BW)</li><li>금융차입 · 정책자금</li><li>사채</li></ul></div>
+    <div class="ab-card"><span class="tag">REAL ESTATE STRATEGY</span><h4>부동산전략센터</h4>
+      <ul><li>부동산 매수 · 매각</li><li>부동산 상속 · 증여 · 개발</li><li>부동산 리모델링 · 자금조달</li></ul></div>
+    <div class="ab-card"><span class="tag">ALLIANCE</span><h4>제휴센터</h4>
+      <ul><li>사업제휴 · 업무제휴</li><li>공동마케팅</li><li>아웃소싱(OEM·ODM) · 언론제휴</li></ul></div>
+  </div>
+
+  <div class="ab-sec"><b>03. 지원실 · 플랫폼 체계</b><span>EXPERT SUPPORT TEAM &amp; DIGITAL PLATFORMS</span></div>
+  <div class="ab-card" style="margin-bottom:14px;">
+    <span class="tag">SUPPORT TEAM</span><h4>지원실 — 세무 · 회계 · 법률 · 노무 · 특허 · 자금 등 실행 전문지원</h4>
+    <div class="ab-chips">
+      <span>세무(稅務)지원실</span><span>회계(會計)지원실</span><span>법률(法律)지원실</span><span>법무(法務)지원실</span>
+      <span>노무(勞務)지원실</span><span>특허(特許)지원실</span><span>감평(鑑評)지원실</span><span>관세(關稅)지원실</span>
+      <span>행정(行政)지원실</span><span>자금(資金)지원실</span><span>신용평가지원실</span><span>보증보험지원실</span>
+      <span>R&amp;D지원실</span><span>병특(兵特)지원실</span>
+    </div>
+  </div>
+  <div class="ab-grid ab-g4">
+    <div class="ab-card"><span class="tag">기업IT플랫폼</span><h4>bizbee</h4>
+      <ul><li>ERP · 그룹웨어 · CRM</li><li>세무조정 · 전자세금계산서</li><li>전자계약 · 환급왕 · 등기왕</li></ul></div>
+    <div class="ab-card"><span class="tag">기업뉴스플랫폼</span><h4>기업경제신문 · 중기이코노미</h4>
+      <ul><li>기업환경 · 브리핑 · 투자</li><li>기업 M&amp;A · IPO · 승계 · 금융</li><li>기업지원 · TAX · 기업인 인터뷰</li></ul></div>
+    <div class="ab-card"><span class="tag">기업복지플랫폼</span><h4>Smartwel 복지찬스</h4>
+      <ul><li>카드 · 여행 · 쇼핑 찬스</li><li>검진 · 렌탈 등 임직원 복지</li></ul></div>
+    <div class="ab-card"><span class="tag">기업교육플랫폼</span><h4>EDUPURE · OpenHI</h4>
+      <ul><li>기업교육 · 법정의무교육</li><li>내일배움카드 · 평생교육이용권</li><li>자격증 · 전문가교육 · 기업 노하우/매뉴얼 영상</li></ul></div>
+    <div class="ab-card"><span class="tag">기업부동산플랫폼</span><h4>랜드마크 중개법인</h4>
+      <ul><li>빌딩 · 기업사옥 매매</li><li>공장 · 창고 · 토지 매매</li></ul></div>
+    <div class="ab-card"><span class="tag">기업M&amp;A플랫폼</span><h4>BEST EXIT</h4>
+      <ul><li>M&amp;A 코칭 · 매칭 · 중개</li><li>M&amp;A 실사 · 인수금융</li></ul></div>
+    <div class="ab-card"><span class="tag">기업투자플랫폼</span><h4>moneybee</h4>
+      <ul><li>IR컨설팅 · 투자매칭 · 투자코칭</li><li>금융매칭 · 금융코칭</li><li>정부지원 매칭 · 코칭</li></ul></div>
+    <div class="ab-card"><span class="tag">기업설문플랫폼</span><h4>리서치웨이브</h4>
+      <ul><li>기업 · 기업인 설문조사</li><li>임원 · 직원 설문조사</li></ul></div>
+  </div>
+
+  <div class="ab-sec"><b>04. 컨설팅 수행 순서</b><span>END-TO-END CONSULTING PROCESS</span></div>
+  <div class="ab-steps">
+    <div class="ab-step"><div class="num">1</div><h5>사전준비</h5><span class="en">DISCOVERY</span>
+      <ul class="ab-card" style="border:none; padding:0; background:none;"><li>기업 사전조사 / 기업조사보고서</li><li>기업 사전분석 / 기업가치평가서</li><li>기업 예비진단 / 예비진단보고서</li></ul></div>
+    <div class="ab-step"><div class="num">2</div><h5>목표설정</h5><span class="en">DEFINITION</span>
+      <ul class="ab-card" style="border:none; padding:0; background:none;"><li>킥오프미팅 / 문제파악 · 구성서</li><li>핵심 · 이해관계자 · 실무자 미팅 / RFP</li><li>기업실사 / 기업실사보고서</li><li>고객니즈 파악 · 도출, 목적 · 목표 확정 / RDD</li></ul></div>
+    <div class="ab-step"><div class="num">3</div><h5>솔루션 확정</h5><span class="en">SOLUTIONING</span>
+      <ul class="ab-card" style="border:none; padding:0; background:none;"><li>양해각서 체결 / MOU</li><li>솔루션 연구팀 구성 / 업무분장서</li><li>솔루션 제안 · 검토 / 제안서</li><li>솔루션 확정 / 확정제안서</li></ul></div>
+    <div class="ab-step"><div class="num">4</div><h5>컨설팅 실행</h5><span class="en">EXECUTION</span>
+      <ul class="ab-card" style="border:none; padding:0; background:none;"><li>실행계획 / 컨설팅계약서</li><li>솔루션 실행계획 확정 / 실행계획서</li><li>컨설팅 구성 / 업무분장서</li><li>착수 · 수시 · 중간 · 완료 보고</li></ul></div>
+    <div class="ab-step"><div class="num">5</div><h5>사후관리</h5><span class="en">SUSTAIN</span>
+      <ul class="ab-card" style="border:none; padding:0; background:none;"><li>컨설팅 사후관리</li><li>결과보고서</li><li>성과지표 추적 및 개선 루프</li></ul></div>
+  </div>
+
+  <div class="ab-flow">핵심 운영 모델: <b>Issue 진단</b> → <b>Center별 전문 솔루션</b> → <b>Support Team 실행지원</b> → <b>Platform 자동화</b> → <b>Process 기반 성과관리</b></div>
+
 </section>
 
 <!-- ============ 관리자 ============ -->
@@ -2023,6 +2136,27 @@ function wmTextBlock(parent, label, value) {
   parent.appendChild(p);
 }
 const BRIEF = { pool: [], idx: 0, timer: null, hover: false, listEl: null };
+
+/* 검증 뉴스 카드 클릭 시 전체 내용을 상세창으로 표시 */
+function showBriefItem(item) {
+  const srcLinks = (Array.isArray(item.sources) ? item.sources : [])
+    .filter(s => s && s.url && /^https?:\/\//i.test(String(s.url)))
+    .map(s => `<a href="${esc(s.url)}" target="_blank" rel="noopener">🔗 ${esc(s.name || "출처")}</a>`).join("");
+  document.getElementById("detailBody").innerHTML = `
+    <span class="badge ${item.urgent ? "fund" : "hr"}">${esc(item.category || "시장 속보")}</span>
+    ${item.verified === false ? '<span class="badge free">교차검증 전</span>' : '<span class="badge paid">검증 완료</span>'}
+    <h3>${esc(item.title || "")}</h3>
+    <p class="m-sub">게시/공시: ${esc(item.publishedAtKST || "-")}${item.originalTime ? " · 원문: " + esc(item.originalTime) : ""}${item.confirmedAtKST ? " · 확인: " + esc(item.confirmedAtKST) : ""}</p>
+    <div class="m-body">${esc(item.summary || "")}</div>
+    ${item.marketImpact ? `<div class="m-body" style="margin-top:10px;"><b>시장 영향</b><br />${esc(item.marketImpact)}</div>` : ""}
+    ${item.whyImportant ? `<div class="m-body" style="margin-top:10px;"><b>왜 중요한가</b><br />${esc(item.whyImportant)}</div>` : ""}
+    ${srcLinks ? `<div class="m-files" style="margin-top:12px;">${srcLinks}</div>` : ""}
+    <div class="btns">
+      <button class="btn-ghost" onclick="closeModal('detailModal')">닫기</button>
+    </div>`;
+  openModal("detailModal");
+  logActivity("시장브리핑", item.title, item.category || "");
+}
 function drawBriefCards() {
   const list = BRIEF.listEl;
   if (!list) return;
@@ -2048,6 +2182,9 @@ function drawBriefCards() {
         sources.appendChild(a);
       });
       card.appendChild(sources);
+      card.style.cursor = "pointer";
+      card.onclick = () => showBriefItem(item);
+      sources.querySelectorAll("a").forEach(a => a.addEventListener("click", e => e.stopPropagation()));
       list.appendChild(card);
     } else {
       const h = entry.it;   /* 반검증: 언론 보도 (자동 수집) */
