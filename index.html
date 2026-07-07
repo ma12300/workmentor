@@ -1181,15 +1181,32 @@ function atab(t) {
   document.querySelectorAll(".apanel").forEach(p => p.classList.remove("on"));
   document.getElementById("apanel-" + t).classList.add("on");
 }
+/* 클라우드 파일 업로드: 워커를 거쳐 Cloudflare R2 창고에 저장 (관리자 로그인 검증) */
+async function uploadToR2(f, folder) {
+  const proxy = (DB.api.proxy || "").replace(/\/$/, "");
+  if (!proxy) { alert("관리자 → API 연동에서 프록시 URL을 먼저 설정하세요."); return null; }
+  const s = await sb.auth.getSession();
+  const token = s && s.data && s.data.session ? s.data.session.access_token : null;
+  if (!token) { alert("관리자 로그인이 필요합니다. 로그아웃 상태에서는 업로드할 수 없어요."); return null; }
+  try {
+    const res = await fetch(proxy + "/?api=upload&folder=" + folder + "&name=" + encodeURIComponent(f.name), {
+      method: "POST",
+      headers: { "Authorization": "Bearer " + token, "Content-Type": f.type || "application/octet-stream" },
+      body: f
+    });
+    const d = await res.json();
+    if (!res.ok || !d.url) { alert("업로드 실패: " + (d.error || ("HTTP " + res.status))); return null; }
+    return { url: d.url, name: f.name };
+  } catch (e) { alert("업로드 실패: " + e.message); return null; }
+}
+
 async function readImg(inputId) {
   const f = document.getElementById(inputId).files[0];
   if (!f) return "";
   if (useCloud) {
-    /* 클라우드 모드: Supabase Storage에 업로드하고 공개 URL을 저장 */
-    const path = Date.now() + "-" + f.name.replace(/[^\w.\-]/g, "_");
-    const { error } = await sb.storage.from("images").upload(path, f);
-    if (error) { alert("사진 업로드 실패: " + error.message + " (로그인 상태를 확인하세요)"); return ""; }
-    return sb.storage.from("images").getPublicUrl(path).data.publicUrl;
+    /* 클라우드 모드: Cloudflare R2 창고에 업로드 (무료 10GB) */
+    const up = await uploadToR2(f, "images");
+    return up ? up.url : "";
   }
   /* 로컬 모드: 브라우저 저장 용량 한계 때문에 작은 파일만 */
   if (f.size > 800 * 1024) { alert("이미지가 800KB를 넘습니다. 더 작은 파일을 사용해주세요."); return ""; }
@@ -1206,10 +1223,8 @@ async function readAnyFile(inputId) {
   const f = document.getElementById(inputId).files[0];
   if (!f) return null;
   if (useCloud) {
-    const path = "lessons/" + Date.now() + "-" + f.name.replace(/[^\w.\-가-힣]/g, "_");
-    const { error } = await sb.storage.from("images").upload(path, f);
-    if (error) { alert("파일 업로드 실패: " + error.message + " (로그인 상태를 확인하세요)"); return null; }
-    return { url: sb.storage.from("images").getPublicUrl(path).data.publicUrl, name: f.name };
+    /* 클라우드 모드: Cloudflare R2 창고에 업로드 (PDF, 한글, 엑셀 등 어떤 파일이든) */
+    return await uploadToR2(f, "lessons");
   }
   /* 로컬 모드: 브라우저 저장 한계 때문에 1.5MB 이하만 */
   if (f.size > 1500 * 1024) { alert("로컬 모드에서는 1.5MB 이하 파일만 가능합니다. 클라우드 모드에서는 큰 파일도 올라갑니다."); return null; }
