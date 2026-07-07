@@ -291,6 +291,9 @@ h2.section { font-weight: 800; font-size: 24px; color: var(--navy); letter-spaci
 .wm-hl-row a { color: #E9E5DE; text-decoration: none; flex: 1; }
 .wm-hl-row a:hover { color: #fff; text-decoration: underline; }
 .wm-hl-time { color: #A79F93; font-size: 11.5px; white-space: nowrap; }
+.wm-hl-btn { margin-left: auto; border: 1px solid rgba(255,255,255,0.25); background: rgba(255,255,255,0.08); color: #FFC49E; border-radius: 8px; padding: 5px 11px; font-size: 12px; font-weight: 700; cursor: pointer; }
+.wm-hl-btn:hover { background: rgba(255,255,255,0.15); }
+.wm-hl-btn:disabled { opacity: 0.55; cursor: wait; }
 .insrow { display: flex; align-items: center; gap: 10px; margin: 5px 0; }
 .inslabel { min-width: 110px; font-size: 13.5px; font-weight: 700; color: var(--navy); }
 .insbar { flex: 1; height: 14px; background: var(--paper); border-radius: 7px; overflow: hidden; }
@@ -300,10 +303,11 @@ h2.section { font-weight: 800; font-size: 24px; color: var(--navy); letter-spaci
 .authbtn { border: 1px solid var(--line); background: var(--white); border-radius: 8px; padding: 8px 13px; font-size: 13px; font-weight: 700; color: var(--navy); }
 .authbtn.strong { background: var(--brand); color: #fff; border: none; }
 .authArea .hello { font-size: 13px; font-weight: 700; color: var(--navy); display: flex; gap: 6px; align-items: center; }
-.adzone { margin-top: 20px; }
-.ad-title { font-size: 10px; letter-spacing: 0.16em; color: #B0A99F; margin-bottom: 7px; font-weight: 700; }
+.adzone { margin-top: 22px; padding-top: 14px; border-top: 1px solid var(--line); }
+.ad-title { font-size: 10.5px; letter-spacing: 0.16em; color: #8B847B; margin-bottom: 8px; font-weight: 800; }
 .ad-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(170px, 1fr)); gap: 10px; }
-.ad-slot { min-height: 72px; border: 1px dashed var(--line); border-radius: 10px; display: flex; align-items: center; justify-content: center; color: #B7BECD; font-size: 12px; background: var(--white); overflow: hidden; }
+.ad-slot { position: relative; min-height: 76px; border: 1.5px dashed #C9C2B8; border-radius: 10px; display: flex; align-items: center; justify-content: center; color: #8B847B; font-size: 12.5px; font-weight: 700; background: var(--paper); overflow: hidden; }
+.ad-slot::before { content: "AD"; position: absolute; top: 6px; left: 8px; font-size: 9px; font-weight: 800; letter-spacing: 0.08em; color: #fff; background: #C9C2B8; border-radius: 4px; padding: 1px 5px; }
 
 /* ---------- 워크멘토 소개: 기업 매니징·컨설팅 통합 안내판 ---------- */
 .ab-head { text-align: center; margin: 40px 0 26px; }
@@ -2473,6 +2477,9 @@ function renderBriefing(data) {
       head.appendChild(wmEl("span", "wm-hl-title", "실시간 헤드라인"));
       head.appendChild(wmEl("span", "wm-hl-note",
         "언론 보도 기준 · 자동 수집 (교차검증 전 단계) · " + (data.headlinesUpdatedAtKST || "")));
+      const rbtn = wmEl("button", "wm-hl-btn", "🔄 새로고침");
+      rbtn.onclick = refreshHeadlinesNow;
+      head.appendChild(rbtn);
       hlBox.appendChild(head);
       const listBox = wmEl("div", "wm-hl-list", "");
       rows.slice(0, 20).forEach(r => {
@@ -2500,6 +2507,14 @@ function renderBriefing(data) {
     fetch(MARKET_API + "/?api=market-refresh").then(() => setTimeout(loadMarketBriefing, 6000)).catch(() => {});
   }
 }
+/* 헤드라인·시세 즉시 갱신 (워커에 강제 재수집 요청 후 다시 불러오기) */
+async function refreshHeadlinesNow() {
+  const b = document.querySelector(".wm-hl-btn");
+  if (b) { b.disabled = true; b.textContent = "갱신 중..."; }
+  try { await fetch(MARKET_API + "/?api=market-refresh&force=1", { cache: "no-store" }); } catch (_) {}
+  await loadMarketBriefing();
+}
+
 async function loadMarketBriefing() {
   const meta = document.getElementById("wm-market-briefing-meta");
   try {
