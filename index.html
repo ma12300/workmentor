@@ -63,22 +63,20 @@ img { max-width: 100%; }
 
 /* ---------- 상단 바 ---------- */
 .topbar { position: sticky; top: 0; z-index: 50; background: var(--white); border-bottom: 1px solid var(--line); }
-.topbar-in { max-width: 1160px; margin: 0 auto; padding: 0 20px; display: flex; align-items: center; gap: 8px; height: 62px; }
-@media (max-width: 980px) {
-  .topbar-in { flex-wrap: wrap; row-gap: 6px; padding-top: 10px; padding-bottom: 10px; height: auto; }
-  .logo { order: 1; }
-  .authArea { order: 2; margin-left: auto; }
-  #ctaMain { order: 3; }
-  nav { order: 4; flex-basis: 100%; justify-content: center; row-gap: 2px; }
-  nav button { padding: 7px 10px; font-size: 13.5px; }
-}
-@media (max-width: 480px) {
-  nav button { padding: 6px 8px; font-size: 12.5px; }
+.topbar-in { max-width: 1160px; margin: 0 auto; padding: 10px 20px 8px; display: flex; align-items: center; gap: 8px; flex-wrap: wrap; }
+.logo { order: 1; }
+.authArea { order: 2; margin-left: auto; }
+#ctaMain { order: 3; }
+@media (max-width: 720px) {
+  nav { justify-content: center; }
+  nav button { padding: 6px 9px; font-size: 13px; }
   #ctaMain { padding: 8px 11px; font-size: 12.5px; }
+  .authbtn { padding: 7px 10px; font-size: 12.5px; }
 }
 .logo { font-weight: 800; font-size: 21px; color: var(--navy); letter-spacing: -0.02em; margin-right: 14px; white-space: nowrap; }
 .logo .accent { color: var(--brand); }
-nav { display: flex; gap: 2px; flex: 1; flex-wrap: wrap; min-width: 0; }
+nav { order: 4; flex-basis: 100%; display: flex; flex-wrap: wrap; gap: 2px; border-top: 1px solid var(--line); margin-top: 8px; padding-top: 7px; }
+.nav-break { flex-basis: 100%; height: 0; }
 nav button { background: none; border: none; padding: 8px 13px; font-size: 14.5px; font-weight: 500; color: #5A6478; border-radius: 8px; white-space: nowrap; }
 nav button:hover { background: var(--paper); }
 nav button.on { color: var(--navy); font-weight: 700; background: var(--blue-soft); }
@@ -417,6 +415,8 @@ footer select { border: 1px solid var(--line); border-radius: 6px; padding: 4px 
       <button data-page="companies">기업정보</button>
       <button data-page="jobs">요청공고</button>
       <button data-page="lessons">경영수업</button>
+      <button data-page="board">자유게시판</button>
+      <span class="nav-break"></span>
       <button data-page="chat">소통방</button>
       <button data-page="plans">멤버쉽</button>
       <button data-page="about">워크멘토 소개</button>
@@ -542,6 +542,22 @@ footer select { border: 1px solid var(--line); border-radius: 6px; padding: 4px 
     </div>
   </div>
   <div class="list" id="lessonList"></div>
+</section>
+
+<!-- ============ 자유게시판 ============ -->
+<section class="page" id="page-board">
+  <h2 class="section">자유게시판</h2>
+  <p class="section-sub" id="board-note">회원 글은 비밀글로 등록되어 작성자 본인과 워크멘토 관리자만 볼 수 있습니다. 관리자의 공개글은 모든 회원이 볼 수 있습니다.</p>
+
+  <div class="card form" style="margin-bottom:14px;">
+    <div><label>제목</label><input id="bp-title" placeholder="문의 · 건의 · 자유 주제 무엇이든 남겨주세요" /></div>
+    <div style="margin-top:8px;"><label>내용</label><textarea id="bp-content" rows="4" placeholder="내용을 입력하세요"></textarea></div>
+    <div id="board-admin-opts" style="display:none; margin-top:8px;">
+      <label style="display:flex; align-items:center; gap:6px; cursor:pointer;"><input type="checkbox" id="bp-public" style="width:auto;" /> 공개글로 등록 (전체 회원 열람 — 공지·안내용)</label>
+    </div>
+    <button class="fsave" style="margin-top:10px;" onclick="newPost()">글 등록</button>
+  </div>
+  <div class="list" id="boardList"><p class="empty">회원 로그인 후 이용할 수 있습니다.</p></div>
 </section>
 
 <!-- ============ 소통방 ============ -->
@@ -1090,6 +1106,7 @@ function go(page) {
   document.querySelectorAll("#nav button").forEach(b => b.classList.toggle("on", b.dataset.page === page));
   window.scrollTo({ top: 0 });
   if (typeof chatOnNavigate === "function") chatOnNavigate(page);
+  if (page === "board" && typeof loadBoard === "function") loadBoard();
 }
 document.querySelectorAll("#nav button").forEach(b => b.addEventListener("click", () => go(b.dataset.page)));
 
@@ -1978,6 +1995,108 @@ function renderAdminLists() {
 }
 
 /* ==========================================================
+   자유게시판 (회원=비밀글 전용 · 관리자=비밀글+공개글 · 댓글 대화)
+   ========================================================== */
+let BOARD_ROWS = [];
+async function loadBoard() {
+  const box = document.getElementById("boardList");
+  if (!box) return;
+  if (!useCloud) { box.innerHTML = '<p class="empty">자유게시판은 클라우드 모드에서 사용할 수 있습니다.</p>'; return; }
+  const adm = document.getElementById("board-admin-opts");
+  if (adm) adm.style.display = MEMBER.isAdmin ? "block" : "none";
+  const note = document.getElementById("board-note");
+  if (note) note.textContent = MEMBER.isAdmin
+    ? "관리자 모드: 모든 글을 볼 수 있으며, 공개글(전체 회원 열람)과 비밀글을 모두 작성할 수 있습니다."
+    : "회원 글은 비밀글로 등록되어 작성자 본인과 워크멘토 관리자만 볼 수 있습니다. 관리자의 공개글은 모든 회원이 볼 수 있습니다.";
+  const { data: rows, error } = await sb.from("board").select("*").order("created_at", { ascending: false }).limit(100);
+  if (error) { box.innerHTML = '<p class="empty">불러오기 실패: ' + esc(error.message) + ' (add-board.sql 실행 여부를 확인하세요)</p>'; return; }
+  BOARD_ROWS = rows || [];
+  if (!BOARD_ROWS.length) { box.innerHTML = '<p class="empty">아직 글이 없습니다. 첫 글을 남겨보세요!</p>'; return; }
+  box.innerHTML = BOARD_ROWS.map(p => `
+    <div class="card row" onclick="openPost(${p.id})">
+      <div>
+        <p class="title">${p.secret ? "🔒 " : ""}${esc(p.title)}
+          ${p.is_admin ? ' <span class="badge paid">관리자</span>' : ""}
+          ${p.secret ? ' <span class="badge free">비밀글</span>' : ' <span class="badge hr">공개</span>'}
+        </p>
+        <p class="sub">${esc(p.author_name || "회원")} · ${esc(String(p.created_at).slice(0, 16).replace("T", " "))}</p>
+      </div>
+    </div>`).join("");
+}
+async function newPost() {
+  if (!MEMBER.user) { alert("회원가입 후 이용할 수 있습니다."); openAuth("signup"); return; }
+  const t = document.getElementById("bp-title").value.trim();
+  const c = document.getElementById("bp-content").value.trim();
+  if (!t) return alert("제목을 입력하세요.");
+  const pubEl = document.getElementById("bp-public");
+  const pub = MEMBER.isAdmin && pubEl && pubEl.checked;
+  const { error } = await sb.from("board").insert({
+    author_id: MEMBER.user.id,
+    author_name: MEMBER.isAdmin ? "워크멘토 관리자" : ((MEMBER.profile && MEMBER.profile.company_name) || MEMBER.user.email.split("@")[0]),
+    title: t, content: c,
+    secret: !pub,
+    is_admin: MEMBER.isAdmin
+  });
+  if (error) return alert("등록 실패: " + error.message);
+  document.getElementById("bp-title").value = "";
+  document.getElementById("bp-content").value = "";
+  if (pubEl) pubEl.checked = false;
+  loadBoard();
+}
+async function openPost(id) {
+  const p = BOARD_ROWS.find(x => x.id === id);
+  if (!p) return;
+  const { data: cms } = await sb.from("board_comments").select("*").eq("post_id", id).order("created_at", { ascending: true });
+  const canDel = MEMBER.isAdmin || (MEMBER.user && MEMBER.user.id === p.author_id);
+  document.getElementById("detailBody").innerHTML = `
+    ${p.secret ? '<span class="badge free">🔒 비밀글</span>' : '<span class="badge hr">공개</span>'}
+    ${p.is_admin ? ' <span class="badge paid">관리자</span>' : ""}
+    <h3>${esc(p.title)}</h3>
+    <p class="m-sub">${esc(p.author_name || "회원")} · ${esc(String(p.created_at).slice(0, 16).replace("T", " "))}</p>
+    <div class="m-body">${esc(p.content || "")}</div>
+    <div style="margin-top:14px; border-top:1px solid var(--line); padding-top:10px;">
+      <p class="title" style="font-size:14px; margin-bottom:8px;">댓글 ${cms ? cms.length : 0}개</p>
+      ${(cms || []).map(cm => `
+        <p class="sub" style="margin:7px 0; line-height:1.6;">
+          <b>${esc(cm.author_name || "회원")}</b>${cm.is_admin ? ' <span class="badge paid">관리자</span>' : ""}
+          <span style="color:#9AA3B5; font-size:11.5px;"> · ${esc(String(cm.created_at).slice(5, 16).replace("T", " "))}</span><br />
+          ${esc(cm.content)}
+        </p>`).join("") || '<p class="empty" style="padding:4px 0;">아직 댓글이 없습니다. 첫 댓글을 남겨보세요.</p>'}
+      <div style="display:flex; gap:8px; margin-top:10px;">
+        <input id="bc-input" placeholder="댓글 입력..." style="flex:1; border:1px solid var(--line); border-radius:8px; padding:10px 12px; background:var(--paper);" onkeydown="if(event.key==='Enter')addComment(${p.id})" />
+        <button class="cta gold" onclick="addComment(${p.id})">등록</button>
+      </div>
+    </div>
+    <div class="btns">
+      ${canDel ? `<button class="btn-ghost" style="color:var(--danger);" onclick="delPost(${p.id})">글 삭제</button>` : ""}
+      <button class="btn-ghost" onclick="closeModal('detailModal')">닫기</button>
+    </div>`;
+  openModal("detailModal");
+}
+async function addComment(postId) {
+  if (!MEMBER.user) return alert("로그인 후 이용할 수 있습니다.");
+  const inp = document.getElementById("bc-input");
+  const c = inp.value.trim();
+  if (!c) return;
+  const { error } = await sb.from("board_comments").insert({
+    post_id: postId,
+    author_id: MEMBER.user.id,
+    author_name: MEMBER.isAdmin ? "워크멘토 관리자" : ((MEMBER.profile && MEMBER.profile.company_name) || MEMBER.user.email.split("@")[0]),
+    content: c,
+    is_admin: MEMBER.isAdmin
+  });
+  if (error) return alert("댓글 등록 실패: " + error.message);
+  openPost(postId);
+}
+async function delPost(id) {
+  if (!confirm("이 글을 삭제할까요? 달린 댓글도 함께 삭제됩니다.")) return;
+  const { error } = await sb.from("board").delete().eq("id", id);
+  if (error) return alert("삭제 실패: " + error.message);
+  closeModal("detailModal");
+  loadBoard();
+}
+
+/* ==========================================================
    소통방 (기업 <-> 관리자 1:1 대화 + 파일)
    ========================================================== */
 const CHAT = { mode: null, companyId: null, code: "", timer: null };
@@ -2161,7 +2280,7 @@ async function sendChatFile(inputId) {
    v3 회원 시스템: 가입 · 로그인 · 등급 게이트
    ========================================================== */
 const MEMBER = { user: null, profile: null, isAdmin: false, _tab: "login" };
-const PAGE_NEED = { funds: 2, jobs: 2, lessons: 2, companies: 1, chat: 1 };  /* 1=회원, 2=유료 */
+const PAGE_NEED = { funds: 2, jobs: 2, lessons: 2, companies: 1, chat: 1, board: 1 };  /* 1=회원, 2=유료 */
 
 function openAuth(tab) { authTab(tab || "login"); openModal("authModal"); }
 function authTab(t) {
