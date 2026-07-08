@@ -72,10 +72,10 @@ html, body { max-width: 100%; overflow-x: hidden; }
   .topbar-in { padding-left: 13px; padding-right: 13px; }
   nav { display: grid; grid-template-columns: repeat(4, 1fr); gap: 1px; background: rgba(255,255,255,0.4); border-radius: 12px; }
   body.is-home nav { border-radius: 12px 12px 0 0; }
-  nav button { min-width: 0; border-right: none; padding: 9px 2px 8px; }
+  nav button { min-width: 0; border-right: none; padding: 7px 2px 6px; }
   nav .nt { font-size: 11.5px; font-weight: 500; letter-spacing: -0.02em; }
-  nav .ns { display: none; }
-  nav button.locked .nt::after { content: "🔒"; font-size: 7.5px; margin-left: 2px; vertical-align: 1px; }
+  nav .ns { font-size: 8px; margin-top: 1px; }
+  nav button.locked .ns::after { font-size: 7px; }
   #ctaMain { padding: 7px 9px; font-size: 12px; }
   .authbtn { padding: 5px 8px; font-size: 11.5px; }
 }
@@ -160,13 +160,17 @@ h2.section { font-weight: 800; font-size: 24px; color: var(--navy); letter-spaci
 .hero::after {  /* 상승하는 지붕선 모티프 */
   content: "";
   position: absolute;
-  left: 50%; bottom: -8%;
-  width: 340px; height: 340px;
+  left: 50%; bottom: -22%;
+  width: 230px; height: 230px;
   transform: translateX(-50%) rotate(45deg);
-  border-top: 2px solid rgba(249, 123, 51, 0.4);
-  border-left: 2px solid rgba(249, 123, 51, 0.2);
+  border-top: 2px solid rgba(249, 123, 51, 0.35);
+  border-left: 2px solid rgba(249, 123, 51, 0.18);
   pointer-events: none;
+  z-index: 0;
 }
+.hero > * { position: relative; z-index: 1; }   /* 글씨는 항상 배경 장식 위에 */
+.hero h1, .brandmark .bm-text { text-shadow: 0 2px 16px rgba(0, 0, 0, 0.4); }
+.hero p, .hero .kicker { text-shadow: 0 1px 10px rgba(0, 0, 0, 0.35); }
 .brandmark { display: flex; align-items: center; justify-content: center; gap: 14px; margin-bottom: 16px; }
 .brandmark svg { display: block; }
 .brandmark .bm-divider { width: 2px; height: 52px; background: rgba(255,255,255,0.45); }
@@ -319,6 +323,9 @@ h2.section { font-weight: 800; font-size: 24px; color: var(--navy); letter-spaci
 .wm-market-briefing__metric span { display: block; margin-top: 4px; font-size: 16.5px; font-weight: 800; color: #fff; }
 .wm-market-briefing__metric span.up { color: #8CFF9E; }
 .wm-market-briefing__metric span.down { color: #CBA6FF; }
+.wm-market-briefing__metric .wm-arr { font-weight: 800; }
+.wm-market-briefing__metric span.up .wm-arr { color: #FF4A52; }    /* 상승 화살표: 밝은 이탈리안 레드 */
+.wm-market-briefing__metric span.down .wm-arr { color: #5EC8FF; }  /* 하락 화살표: 밝은 파랑 */
 .wm-market-briefing__metric small { display: block; margin-top: 3px; font-size: 11px; color: #A79F93; }
 .wm-headlines { margin-top: 18px; }
 .wm-hl-head { display: flex; align-items: baseline; gap: 10px; flex-wrap: wrap; margin-bottom: 6px; }
@@ -377,13 +384,15 @@ h2.section { font-weight: 800; font-size: 24px; color: var(--navy); letter-spaci
 .showcase { display: grid; grid-template-columns: repeat(2, 1fr); gap: 16px; }
 @media (max-width: 720px) { .showcase { grid-template-columns: 1fr; } }
 .showcol-t { font-size: 14px; font-weight: 800; color: var(--navy); margin: 0 0 8px 2px; }
-.showstack { display: flex; flex-direction: column; gap: 10px; }
+.showstack { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
 .showstack .cocard { height: 94px; overflow: hidden; align-items: center;
   border-left: 4px solid var(--brand); border-right: 4px solid #D8D3CB;
   box-shadow: 0 2px 10px rgba(66, 62, 56, 0.07); }
-.showstack .cocard .body { padding: 9px 14px 10px; }
-.showstack .cocard .desc { -webkit-line-clamp: 1; }
-.showstack .cocard .co-sub { margin: 1px 0 4px; }
+.showstack .cocard .body { padding: 8px 11px 9px; width: 100%; min-width: 0; }
+.showstack .cocard .desc { -webkit-line-clamp: 1; font-size: 12px; }
+.showstack .cocard h3 { font-size: 13.5px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.showstack .cocard .co-sub { margin: 1px 0 3px; font-size: 11px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.showstack .cocard .tags .badge { font-size: 10px; padding: 2px 7px; }
 .blurname { filter: blur(5px); user-select: none; }
 
 /* ==========================================================
@@ -404,7 +413,10 @@ h2.section { font-weight: 800; font-size: 24px; color: var(--navy); letter-spaci
   .wm-hl-row { gap: 8px; padding: 8px 2px; }
   .wm-hl-row a { font-size: 12.5px; }
   .wm-hl-time { font-size: 10px; }
-  .showstack .cocard { height: auto; min-height: 80px; padding: 0; }
+  .showstack .cocard { height: auto; min-height: 74px; padding: 0; }
+  .showstack .cocard h3 { font-size: 12px; }
+  .showstack .cocard .co-sub { font-size: 10px; }
+  .showstack .cocard .desc { font-size: 10.5px; }
   .filterbar { padding: 12px; }
   .chips button { padding: 5px 10px; font-size: 12px; }
   .filterrow .flabel { min-width: 54px; font-size: 12px; }
@@ -1742,11 +1754,11 @@ function renderHomeCompanies() {
   if (!document.getElementById("homeCoCol")) return;
   drawHomeShowcase();
   if (hcTimer) { clearInterval(hcTimer); hcTimer = null; }
-  if ((DB.companies || []).length > 2 || (DB.jobs || []).length > 2) {
+  if ((DB.companies || []).length > 4 || (DB.jobs || []).length > 4) {
     hcTimer = setInterval(() => {
       if (hcHover) return;                 /* 마우스를 올려두면 잠시 멈춤 */
-      if ((DB.companies || []).length > 2) hcIdx = (hcIdx + 2) % DB.companies.length;
-      if ((DB.jobs || []).length > 2) hjIdx = (hjIdx + 2) % DB.jobs.length;
+      if ((DB.companies || []).length > 4) hcIdx = (hcIdx + 4) % DB.companies.length;
+      if ((DB.jobs || []).length > 4) hjIdx = (hjIdx + 4) % DB.jobs.length;
       drawHomeShowcase();
     }, 10000);
   }
@@ -1775,7 +1787,7 @@ function drawHomeShowcase() {
 
   coBox.innerHTML = "";
   if (!cos.length) coBox.innerHTML = '<p class="empty">기업 정보를 불러오지 못했습니다. (잠시 후 새로고침 — 계속되면 관리자에게 문의)</p>';
-  for (let i = 0; i < Math.min(2, cos.length); i++) {
+  for (let i = 0; i < Math.min(4, cos.length); i++) {
     const c = cos[(hcIdx + i) % cos.length];
     const el = document.createElement("div");
     el.className = "card cocard";
@@ -1791,7 +1803,7 @@ function drawHomeShowcase() {
 
   jobBox.innerHTML = "";
   if (!jobs.length) jobBox.innerHTML = '<p class="empty">요청공고를 불러오지 못했습니다. (잠시 후 새로고침 — 계속되면 관리자에게 문의)</p>';
-  for (let i = 0; i < Math.min(2, jobs.length); i++) {
+  for (let i = 0; i < Math.min(4, jobs.length); i++) {
     const j = jobs[(hjIdx + i) % jobs.length];
     const el = document.createElement("div");
     el.className = "card cocard";
@@ -2887,7 +2899,8 @@ function renderBriefing(data) {
     const n = parseFloat(String(m.change || "").replace(/[^-\d.]/g, ""));
     const dir = n > 0 ? "up" : (n < 0 ? "down" : "");
     const val = wmEl("span", dir ? "wm-mv " + dir : "wm-mv", "");
-    val.textContent = [m.value, m.change].filter(Boolean).join(" ") + (dir === "up" ? " ▲" : dir === "down" ? " ▼" : "");
+    val.textContent = [m.value, m.change].filter(Boolean).join(" ");
+    if (dir) val.appendChild(wmEl("b", "wm-arr", dir === "up" ? " ▲" : " ▼"));
     box.appendChild(val);
     if (m.note || m.asOfKST) box.appendChild(wmEl("small", "", [m.note, m.asOfKST].filter(Boolean).join(" · ")));
     market.appendChild(box);
