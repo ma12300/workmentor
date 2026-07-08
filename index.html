@@ -470,6 +470,7 @@ h2.section { font-weight: 800; font-size: 24px; color: var(--navy); letter-spaci
 .atabs { display: flex; gap: 6px; flex-wrap: wrap; margin-bottom: 16px; }
 .atabs button { border: 1px solid var(--line); background: var(--white); border-radius: 8px; padding: 8px 15px; font-size: 13.5px; font-weight: 600; color: #444E63; }
 .atabs button.on { background: var(--navy); border-color: var(--navy); color: #fff; }
+.wm-note { background: #FFF7EF; border: 1px solid #F5CDAE; border-left: 4px solid var(--brand); border-radius: 9px; padding: 11px 14px; font-size: 13.5px; color: #5A4632; line-height: 1.65; margin: 2px 0 12px; }
 .noti-badge { display: inline-block; min-width: 16px; height: 16px; line-height: 16px; background: var(--danger); color: #fff; border-radius: 99px; font-size: 10px; font-weight: 800; padding: 0 4px; margin-left: 5px; vertical-align: 1px; text-align: center; }
 .apanel { display: none; }
 .apanel.on { display: block; }
@@ -1400,6 +1401,7 @@ function toggleViewMode() {
   window.scrollTo({ top: 0 });
 }
 try { applyViewMode(); } catch (_) {}
+try { loadGovNotes(); } catch (_) {}
 
 /* 뒤로/앞으로 버튼: 사이트 안에서 이전 메뉴로 이동
    + 맨 밑바닥에 "방석(guard)" 상태를 깔아 홈에서 뒤로 가기를 눌러도
@@ -1910,6 +1912,25 @@ const GOV_FEED_URLS = {
   fund:  [["금융위원회", "https://www.korea.kr/rss/dept_fsc.xml"], ["관세청", "https://www.korea.kr/rss/dept_customs.xml"]],
   biz:   [["중소벤처기업부", "https://www.korea.kr/rss/dept_mss.xml"]]
 };
+let GOV_NOTES = {};   /* 분류별 워크멘토 해설 (③ E-E-A-T) */
+async function loadGovNotes() {
+  if (!useCloud) return;
+  try {
+    const { data } = await sb.from("gov_notes").select("group_key, note");
+    GOV_NOTES = {};
+    (data || []).forEach(r => { if (r.note) GOV_NOTES[r.group_key] = r.note; });
+  } catch (_) {}
+}
+async function editGovNote(key) {
+  const cur = GOV_NOTES[key] || "";
+  const note = prompt("이 분류 상단에 표시될 '워크멘토 해설'을 입력하세요.\n(비우고 확인하면 해설이 내려갑니다)", cur);
+  if (note === null) return;
+  const { error } = await sb.from("gov_notes").upsert({ group_key: key, note: note.trim(), updated_at: new Date().toISOString() });
+  if (error) return alert("저장 실패: " + error.message + "\n(add-gov-notes.sql 실행 여부 확인)");
+  if (note.trim()) GOV_NOTES[key] = note.trim(); else delete GOV_NOTES[key];
+  drawLessonList();
+  alert("해설이 저장되었습니다. 뉴스 페이지(/news/)에는 다음 자동 발행부터 반영됩니다.");
+}
 const GOVF = {};   /* 그룹별 { rows, state } */
 function govState(key) { return GOVF[key] || (GOVF[key] = { rows: [], state: "idle" }); }
 async function loadGovFeed(key) {
@@ -2046,7 +2067,20 @@ function drawLessonList() {
     } else if (g.state === "done") {
       const t = document.createElement("p");
       t.className = "showcol-t"; t.textContent = gLive.title;
+      if (hasPerm("lesson")) {
+        const eb = document.createElement("button");
+        eb.className = "filebtn"; eb.style.cssText = "margin:0 0 0 8px; padding:3px 9px; font-size:11px;";
+        eb.textContent = "💬 해설 편집";
+        eb.onclick = () => editGovNote(gLive.key);
+        t.appendChild(eb);
+      }
       box.appendChild(t);
+      if (GOV_NOTES[gLive.key]) {
+        const nb = document.createElement("div");
+        nb.className = "wm-note";
+        nb.textContent = "💬 워크멘토 해설 — " + GOV_NOTES[gLive.key];
+        box.appendChild(nb);
+      }
       g.rows.filter(x => !q || x.title.includes(q) || (x.summary || "").includes(q)).slice(0, 20).forEach(x => {
         const el = document.createElement("div");
         el.className = "card row";
