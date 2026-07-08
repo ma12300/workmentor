@@ -64,9 +64,21 @@ img { max-width: 100%; }
 /* ---------- 상단 바 ---------- */
 .topbar { position: sticky; top: 0; z-index: 50; background: var(--white); border-bottom: 1px solid var(--line); }
 .topbar-in { max-width: 1160px; margin: 0 auto; padding: 0 20px; display: flex; align-items: center; gap: 8px; height: 62px; }
+@media (max-width: 980px) {
+  .topbar-in { flex-wrap: wrap; row-gap: 6px; padding-top: 10px; padding-bottom: 10px; height: auto; }
+  .logo { order: 1; }
+  .authArea { order: 2; margin-left: auto; }
+  #ctaMain { order: 3; }
+  nav { order: 4; flex-basis: 100%; justify-content: center; row-gap: 2px; }
+  nav button { padding: 7px 10px; font-size: 13.5px; }
+}
+@media (max-width: 480px) {
+  nav button { padding: 6px 8px; font-size: 12.5px; }
+  #ctaMain { padding: 8px 11px; font-size: 12.5px; }
+}
 .logo { font-weight: 800; font-size: 21px; color: var(--navy); letter-spacing: -0.02em; margin-right: 14px; white-space: nowrap; }
 .logo .accent { color: var(--brand); }
-nav { display: flex; gap: 2px; flex: 1; overflow-x: auto; }
+nav { display: flex; gap: 2px; flex: 1; flex-wrap: wrap; min-width: 0; }
 nav button { background: none; border: none; padding: 8px 13px; font-size: 14.5px; font-weight: 500; color: #5A6478; border-radius: 8px; white-space: nowrap; }
 nav button:hover { background: var(--paper); }
 nav button.on { color: var(--navy); font-weight: 700; background: var(--blue-soft); }
