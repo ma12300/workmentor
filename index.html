@@ -77,6 +77,7 @@ img { max-width: 100%; }
   nav button { padding: 5px 5.5px; font-size: 11.5px; }
 }
 .logo { font-weight: 800; font-size: 21px; color: var(--navy); letter-spacing: -0.02em; margin-right: 14px; white-space: nowrap; }
+.logo { cursor: pointer; }
 .logo .accent { color: var(--brand); }
 nav { order: 4; flex-basis: 100%; display: flex; flex-wrap: wrap; justify-content: center; gap: 2px; border-top: 1px solid var(--line); margin-top: 8px; padding-top: 7px; }
 nav button { background: none; border: none; padding: 8px 13px; font-size: 14.5px; font-weight: 500; color: #5A6478; border-radius: 8px; white-space: nowrap; }
@@ -410,7 +411,7 @@ footer select { border: 1px solid var(--line); border-radius: 6px; padding: 4px 
 <!-- ===== 상단 바 ===== -->
 <div class="topbar">
   <div class="topbar-in">
-    <span class="logo"><svg width="18" height="18" viewBox="0 0 52 52" style="vertical-align:-2px; margin-right:6px;" aria-hidden="true"><rect x="4" y="34" width="14" height="14" fill="#F97B33"/><rect x="18" y="20" width="14" height="28" fill="#F97B33"/><rect x="32" y="4" width="14" height="44" fill="#F97B33"/></svg>Work<span class="accent">Mentor</span></span>
+    <span class="logo" onclick="go('home')" title="홈으로"><svg width="18" height="18" viewBox="0 0 52 52" style="vertical-align:-2px; margin-right:6px;" aria-hidden="true"><rect x="4" y="34" width="14" height="14" fill="#F97B33"/><rect x="18" y="20" width="14" height="28" fill="#F97B33"/><rect x="32" y="4" width="14" height="44" fill="#F97B33"/></svg>Work<span class="accent">Mentor</span></span>
     <nav id="nav">
       <button data-page="home" class="on">홈</button>
       <button data-page="funds">지원사업</button>
@@ -1101,6 +1102,7 @@ function fmtPeriod(p) { return String(p||"").replace(/(\d{4})(\d{2})(\d{2})/g, "
 
 /* ---------- 페이지 전환 ---------- */
 function go(page) {
+  if (!document.getElementById("page-" + page)) page = "home";
   if (typeof canAccess === "function" && !canAccess(page)) return;
   document.querySelectorAll(".page").forEach(p => p.classList.remove("on"));
   document.getElementById("page-" + page).classList.add("on");
@@ -1108,8 +1110,32 @@ function go(page) {
   window.scrollTo({ top: 0 });
   if (typeof chatOnNavigate === "function") chatOnNavigate(page);
   if (page === "board" && typeof loadBoard === "function") loadBoard();
+  /* 브라우저 방문 기록에 기록 → 뒤로/앞으로 버튼이 사이트 안에서 작동 */
+  try {
+    if (go._pop) { go._pop = false; }
+    else if (!(history.state && history.state.page === page)) {
+      history.pushState({ page }, "", "#" + page);
+    }
+  } catch (_) {}
 }
 document.querySelectorAll("#nav button").forEach(b => b.addEventListener("click", () => go(b.dataset.page)));
+
+/* 뒤로/앞으로 버튼: 사이트 안에서 이전 메뉴로 이동 */
+try {
+  window.addEventListener("popstate", e => {
+    const page = (e.state && e.state.page) || (location.hash || "").slice(1) || "home";
+    go._pop = true;
+    go(page);
+  });
+  const first = (location.hash || "").slice(1);
+  if (first && document.getElementById("page-" + first)) {
+    history.replaceState({ page: first }, "", "#" + first);
+    go._pop = true;
+    go(first);
+  } else {
+    history.replaceState({ page: "home" }, "", location.pathname + location.search);
+  }
+} catch (_) {}
 
 /* ---------- 모달 공용 ---------- */
 function openModal(id) { document.getElementById(id).classList.add("on"); }
