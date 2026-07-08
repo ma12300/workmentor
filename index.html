@@ -1861,8 +1861,18 @@ async function loadGovFeed(key) {
   const feeds = GOV_FEED_URLS[key] || [];
   let rows = [];
 
+  /* 경로 0: 깃허브 액션이 30분마다 수집해둔 같은 도메인의 정적 JSON (차단·CORS 무관 — 최우선) */
+  try {
+    const r0 = await fetch("gov-feeds.json?t=" + Math.floor(Date.now() / 300000));
+    if (r0.ok) {
+      const d0 = await r0.json();
+      const arr = d0 && d0.groups && d0.groups[key];
+      if (Array.isArray(arr) && arr.length) rows = arr;
+    }
+  } catch (_) {}
+
   /* 경로 1: 워커 중계 (정부 사이트가 클라우드플레어를 막으면 비어서 옴) */
-  if (DB.api.proxy) {
+  if (!rows.length && DB.api.proxy) {
     try {
       const res = await fetch(DB.api.proxy.replace(/\/$/, "") + "/?api=govfeed&group=" + key);
       const txt = await res.text();
