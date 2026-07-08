@@ -208,7 +208,7 @@ h2.section { font-weight: 800; font-size: 24px; color: var(--navy); letter-spaci
 .match .meta { font-size: 13px; color: #5A6478; }
 .match .money { font-family: var(--mono); font-weight: 600; color: var(--gold); font-size: 17px; margin-top: 6px; }
 
-/* ---------- 필터 바 (기업마당 스타일 세분화) ---------- */
+/* ---------- 필터 바 (지원사업포털 스타일 세분화) ---------- */
 .filterbar { background: var(--white); border: 1px solid var(--line); border-radius: var(--radius); padding: 16px; margin-bottom: 16px; display: grid; gap: 12px; }
 .filterrow { display: flex; align-items: flex-start; gap: 10px; flex-wrap: wrap; }
 .filterrow .flabel { font-size: 13px; font-weight: 700; color: var(--navy); min-width: 64px; padding-top: 6px; }
@@ -565,7 +565,7 @@ footer select { border: 1px solid var(--line); border-radius: 6px; padding: 4px 
   </section>
 </section>
 
-<!-- ============ 지원사업 (기업마당 스타일 세분화) ============ -->
+<!-- ============ 지원사업 (지원사업포털 스타일 세분화) ============ -->
 <section class="page" id="page-funds">
   <h2 class="section">정부 지원사업</h2>
   <p class="section-sub">분야 · 소관기관 · 지역으로 세분화해 찾아보세요.자세한 내용은 워크멘토 관리자에게 문의주세요. <span id="fundStatus" class="status">예시 데이터 표시 중 — 관리자 페이지에서 기업 API를 연결하면 실시간 공고로 전환됩니다.</span></p>
@@ -1063,14 +1063,14 @@ footer select { border: 1px solid var(--line); border-radius: 6px; padding: 4px 
     <!-- API 연동 -->
     <div class="apanel" id="apanel-api">
       <div class="hintbox">
-        <b>기업마당 실시간 API 연동 방법</b><br />
-        1) 기업마당(bizinfo.go.kr) → 활용정보 → 정책정보 개방에서 API 인증키를 무료로 신청합니다.<br />
+        <b>정부 지원사업 API 연동 방법</b><br />
+        1) 정부 지원사업 포털(bizinfo.go.kr) → 활용정보 → 정책정보 개방에서 API 인증키를 무료로 신청합니다.<br />
         2) 발급받은 인증키를 아래에 입력하고 저장하면 지원사업 페이지가 실시간 공고로 전환됩니다.<br />
         3) 브라우저 보안(CORS) 때문에 직접 호출이 막히면, 함께 드린 <b>bizinfo-proxy-worker.js</b>를
         Cloudflare Workers(무료)에 배포하고 그 주소를 프록시 URL에 넣으세요. 자세한 방법은 README 참고.
       </div>
       <div class="card form">
-        <div><label>기업마당 API 인증키 (crtfcKey)</label><input id="api-key" placeholder="발급받은 인증키 입력" /></div>
+        <div><label>지원사업 API 인증키 (crtfcKey)</label><input id="api-key" placeholder="발급받은 인증키 입력" /></div>
         <div><label>프록시 URL (선택 — CORS 차단 시)</label><input id="api-proxy" placeholder="https://내워커이름.workers.dev" /></div>
         <div class="frow">
           <div><label>가져올 공고 수</label><input id="api-cnt" type="number" value="50" min="10" max="200" /></div>
@@ -1431,7 +1431,7 @@ function closeModal(id) { document.getElementById(id).classList.remove("on"); }
 document.querySelectorAll(".modal-bg").forEach(m => m.addEventListener("click", e => { if (e.target === m) m.classList.remove("on"); }));
 
 /* ==========================================================
-   지원사업: 기업마당 API 연동 + 세분화 필터
+   지원사업: 지원사업포털 API 연동 + 세분화 필터
    ========================================================== */
 let fState = { field: "전체", agency: "전체", region: "전체" };
 
@@ -1471,7 +1471,7 @@ async function loadLiveFunds() {
     FUNDS = arr.map(normalizeFund);
     fundLive = true;
     const fs = document.getElementById("fundStatus");
-    fs.textContent = `● 기업마당 실시간 연동 중 — 공고 ${FUNDS.length}건`;
+    fs.textContent = `● 정부 지원사업 실시간 연동 중 — 공고 ${FUNDS.length}건`;
     fs.className = "status live";
     if (st) st.textContent = `✓ 성공! ${FUNDS.length}건의 실시간 공고를 불러왔습니다.`;
     buildFundFilters(); renderFunds(); renderHomeMatches();
@@ -1576,17 +1576,17 @@ async function viewOriginal(url) {
     const res = await fetch(DB.api.proxy.replace(/\/$/, "") + "?api=detail&url=" + encodeURIComponent(url));
     const d = await res.json();
     if (d && d.error) throw new Error(d.error);
-    if (!d || !d.content) throw new Error("워커가 이전 버전일 수 있습니다 (Cloudflare에 최신 워커 v8 배포 필요)");
+    if (!d || !d.content) throw new Error("워커가 이전 버전일 수 있습니다 (Cloudflare에 최신 워커 v20 배포 필요)");
     box.innerHTML = `
       ${d.title ? `<h4>${esc(d.title)}</h4>` : ""}
       <div class="origtext">${esc(d.content)}</div>
       ${d.files && d.files.length ? `<div class="m-files">` + d.files.map(f =>
         `<a href="${esc(f.url)}" target="_blank" rel="noopener">📎 ${esc(f.name)}</a>`).join("") + `</div>` : ""}
-      <p class="src">출처: 중소벤처기업부 기업마당 · <a href="${esc(url)}" target="_blank" rel="noopener">기업마당 원문 페이지</a></p>`;
+      <p class="src"><a href="${esc(url)}" target="_blank" rel="noopener">원문 페이지에서 직접 보기 ↗</a></p>`;
   } catch (e) {
     box.innerHTML = `<p class="empty">원문을 사이트 안에서 불러오지 못했습니다.<br />
       <span style="font-size:12px; color:#9AA3B5;">(원인: ${esc(e.message)})</span><br />
-      <a href="${esc(url)}" target="_blank" rel="noopener">기업마당에서 열기</a></p>`;
+      <a href="${esc(url)}" target="_blank" rel="noopener">원문 페이지에서 열기 ↗</a></p>`;
   }
 }
 
@@ -1776,7 +1776,7 @@ function showJob(j) {
 let lState = { cat: "최신 정보" };
 const LESSON_CATS = ["최신 정보", "전체", "세무/회계", "노무/인사", "금융", "계약/법률", "경영 일반", "자료실"];
 
-/* ---- 최신 정보: 기업마당 행사정보 + 정책뉴스 자동 수집 ---- */
+/* ---- 최신 정보: 지원사업포털 행사정보 + 정책뉴스 자동 수집 ---- */
 let LATEST = [];
 let latestState = "idle";   /* idle → loading → done | error */
 
@@ -1793,7 +1793,7 @@ function srcBadge(source) {
   return source === "행사정보" ? "hr" : source === "정책뉴스" ? "fund" : "paid";
 }
 
-/* JSON이든 XML(RSS)이든, 기업마당이든 공공데이터포털이든 알아서 해석하는 관용 파서 */
+/* JSON이든 XML(RSS)이든, 지원사업포털이든 공공데이터포털이든 알아서 해석하는 관용 파서 */
 function parseFeed(text, source) {
   let items = [];
   try {
@@ -1848,7 +1848,7 @@ function showLatest(x) {
   document.getElementById("detailBody").innerHTML = `
     <span class="badge ${srcBadge(x.source)}">${esc(x.source)}</span>
     <h3>${esc(x.title)}</h3>
-    <p class="m-sub">기업마당 · ${esc(fmtDate(x.date))}</p>
+    <p class="m-sub">${esc(x.source || "실시간 정보")} · ${esc(fmtDate(x.date))}</p>
     <div class="m-body">${esc(x.summary) || "요약 정보가 없습니다. 아래 버튼으로 원문 내용을 펼쳐보세요."}</div>
     <div class="origbox" id="origBox"></div>
     <div class="btns">
@@ -1992,7 +1992,7 @@ function buildLessonFilters() {
 }
 
 function renderLessons() {
-  /* "최신 정보"=기업마당 자동 수집 · "세무/회계"=기획재정부 실시간 + 관리자 자료 · 나머지=관리자 자료 */
+  /* "최신 정보"=지원사업포털 자동 수집 · "세무/회계"=기획재정부 실시간 + 관리자 자료 · 나머지=관리자 자료 */
   if (lState.cat === "최신 정보" && latestState === "idle") { loadLatestInfo(); return; }
   const gg = GOV_GROUPS[lState.cat];
   if (gg && ["idle", "error"].includes(govState(gg.key).state)) { loadGovFeed(gg.key); return; }
@@ -2005,7 +2005,7 @@ function drawLessonList() {
   box.innerHTML = "";
 
   if (lState.cat === "최신 정보") {
-    if (latestState === "loading") { box.innerHTML = '<p class="empty">기업마당에서 최신 행사정보와 정책뉴스를 불러오는 중...</p>'; return; }
+    if (latestState === "loading") { box.innerHTML = '<p class="empty">최신 행사정보와 정책뉴스를 불러오는 중...</p>'; return; }
     if (latestState === "error") { box.innerHTML = '<p class="empty">최신 정보를 불러오지 못했습니다. 관리자 → API 연동에 프록시 URL이 설정되어 있는지, 프록시 워커가 최신 버전(행사정보·정책뉴스 지원)인지 확인해주세요.</p>'; return; }
     const rows = LATEST.filter(x => !q || x.title.includes(q) || x.summary.includes(q));
     if (!rows.length) { box.innerHTML = '<p class="empty">검색 결과가 없습니다.</p>'; return; }
@@ -2018,7 +2018,7 @@ function drawLessonList() {
       el.innerHTML = `
         <div>
           <p class="title">${kwStar(hit)}${esc(x.title)}</p>
-          <p class="sub">기업마당 · ${esc(x.source)}</p>
+          <p class="sub">정책포털 · ${esc(x.source)}</p>
           <div class="tags">
             <span class="badge ${srcBadge(x.source)}">${esc(x.source)}</span>
             <span class="badge free">실시간</span>
