@@ -1572,7 +1572,7 @@ async function viewOriginal(url, ctx) {
   const box = document.getElementById("origBox");
   if (!box) return;
   if (!DB.api.proxy) { window.open(url, "_blank"); return; }   /* 프록시 미설정 시 기존 방식 */
-  /* 지원사업 메뉴에서 연 콘텐츠만 소통방·유료게이트 — 최신 정보 등 다른 메뉴는 원문 링크·첨부 원상 유지 */
+  /* 지원사업·최신 정보(기업마당 계열) = 소통방 유도 + 첨부 유료게이트 · 그 외 출처 = 원문 링크 유지 */
   const funnel = ctx === "funds";
   const chatCTA = `<a href="#" onclick="closeModal('detailModal'); go('chat'); return false;" style="color:var(--brand); font-weight:700;">💬 자세한 내용 및 진행은 워크멘토 관리자에게 문의 부탁드립니다 →</a>`;
   const extLink = `<a href="${esc(url)}" target="_blank" rel="noopener">원문 페이지에서 직접 보기 ↗</a>`;
@@ -1867,7 +1867,7 @@ function showLatest(x) {
       <button class="btn-ghost" onclick="closeModal('detailModal')">닫기</button>
       ${x.url ? (isNews
         ? `<a class="cta gold" href="${esc(x.url)}" target="_blank" rel="noopener" style="text-decoration:none;">원문 페이지에서 자세한 내용 보기 ↗</a>`
-        : `<button class="cta gold" onclick="viewOriginal('${esc(x.url)}')">원문 내용 보기</button>`) : ""}
+        : `<button class="cta gold" onclick="viewOriginal('${esc(x.url)}', 'funds')">원문 내용 보기</button>`) : ""}
     </div>`;
   openModal("detailModal");
   logActivity(x.source || "최신 정보", x.title, x.source || "");
