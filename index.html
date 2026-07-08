@@ -1550,12 +1550,14 @@ function showFund(f) {
     <h3>${esc(f.title)}</h3>
     <p class="m-sub">${esc(f.agency)} · ${esc(f.region)} · 접수 ${fmtPeriod(f.period) || "상시"}</p>
     <div class="m-body">${esc(f.summary) || "요약 정보가 없습니다. 아래 [원문 내용 보기] 또는 관리자 문의로 상세 내용을 확인하세요."}</div>
-    ${f.file ? `
+    ${f.file ? (DB.view === "paid" ? `
       <div class="m-files">
         <b style="font-size:13.5px;">첨부파일</b><br />
-        <span>📎 ${esc(f.fileName || "공고문")}</span>
-        <a href="#" onclick="closeModal('detailModal'); go('chat'); return false;" style="display:block; margin-top:7px; color:var(--brand); font-weight:700;">💬 첨부파일·상세 안내는 소통방에서 관리자에게 요청해주세요 →</a>
-      </div>` : ""}
+        <a href="${esc(f.file)}" target="_blank" rel="noopener">📎 ${esc(f.fileName || "공고문 내려받기")}</a>
+        ${isPdf ? `<button class="filebtn" onclick="const ifr=this.nextElementSibling; ifr.src=ifr.dataset.src; ifr.style.display='block'; this.style.display='none';">사이트에서 바로 열기</button>
+        <iframe class="doc" style="display:none;" data-src="${esc(f.file)}"></iframe>` : ""}
+      </div>` : `
+      <div class="locknote">🔒 첨부파일(공고문·서식) 「${esc(f.fileName || "공고문")}」은 <b>유료회원</b> 전용입니다. 멤버쉽 업그레이드 후 바로 내려받을 수 있습니다.</div>`) : ""}
     <div class="origbox" id="origBox"></div>
     <div class="btns">
       <button class="btn-ghost" onclick="closeModal('detailModal')">닫기</button>
@@ -1585,9 +1587,9 @@ async function viewOriginal(url) {
     box.innerHTML = `
       ${d.title ? `<h4>${esc(d.title)}</h4>` : ""}
       <div class="origtext">${esc(d.content)}</div>
-      ${d.files && d.files.length ? (isBiz
-        ? `<div class="m-files">📎 첨부파일 ${d.files.length}건 · <a href="#" onclick="closeModal('detailModal'); go('chat'); return false;" style="color:var(--brand); font-weight:700;">소통방에서 관리자에게 요청하기 →</a></div>`
-        : `<div class="m-files">` + d.files.map(f => `<a href="${esc(f.url)}" target="_blank" rel="noopener">📎 ${esc(f.name)}</a>`).join("") + `</div>`) : ""}
+      ${d.files && d.files.length ? ((DB.view === "paid" || !isBiz)
+        ? `<div class="m-files">` + d.files.map(f => `<a href="${esc(f.url)}" target="_blank" rel="noopener">📎 ${esc(f.name)}</a>`).join("") + `</div>`
+        : `<div class="locknote">🔒 첨부파일 ${d.files.length}건은 <b>유료회원</b> 전용입니다. 멤버쉽 업그레이드 후 바로 내려받을 수 있습니다.</div>`) : ""}
       <p class="src">${isBiz ? chatCTA : extLink}</p>`;
   } catch (e) {
     box.innerHTML = `<p class="empty">원문을 사이트 안에서 불러오지 못했습니다.<br />
