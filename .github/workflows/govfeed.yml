@@ -19,10 +19,10 @@ jobs:
           node-version: "20"
 
       - name: collect-feeds
-        run: node scripts/collect-govfeed.mjs
+        run: node scripts/collect-v3.mjs
 
       - name: build-news-pages
-        run: node scripts/build-news-pages.mjs
+        run: node scripts/build-news-v2.mjs
 
       - name: commit-if-changed
         run: |
