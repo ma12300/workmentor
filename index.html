@@ -105,14 +105,22 @@ nav button.on .nt { font-weight: 700; }
 .cta.gold { background: var(--gold); }
 
 .wrap { max-width: 1160px; margin: 0 auto; padding: 30px 20px 90px; }
+nav button, .cta, .authbtn, .fsave, .filebtn, .btn-blue, .btn-gold, .btn-ghost { transition: transform 0.12s ease, background 0.15s ease, box-shadow 0.15s ease; }
+nav button:active, .cta:active, .authbtn:active, .fsave:active, .btn-blue:active, .btn-gold:active { transform: scale(0.97); }
+.cocard, .card.row { transition: transform 0.15s ease, box-shadow 0.15s ease, border-color 0.15s ease; }
+.cocard:hover, .card.row:hover { transform: translateY(-2px); box-shadow: 0 6px 16px rgba(66, 62, 56, 0.10); }
+.cocard:active, .card.row:active { transform: translateY(0) scale(0.99); }
+@media (prefers-reduced-motion: reduce) { *, *::before, *::after { animation: none !important; transition: none !important; } html { scroll-behavior: auto; } }
 /* 홈: 메뉴 스트립이 대문(히어로) 머리 위에 딱 붙는 한 몸 구성 */
 body.is-home .topbar { border-bottom: none; }
 body.is-home .topbar-in { padding-bottom: 0; }
 body.is-home nav { border-radius: 10px 10px 0 0; }
 body.is-home .wrap { padding-top: 0; }
 body.is-home .hero { border-radius: 0 0 16px 16px; }
+html { scroll-behavior: smooth; }
 .page { display: none; }
-.page.on { display: block; animation: fade 0.22s ease; }
+.page.on { display: block; animation: pageIn 0.32s ease both; }
+@keyframes pageIn { from { opacity: 0; transform: translateY(10px); } to { opacity: 1; transform: none; } }
 @keyframes fade { from { opacity: 0; transform: translateY(5px); } to { opacity: 1; } }
 @media (prefers-reduced-motion: reduce) { .page.on { animation: none; } }
 
@@ -230,7 +238,10 @@ h2.section { font-weight: 800; font-size: 24px; color: var(--navy); letter-spaci
 
 /* ---------- 모달 ---------- */
 .modal-bg { display: none; position: fixed; inset: 0; z-index: 100; background: rgba(20,26,45,0.55); align-items: flex-start; justify-content: center; padding: 30px 16px; overflow-y: auto; }
-.modal-bg.on { display: flex; }
+.modal-bg.on { display: flex; animation: bgIn 0.18s ease both; }
+@keyframes bgIn { from { opacity: 0; } to { opacity: 1; } }
+.modal-bg.on .modal { animation: popIn 0.26s cubic-bezier(0.2, 0.9, 0.3, 1.15) both; }
+@keyframes popIn { from { opacity: 0; transform: translateY(14px) scale(0.97); } to { opacity: 1; transform: none; } }
 .modal { background: #fff; border-radius: 14px; padding: 26px; max-width: 680px; width: 100%; }
 .modal h3 { font-size: 19px; font-weight: 800; line-height: 1.45; margin-bottom: 4px; color: var(--navy); }
 .modal .m-sub { font-size: 13.5px; color: #5A6478; margin-bottom: 14px; }
@@ -363,6 +374,36 @@ h2.section { font-weight: 800; font-size: 24px; color: var(--navy); letter-spaci
   border-left: 4px solid var(--brand); border-right: 4px solid #D8D3CB;
   box-shadow: 0 2px 10px rgba(66, 62, 56, 0.07); }
 .blurname { filter: blur(5px); user-select: none; }
+
+/* ==========================================================
+   모바일 최적화 (720px 이하 공통)
+   ========================================================== */
+@media (max-width: 720px) {
+  .wrap { padding: 18px 13px 64px; }
+  body.is-home .wrap { padding-top: 0; }
+  h2.section { font-size: 20px; }
+  .section-sub { font-size: 13px; }
+  .hero { padding: 34px 18px 42px; }
+  .hero p { font-size: 13.5px; line-height: 1.75; }
+  .hero .actions { display: flex; flex-direction: column; gap: 10px; align-items: center; }
+  .hero .actions button { width: min(100%, 300px); padding: 13px 0; font-size: 15px; }
+  .wm-market-briefing { padding: 18px 14px; border-radius: 14px; }
+  .wm-market-briefing h2 { font-size: 20px; }
+  .wm-hl-src { min-width: 58px; font-size: 10.5px; }
+  .wm-hl-row { gap: 8px; padding: 8px 2px; }
+  .wm-hl-row a { font-size: 12.5px; }
+  .wm-hl-time { font-size: 10px; }
+  .showstack .cocard { height: auto; min-height: 100px; padding: 12px 14px; }
+  .wm-partner-slot { min-height: 62px; font-size: 11.5px; }
+  footer { font-size: 11.5px; line-height: 1.7; }
+  .ab-head h2 { font-size: 21px; }
+  .chatbox { height: 68vh; }
+}
+@media (max-width: 420px) {
+  h2.section { font-size: 18px; }
+  .hero { padding: 28px 14px 36px; }
+  .wm-market-briefing__market { grid-template-columns: repeat(2, 1fr); }
+}
 .showstack .cocard .desc, .showstack .cocard .co-sub { display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
 .showcase .cocard { animation: wmUp 0.5s ease both; cursor: pointer; }
 .showcase .cocard:nth-child(2) { animation-delay: 0.07s; }
@@ -1016,7 +1057,7 @@ footer select { border: 1px solid var(--line); border-radius: 6px; padding: 4px 
   본 사이트의 기업을 위한 지원사업 정보 출처는 중소벤처기업부와 각종 지자체 입니다. 예시 데이터가 표시될 수 있으며,
   최종 확인은 각 공고 원문을 따릅니다. ( 사업자등록번호 133-16-02411 워크멘토 ) 
   <div class="viewmode">
-    회원 등급: <b id="tierLabel">비회원</b> <span style="color:#B7BECD;">— 가입·업그레이드는 우측 상단과 멤버쉽 메뉴에서</span>
+    회원 등급: <b id="tierLabel">비회원</b> <button type="button" class="authbtn" id="pcModeBtn" style="margin-left:10px; padding:6px 11px; font-size:12px;" onclick="toggleViewMode()">💻 PC 버전 보기</button> <span style="color:#B7BECD;">— 가입·업그레이드는 우측 상단과 멤버쉽 메뉴에서</span>
     <span class="status">— VIP 유료회원님들은 기업들과 인재들의 연락처 및 주요 자료들이 확인 가능합니다.(변경 및 문의사항은 '워크멘토'로 연락부탁드립니다)</span>
   </div>
 
@@ -1159,6 +1200,27 @@ function wmGuard(e) {
   document.addEventListener(ev, wmGuard)
 );
 try { updateWatermark(); setInterval(updateWatermark, 60 * 1000); } catch (_) {}
+
+/* PC 버전 ↔ 모바일 버전 보기 전환 (선택은 기기에 기억됨) */
+function applyViewMode() {
+  const mode = localStorage.getItem("wm_viewmode") || "auto";
+  const vp = document.querySelector('meta[name="viewport"]');
+  const btn = document.getElementById("pcModeBtn");
+  if (mode === "pc") {
+    if (vp) vp.setAttribute("content", "width=1160");
+    if (btn) btn.textContent = "📱 모바일 버전 보기";
+  } else {
+    if (vp) vp.setAttribute("content", "width=device-width, initial-scale=1.0");
+    if (btn) btn.textContent = "💻 PC 버전 보기";
+  }
+}
+function toggleViewMode() {
+  const cur = localStorage.getItem("wm_viewmode") || "auto";
+  try { localStorage.setItem("wm_viewmode", cur === "pc" ? "auto" : "pc"); } catch (_) {}
+  applyViewMode();
+  window.scrollTo({ top: 0 });
+}
+try { applyViewMode(); } catch (_) {}
 
 /* 뒤로/앞으로 버튼: 사이트 안에서 이전 메뉴로 이동
    + 맨 밑바닥에 "방석(guard)" 상태를 깔아 홈에서 뒤로 가기를 눌러도
