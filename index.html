@@ -1549,13 +1549,12 @@ function showFund(f) {
     <span class="badge fund">${esc(f.field)}</span>
     <h3>${esc(f.title)}</h3>
     <p class="m-sub">${esc(f.agency)} · ${esc(f.region)} · 접수 ${fmtPeriod(f.period) || "상시"}</p>
-    <div class="m-body">${esc(f.summary) || "요약 정보가 없습니다. 첨부파일이나 원문에서 상세 내용을 확인하세요."}</div>
+    <div class="m-body">${esc(f.summary) || "요약 정보가 없습니다. 아래 [원문 내용 보기] 또는 관리자 문의로 상세 내용을 확인하세요."}</div>
     ${f.file ? `
       <div class="m-files">
         <b style="font-size:13.5px;">첨부파일</b><br />
-        <a href="${esc(f.file)}" target="_blank" rel="noopener">📎 ${esc(f.fileName || "공고문 내려받기")}</a>
-        ${isPdf ? `<button class="filebtn" onclick="const ifr=this.nextElementSibling; ifr.src=ifr.dataset.src; ifr.style.display='block'; this.style.display='none';">사이트에서 바로 열기</button>
-        <iframe class="doc" style="display:none;" data-src="${esc(f.file)}"></iframe>` : ""}
+        <span>📎 ${esc(f.fileName || "공고문")}</span>
+        <a href="#" onclick="closeModal('detailModal'); go('chat'); return false;" style="display:block; margin-top:7px; color:var(--brand); font-weight:700;">💬 첨부파일·상세 안내는 소통방에서 관리자에게 요청해주세요 →</a>
       </div>` : ""}
     <div class="origbox" id="origBox"></div>
     <div class="btns">
@@ -1571,6 +1570,10 @@ async function viewOriginal(url) {
   const box = document.getElementById("origBox");
   if (!box) return;
   if (!DB.api.proxy) { window.open(url, "_blank"); return; }   /* 프록시 미설정 시 기존 방식 */
+  /* 지원사업(기업마당) 콘텐츠만 소통방 유도 — 그 외 출처는 원문 링크 유지 */
+  const isBiz = /bizinfo\.go\.kr/i.test(url || "");
+  const chatCTA = `<a href="#" onclick="closeModal('detailModal'); go('chat'); return false;" style="color:var(--brand); font-weight:700;">💬 자세한 내용 및 진행은 워크멘토 관리자에게 문의 부탁드립니다 →</a>`;
+  const extLink = `<a href="${esc(url)}" target="_blank" rel="noopener">원문 페이지에서 직접 보기 ↗</a>`;
   box.style.display = "block";
   box.innerHTML = '<p class="empty">원문을 불러오는 중...</p>';
   box.scrollIntoView({ behavior: "smooth", block: "nearest" });
@@ -1578,17 +1581,18 @@ async function viewOriginal(url) {
     const res = await fetch(DB.api.proxy.replace(/\/$/, "") + "?api=detail&url=" + encodeURIComponent(url));
     const d = await res.json();
     if (d && d.error) throw new Error(d.error);
-    if (!d || !d.content) throw new Error("워커가 이전 버전일 수 있습니다 (Cloudflare에 최신 워커 v20 배포 필요)");
+    if (!d || !d.content) throw new Error("워커가 이전 버전일 수 있습니다 (Cloudflare에 최신 워커 배포 필요)");
     box.innerHTML = `
       ${d.title ? `<h4>${esc(d.title)}</h4>` : ""}
       <div class="origtext">${esc(d.content)}</div>
-      ${d.files && d.files.length ? `<div class="m-files">` + d.files.map(f =>
-        `<a href="${esc(f.url)}" target="_blank" rel="noopener">📎 ${esc(f.name)}</a>`).join("") + `</div>` : ""}
-      <p class="src"><a href="${esc(url)}" target="_blank" rel="noopener">원문 페이지에서 직접 보기 ↗</a></p>`;
+      ${d.files && d.files.length ? (isBiz
+        ? `<div class="m-files">📎 첨부파일 ${d.files.length}건 · <a href="#" onclick="closeModal('detailModal'); go('chat'); return false;" style="color:var(--brand); font-weight:700;">소통방에서 관리자에게 요청하기 →</a></div>`
+        : `<div class="m-files">` + d.files.map(f => `<a href="${esc(f.url)}" target="_blank" rel="noopener">📎 ${esc(f.name)}</a>`).join("") + `</div>`) : ""}
+      <p class="src">${isBiz ? chatCTA : extLink}</p>`;
   } catch (e) {
     box.innerHTML = `<p class="empty">원문을 사이트 안에서 불러오지 못했습니다.<br />
       <span style="font-size:12px; color:#9AA3B5;">(원인: ${esc(e.message)})</span><br />
-      <a href="${esc(url)}" target="_blank" rel="noopener">원문 페이지에서 열기 ↗</a></p>`;
+      ${isBiz ? chatCTA : extLink}</p>`;
   }
 }
 
@@ -3528,7 +3532,9 @@ function renderBriefing(data) {
     }
   }
   market.replaceChildren();
-  (Array.isArray(data.market) ? data.market : []).forEach((m, mi) => {
+  (Array.isArray(data.market) ? data.market : [])
+    .filter(m => m && !/구리/.test(m.label || ""))   /* 구리 카드 영구 퇴역 (옛 데이터 방어) */
+    .forEach((m, mi) => {
     if (mi === 5) market.appendChild(wmStockCardEl());
     const box = wmEl("div", "wm-market-briefing__metric", "");
     box.appendChild(wmEl("strong", "", m.label || "지표"));
