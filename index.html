@@ -670,7 +670,8 @@ footer select { border: 1px solid var(--line); border-radius: 6px; padding: 4px 
       <ul>
         <li>기업정보 등록 1건</li>
         <li>요청공고 1건</li>
-        <li>지원사업 열람</li>
+        <li>지원사업 열람 — 가입 후 1개월 무료 체험</li>
+        <li>경영수업 '최신 정보' — 가입 후 1개월 무료 체험</li>
 		<li>기업 매니징 문의<li>
       </ul>
       <button onclick="openPay('베이직', 0)">무료로 시작</button>
@@ -1755,11 +1756,17 @@ function showLatest(x) {
 function buildLessonFilters() {
   const box = document.getElementById("lCats");
   box.innerHTML = "";
+  /* 무료(체험) 회원은 '최신 정보'만 — 관리자·유료회원은 전체 */
+  const restricted = !MEMBER.isAdmin && DB.view !== "paid";
+  if (restricted && lState.cat !== "최신 정보") lState.cat = "최신 정보";
   LESSON_CATS.forEach(v => {
+    const lock = restricted && v !== "최신 정보";
     const b = document.createElement("button");
-    b.textContent = v;
+    b.textContent = v + (lock ? " 🔒" : "");
     b.className = "hrf" + (lState.cat === v ? " on" : "");
-    b.onclick = () => { lState.cat = v; buildLessonFilters(); renderLessons(); };
+    b.onclick = lock
+      ? () => { alert("이 분류는 유료회원 전용입니다.\n무료 체험 기간에는 '최신 정보'를 이용하실 수 있습니다."); }
+      : () => { lState.cat = v; buildLessonFilters(); renderLessons(); };
     box.appendChild(b);
   });
 }
@@ -2628,6 +2635,13 @@ async function sendChatFile(inputId) {
    ========================================================== */
 const MEMBER = { user: null, profile: null, isAdmin: false, _tab: "login" };
 const PAGE_NEED = { funds: 2, jobs: 2, lessons: 2, companies: 1, chat: 1, board: 1 };  /* 1=회원, 2=유료 */
+const TRIAL_PAGES = ["funds", "lessons"];   /* 무료회원 1개월 체험 개방 메뉴 */
+function freeTrialActive() {
+  if (MEMBER.isAdmin || !MEMBER.profile) return false;
+  if (MEMBER.profile.tier === "paid" || MEMBER.profile.approved === false) return false;
+  const t = new Date(MEMBER.profile.created_at).getTime();
+  return isFinite(t) && (Date.now() - t) < 30 * 24 * 3600 * 1000;
+}
 
 function openAuth(tab) { authTab(tab || "login"); openModal("authModal"); }
 function authTab(t) {
@@ -2776,7 +2790,8 @@ function updateNavLocks() {
     if (!nt) return;
     if (!b.dataset.label) b.dataset.label = nt.textContent.replace(" 🔒", "");
     const need = PAGE_NEED[p] || 0;
-    const locked = need && !MEMBER.isAdmin && (!MEMBER.user || (need === 2 && DB.view !== "paid"));
+    let locked = need && !MEMBER.isAdmin && (!MEMBER.user || (need === 2 && DB.view !== "paid"));
+    if (locked && TRIAL_PAGES.includes(p) && freeTrialActive()) locked = false;
     nt.textContent = b.dataset.label;
     b.classList.toggle("locked", !!locked);
   });
@@ -2799,7 +2814,12 @@ function canAccess(page) {
     return false;
   }
   if (need === 2 && DB.view !== "paid") {
-    alert("이 메뉴는 유료회원 전용입니다.\n멤버쉽 안내로 이동합니다.");
+    if (TRIAL_PAGES.includes(page) && freeTrialActive()) return true;   /* 무료회원 1개월 체험 */
+    if (TRIAL_PAGES.includes(page) && MEMBER.profile && MEMBER.profile.tier !== "paid") {
+      alert("무료회원 1개월 체험 기간이 종료된 메뉴입니다.\n계속 이용하시려면 멤버쉽을 확인해주세요.");
+    } else {
+      alert("이 메뉴는 유료회원 전용입니다.\n멤버쉽 안내로 이동합니다.");
+    }
     setTimeout(() => go("plans"), 50);
     return false;
   }
