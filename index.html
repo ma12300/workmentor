@@ -1845,25 +1845,69 @@ const GOV_GROUPS = {
   "경영 일반":  { key: "biz",   title: "실시간 중소기업 정책 소식 — 중소벤처기업부" }
 };
 const GOV_BADGE = { "기획재정부": "fund", "국세청": "paid", "고용노동부": "hr", "법무부": "paid", "공정거래위원회": "fund", "금융위원회": "hr", "관세청": "paid", "중소벤처기업부": "fund" };
+const GOV_FEED_URLS = {
+  tax:   [["기획재정부", "https://www.korea.kr/rss/dept_moef.xml"], ["국세청", "https://www.korea.kr/rss/dept_nts.xml"]],
+  labor: [["고용노동부", "https://www.korea.kr/rss/dept_moel.xml"]],
+  law:   [["법무부", "https://www.korea.kr/rss/dept_moj.xml"], ["공정거래위원회", "https://www.korea.kr/rss/dept_ftc.xml"]],
+  fund:  [["금융위원회", "https://www.korea.kr/rss/dept_fsc.xml"], ["관세청", "https://www.korea.kr/rss/dept_customs.xml"]],
+  biz:   [["중소벤처기업부", "https://www.korea.kr/rss/dept_mss.xml"]]
+};
 const GOVF = {};   /* 그룹별 { rows, state } */
 function govState(key) { return GOVF[key] || (GOVF[key] = { rows: [], state: "idle" }); }
 async function loadGovFeed(key) {
   const g = govState(key);
   if (g.state === "loading") return;
-  if (!DB.api.proxy) { g.state = "error"; drawLessonList(); return; }
   g.state = "loading"; drawLessonList();
-  try {
-    const res = await fetch(DB.api.proxy.replace(/\/$/, "") + "/?api=govfeed&group=" + key);
-    const txt = await res.text();
-    g.rows = txt.split("<!--WM-FEED:").slice(1).flatMap(seg => {
-      const i = seg.indexOf("-->");
-      if (i < 0) return [];
-      return parseFeed(seg.slice(i + 3), seg.slice(0, i));
-    }).filter(r => r.title);
-    const t = x => { const d = new Date(x.date); return isNaN(d) ? 0 : d.getTime(); };
-    g.rows.sort((a, b) => t(b) - t(a));
-    g.state = g.rows.length ? "done" : "error";
-  } catch (_) { g.state = "error"; }
+  const feeds = GOV_FEED_URLS[key] || [];
+  let rows = [];
+
+  /* 경로 1: 워커 중계 (정부 사이트가 클라우드플레어를 막으면 비어서 옴) */
+  if (DB.api.proxy) {
+    try {
+      const res = await fetch(DB.api.proxy.replace(/\/$/, "") + "/?api=govfeed&group=" + key);
+      const txt = await res.text();
+      rows = txt.split("<!--WM-FEED:").slice(1).flatMap(seg => {
+        const i = seg.indexOf("-->");
+        if (i < 0) return [];
+        return parseFeed(seg.slice(i + 3), seg.slice(0, i));
+      }).filter(r => r.title);
+    } catch (_) {}
+  }
+
+  /* 경로 2: rss2json 공개 변환 (브라우저 → rss2json → korea.kr) */
+  if (!rows.length) {
+    const results = await Promise.all(feeds.map(async ([label, u]) => {
+      try {
+        const r = await fetch("https://api.rss2json.com/v1/api.json?rss_url=" + encodeURIComponent(u));
+        const d = await r.json();
+        if (d.status !== "ok") return [];
+        return (d.items || []).map(it => ({
+          title: String(it.title || "").trim(),
+          url: it.link || "",
+          date: String(it.pubDate || "").replace(" ", "T"),
+          summary: String(it.description || "").replace(/<[^>]+>/g, " ").replace(/\s+/g, " ").trim().slice(0, 300),
+          source: label
+        }));
+      } catch (_) { return []; }
+    }));
+    rows = results.flat().filter(r => r.title);
+  }
+
+  /* 경로 3: allorigins 공개 중계 (원본 XML 그대로) */
+  if (!rows.length) {
+    const results = await Promise.all(feeds.map(async ([label, u]) => {
+      try {
+        const r = await fetch("https://api.allorigins.win/raw?url=" + encodeURIComponent(u));
+        return parseFeed(await r.text(), label);
+      } catch (_) { return []; }
+    }));
+    rows = results.flat().filter(r => r.title);
+  }
+
+  g.rows = rows;
+  const t = x => { const d = new Date(x.date); return isNaN(d) ? 0 : d.getTime(); };
+  g.rows.sort((a, b) => t(b) - t(a));
+  g.state = g.rows.length ? "done" : "error";
   drawLessonList();
 }
 
@@ -1889,7 +1933,7 @@ function renderLessons() {
   /* "최신 정보"=기업마당 자동 수집 · "세무/회계"=기획재정부 실시간 + 관리자 자료 · 나머지=관리자 자료 */
   if (lState.cat === "최신 정보" && latestState === "idle") { loadLatestInfo(); return; }
   const gg = GOV_GROUPS[lState.cat];
-  if (gg && govState(gg.key).state === "idle") { loadGovFeed(gg.key); return; }
+  if (gg && ["idle", "error"].includes(govState(gg.key).state)) { loadGovFeed(gg.key); return; }
   drawLessonList();
 }
 
@@ -1951,7 +1995,7 @@ function drawLessonList() {
       box.appendChild(t2);
     } else if (DB.api.proxy) {
       const p = document.createElement("p"); p.className = "empty";
-      p.textContent = "실시간 소식을 불러오지 못했습니다. (워커가 v19 이상인지 확인해주세요)";
+      p.textContent = "실시간 소식을 지금은 불러오지 못했습니다. 잠시 후 분류를 다시 눌러 재시도해주세요.";
       box.appendChild(p);
     }
   }
