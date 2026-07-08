@@ -393,6 +393,13 @@ h2.section { font-weight: 800; font-size: 24px; color: var(--navy); letter-spaci
 .showstack .cocard h3 { font-size: 13.5px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
 .showstack .cocard .co-sub { margin: 1px 0 3px; font-size: 11px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
 .showstack .cocard .tags .badge { font-size: 10px; padding: 2px 7px; }
+/* 선명도: 확대·이동 효과를 없애 글자가 픽셀에 정착하게 + 진한 글자색 */
+.showstack .cocard:hover { transform: none; box-shadow: 0 3px 12px rgba(66, 62, 56, 0.13); border-color: var(--brand); }
+.showstack .cocard:active { transform: none; }
+.showstack .cocard * { -webkit-font-smoothing: antialiased; text-rendering: optimizeLegibility; }
+.showstack .cocard h3 { color: #1F2637; }
+.showstack .cocard .co-sub { color: #414B5E; }
+.showstack .cocard .desc { color: #394152; font-weight: 500; }
 .blurname { filter: blur(5px); user-select: none; }
 
 /* ==========================================================
@@ -570,6 +577,7 @@ footer select { border: 1px solid var(--line); border-radius: 6px; padding: 4px 
     <div class="searchrow">
       <input id="fundSearch" placeholder="사업명 검색 (예: 청년, 수출, R&D...)" />
       <button class="cta gold" onclick="renderFunds()">검색</button>
+      <button class="filebtn" style="margin:0; white-space:nowrap;" onclick="openKeywords()">⭐ 키워드</button>
     </div>
   </div>
   <div class="list" id="fundList"></div>
@@ -1148,6 +1156,18 @@ footer select { border: 1px solid var(--line); border-radius: 6px; padding: 4px 
   </div>
 </div>
 
+<!-- ===== 관심 키워드 모달 ===== -->
+<div class="modal-bg" id="keywordModal" role="dialog" aria-modal="true">
+  <div class="modal">
+    <h3>⭐ 관심 키워드</h3>
+    <p class="m-sub">쉼표로 구분해 최대 10개까지. 지원사업 공고와 경영수업 실시간 뉴스에서 일치 항목이 ⭐와 오렌지 테두리로 강조됩니다.</p>
+    <div class="form">
+      <div><label>키워드</label><input id="kw-input" placeholder="예: 스마트공장, 수출바우처, 청년, 세무조사" /></div>
+      <button class="fsave" onclick="saveKeywords()">저장</button>
+    </div>
+  </div>
+</div>
+
 <!-- ===== 인재 공고 등록 모달 (회원용) ===== -->
 <div class="modal-bg" id="talentModal" role="dialog" aria-modal="true">
   <div class="modal">
@@ -1211,6 +1231,7 @@ footer select { border: 1px solid var(--line); border-radius: 6px; padding: 4px 
     <a href="#" onclick="go('terms'); ttab('tos'); return false;" style="color:var(--blue); margin-right:10px;">이용약관</a>
     <a href="#" onclick="go('terms'); ttab('privacy'); return false;" style="color:var(--blue); font-weight:700; margin-right:10px;">개인정보처리방침</a>
     <a href="#" onclick="go('terms'); ttab('refund'); return false;" style="color:var(--blue);">환불정책</a>
+    <a href="news/" target="_blank" rel="noopener" style="color:var(--blue); margin-left:10px;">뉴스 아카이브</a>
   </div>
   본 사이트의 기업을 위한 지원사업 정보 출처는 중소벤처기업부와 각종 지자체 입니다. 예시 데이터가 표시될 수 있으며,
   최종 확인은 각 공고 원문을 따릅니다. ( 사업자등록번호 133-16-02411 워크멘토 ) 
@@ -1499,9 +1520,11 @@ function renderFunds() {
     const el = document.createElement("div");
     el.className = "card row";
     el.onclick = () => showFund(f);
+    const hit = kwHit(f.title + " " + f.summary);
+    if (hit) el.style.borderColor = "var(--brand)";
     el.innerHTML = `
       <div>
-        <p class="title">${esc(f.title)}</p>
+        <p class="title">${kwStar(hit)}${esc(f.title)}</p>
         <p class="sub">${esc(f.agency)} · ${esc(f.region)} · ${fmtPeriod(f.period) || "상시"}</p>
         <div class="tags">
           <span class="badge fund">${esc(f.field)}</span>
@@ -1836,6 +1859,35 @@ function showLatest(x) {
   logActivity(x.source || "최신 정보", x.title, x.source || "");
 }
 
+/* ---------- 관심 키워드 (지원사업·뉴스 ⭐ 매칭 강조) ---------- */
+function myKeywords() {
+  const s = MEMBER.profile && MEMBER.profile.keywords;
+  return String(s || "").split(",").map(x => x.trim()).filter(Boolean).slice(0, 10);
+}
+function kwHit(text) {
+  const t = String(text || "");
+  for (const k of myKeywords()) if (k && t.includes(k)) return k;
+  return null;
+}
+function kwStar(hit) { return hit ? `<span class="badge fund" title="관심 키워드 일치">⭐ ${esc(hit)}</span> ` : ""; }
+function openKeywords() {
+  if (!MEMBER.user) { alert("관심 키워드는 회원 로그인 후 이용할 수 있습니다."); openAuth("login"); return; }
+  const el = document.getElementById("kw-input");
+  if (el) el.value = myKeywords().join(", ");
+  openModal("keywordModal");
+}
+async function saveKeywords() {
+  const raw = document.getElementById("kw-input").value || "";
+  const kws = raw.split(",").map(x => x.trim()).filter(Boolean).slice(0, 10).join(",");
+  const { error } = await sb.from("members").update({ keywords: kws }).eq("id", MEMBER.user.id);
+  if (error) return alert("저장 실패: " + error.message + "\n(add-keywords.sql 실행 여부를 확인하세요)");
+  if (MEMBER.profile) MEMBER.profile.keywords = kws;
+  closeModal("keywordModal");
+  try { renderFunds(); } catch (_) {}
+  try { drawLessonList(); } catch (_) {}
+  alert(kws ? "관심 키워드가 저장되었습니다!\n지원사업과 실시간 뉴스에서 ⭐로 강조됩니다." : "관심 키워드를 모두 지웠습니다.");
+}
+
 /* ---- 분류별 실시간 정부 소식 (정책브리핑 부처 RSS · 워커 v19 govfeed) ---- */
 const GOV_GROUPS = {
   "세무/회계":  { key: "tax",   title: "실시간 세무·재정 소식 — 기획재정부 · 국세청" },
@@ -1961,9 +2013,11 @@ function drawLessonList() {
       const el = document.createElement("div");
       el.className = "card row";
       el.onclick = () => showLatest(x);
+      const hit = kwHit(x.title + " " + (x.summary || ""));
+      if (hit) el.style.borderColor = "var(--brand)";
       el.innerHTML = `
         <div>
-          <p class="title">${esc(x.title)}</p>
+          <p class="title">${kwStar(hit)}${esc(x.title)}</p>
           <p class="sub">기업마당 · ${esc(x.source)}</p>
           <div class="tags">
             <span class="badge ${srcBadge(x.source)}">${esc(x.source)}</span>
@@ -1991,10 +2045,12 @@ function drawLessonList() {
         const el = document.createElement("div");
         el.className = "card row";
         el.onclick = () => showLatest(x);
+        const hit = kwHit(x.title + " " + (x.summary || ""));
+        if (hit) el.style.borderColor = "var(--brand)";
         el.innerHTML = `
           <div>
-            <p class="title">${esc(x.title)}</p>
-            <p class="sub">${esc(x.source)} · 정책브리핑</p>
+            <p class="title">${kwStar(hit)}${esc(x.title)}</p>
+            <p class="sub">${esc(x.source)} · 관련 보도</p>
             <div class="tags"><span class="badge ${GOV_BADGE[x.source] || "hr"}">${esc(x.source)}</span><span class="badge free">실시간</span></div>
           </div>
           <div class="right"><p class="sub mono">${esc(fmtDate(x.date))}</p></div>`;
