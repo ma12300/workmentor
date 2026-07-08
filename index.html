@@ -610,7 +610,7 @@ footer select { border: 1px solid var(--line); border-radius: 6px; padding: 4px 
   <div class="filterbar">
     <div class="filterrow"><span class="flabel">분류</span><div class="chips" id="lCats"></div></div>
     <div class="searchrow">
-      <input id="lessonSearch" placeholder="자료 검색 (예: 세무, 근로계약, 지원금 신청...)" />
+      <input id="lessonSearch" placeholder="자료 검색 (예: 세무, 근로계약, 금융 지원...)" />
       <button class="cta" onclick="renderLessons()">검색</button>
     </div>
   </div>
@@ -983,7 +983,7 @@ footer select { border: 1px solid var(--line); border-radius: 6px; padding: 4px 
         <div class="frow">
           <div><label>자료 제목 *</label><input id="ls-title" placeholder="처음 하는 4대보험 신고, 순서대로 따라하기" /></div>
           <div><label>분류</label>
-            <select id="ls-cat"><option>세무/회계</option><option>노무/인사</option><option>마케팅</option><option>정책지원금</option><option>계약/법률</option><option>경영 일반</option></select>
+            <select id="ls-cat"><option>세무/회계</option><option>노무/인사</option><option>마케팅</option><option>금융</option><option>계약/법률</option><option>경영 일반</option></select>
           </div>
         </div>
         <div class="frow">
@@ -1751,7 +1751,7 @@ function showJob(j) {
    경영수업 (관리자가 올리는 정보·파일 자료실)
    ========================================================== */
 let lState = { cat: "최신 정보" };
-const LESSON_CATS = ["최신 정보", "전체", "세무/회계", "노무/인사", "마케팅", "정책지원금", "계약/법률", "경영 일반"];
+const LESSON_CATS = ["최신 정보", "전체", "세무/회계", "노무/인사", "마케팅", "금융", "계약/법률", "경영 일반"];
 
 /* ---- 최신 정보: 기업마당 행사정보 + 정책뉴스 자동 수집 ---- */
 let LATEST = [];
@@ -1841,7 +1841,7 @@ const GOV_GROUPS = {
   "세무/회계":  { key: "tax",   title: "실시간 세무·재정 소식 — 기획재정부 · 국세청" },
   "노무/인사":  { key: "labor", title: "실시간 노무·고용 소식 — 고용노동부" },
   "계약/법률":  { key: "law",   title: "실시간 법무·공정거래 소식 — 법무부 · 공정거래위원회" },
-  "정책지원금": { key: "fund",  title: "실시간 금융·관세 지원 소식 — 금융위원회 · 관세청" },
+  "금융":       { key: "fund",  title: "실시간 금융·관세 소식 — 금융위원회 · 관세청" },
   "경영 일반":  { key: "biz",   title: "실시간 중소기업 정책 소식 — 중소벤처기업부" }
 };
 const GOV_BADGE = { "기획재정부": "fund", "국세청": "paid", "고용노동부": "hr", "법무부": "paid", "공정거래위원회": "fund", "금융위원회": "hr", "관세청": "paid", "중소벤처기업부": "fund" };
