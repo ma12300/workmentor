@@ -618,25 +618,25 @@ footer select { border: 1px solid var(--line); border-radius: 6px; padding: 4px 
     </div>
     <div class="card plan best">
       <h3>스탠다드</h3>
-      <p class="price mono">99,000원</p><p class="per">월 / 부가세 별도</p>
+      <p class="price mono">199,000원</p><p class="per">월 / 부가세 별도</p>
       <ul>
         <li>기업정보 상단 노출 + 사진 갤러리</li>
         <li>요청공고 12건 + 상단 노출</li>
         <li>맞춤 지원사업 알림</li>
         <li>채용 × 지원사업 자동 매칭</li>
         <li>관심 업체 연락처·홈페이지 공개 및 연결</li>
-		<li>기업 실사 및 매니징 솔루션 제공<li>
+		<li>기업 관리 실사 및 매니징 솔루션 제공<li>
       </ul>
       <button onclick="openPay('스탠다드', 99000)">시작하기</button>
     </div>
     <div class="card plan">
       <h3>프리미엄</h3>
-      <p class="price mono">349,000원</p><p class="per">월 / 부가세 별도</p>
+      <p class="price mono">1,490,000원</p><p class="per">월 / 부가세 별도</p>
       <ul>
         <li>요청공고 무제한 + 최상단 고정</li>
         <li>지원사업 신청서류 컨설팅 연결</li>
         <li>전담 매니저 배정</li>
-        <li>재무+회계+법무+인증+매니징 실시간 자문</li>
+        <li>재무+회계+법무+인증+매니징 실시간 관리 및 자문</li>
 		<li>기업 CFO,CTO 대행 및 실사 관리<li>
       </ul>
       <button onclick="openPay('프리미엄', 249000)">시작하기</button>
@@ -975,12 +975,22 @@ footer select { border: 1px solid var(--line); border-radius: 6px; padding: 4px 
     <div class="form">
       <div id="signupExtra" style="display:none;">
         <div><label>기업명 *</label><input id="au-company" placeholder="예: (주)한빛물류" /></div>
+        <div><label>대표자 이름 *</label><input id="au-ceo" placeholder="예: 홍길동" /></div>
         <div><label>담당자 연락처</label><input id="au-contact" placeholder="예: 010-0000-0000" /></div>
       </div>
       <div><label>이메일 *</label><input id="au-email" type="email" placeholder="company@email.com" /></div>
       <div><label>비밀번호 * (6자 이상)</label><input id="au-pw" type="password" onkeydown="if(event.key==='Enter')authSubmit()" /></div>
       <button class="fsave" id="authBtn" onclick="authSubmit()">로그인</button>
-      <p class="status" id="authStatus">무료 회원가입으로 기업정보 열람과 소통방 이용이 가능하며, 유료회원은 모든 메뉴를 이용할 수 있습니다.</p>
+      <p class="status" id="authStatus">가입 후 관리자 승인을 거쳐 회원 기능이 열립니다. 유료회원은 모든 메뉴를 이용할 수 있습니다.</p>
+      <div style="display:flex; align-items:center; gap:10px; margin:14px 0 8px;">
+        <span style="flex:1; height:1px; background:var(--line);"></span>
+        <span style="font-size:12px; color:#9AA3B5;">또는 간편 로그인</span>
+        <span style="flex:1; height:1px; background:var(--line);"></span>
+      </div>
+      <div style="display:flex; gap:8px;">
+        <button type="button" class="authbtn" style="flex:1; padding:11px;" onclick="socialLogin('google')">G 구글로 계속하기</button>
+        <button type="button" class="authbtn" style="flex:1; padding:11px; background:#FEE500; border-color:#FEE500; color:#191919;" onclick="socialLogin('kakao')">💬 카카오로 계속하기</button>
+      </div>
     </div>
   </div>
 </div>
@@ -2359,10 +2369,12 @@ async function authSubmit() {
   if (MEMBER._tab === "signup") {
     const company = document.getElementById("au-company").value.trim();
     if (!company) return alert("기업명을 입력하세요.");
+    const ceo = document.getElementById("au-ceo").value.trim();
+    if (!ceo) return alert("대표자 이름을 입력하세요.");
     const contact = document.getElementById("au-contact").value.trim();
     const { data, error } = await sb.auth.signUp({ email, password: pw });
     if (error) return alert("가입 실패: " + error.message);
-    try { localStorage.setItem("wm_pending", JSON.stringify({ company, contact })); } catch (_) {}
+    try { localStorage.setItem("wm_pending", JSON.stringify({ company, contact, ceo })); } catch (_) {}
     if (!data.session) {
       document.getElementById("authStatus").textContent = "확인 메일을 보냈습니다. 메일의 링크를 누른 뒤 로그인해 주세요.";
       return alert("가입 확인 메일을 보냈습니다!\n메일함에서 확인 링크를 누른 뒤 로그인하면 됩니다.");
@@ -2372,7 +2384,7 @@ async function authSubmit() {
     if (error) return alert("로그인 실패: " + error.message);
   }
   await refreshMember();
-  if (MEMBER.user) { closeModal("authModal"); alert(MEMBER._tab === "signup" ? "가입 완료! 무료회원으로 시작합니다." : "로그인되었습니다."); }
+  if (MEMBER.user) { closeModal("authModal"); alert(MEMBER._tab === "signup" ? "가입 완료!\n관리자 승인 후 회원 기능이 열립니다. (보통 영업일 기준 1일 이내)" : "로그인되었습니다."); }
 }
 async function ensureProfile() {
   const u = MEMBER.user;
@@ -2381,7 +2393,7 @@ async function ensureProfile() {
   if (data) { MEMBER.profile = data; return; }
   let pending = null;
   try { pending = JSON.parse(localStorage.getItem("wm_pending") || "null"); } catch (_) {}
-  const ins = { id: u.id, email: u.email, company_name: pending ? pending.company : "", contact: pending ? pending.contact : "" };
+  const ins = { id: u.id, email: u.email, company_name: pending ? pending.company : "", contact: pending ? pending.contact : "", ceo_name: pending ? (pending.ceo || "") : "" };
   await sb.from("members").insert(ins);
   try { localStorage.removeItem("wm_pending"); } catch (_) {}
   const r2 = await sb.from("members").select("*").eq("id", u.id).maybeSingle();
@@ -2444,7 +2456,9 @@ function renderAuthUI() {
   } else if (MEMBER.user) {
     const name = MEMBER.profile && MEMBER.profile.company_name ? MEMBER.profile.company_name : MEMBER.user.email.split("@")[0];
     const paid = MEMBER.profile && MEMBER.profile.tier === "paid";
-    box.innerHTML = `<span class="hello">${esc(name)}님 <span class="badge ${paid ? "paid" : "free"}">${paid ? "유료회원" : "무료회원"}</span></span><button class="authbtn" onclick="memberLogout()">로그아웃</button>`;
+    const pending = MEMBER.profile && MEMBER.profile.approved === false;
+    const badge = pending ? '<span class="badge free">승인 대기</span>' : `<span class="badge ${paid ? "paid" : "free"}">${paid ? "유료회원" : "무료회원"}</span>`;
+    box.innerHTML = `<span class="hello">${esc(name)}님 ${badge}</span><button class="authbtn" onclick="memberLogout()">로그아웃</button>`;
     if (cta) cta.style.display = "";       /* 가입자에게만 기업 등록하기 표시 */
   } else {
     box.innerHTML = `<button class="authbtn" onclick="openAuth('login')">로그인</button><button class="authbtn strong" onclick="openAuth('signup')">회원가입</button>`;
@@ -2473,6 +2487,10 @@ function canAccess(page) {
     document.getElementById("authStatus").textContent = "무료 회원가입으로 기업등록과 여러 기능을 이용할 수 있습니다.";
     return false;
   }
+  if (MEMBER.profile && MEMBER.profile.approved === false) {
+    alert("가입 승인 대기 중입니다.\n관리자 승인이 완료되면 회원 기능을 이용할 수 있습니다.");
+    return false;
+  }
   if (need === 2 && DB.view !== "paid") {
     alert("이 메뉴는 유료회원 전용입니다.\n멤버쉽 안내로 이동합니다.");
     setTimeout(() => go("plans"), 50);
@@ -2480,6 +2498,16 @@ function canAccess(page) {
   }
   return true;
 }
+/* 구글·카카오 간편 로그인 (Supabase 공식 연동) */
+async function socialLogin(provider) {
+  if (!useCloud) return alert("간편 로그인은 클라우드 모드에서 사용할 수 있습니다.");
+  const { error } = await sb.auth.signInWithOAuth({
+    provider,
+    options: { redirectTo: location.origin + location.pathname }
+  });
+  if (error) alert("간편 로그인 실패: " + error.message + "\n(Supabase에서 " + provider + " 제공자를 켰는지 확인하세요)");
+}
+
 async function memberLogout() {
   await sb.auth.signOut();
   MEMBER.user = null; MEMBER.profile = null; MEMBER.isAdmin = false;
@@ -2516,16 +2544,28 @@ async function loadMembers() {
   box.innerHTML = rows.map(m => `
     <div class="card row" style="cursor:default;">
       <div>
-        <p class="title">${esc(m.company_name || "(기업명 미입력)")} <span class="badge ${m.tier === "paid" ? "paid" : "free"}">${m.tier === "paid" ? "유료회원" : "무료회원"}</span></p>
-        <p class="sub">${esc(m.email || "")}${m.contact ? " · " + esc(m.contact) : ""} · 가입 ${esc(String(m.created_at).slice(0, 10))}</p>
+        <p class="title">${esc(m.company_name || "(기업명 미입력)")}
+          ${m.approved === false ? '<span class="badge fund">승인 대기</span>' : ""}
+          <span class="badge ${m.tier === "paid" ? "paid" : "free"}">${m.tier === "paid" ? "유료회원" : "무료회원"}</span>
+        </p>
+        <p class="sub">${m.ceo_name ? "대표 " + esc(m.ceo_name) + " · " : ""}${esc(m.email || "")}${m.contact ? " · " + esc(m.contact) : ""} · 가입 ${esc(String(m.created_at).slice(0, 10))}</p>
       </div>
-      <div class="right">
+      <div class="right" style="display:flex; gap:6px; align-items:center;">
+        ${m.approved === false
+          ? `<button class="cta gold" onclick="approveMember('${m.id}', true)">가입 승인</button>`
+          : `<button class="filebtn" style="margin:0;" onclick="approveMember('${m.id}', false)">승인 취소</button>`}
         <select onchange="setMemberTier('${m.id}', this.value)">
           <option value="free" ${m.tier !== "paid" ? "selected" : ""}>무료회원</option>
           <option value="paid" ${m.tier === "paid" ? "selected" : ""}>유료회원</option>
         </select>
       </div>
     </div>`).join("");
+}
+async function approveMember(id, ok) {
+  const { error } = await sb.from("members").update({ approved: ok }).eq("id", id);
+  if (error) return alert("처리 실패: " + error.message + "\n(v3-members2.sql 실행 여부를 확인하세요)");
+  alert(ok ? "승인 완료! 해당 회원은 새로고침 후 이용 가능합니다." : "승인이 취소되었습니다.");
+  loadMembers();
 }
 async function setMemberTier(id, tier) {
   const { error } = await sb.from("members").update({ tier }).eq("id", id);
