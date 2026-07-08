@@ -79,6 +79,14 @@ img { max-width: 100%; }
 .logo { font-weight: 800; font-size: 21px; color: var(--navy); letter-spacing: -0.02em; margin-right: 14px; white-space: nowrap; }
 body:not(.wm-admin-mode) { -webkit-user-select: none; user-select: none; }
 input, textarea, [contenteditable] { -webkit-user-select: text !important; user-select: text !important; }
+#wmMark { position: fixed; inset: 0; z-index: 9999; pointer-events: none; background-repeat: repeat; }
+@media print {
+  body:not(.wm-admin-mode) > * { display: none !important; }
+  body:not(.wm-admin-mode)::before {
+    content: "인쇄 및 PDF 저장이 제한된 페이지입니다 — 워크멘토 (www.workmentor.co.kr)";
+    display: block; padding: 60px 40px; font-size: 16px; color: #000;
+  }
+}
 .logo { cursor: pointer; }
 .logo .accent { color: var(--brand); }
 nav { order: 4; flex-basis: 100%; display: flex; flex-wrap: wrap; justify-content: center; gap: 2px; border-top: 1px solid var(--line); margin-top: 8px; padding-top: 7px; }
@@ -1112,6 +1120,8 @@ function go(page) {
   window.scrollTo({ top: 0 });
   if (typeof chatOnNavigate === "function") chatOnNavigate(page);
   if (page === "board" && typeof loadBoard === "function") loadBoard();
+  WM_PAGE = page;
+  if (typeof updateWatermark === "function") try { updateWatermark(); } catch (_) {}
   /* 브라우저 방문 기록에 기록 → 뒤로/앞으로 버튼이 사이트 안에서 작동 */
   try {
     if (go._pop) { go._pop = false; }
@@ -1132,6 +1142,7 @@ function wmGuard(e) {
 ["contextmenu", "copy", "cut", "dragstart", "selectstart"].forEach(ev =>
   document.addEventListener(ev, wmGuard)
 );
+try { updateWatermark(); setInterval(updateWatermark, 60 * 1000); } catch (_) {}
 
 /* 뒤로/앞으로 버튼: 사이트 안에서 이전 메뉴로 이동
    + 맨 밑바닥에 "방석(guard)" 상태를 깔아 홈에서 뒤로 가기를 눌러도
@@ -2391,8 +2402,36 @@ function syncViewerTier() {
   try { renderCompanies(); } catch (_) {}
   try { drawHomeShowcase(); } catch (_) {}
 }
+/* ---------- 워터마크: 포렌식(전 화면 초저농도) + 유료 콘텐츠 가시(연한 농도) ----------
+   관리자는 완전 해제. 회원=기업명/이메일, 방문객=GUEST 로 열람자·시각을 새김 */
+let WM_PAGE = "home";
+function updateWatermark() {
+  let el = document.getElementById("wmMark");
+  if (!el) {
+    el = document.createElement("div");
+    el.id = "wmMark";
+    document.body.appendChild(el);
+  }
+  if (MEMBER.isAdmin) { el.style.display = "none"; return; }
+  el.style.display = "block";
+  const who = MEMBER.user
+    ? ((MEMBER.profile && MEMBER.profile.company_name) || MEMBER.user.email)
+    : "GUEST";
+  const d = new Date();
+  const p2 = n => String(n).padStart(2, "0");
+  const stamp = (who + " · " + d.getFullYear() + "-" + p2(d.getMonth() + 1) + "-" + p2(d.getDate()) + " " + p2(d.getHours()) + ":" + p2(d.getMinutes()))
+    .replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
+  const strong = (WM_PAGE === "lessons" || WM_PAGE === "companies");   /* 유료 콘텐츠는 살짝 보이게 */
+  const op = strong ? 0.055 : 0.018;
+  const fsz = strong ? 15 : 13;
+  const svg = "<svg xmlns='http://www.w3.org/2000/svg' width='340' height='190'>" +
+    "<text x='12' y='100' font-family='sans-serif' font-size='" + fsz + "' fill='rgba(120,120,120," + op + ")' transform='rotate(-22 170 95)'>" + stamp + "</text></svg>";
+  el.style.backgroundImage = 'url("data:image/svg+xml;utf8,' + encodeURIComponent(svg) + '")';
+}
+
 function renderAuthUI() {
   try { document.body.classList.toggle("wm-admin-mode", !!MEMBER.isAdmin); } catch (_) {}
+  try { updateWatermark(); } catch (_) {}
   const box = document.getElementById("authArea");
   if (!box) return;
   const cta = document.getElementById("ctaMain");
