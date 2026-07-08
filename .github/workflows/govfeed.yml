@@ -21,11 +21,13 @@ jobs:
       - name: collect-feeds
         run: node scripts/collect-govfeed.mjs
 
+      - name: build-news-pages
+        run: node scripts/build-news-pages.mjs
+
       - name: commit-if-changed
         run: |
           git config user.name "workmentor-bot"
           git config user.email "bot@workmentor.co.kr"
-          git add gov-feeds.json
-          git diff --cached --quiet || git commit -m "auto: gov feeds update [skip ci]"
+          git add gov-feeds.json news
+          git diff --cached --quiet || git commit -m "auto: gov feeds + news pages [skip ci]"
           git push
-
