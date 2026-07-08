@@ -77,6 +77,8 @@ img { max-width: 100%; }
   nav button { padding: 5px 5.5px; font-size: 11.5px; }
 }
 .logo { font-weight: 800; font-size: 21px; color: var(--navy); letter-spacing: -0.02em; margin-right: 14px; white-space: nowrap; }
+body:not(.wm-admin-mode) { -webkit-user-select: none; user-select: none; }
+input, textarea, [contenteditable] { -webkit-user-select: text !important; user-select: text !important; }
 .logo { cursor: pointer; }
 .logo .accent { color: var(--brand); }
 nav { order: 4; flex-basis: 100%; display: flex; flex-wrap: wrap; justify-content: center; gap: 2px; border-top: 1px solid var(--line); margin-top: 8px; padding-top: 7px; }
@@ -1120,21 +1122,39 @@ function go(page) {
 }
 document.querySelectorAll("#nav button").forEach(b => b.addEventListener("click", () => go(b.dataset.page)));
 
-/* 뒤로/앞으로 버튼: 사이트 안에서 이전 메뉴로 이동 */
+/* 우클릭·복사 방지 (관리자 제외 · 입력칸은 정상 사용) */
+function wmGuard(e) {
+  if (typeof MEMBER !== "undefined" && MEMBER.isAdmin) return;
+  const t = e.target;
+  if (t && (t.tagName === "INPUT" || t.tagName === "TEXTAREA" || t.isContentEditable)) return;
+  e.preventDefault();
+}
+["contextmenu", "copy", "cut", "dragstart", "selectstart"].forEach(ev =>
+  document.addEventListener(ev, wmGuard)
+);
+
+/* 뒤로/앞으로 버튼: 사이트 안에서 이전 메뉴로 이동
+   + 맨 밑바닥에 "방석(guard)" 상태를 깔아 홈에서 뒤로 가기를 눌러도
+     사이트를 벗어나지 않고 홈에 머무르게 함 */
 try {
   window.addEventListener("popstate", e => {
-    const page = (e.state && e.state.page) || (location.hash || "").slice(1) || "home";
+    const st = e.state || {};
+    if (st.guard) {
+      /* 바닥에 닿음: 홈을 다시 깔아서 이탈 방지 */
+      go._pop = true;
+      go("home");
+      try { history.pushState({ page: "home" }, "", "#home"); } catch (_) {}
+      return;
+    }
+    const page = st.page || (location.hash || "").slice(1) || "home";
     go._pop = true;
     go(page);
   });
-  const first = (location.hash || "").slice(1);
-  if (first && document.getElementById("page-" + first)) {
-    history.replaceState({ page: first }, "", "#" + first);
-    go._pop = true;
-    go(first);
-  } else {
-    history.replaceState({ page: "home" }, "", location.pathname + location.search);
-  }
+  const first0 = (location.hash || "").slice(1);
+  const first = (first0 && document.getElementById("page-" + first0)) ? first0 : "home";
+  history.replaceState({ page: first, guard: true }, "", location.pathname + location.search);
+  history.pushState({ page: first }, "", "#" + first);
+  if (first !== "home") { go._pop = true; go(first); }
 } catch (_) {}
 
 /* ---------- 모달 공용 ---------- */
@@ -2372,6 +2392,7 @@ function syncViewerTier() {
   try { drawHomeShowcase(); } catch (_) {}
 }
 function renderAuthUI() {
+  try { document.body.classList.toggle("wm-admin-mode", !!MEMBER.isAdmin); } catch (_) {}
   const box = document.getElementById("authArea");
   if (!box) return;
   const cta = document.getElementById("ctaMain");
