@@ -3450,6 +3450,49 @@ function drawHeadlines() {
   });
 }
 
+/* ---------- 주요 종목 로테이션 카드 (아랫줄 맨 앞 고정 · 10초 회전) ---------- */
+const WM_STOCKS = { rows: [], i: 0 };
+function wmStockCardEl() {
+  const box = wmEl("div", "wm-market-briefing__metric", "");
+  box.id = "wmStockCard";
+  box.appendChild(wmEl("strong", "", "주요 종목"));
+  const val = wmEl("span", "wm-mv", "");
+  val.id = "wmStockVal";
+  box.appendChild(val);
+  box.appendChild(wmEl("small", "", "국내·미국 13종 · 10초 회전 · 자동 수집"));
+  return box;
+}
+function updateStockCard() {
+  const nameEl = document.querySelector("#wmStockCard strong");
+  const val = document.getElementById("wmStockVal");
+  if (!nameEl || !val) return;
+  if (!WM_STOCKS.rows.length) { nameEl.textContent = "주요 종목"; val.textContent = "시세 불러오는 중..."; return; }
+  const r = WM_STOCKS.rows[WM_STOCKS.i % WM_STOCKS.rows.length];
+  const n = parseFloat(String(r.change || "").replace(/[^-\d.]/g, ""));
+  const dir = n > 0 ? "up" : (n < 0 ? "down" : "");
+  nameEl.textContent = r.label;
+  val.className = dir ? "wm-mv " + dir : "wm-mv";
+  val.textContent = [r.value, r.change].filter(Boolean).join(" ");
+  if (dir) val.appendChild(wmEl("b", "wm-arr", dir === "up" ? " ▲" : " ▼"));
+}
+async function loadStocks() {
+  try {
+    const res = await fetch(MARKET_API + "/?api=stocks");
+    const d = await res.json();
+    if (d && Array.isArray(d.stocks) && d.stocks.length) {
+      WM_STOCKS.rows = d.stocks;
+      updateStockCard();
+    }
+  } catch (_) {}
+}
+function wmStockBoot() {
+  if (wmStockBoot._on) return;
+  wmStockBoot._on = true;
+  loadStocks();
+  setInterval(loadStocks, 60 * 1000);                               /* 데이터 1분 갱신 */
+  setInterval(() => { WM_STOCKS.i++; updateStockCard(); }, 10 * 1000); /* 표시 10초 회전 */
+}
+
 function renderBriefing(data) {
   const meta = document.getElementById("wm-market-briefing-meta");
   const list = document.getElementById("wm-market-briefing-list");
@@ -3485,7 +3528,8 @@ function renderBriefing(data) {
     }
   }
   market.replaceChildren();
-  (Array.isArray(data.market) ? data.market : []).forEach(m => {
+  (Array.isArray(data.market) ? data.market : []).forEach((m, mi) => {
+    if (mi === 5) market.appendChild(wmStockCardEl());
     const box = wmEl("div", "wm-market-briefing__metric", "");
     box.appendChild(wmEl("strong", "", m.label || "지표"));
     /* 등락 방향 감지: 상승=연두+▲, 하락=보라+▼ */
@@ -3498,6 +3542,8 @@ function renderBriefing(data) {
     if (m.note || m.asOfKST) box.appendChild(wmEl("small", "", [m.note, m.asOfKST].filter(Boolean).join(" · ")));
     market.appendChild(box);
   });
+  if (!document.getElementById("wmStockCard")) market.appendChild(wmStockCardEl());
+  updateStockCard();
 
   /* 실시간 헤드라인 (언론 보도 기준 · 자동 수집 · 교차검증 전) */
   const hlBox = document.getElementById("wm-market-headlines");
@@ -3534,6 +3580,7 @@ function renderBriefing(data) {
   }
 
   /* 실시간화: 지표가 4.5분 이상 지났으면 매 5분 주기마다 서버에 재수집 요청 */
+  wmStockBoot();
   const age = Date.now() - Number(data.autoRefreshedAt || 0);
   const sinceAsk = Date.now() - (renderBriefing._askedAt || 0);
   if ((isNaN(age) || age > 4.5 * 60 * 1000) && sinceAsk > 4.5 * 60 * 1000) {
