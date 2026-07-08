@@ -60,6 +60,7 @@ button { font-family: inherit; cursor: pointer; }
 input, select, textarea { font-family: inherit; font-size: 14px; }
 :focus-visible { outline: 2px solid var(--blue); outline-offset: 2px; }
 img { max-width: 100%; }
+html, body { max-width: 100%; overflow-x: hidden; }
 
 /* ---------- 상단 바 ---------- */
 .topbar { position: sticky; top: 0; z-index: 50; background: var(--white); border-bottom: 1px solid var(--line); }
@@ -69,17 +70,18 @@ img { max-width: 100%; }
 #ctaMain { order: 3; }
 @media (max-width: 720px) {
   .topbar-in { padding-left: 13px; padding-right: 13px; }
-  nav { display: grid; grid-template-columns: repeat(5, 1fr); gap: 1px; background: rgba(255,255,255,0.4); border-radius: 12px; }
+  nav { display: grid; grid-template-columns: repeat(4, 1fr); gap: 1px; background: rgba(255,255,255,0.4); border-radius: 12px; }
   body.is-home nav { border-radius: 12px 12px 0 0; }
-  nav button { min-width: 0; border-right: none; padding: 11px 2px 10px; }
-  nav .nt { font-size: 12px; font-weight: 600; letter-spacing: -0.02em; }
+  nav button { min-width: 0; border-right: none; padding: 9px 2px 8px; }
+  nav .nt { font-size: 11.5px; font-weight: 500; letter-spacing: -0.02em; }
   nav .ns { display: none; }
-  #ctaMain { padding: 8px 11px; font-size: 12.5px; }
-  .authbtn { padding: 7px 10px; font-size: 12.5px; }
+  nav button.locked .nt::after { content: "🔒"; font-size: 7.5px; margin-left: 2px; vertical-align: 1px; }
+  #ctaMain { padding: 7px 9px; font-size: 12px; }
+  .authbtn { padding: 5px 8px; font-size: 11.5px; }
 }
 @media (max-width: 420px) {
-  nav button { padding: 10px 1px 9px; }
-  nav .nt { font-size: 11px; }
+  nav button { padding: 8px 1px 7px; }
+  nav .nt { font-size: 10.5px; }
 }
 .logo { font-weight: 800; font-size: 21px; color: var(--navy); letter-spacing: -0.02em; margin-right: 14px; white-space: nowrap; }
 body:not(.wm-admin-mode) { -webkit-user-select: none; user-select: none; }
@@ -95,11 +97,12 @@ input, textarea, [contenteditable] { -webkit-user-select: text !important; user-
 .logo { cursor: pointer; }
 .logo .accent { color: var(--brand); }
 nav { order: 4; flex-basis: 100%; display: flex; flex-wrap: wrap; margin-top: 7px; border-radius: 10px; overflow: hidden; }
-nav button { flex: 1 1 0; min-width: 96px; background: var(--brand); border: none; border-right: 1px solid rgba(255,255,255,0.28); padding: 9px 6px 8px; color: #fff; text-align: center; }
+nav button { flex: 1 1 0; min-width: 96px; background: var(--brand); border: none; border-right: 1px solid rgba(255,255,255,0.28); padding: 7px 6px 6px; color: #fff; text-align: center; }
 nav button:last-child { border-right: none; }
 nav button:hover { background: var(--brand-deep); }
-nav .nt { display: block; font-size: 13.5px; font-weight: 500; letter-spacing: -0.01em; white-space: nowrap; }
-nav .ns { display: block; font-size: 9.5px; margin-top: 2px; color: rgba(255,255,255,0.78); font-weight: 400; }
+nav .nt { display: block; font-size: 13px; font-weight: 400; letter-spacing: -0.01em; white-space: nowrap; }
+nav .ns { display: block; font-size: 9px; margin-top: 2px; color: rgba(255,255,255,0.78); font-weight: 400; }
+nav button.locked .ns::after { content: "🔒"; font-size: 8.5px; margin-left: 3px; }
 nav button:hover { background: var(--paper); }
 nav button.on { background: var(--char); }
 nav button.on .nt { font-weight: 700; }
@@ -149,9 +152,9 @@ h2.section { font-weight: 800; font-size: 24px; color: var(--navy); letter-spaci
     repeating-linear-gradient(65deg, rgba(255,255,255,0.035) 0 1px, transparent 1px 84px),
     linear-gradient(180deg, var(--char) 0%, var(--char-deep) 100%);
   border-radius: 16px;
-  padding: clamp(40px, 7vw, 72px) clamp(20px, 5vw, 56px);
+  padding: clamp(26px, 5vw, 50px) clamp(20px, 5vw, 56px);
   color: #E7E3DC;
-  margin-bottom: 32px;
+  margin-bottom: 16px;
   text-align: center;
 }
 .hero::after {  /* 상승하는 지붕선 모티프 */
@@ -164,7 +167,7 @@ h2.section { font-weight: 800; font-size: 24px; color: var(--navy); letter-spaci
   border-left: 2px solid rgba(249, 123, 51, 0.2);
   pointer-events: none;
 }
-.brandmark { display: flex; align-items: center; justify-content: center; gap: 14px; margin-bottom: 22px; }
+.brandmark { display: flex; align-items: center; justify-content: center; gap: 14px; margin-bottom: 16px; }
 .brandmark svg { display: block; }
 .brandmark .bm-divider { width: 2px; height: 52px; background: rgba(255,255,255,0.45); }
 .brandmark .bm-text { text-align: left; font-weight: 800; font-size: 27px; line-height: 1.12; letter-spacing: 0.12em; color: #fff; }
@@ -181,7 +184,7 @@ h2.section { font-weight: 800; font-size: 24px; color: var(--navy); letter-spaci
 .hero h1 .hl-hr { color: #FFCBA6; }
 .hero h1 .hl-fund { color: var(--brand); }
 .hero p { max-width: 600px; margin: 0 auto; font-size: 15px; line-height: 1.85; color: #DAD5CC; }
-.hero .actions { margin-top: 28px; display: flex; gap: 10px; flex-wrap: wrap; justify-content: center; }
+.hero .actions { margin-top: 20px; display: flex; gap: 10px; flex-wrap: wrap; justify-content: center; }
 .hero .actions button { border-radius: 8px; padding: 13px 26px; font-size: 15px; font-weight: 700; }
 .btn-blue { background: transparent; color: #fff; border: 1.5px solid rgba(255,255,255,0.6); }
 .btn-blue:hover { border-color: #fff; }
@@ -206,7 +209,7 @@ h2.section { font-weight: 800; font-size: 24px; color: var(--navy); letter-spaci
 .filterrow { display: flex; align-items: flex-start; gap: 10px; flex-wrap: wrap; }
 .filterrow .flabel { font-size: 13px; font-weight: 700; color: var(--navy); min-width: 64px; padding-top: 6px; }
 .chips { display: flex; gap: 6px; flex-wrap: wrap; flex: 1; }
-.chips button { border: 1px solid var(--line); background: var(--white); border-radius: 99px; padding: 6px 13px; font-size: 13px; font-weight: 500; color: #444E63; }
+.chips button { border: 1px solid var(--line); background: var(--white); border-radius: 99px; padding: 6px 13px; font-size: 13px; font-weight: 500; color: #444E63; overflow-wrap: anywhere; }
 .chips button.on.hrf { background: var(--blue); border-color: var(--blue); color: #fff; }
 .chips button.on.fundf { background: var(--gold); border-color: var(--gold); color: #fff; }
 .searchrow { display: flex; gap: 8px; }
@@ -216,10 +219,10 @@ h2.section { font-weight: 800; font-size: 24px; color: var(--navy); letter-spaci
 
 /* ---------- 리스트 ---------- */
 .list { display: grid; gap: 12px; }
-.row { display: grid; grid-template-columns: 1fr auto; gap: 14px; align-items: center; cursor: pointer; transition: border-color 0.15s; }
+.row { display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 14px; align-items: center; cursor: pointer; transition: border-color 0.15s; }
 .row:hover { border-color: var(--blue); }
-.row .title { font-size: 15.5px; font-weight: 700; line-height: 1.5; }
-.row .sub { font-size: 13px; color: #5A6478; margin-top: 3px; }
+.row .title { font-size: 15.5px; font-weight: 700; line-height: 1.5; overflow-wrap: anywhere; }
+.row .sub { font-size: 13px; color: #5A6478; margin-top: 3px; overflow-wrap: anywhere; }
 .row .tags { margin-top: 8px; display: flex; gap: 6px; flex-wrap: wrap; }
 .row .right { text-align: right; min-width: 108px; }
 .row .pay { font-family: var(--mono); font-weight: 600; font-size: 15px; }
@@ -289,8 +292,8 @@ h2.section { font-weight: 800; font-size: 24px; color: var(--navy); letter-spaci
 .wm-market-briefing h2 { margin: 0 0 8px; font-size: clamp(21px, 3vw, 30px); color: #fff; }
 .wm-market-briefing__head p { color: #CFC9C0; line-height: 1.65; font-size: 14px; }
 .wm-market-briefing__meta { font-size: 13px; color: #E4DFD7; }
-.wm-market-briefing__grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); grid-auto-rows: 242px; gap: 14px; }
-.wm-market-briefing__card { padding: 16px 18px; border: 1px solid rgba(255,255,255,.14); border-radius: 14px; background: rgba(0,0,0,.22); animation: wmUp .5s ease both; height: 100%; overflow: hidden; display: flex; flex-direction: column; }
+.wm-market-briefing__grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); grid-auto-rows: 172px; gap: 12px; }
+.wm-market-briefing__card { padding: 12px 15px; border: 1px solid rgba(255,255,255,.14); border-radius: 14px; background: rgba(0,0,0,.22); animation: wmUp .5s ease both; height: 100%; overflow: hidden; display: flex; flex-direction: column; }
 .wm-market-briefing__card > * { flex-shrink: 0; }
 .wm-market-briefing__card h3 { display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
 .wm-market-briefing__card > p { display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; flex-shrink: 1; min-height: 0; }
@@ -302,11 +305,11 @@ h2.section { font-weight: 800; font-size: 24px; color: var(--navy); letter-spaci
 .wm-card-wire { border-style: dashed; }
 .wm-market-briefing__card--urgent { border-color: rgba(255,110,90,.75); animation: wmUp .5s ease both, wmPulse 2.2s ease-in-out infinite; }
 @keyframes wmPulse { 0%,100% { box-shadow: inset 0 0 0 1px rgba(255,110,90,.25); } 50% { box-shadow: inset 0 0 0 1px rgba(255,110,90,.55), 0 0 18px rgba(255,110,90,.18); } }
-.wm-market-briefing__tag { display: inline-block; margin-bottom: 10px; padding: 4px 10px; border-radius: 999px; background: rgba(249,123,51,.16); color: #FFC49E; font-size: 12px; font-weight: 700; }
-.wm-market-briefing__card h3 { margin: 0 0 8px; font-size: 16.5px; line-height: 1.4; color: #fff; }
-.wm-market-briefing__card p { margin: 7px 0; color: #D6D1C8; line-height: 1.6; font-size: 13.5px; }
+.wm-market-briefing__tag { display: inline-block; margin-bottom: 7px; padding: 4px 10px; border-radius: 999px; background: rgba(249,123,51,.16); color: #FFC49E; font-size: 12px; font-weight: 700; }
+.wm-market-briefing__card h3 { margin: 0 0 5px; font-size: 15.5px; line-height: 1.4; color: #fff; }
+.wm-market-briefing__card p { margin: 4px 0; color: #D6D1C8; line-height: 1.55; font-size: 13px; }
 .wm-market-briefing__card p strong { color: #FFB185; }
-.wm-market-briefing__time { margin-top: auto; padding-top: 8px; color: #A79F93; font-size: 12px; }
+.wm-market-briefing__time { margin-top: auto; padding-top: 5px; color: #A79F93; font-size: 11.5px; }
 .wm-market-briefing__sources { margin-top: 6px; display: flex; flex-wrap: wrap; gap: 10px; }
 .wm-market-briefing__sources a { color: #FFB185; font-size: 13px; text-decoration: none; }
 .wm-market-briefing__sources a:hover { text-decoration: underline; }
@@ -314,6 +317,8 @@ h2.section { font-weight: 800; font-size: 24px; color: var(--navy); letter-spaci
 .wm-market-briefing__metric { padding: 12px; border-radius: 12px; background: rgba(255,255,255,.07); animation: wmUp .5s ease both; }
 .wm-market-briefing__metric strong { display: block; font-size: 12.5px; color: #CFC9C0; }
 .wm-market-briefing__metric span { display: block; margin-top: 4px; font-size: 16.5px; font-weight: 800; color: #fff; }
+.wm-market-briefing__metric span.up { color: #8CFF9E; }
+.wm-market-briefing__metric span.down { color: #CBA6FF; }
 .wm-market-briefing__metric small { display: block; margin-top: 3px; font-size: 11px; color: #A79F93; }
 .wm-headlines { margin-top: 18px; }
 .wm-hl-head { display: flex; align-items: baseline; gap: 10px; flex-wrap: wrap; margin-bottom: 6px; }
@@ -335,7 +340,7 @@ h2.section { font-weight: 800; font-size: 24px; color: var(--navy); letter-spaci
 .insbar span { display: block; height: 100%; background: linear-gradient(90deg, var(--brand), #FFB185); border-radius: 7px; }
 .insval { min-width: 44px; text-align: right; font-size: 12px; color: #7A8398; }
 .authArea { display: flex; gap: 8px; align-items: center; }
-.authbtn { border: 1px solid var(--line); background: var(--white); border-radius: 8px; padding: 8px 13px; font-size: 13px; font-weight: 700; color: var(--navy); }
+.authbtn { border: 1px solid var(--line); background: var(--white); border-radius: 8px; padding: 6px 10px; font-size: 12.5px; font-weight: 700; color: var(--navy); }
 .authbtn.strong { background: var(--brand); color: #fff; border: none; }
 .authArea .hello { font-size: 13px; font-weight: 700; color: var(--navy); display: flex; gap: 6px; align-items: center; }
 .wm-partner-zone { margin-top: 22px; padding-top: 14px; border-top: 1px solid var(--line); }
@@ -372,10 +377,13 @@ h2.section { font-weight: 800; font-size: 24px; color: var(--navy); letter-spaci
 .showcase { display: grid; grid-template-columns: repeat(2, 1fr); gap: 16px; }
 @media (max-width: 720px) { .showcase { grid-template-columns: 1fr; } }
 .showcol-t { font-size: 14px; font-weight: 800; color: var(--navy); margin: 0 0 8px 2px; }
-.showstack { display: flex; flex-direction: column; gap: 14px; }
-.showstack .cocard { height: 118px; overflow: hidden; align-items: center;
+.showstack { display: flex; flex-direction: column; gap: 10px; }
+.showstack .cocard { height: 94px; overflow: hidden; align-items: center;
   border-left: 4px solid var(--brand); border-right: 4px solid #D8D3CB;
   box-shadow: 0 2px 10px rgba(66, 62, 56, 0.07); }
+.showstack .cocard .body { padding: 9px 14px 10px; }
+.showstack .cocard .desc { -webkit-line-clamp: 1; }
+.showstack .cocard .co-sub { margin: 1px 0 4px; }
 .blurname { filter: blur(5px); user-select: none; }
 
 /* ==========================================================
@@ -386,7 +394,7 @@ h2.section { font-weight: 800; font-size: 24px; color: var(--navy); letter-spaci
   body.is-home .wrap { padding-top: 0; }
   h2.section { font-size: 20px; }
   .section-sub { font-size: 13px; }
-  .hero { padding: 34px 18px 42px; }
+  .hero { padding: 22px 16px 28px; }
   .hero p { font-size: 13.5px; line-height: 1.75; }
   .hero .actions { display: flex; flex-direction: column; gap: 10px; align-items: center; }
   .hero .actions button { width: min(100%, 300px); padding: 13px 0; font-size: 15px; }
@@ -396,7 +404,15 @@ h2.section { font-weight: 800; font-size: 24px; color: var(--navy); letter-spaci
   .wm-hl-row { gap: 8px; padding: 8px 2px; }
   .wm-hl-row a { font-size: 12.5px; }
   .wm-hl-time { font-size: 10px; }
-  .showstack .cocard { height: auto; min-height: 100px; padding: 12px 14px; }
+  .showstack .cocard { height: auto; min-height: 80px; padding: 0; }
+  .filterbar { padding: 12px; }
+  .chips button { padding: 5px 10px; font-size: 12px; }
+  .filterrow .flabel { min-width: 54px; font-size: 12px; }
+  .row { gap: 10px; }
+  .row .right { min-width: 68px; }
+  .card { padding: 16px 14px; }
+  .cocard { padding: 0; }      /* 기업 카드·채팅창은 원래 여백 유지 */
+  .chatbox { padding: 0; }
   .wm-partner-slot { min-height: 62px; font-size: 11.5px; }
   footer { font-size: 11.5px; line-height: 1.7; }
   .ab-head h2 { font-size: 21px; }
@@ -404,7 +420,7 @@ h2.section { font-weight: 800; font-size: 24px; color: var(--navy); letter-spaci
 }
 @media (max-width: 420px) {
   h2.section { font-size: 18px; }
-  .hero { padding: 28px 14px 36px; }
+  .hero { padding: 18px 12px 24px; }
   .wm-market-briefing__market { grid-template-columns: repeat(2, 1fr); }
 }
 .showstack .cocard .desc, .showstack .cocard .co-sub { display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
@@ -464,7 +480,6 @@ footer select { border: 1px solid var(--line); border-radius: 6px; padding: 4px 
   <div class="topbar-in">
     <span class="logo" onclick="go('home')" title="홈으로"><svg width="18" height="18" viewBox="0 0 52 52" style="vertical-align:-2px; margin-right:6px;" aria-hidden="true"><rect x="4" y="34" width="14" height="14" fill="#F97B33"/><rect x="18" y="20" width="14" height="28" fill="#F97B33"/><rect x="32" y="4" width="14" height="44" fill="#F97B33"/></svg>Work<span class="accent">Mentor</span></span>
     <nav id="nav">
-      <button data-page="home" class="on"><span class="nt">홈</span><span class="ns">메인으로</span></button>
       <button data-page="funds"><span class="nt">지원사업</span><span class="ns">자세히보기</span></button>
       <button data-page="companies"><span class="nt">기업정보</span><span class="ns">자세히보기</span></button>
       <button data-page="jobs"><span class="nt">요청공고</span><span class="ns">자세히보기</span></button>
@@ -473,9 +488,8 @@ footer select { border: 1px solid var(--line); border-radius: 6px; padding: 4px 
       <button data-page="chat"><span class="nt">소통방</span><span class="ns">자세히보기</span></button>
       <button data-page="plans"><span class="nt">멤버쉽</span><span class="ns">자세히보기</span></button>
       <button data-page="about"><span class="nt">워크멘토 소개</span><span class="ns">자세히보기</span></button>
-      <button data-page="admin"><span class="nt">관리자</span><span class="ns">운영 관리</span></button>
     </nav>
-    <span id="authArea" class="authArea"><button class="authbtn" onclick="openAuth('login')">로그인</button><button class="authbtn strong" onclick="openAuth('signup')">회원가입</button></span>
+    <span id="authArea" class="authArea"><button class="authbtn" onclick="go('admin')">관리자</button><button class="authbtn" onclick="openAuth('login')">로그인</button><button class="authbtn strong" onclick="openAuth('signup')">회원가입</button></span>
     <button class="cta" id="ctaMain" style="display:none;" onclick="ctaClick()">기업 등록하기</button>
   </div>
 </div>
@@ -508,8 +522,7 @@ footer select { border: 1px solid var(--line); border-radius: 6px; padding: 4px 
     </div>
   </div>
 
-  <h2 class="section">기업정보 · 요청공고</h2>
-  <p class="section-sub">왼쪽은 워크멘토와 함께하는 기업, 오른쪽은 진행 중인 요청공고(인재·거래처·원자재)입니다. 10초마다 자동으로 전환되며, 카드를 누르면 상세히 볼 수 있습니다.</p>
+  <h2 class="section" style="margin-bottom:10px;">기업정보 · 요청공고</h2>
   <div class="showcase" id="homeShowcase">
     <div class="showcol"><p class="showcol-t">기업정보</p><div class="showstack" id="homeCoCol"><p class="empty">기업 목록을 불러오는 중...</p></div></div>
     <div class="showcol"><p class="showcol-t">요청공고</p><div class="showstack" id="homeJobCol"><p class="empty">요청공고를 불러오는 중...</p></div></div>
@@ -2546,7 +2559,7 @@ function renderAuthUI() {
   if (!box) return;
   const cta = document.getElementById("ctaMain");
   if (MEMBER.isAdmin) {
-    box.innerHTML = `<span class="hello">관리자 <span class="badge paid">ADMIN</span></span><button class="authbtn" onclick="memberLogout()">로그아웃</button>`;
+    box.innerHTML = `<span class="hello">관리자 <span class="badge paid">ADMIN</span></span><button class="authbtn" onclick="go('admin')">관리자</button><button class="authbtn" onclick="memberLogout()">로그아웃</button>`;
     if (cta) cta.style.display = "";
   } else if (MEMBER.user) {
     const name = MEMBER.profile && MEMBER.profile.company_name ? MEMBER.profile.company_name : MEMBER.user.email.split("@")[0];
@@ -2556,7 +2569,7 @@ function renderAuthUI() {
     box.innerHTML = `<span class="hello">${esc(name)}님 ${badge}</span><button class="authbtn" onclick="memberLogout()">로그아웃</button>`;
     if (cta) cta.style.display = "";       /* 가입자에게만 기업 등록하기 표시 */
   } else {
-    box.innerHTML = `<button class="authbtn" onclick="openAuth('login')">로그인</button><button class="authbtn strong" onclick="openAuth('signup')">회원가입</button>`;
+    box.innerHTML = `<button class="authbtn" onclick="go('admin')">관리자</button><button class="authbtn" onclick="openAuth('login')">로그인</button><button class="authbtn strong" onclick="openAuth('signup')">회원가입</button>`;
     if (cta) cta.style.display = "none";   /* 비회원에게는 숨김 */
   }
 }
@@ -2568,7 +2581,8 @@ function updateNavLocks() {
     if (!b.dataset.label) b.dataset.label = nt.textContent.replace(" 🔒", "");
     const need = PAGE_NEED[p] || 0;
     const locked = need && !MEMBER.isAdmin && (!MEMBER.user || (need === 2 && DB.view !== "paid"));
-    nt.textContent = b.dataset.label + (locked ? " 🔒" : "");
+    nt.textContent = b.dataset.label;
+    b.classList.toggle("locked", !!locked);
   });
 }
 function canAccess(page) {
@@ -2787,21 +2801,10 @@ function drawBriefCards() {
       card.appendChild(wmEl("span", "wm-market-briefing__tag", item.category || "시장 속보"));
       card.appendChild(wmEl("h3", "", item.title || "제목 없음"));
       card.appendChild(wmEl("p", "", item.summary || ""));
-      wmTextBlock(card, "시장 영향", item.marketImpact || "");
       card.appendChild(wmEl("div", "wm-market-briefing__time",
-        "게시/공시: " + (item.publishedAtKST || "-") + (item.confirmedAtKST ? " · 확인: " + item.confirmedAtKST : "")));
-      const sources = wmEl("div", "wm-market-briefing__sources", "");
-      (Array.isArray(item.sources) ? item.sources : []).forEach(s => {
-        if (!s || !s.url || !/^https?:\/\//i.test(String(s.url))) return;
-        const a = document.createElement("a");
-        a.href = s.url; a.target = "_blank"; a.rel = "noopener noreferrer";
-        a.textContent = s.name || "출처";
-        sources.appendChild(a);
-      });
-      card.appendChild(sources);
+        (item.publishedAtKST || "") + " · 자세히 보기 →"));
       card.style.cursor = "pointer";
       card.onclick = () => showBriefItem(item);
-      sources.querySelectorAll("a").forEach(a => a.addEventListener("click", e => e.stopPropagation()));
       list.appendChild(card);
     } else {
       const h = entry.it;   /* 반검증: 언론 보도 (자동 수집) */
@@ -2880,7 +2883,12 @@ function renderBriefing(data) {
   (Array.isArray(data.market) ? data.market : []).forEach(m => {
     const box = wmEl("div", "wm-market-briefing__metric", "");
     box.appendChild(wmEl("strong", "", m.label || "지표"));
-    box.appendChild(wmEl("span", "", [m.value, m.change].filter(Boolean).join(" ")));
+    /* 등락 방향 감지: 상승=연두+▲, 하락=보라+▼ */
+    const n = parseFloat(String(m.change || "").replace(/[^-\d.]/g, ""));
+    const dir = n > 0 ? "up" : (n < 0 ? "down" : "");
+    const val = wmEl("span", dir ? "wm-mv " + dir : "wm-mv", "");
+    val.textContent = [m.value, m.change].filter(Boolean).join(" ") + (dir === "up" ? " ▲" : dir === "down" ? " ▼" : "");
+    box.appendChild(val);
     if (m.note || m.asOfKST) box.appendChild(wmEl("small", "", [m.note, m.asOfKST].filter(Boolean).join(" · ")));
     market.appendChild(box);
   });
@@ -2919,10 +2927,10 @@ function renderBriefing(data) {
     }
   }
 
-  /* 데이터가 15분 이상 오래됐으면 서버에 갱신 요청 (10분마다 반복 시도 — 상시 실시간화) */
+  /* 실시간화: 지표가 4.5분 이상 지났으면 매 5분 주기마다 서버에 재수집 요청 */
   const age = Date.now() - Number(data.autoRefreshedAt || 0);
   const sinceAsk = Date.now() - (renderBriefing._askedAt || 0);
-  if ((isNaN(age) || age > 15 * 60 * 1000) && sinceAsk > 10 * 60 * 1000) {
+  if ((isNaN(age) || age > 4.5 * 60 * 1000) && sinceAsk > 4.5 * 60 * 1000) {
     renderBriefing._askedAt = Date.now();
     fetch(MARKET_API + "/?api=market-refresh").then(() => setTimeout(loadMarketBriefing, 6000)).catch(() => {});
   }
