@@ -139,6 +139,7 @@ h2.section { font-weight: 800; font-size: 24px; color: var(--navy); letter-spaci
 .badge.hot { background: #FBE7E2; color: var(--danger); }
 .badge.paid { background: #E5F3EC; color: var(--ok); }
 .badge.free { background: #EEF0F5; color: #5A6478; }
+.badge.talent { background: #EFE6FB; color: #7C3AED; }
 .mono { font-family: var(--mono); font-variant-numeric: tabular-nums; }
 .empty { text-align: center; color: #7A8398; padding: 40px 0; font-size: 14px; }
 
@@ -593,6 +594,7 @@ footer select { border: 1px solid var(--line); border-radius: 6px; padding: 4px 
 <section class="page" id="page-jobs">
   <h2 class="section">요청공고</h2>
   <p class="section-sub">인력채용은 물론 거래처·원자재/물품 요청까지 — 기업이 필요한 것을 올리고 연결됩니다. 유형·지역으로 걸러보세요. 지원금 연계 공고에는 골드 배지가 붙습니다.</p>
+  <button class="cta" style="margin-bottom:12px;" onclick="openTalent()">🙋 인재 등록 — 나를 알리는 공고 올리기</button>
   <div class="filterbar">
     <div class="filterrow"><span class="flabel">요청 유형</span><div class="chips" id="jReqs"></div></div>
     <div class="filterrow"><span class="flabel">지역</span><div class="chips" id="jRegions"></div></div>
@@ -943,13 +945,17 @@ footer select { border: 1px solid var(--line); border-radius: 6px; padding: 4px 
         <input type="hidden" id="job-id" />
         <div class="frow">
           <div><label>요청 유형 *</label>
-            <select id="job-reqtype"><option>인력채용</option><option>거래처</option><option>원자재·물품</option><option>기타</option></select>
+            <select id="job-reqtype"><option>인력채용</option><option>거래처</option><option>원자재·물품</option><option>인재</option><option>기타</option></select>
           </div>
           <div><label>기업명</label><input id="job-company" placeholder="(주)한빛물류" /></div>
         </div>
         <div class="frow">
           <div><label>공고 제목 *</label><input id="job-title" placeholder="예: 상하차 사원 채용 / 파렛트 정기 납품처 구함 / IPA 원자재 견적 요청" /></div>
           <div><label>급여 / 예산·수량</label><input id="job-pay" placeholder="월 280만 · 월 500박스 · 견적 협의" /></div>
+        </div>
+        <div class="frow">
+          <div><label>이메일 주소 (유료회원에게만 공개)</label><input id="job-email" type="email" placeholder="contact@company.com" /></div>
+          <div><label>전화번호 (유료회원에게만 공개)</label><input id="job-phone" placeholder="010-0000-0000" /></div>
         </div>
         <div class="frow">
           <div><label>지역</label>
@@ -1138,6 +1144,33 @@ footer select { border: 1px solid var(--line); border-radius: 6px; padding: 4px 
         <button type="button" class="authbtn" style="flex:1; padding:11px;" onclick="socialLogin('google')"><svg width="15" height="15" viewBox="0 0 48 48" style="vertical-align:-2.5px; margin-right:6px;" aria-hidden="true"><path fill="#EA4335" d="M24 9.5c3.54 0 6.71 1.22 9.21 3.6l6.85-6.85C35.9 2.38 30.47 0 24 0 14.62 0 6.51 5.38 2.56 13.22l7.98 6.19C12.43 13.72 17.74 9.5 24 9.5z"/><path fill="#4285F4" d="M46.98 24.55c0-1.57-.15-3.09-.38-4.55H24v9.02h12.94c-.58 2.96-2.26 5.48-4.78 7.18l7.73 6c4.51-4.18 7.09-10.36 7.09-17.65z"/><path fill="#FBBC05" d="M10.53 28.59c-.48-1.45-.76-2.99-.76-4.59s.27-3.14.76-4.59l-7.98-6.19C.92 16.46 0 20.12 0 24c0 3.88.92 7.54 2.56 10.78l7.97-6.19z"/><path fill="#34A853" d="M24 48c6.48 0 11.93-2.13 15.89-5.81l-7.73-6c-2.15 1.45-4.92 2.3-8.16 2.3-6.26 0-11.57-4.22-13.47-9.91l-7.98 6.19C6.51 42.62 14.62 48 24 48z"/></svg>구글로 계속하기</button>
         <button type="button" class="authbtn" style="flex:1; padding:11px; background:#FEE500; border-color:#FEE500; color:#191919;" onclick="socialLogin('kakao')">💬 카카오로 계속하기</button>
       </div>
+    </div>
+  </div>
+</div>
+
+<!-- ===== 인재 공고 등록 모달 (회원용) ===== -->
+<div class="modal-bg" id="talentModal" role="dialog" aria-modal="true">
+  <div class="modal">
+    <h3>인재 등록 — 나를 알리는 공고</h3>
+    <p class="m-sub">보유한 기술과 경력을 공고로 올려 기업들에게 자신을 알려보세요. 연락처(이메일·전화)는 유료회원 기업에게만 공개됩니다.</p>
+    <div class="form">
+      <div><label>공고 제목 *</label><input id="t-title" placeholder="예: 회계·노무 실무 10년, 주 3일 근무 가능한 인재입니다" /></div>
+      <div class="frow">
+        <div><label>지역</label>
+          <select id="t-region"><option>서울</option><option>경기</option><option>인천</option><option>부산</option><option>대구</option><option>대전</option><option>광주</option><option>기타</option></select>
+        </div>
+        <div><label>희망 형태</label>
+          <select id="t-type"><option>정규직</option><option>계약직</option><option>아르바이트</option><option>정기거래</option><option>단발거래</option><option>견적요청</option></select>
+        </div>
+      </div>
+      <div class="frow">
+        <div><label>희망 급여·조건</label><input id="t-pay" placeholder="예: 월 300만 협의 · 프로젝트 단위 가능" /></div>
+        <div><label>전화번호</label><input id="t-phone" placeholder="010-0000-0000" /></div>
+      </div>
+      <div><label>이메일 주소</label><input id="t-email" type="email" placeholder="me@email.com" /></div>
+      <div><label>자기 소개 (경력·기술·가능 업무)</label><textarea id="t-desc" rows="4" placeholder="경력 사항, 다룰 수 있는 업무와 장비, 근무 가능 시간 등을 소개해주세요."></textarea></div>
+      <button class="fsave" onclick="saveTalent()">인재 공고 등록</button>
+      <p class="status">등록 즉시 요청공고 목록의 '인재' 유형으로 게시됩니다. 내 공고는 상세창에서 직접 삭제할 수 있습니다.</p>
     </div>
   </div>
 </div>
@@ -1600,11 +1633,11 @@ function showCompany(c) {
    요청공고
    ========================================================== */
 let jState = { region: "전체", type: "전체", req: "전체" };
-function reqBadgeCls(rt) { return rt === "거래처" ? "paid" : (rt === "원자재·물품" ? "fund" : (rt === "기타" ? "free" : "hr")); }
+function reqBadgeCls(rt) { return rt === "거래처" ? "paid" : (rt === "원자재·물품" ? "fund" : (rt === "인재" ? "talent" : (rt === "기타" ? "free" : "hr"))); }
 function buildJobFilters() {
   const regions = ["전체", ...new Set(DB.jobs.map(j => j.region))];
   const types = ["전체", "정규직", "계약직", "아르바이트", "정기거래", "단발거래", "견적요청"];
-  const reqs = ["전체", "인력채용", "거래처", "원자재·물품", "기타"];
+  const reqs = ["전체", "인력채용", "거래처", "원자재·물품", "인재", "기타"];
   const mk = (arr, boxId, key) => {
     const box = document.getElementById(boxId);
     box.innerHTML = "";
@@ -1647,6 +1680,53 @@ function renderJobs() {
     box.appendChild(el);
   });
 }
+/* ---------- 회원용 인재 공고 ---------- */
+function openTalent() {
+  if (!MEMBER.user) {
+    alert("인재 등록은 회원 로그인 후 이용할 수 있습니다.");
+    openAuth("signup");
+    return;
+  }
+  if (MEMBER.profile && MEMBER.profile.approved === false) return alert("가입 승인 대기 중입니다.\n승인 후 인재 등록이 가능합니다.");
+  const setV = (id, v) => { const el = document.getElementById(id); if (el) el.value = v || ""; };
+  ["t-title", "t-pay", "t-desc"].forEach(id => setV(id, ""));
+  setV("t-email", MEMBER.user.email);
+  setV("t-phone", MEMBER.profile ? MEMBER.profile.contact : "");
+  openModal("talentModal");
+}
+async function saveTalent() {
+  const title = (document.getElementById("t-title").value || "").trim();
+  if (!title) return alert("공고 제목을 입력하세요.");
+  const p = MEMBER.profile || {};
+  const row = {
+    title,
+    req_type: "인재",
+    company: p.company_name || (MEMBER.user.email || "").split("@")[0],
+    region: document.getElementById("t-region").value,
+    type: document.getElementById("t-type").value,
+    pay: (document.getElementById("t-pay").value || "").trim(),
+    email: (document.getElementById("t-email").value || "").trim(),
+    phone: (document.getElementById("t-phone").value || "").trim(),
+    grant_info: "",
+    descr: (document.getElementById("t-desc").value || "").trim(),
+    img: "",
+    author_id: MEMBER.user.id
+  };
+  const { error } = await sb.from("jobs").insert(row);
+  if (error) return alert("등록 실패: " + error.message + "\n(v4-talent-subadmin.sql 실행 여부를 확인하세요)");
+  closeModal("talentModal");
+  await cloudRefresh();
+  jState.req = "인재"; buildJobFilters(); renderJobs();
+  alert("인재 공고가 등록되었습니다!\n요청공고의 '인재' 유형에서 확인할 수 있습니다.");
+}
+async function delMyJob(id) {
+  if (!confirm("내 인재 공고를 삭제할까요?")) return;
+  const { error } = await sb.from("jobs").delete().eq("id", id);
+  if (error) return alert("삭제 실패: " + error.message);
+  closeModal("detailModal");
+  await cloudRefresh();
+}
+
 function showJob(j) {
   document.getElementById("detailBody").innerHTML = `
     ${j.img ? `<img class="m-img" src="${j.img}" alt="" />` : ""}
@@ -1657,9 +1737,12 @@ function showJob(j) {
     <p class="m-sub">${esc(j.company)} · ${esc(j.region)} · <span class="mono">${esc(j.pay)}원</span></p>
     <div class="m-body">${esc(j.desc)}</div>
     ${j.grant ? `<p class="linked">💰 이 채용으로 받을 수 있는 지원금: <b>${esc(j.grant)}</b></p>` : ''}
+    ${(j.email || j.phone) ? (DB.view === "paid"
+      ? `<div class="m-files"><b style="font-size:13.5px;">연락처</b><br /><p class="mono" style="font-size:15px; margin-top:4px;">${esc([j.phone, j.email].filter(Boolean).join(" / "))}</p></div>`
+      : `<div class="locknote">🔒 연락처(전화·이메일)는 <b>유료회원</b>에게만 공개됩니다. 멤버쉽에서 업그레이드하면 확인할 수 있습니다.</div>`) : ""}
     <div class="btns">
+      ${MEMBER.user && j.author_id === MEMBER.user.id ? `<button class="btn-ghost" style="color:var(--danger);" onclick="delMyJob(${j.id})">내 공고 삭제</button>` : ""}
       <button class="btn-ghost" onclick="closeModal('detailModal')">닫기</button>
-      <button class="cta" onclick="alert('데모: 실서비스에서는 이력서 지원 화면으로 연결됩니다.')">지원하기</button>
     </div>`;
   openModal("detailModal");
 }
@@ -1981,7 +2064,7 @@ function updateInquiryBadges() {
   });
 }
 async function countInquiries() {
-  if (!MEMBER.isAdmin) return;
+  if (!MEMBER.isAdmin && !hasPerm("members")) return;
   try {
     const { count } = await sb.from("inquiries").select("id", { count: "exact", head: true }).eq("status", "new");
     INQ_NEW = count || 0;
@@ -2050,6 +2133,7 @@ async function adminAuth() {
   document.getElementById("adminLogin").style.display = "none";
   document.getElementById("adminDash").style.display = "block";
   renderAdminLists();
+  try { applyPermTabs(); } catch (_) {}
   document.getElementById("api-key").value = DB.api.key;
   document.getElementById("api-proxy").value = DB.api.proxy;
   document.getElementById("api-cnt").value = DB.api.cnt;
@@ -2216,6 +2300,8 @@ async function saveJob() {
     region: document.getElementById("job-region").value,
     type: document.getElementById("job-type").value,
     pay: document.getElementById("job-pay").value.trim(),
+    email: document.getElementById("job-email").value.trim(),
+    phone: document.getElementById("job-phone").value.trim(),
     grant: document.getElementById("job-grant").value.trim(),
     desc: document.getElementById("job-desc").value.trim(),
     img: img || (id ? (DB.jobs.find(j => j.id === +id)?.img || "") : "")
@@ -2235,7 +2321,7 @@ async function saveJob() {
     if (i >= 0) DB.jobs[i] = obj; else DB.jobs.unshift(obj);
     saveDB(); renderAdminLists(); buildJobFilters(); renderJobs(); renderHomeMatches();
   }
-  ["job-id","job-title","job-company","job-pay","job-grant","job-desc"].forEach(x => document.getElementById(x).value = "");
+  ["job-id","job-title","job-company","job-pay","job-grant","job-desc","job-email","job-phone"].forEach(x => document.getElementById(x).value = "");
   document.getElementById("job-img").value = "";
   alert("저장되었습니다.");
 }
@@ -2248,6 +2334,8 @@ function editJob(id) {
   document.getElementById("job-region").value = j.region;
   document.getElementById("job-type").value = j.type;
   document.getElementById("job-pay").value = j.pay;
+  document.getElementById("job-email").value = j.email || "";
+  document.getElementById("job-phone").value = j.phone || "";
   document.getElementById("job-grant").value = j.grant;
   document.getElementById("job-desc").value = j.desc;
   atab("job"); window.scrollTo({ top: 0 });
@@ -2636,6 +2724,44 @@ async function sendChatFile(inputId) {
 const MEMBER = { user: null, profile: null, isAdmin: false, _tab: "login" };
 const PAGE_NEED = { funds: 2, jobs: 2, lessons: 2, companies: 1, chat: 1, board: 1 };  /* 1=회원, 2=유료 */
 const TRIAL_PAGES = ["funds", "lessons"];   /* 무료회원 1개월 체험 개방 메뉴 */
+const PERM_LIST = [["co","기업 관리"],["job","요청공고"],["lesson","경영수업"],["chat","소통방"],["brief","시장 브리핑"],["insight","관심 분석"],["members","회원 관리"],["api","API 연동"],["data","데이터 백업"],["set","설정"]];
+function hasPerm(p) {
+  if (MEMBER.isAdmin) return true;
+  const pr = MEMBER.profile;
+  return !!(pr && pr.sub_admin && pr.approved !== false && String(pr.perms || "").split(",").includes(p));
+}
+function isSubAdmin() { return !!(MEMBER.profile && MEMBER.profile.sub_admin && MEMBER.profile.approved !== false); }
+function applyPermTabs() {
+  let first = null;
+  document.querySelectorAll(".atabs button[data-tab]").forEach(b => {
+    const ok = hasPerm(b.dataset.tab);
+    b.style.display = ok ? "" : "none";
+    if (ok && !first) first = b.dataset.tab;
+  });
+  const cur = document.querySelector(".atabs button.on");
+  if ((!cur || cur.style.display === "none") && first) atab(first);
+}
+/* 총관리자·부관리자가 로그인 상태면 관리자 페이지에 로그인 카드 없이 바로 대시보드 표시 */
+function syncAdminPanel() {
+  const al = document.getElementById("adminLogin"), ad = document.getElementById("adminDash");
+  if (!al || !ad) return;
+  if (MEMBER.isAdmin || isSubAdmin()) {
+    al.style.display = "none";
+    ad.style.display = "block";
+    try { renderAdminLists(); } catch (_) {}
+    try { applyPermTabs(); } catch (_) {}
+    if (MEMBER.isAdmin) {
+      try {
+        document.getElementById("api-key").value = DB.api.key;
+        document.getElementById("api-proxy").value = DB.api.proxy;
+        document.getElementById("api-cnt").value = DB.api.cnt;
+      } catch (_) {}
+    }
+  } else if (!isAdmin) {
+    al.style.display = "block";
+    ad.style.display = "none";
+  }
+}
 function freeTrialActive() {
   if (MEMBER.isAdmin || !MEMBER.profile) return false;
   if (MEMBER.profile.tier === "paid" || MEMBER.profile.approved === false) return false;
@@ -2699,7 +2825,8 @@ async function refreshMember() {
     if (!MEMBER.isAdmin) await ensureProfile();
   }
   syncViewerTier(); renderAuthUI(); updateNavLocks();
-  if (MEMBER.isAdmin) countInquiries();
+  try { syncAdminPanel(); } catch (_) {}
+  if (MEMBER.isAdmin || hasPerm("members")) countInquiries();
   maybeAskProfile();
 }
 /* 간편 로그인 가입자 등 기업정보가 비어 있으면 입력 창을 띄움 (접속당 1회) */
@@ -2798,7 +2925,7 @@ function updateNavLocks() {
 }
 function canAccess(page) {
   if (page === "admin") {
-    if (MEMBER.user && !MEMBER.isAdmin) { alert("관리자 전용 페이지입니다."); return false; }
+    if (MEMBER.user && !MEMBER.isAdmin && !isSubAdmin()) { alert("관리자 전용 페이지입니다."); return false; }
     return true;
   }
   const need = PAGE_NEED[page] || 0;
@@ -2873,14 +3000,17 @@ async function loadMembers() {
   const { data: rows, error } = await sb.from("members").select("*").order("created_at", { ascending: false }).limit(200);
   if (error) { box.innerHTML = '<p class="empty">조회 실패: ' + esc(error.message) + ' (v3-members.sql 실행 여부 확인)</p>'; return; }
   if (!rows || !rows.length) { box.innerHTML = '<p class="empty">아직 가입한 회원이 없습니다.</p>'; return; }
+  MEM_ROWS = rows;
   box.innerHTML = rows.map(m => `
     <div class="card row" style="cursor:default;">
       <div>
         <p class="title">${esc(m.company_name || "(기업명 미입력)")}
           ${m.approved === false ? '<span class="badge fund">승인 대기</span>' : ""}
           <span class="badge ${m.tier === "paid" ? "paid" : "free"}">${m.tier === "paid" ? "유료회원" : "무료회원"}</span>
+          ${m.sub_admin ? '<span class="badge hr">부관리자</span>' : ""}
         </p>
         <p class="sub">${m.ceo_name ? "대표 " + esc(m.ceo_name) + " · " : ""}${esc(m.email || "")}${m.contact ? " · " + esc(m.contact) : ""} · 가입 ${esc(String(m.created_at).slice(0, 10))}</p>
+        <div id="perm-${m.id}" style="display:none; margin-top:9px; padding:11px 13px; background:var(--paper); border-radius:8px;"></div>
       </div>
       <div class="right" style="display:flex; gap:6px; align-items:center;">
         ${m.approved === false
@@ -2890,8 +3020,41 @@ async function loadMembers() {
           <option value="free" ${m.tier !== "paid" ? "selected" : ""}>무료회원</option>
           <option value="paid" ${m.tier === "paid" ? "selected" : ""}>유료회원</option>
         </select>
+        ${MEMBER.isAdmin ? `<button class="filebtn" style="margin:0;" onclick="togglePermEditor('${m.id}')">권한</button>` : ""}
       </div>
     </div>`).join("");
+}
+
+/* ---------- 부관리자 지정·권한 편집 (총관리자 전용) ---------- */
+let MEM_ROWS = [];
+function togglePermEditor(id) {
+  const box = document.getElementById("perm-" + id);
+  if (!box) return;
+  if (box.style.display !== "none") { box.style.display = "none"; return; }
+  const m = MEM_ROWS.find(x => String(x.id) === String(id));
+  if (!m) return;
+  const cur = String(m.perms || "").split(",");
+  box.innerHTML = `
+    <label style="display:flex; align-items:center; gap:7px; font-size:13.5px; font-weight:700; color:var(--navy); cursor:pointer; margin-bottom:8px;">
+      <input type="checkbox" id="sub-${id}" style="width:auto;" ${m.sub_admin ? "checked" : ""} /> 부관리자로 지정
+    </label>
+    <div style="display:flex; flex-wrap:wrap; gap:6px 14px; margin-bottom:10px;">
+      ${PERM_LIST.map(([k, label]) => `
+        <label style="display:flex; align-items:center; gap:5px; font-size:13px; cursor:pointer;">
+          <input type="checkbox" class="pchk-${id}" value="${k}" style="width:auto;" ${cur.includes(k) ? "checked" : ""} /> ${label}
+        </label>`).join("")}
+    </div>
+    <button class="fsave" style="padding:9px 16px;" onclick="savePerms('${id}')">권한 저장</button>
+    <p class="status" style="margin-top:6px;">체크한 관리 메뉴만 이 회원의 관리자 화면에 표시되고, 서버 권한도 함께 적용됩니다.</p>`;
+  box.style.display = "block";
+}
+async function savePerms(id) {
+  const sub = document.getElementById("sub-" + id).checked;
+  const perms = [...document.querySelectorAll(".pchk-" + CSS.escape(id) + ":checked")].map(c => c.value).join(",");
+  const { error } = await sb.from("members").update({ sub_admin: sub, perms }).eq("id", id);
+  if (error) return alert("권한 저장 실패: " + error.message + "\n(v4-talent-subadmin.sql 실행 여부를 확인하세요)");
+  alert(sub ? "부관리자 권한이 저장되었습니다.\n해당 회원은 새로고침 후 관리자 메뉴에서 허용된 탭을 사용할 수 있습니다." : "부관리자 지정이 해제되었습니다.");
+  loadMembers();
 }
 async function approveMember(id, ok) {
   const { error } = await sb.from("members").update({ approved: ok }).eq("id", id);
