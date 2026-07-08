@@ -63,18 +63,20 @@ img { max-width: 100%; }
 
 /* ---------- 상단 바 ---------- */
 .topbar { position: sticky; top: 0; z-index: 50; background: var(--white); border-bottom: 1px solid var(--line); }
-.topbar-in { max-width: 1160px; margin: 0 auto; padding: 10px 20px 8px; display: flex; align-items: center; gap: 8px; flex-wrap: wrap; }
+.topbar-in { max-width: 1160px; margin: 0 auto; padding: 8px 20px; display: flex; align-items: center; gap: 8px; flex-wrap: wrap; }
 .logo { order: 1; }
 .authArea { order: 2; margin-left: auto; }
 #ctaMain { order: 3; }
 @media (max-width: 720px) {
-  nav { gap: 0; }
-  nav button { padding: 6px 7px; font-size: 12.5px; }
+  nav button { min-width: 84px; padding: 8px 4px 7px; }
+  nav .nt { font-size: 11.5px; }
+  nav .ns { font-size: 8.5px; }
   #ctaMain { padding: 8px 11px; font-size: 12.5px; }
   .authbtn { padding: 7px 10px; font-size: 12.5px; }
 }
 @media (max-width: 420px) {
-  nav button { padding: 5px 5.5px; font-size: 11.5px; }
+  nav button { min-width: 72px; }
+  nav .nt { font-size: 11.5px; }
 }
 .logo { font-weight: 800; font-size: 21px; color: var(--navy); letter-spacing: -0.02em; margin-right: 14px; white-space: nowrap; }
 body:not(.wm-admin-mode) { -webkit-user-select: none; user-select: none; }
@@ -89,15 +91,26 @@ input, textarea, [contenteditable] { -webkit-user-select: text !important; user-
 }
 .logo { cursor: pointer; }
 .logo .accent { color: var(--brand); }
-nav { order: 4; flex-basis: 100%; display: flex; flex-wrap: wrap; justify-content: center; gap: 2px; border-top: 1px solid var(--line); margin-top: 8px; padding-top: 7px; }
-nav button { background: none; border: none; padding: 8px 13px; font-size: 14.5px; font-weight: 500; color: #5A6478; border-radius: 8px; white-space: nowrap; }
+nav { order: 4; flex-basis: 100%; display: flex; flex-wrap: wrap; margin-top: 7px; border-radius: 10px; overflow: hidden; }
+nav button { flex: 1 1 0; min-width: 96px; background: var(--brand); border: none; border-right: 1px solid rgba(255,255,255,0.28); padding: 9px 6px 8px; color: #fff; text-align: center; }
+nav button:last-child { border-right: none; }
+nav button:hover { background: var(--brand-deep); }
+nav .nt { display: block; font-size: 13.5px; font-weight: 500; letter-spacing: -0.01em; white-space: nowrap; }
+nav .ns { display: block; font-size: 9.5px; margin-top: 2px; color: rgba(255,255,255,0.78); font-weight: 400; }
 nav button:hover { background: var(--paper); }
-nav button.on { color: var(--navy); font-weight: 700; background: var(--blue-soft); }
+nav button.on { background: var(--char); }
+nav button.on .nt { font-weight: 700; }
 .cta { background: var(--navy); color: #fff; border: none; border-radius: 8px; padding: 9px 15px; font-size: 13.5px; font-weight: 700; white-space: nowrap; }
 .cta:hover { background: #0F1A38; }
 .cta.gold { background: var(--gold); }
 
 .wrap { max-width: 1160px; margin: 0 auto; padding: 30px 20px 90px; }
+/* 홈: 메뉴 스트립이 대문(히어로) 머리 위에 딱 붙는 한 몸 구성 */
+body.is-home .topbar { border-bottom: none; }
+body.is-home .topbar-in { padding-bottom: 0; }
+body.is-home nav { border-radius: 10px 10px 0 0; }
+body.is-home .wrap { padding-top: 0; }
+body.is-home .hero { border-radius: 0 0 16px 16px; }
 .page { display: none; }
 .page.on { display: block; animation: fade 0.22s ease; }
 @keyframes fade { from { opacity: 0; transform: translateY(5px); } to { opacity: 1; } }
@@ -124,10 +137,10 @@ h2.section { font-weight: 800; font-size: 24px; color: var(--navy); letter-spaci
     repeating-linear-gradient(115deg, rgba(255,255,255,0.05) 0 1px, transparent 1px 84px),
     repeating-linear-gradient(65deg, rgba(255,255,255,0.035) 0 1px, transparent 1px 84px),
     linear-gradient(180deg, var(--char) 0%, var(--char-deep) 100%);
-  border-radius: 16px 16px 0 0;
+  border-radius: 16px;
   padding: clamp(40px, 7vw, 72px) clamp(20px, 5vw, 56px);
   color: #E7E3DC;
-  margin-bottom: 0;
+  margin-bottom: 32px;
   text-align: center;
 }
 .hero::after {  /* 상승하는 지붕선 모티프 */
@@ -165,22 +178,6 @@ h2.section { font-weight: 800; font-size: 24px; color: var(--navy); letter-spaci
 .btn-gold:hover { background: var(--brand-deep); }
 
 /* ---------- 카테고리 스트립 (히어로 하단 오렌지 블록) ---------- */
-.catstrip { display: grid; grid-template-columns: repeat(7, 1fr); margin-bottom: 32px; border-radius: 0 0 14px 14px; overflow: hidden; }
-@media (max-width: 860px) { .catstrip { grid-template-columns: repeat(4, 1fr); } }
-@media (max-width: 560px) { .catstrip { grid-template-columns: repeat(2, 1fr); } }
-.catstrip button {
-  background: var(--brand);
-  border: none;
-  border-right: 1px solid rgba(255,255,255,0.25);
-  padding: 16px 8px 14px;
-  color: #fff;
-  text-align: center;
-  transition: background 0.15s;
-}
-.catstrip button:last-child { border-right: none; }
-.catstrip button:hover { background: var(--brand-deep); }
-.catstrip .ct { display: block; font-size: 16px; font-weight: 800; letter-spacing: -0.01em; }
-.catstrip .cs { display: block; font-size: 11px; margin-top: 4px; color: rgba(255,255,255,0.8); }
 
 /* ---------- 홈: 매칭 카드 ---------- */
 .match { display: grid; grid-template-columns: 1fr 44px 1fr; align-items: stretch; margin-bottom: 16px; }
@@ -416,23 +413,23 @@ footer .viewmode { margin-top: 8px; }
 footer select { border: 1px solid var(--line); border-radius: 6px; padding: 4px 8px; font-size: 12.5px; }
 </style>
 </head>
-<body>
+<body class="is-home">
 
 <!-- ===== 상단 바 ===== -->
 <div class="topbar">
   <div class="topbar-in">
     <span class="logo" onclick="go('home')" title="홈으로"><svg width="18" height="18" viewBox="0 0 52 52" style="vertical-align:-2px; margin-right:6px;" aria-hidden="true"><rect x="4" y="34" width="14" height="14" fill="#F97B33"/><rect x="18" y="20" width="14" height="28" fill="#F97B33"/><rect x="32" y="4" width="14" height="44" fill="#F97B33"/></svg>Work<span class="accent">Mentor</span></span>
     <nav id="nav">
-      <button data-page="home" class="on">홈</button>
-      <button data-page="funds">지원사업</button>
-      <button data-page="companies">기업정보</button>
-      <button data-page="jobs">요청공고</button>
-      <button data-page="lessons">경영수업</button>
-      <button data-page="board">자유게시판</button>
-      <button data-page="chat">소통방</button>
-      <button data-page="plans">멤버쉽</button>
-      <button data-page="about">워크멘토 소개</button>
-      <button data-page="admin">관리자</button>
+      <button data-page="home" class="on"><span class="nt">홈</span><span class="ns">메인으로</span></button>
+      <button data-page="funds"><span class="nt">지원사업</span><span class="ns">자세히보기</span></button>
+      <button data-page="companies"><span class="nt">기업정보</span><span class="ns">자세히보기</span></button>
+      <button data-page="jobs"><span class="nt">요청공고</span><span class="ns">자세히보기</span></button>
+      <button data-page="lessons"><span class="nt">경영수업</span><span class="ns">자세히보기</span></button>
+      <button data-page="board"><span class="nt">자유게시판</span><span class="ns">자세히보기</span></button>
+      <button data-page="chat"><span class="nt">소통방</span><span class="ns">자세히보기</span></button>
+      <button data-page="plans"><span class="nt">멤버쉽</span><span class="ns">자세히보기</span></button>
+      <button data-page="about"><span class="nt">워크멘토 소개</span><span class="ns">자세히보기</span></button>
+      <button data-page="admin"><span class="nt">관리자</span><span class="ns">운영 관리</span></button>
     </nav>
     <span id="authArea" class="authArea"><button class="authbtn" onclick="openAuth('login')">로그인</button><button class="authbtn strong" onclick="openAuth('signup')">회원가입</button></span>
     <button class="cta" id="ctaMain" style="display:none;" onclick="ctaClick()">기업 등록하기</button>
@@ -465,16 +462,6 @@ footer select { border: 1px solid var(--line); border-radius: 6px; padding: 4px 
       <button class="btn-blue" onclick="go('companies')">기업정보 보기</button>
       <button class="btn-gold" onclick="go('funds')">지원사업 찾기</button>
     </div>
-  </div>
-
-  <div class="catstrip">
-    <button onclick="go('funds')"><span class="ct">지원사업</span><span class="cs">자세히보기</span></button>
-    <button onclick="go('jobs')"><span class="ct">요청공고</span><span class="cs">자세히보기</span></button>
-    <button onclick="go('companies')"><span class="ct">기업정보</span><span class="cs">자세히보기</span></button>
-    <button onclick="lState.cat='최신 정보'; buildLessonFilters(); renderLessons(); go('lessons')"><span class="ct">최신 정보</span><span class="cs">자세히보기</span></button>
-    <button onclick="go('lessons')"><span class="ct">경영수업</span><span class="cs">자세히보기</span></button>
-    <button onclick="go('plans')"><span class="ct">멤버쉽</span><span class="cs">자세히보기</span></button>
-    <button onclick="go('about')"><span class="ct">소개</span><span class="cs">자세히보기</span></button>
   </div>
 
   <h2 class="section">기업정보 · 요청공고</h2>
@@ -965,6 +952,21 @@ footer select { border: 1px solid var(--line); border-radius: 6px; padding: 4px 
   <div class="modal" id="detailBody"></div>
 </div>
 
+<!-- ===== 간편 로그인 가입자: 기업정보 입력 모달 ===== -->
+<div class="modal-bg" id="profileModal" role="dialog" aria-modal="true">
+  <div class="modal">
+    <h3 style="margin-bottom:6px;">기업정보 입력</h3>
+    <p class="m-sub">관리자 승인을 위해 기업 정보가 필요합니다. 입력하시면 승인 검토가 시작됩니다.</p>
+    <div class="form">
+      <div><label>기업명 *</label><input id="pm-company" placeholder="예: (주)한빛물류" /></div>
+      <div><label>대표자 이름 *</label><input id="pm-ceo" placeholder="예: 홍길동" /></div>
+      <div><label>담당자 연락처</label><input id="pm-contact" placeholder="예: 010-0000-0000" /></div>
+      <button class="fsave" onclick="saveMyProfile()">저장하고 승인 요청</button>
+      <p class="status">나중에 입력하려면 창 밖을 눌러 닫을 수 있습니다. (다음 접속 시 다시 안내됩니다)</p>
+    </div>
+  </div>
+</div>
+
 <!-- ===== 회원 로그인/가입 모달 ===== -->
 <div class="modal-bg" id="authModal" role="dialog" aria-modal="true">
   <div class="modal">
@@ -1131,6 +1133,7 @@ function go(page) {
   document.getElementById("page-" + page).classList.add("on");
   document.querySelectorAll("#nav button").forEach(b => b.classList.toggle("on", b.dataset.page === page));
   window.scrollTo({ top: 0 });
+  try { document.body.classList.toggle("is-home", page === "home"); } catch (_) {}
   if (typeof chatOnNavigate === "function") chatOnNavigate(page);
   if (page === "board" && typeof loadBoard === "function") loadBoard();
   WM_PAGE = page;
@@ -2409,6 +2412,33 @@ async function refreshMember() {
     if (!MEMBER.isAdmin) await ensureProfile();
   }
   syncViewerTier(); renderAuthUI(); updateNavLocks();
+  maybeAskProfile();
+}
+/* 간편 로그인 가입자 등 기업정보가 비어 있으면 입력 창을 띄움 (접속당 1회) */
+function maybeAskProfile() {
+  if (!MEMBER.user || MEMBER.isAdmin || !MEMBER.profile) return;
+  if (MEMBER.profile.company_name && MEMBER.profile.ceo_name) return;
+  if (MEMBER._askedProfile) return;
+  MEMBER._askedProfile = true;
+  const setV = (id, v) => { const el = document.getElementById(id); if (el) el.value = v || ""; };
+  setV("pm-company", MEMBER.profile.company_name);
+  setV("pm-ceo", MEMBER.profile.ceo_name);
+  setV("pm-contact", MEMBER.profile.contact);
+  openModal("profileModal");
+}
+async function saveMyProfile() {
+  const company = document.getElementById("pm-company").value.trim();
+  const ceo = document.getElementById("pm-ceo").value.trim();
+  const contact = document.getElementById("pm-contact").value.trim();
+  if (!company) return alert("기업명을 입력하세요.");
+  if (!ceo) return alert("대표자 이름을 입력하세요.");
+  const { error } = await sb.from("members").update({ company_name: company, ceo_name: ceo, contact }).eq("id", MEMBER.user.id);
+  if (error) return alert("저장 실패: " + error.message);
+  const r = await sb.from("members").select("*").eq("id", MEMBER.user.id).maybeSingle();
+  MEMBER.profile = r.data || MEMBER.profile;
+  closeModal("profileModal");
+  renderAuthUI();
+  alert("저장되었습니다!\n관리자 승인이 완료되면 회원 기능이 열립니다.");
 }
 function syncViewerTier() {
   DB.view = MEMBER.isAdmin ? "paid" : (MEMBER.profile ? (MEMBER.profile.tier === "paid" ? "paid" : "free") : "guest");
@@ -2468,10 +2498,12 @@ function renderAuthUI() {
 function updateNavLocks() {
   document.querySelectorAll("#nav button").forEach(b => {
     const p = b.dataset.page;
-    if (!b.dataset.label) b.dataset.label = b.textContent.replace(" 🔒", "");
+    const nt = b.querySelector(".nt");
+    if (!nt) return;
+    if (!b.dataset.label) b.dataset.label = nt.textContent.replace(" 🔒", "");
     const need = PAGE_NEED[p] || 0;
     const locked = need && !MEMBER.isAdmin && (!MEMBER.user || (need === 2 && DB.view !== "paid"));
-    b.textContent = b.dataset.label + (locked ? " 🔒" : "");
+    nt.textContent = b.dataset.label + (locked ? " 🔒" : "");
   });
 }
 function canAccess(page) {
