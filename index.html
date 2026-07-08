@@ -983,7 +983,7 @@ footer select { border: 1px solid var(--line); border-radius: 6px; padding: 4px 
         <div class="frow">
           <div><label>자료 제목 *</label><input id="ls-title" placeholder="처음 하는 4대보험 신고, 순서대로 따라하기" /></div>
           <div><label>분류</label>
-            <select id="ls-cat"><option>세무/회계</option><option>노무/인사</option><option>마케팅</option><option>금융</option><option>계약/법률</option><option>경영 일반</option></select>
+            <select id="ls-cat"><option>세무/회계</option><option>노무/인사</option><option>금융</option><option>계약/법률</option><option>경영 일반</option><option>자료실</option></select>
           </div>
         </div>
         <div class="frow">
@@ -1751,7 +1751,7 @@ function showJob(j) {
    경영수업 (관리자가 올리는 정보·파일 자료실)
    ========================================================== */
 let lState = { cat: "최신 정보" };
-const LESSON_CATS = ["최신 정보", "전체", "세무/회계", "노무/인사", "마케팅", "금융", "계약/법률", "경영 일반"];
+const LESSON_CATS = ["최신 정보", "전체", "세무/회계", "노무/인사", "금융", "계약/법률", "경영 일반", "자료실"];
 
 /* ---- 최신 정보: 기업마당 행사정보 + 정책뉴스 자동 수집 ---- */
 let LATEST = [];
