@@ -1845,15 +1845,21 @@ async function loadLatestInfo() {
 }
 
 function showLatest(x) {
+  /* 뉴스 기사(구글뉴스 링크)는 서버 조회가 차단되므로 즉시 새 탭 원문으로 직행 */
+  const isNews = /news\.google\.com/.test(x.url || "");
   document.getElementById("detailBody").innerHTML = `
     <span class="badge ${srcBadge(x.source)}">${esc(x.source)}</span>
     <h3>${esc(x.title)}</h3>
     <p class="m-sub">${esc(x.source || "실시간 정보")} · ${esc(fmtDate(x.date))}</p>
-    <div class="m-body">${esc(x.summary) || "요약 정보가 없습니다. 아래 버튼으로 원문 내용을 펼쳐보세요."}</div>
+    <div class="m-body">${esc(x.summary) || (isNews
+      ? "아래 버튼을 누르면 해당 언론사의 기사 원문이 새 탭에서 열립니다."
+      : "요약 정보가 없습니다. 아래 버튼으로 원문 내용을 펼쳐보세요.")}</div>
     <div class="origbox" id="origBox"></div>
     <div class="btns">
       <button class="btn-ghost" onclick="closeModal('detailModal')">닫기</button>
-      ${x.url ? `<button class="cta gold" onclick="viewOriginal('${esc(x.url)}')">원문 내용 보기</button>` : ""}
+      ${x.url ? (isNews
+        ? `<a class="cta gold" href="${esc(x.url)}" target="_blank" rel="noopener" style="text-decoration:none;">원문 페이지에서 자세한 내용 보기 ↗</a>`
+        : `<button class="cta gold" onclick="viewOriginal('${esc(x.url)}')">원문 내용 보기</button>`) : ""}
     </div>`;
   openModal("detailModal");
   logActivity(x.source || "최신 정보", x.title, x.source || "");
