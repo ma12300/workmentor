@@ -947,7 +947,7 @@ footer select { border: 1px solid var(--line); border-radius: 6px; padding: 4px 
           <div><label>요청 유형 *</label>
             <select id="job-reqtype"><option>인력채용</option><option>거래처</option><option>원자재·물품</option><option>인재</option><option>기타</option></select>
           </div>
-          <div><label>기업명 / 물품명 / 인재</label><input id="job-company" placeholder="(주)한빛물류" /></div>
+          <div><label>기업명</label><input id="job-company" placeholder="(주)한빛물류" /></div>
         </div>
         <div class="frow">
           <div><label>공고 제목 *</label><input id="job-title" placeholder="예: 상하차 사원 채용 / 파렛트 정기 납품처 구함 / IPA 원자재 견적 요청" /></div>
@@ -983,7 +983,7 @@ footer select { border: 1px solid var(--line); border-radius: 6px; padding: 4px 
         <div class="frow">
           <div><label>자료 제목 *</label><input id="ls-title" placeholder="처음 하는 4대보험 신고, 순서대로 따라하기" /></div>
           <div><label>분류</label>
-            <select id="ls-cat"><option>세무/회계</option><option>노무/인사</option><option>마케팅</option><option>지원금 신청</option><option>계약/법률</option><option>경영 일반</option></select>
+            <select id="ls-cat"><option>세무/회계</option><option>노무/인사</option><option>마케팅</option><option>정책지원금</option><option>계약/법률</option><option>경영 일반</option></select>
           </div>
         </div>
         <div class="frow">
@@ -1836,6 +1836,37 @@ function showLatest(x) {
   logActivity(x.source || "최신 정보", x.title, x.source || "");
 }
 
+/* ---- 분류별 실시간 정부 소식 (정책브리핑 부처 RSS · 워커 v19 govfeed) ---- */
+const GOV_GROUPS = {
+  "세무/회계":  { key: "tax",   title: "실시간 세무·재정 소식 — 기획재정부 · 국세청" },
+  "노무/인사":  { key: "labor", title: "실시간 노무·고용 소식 — 고용노동부" },
+  "계약/법률":  { key: "law",   title: "실시간 법무·공정거래 소식 — 법무부 · 공정거래위원회" },
+  "정책지원금": { key: "fund",  title: "실시간 금융·관세 지원 소식 — 금융위원회 · 관세청" },
+  "경영 일반":  { key: "biz",   title: "실시간 중소기업 정책 소식 — 중소벤처기업부" }
+};
+const GOV_BADGE = { "기획재정부": "fund", "국세청": "paid", "고용노동부": "hr", "법무부": "paid", "공정거래위원회": "fund", "금융위원회": "hr", "관세청": "paid", "중소벤처기업부": "fund" };
+const GOVF = {};   /* 그룹별 { rows, state } */
+function govState(key) { return GOVF[key] || (GOVF[key] = { rows: [], state: "idle" }); }
+async function loadGovFeed(key) {
+  const g = govState(key);
+  if (g.state === "loading") return;
+  if (!DB.api.proxy) { g.state = "error"; drawLessonList(); return; }
+  g.state = "loading"; drawLessonList();
+  try {
+    const res = await fetch(DB.api.proxy.replace(/\/$/, "") + "/?api=govfeed&group=" + key);
+    const txt = await res.text();
+    g.rows = txt.split("<!--WM-FEED:").slice(1).flatMap(seg => {
+      const i = seg.indexOf("-->");
+      if (i < 0) return [];
+      return parseFeed(seg.slice(i + 3), seg.slice(0, i));
+    }).filter(r => r.title);
+    const t = x => { const d = new Date(x.date); return isNaN(d) ? 0 : d.getTime(); };
+    g.rows.sort((a, b) => t(b) - t(a));
+    g.state = g.rows.length ? "done" : "error";
+  } catch (_) { g.state = "error"; }
+  drawLessonList();
+}
+
 function buildLessonFilters() {
   const box = document.getElementById("lCats");
   box.innerHTML = "";
@@ -1855,8 +1886,10 @@ function buildLessonFilters() {
 }
 
 function renderLessons() {
-  /* "최신 정보" 분류: 기업마당에서 자동 수집 / 나머지 분류: 관리자 등록 자료 */
+  /* "최신 정보"=기업마당 자동 수집 · "세무/회계"=기획재정부 실시간 + 관리자 자료 · 나머지=관리자 자료 */
   if (lState.cat === "최신 정보" && latestState === "idle") { loadLatestInfo(); return; }
+  const gg = GOV_GROUPS[lState.cat];
+  if (gg && govState(gg.key).state === "idle") { loadGovFeed(gg.key); return; }
   drawLessonList();
 }
 
@@ -1889,10 +1922,48 @@ function drawLessonList() {
     return;
   }
 
+  const gLive = GOV_GROUPS[lState.cat];
+  if (gLive) {
+    const g = govState(gLive.key);
+    if (g.state === "loading") {
+      const p = document.createElement("p"); p.className = "empty";
+      p.textContent = "정부 실시간 소식을 불러오는 중...";
+      box.appendChild(p);
+    } else if (g.state === "done") {
+      const t = document.createElement("p");
+      t.className = "showcol-t"; t.textContent = gLive.title;
+      box.appendChild(t);
+      g.rows.filter(x => !q || x.title.includes(q) || (x.summary || "").includes(q)).slice(0, 20).forEach(x => {
+        const el = document.createElement("div");
+        el.className = "card row";
+        el.onclick = () => showLatest(x);
+        el.innerHTML = `
+          <div>
+            <p class="title">${esc(x.title)}</p>
+            <p class="sub">${esc(x.source)} · 정책브리핑</p>
+            <div class="tags"><span class="badge ${GOV_BADGE[x.source] || "hr"}">${esc(x.source)}</span><span class="badge free">실시간</span></div>
+          </div>
+          <div class="right"><p class="sub mono">${esc(fmtDate(x.date))}</p></div>`;
+        box.appendChild(el);
+      });
+      const t2 = document.createElement("p");
+      t2.className = "showcol-t"; t2.style.marginTop = "18px"; t2.textContent = "워크멘토 " + lState.cat + " 자료";
+      box.appendChild(t2);
+    } else if (DB.api.proxy) {
+      const p = document.createElement("p"); p.className = "empty";
+      p.textContent = "실시간 소식을 불러오지 못했습니다. (워커가 v19 이상인지 확인해주세요)";
+      box.appendChild(p);
+    }
+  }
+
   const rows = (DB.lessons || []).filter(l =>
     (lState.cat === "전체" || l.category === lState.cat) &&
     (!q || (l.title || "").includes(q) || (l.descr || "").includes(q)));
-  if (!rows.length) { box.innerHTML = '<p class="empty">등록된 자료가 없습니다. 관리자 페이지에서 등록해보세요.</p>'; return; }
+  if (!rows.length) {
+    if (!box.children.length) box.innerHTML = '<p class="empty">등록된 자료가 없습니다. 관리자 페이지에서 등록해보세요.</p>';
+    else { const p = document.createElement("p"); p.className = "empty"; p.style.padding = "14px 0"; p.textContent = "등록된 세무·회계 자료가 아직 없습니다."; box.appendChild(p); }
+    return;
+  }
   rows.forEach(l => {
     const el = document.createElement("div");
     el.className = "card row";
