@@ -2017,9 +2017,12 @@ function buildLessonFilters() {
     const b = document.createElement("button");
     b.textContent = v + (lock ? " 🔒" : "");
     b.className = "hrf" + (lState.cat === v ? " on" : "");
-    b.onclick = lock
-      ? () => { alert("이 분류는 유료회원 전용입니다.\n무료 체험 기간에는 '최신 정보'를 이용하실 수 있습니다."); }
-      : () => { lState.cat = v; buildLessonFilters(); renderLessons(); };
+    b.onclick = () => {
+      /* 클릭 시점에 권한을 다시 판정 — 모바일에서 로그인 확인이 늦게 끝나도 정상 통과 */
+      const lockedNow = !MEMBER.isAdmin && DB.view !== "paid" && v !== "최신 정보";
+      if (lockedNow) { alert("이 분류는 유료회원 전용입니다.\n무료 체험 기간에는 '최신 정보'를 이용하실 수 있습니다."); return; }
+      lState.cat = v; buildLessonFilters(); renderLessons();
+    };
     box.appendChild(b);
   });
 }
@@ -3053,6 +3056,11 @@ async function refreshMember() {
   }
   syncViewerTier(); renderAuthUI(); updateNavLocks();
   try { syncAdminPanel(); } catch (_) {}
+  try {
+    buildLessonFilters();   /* 권한 확정 후 🔒 표시·잠금 상태 재계산 */
+    const lp = document.getElementById("page-lessons");
+    if (lp && lp.classList.contains("on")) renderLessons();
+  } catch (_) {}
   if (MEMBER.isAdmin || hasPerm("members")) countInquiries();
   maybeAskProfile();
 }
