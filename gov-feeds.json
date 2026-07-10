@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-07-10T15:55:20.372Z",
+ "updatedAt": "2026-07-10T17:46:16.872Z",
  "groups": {
   "tax": [
    {
@@ -52,11 +52,11 @@
     "source": "여성종합뉴스"
    },
    {
-    "title": "[프로필]임기근 신임 국무조정실장…\"경제 정책 분야 최고 전문가\"",
-    "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1jeEhoRkt5M0tpMHlMSW1mYTc5by1wZlNiZFBwc1cwSTg5OGN2RGJFUEtnNkNOVGRYMjFmUzc1eGpEYWNnalc4QWJncHRhc1ZrclF6aGhHQUZKbVNhMlY1S9IBeEFVX3lxTE1CanI1SThDOHZEMW5OcXNtTER1cnNHdFpDNzZyU2ZKelo0Zjg0QXd4T0JIenQ3alN0a1E2cVdXVmJBUHZKTjhzRk80c05rYmpRV2YyandSUHQwbEo1N3VneVVDZ000ZWR5V1RzLXY1STVqdXdVR1JKMQ?oc=5",
-    "date": "Fri, 10 Jul 2026 06:27:55 GMT",
+    "title": "국세청 오류로 받은 2만5천 불 환급 반환했더니...",
+    "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFA3RUNuVnhMZDFKMVBnaTNMZnRyQjdGLW5lN1R2ZFlLQ1Z0eXh4TTVheVp1aWpxd0RZd0JYM0ZnZU1jUmN4ZWFSYjRUTHljXzJiZmh5Z2NUS0loS2djMEhsX3VBV216Zw?oc=5",
+    "date": "Fri, 10 Jul 2026 04:23:00 GMT",
     "summary": "",
-    "source": "뉴시스"
+    "source": "캐나다 한국일보"
    },
    {
     "title": "수원시 장안구 파장동 중부지방국세청우리누리어린이집, 플리마켓 수익금 전액 기탁... 이웃사랑 나눔 실천",
@@ -179,6 +179,13 @@
    }
   ],
   "labor": [
+   {
+    "title": "조정식 국회의장, 김영훈 고용노동부 장관 접견",
+    "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5VLXJaRXBWLTRZODNhbmxfNXlfeEROWkNYdE5MTHcwcUVMSEJKYTdwMWZMMmtuZTBEelJqeUFMWnlJQ1g4TlpxSVdSbU9zaDVhRldLcGFlQjV2eXlpUkczaWt3?oc=5",
+    "date": "Fri, 10 Jul 2026 16:46:53 GMT",
+    "summary": "",
+    "source": "㈜한국탑뉴스"
+   },
    {
     "title": "고용노동부 장관, 부산청 방문 지역 특화사업과 노동·산업안전 정책 점검",
     "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1TSnhZMlZHSmRlTXROUXF1bEFzMm5QY0V1OUhkeEVrN2pkV1c1ekdVQUlHc1p3RnNSSjZIZk13eWJqMVhjZmFYNG4xR0UyaTk4bnpfMzBzS04zYTJvM2pkc2hBU3Z3SWY3NXBlTEI1dE9YU1VfalUyVnVn?oc=5",
@@ -346,20 +353,13 @@
     "date": "Fri, 10 Jul 2026 06:54:26 GMT",
     "summary": "",
     "source": "복지투데이"
-   },
-   {
-    "title": "조정식 국회의장, 김영훈 고용노동부 장관 접견",
-    "url": "https://news.google.com/rss/articles/CBMiQkFVX3lxTFAxME5RQTZTUFViY2FUVXZGNmhFWEtoTkVOWFRqMG4xTk50M2htUmMtVFpNR3VSRXJkRWpzWkYzQWlMQQ?oc=5",
-    "date": "Fri, 10 Jul 2026 06:51:00 GMT",
-    "summary": "",
-    "source": "브레이크뉴스"
    }
   ],
   "law": [
    {
     "title": "\"약국 '성지·특가' 왜 못 쓰나\"…공정위, 복지부 개정안 제동",
     "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9UNURGQkh6SXE1QTJObmRmVWtJVFBHSkMzWHhwTlNmY3BzZEFKTW94RERfYk1iZVVLQ2hXd1VwcFFYTjhxQXE4SmtocXVwVmU3VnJKZGNR?oc=5",
-    "date": "Fri, 10 Jul 2026 13:25:24 GMT",
+    "date": "Fri, 10 Jul 2026 16:30:27 GMT",
     "summary": "",
     "source": "데일리팜"
    },
@@ -406,13 +406,6 @@
     "source": "뉴스21일간"
    },
    {
-    "title": "공정위 문턱 넘은 미래에셋 코빗 인수…특금법 대주주 검증 남았다",
-    "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBnV3JnSmc0Z29hbVQtaWpDMU8zMW53MjRCRllmSTdxb1p4aER0ZUVrM2lqWmVEVWtKdHBGRzNWQ2pwRHRkRmxETDZ6ZW9NZFB2RHVQbmk0YlBvWVEwTjFpMGNlWXBSZ09GYV9PTThQM3luUTTSAXdBVV95cUxPV0x5RHBvQWdCaVFYbjcxR1lSZGlIUUpkLXRHcVdFSHIxVFpKT05VUDdVZ0I4bkNGYlFzQU9BeUtQV0pJdGZLcDdzSm5DU0FldzVocUVmOV9WZlp0YktINTNOQmtCMzBmLU5pbVJUcU0zdUpBeG1Dcw?oc=5",
-    "date": "Fri, 10 Jul 2026 08:22:37 GMT",
-    "summary": "",
-    "source": "핀포인트뉴스"
-   },
-   {
     "title": "법무부, 외국인 사회통합프로그램 개편 착수…운영기관 의견 수렴",
     "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1tdFZzQjRTMFFDY3NHdjFWZnFoSFhpWFlnV0EtZWhHdTQyWVhWUVBZQVUtcjZtTlF3V0lEeFQ2NmlyZjR0NGxrVkdHQnQyejVoajNwRjZnYlZzby1kUUpPRWVlamc?oc=5",
     "date": "Fri, 10 Jul 2026 08:14:00 GMT",
@@ -438,7 +431,7 @@
     "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5MQi10NEVwSXh5U20wOXlHWFMtUW1EZC1Hb3FxSVc4UkRkbHVFVEc3OTEwMGp1ZENDUXJvTTA5V0hVS1pkLVRBMHh3ZF91RjVycl91TDJOZk5McE5zQlh2Xw?oc=5",
     "date": "Fri, 10 Jul 2026 08:01:13 GMT",
     "summary": "",
-    "source": "아시아경제"
+    "source": "asiae.co.kr"
    },
    {
     "title": "담양군가족센터-법무부 사회통합협 '업무협약'",
@@ -530,6 +523,13 @@
     "date": "Fri, 10 Jul 2026 05:30:00 GMT",
     "summary": "",
     "source": "뉴시스"
+   },
+   {
+    "title": "'탁월한 피해자' 북토크서 \"피해자 고통 살펴보는 형사사법 절차 요구\"",
+    "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5sU0FUQnBoNXpiQ0lOZng0MHl6TFVveHRnV2Q4WDJFUVdaUFFUaTRWLWFUbm8zOXREcXoyMnNzLXdicDRaUWRRVC1fZ2dMS0J5SEYxbDhHUXBMRWtBRnV4a29KMy1wUW82RVoyRF81WEdJQQ?oc=5",
+    "date": "Fri, 10 Jul 2026 05:05:12 GMT",
+    "summary": "",
+    "source": "로스쿨타임즈"
    }
   ],
   "fund": [
@@ -753,6 +753,13 @@
     "source": "산경e뉴스"
    },
    {
+    "title": "‘모두의 창업’ 민간 협력의 이면…개발사 선정 기준 ‘깜깜이’",
+    "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9pcHhCeUZJUE5pSGJPSlI3OUkxSlRUVk0zY0FlUXVxbXhxODR0eVZKLWw4WEx4OHRrVmsyQlFZcFJnZXNYZHNUZVRJOWpkcnVPdHhYX28yN19MSjV0blRaOVJ4MA?oc=5",
+    "date": "Fri, 10 Jul 2026 05:12:43 GMT",
+    "summary": "",
+    "source": "쿠키뉴스"
+   },
+   {
     "title": "동명대-엑셀러레이터 와이앤아처, 로컬 창업생태계 활성화 맞손",
     "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9VdVdYRjFlVnhPWkI1TnNZclNuYjMxV21EN0M5TDNhaEFHWGstV2hST2NuYTFEN0dHbjNzMWVDcWlyclIzVzJjQi1naGhsT3lHand4TDFYeVVZWVJFR0F2UzIxVDBlSjdFNEV4TUc4RFZ0UU9B?oc=5",
     "date": "Fri, 10 Jul 2026 04:51:07 GMT",
@@ -835,13 +842,6 @@
     "date": "Thu, 09 Jul 2026 21:11:11 GMT",
     "summary": "",
     "source": "매일경제 마켓"
-   },
-   {
-    "title": "[동정] 중기부 제1차관, 싱가포르기업청장과 면담",
-    "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFA4V1dHcThtV3Nhb2FSamtlWFNJRlNyVFpkRVhrUWJGQWVCZlFXX2JjRmxGYkhOc09SNmdEVlpRU3lOLW93aUxYRkM2TUZ2VW5tTllqeQ?oc=5",
-    "date": "Thu, 09 Jul 2026 15:33:00 GMT",
-    "summary": "",
-    "source": "더글로벌기빙뉴스"
    },
    {
     "title": "AI로 위기징후 미리 포착 중소기업 재도약 돕는다",
