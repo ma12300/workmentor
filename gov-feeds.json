@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-07-10T21:59:52.252Z",
+ "updatedAt": "2026-07-10T23:07:44.741Z",
  "groups": {
   "tax": [
    {
@@ -180,18 +180,25 @@
   ],
   "labor": [
    {
+    "title": "프리랜서도 고용보험 길 열린다…근로시간 아닌 보수기준 개편",
+    "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE0zY1V4djRGT1REM21uVEdicTlXeV9xUW9ybTh0Vi1DbTFJby1ENVFHQThQXzc1NFQ1azZQeWQ4VlVVTERBTXNSWi1wRGFnX2p1MWtJ?oc=5",
+    "date": "Fri, 10 Jul 2026 21:53:00 GMT",
+    "summary": "",
+    "source": "네이트"
+   },
+   {
+    "title": "내년 최저임금 2.0~8.7%↑…내주 최종 담판",
+    "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5oaDV3TFFOZDdYUXFwQk5jRmpkQ2JhSmpqTDJMX185dWVweU0waS1WaWZ1Z3dVRWRfWW5SOTItUks5bWlnRTJrWWdKZ2IweHRhZ3FsNQ?oc=5",
+    "date": "Fri, 10 Jul 2026 21:00:00 GMT",
+    "summary": "",
+    "source": "이투데이"
+   },
+   {
     "title": "대구시, ‘섬유·염색산업 고용안전’ 지원",
     "url": "https://news.google.com/rss/articles/CBMiREFVX3lxTE96YlNLUHV4QlVQUnVoUE1UUHJ4UFdZYlZqWDVNTWpfZkRlMHNVV0JBVXR3TkEtdTVPVTB1QVloWk9JaFNl?oc=5",
     "date": "Fri, 10 Jul 2026 20:30:00 GMT",
     "summary": "",
     "source": "TIN뉴스"
-   },
-   {
-    "title": "조정식 국회의장, 김영훈 고용노동부 장관 접견",
-    "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5VLXJaRXBWLTRZODNhbmxfNXlfeEROWkNYdE5MTHcwcUVMSEJKYTdwMWZMMmtuZTBEelJqeUFMWnlJQ1g4TlpxSVdSbU9zaDVhRldLcGFlQjV2eXlpUkczaWt3?oc=5",
-    "date": "Fri, 10 Jul 2026 16:46:53 GMT",
-    "summary": "",
-    "source": "㈜한국탑뉴스"
    },
    {
     "title": "고용노동부 장관, 부산청 방문 지역 특화사업과 노동·산업안전 정책 점검",
@@ -215,13 +222,6 @@
     "source": "sisaworld.kr"
    },
    {
-    "title": "전재수 부산시장, 김영훈 고용노동부 장관 접견",
-    "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE4tTG1QY09sc21zTWxNcHpSRmxMcXdLQzhNaEM4SjVVaTZiNUVyLWd1VTVWYW41Zlc0YVBmclBVQ3BIXzVfaHZ6ajVHNDZNRlhndEgtbVl6YkJySUxoeFhUU0dHeTZYN1llV0NlLV82RVc?oc=5",
-    "date": "Fri, 10 Jul 2026 09:35:36 GMT",
-    "summary": "",
-    "source": "fnewstv.com"
-   },
-   {
     "title": "고용노동부 장관, “임금체불은 생계와 직결된 중대 범죄”",
     "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1KWnl4WjhRVmE2OEhNSEFVS1V0TE12bGx2YXhHcXlVVkRVcWhFcUkzemltUWFxV1YyYk9ORlV1bnJ6UV95YjJ4cjFIVlBjd1NWcGgtWHhHQWtuc2xaUzdmcGJfWlJqVnpkWm04?oc=5",
     "date": "Fri, 10 Jul 2026 09:28:55 GMT",
@@ -234,6 +234,13 @@
     "date": "Fri, 10 Jul 2026 09:16:18 GMT",
     "summary": "",
     "source": "참여와혁신"
+   },
+   {
+    "title": "전재수 부산시장, 김영훈 고용노동부 장관 정책협력 협의",
+    "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1xcHdGOV90c3lRNzk3VkJyMlN3Q3hkMTJlTW9idEVGak9rRWNWdENrWWoyV05vaF8xb21hYi1OTjZvM1dhRGs3cE9nZGZTT3UzX1Btb19zdzMtVVNQZG00V0tGcE1PeGtY?oc=5",
+    "date": "Fri, 10 Jul 2026 09:08:00 GMT",
+    "summary": "",
+    "source": "가야일보"
    },
    {
     "title": "'주 15시간' 대신 '월 80만원'…정부, 소득기반 고용보험 입법예고",
@@ -255,13 +262,6 @@
     "date": "Fri, 10 Jul 2026 08:47:18 GMT",
     "summary": "",
     "source": "한국경제"
-   },
-   {
-    "title": "월 80만원만 벌어도…고용보험 가입 길 열려",
-    "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBPdVRfdUV1WlZMQ2dNakg0b0ZqQXNHUjNEN2hoX1hCZHlmRlZLZWNicExjYnJweE5lSjBVZVZ1WFVESmNNaEw1eWFTa2swZU4xUUE?oc=5",
-    "date": "Fri, 10 Jul 2026 08:44:15 GMT",
-    "summary": "",
-    "source": "매일경제 마켓"
    },
    {
     "title": "고용노동부-산업안전보건공단, 안전체험교육장 우수사례 발표대회 개최",
@@ -356,6 +356,13 @@
    }
   ],
   "law": [
+   {
+    "title": "교도소 후보지 공모제로 정한다…법무부 최초 시행",
+    "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFAzX2JoY29mSFByZFdmVGFYQmNyTVA3YkVTcHJ4SDlEeXZ0TmVVeHVQZF9ZUlJSSkVFSjIyWDBZRDNUWnUzOUJTZ2ZERzhDLUp6Mjln?oc=5",
+    "date": "Fri, 10 Jul 2026 22:01:00 GMT",
+    "summary": "",
+    "source": "네이트"
+   },
    {
     "title": "\"약국 '성지·특가' 왜 못 쓰나\"…공정위, 복지부 개정안 제동",
     "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1xWG5jMlBVZ3BmandELS0zYlo5MGhnbjM0bWpxVHA3UUZvWHlpREpHUkh2NHpMRmgtd2FzQzcwMXBud3oyWjNIc3h4OHVPUEFD?oc=5",
@@ -523,13 +530,6 @@
     "date": "Fri, 10 Jul 2026 05:30:00 GMT",
     "summary": "",
     "source": "뉴시스"
-   },
-   {
-    "title": "'탁월한 피해자' 북토크서 \"피해자 고통 살펴보는 형사사법 절차 요구\"",
-    "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5sU0FUQnBoNXpiQ0lOZng0MHl6TFVveHRnV2Q4WDJFUVdaUFFUaTRWLWFUbm8zOXREcXoyMnNzLXdicDRaUWRRVC1fZ2dMS0J5SEYxbDhHUXBMRWtBRnV4a29KMy1wUW82RVoyRF81WEdJQQ?oc=5",
-    "date": "Fri, 10 Jul 2026 05:05:12 GMT",
-    "summary": "",
-    "source": "로스쿨타임즈"
    }
   ],
   "fund": [
@@ -732,13 +732,6 @@
     "source": "국민일보"
    },
    {
-    "title": "전북중기청, 중소기업 장기근속 무주택자 주택 특별공급",
-    "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9UaDM1dmVnZUFfMzJIVHlMaldBLXFuMXRLMWJwQnRWZ1dOSExnWmMtUkdCRFpyMUQ0cldSSUVsaWRRWnJWWlhtZ1JrSmhUY1ZiVjlFNTJvbkVCMF9hRHoya1VYT2plZjM4?oc=5",
-    "date": "Fri, 10 Jul 2026 06:54:50 GMT",
-    "summary": "",
-    "source": "투데이안"
-   },
-   {
     "title": "모두의 창업 피해신청 87명 … 창업 아이디어 샜나",
     "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1rb1MxV24tMVFhVVQ2MHV3aGROMllFc0pkV3RJWnpDYTROOC0tVEs1Y0lXdGZWbTZZR2ExelN6RDBPX2VrR3hVZzllRGMtLVltYU4xRlF1RVY2cFRKbEE0Nkh3M1Z3RXlYMC1OeVBVZ9IBc0FVX3lxTE5YeXlTTVhiRW1NNlVOWHJyZC15SDU1TFlwX19NdjNNUGh1VW9MYVBubkYtZVpONmpWWEt0YmxTb1VBcm0xTGEwb2Nlel9tLWRwLU9uTDRxcWdWY0JtVGhNMlJiSUpkLXdHTjNmVDh3bDNZd3c?oc=5",
     "date": "Fri, 10 Jul 2026 06:48:21 GMT",
@@ -830,13 +823,6 @@
     "source": "매일경제 마켓"
    },
    {
-    "title": "AI로 위기징후 미리 포착 중소기업 재도약 돕는다",
-    "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQR2ZQWlh2eHRRSmdpdmZOY1Y1bDZZMWx0QUt0MTU4M2FvVm1MQWhXRG9Gb3hBLTFzTnR1ZVFyYnM5VktlMklhbzgwaHlRanNzendZODdiS1dwdXhmMlo5RFVIYjFlN3R0Z2h3empxdmpRNVJtNG5sQ1hxT1RjbHFhY2c4b1Q2YWhXaWZuNmhGVXpOSzhNMHctRFhPWkNWSXUxMEVUTkltYmxSczRfck5RaXBTQWJsZHlIQ29yNE9aU1BrTzg1SlZv?oc=5",
-    "date": "Thu, 09 Jul 2026 15:32:57 GMT",
-    "summary": "",
-    "source": "gonggam.korea.kr"
-   },
-   {
     "title": "중기부, 하반기 혁신제품 신규 지정 공고",
     "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBTd05MX2dzQ2MzRTZPUFVVSkhxOXlxTnUtSHl5ejlWX0N4cWh6aEFpVmhjemlCbWs5YU5tdjZFbG0yWFFGcXVhcGV3VlBrRzhnNnQ0NEFRd1c1R1dBSnBMVnhHS3ZFTmJMRy1KQlB3?oc=5",
     "date": "Thu, 09 Jul 2026 08:46:08 GMT",
@@ -865,6 +851,13 @@
     "source": "파이낸셜뉴스"
    },
    {
+    "title": "중소기업 R&D 성과, '혁신제품' 지정으로 공공조달 첫걸음 뗀다",
+    "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFB0dWlaQ1lCel9jUE5pc1Qza1NKRG1laV91SV83cmJSa2ZmSjE1eHpjTHY0ZjFZLUNDNTdfbnNiUEI3YXQzaXZtSnBMVW5OdVNNWXc2VjFfbEVGdnZfRk0zZmh3?oc=5",
+    "date": "Thu, 09 Jul 2026 07:02:00 GMT",
+    "summary": "",
+    "source": "서울Pn"
+   },
+   {
     "title": "중기부, ‘혁신제품 신규 지정’ 공모…中企 공공시장 진입 지원",
     "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBONXhFbnVIcktOSEdCVEo5UkJ4OUZaX1hzZ20zZU9JTlFpLW4xZlpjcXlQZHNHcWZkUENtN09ZeHh2ckRDN24wUUFzNW1PaTA?oc=5",
     "date": "Thu, 09 Jul 2026 05:35:00 GMT",
@@ -884,6 +877,13 @@
     "date": "Thu, 09 Jul 2026 04:39:00 GMT",
     "summary": "",
     "source": "Chosunbiz"
+   },
+   {
+    "title": "중소기업 R&D 성과, '혁신제품' 지정으로 공공시장 진출",
+    "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5JS2MwX1BFMGdTODljd25jOTVCbzNhbVlYQkJleXhfUHM4M0ZQMFVyUjRteWtmWFd4blRxWUh4YzNWWmdWcXMxWl9icXZSUQ?oc=5",
+    "date": "Thu, 09 Jul 2026 04:37:08 GMT",
+    "summary": "",
+    "source": "전자신문"
    }
   ],
   "money": [
