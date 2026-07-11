@@ -838,7 +838,9 @@ footer select { border: 1px solid var(--line); border-radius: 6px; padding: 4px 
           <option value="auto">화질 자동</option>
           <option value="low">저화질(빠름)</option>
           <option value="medium">표준</option>
-          <option value="high">고화질</option>
+          <option value="high" selected>고화질</option>
+          <option value="uhd2k">2K 초고화질</option>
+          <option value="uhd4k">4K 최고화질</option>
         </select>
         <button class="fsave" id="ssStart" style="margin:0; padding:8px 12px;" onclick="SShare.start()">화면 공유 시작</button>
         <button class="btn-ghost" id="ssStop" style="margin:0; padding:8px 12px; display:none;" onclick="SShare.stop()">중지</button>
@@ -851,7 +853,7 @@ footer select { border: 1px solid var(--line); border-radius: 6px; padding: 4px 
       <div class="ssPtr" id="ssPtr" style="display:none;"><span class="ssPtrLbl"></span></div>
     </div>
     <p class="status" id="ssStatus" style="margin-top:6px;">준비됨</p>
-    <p class="status" style="margin-top:2px; color:#9AA3B5;">※ 상대 컴퓨터를 직접 조작하지는 않습니다. 화면을 보며 포인터로 위치를 안내하는 방식입니다. 영상을 더블클릭하면 전체화면(ESC로 종료)으로 볼 수 있습니다. <span style="opacity:.55;">· SShare v5</span></p>
+    <p class="status" style="margin-top:2px; color:#9AA3B5;">※ 상대 컴퓨터를 직접 조작하지는 않습니다. 화면을 보며 포인터로 위치를 안내하는 방식입니다. 영상을 더블클릭하면 전체화면(ESC로 종료)으로 볼 수 있습니다. <span style="opacity:.55;">· SShare v6</span></p>
   </div>
 
   <div id="chatRoom" style="display:none;">
@@ -1264,7 +1266,9 @@ footer select { border: 1px solid var(--line); border-radius: 6px; padding: 4px 
           <option value="auto">화질 자동</option>
           <option value="low">저화질(빠름)</option>
           <option value="medium">표준</option>
-          <option value="high">고화질</option>
+          <option value="high" selected>고화질</option>
+          <option value="uhd2k">2K 초고화질</option>
+          <option value="uhd4k">4K 최고화질</option>
         </select>
         <button class="fsave" id="assReq" style="margin:0; padding:8px 12px;" onclick="SShare.request()">📥 회원 화면 요청</button>
         <button class="btn-ghost" id="assStart" style="margin:0; padding:8px 12px;" onclick="SShare.start()">내 화면 공유</button>
@@ -1278,7 +1282,7 @@ footer select { border: 1px solid var(--line); border-radius: 6px; padding: 4px 
       <div class="ssPtr" id="assPtr" style="display:none;"><span class="ssPtrLbl"></span></div>
     </div>
     <p class="status" id="assStatus" style="margin-top:6px;">준비됨</p>
-    <p class="status" style="margin-top:2px; color:#9AA3B5;">※ 상대 컴퓨터를 직접 조작하지는 않습니다. 화면을 보며 포인터로 위치를 안내하는 방식입니다. 영상을 더블클릭하면 전체화면(ESC로 종료)으로 볼 수 있습니다. <span style="opacity:.55;">· SShare v5</span></p>
+    <p class="status" style="margin-top:2px; color:#9AA3B5;">※ 상대 컴퓨터를 직접 조작하지는 않습니다. 화면을 보며 포인터로 위치를 안내하는 방식입니다. 영상을 더블클릭하면 전체화면(ESC로 종료)으로 볼 수 있습니다. <span style="opacity:.55;">· SShare v6</span></p>
   </div>
       <div class="card chatbox" style="margin-top:14px;">
         <div class="chatlog" id="aChatLog"><p class="empty">기업을 선택하면 대화가 표시됩니다.</p></div>
@@ -4689,6 +4693,12 @@ else if (DB.api.key || DB.api.proxy) loadLiveFunds();
     if (!p) return;
     if (p.kind === "bye") { stopViewing(); setStatus("상대가 공유를 종료했습니다."); return; }
     if (p.kind === "pointer") { drawPointer(p.x, p.y, p.name); return; }
+    if (p.kind === "quality") {   // 뷰어가 화질 변경 → 공유자 인코딩에 적용 + 셀렉트 동기화
+      const sel = $((amAdmin() ? "a" : "") + "ssQuality");
+      if (sel && p.q) sel.value = p.q;
+      if (SS.active) applyQuality();
+      return;
+    }
     if (p.kind === "req-start") {   // 상대가 공유를 시작함 → 내가 뷰어 → 패널 자동 오픈
       showWrap(true); clearTimeout(SS.reqTimer);
       setStatus("상대가 화면 공유를 시작했습니다 — 연결 중...");
@@ -4713,6 +4723,8 @@ else if (DB.api.key || DB.api.proxy) loadLiveFunds();
         resetPC();
         SS.pc = newPC();
         SS.localStream.getTracks().forEach(t => SS.pc.addTrack(t, SS.localStream));
+        preferSharpCodecs(SS.pc);
+        applyQuality();   // 재협상 시 화질 파라미터 재적용
       }
       return;
     }
@@ -4738,6 +4750,18 @@ else if (DB.api.key || DB.api.proxy) loadLiveFunds();
     } catch (e) { console.warn("signal err", e); }
   }
 
+  // 텍스트에 강한 코덱(VP9→AV1) 우선 협상 — 미지원 브라우저는 자동 폴백
+  function preferSharpCodecs(pc) {
+    try {
+      const tr = pc.getTransceivers().find(t => t.sender && t.sender.track && t.sender.track.kind === "video");
+      const caps = RTCRtpSender.getCapabilities && RTCRtpSender.getCapabilities("video");
+      if (tr && tr.setCodecPreferences && caps && caps.codecs) {
+        const pri = c => /VP9/i.test(c.mimeType) ? 0 : (/AV1/i.test(c.mimeType) ? 1 : 2);
+        tr.setCodecPreferences([...caps.codecs].sort((a, b) => pri(a) - pri(b)));
+      }
+    } catch (_) {}
+  }
+
   // ───────── 공유 시작 (내 화면을 상대에게) ─────────
   async function startShare() {
     if (!navigator.mediaDevices || !navigator.mediaDevices.getDisplayMedia) {
@@ -4747,16 +4771,18 @@ else if (DB.api.key || DB.api.proxy) loadLiveFunds();
     let stream;
     try {
       stream = await navigator.mediaDevices.getDisplayMedia({
-        video: { frameRate: { ideal: 15, max: 30 } }, audio: false,
+        video: { width: { ideal: 3840 }, height: { ideal: 2160 }, frameRate: { ideal: 15, max: 30 } }, audio: false,
       });
     } catch (e) {
       return setStatus("화면 공유가 취소되었습니다.");
     }
     SS.localStream = stream;
+    try { stream.getVideoTracks()[0].contentHint = "detail"; } catch (_) {}  // 텍스트·도표 선명도 우선 인코딩
     SS.active = true;
     SS.role = "sharer";
     if (!SS.pc) SS.pc = newPC();
     stream.getTracks().forEach(t => SS.pc.addTrack(t, stream));
+    preferSharpCodecs(SS.pc);
     stream.getVideoTracks()[0].onended = () => stopShare();
     // 화질 옵션 반영
     applyQuality();
@@ -4842,11 +4868,16 @@ else if (DB.api.key || DB.api.proxy) loadLiveFunds();
     if (!sender) return;
     const params = sender.getParameters();
     if (!params.encodings || !params.encodings.length) params.encodings = [{}];
-    const map = { low: 500e3, medium: 1500e3, high: 4000e3, auto: undefined };
-    params.encodings[0].maxBitrate = map[q];
+    const bit = { low: 500e3, medium: 1500e3, high: 6000e3, uhd2k: 12000e3, uhd4k: 22000e3, auto: undefined };
+    const fps = { low: 8, medium: 15, high: 30, uhd2k: 15, uhd4k: 12, auto: 15 };
+    const wid = { low: 1280, medium: 1920, high: 2560, uhd2k: 2560, uhd4k: 3840, auto: 0 };
+    params.encodings[0].maxBitrate = bit[q];
+    params.encodings[0].scaleResolutionDownBy = 1;          // 인코더의 해상도 자동 축소 방지
+    params.degradationPreference = "maintain-resolution";    // 대역폭 부족 시 fps를 낮추고 선명도 유지
     const track = SS.localStream.getVideoTracks()[0];
-    const cap = { low: 8, medium: 15, high: 30, auto: 15 };
-    try { track.applyConstraints({ frameRate: cap[q] }); } catch (_) {}
+    const cs = { frameRate: fps[q] };
+    if (wid[q]) { cs.width = { ideal: wid[q] }; cs.height = { ideal: Math.round(wid[q] * 9 / 16) } }
+    try { track.applyConstraints(cs); } catch (_) {}
     try { sender.setParameters(params); } catch (_) {}
   }
 
@@ -4966,7 +4997,12 @@ else if (DB.api.key || DB.api.proxy) loadLiveFunds();
     request: requestShare,
     join: async function () { try { if (roomKey() && (await ensureChannel())) send({ kind: "viewer-ready" }); } catch (_) {} },
     stop: function () { if (SS.active) stopShare(); else stopViewing(); },
-    quality: applyQuality,
+    quality: function () {
+      const sel = $((amAdmin() ? "a" : "") + "ssQuality");
+      if (SS.active) applyQuality();
+      else if (sel) { send({ kind: "quality", q: sel.value }); setStatus("화질 변경을 요청했습니다 — 몇 초 안에 적용됩니다."); }
+      if (SS.active && sel) send({ kind: "quality", q: sel.value });   // 상대 셀렉트 동기화
+    },
     fullscreen: toggleFullscreen,
     pointerWindow: async function () {
       const u = myUI();
@@ -4977,9 +5013,9 @@ else if (DB.api.key || DB.api.proxy) loadLiveFunds();
         : "화면 공유 중일 때만 포인터 창을 열 수 있습니다.");
     },
     leave: leave,
-    v: 5,
+    v: 6,
   };
-  try { console.log("[SShare] v5 로드됨"); } catch (_) {}
+  try { console.log("[SShare] v6 로드됨"); } catch (_) {}
 })();
 </script>
 </body>
