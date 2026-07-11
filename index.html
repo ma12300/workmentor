@@ -486,10 +486,12 @@ h2.section { font-weight: 800; font-size: 24px; color: var(--navy); letter-spaci
 .ptodos .prow span.tx { flex: 1; font-size: 13.5px; }
 .ptodos .prow .who { font-size: 10.5px; font-weight: 800; color: #fff; border-radius: 5px; padding: 1px 6px; }
 /* ── 소통방 2단 배치: 쪽지함(슬림) + 공유 캘린더 ── */
-.pn-row { display: flex; gap: 14px; align-items: flex-start; }
+.pn-row { display: flex; gap: 14px; align-items: stretch; }
 .pn-row #notesCard { flex: 1; max-width: 460px; }
-.pn-row.open #notesCard { flex: 0 0 340px; max-width: 340px; }
-.pn-row.open #plannerCard { flex: 1; min-width: 0; margin-top: 14px; }
+.pn-row.open #notesCard { flex: 0 0 340px; max-width: 340px; display: flex; flex-direction: column; }
+.pn-row.open #notesCard #noteList { flex: 1; min-height: 0; overflow-y: auto; max-height: 420px; }
+.pn-row.open #plannerCard { flex: 1; min-width: 0; margin-top: 14px; display: flex; flex-direction: column; }
+.pn-row.open #plannerCard .pcal { flex: 1; align-content: start; }
 @media (max-width: 920px) {
   .pn-row { flex-direction: column; }
   .pn-row.open #notesCard { flex: auto; max-width: none; width: 100%; }
@@ -742,15 +744,19 @@ footer select { border: 1px solid var(--line); border-radius: 6px; padding: 4px 
       </div>
       <div id="plannerCal" class="pcal" style="margin-top:10px;"></div>
       <p class="status" style="margin-top:6px;">날짜를 누르면 일정을 등록합니다 · 일정을 누르면 삭제 · <span style="color:#F26F1F;">■ 관리자</span> <span style="color:#3E63DD;">■ 회원</span></p>
-      <p class="title" style="font-size:15px; margin-top:16px;">✅ To-Do List</p>
-      <div id="plannerTodos" class="ptodos" style="margin-top:8px;"></div>
-      <div class="chatin" style="margin-top:8px;">
-        <label class="filebtn" style="cursor:pointer; margin:0;">📎<input type="file" id="plan-file" style="display:none;" onchange="planFilePicked(this, '')" /></label>
-        <input id="plan-todo" placeholder="함께 진행할 일 입력..." onkeydown="if(event.key==='Enter')addPlanTodo('')" />
-        <button class="cta gold" onclick="addPlanTodo('')">추가</button>
-      </div>
-      <p class="status" id="planFileName" style="display:none; margin-top:6px;"></p>
     </div>
+  </div>
+
+  <!-- To-Do (독립 카드, 채팅창과 동일 폭) -->
+  <div class="card" id="todoCard" style="display:none; margin-top:14px;">
+    <p class="title" style="font-size:15px;">✅ To-Do List</p>
+    <div id="plannerTodos" class="ptodos" style="margin-top:8px;"></div>
+    <div class="chatin" style="margin-top:8px;">
+      <label class="filebtn" style="cursor:pointer; margin:0;">📎<input type="file" id="plan-file" style="display:none;" onchange="planFilePicked(this, '')" /></label>
+      <input id="plan-todo" placeholder="함께 진행할 일 입력..." onkeydown="if(event.key==='Enter')addPlanTodo('')" />
+      <button class="cta gold" onclick="addPlanTodo('')">추가</button>
+    </div>
+    <p class="status" id="planFileName" style="display:none; margin-top:6px;"></p>
   </div>
 
   <div id="chatRoom" style="display:none;">
@@ -3405,8 +3411,10 @@ function leaveChat() {
 }
 function showPlannerCard(on) {
   const pc = document.getElementById("plannerCard");
+  const td = document.getElementById("todoCard");
   const pr = document.getElementById("pnRow");
-  if (pc) pc.style.display = on ? "block" : "none";
+  if (pc) pc.style.display = on ? "flex" : "none";
+  if (td) td.style.display = on ? "block" : "none";
   if (pr) pr.classList.toggle("open", !!on);
 }
 async function adminOpenChat() {
