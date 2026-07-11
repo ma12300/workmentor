@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-07-11T17:32:01.554Z",
+ "updatedAt": "2026-07-11T18:59:34.498Z",
  "groups": {
   "tax": [
    {
@@ -41,13 +41,6 @@
     "title": "국세청 6급 이하 역대급 승진 해 맞아",
     "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9tSkdMZmdzZnlxM1RFVXpHaEJwN25uV0xTckZrWVk4dy04QzgxSTFfdDNBRGdhSWR2OVdYQ3VZbmx6QjRXNldKdmpOQ3NsWlVoTTdTVzVDQXc3dlNBVy1tZ3FNM1U?oc=5",
     "date": "Fri, 10 Jul 2026 08:12:17 GMT",
-    "summary": "",
-    "source": "한국세정신문"
-   },
-   {
-    "title": "김수섭 전 양천세무서장, 더나은세무법인 찬스지점 대표세무사 개업",
-    "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9OR3NzcVRQQkxwTGoyWWplSTA2LUlURjhFa0huT2FGQ0xsSXBDWUVNNGdZWWdQTnVJcUxrS1JOTXljR25MRm1tOHlFbXZVOTJoVHA4emVzdm9oZmNudVhFYjhMeEo?oc=5",
-    "date": "Fri, 10 Jul 2026 06:35:05 GMT",
     "summary": "",
     "source": "한국세정신문"
    },
@@ -176,22 +169,29 @@
     "date": "Fri, 10 Jul 2026 00:51:14 GMT",
     "summary": "",
     "source": "세정일보"
+   },
+   {
+    "title": "국세청, 쿠팡에 3000억원대 과세예고…개인정보 유출 파장 세무 쟁점으로",
+    "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9NeklROVRYOUxUT1ZqQkNBUGZNeW1Ma0RSalZ6VlNCcFM4RkwyZ2doS2lnZUdMVEVhU1BTSXdWVkpaSmVsSU1XQmdBUUpNbDgyN0RwcGJHWWtXVXpCZ1lFUVlqR1ZtdTh6UXE1TDl1MG0?oc=5",
+    "date": "Thu, 09 Jul 2026 23:38:45 GMT",
+    "summary": "",
+    "source": "비즈중앙"
    }
   ],
   "labor": [
+   {
+    "title": "김영훈 고용노동부 장관, 부산서 청년고용·산업안전 점검",
+    "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1RWUVoWWlwTFBhRnZyaHlfS1A5c2lGR2d1VUh4bUlMVXVTV2xtRkM1RnpsSnJoOEVBVk5VWWwzYmRKbVBtcUVtVDd4ZGRCMUJnRm5iRVRUcEpLeVFmMTBJZG9YNnBfZw?oc=5",
+    "date": "Sat, 11 Jul 2026 18:51:07 GMT",
+    "summary": "",
+    "source": "부산경제"
+   },
    {
     "title": "인천대 혁신인력개발센터, 지역·산업 맞춤형 인력양성사업 평가 3개 연도 최우수(S) 등급 달성",
     "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9BWlJLQXZheXUxaTVHTGFYSUdva0xWU0RJUEczOWVtS3VTR1VwMnloWDMyd0g5bkhmeXhfTGI4NTZhVnNlRWYxRGl6SUVOY1dXNVU2OU4weHROS1JhNzVpWXR5UUVad2pQbWZ3?oc=5",
     "date": "Sat, 11 Jul 2026 12:16:00 GMT",
     "summary": "",
     "source": "일간투데이"
-   },
-   {
-    "title": "\"월 소득 80만원 이상 가입\".. '전국민 고용보험' 시",
-    "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1RbV9JSlk1a0I1VjhzWE5OdUNmd09uVUlrLUUwRkFFVzFhVjhYNVUwYVhqY1d5YmZfQ1ZKRWd1THBjY3VJWUJOSUY2bU80T0lpVHJoQ19NM0J5REU1NWZsck1yQmJZZUFEb1Rr?oc=5",
-    "date": "Sat, 11 Jul 2026 11:27:04 GMT",
-    "summary": "",
-    "source": "열린정책뉴스"
    },
    {
     "title": "고용보험 사각지대 줄인다…근로시간서 소득으로 개편",
@@ -248,6 +248,13 @@
     "date": "Fri, 10 Jul 2026 08:59:43 GMT",
     "summary": "",
     "source": "한국부동산뉴스"
+   },
+   {
+    "title": "초단기 알바·일용직도 가입…고용보험 사각지대 줄인다",
+    "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5VS3NnRm9NckNIVEVnSHlldmtMUWgzRlBKMEZDSW9MNXo2bWc4ZW5DcF9NTXpjREJyQzhQemZ5NGZXQjNCQXc4UkRMQ2d0X2ZwY2lPY0ZkSkUzUdIBVEFVX3lxTE5HakxvOWJCODQ1eXBiRU54WjI4NnZxMFhFd2FHTkdxZnVNSjFfRWdEamFCXzlTS1pYNmUzOUh6TnczUEUyNzV0MjlIaDg4RXpnS2ctYQ?oc=5",
+    "date": "Fri, 10 Jul 2026 08:54:17 GMT",
+    "summary": "",
+    "source": "한국경제"
    },
    {
     "title": "'월 80만원' n잡러도 고용보험 가입",
@@ -341,21 +348,21 @@
     "source": "뉴스핌"
    },
    {
-    "title": "고용노동부 장관과 대화 나누는 국회의장",
-    "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE5xSVFyV1dpQzhydkt1ZVBQWVlKTENpZHFHZmxnb2lXSy1JS0xwMlRSZWdaTWhlWjNOWWpXZ3Y4b1FIM3JqdE5FNlBOcw?oc=5",
-    "date": "Fri, 10 Jul 2026 02:56:53 GMT",
+    "title": "고용노동부, 제조업도 '공짜노동' 예외 없다 창원국가산단 포괄임금 3차 릴레이 감독 실시",
+    "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9hSGZSWHNFcXdDUHlZQzdEVkkyZW5oUzRCRFN2LVZWajdaVHR1ZjA0dHhoeThlYnpUUnFXcGdoOV9lUXNmalR3clY4UE5Bejl0WFFmNTJyOVphRS1D?oc=5",
+    "date": "Fri, 10 Jul 2026 03:30:17 GMT",
     "summary": "",
-    "source": "뉴스1"
-   },
-   {
-    "title": "고용노동부 장관 만난 국회의장",
-    "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFBCNVNpcWRNWXhqeVV1cVRMTmlTZm16bk1VMVNHRllFRkRvak53T0F5N0NHU2JHTS1RRk9JNHNBa3lXblgtWE5XQU5kYw?oc=5",
-    "date": "Fri, 10 Jul 2026 02:56:43 GMT",
-    "summary": "",
-    "source": "뉴스1"
+    "source": "누리일보"
    }
   ],
   "law": [
+   {
+    "title": "美법무부, '새 에어포스원 보안 우려' 보도 NYT 기자들에 소환장",
+    "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9fanAxTjBpbEFOSFR3M1ZZWXZHMHZ2aTg3MnhBVnBLWllrVXl0MnU1dXhKQ1ZibW9YSUs5VWZfczh4MnRjR1VZdEVqQlIzSElXUldhOTEtT05rbWPSAWBBVV95cUxNMVQzWUhaWjhRTVpGNTBpcXRpM0FYY3V0NDc0Mm9qbDlWcTVyWXhmMFdrQzRKSndLWjJ3bmpxY3I4cXhzNFk5cUVlUkoySWVoUl9rOWxhakRSWllxNnA2SEc?oc=5",
+    "date": "Sat, 11 Jul 2026 18:12:52 GMT",
+    "summary": "",
+    "source": "연합뉴스"
+   },
    {
     "title": "미국 법무부는 트럼프 대통령의 새 전용기에 대해 보도한 기자 4명에게 소환장을 발부했습니다.",
     "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOUWxjb0t6RXpjSnlkSGhlOVV5SFNySUdkZlRUS25OaTJjWS1Iek1QUHJpamZYY0trYzRVRXNCbHV2MERxbUNKZVJuaW9RSE9mMEJ3amJxUWk2QXozUWdiWnN2YUMxLXVJVXhRUzN2WTB3S2JpRmJKaTQ0WjZiT2twbWJTSkg2bGNWVkI5ZDJtVFo4RTZZRjhlY3NYeEVwWVhpcnJiclI5RlVkeUU?oc=5",
@@ -523,16 +530,16 @@
     "date": "Fri, 10 Jul 2026 05:05:12 GMT",
     "summary": "",
     "source": "로스쿨타임즈"
-   },
-   {
-    "title": "법무부, 교정시설 입지 공모제 첫 시행… 2034년까지 4개 신축",
-    "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE84cGlEM3RnbXdWVXd2MUNqajdWcXpyd3FjZThFSGE5ZU1hRTZnc1BFVlNpc0N3bXRsNUVTZ3lldWhwWVkxNFhERDhiY3JRMzcwMUREdmpQX3Q4TlRKeHNhYkNOeGU?oc=5",
-    "date": "Fri, 10 Jul 2026 04:15:47 GMT",
-    "summary": "",
-    "source": "뉴스1"
    }
   ],
   "fund": [
+   {
+    "title": "이번주 국내 주요 금융일정(7.13~7.17)",
+    "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9uWnRQNExpMXIwZWp4dFVkYzZDUU8xMmxtNmNTV3kwRXlYbzFaRWJVQzlOUmRFSXdwdVB0VXlNcHJxb0JDd1dWei10MC1IOE91OEx3?oc=5",
+    "date": "Sat, 11 Jul 2026 08:02:00 GMT",
+    "summary": "",
+    "source": "네이트"
+   },
    {
     "title": "이번주 국내 주요 금융일정(7.13~7.17)",
     "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1CY1lneDl6Ykl2RURPTHpsM1d2cDJoV2FHNjZjOENiMVR5TW02Q2xZenhkdjFBTXg5R2VSakx6d0YwSWpvUUtuWms3RmZ0X3piUG5SWDdhVFVmeDlr?oc=5",
@@ -700,13 +707,6 @@
     "date": "Fri, 10 Jul 2026 06:15:34 GMT",
     "summary": "",
     "source": "한국세정신문"
-   },
-   {
-    "title": "올해 마약류 적발 1256건·3318kg...관세청, 통관 단속망 넓힌다",
-    "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE43Y3QtcFR0T2xmaUprOVR1M1NZRVlwbm96TWoySkVhNjRESTBnWUE3RFlJU3hxU3N0cmhIZEM4Z0p0VE5yV3c1cm1ueEVlR0lENUdXMUMzMEhhNWJx?oc=5",
-    "date": "Fri, 10 Jul 2026 06:02:00 GMT",
-    "summary": "",
-    "source": "뉴스핌"
    }
   ],
   "biz": [
@@ -779,13 +779,6 @@
     "date": "Thu, 09 Jul 2026 03:00:00 GMT",
     "summary": "",
     "source": "뉴스1"
-   },
-   {
-    "title": "노용석 중기부 차관, 싱가포르기업청장 만나 스타트업 육성 논의",
-    "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBlc3p4enVZSTBEcl9Cb0FtSDZVT2MwbldidTBKMExkUWNjRUllbTlicGFJUUlESjByU0dic0R2N0ZsNkluT0QydUlmbXhmeEtaRjNYWHRFNDVOTGI4UVE2MA?oc=5",
-    "date": "Thu, 09 Jul 2026 02:40:00 GMT",
-    "summary": "",
-    "source": "아시아경제"
    },
    {
     "title": "중기부·한유원, 10일 벡스코서 부산 지역상품 구매상담회 열어",
@@ -884,6 +877,13 @@
     "date": "Wed, 08 Jul 2026 07:56:00 GMT",
     "summary": "",
     "source": "케이에스피뉴스"
+   },
+   {
+    "title": "AI로 중소기업 위기 조기 탐지…25만 개사 재도약 맞춤 지원",
+    "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1UWFFZVXBxUHNGeVA3ZERWdDAxWFctVFFoSUkxQWhLZ25fUnV5a0xTUVBsckxxQlhsamRTSm0zY2ZNWDM1TU14Z3ZiUVBhMktzVHFrTnlIalgxWnlOaWtOQ0xuQ1JvQ211U05tVQ?oc=5",
+    "date": "Wed, 08 Jul 2026 07:41:53 GMT",
+    "summary": "",
+    "source": "대한민국 정책브리핑"
    }
   ],
   "money": [
