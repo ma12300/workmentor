@@ -3138,10 +3138,18 @@ async function loadMyNotes() {
   const ub = document.getElementById("noteUnread");
   if (ub) ub.style.display = unread ? "inline-block" : "none";
   box.innerHTML = NOTE_ROWS.map(n => `
-    <div class="card row" onclick="openNote(${n.id})">
-      <div><p class="title" style="font-size:14px;">${n.from_admin && !n.read_by_member ? "● " : ""}${esc(n.title)}</p>
+    <div class="card row" onclick="openNote(${n.id})" style="align-items:center;">
+      <div style="flex:1;"><p class="title" style="font-size:14px;">${n.from_admin && !n.read_by_member ? "● " : ""}${esc(n.title)}</p>
       <p class="sub">${n.from_admin ? "관리자" : "나"} · ${esc(String(n.created_at).slice(0, 16).replace("T", " "))}</p></div>
+      <button class="mdel" title="쪽지 삭제" onclick="event.stopPropagation(); delNote(${n.id})">✕</button>
     </div>`).join("") || '<p class="empty">주고받은 쪽지가 없습니다. 첫 쪽지를 보내보세요.</p>';
+}
+async function delNote(id) {
+  if (!confirm("이 쪽지를 삭제할까요?\n(삭제하면 관리자·회원 양쪽 목록에서 모두 사라집니다)")) return;
+  const { error } = await sb.from("notes").delete().eq("id", id);
+  if (error) return alert("삭제 실패: " + error.message + "\n(add-note-delete.sql 실행 여부를 확인하세요)");
+  loadMyNotes();
+  updateNoteBell();
 }
 async function openNote(id) {
   const n = NOTE_ROWS.find(x => x.id === id);
@@ -3184,10 +3192,18 @@ async function loadAdminNotes() {
   if (error) { box.innerHTML = '<p class="empty">' + esc(error.message) + '</p>'; return; }
   ADMIN_NOTES = data || [];
   box.innerHTML = ADMIN_NOTES.map(n => `
-    <div class="card row" onclick="openAdminNote(${n.id})">
-      <div><p class="title" style="font-size:13.5px;">${!n.from_admin && !n.read_by_admin ? "● " : ""}${esc(n.member_name || "회원")} — ${esc(n.title)}</p>
+    <div class="card row" onclick="openAdminNote(${n.id})" style="align-items:center;">
+      <div style="flex:1;"><p class="title" style="font-size:13.5px;">${!n.from_admin && !n.read_by_admin ? "● " : ""}${esc(n.member_name || "회원")} — ${esc(n.title)}</p>
       <p class="sub">${n.from_admin ? "보낸 답장" : "받은 쪽지"} · ${esc(String(n.created_at).slice(0, 16).replace("T", " "))}</p></div>
+      <button class="mdel" title="쪽지 삭제" onclick="event.stopPropagation(); delAdminNote(${n.id})">✕</button>
     </div>`).join("") || '<p class="empty">쪽지가 없습니다.</p>';
+}
+async function delAdminNote(id) {
+  if (!confirm("이 쪽지를 삭제할까요?\n(삭제하면 관리자·회원 양쪽 목록에서 모두 사라집니다)")) return;
+  const { error } = await sb.from("notes").delete().eq("id", id);
+  if (error) return alert("삭제 실패: " + error.message + "\n(add-note-delete.sql 실행 여부를 확인하세요)");
+  loadAdminNotes();
+  updateNoteBell();
 }
 async function openAdminNote(id) {
   const n = ADMIN_NOTES.find(x => x.id === id);
