@@ -471,6 +471,11 @@ h2.section { font-weight: 800; font-size: 24px; color: var(--navy); letter-spaci
 .atabs { display: flex; gap: 6px; flex-wrap: wrap; margin-bottom: 16px; }
 .atabs button { border: 1px solid var(--line); background: var(--white); border-radius: 8px; padding: 8px 15px; font-size: 13.5px; font-weight: 600; color: #444E63; }
 .atabs button.on { background: var(--navy); border-color: var(--navy); color: #fff; }
+.notebell { position: relative; border: 1.5px solid var(--line); background: #fff; border-radius: 10px; padding: 5px 10px; font-size: 16px; cursor: pointer; line-height: 1; filter: grayscale(0.35); transition: all .18s; }
+.notebell:hover { border-color: var(--brand); filter: none; }
+.notebell.hasnew { filter: none; border-color: #F26F1F; box-shadow: 0 0 0 3px rgba(249,123,51,0.18); animation: bellPulse 1.6s ease-in-out infinite; }
+.notebell .cnt { position: absolute; top: -7px; right: -7px; background: #E5484D; color: #fff; font-size: 10.5px; font-weight: 800; border-radius: 99px; padding: 2px 5.5px; border: 2px solid #fff; }
+@keyframes bellPulse { 0%, 100% { box-shadow: 0 0 0 3px rgba(249,123,51,0.18); } 50% { box-shadow: 0 0 0 6px rgba(249,123,51,0.06); } }
 .wm-note { background: #FFF7EF; border: 1px solid #F5CDAE; border-left: 4px solid var(--brand); border-radius: 9px; padding: 11px 14px; font-size: 13.5px; color: #5A4632; line-height: 1.65; margin: 2px 0 12px; }
 .noti-badge { display: inline-block; min-width: 16px; height: 16px; line-height: 16px; background: var(--danger); color: #fff; border-radius: 99px; font-size: 10px; font-weight: 800; padding: 0 4px; margin-left: 5px; vertical-align: 1px; text-align: center; }
 .apanel { display: none; }
@@ -655,8 +660,19 @@ footer select { border: 1px solid var(--line); border-radius: 6px; padding: 4px 
       <button class="fsave" onclick="joinChat()">입장하기</button>
       <p class="status">코드가 없다면 워크멘토 관리자에게 문의하세요. 대화 내용은 해당 기업과 관리자만 볼 수 있으며, 입장 후에는 맞춤 정보 추천을 위해 이 브라우저의 정보 열람 활동이 기업 단위로 기록됩니다.</p>
       <div style="text-align:center; color:#9AA3B5; font-size:12px; margin:12px 0 10px;">— 또는 —</div>
-      <button class="fsave" style="background:#3E63DD;" onclick="joinChatMember()">개인 회원으로 바로 입장</button>
-      <p class="status">기업 등록이 없어도 로그인만 되어 있으면 코드 없이 워크멘토 관리자와 1:1 대화할 수 있습니다.</p>
+      <div><label>개인 소통방 코드 (기업 미등록 회원)</label><input id="chat-mcode" placeholder="관리자에게 받은 개인 코드 입력" onkeydown="if(event.key==='Enter')joinChatMember()" /></div>
+      <button class="fsave" style="background:#3E63DD; margin-top:8px;" onclick="joinChatMember()">개인 회원으로 입장하기</button>
+      <p class="status">개인 코드가 없다면 아래 📮 쪽지로 관리자에게 발급을 요청하세요.</p>
+    </div>
+  </div>
+
+  <div class="card" id="notesCard" style="max-width:460px; margin-top:14px;">
+    <p class="title" style="font-size:15px;">📮 쪽지함 <span id="noteUnread" class="badge fund" style="display:none;">새 쪽지</span></p>
+    <div id="noteList" class="list" style="margin-top:8px;"><p class="empty">로그인 후 이용할 수 있습니다.</p></div>
+    <div class="form" style="margin-top:10px;">
+      <div><label>관리자에게 쪽지 보내기</label><input id="note-title" placeholder="제목 (예: 개인 소통방 코드 요청)" /></div>
+      <div style="margin-top:6px;"><textarea id="note-content" rows="3" placeholder="내용을 입력하세요"></textarea></div>
+      <button class="fsave" style="margin-top:8px;" onclick="sendNote()">쪽지 보내기</button>
     </div>
   </div>
 
@@ -1018,6 +1034,10 @@ footer select { border: 1px solid var(--line); border-radius: 6px; padding: 4px 
           <div><label>기업 선택</label><select id="achat-co" onchange="adminOpenChat()"></select></div>
           <div><label>이 기업의 소통방 코드 (기업에게 전달)</label><input id="achat-code" readonly placeholder="기업 관리에서 코드를 저장하세요" /></div>
           <div><label>개인 회원 방 (기업 미등록 회원)</label><select id="achat-member" onchange="adminOpenMemberChat()"></select></div>
+          <div style="grid-column:1/-1; margin-top:6px;">
+            <p class="title" style="font-size:14px; margin:4px 0 6px;">📮 회원 쪽지함 <button class="filebtn" style="margin:0 0 0 8px;" onclick="loadAdminNotes()">새로고침</button></p>
+            <div id="adminNoteList" class="list"></div>
+          </div>
         </div>
       </div>
       <div class="card chatbox" style="margin-top:12px;">
@@ -1362,6 +1382,7 @@ function go(page) {
   try { document.body.classList.toggle("is-home", page === "home"); } catch (_) {}
   if (typeof chatOnNavigate === "function") chatOnNavigate(page);
   if (page === "board" && typeof loadBoard === "function") loadBoard();
+  if (page === "chat" && typeof loadMyNotes === "function") loadMyNotes();
   WM_PAGE = page;
   if (typeof updateWatermark === "function") try { updateWatermark(); } catch (_) {}
   /* 브라우저 방문 기록에 기록 → 뒤로/앞으로 버튼이 사이트 안에서 작동 */
@@ -1787,7 +1808,7 @@ function showJob(j) {
    경영수업 (관리자가 올리는 정보·파일 자료실)
    ========================================================== */
 let lState = { cat: "최신 정보" };
-const LESSON_CATS = ["최신 정보", "경영 일반", "세무/회계", "노무/인사", "금융", "계약/법률", "기업 일반", "자료실"];
+const LESSON_CATS = ["최신 정보", "전체", "세무/회계", "노무/인사", "금융", "계약/법률", "경영 일반", "자료실"];
 
 /* ---- 최신 정보: 지원사업포털 행사정보 + 정책뉴스 자동 수집 ---- */
 let LATEST = [];
@@ -2844,12 +2865,148 @@ function chatOnTab(t) {
   const adm = String(CHAT.mode || "").startsWith("admin");
   if (t !== "chat" && adm) stopChatPoll();
   if (t === "chat" && adm && (CHAT.companyId || CHAT.memberId)) startChatPoll();
-  if (t === "chat" && MEMBER.isAdmin) loadAdminMemberRooms();
+  if (t === "chat" && MEMBER.isAdmin) { loadAdminMemberRooms(); loadAdminNotes(); }
 }
 
+function goNoteBox() {
+  if (MEMBER.isAdmin) { go("admin"); setTimeout(() => { try { atab("chat"); } catch (_) {} }, 60); }
+  else { go("chat"); setTimeout(() => { const c = document.getElementById("notesCard"); if (c) c.scrollIntoView({ behavior: "smooth", block: "center" }); }, 120); }
+}
+async function updateNoteBell() {
+  const bell = document.getElementById("noteBell");
+  if (!bell || !useCloud || !MEMBER.user) return;
+  let q = sb.from("notes").select("id", { count: "exact", head: true });
+  q = MEMBER.isAdmin
+    ? q.eq("from_admin", false).eq("read_by_admin", false)
+    : q.eq("member_id", MEMBER.user.id).eq("from_admin", true).eq("read_by_member", false);
+  const { count, error } = await q;
+  if (error) return;
+  const n = count || 0;
+  bell.classList.toggle("hasnew", n > 0);
+  bell.innerHTML = n > 0 ? `📬<span class="cnt">${n > 9 ? "9+" : n}</span>` : "📭";
+  bell.title = n > 0 ? `읽지 않은 쪽지 ${n}건` : "쪽지함 (새 쪽지 없음)";
+}
+if (!window._noteBellTimer) window._noteBellTimer = setInterval(() => { try { updateNoteBell(); } catch (_) {} }, 60 * 1000);
+let NOTE_ROWS = [];
+async function loadMyNotes() {
+  const box = document.getElementById("noteList");
+  if (!box) return;
+  if (!useCloud || !MEMBER.user) { box.innerHTML = '<p class="empty">로그인 후 이용할 수 있습니다.</p>'; return; }
+  const { data, error } = await sb.from("notes").select("*").eq("member_id", MEMBER.user.id).order("created_at", { ascending: false }).limit(50);
+  if (error) { box.innerHTML = '<p class="empty">쪽지 조회 실패: ' + esc(error.message) + ' (add-notes.sql 실행 여부 확인)</p>'; return; }
+  NOTE_ROWS = data || [];
+  const unread = NOTE_ROWS.filter(n => n.from_admin && !n.read_by_member).length;
+  const ub = document.getElementById("noteUnread");
+  if (ub) ub.style.display = unread ? "inline-block" : "none";
+  box.innerHTML = NOTE_ROWS.map(n => `
+    <div class="card row" onclick="openNote(${n.id})">
+      <div><p class="title" style="font-size:14px;">${n.from_admin && !n.read_by_member ? "● " : ""}${esc(n.title)}</p>
+      <p class="sub">${n.from_admin ? "관리자" : "나"} · ${esc(String(n.created_at).slice(0, 16).replace("T", " "))}</p></div>
+    </div>`).join("") || '<p class="empty">주고받은 쪽지가 없습니다. 첫 쪽지를 보내보세요.</p>';
+}
+async function openNote(id) {
+  const n = NOTE_ROWS.find(x => x.id === id);
+  if (!n) return;
+  document.getElementById("detailBody").innerHTML = `
+    <span class="badge ${n.from_admin ? "paid" : "hr"}">${n.from_admin ? "관리자 쪽지" : "보낸 쪽지"}</span>
+    <h3>${esc(n.title)}</h3>
+    <p class="m-sub">${esc(String(n.created_at).slice(0, 16).replace("T", " "))}</p>
+    <div class="m-body">${esc(n.content || "")}</div>
+    <div class="btns"><button class="btn-ghost" onclick="closeModal('detailModal')">닫기</button></div>`;
+  openModal("detailModal");
+  if (n.from_admin && !n.read_by_member) {
+    await sb.from("notes").update({ read_by_member: true }).eq("id", id);
+    n.read_by_member = true;
+    loadMyNotes();
+    updateNoteBell();
+  }
+}
+async function sendNote() {
+  if (!MEMBER.user) { alert("회원가입 후 이용할 수 있습니다."); openAuth("signup"); return; }
+  const t = document.getElementById("note-title").value.trim();
+  const c = document.getElementById("note-content").value.trim();
+  if (!t) return alert("제목을 입력하세요.");
+  const nm = (MEMBER.profile && MEMBER.profile.company_name) || MEMBER.user.email.split("@")[0];
+  const { error } = await sb.from("notes").insert({ member_id: MEMBER.user.id, member_name: nm, from_admin: false, title: t, content: c });
+  if (error) return alert("전송 실패: " + error.message + "\n(add-notes.sql 실행 여부를 확인하세요)");
+  document.getElementById("note-title").value = "";
+  document.getElementById("note-content").value = "";
+  loadMyNotes();
+  updateNoteBell();
+  alert("쪽지를 보냈습니다. 관리자가 확인 후 답장드립니다.");
+}
+let ADMIN_NOTES = [];
+let ADMIN_NOTE_TARGET = null;
+async function loadAdminNotes() {
+  const box = document.getElementById("adminNoteList");
+  if (!box || !useCloud) return;
+  const { data, error } = await sb.from("notes").select("*").order("created_at", { ascending: false }).limit(80);
+  if (error) { box.innerHTML = '<p class="empty">' + esc(error.message) + '</p>'; return; }
+  ADMIN_NOTES = data || [];
+  box.innerHTML = ADMIN_NOTES.map(n => `
+    <div class="card row" onclick="openAdminNote(${n.id})">
+      <div><p class="title" style="font-size:13.5px;">${!n.from_admin && !n.read_by_admin ? "● " : ""}${esc(n.member_name || "회원")} — ${esc(n.title)}</p>
+      <p class="sub">${n.from_admin ? "보낸 답장" : "받은 쪽지"} · ${esc(String(n.created_at).slice(0, 16).replace("T", " "))}</p></div>
+    </div>`).join("") || '<p class="empty">쪽지가 없습니다.</p>';
+}
+async function openAdminNote(id) {
+  const n = ADMIN_NOTES.find(x => x.id === id);
+  if (!n) return;
+  ADMIN_NOTE_TARGET = { uid: n.member_id, nm: n.member_name || "회원" };
+  document.getElementById("detailBody").innerHTML = `
+    <span class="badge ${n.from_admin ? "hr" : "paid"}">${n.from_admin ? "보낸 답장" : "받은 쪽지"}</span>
+    <h3>${esc(n.title)}</h3>
+    <p class="m-sub">${esc(n.member_name || "회원")} · ${esc(String(n.created_at).slice(0, 16).replace("T", " "))}</p>
+    <div class="m-body">${esc(n.content || "")}</div>
+    <div style="margin-top:12px; border-top:1px solid var(--line); padding-top:10px;">
+      <div class="form">
+        <div><label>답장 제목</label><input id="an-title" /></div>
+        <div style="margin-top:6px;"><textarea id="an-content" rows="3" placeholder="답장 내용 (개인 소통방 코드 발급 시 여기에 적어 보내세요)"></textarea></div>
+        <button class="fsave" style="margin-top:8px;" onclick="replyAdminNote()">답장 보내기</button>
+      </div>
+    </div>
+    <div class="btns"><button class="btn-ghost" onclick="closeModal('detailModal')">닫기</button></div>`;
+  openModal("detailModal");
+  document.getElementById("an-title").value = "Re: " + (n.title || "");
+  if (!n.from_admin && !n.read_by_admin) {
+    await sb.from("notes").update({ read_by_admin: true }).eq("id", id);
+    n.read_by_admin = true;
+    loadAdminNotes();
+    updateNoteBell();
+  }
+}
+async function replyAdminNote() {
+  if (!ADMIN_NOTE_TARGET) return;
+  const t = document.getElementById("an-title").value.trim();
+  const c = document.getElementById("an-content").value.trim();
+  if (!t) return alert("제목을 입력하세요.");
+  const { error } = await sb.from("notes").insert({ member_id: ADMIN_NOTE_TARGET.uid, member_name: ADMIN_NOTE_TARGET.nm, from_admin: true, title: t, content: c });
+  if (error) return alert("전송 실패: " + error.message);
+  closeModal("detailModal");
+  loadAdminNotes();
+  alert("답장을 보냈습니다.");
+}
+async function setMemberChatCode(uid) {
+  const cur = await sb.from("member_chat_codes").select("code").eq("member_id", uid).maybeSingle();
+  const code = prompt("이 회원의 개인 소통방 코드 (비우고 확인하면 회수)", (cur.data && cur.data.code) || "");
+  if (code === null) return;
+  const c = code.trim();
+  if (!c) {
+    await sb.from("member_chat_codes").delete().eq("member_id", uid);
+    return alert("개인 코드가 회수되었습니다.");
+  }
+  const { error } = await sb.from("member_chat_codes").upsert({ member_id: uid, code: c, updated_at: new Date().toISOString() });
+  if (error) return alert("저장 실패: " + error.message + "\n(add-notes.sql 실행 여부를 확인하세요)");
+  alert("개인 소통방 코드가 저장되었습니다.\n📮 쪽지 답장으로 회원에게 코드를 전달하세요.");
+}
 async function joinChatMember() {
   if (!useCloud) return alert("소통방은 클라우드 모드에서 사용할 수 있습니다.");
   if (!MEMBER.user) { alert("회원가입 후 이용할 수 있습니다."); openAuth("signup"); return; }
+  const mcode = (document.getElementById("chat-mcode").value || "").trim();
+  if (!mcode) return alert("개인 소통방 코드를 입력하세요.\n코드가 없다면 📮 쪽지로 관리자에게 발급을 요청해주세요.");
+  const chk = await sb.from("member_chat_codes").select("code").eq("member_id", MEMBER.user.id).maybeSingle();
+  if (chk.error) return alert("확인 실패: " + chk.error.message + "\n(add-notes.sql 실행 여부를 확인하세요)");
+  if (!chk.data || chk.data.code !== mcode) return alert("개인 소통방 코드가 올바르지 않습니다.\n📮 쪽지로 관리자에게 코드 발급을 요청해주세요.");
   CHAT.mode = "member"; CHAT.companyId = null; CHAT.code = "";
   CHAT.memberId = MEMBER.user.id;
   CHAT.memberName = (MEMBER.profile && MEMBER.profile.company_name) || MEMBER.user.email.split("@")[0];
@@ -3153,6 +3310,7 @@ async function refreshMember() {
   }
   syncViewerTier(); renderAuthUI(); updateNavLocks();
   try { syncAdminPanel(); } catch (_) {}
+  try { updateNoteBell(); } catch (_) {}
   try {
     buildLessonFilters();   /* 권한 확정 후 🔒 표시·잠금 상태 재계산 */
     const lp = document.getElementById("page-lessons");
@@ -3228,14 +3386,14 @@ function renderAuthUI() {
   if (!box) return;
   const cta = document.getElementById("ctaMain");
   if (MEMBER.isAdmin) {
-    box.innerHTML = `<span class="hello">관리자 <span class="badge paid">ADMIN</span></span><button class="authbtn" onclick="go('admin')">관리자</button><button class="authbtn" onclick="memberLogout()">로그아웃</button>`;
+    box.innerHTML = `<span class="hello">관리자 <span class="badge paid">ADMIN</span></span><button class="notebell" id="noteBell" title="쪽지함" onclick="goNoteBox()">📭</button><button class="authbtn" onclick="go('admin')">관리자</button><button class="authbtn" onclick="memberLogout()">로그아웃</button>`;
     if (cta) cta.style.display = "";
   } else if (MEMBER.user) {
     const name = MEMBER.profile && MEMBER.profile.company_name ? MEMBER.profile.company_name : MEMBER.user.email.split("@")[0];
     const paid = MEMBER.profile && MEMBER.profile.tier === "paid";
     const pending = MEMBER.profile && MEMBER.profile.approved === false;
     const badge = pending ? '<span class="badge free">승인 대기</span>' : `<span class="badge ${paid ? "paid" : "free"}">${paid ? "유료회원" : "무료회원"}</span>`;
-    box.innerHTML = `<span class="hello">${esc(name)}님 ${badge}</span><button class="authbtn" onclick="memberLogout()">로그아웃</button>`;
+    box.innerHTML = `<span class="hello">${esc(name)}님 ${badge}</span><button class="notebell" id="noteBell" title="쪽지함" onclick="goNoteBox()">📭</button><button class="authbtn" onclick="memberLogout()">로그아웃</button>`;
     if (cta) cta.style.display = "";       /* 가입자에게만 기업 등록하기 표시 */
   } else {
     box.innerHTML = `<button class="authbtn" onclick="go('admin')">관리자</button><button class="authbtn" onclick="openAuth('login')">로그인</button><button class="authbtn strong" onclick="openAuth('signup')">회원가입</button>`;
@@ -3352,7 +3510,8 @@ async function loadMembers() {
           <option value="free" ${m.tier !== "paid" ? "selected" : ""}>무료회원</option>
           <option value="paid" ${m.tier === "paid" ? "selected" : ""}>유료회원</option>
         </select>
-        ${MEMBER.isAdmin ? `<button class="filebtn" style="margin:0;" onclick="togglePermEditor('${m.id}')">권한</button>` : ""}
+        ${MEMBER.isAdmin ? `<button class="filebtn" style="margin:0;" onclick="togglePermEditor('${m.id}')">권한</button>
+        <button class="filebtn" style="margin:0;" onclick="setMemberChatCode('${m.id}')">코드</button>` : ""}
       </div>
     </div>`).join("");
 }
