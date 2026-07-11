@@ -995,7 +995,7 @@ footer select { border: 1px solid var(--line); border-radius: 6px; padding: 4px 
           </div>
         </div>
         <div class="frow">
-          <div><label>소통방 코드 (이 기업에게 전달할 입장 코드)</label><input id="co-chatcode" placeholder="예: HB2026 — 비워두면 소통방 미개설" /></div>
+          <div><label>소통방 코드 (이 기업에게 전달할 입장 코드)</label><input id="co-chatcode" placeholder="예: hb2026 — 비워두면 소통방 미개설 (소문자)" /></div>
           <div style="display:flex; align-items:flex-end;"><button type="button" class="filebtn" style="margin:0;" onclick="document.getElementById('co-chatcode').value=genCode()">코드 자동생성</button></div>
         </div>
         <div><label>대표 사진 (파일 업로드 → 사이트에 저장됨, 500KB 이하 권장)</label><input type="file" id="co-img" accept="image/*" /></div>
@@ -2559,7 +2559,7 @@ async function saveCompany() {
       if (error) return alert("저장 실패: " + error.message + "\n(관리자 로그인이 되어 있어야 저장할 수 있습니다)");
       cid = data.id;
     }
-    const codeVal = document.getElementById("co-chatcode").value.trim();
+    const codeVal = document.getElementById("co-chatcode").value.trim().toLowerCase();
     if (codeVal) {
       const { error: ce } = await sb.from("chat_codes").upsert({ company_id: cid, code: codeVal });
       if (ce) alert("소통방 코드 저장 실패: " + ce.message + "\n(add-chat.sql을 먼저 실행했는지 확인하세요)");
@@ -2839,6 +2839,7 @@ async function newPost() {
     is_admin: MEMBER.isAdmin
   });
   if (error) return alert("등록 실패: " + error.message);
+  pingAdminKakao("자유게시판 새 글", (pub ? "" : "[비밀글] ") + (((MEMBER.profile && MEMBER.profile.company_name) || MEMBER.user.email.split("@")[0])) + " — " + t, "board");
   document.getElementById("bp-title").value = "";
   document.getElementById("bp-content").value = "";
   if (pubEl) pubEl.checked = false;
@@ -2888,6 +2889,7 @@ async function addComment(postId) {
     is_admin: MEMBER.isAdmin
   });
   if (error) return alert("댓글 등록 실패: " + error.message);
+  pingAdminKakao("게시판 새 댓글", (((MEMBER.profile && MEMBER.profile.company_name) || MEMBER.user.email.split("@")[0])) + " — " + c.slice(0, 60), "board-cm");
   openPost(postId);
 }
 async function delPost(id) {
@@ -2904,7 +2906,7 @@ async function delPost(id) {
 const CHAT = { mode: null, companyId: null, code: "", timer: null, memberId: null, memberName: "" };
 
 function genCode() {
-  const s = "ABCDEFGHJKMNPQRSTUVWXYZ23456789";
+  const s = "abcdefghjkmnpqrstuvwxyz23456789";   /* 소문자 통일 (0/o, 1/i 계열 제외) */
   let o = "";
   for (let i = 0; i < 6; i++) o += s[Math.floor(Math.random() * s.length)];
   return o;
@@ -3088,6 +3090,23 @@ async function delPlanTodo(id) {
   }
   loadPlanner();
 }
+/* ---------- 관리자 카카오톡 알림 발신 (비관리자 활동 시) ---------- */
+function pingAdminKakao(type, text, room) {
+  try {
+    if (MEMBER.isAdmin) return;
+    const proxy = (DB.api.proxy || "").replace(/\/$/, "");
+    if (!proxy) return;
+    fetch(proxy + "/?api=notify", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ type, text: String(text || "").slice(0, 180), room }),
+    }).catch(() => {});
+  } catch (_) {}
+}
+/* 관리자 접속 심장박동 (60초) — 접속 중엔 카톡 알림 생략용 */
+async function adminHeartbeat() {
+  try { await sb.from("presence").upsert({ id: 1, admin_last_seen: new Date().toISOString() }); } catch (_) {}
+}
 function goNoteBox() {
   if (MEMBER.isAdmin) { go("admin"); setTimeout(() => { try { atab("chat"); } catch (_) {} }, 60); }
   else { go("chat"); setTimeout(() => { const c = document.getElementById("notesCard"); if (c) c.scrollIntoView({ behavior: "smooth", block: "center" }); }, 120); }
@@ -3151,6 +3170,7 @@ async function sendNote() {
   if (error) return alert("전송 실패: " + error.message + "\n(add-notes.sql 실행 여부를 확인하세요)");
   document.getElementById("note-title").value = "";
   document.getElementById("note-content").value = "";
+  pingAdminKakao("새 쪽지", nm + " — " + t, "note:" + MEMBER.user.id);
   loadMyNotes();
   updateNoteBell();
   alert("쪽지를 보냈습니다. 관리자가 확인 후 답장드립니다.");
@@ -3210,7 +3230,7 @@ async function setMemberChatCode(uid) {
   const cur = await sb.from("member_chat_codes").select("code").eq("member_id", uid).maybeSingle();
   const code = prompt("이 회원의 개인 소통방 코드 (비우고 확인하면 회수)", (cur.data && cur.data.code) || genMemberCode());
   if (code === null) return;
-  const c = code.trim();
+  const c = code.trim().toLowerCase();
   if (!c) {
     await sb.from("member_chat_codes").delete().eq("member_id", uid);
     return alert("개인 코드가 회수되었습니다.");
@@ -3222,11 +3242,11 @@ async function setMemberChatCode(uid) {
 async function joinChatMember() {
   if (!useCloud) return alert("소통방은 클라우드 모드에서 사용할 수 있습니다.");
   if (!MEMBER.user) { alert("회원가입 후 이용할 수 있습니다."); openAuth("signup"); return; }
-  const mcode = (document.getElementById("chat-mcode").value || "").trim();
+  const mcode = (document.getElementById("chat-mcode").value || "").trim().toLowerCase();
   if (!mcode) return alert("개인 소통방 코드를 입력하세요.\n코드가 없다면 📮 쪽지로 관리자에게 발급을 요청해주세요.");
   const chk = await sb.from("member_chat_codes").select("code").eq("member_id", MEMBER.user.id).maybeSingle();
   if (chk.error) return alert("확인 실패: " + chk.error.message + "\n(add-notes.sql 실행 여부를 확인하세요)");
-  if (!chk.data || chk.data.code !== mcode) return alert("개인 소통방 코드가 올바르지 않습니다.\n📮 쪽지로 관리자에게 코드 발급을 요청해주세요.");
+  if (!chk.data || String(chk.data.code).toLowerCase() !== mcode) return alert("개인 소통방 코드가 올바르지 않습니다.\n📮 쪽지로 관리자에게 코드 발급을 요청해주세요.");
   CHAT.mode = "member"; CHAT.companyId = null; CHAT.code = mcode;   /* 플래너 검증에도 사용 */
   CHAT.memberId = MEMBER.user.id;
   CHAT.memberName = (MEMBER.profile && MEMBER.profile.company_name) || MEMBER.user.email.split("@")[0];
@@ -3254,10 +3274,10 @@ async function loadAdminMemberRooms() {
   if (cur) sel.value = cur;
 }
 function genMemberCode() {
-  const chars = "ABCDEFGHJKMNPQRSTUVWXYZ23456789";   /* 0/O, 1/I 제외 — 읽기 쉬운 코드 */
+  const chars = "abcdefghjkmnpqrstuvwxyz23456789";   /* 소문자 통일 (0/o, 1/i 계열 제외) */
   let s = "";
   for (let i = 0; i < 4; i++) s += chars[Math.floor(Math.random() * chars.length)];
-  return "P-" + s;
+  return "p-" + s;
 }
 async function issueMemberCodeInChat() {
   const sel = document.getElementById("achat-member");
@@ -3274,7 +3294,7 @@ async function saveMemberCodeInChat() {
   const sel = document.getElementById("achat-member");
   const uid = sel && sel.value;
   if (!uid) return alert("먼저 개인 회원을 선택하세요.");
-  const c = (document.getElementById("amchat-code").value || "").trim();
+  const c = (document.getElementById("amchat-code").value || "").trim().toLowerCase();
   if (!c) {
     if (!confirm("코드를 비웠습니다. 이 회원의 개인 코드를 회수할까요?")) return;
     const { error } = await sb.from("member_chat_codes").delete().eq("member_id", uid);
@@ -3301,7 +3321,7 @@ function adminOpenMemberChat() {
 async function joinChat() {
   if (!useCloud) return alert("소통방은 클라우드 모드에서 사용할 수 있습니다.");
   const cid = +document.getElementById("chat-co").value;
-  const code = document.getElementById("chat-code").value.trim();
+  const code = document.getElementById("chat-code").value.trim().toLowerCase();
   if (!cid || !code) return alert("기업을 선택하고 코드를 입력하세요.");
   const { data, error } = await sb.rpc("chat_check", { p_company: cid, p_code: code });
   if (error) return alert("확인 실패: " + error.message + "\n(add-chat.sql이 실행되었는지 확인하세요)");
@@ -3393,6 +3413,7 @@ async function pushChat(content, file, fileName, fileSize) {
       content, file, file_name: fileName, file_size: fileSize || null
     });
     if (error) return alert("전송 실패: " + error.message + "\n(add-personal-chat.sql 실행 여부를 확인하세요)");
+    if (CHAT.mode === "member") pingAdminKakao("소통방 새 메시지", (CHAT.memberName || "회원") + " — " + String(content || "📎 파일").slice(0, 60), "m:" + CHAT.memberId);
     fetchChat();
     return;
   }
@@ -3402,6 +3423,8 @@ async function pushChat(content, file, fileName, fileSize) {
   } else {
     const { error } = await sb.rpc("chat_send", { p_company: CHAT.companyId, p_code: CHAT.code, p_content: content, p_file: file, p_file_name: fileName, p_file_size: fileSize || null });
     if (error) return alert("전송 실패: " + error.message);
+    const co = (DB.companies || []).find(c => c.id === CHAT.companyId);
+    pingAdminKakao("소통방 새 메시지", (co ? co.name : "기업") + " — " + String(content || "📎 파일").slice(0, 60), "c:" + CHAT.companyId);
   }
   fetchChat();
 }
@@ -3576,6 +3599,10 @@ async function refreshMember() {
   syncViewerTier(); renderAuthUI(); updateNavLocks();
   try { syncAdminPanel(); } catch (_) {}
   try { updateNoteBell(); } catch (_) {}
+  if (MEMBER.isAdmin) {
+    adminHeartbeat();
+    if (!window._wmHb) window._wmHb = setInterval(adminHeartbeat, 60 * 1000);
+  }
   try {
     buildLessonFilters();   /* 권한 확정 후 🔒 표시·잠금 상태 재계산 */
     const lp = document.getElementById("page-lessons");
