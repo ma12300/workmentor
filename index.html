@@ -1072,8 +1072,9 @@ footer select { border: 1px solid var(--line); border-radius: 6px; padding: 4px 
           <div><label>개인 회원 방 (모든 회원 선택 가능)</label><select id="achat-member" onchange="adminOpenMemberChat()"></select></div>
           <div><label>이 회원의 개인 소통방 코드 (쪽지로 전달)</label>
             <div style="display:flex; gap:6px;">
-              <input id="amchat-code" placeholder="회원 선택 후 코드 입력 (예: P-홍길동)" style="flex:1;" />
-              <button class="filebtn" style="margin:0;" onclick="saveMemberCodeInChat()">코드 저장</button>
+              <input id="amchat-code" placeholder="회원 선택 후 [자동 발급] 또는 직접 입력" style="flex:1;" />
+              <button class="fsave" style="margin:0; padding:9px 12px;" onclick="issueMemberCodeInChat()">🔑 자동 발급</button>
+              <button class="filebtn" style="margin:0;" onclick="saveMemberCodeInChat()">저장</button>
             </div>
           </div>
           <div style="grid-column:1/-1; margin-top:6px;">
@@ -3207,7 +3208,7 @@ async function replyAdminNote() {
 }
 async function setMemberChatCode(uid) {
   const cur = await sb.from("member_chat_codes").select("code").eq("member_id", uid).maybeSingle();
-  const code = prompt("이 회원의 개인 소통방 코드 (비우고 확인하면 회수)", (cur.data && cur.data.code) || "");
+  const code = prompt("이 회원의 개인 소통방 코드 (비우고 확인하면 회수)", (cur.data && cur.data.code) || genMemberCode());
   if (code === null) return;
   const c = code.trim();
   if (!c) {
@@ -3251,6 +3252,23 @@ async function loadAdminMemberRooms() {
       return `<option value="${esc(m.id)}">${esc(nm)}${talked.has(m.id) ? " · 대화중 💬" : ""}</option>`;
     }).join("");
   if (cur) sel.value = cur;
+}
+function genMemberCode() {
+  const chars = "ABCDEFGHJKMNPQRSTUVWXYZ23456789";   /* 0/O, 1/I 제외 — 읽기 쉬운 코드 */
+  let s = "";
+  for (let i = 0; i < 4; i++) s += chars[Math.floor(Math.random() * chars.length)];
+  return "P-" + s;
+}
+async function issueMemberCodeInChat() {
+  const sel = document.getElementById("achat-member");
+  const uid = sel && sel.value;
+  if (!uid) return alert("먼저 개인 회원을 선택하세요.");
+  const code = genMemberCode();
+  const { error } = await sb.from("member_chat_codes").upsert({ member_id: uid, code, updated_at: new Date().toISOString() });
+  if (error) return alert("발급 실패: " + error.message + "\n(add-notes.sql 실행 여부를 확인하세요)");
+  document.getElementById("amchat-code").value = code;
+  const nm = sel.options[sel.selectedIndex] ? sel.options[sel.selectedIndex].text.replace(" · 대화중 💬", "") : "회원";
+  alert("개인 소통방 코드 발급 완료!\n\n" + nm + " → " + code + "\n\n📮 쪽지 답장으로 이 코드를 회원에게 전달하세요.");
 }
 async function saveMemberCodeInChat() {
   const sel = document.getElementById("achat-member");
