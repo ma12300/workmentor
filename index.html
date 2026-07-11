@@ -4,6 +4,9 @@
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <meta name="color-scheme" content="only light" />
+<meta name="referrer" content="strict-origin-when-cross-origin" />
+<!-- 콘텐츠 보안 정책(CSP): 실측된 통신처만 화이트리스트 — 주입 스크립트·가짜 폼 전송 차단 -->
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' https://cdn.jsdelivr.net; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src https://fonts.gstatic.com data:; img-src 'self' data: https:; connect-src 'self' https://aggndijeezodnfrnqpwp.supabase.co https://workmentor.dbsghddls123.workers.dev https://api.rss2json.com https://api.allorigins.win https://translate.googleapis.com https://fonts.googleapis.com https://fonts.gstatic.com; frame-src 'self' https://workmentor.dbsghddls123.workers.dev; object-src 'none'; base-uri 'self'; form-action 'self'; upgrade-insecure-requests" />
 <title>워크멘토 — 인재,기술 개발과 정부지원사업을 하나로</title>
 <meta name="description" content="요청공고, 기업 네트워킹, 정부 지원사업 실시간 정보를 하나로 모은 중소기업 통합 플랫폼" />
 
@@ -532,6 +535,9 @@ h2.section { font-weight: 800; font-size: 24px; color: var(--navy); letter-spaci
 .dkzone input:not([type="file"]), .dkzone textarea, .dkzone select{
   background: var(--dkcell); border-color: var(--dkline); color: var(--dktext); }
 .dkzone input::placeholder, .dkzone textarea::placeholder{ color: #7E8595; }
+.dkzone select { color-scheme: dark; }   /* 드롭다운 팝업까지 다크 렌더링 — 흰바탕 흰글씨 함정 제거 */
+.dkzone select option { background: #2B2F37; color: #E9EAEE; }
+.dkzone select option:disabled { color: #7E8595; }
 .dkzone .pcal .d{ background: var(--dkcell); border-color: var(--dkline); }
 .dkzone .pcal .d.out{ background: #1B1E24; opacity: 0.55; }
 .dkzone .pcal .dn{ color: var(--dksub); }
@@ -1418,6 +1424,10 @@ footer select { border: 1px solid var(--line); border-radius: 6px; padding: 4px 
   </div>
 </footer>
 
+<script>
+/* 클릭재킹 방어: 워크멘토가 남의 사이트 iframe에 갇히면 즉시 탈출 */
+if (window.self !== window.top) { try { window.top.location = window.self.location; } catch (_) { document.documentElement.style.display = "none"; } }
+</script>
 <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
 <script>
 /* ==========================================================
@@ -2987,14 +2997,24 @@ function genCode() {
   for (let i = 0; i < 6; i++) o += s[Math.floor(Math.random() * s.length)];
   return o;
 }
+function myCompanies() {
+  /* 소유 판정: 회원 프로필의 기업명과 이름이 일치하는 기업만 (관리자는 전체) */
+  if (MEMBER.isAdmin) return DB.companies;
+  const mine = ((MEMBER.profile && MEMBER.profile.company_name) || "").trim().toLowerCase();
+  if (!mine) return [];
+  return DB.companies.filter(c => String(c.name || "").trim().toLowerCase() === mine);
+}
 function fillChatSelects() {
   ["chat-co", "achat-co", "ins-co"].forEach(id => {
     const el = document.getElementById(id);
     if (!el) return;
+    const list = (id === "achat-co") ? DB.companies : myCompanies();   /* 관리자 패널은 전체 */
     const cur = el.value;
-    el.innerHTML = '<option value="">기업 선택...</option>' +
-      DB.companies.map(c => `<option value="${c.id}">${esc(c.name)}</option>`).join("");
+    el.innerHTML = (list.length
+      ? '<option value="">기업 선택...</option>' + list.map(c => `<option value="${c.id}">${esc(c.name)}</option>`).join("")
+      : '<option value="" disabled selected>본인 명의로 등록된 기업이 없습니다</option>');
     el.value = cur;
+    if (!list.length) el.value = "";
   });
 }
 function stopChatPoll() { if (CHAT.timer) { clearInterval(CHAT.timer); CHAT.timer = null; } }
@@ -3702,6 +3722,7 @@ async function refreshMember() {
   syncViewerTier(); renderAuthUI(); updateNavLocks();
   try { syncAdminPanel(); } catch (_) {}
   try { updateNoteBell(); } catch (_) {}
+  try { fillChatSelects(); } catch (_) {}   /* 로그인/등급 변화 후 본인 기업 필터 재적용 */
   if (MEMBER.isAdmin) {
     adminHeartbeat();
     if (!window._wmHb) window._wmHb = setInterval(adminHeartbeat, 60 * 1000);
@@ -3757,7 +3778,8 @@ function updateWatermark() {
     el.id = "wmMark";
     document.body.appendChild(el);
   }
-  if (MEMBER.isAdmin) { el.style.display = "none"; return; }
+  const strongPage = (WM_PAGE === "lessons" || WM_PAGE === "companies");
+  if (MEMBER.isAdmin || !strongPage) { el.style.display = "none"; return; }   /* 전면 층 은퇴: 유료 콘텐츠 페이지에서만 유출 추적 스탬프 */
   el.style.display = "block";
   const who = MEMBER.user
     ? ((MEMBER.profile && MEMBER.profile.company_name) || MEMBER.user.email)
@@ -3766,9 +3788,7 @@ function updateWatermark() {
   const p2 = n => String(n).padStart(2, "0");
   const stamp = (who + " · " + d.getFullYear() + "-" + p2(d.getMonth() + 1) + "-" + p2(d.getDate()) + " " + p2(d.getHours()) + ":" + p2(d.getMinutes()))
     .replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
-  const strong = (WM_PAGE === "lessons" || WM_PAGE === "companies");   /* 유료 콘텐츠는 살짝 보이게 */
-  const op = strong ? 0.055 : 0.018;
-  const fsz = strong ? 15 : 13;
+  const op = 0.055, fsz = 15;   /* 살짝 보이는 농도 — 유출 억지력 */
   const svg = "<svg xmlns='http://www.w3.org/2000/svg' width='340' height='190'>" +
     "<text x='12' y='100' font-family='sans-serif' font-size='" + fsz + "' fill='rgba(120,120,120," + op + ")' transform='rotate(-22 170 95)'>" + stamp + "</text></svg>";
   el.style.backgroundImage = 'url("data:image/svg+xml;utf8,' + encodeURIComponent(svg) + '")';
