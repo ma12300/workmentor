@@ -499,7 +499,19 @@ h2.section { font-weight: 800; font-size: 24px; color: var(--navy); letter-spaci
   .pn-row.open #notesCard { flex: auto; max-width: none; width: 100%; }
   .pn-row.open #notesCard #noteList { max-height: 300px; }
 }
-.pn-row #notesCard textarea { resize: none; }   /* 손잡이 드래그로 높이 흐트러짐 방지 */
+.pn-row #notesCard textarea { resize: none; }
+/* ── 관리자 소통방 2단 배치: [선택·코드·쪽지함] + [캘린더] → 투두 → 채팅 ── */
+.arow2 { display: flex; gap: 14px; align-items: stretch; }
+.arow2 #aLeftCol { flex: 0 0 340px; display: flex; flex-direction: column; }
+.arow2 #aLeftCol .frow { display: flex; flex-direction: column; gap: 10px; flex: 1; min-height: 0; }
+.arow2 #aLeftCol .frow > div:last-child { flex: 1; display: flex; flex-direction: column; min-height: 0; }
+.arow2 #adminNoteList { flex: 1; min-height: 120px; overflow-y: auto; }
+.arow2 #aplannerCard { flex: 1; min-width: 0; display: flex; flex-direction: column; }
+.arow2 #aplannerCard .pcal { flex: 1; align-content: start; }
+@media (max-width: 920px) {
+  .arow2 { flex-direction: column; }
+  .arow2 #aLeftCol { flex: auto; }
+}   /* 손잡이 드래그로 높이 흐트러짐 방지 */
 .ptodos { height: 232px; overflow-y: auto; padding-right: 4px; }   /* 5행 기본창 + 스크롤 */
 .dkzone ::-webkit-scrollbar { width: 9px; }
 .dkzone ::-webkit-scrollbar-thumb { background: #454B57; border-radius: 8px; }
@@ -1120,7 +1132,8 @@ footer select { border: 1px solid var(--line); border-radius: 6px; padding: 4px 
 
     <!-- 소통방 관리 -->
     <div class="apanel dkzone" id="apanel-chat">
-      <div class="card form">
+      <div class="arow2">
+      <div class="card form" id="aLeftCol">
         <div class="frow">
           <div><label>기업 선택</label><select id="achat-co" onchange="adminOpenChat()"></select></div>
           <div><label>이 기업의 소통방 코드 (기업에게 전달)</label><input id="achat-code" readonly placeholder="기업 관리에서 코드를 저장하세요" /></div>
@@ -1138,7 +1151,34 @@ footer select { border: 1px solid var(--line); border-radius: 6px; padding: 4px 
           </div>
         </div>
       </div>
-      <div class="card chatbox" style="margin-top:12px;">
+
+      <!-- 공유 캘린더 (관리자측 · 우측 열) -->
+      <div class="card" id="aplannerCard">
+        <div style="display:flex; align-items:center; justify-content:space-between; flex-wrap:wrap; gap:8px;">
+          <p class="title" style="font-size:15px; margin:0;">📅 공유 캘린더</p>
+          <div style="display:flex; align-items:center; gap:8px;">
+            <button class="filebtn" style="margin:0;" onclick="planNav(-1)">◀</button>
+            <b id="aplanMonth" style="min-width:110px; text-align:center;"></b>
+            <button class="filebtn" style="margin:0;" onclick="planNav(1)">▶</button>
+          </div>
+        </div>
+        <div id="aplannerCal" class="pcal" style="margin-top:10px;"><p class="empty" style="grid-column:1/-1;">기업 또는 회원을 선택하면 일정이 표시됩니다.</p></div>
+        <p class="status" style="margin-top:6px;">날짜를 누르면 일정을 등록합니다 · 일정을 누르면 삭제 · <span style="color:#F26F1F;">■ 관리자</span> <span style="color:#3E63DD;">■ 회원</span></p>
+      </div>
+      </div>
+
+      <!-- To-Do (관리자측 · 전체 폭) -->
+      <div class="card" id="atodoCard" style="margin-top:14px;">
+        <p class="title" style="font-size:15px;">✅ To-Do List</p>
+        <div id="aplannerTodos" class="ptodos" style="margin-top:8px;"></div>
+        <div class="chatin" style="margin-top:8px;">
+          <label class="filebtn" style="cursor:pointer; margin:0;">📎<input type="file" id="aplan-file" style="display:none;" onchange="planFilePicked(this, 'a')" /></label>
+          <input id="aplan-todo" placeholder="함께 진행할 일 입력..." onkeydown="if(event.key==='Enter')addPlanTodo('a')" />
+          <button class="cta gold" onclick="addPlanTodo('a')">추가</button>
+        </div>
+        <p class="status" id="aplanFileName" style="display:none; margin-top:6px;"></p>
+      </div>
+      <div class="card chatbox" style="margin-top:14px;">
         <div class="chatlog" id="aChatLog"><p class="empty">기업을 선택하면 대화가 표시됩니다.</p></div>
         <div class="chatin">
           <label class="filebtn" style="cursor:pointer; margin:0;">📎<input type="file" id="achat-file" style="display:none;" onchange="sendChatFile('achat-file')" /></label>
@@ -1147,27 +1187,6 @@ footer select { border: 1px solid var(--line); border-radius: 6px; padding: 4px 
         </div>
       </div>
 
-  <!-- 공유 플래너 (관리자측) -->
-  <div class="card" style="margin-top:14px;">
-    <div style="display:flex; align-items:center; justify-content:space-between; flex-wrap:wrap; gap:8px;">
-      <p class="title" style="font-size:15px; margin:0;">📅 공유 캘린더</p>
-      <div style="display:flex; align-items:center; gap:8px;">
-        <button class="filebtn" style="margin:0;" onclick="planNav(-1)">◀</button>
-        <b id="aplanMonth" style="min-width:110px; text-align:center;"></b>
-        <button class="filebtn" style="margin:0;" onclick="planNav(1)">▶</button>
-      </div>
-    </div>
-    <div id="aplannerCal" class="pcal" style="margin-top:10px;"></div>
-    <p class="status" style="margin-top:6px;">날짜를 누르면 일정을 등록합니다 · 일정을 누르면 삭제 · <span style="color:#F26F1F;">■ 관리자</span> <span style="color:#3E63DD;">■ 회원</span></p>
-    <p class="title" style="font-size:15px; margin-top:16px;">✅ To-Do List</p>
-    <div id="aplannerTodos" class="ptodos" style="margin-top:8px;"></div>
-    <div class="chatin" style="margin-top:8px;">
-      <label class="filebtn" style="cursor:pointer; margin:0;">📎<input type="file" id="aplan-file" style="display:none;" onchange="planFilePicked(this, 'a')" /></label>
-      <input id="aplan-todo" placeholder="함께 진행할 일 입력..." onkeydown="if(event.key==='Enter')addPlanTodo('a')" />
-      <button class="cta gold" onclick="addPlanTodo('a')">추가</button>
-    </div>
-    <p class="status" id="aplanFileName" style="display:none; margin-top:6px;"></p>
-  </div>
     </div>
 
     <!-- 시장 브리핑 게시 -->
