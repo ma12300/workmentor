@@ -646,7 +646,7 @@ footer select { border: 1px solid var(--line); border-radius: 6px; padding: 4px 
 <!-- ============ 소통방 ============ -->
 <section class="page" id="page-chat">
   <h2 class="section">소통방</h2>
-  <p class="section-sub">등록 기업과 워크멘토 관리자가 1:1로 대화하고 파일을 주고받는 전용 공간입니다.</p>
+  <p class="section-sub">회원(기업·개인)과 워크멘토 관리자가 1:1로 대화하는 전용 공간입니다. 등록 기업은 파일도 주고받을 수 있습니다.</p>
 
   <div class="card" id="chatEntry" style="max-width:460px;">
     <div class="form">
@@ -654,6 +654,9 @@ footer select { border: 1px solid var(--line); border-radius: 6px; padding: 4px 
       <div><label>소통방 코드</label><input id="chat-code" placeholder="관리자에게 받은 코드 입력" onkeydown="if(event.key==='Enter')joinChat()" /></div>
       <button class="fsave" onclick="joinChat()">입장하기</button>
       <p class="status">코드가 없다면 워크멘토 관리자에게 문의하세요. 대화 내용은 해당 기업과 관리자만 볼 수 있으며, 입장 후에는 맞춤 정보 추천을 위해 이 브라우저의 정보 열람 활동이 기업 단위로 기록됩니다.</p>
+      <div style="text-align:center; color:#9AA3B5; font-size:12px; margin:12px 0 10px;">— 또는 —</div>
+      <button class="fsave" style="background:#3E63DD;" onclick="joinChatMember()">개인 회원으로 바로 입장</button>
+      <p class="status">기업 등록이 없어도 로그인만 되어 있으면 코드 없이 워크멘토 관리자와 1:1 대화할 수 있습니다.</p>
     </div>
   </div>
 
@@ -1014,6 +1017,7 @@ footer select { border: 1px solid var(--line); border-radius: 6px; padding: 4px 
         <div class="frow">
           <div><label>기업 선택</label><select id="achat-co" onchange="adminOpenChat()"></select></div>
           <div><label>이 기업의 소통방 코드 (기업에게 전달)</label><input id="achat-code" readonly placeholder="기업 관리에서 코드를 저장하세요" /></div>
+          <div><label>개인 회원 방 (기업 미등록 회원)</label><select id="achat-member" onchange="adminOpenMemberChat()"></select></div>
         </div>
       </div>
       <div class="card chatbox" style="margin-top:12px;">
@@ -1783,7 +1787,7 @@ function showJob(j) {
    경영수업 (관리자가 올리는 정보·파일 자료실)
    ========================================================== */
 let lState = { cat: "최신 정보" };
-const LESSON_CATS = ["최신 정보", "전체", "세무/회계", "노무/인사", "금융", "계약/법률", "경영 일반", "자료실"];
+const LESSON_CATS = ["최신 정보", "경영 일반", "세무/회계", "노무/인사", "금융", "계약/법률", "기업 일반", "자료실"];
 
 /* ---- 최신 정보: 지원사업포털 행사정보 + 정책뉴스 자동 수집 ---- */
 let LATEST = [];
@@ -2811,7 +2815,7 @@ async function delPost(id) {
 /* ==========================================================
    소통방 (기업 <-> 관리자 1:1 대화 + 파일)
    ========================================================== */
-const CHAT = { mode: null, companyId: null, code: "", timer: null };
+const CHAT = { mode: null, companyId: null, code: "", timer: null, memberId: null, memberName: "" };
 
 function genCode() {
   const s = "ABCDEFGHJKMNPQRSTUVWXYZ23456789";
@@ -2832,14 +2836,49 @@ function fillChatSelects() {
 function stopChatPoll() { if (CHAT.timer) { clearInterval(CHAT.timer); CHAT.timer = null; } }
 function startChatPoll() { stopChatPoll(); fetchChat(); CHAT.timer = setInterval(fetchChat, 4000); }
 function chatOnNavigate(page) {
-  if (page !== "chat" && CHAT.mode === "company") stopChatPoll();
-  if (page === "chat" && CHAT.mode === "company" && CHAT.companyId) startChatPoll();
+  const userMode = CHAT.mode === "company" || CHAT.mode === "member";
+  if (page !== "chat" && userMode) stopChatPoll();
+  if (page === "chat" && userMode && (CHAT.companyId || CHAT.memberId)) startChatPoll();
 }
 function chatOnTab(t) {
-  if (t !== "chat" && CHAT.mode === "admin") stopChatPoll();
-  if (t === "chat" && CHAT.mode === "admin" && CHAT.companyId) startChatPoll();
+  const adm = String(CHAT.mode || "").startsWith("admin");
+  if (t !== "chat" && adm) stopChatPoll();
+  if (t === "chat" && adm && (CHAT.companyId || CHAT.memberId)) startChatPoll();
+  if (t === "chat" && MEMBER.isAdmin) loadAdminMemberRooms();
 }
 
+async function joinChatMember() {
+  if (!useCloud) return alert("소통방은 클라우드 모드에서 사용할 수 있습니다.");
+  if (!MEMBER.user) { alert("회원가입 후 이용할 수 있습니다."); openAuth("signup"); return; }
+  CHAT.mode = "member"; CHAT.companyId = null; CHAT.code = "";
+  CHAT.memberId = MEMBER.user.id;
+  CHAT.memberName = (MEMBER.profile && MEMBER.profile.company_name) || MEMBER.user.email.split("@")[0];
+  document.getElementById("chatEntry").style.display = "none";
+  document.getElementById("chatRoom").style.display = "block";
+  document.getElementById("chatRoomTitle").innerHTML = `<b>${esc(CHAT.memberName)}</b> (개인 회원) ↔ 워크멘토 관리자`;
+  startChatPoll();
+}
+async function loadAdminMemberRooms() {
+  const sel = document.getElementById("achat-member");
+  if (!sel || !useCloud) return;
+  const { data } = await sb.from("messages").select("member_id, member_name, created_at").not("member_id", "is", null).order("created_at", { ascending: false }).limit(400);
+  const seen = new Map();
+  (data || []).forEach(m => { if (!seen.has(m.member_id)) seen.set(m.member_id, m.member_name || "회원"); });
+  const cur = sel.value;
+  sel.innerHTML = '<option value="">— 개인 회원 방 선택 —</option>' +
+    [...seen.entries()].map(([id, nm]) => `<option value="${esc(id)}">${esc(nm)}</option>`).join("");
+  if (cur) sel.value = cur;
+}
+function adminOpenMemberChat() {
+  const sel = document.getElementById("achat-member");
+  const uid = sel.value;
+  const coSel = document.getElementById("achat-co"); if (coSel) coSel.value = "";
+  document.getElementById("achat-code").value = "";
+  if (!uid) { stopChatPoll(); document.getElementById("aChatLog").innerHTML = '<p class="empty">기업 또는 개인 회원을 선택하면 대화가 표시됩니다.</p>'; return; }
+  CHAT.mode = "admin-member"; CHAT.companyId = null; CHAT.memberId = uid;
+  CHAT.memberName = sel.options[sel.selectedIndex] ? sel.options[sel.selectedIndex].text : "회원";
+  startChatPoll();
+}
 async function joinChat() {
   if (!useCloud) return alert("소통방은 클라우드 모드에서 사용할 수 있습니다.");
   const cid = +document.getElementById("chat-co").value;
@@ -2848,7 +2887,7 @@ async function joinChat() {
   const { data, error } = await sb.rpc("chat_check", { p_company: cid, p_code: code });
   if (error) return alert("확인 실패: " + error.message + "\n(add-chat.sql이 실행되었는지 확인하세요)");
   if (data !== true) return alert("소통방 코드가 올바르지 않습니다.");
-  CHAT.mode = "company"; CHAT.companyId = cid; CHAT.code = code;
+  CHAT.mode = "company"; CHAT.companyId = cid; CHAT.code = code; CHAT.memberId = null;
   const co = DB.companies.find(c => c.id === cid);
   try { localStorage.setItem("wm_identity", JSON.stringify({ companyId: cid, code, name: co ? co.name : "" })); } catch (_) {}
   document.getElementById("chatEntry").style.display = "none";
@@ -2857,7 +2896,7 @@ async function joinChat() {
   startChatPoll();
 }
 function leaveChat() {
-  stopChatPoll(); CHAT.mode = null; CHAT.companyId = null; CHAT.code = "";
+  stopChatPoll(); CHAT.mode = null; CHAT.companyId = null; CHAT.code = ""; CHAT.memberId = null; CHAT.memberName = "";
   document.getElementById("chatRoom").style.display = "none";
   document.getElementById("chatEntry").style.display = "block";
 }
@@ -2865,7 +2904,8 @@ async function adminOpenChat() {
   const cid = +document.getElementById("achat-co").value;
   document.getElementById("achat-code").value = "";
   if (!cid) { stopChatPoll(); document.getElementById("aChatLog").innerHTML = '<p class="empty">기업을 선택하면 대화가 표시됩니다.</p>'; return; }
-  CHAT.mode = "admin"; CHAT.companyId = cid; CHAT.code = "";
+  CHAT.mode = "admin"; CHAT.companyId = cid; CHAT.code = ""; CHAT.memberId = null;
+  const mSel = document.getElementById("achat-member"); if (mSel) mSel.value = "";
   if (useCloud) {
     const r = await sb.from("chat_codes").select("code").eq("company_id", cid).maybeSingle();
     document.getElementById("achat-code").value = r.data ? r.data.code : "(미설정 — 기업 관리에서 코드 저장)";
@@ -2873,9 +2913,13 @@ async function adminOpenChat() {
   startChatPoll();
 }
 async function fetchChat() {
-  if (!CHAT.companyId) return;
+  if (!CHAT.companyId && !CHAT.memberId) return;
   let rows = [];
-  if (CHAT.mode === "admin") {
+  if (CHAT.mode === "member" || CHAT.mode === "admin-member") {
+    const r = await sb.from("messages").select("*").eq("member_id", CHAT.memberId).order("created_at", { ascending: true }).limit(200);
+    if (r.error) { stopChatPoll(); return; }
+    rows = r.data || [];
+  } else if (CHAT.mode === "admin") {
     const r = await sb.from("messages").select("*").eq("company_id", CHAT.companyId).order("created_at", { ascending: true }).limit(200);
     rows = r.data || [];
   } else {
@@ -2891,13 +2935,14 @@ function fmtTime(s) {
   return isNaN(d) ? "" : String(d.getHours()).padStart(2, "0") + ":" + String(d.getMinutes()).padStart(2, "0");
 }
 function renderChat(rows) {
-  const log = document.getElementById(CHAT.mode === "admin" ? "aChatLog" : "chatLog");
+  const isAdm = String(CHAT.mode || "").startsWith("admin");
+  const log = document.getElementById(isAdm ? "aChatLog" : "chatLog");
   if (!log) return;
-  const me = CHAT.mode === "admin" ? "admin" : "company";
+  const me = isAdm ? "admin" : "company";
   const nearBottom = log.scrollHeight - log.scrollTop - log.clientHeight < 90;
   log.innerHTML = rows.map(m => {
     const mine = m.sender === me;
-    const who = m.sender === "admin" ? "관리자" : "기업";
+    const who = m.sender === "admin" ? "관리자" : (CHAT.memberId ? "회원" : "기업");
     const isImg = m.file && /\.(png|jpe?g|gif|webp)(\?|$)/i.test(m.file_name || m.file);
     const szTxt = m.file_size ? " (" + fmtBytes(m.file_size) + ")" : "";
     const bigMark = m.file_size && m.file_size > 5 * 1024 * 1024 ? " 🔶" : "";
@@ -2906,19 +2951,29 @@ function renderChat(rows) {
         ? `<a href="${esc(m.file)}" target="_blank" rel="noopener"><img src="${esc(m.file)}" style="max-width:200px; border-radius:8px; display:block; margin-top:4px;" /></a><span style="font-size:11px; opacity:.75;">${esc(m.file_name || "이미지")}${szTxt}${bigMark}</span>`
         : `<a href="${esc(m.file)}" target="_blank" rel="noopener" style="display:inline-block; margin-top:4px;">📎 ${esc(m.file_name || "파일")}${szTxt}${bigMark}</a>`)
       : "";
-    const delBtn = CHAT.mode === "admin" ? `<button class="mdel" title="메시지 삭제 (첨부 시 저장소 파일도 삭제)" onclick="delChatMsg(${m.id})">✕</button>` : "";
+    const delBtn = isAdm ? `<button class="mdel" title="메시지 삭제 (첨부 시 저장소 파일도 삭제)" onclick="delChatMsg(${m.id})">✕</button>` : "";
     return `<div class="msg ${mine ? "me" : "other"}">${delBtn}${m.content ? esc(m.content) : ""}${fileHtml}<span class="mtime">${who} · ${fmtTime(m.created_at)}</span></div>`;
   }).join("") || '<p class="empty">첫 메시지를 보내보세요!</p>';
   if (nearBottom || rows.length <= 1) log.scrollTop = log.scrollHeight;
 }
 async function sendChat() {
-  const inp = document.getElementById(CHAT.mode === "admin" ? "achat-msg" : "chat-msg");
+  const inp = document.getElementById(String(CHAT.mode || "").startsWith("admin") ? "achat-msg" : "chat-msg");
   const t = inp.value.trim();
-  if (!t || !CHAT.companyId) return;
+  if (!t || (!CHAT.companyId && !CHAT.memberId)) return;
   inp.value = "";
   await pushChat(t, null, null);
 }
 async function pushChat(content, file, fileName, fileSize) {
+  if (CHAT.mode === "member" || CHAT.mode === "admin-member") {
+    const { error } = await sb.from("messages").insert({
+      member_id: CHAT.memberId, member_name: CHAT.memberName || null,
+      sender: CHAT.mode === "member" ? "company" : "admin",
+      content, file, file_name: fileName, file_size: fileSize || null
+    });
+    if (error) return alert("전송 실패: " + error.message + "\n(add-personal-chat.sql 실행 여부를 확인하세요)");
+    fetchChat();
+    return;
+  }
   if (CHAT.mode === "admin") {
     const { error } = await sb.from("messages").insert({ company_id: CHAT.companyId, sender: "admin", content, file, file_name: fileName, file_size: fileSize || null });
     if (error) return alert("전송 실패: " + error.message + "\n(add-chat.sql 실행 여부를 확인하세요)");
@@ -2966,10 +3021,12 @@ async function sendChatFile(inputId) {
   const el = document.getElementById(inputId);
   const f = el.files[0];
   el.value = "";
-  if (!f || !CHAT.companyId) return;
+  if (!f) return;
+  if (CHAT.mode === "member") return alert("개인 회원 방의 파일 전송은 곧 지원됩니다.\n필요한 파일은 메시지로 요청하시면 관리자가 보내드립니다.");
+  if (!CHAT.companyId && !CHAT.memberId) return;
   if (f.size > 25 * 1024 * 1024) return alert("25MB 이하 파일만 보낼 수 있습니다.");
   let up = null;
-  if (CHAT.mode === "admin") {
+  if (String(CHAT.mode || "").startsWith("admin")) {
     up = await uploadToR2(f, "chat");
   } else {
     const proxy = (DB.api.proxy || "").replace(/\/$/, "");
