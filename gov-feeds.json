@@ -1,13 +1,13 @@
 {
- "updatedAt": "2026-07-11T20:09:05.396Z",
+ "updatedAt": "2026-07-11T21:21:36.100Z",
  "groups": {
   "tax": [
    {
-    "title": "\"체납도 해결했다\"더니…박유천, 전 소속사 \"국세청 명단 그대로\" 재반박",
-    "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5STUlsOExEMG1jaXZjN0NwX0Q5NHN5NUNTM1Rtc05NTjJVUEFaY2xMV0dFNldFeXRfWDdicGRFTmZTUlNTbTNJX3VlZEhPdnFHWmM4?oc=5",
-    "date": "Sat, 11 Jul 2026 10:31:00 GMT",
+    "title": "국세청 KT 특별세무조사로 구현모·김영섭 시절 사업 다시 도마, 박윤영 체제에 미칠 영향 촉각",
+    "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9zQ21BbVczb2RpaU11aFZTUU1ScV81QUxfWmV2Y0dXM2xHOFh1SzNKRmw2SzItZlVaUk14SHpaeWF2czdpU3NnNklQUE9FdzZQUFEyblFxSjJLZ3ljLVNSb0pXQVRNSkZwZ2xSbzZvT2tNRms?oc=5",
+    "date": "Sat, 11 Jul 2026 21:00:00 GMT",
     "summary": "",
-    "source": "네이트"
+    "source": "비즈니스포스트"
    },
    {
     "title": "국세청, 13일자 고위직 인사...최일선 국세청 개인납세국장~국세공무원교육원장 비고시 두(2) 사람(?)",
@@ -357,18 +357,46 @@
   ],
   "law": [
    {
+    "title": "미 법무부, '에어포스원 보안 우려' 보도 NYT 기자들에 소환장",
+    "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE55U25mTzVESHB4ZnI5TFZ4X2hFX2lXMWM1RF9wU1Myd1JJaVZnUnRELWdZNUpWaHYxLWVtVGRacWdQYWJJb3hDR0diUmZBNzNRSVg1bk5qNml5M2pYYzkzZTlkaDFUeF9FTFh1dUVYNUhCMGhy0gF0QVVfeXFMTVFWNHJVMnpRRlNqbVZDNUdjaWVfRE56c0dEcU4zZGpBWjRFenZONEltc2pxZC1zVnlMVU1Zc2RXcXlBY1pLMWVDRFUxdVN1OUQ0ZG1WaTRBWUN4eU5tYmluMzY5UkNnT0lGeC0zaEdqdzkwWHQ?oc=5",
+    "date": "Sat, 11 Jul 2026 21:08:57 GMT",
+    "summary": "",
+    "source": "MBC 뉴스"
+   },
+   {
+    "title": "미 법무부, ‘새 에어포스원 보안 우려’ 보도 NYT 기자들에 소환장",
+    "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBXRkUxeFpwUUdsOF91R1Y0djdQVTlpQlZnUFlNZmtfT2tSNElEQUQ0MC1qR0xLRUpfbVlfbWFSNHcyb3Bra2ZGZGVhb0dwRWtJeXhVRWhOWVFFQmc?oc=5",
+    "date": "Sat, 11 Jul 2026 20:41:00 GMT",
+    "summary": "",
+    "source": "KBS 뉴스"
+   },
+   {
+    "title": "美법무부, NYT에 소환장 발부…\"언론 자유 침해\" 반발",
+    "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5HNnJGLUU0X3Rvc2Q4MVhIRkRVN1ltejM4TkpYOElQeVpSNWE1RWtBMVhmY1ZLT0swSURtLU9oS1ZnR0IzajJZeVl0SERvTmg3WXdmbWVVYVZrNHFtSHE2NVRqTmNQVXBuQUpwYzZFTl85ZEUtMlF3aw?oc=5",
+    "date": "Sat, 11 Jul 2026 20:32:00 GMT",
+    "summary": "",
+    "source": "네이트"
+   },
+   {
+    "title": "美법무부, '새 에어포스원 보안 우려' 보도 NYT 기자들에 소환장",
+    "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBVbmU5MnJkZU54Z0tXZ3ZjNFZWeVEtX00tNXAwdzNLazJfQUxZYTZDSC01Rk51TFdiclpvUHhlTkpZc2FPOUJ5LTdOdTFsc3lFblU3bEhDNWx5NzZEMGF1aGloeFNpMG13M2hYWTRXZnVJdUxjZmdRSA?oc=5",
+    "date": "Sat, 11 Jul 2026 20:06:00 GMT",
+    "summary": "",
+    "source": "네이트"
+   },
+   {
+    "title": "진보 법률가, 국회 전문위원, 법무부까지…檢보완수사권 폐지에 '물음표'",
+    "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9lUkNzQjhhc3dFa3J2eGpNdG01RWNrNnpkTDI5bGtEQXRwT1JrV3RTOGpvZ3Vud3huckVka0JZN3hlTXJVVUQ3VzNic3p0RE1fMmpiYUs0aWZqdjhOY2JOR2o4VEF5MkNXM3c?oc=5",
+    "date": "Sat, 11 Jul 2026 20:02:00 GMT",
+    "summary": "",
+    "source": "네이트"
+   },
+   {
     "title": "美 법무부, NYT 기자들에 소환장…'새 대통령 전용기 보안우려' 보도 후폭풍",
     "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5wM3lXZDdVdkRwbEx0dHpjeUpqZXNNRkQtY255ZllVQXJaYnZYYnZYV1pqb3k5TnBlaXN2OWFtZXJZNWFUZFdkdmVpYnV3R3d5QU1GaTZCTGw?oc=5",
     "date": "Sat, 11 Jul 2026 19:29:24 GMT",
     "summary": "",
     "source": "뉴스1"
-   },
-   {
-    "title": "미 법무부, '새 에어포스원 보안 우려' 보도 NYT 기자들에 소환장",
-    "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBGWk5WZWM2SG9SUW1QeFFzVTdmaF82dm83a0oyX1FlbHN1NUpNSkxNMzY0U2p4ejVLbFVZUmMyZWw0ZlhqN09COVZhWHRuOWxqUkRPeXNMSW1ILWgtNm9nMA?oc=5",
-    "date": "Sat, 11 Jul 2026 19:11:00 GMT",
-    "summary": "",
-    "source": "네이트"
    },
    {
     "title": "美법무부, '새 에어포스원 보안 우려' 보도 NYT 기자들에 소환장",
@@ -413,13 +441,6 @@
     "source": "블루밍비트"
    },
    {
-    "title": "교도소 후보지 공모제로 정한다…법무부 최초 시행",
-    "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFAzX2JoY29mSFByZFdmVGFYQmNyTVA3YkVTcHJ4SDlEeXZ0TmVVeHVQZF9ZUlJSSkVFSjIyWDBZRDNUWnUzOUJTZ2ZERzhDLUp6Mjln?oc=5",
-    "date": "Fri, 10 Jul 2026 22:01:00 GMT",
-    "summary": "",
-    "source": "네이트"
-   },
-   {
     "title": "\"약국 '성지·특가' 왜 못 쓰나\"…공정위, 복지부 개정안 제동",
     "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1xWG5jMlBVZ3BmandELS0zYlo5MGhnbjM0bWpxVHA3UUZvWHlpREpHUkh2NHpMRmgtd2FzQzcwMXBud3oyWjNIc3h4OHVPUEFD?oc=5",
     "date": "Fri, 10 Jul 2026 20:30:26 GMT",
@@ -439,6 +460,13 @@
     "date": "Fri, 10 Jul 2026 09:37:53 GMT",
     "summary": "",
     "source": "v.daum.net"
+   },
+   {
+    "title": "법무부 \"'전건송치' 복원 필요…보완수사권 폐지 대안 마련해야\"",
+    "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFA3bUF0aWlOYVdRWGd5Wm9jVFNJM2NaNWFwN2xJbFFEcXQxUWd2V3d2NVVGVm5kS2ZKaGd3WU9QQkxGLXFRcUNLN2psZzJneFY0cG9TSXYwUG8ydw?oc=5",
+    "date": "Fri, 10 Jul 2026 09:36:32 GMT",
+    "summary": "",
+    "source": "파이낸셜뉴스"
    },
    {
     "title": "여야, 피의자 구속기간 단축 추진…법무부·검찰·경찰 \"현행 유지\" 한목소리",
@@ -467,13 +495,6 @@
     "date": "Fri, 10 Jul 2026 08:07:48 GMT",
     "summary": "",
     "source": "서울Pn"
-   },
-   {
-    "title": "법무부, 『탁월한 피해자』저자와 북토크 개최",
-    "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9tbzFJMmlVZTNXc1hydEl3OUpyRlgwaTQxQ0hFQUpLR0ZoaGVmUDhIMXFoTFI5WXVLTmZOZXdJQ3NSbGVFT3lLbXVYelFhSl8ySWlKdkhkbTJ4bHFmQktYa28yUUU1ajdHVFlOeTdBNlk?oc=5",
-    "date": "Fri, 10 Jul 2026 08:06:01 GMT",
-    "summary": "",
-    "source": "모빅경제"
    },
    {
     "title": "법무부, '교정시설 조성 공모제' 도입…지자체가 후보지 제안",
@@ -509,30 +530,16 @@
     "date": "Fri, 10 Jul 2026 06:34:06 GMT",
     "summary": "",
     "source": "포인트경제"
-   },
-   {
-    "title": "공정위, ‘솔리드웍스’ 대리점 담합 적발…과징금 24억원 부과",
-    "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1HQWU0VW9ZLS1ZbEFIZ2VYUmcwemRuT1RkRVZpWE5YWEx0NFhDNy01RWtqdzZCLTJQb1pPOFRYUUNCdUJ5bkZMalZCZ0JMWm1VSzJVTjQ3N0ROcGdvTjhCOXhMTHhLdTA0LTU1OQ?oc=5",
-    "date": "Fri, 10 Jul 2026 05:46:27 GMT",
-    "summary": "",
-    "source": "스페셜경제"
-   },
-   {
-    "title": "공정위·16개 시도교육청, 교복 입찰담합 차단 협력…감시망 강화",
-    "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBQS3FUQlM5RWdfS1NfZlZPX1ZFNV81WUVTcURPbHVzaHltX3hFRVo2bk1MVlhkSWprSGd3Mjl5SFVQVnF2TlJwUnlRRlFNS0VRdlpJMA?oc=5",
-    "date": "Fri, 10 Jul 2026 05:46:10 GMT",
-    "summary": "",
-    "source": "뉴스1"
-   },
-   {
-    "title": "교복 입찰담합 막는다...공정위, 16개 시도교육청과 감시망 강화",
-    "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE0wRmhZNENMbUhGaVRpTWFVR3B0X3VldktvZU4zN1MzTTZaNzlVQUNnR0lPcTZZWkNXNEZOZlh4cEN6ZmJaWnNTUnJHcWdWU1lNamFfbDhzSWJIeFZD?oc=5",
-    "date": "Fri, 10 Jul 2026 05:30:00 GMT",
-    "summary": "",
-    "source": "뉴스핌"
    }
   ],
   "fund": [
+   {
+    "title": "금융위, 청년 주거지원책 고심…매매보다 전월세 초점 예상",
+    "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5QVjYwaEJka1Y2RV9Ud2pUa3Y3UnVVcTFPQ2JoczB0VzM2RzB0OENaOVdOQkt5ZkcwY21McmdLMWFVUHRDRDFJR0FwYS1wSFV2cEww?oc=5",
+    "date": "Sat, 11 Jul 2026 20:49:00 GMT",
+    "summary": "",
+    "source": "네이트"
+   },
    {
     "title": "이번주 국내 주요 금융일정(7.13~7.17)",
     "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9uWnRQNExpMXIwZWp4dFVkYzZDUU8xMmxtNmNTV3kwRXlYbzFaRWJVQzlOUmRFSXdwdVB0VXlNcHJxb0JDd1dWei10MC1IOE91OEx3?oc=5",
@@ -581,13 +588,6 @@
     "date": "Fri, 10 Jul 2026 23:03:05 GMT",
     "summary": "",
     "source": "연합인포맥스"
-   },
-   {
-    "title": "다음주 금융당국 일정",
-    "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOY2JZU3hCaG44SV92eU01ZWlOR0w5Q19oeTFqUDg0NHBBQlZRRzBsQldxWmJGQk54Vm1sYWtzejVobUhPNTV6TThxRnZ6VzNjN1A2MF9yYU4tQzlma2tEaHZ2ajZmRkQ3SzlLSW5WYldOMFUzVW1pVVdUNXZ2ckZ2Sg?oc=5",
-    "date": "Fri, 10 Jul 2026 21:30:32 GMT",
-    "summary": "",
-    "source": "이데일리"
    },
    {
     "title": "관세청, 라벨갈이 신고센터 구축…국산둔갑 단속망 강화",
@@ -695,18 +695,18 @@
     "source": "연합뉴스"
    },
    {
-    "title": "관세청-패션봉제업계 간담회",
-    "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBOTnJ0UlhlM2RqV0lRQy0xN25hXzJzS1YzbUN6M3YwampRbF9yMjhLQ2Z2b19oOGJCMTBGODI4QlY4SVBTR194TUdUY1BwNDdkNTNWWnBLSm53M2xiMGU4SdIBYEFVX3lxTFBOTnJ0UlhlM2RqV0lRQy0xN25hXzJzS1YzbUN6M3YwampRbF9yMjhLQ2Z2b19oOGJCMTBGODI4QlY4SVBTR194TUdUY1BwNDdkNTNWWnBLSm53M2xiMGU4SQ?oc=5",
-    "date": "Fri, 10 Jul 2026 07:05:45 GMT",
-    "summary": "",
-    "source": "연합뉴스"
-   },
-   {
     "title": "“마약 우회수출 원천 차단”…관세청, 관세사회와 불법무역 공조 확대",
     "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE56YlRZVHdJMmM5c3pwQ2VKMHBHdUtPOGh4Vm5oVVk5TUZzcGZZSVR0RlpwNnRSd3BJRklVVXMyS1hLVUNQdDBucVo3VHBFX3MtYWRUek9NUdIBpgJBVV95cUxOYS1CRGk5cmRDZkxMMnFSZE1zdUdqMkNfTHBPUU9uTWpMc2V2X1Y4Y0VnRWxYMG9oejV0blJfUU0xdzJCakJwRnRMemttX1FqbEp2RVpiTDZpcGV6RFQwcHJkeFI3VERnZGJHYWRwa0VVR0ZLcGZURWJrQ2lRYnB4eTA5WklWRHJyZnVmejhobW8yUk5EOENOalFzR1N1X1VuSVlQSVBoekpPRl9GNDFSNWNGT0M2TEQ2S0Z4MVQzQ3hHLThjd2s5elFMaXBvdG04MDBkWEg4NE1MVmdiWmNtNVVHUjdndlJfNGV6Z0EtN1djUmEzTFl2aEIySG05QUZNMTY0cHRlYkllaFZTTlk1MGY4aGRGTVVlejhXZnFXTE92YzJSRFE?oc=5",
     "date": "Fri, 10 Jul 2026 06:34:00 GMT",
     "summary": "",
     "source": "데일리안"
+   },
+   {
+    "title": "관세청, 관세사와 관세국경 수호 나선다",
+    "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5ycWFlaC1BaGRpQzVjTE9WOXJ3VTczYkExSXpSSXB5OC1qeWJTQUxPT2tuQlpWZzA2LXk5U1RtZlhvdzkxNHhXWUItTXRVLXhzTmVNRjUtaV9wbWNiUzNrYVhsWm8?oc=5",
+    "date": "Fri, 10 Jul 2026 06:15:34 GMT",
+    "summary": "",
+    "source": "한국세정신문"
    }
   ],
   "biz": [
@@ -716,13 +716,6 @@
     "date": "Sat, 11 Jul 2026 10:27:00 GMT",
     "summary": "",
     "source": "OhmyNews"
-   },
-   {
-    "title": "유니콘브릿지 50개사, 바이오·AI가 절반 [벤처인사이드]",
-    "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5GbkRZQTNiclgtcjhkVmVxQnJtcm9aQ2FhaE1qb2lKRDVMRFRuSk9RMl9uV21pWE82ZlFqQ1h3eGpfMDllaDdtbXF1aVZDcnZLckItMjJjakNCcEJXQ080a01R?oc=5",
-    "date": "Fri, 10 Jul 2026 21:00:00 GMT",
-    "summary": "",
-    "source": "디지털데일리"
    },
    {
     "title": "중소기업, 위기징후는 빠르게 찾고 재도약은 더 확실하게 - 카드/한컷 | 멀티미디어",
@@ -753,6 +746,13 @@
     "source": "한국NGO신문"
    },
    {
+    "title": "무신사, 중기부와 소상공인 지원 '소담클래스' 진행",
+    "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE4wR2JJSzZKR204Skt0M1lMb3JNRW4zUjlDMUR0YW1pU0lLWkdNbHItV3lReHVPMXhWQjNRVWFXODM2Y2ZHSGFSOWp5QzRjeEw1SUszZmZxLTJndw?oc=5",
+    "date": "Thu, 09 Jul 2026 07:46:22 GMT",
+    "summary": "",
+    "source": "파이낸셜뉴스"
+   },
+   {
     "title": "[2026 SME AX 리더스포럼] “AI 날개 단 中企, 적은 인원으로 대기업 수준 성과 가능”(종합) - 조선비즈",
     "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQb25iTUdjX2I2TlMzdzJLdk5KSzdOLWNCQlctWjBFc0RzbTR3S18yODVtd0UyWjJQMUFHLVNNbXNXNDlvbVZZdS1MWTk0WUhPZllMTDBad3I0RElRQTdxdDJzMmRvZFVTU1ZVSGJuM05jTVZzYjNzRWdDYlNJZnI0WUJMYWoyd2tmRVRmTHlSeW7SAaQBQVVfeXFMT0otYThGdTJLTlh6WXFxOXZFOVBhN2VQR0RtWHRxRTdJcFQ4VVZIeUV5Sk9tZXJrRGVTSFZjMm4xQWUxZFEtLU9QcFRvODU4bFl4elc5WFo3aDE5MkFvNGNjQnVVenVKc1Boc2ZiMURGTjgyUG5RTGhIRDRObTJFdzVHZGdnNWwxNzd3V2ZMa014UGdadFAwTlhFS2dBOFFUTk5RTEI?oc=5",
     "date": "Thu, 09 Jul 2026 07:23:00 GMT",
@@ -767,6 +767,13 @@
     "source": "경기일보"
    },
    {
+    "title": "중기부 제1차관, 싱가포르기업청장과 면담",
+    "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1ZcFl6UGtDcmpHMTF3M0ZKeGlSLTFRRGIzX1o4VXloR2Q4SE03ZGpWaGlPdjNqaVhZVFRuZWxVdU1tRXZIcWN5REpKRmJXejM0?oc=5",
+    "date": "Thu, 09 Jul 2026 05:05:48 GMT",
+    "summary": "",
+    "source": "문화일보"
+   },
+   {
     "title": "[2026 SME AX 리더스포럼] AI가 바꾸는 산업 지형…현장서 쏟아진 성장 전략 - 조선비즈",
     "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNazlSUkxjbUpjaDZ2SUpJbTdKakluY2R0Yng2U09oWHZtd3F5UVAzYk9BUEJQWEZ3ZUM0NW5HcG1YNXNuYzlMVUk5NDlqemp2Q1BleHJvaDdpM0xLcXFhMnhZNmZyclcxWXBRTHlzS0VvTjFSb2pTeVR4WUhRU1RvMmktbzY1bUl1czFjNWpKcGXSAaQBQVVfeXFMTzlEVHF0OE5paHNlWnRwbEtoY1hyMlBITVJwbVJHQTE0SzlpbGZHZkY2NEF0NGx4NEdsSnNmeTd3SlZFR2RpS0pUeXo4SnVwY19tWG5tZVAzeVJjM2JEbmRNNXJUNVM5ZDJJWHFGNGNpYkFBaXh4dmlyYXVRSC0zUnRxZkxzVTRaVmhiZ25JWEF6Qi05VGQyS0tYX0JpcUlRaU9Tazc?oc=5",
     "date": "Thu, 09 Jul 2026 04:39:00 GMT",
@@ -774,11 +781,32 @@
     "source": "Chosunbiz"
    },
    {
+    "title": "중소기업 R&D 성과, '혁신제품' 지정으로 공공시장 진출",
+    "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5JS2MwX1BFMGdTODljd25jOTVCbzNhbVlYQkJleXhfUHM4M0ZQMFVyUjRteWtmWFd4blRxWUh4YzNWWmdWcXMxWl9icXZSUQ?oc=5",
+    "date": "Thu, 09 Jul 2026 04:37:08 GMT",
+    "summary": "",
+    "source": "전자신문"
+   },
+   {
     "title": "중기부, '혁신제품 신규 지정' 공모…\"中企 공공시장 진입 지원\"",
     "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5ZOGx6aTEwSE93SnJnaThEcG1Ra0JoYmNKeUxNX3g4WHowODFZaWxGRVpUeFVqbXc2Z3pURWtwd3JCUkdKalVndC1NTUNLOHYxSEo5SUw0cDFlY2txbEN1QdIBYEFVX3lxTE5ZOGx6aTEwSE93SnJnaThEcG1Ra0JoYmNKeUxNX3g4WHowODFZaWxGRVpUeFVqbXc2Z3pURWtwd3JCUkdKalVndC1NTUNLOHYxSEo5SUw0cDFlY2txbEN1QQ?oc=5",
     "date": "Thu, 09 Jul 2026 03:00:07 GMT",
     "summary": "",
     "source": "연합뉴스"
+   },
+   {
+    "title": "중기부, 싱가포르기업청과 면담…'컴업·스위치' 스타트업 교류 확대",
+    "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE95NlZEUVhrWG14bFBDbHpHbXlGTDlDYktxLXZ0MmpjV1hiRHN5MWRVNGE2UUF3NUlDZTh0blUxdFJzYjNaNUd0R1EtMjRsVDJLNkI5bXNDcGh0Um8t?oc=5",
+    "date": "Thu, 09 Jul 2026 02:40:00 GMT",
+    "summary": "",
+    "source": "뉴스1"
+   },
+   {
+    "title": "무신사, 중기부·한유원과 '소담클래스' 운영…소상공인 브랜드 성장 지원",
+    "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9HdWVlRVZfUmNxbzJiMGRVbXFBREVXaUxOWWdGTjBBWTZpbWpoTkdUWnRRR3dRcGZjLU1rSFdNUHRlWlNTWGlGY2hOTG5HNUdSODBpZGh5dFdyMk00Q1N2V3RvSC0?oc=5",
+    "date": "Thu, 09 Jul 2026 01:39:00 GMT",
+    "summary": "",
+    "source": "entv.kr"
    },
    {
     "title": "중기부·한유원, 10일 벡스코서 부산 지역상품 구매상담회 열어",
@@ -793,6 +821,13 @@
     "date": "Thu, 09 Jul 2026 00:53:00 GMT",
     "summary": "",
     "source": "Chosunbiz"
+   },
+   {
+    "title": "무신사, 중기부·한유원과 소상공인 지원 '소담클래스' 진행",
+    "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9IcXJ5UlVSYlg0QURxaEk2dF93OUpqeDVwV1FLM01aZnVrYXFwR3VKeUNpenVBeUFDcEd1MVhXQVdxUG9TbEExbklMenJhalk3Zk9lM1JpdW56QUHSAWBBVV95cUxQV1VYckpHWDhKb3psZzlQX0FlQ24yeHNsSVJaNWNMMXNaV25uZUhIM21aSGNHQTV4RVpnRDJGRVA3VzRlOFRZY2ttNnRmRWZHeTN1OHVmcWc4Ri11U05aOHk?oc=5",
+    "date": "Thu, 09 Jul 2026 00:50:44 GMT",
+    "summary": "",
+    "source": "연합뉴스"
    },
    {
     "title": "[2026 SME AX 리더스포럼] 이병권 중기부 차관 “AI 대전환서 中企·소상공인 소외 없도록 지원” - 조선비즈",
@@ -849,41 +884,6 @@
     "date": "Wed, 08 Jul 2026 13:39:00 GMT",
     "summary": "",
     "source": "스포츠경향"
-   },
-   {
-    "title": "올해 마지막 수출 바우처 모집…중기부, 470억원 투입",
-    "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBjODljdjBYSGFGYlAtZUVzcTZFTzNZSmRodDVEUi1FbXdLUzNCZkxRZjZHTDFEaGNvU1IwMkxqdGlRZ1RvT3FRMW1MM3BoeFE?oc=5",
-    "date": "Wed, 08 Jul 2026 11:07:36 GMT",
-    "summary": "",
-    "source": "v.daum.net"
-   },
-   {
-    "title": "“영업이익으로 이자도 못내는 기업 늘어”...위기관리 중소기업 6만개에서 25만개로 확대",
-    "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBQSXphaHAxaDRJZU0xcXZ4dlA5dzRneXAxRkp5Umo4T0FldFE3dnZ3aFZ2aDFDck5WRHozX2RNdklMNm9QZHJPaW1Ec0NWblk?oc=5",
-    "date": "Wed, 08 Jul 2026 09:18:00 GMT",
-    "summary": "",
-    "source": "v.daum.net"
-   },
-   {
-    "title": "중기부, ’우월적 지위 남용’ 한국엔지니어링플라스틱 고발 요청",
-    "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBPVklBZFBYVUlMYU1hMFZIWHZqYm1hazdobTlIdFhDYnNGU3FrTXdXeGN5QmJad1VhSjNBQ2xRRTAyUGRjOTZRUWQ3djdmTG1oV0hVdFAzU0RTTk41ODc0VjNzQWRWWWs?oc=5",
-    "date": "Wed, 08 Jul 2026 08:56:00 GMT",
-    "summary": "",
-    "source": "연합뉴스TV"
-   },
-   {
-    "title": "중기부, ‘경쟁사와 7년 거래금지’ 한국엔지니어링플라스틱 검찰 고발 요청",
-    "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFB2X2tMWkhLZW9sQVZDdnpFaEJWbFZQNndWMEtPTGdfQ0xBTmhwelZMUXc3eDlPdVNMR2xFbVUtWTFnQVRvZEJ5UmlKRi1xa3kzdmVoQUEzOUZEZ9IBX0FVX3lxTE9OOWpVY3FkRDJhUnBlNVliYkdZNjJ4ZXY5WDlrMm54ZDhzZFhaa1JxSjFlRnB6cmxMRFNJZ3NMSmZXNFF4WUp4N3NOS2FLWmkxZUNGQ2dsZjlHWTFsNG9Z?oc=5",
-    "date": "Wed, 08 Jul 2026 08:50:00 GMT",
-    "summary": "",
-    "source": "경향신문"
-   },
-   {
-    "title": "김수윤 변호사, 중소벤처기업부 고문변호사 위촉",
-    "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBONi1ybENrTURNeGNwNWtRYk0wQ29ldVRXNUZSRFE0N3Axc2VxZmZMNjA5T1F2emZtMk5KRUFIWTJZQmZIMEVCY1pfcEtkelJsMnlBODNRZ3FfWVNWSGdCeTBBODJFSUZyRV9Udk1B0gFyQVVfeXFMTllpQmpxaEdaQkxkMW1HQTVUQnJ6NDU0WDJRbTR2V0xxTFEtYWR1cVIzVjZGU2VDMGN0Rm5BTkV0eEdReUxLM3czV05rMWp6YUw4c0hnVGRDSm5SVWNnc2tBdGtMMm1pc25LVGx0bHpHMWh3?oc=5",
-    "date": "Wed, 08 Jul 2026 08:37:26 GMT",
-    "summary": "",
-    "source": "법률신문"
    }
   ],
   "money": [
@@ -1065,6 +1065,13 @@
   ],
   "guide": [
    {
+    "title": "692만 사업자 부가세 신고 \"27일까지\"... 취약계층은 2개월 연장",
+    "url": "https://news.google.com/rss/articles/CBMigARBVV95cUxQVWxKYzI4bG14T2FoUGVTNG10clkydUtWMVdWMk01OXB3NG9ncE5DMm1GNXRJMW1VYUxsZ3ZIM2VnUG1Bd3ZlTktGVEdYUzRJMlppa0U3Vi1DeFZTYlNJWUZhNHVlLUNJc00zZkkyU3ZOSzFxNTBYbW9iZ055dXdwenNnUjJ3UFlReVBaQWV3alg0UkxUVTh1T0tmWlkxRXJhTUN2VzA1YmMzNFJHWFFNVkVRZjhCLUxQb19aZVdENEJZX3IxWW9QbE41aEZybUJxbVp0Ul9yV0pYWlo2aEdpZlJSTzhYZFg2ZnhxOTlIR3R0UFAtWUdwc1F6emZvM1ZoXzc2UktnTkRyc0xwRzBiYUk3RWJXQk5jWkFnV2dCV0hwRkwyUDA0QnBUanZNaGhtdlkxeUtlV1UwbVUyQ3pCRndQMnlnRTN4NXBXTUZZd1FtLWhiTDVNNF9CY0I5cVdhdFVFc3hFS1hhU1MwME5tWGJZZTlWVEh0YlVBbnJtQ1VSWnh0TDc5YUZ4alVWU3FTOVpNYXBpRVNUdUlxZXZYSXpNYmxYQnBMazVoVmJCTGV4c3VndzhDbTZMb0NoYmJNOEZDYnNsZFhPbWhuN2kxWWt2ZkZJWDE3WFNIcjFVQUs5aEVrbWpPa2Y3dDFSM0dqeXdvUVJHeVFFQ3htVFluNQ?oc=5",
+    "date": "Sat, 11 Jul 2026 15:12:31 GMT",
+    "summary": "",
+    "source": "MSN"
+   },
+   {
     "title": "부가세 확정신고 27일까지…위메프 등 피해 대손공제",
     "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBtbk03UFNVYXBURGFOaHNZbnltcE1Yb1VXS2UxZE1JdWhZWnA5TUNSV0ZPdXFHWVRocGVxRmhsLVp5bHNLb20xZXl2dEllOUxUY19pS1VHWDBONGF6RVFrM09UcmdjQ1h1alYxRA?oc=5",
     "date": "Sat, 11 Jul 2026 01:18:27 GMT",
@@ -1073,10 +1080,17 @@
    },
    {
     "title": "부가세 신고 시즌 맞아…아이퀘스트, AI 신고 기능 제공",
-    "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE5ycHJfRUNFMmVqYnMxa0lrYURTQW1FUDJmUGNtU1A3Nk5ydi13R09qb2ppbE1lbndmWm9KaXNCSmlHUGwwVmc?oc=5",
+    "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFA3T1VGYloyYklIN2NPUjF1eEhIcVZuMXNmaUZHX3h6STMzNFRNU3dSeV85aHpHRENLcE10a2JxRUpGRnFGdHBBOTJyNnFBZG8?oc=5",
     "date": "Fri, 10 Jul 2026 01:03:10 GMT",
     "summary": "",
     "source": "v.daum.net"
+   },
+   {
+    "title": "부가세 신고 시즌 맞아…아이퀘스트, AI 신고 기능 제공",
+    "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1BTjBhYk9aWERhMzA1ODZpTDJQVG4yNDJHNWJtVndnUndXRHNuXzFLNHVsYmQzSEJ5akFDbXdpeUl6VHhfZDY1VGVOREVxcl91WGcxWXRjNFphRkxQR3Ita0dZXzNWSm8?oc=5",
+    "date": "Fri, 10 Jul 2026 01:01:43 GMT",
+    "summary": "",
+    "source": "한경매거진&북"
    },
    {
     "title": "아이퀘스트 \"얼마365, 맞춤형 부가세 자동 신고 서비스 제공\"",
@@ -1084,6 +1098,13 @@
     "date": "Fri, 10 Jul 2026 00:51:26 GMT",
     "summary": "",
     "source": "뉴시스"
+   },
+   {
+    "title": "아이퀘스트, '얼마365' AI 기반 맞춤형 부가세 자동 신고 서비스 제공",
+    "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5QVHY2QWh3c045ZjFiR1RMTERITENsYzFMNFpTX3lISUx2ZDRtRU1Jd190SmtTbWprQzhzYXloX2k5ckNyeUFiQlpzRnJoUHhHblZOQnF6V1dUZ09xUXRfNg?oc=5",
+    "date": "Fri, 10 Jul 2026 00:23:00 GMT",
+    "summary": "",
+    "source": "네이트"
    },
    {
     "title": "아이퀘스트, '얼마365' AI 기반 맞춤형 부가세 자동 신고 서비스 제공",
@@ -1198,13 +1219,6 @@
     "source": "창원특례신문"
    },
    {
-    "title": "국세청, 부가세 신고 시작…692만 사업자 대상 세정 지원 확대",
-    "url": "https://news.google.com/rss/articles/CBMisgZBVV95cUxPYzhRSkg3LXdOSUZOdUlEVm9BX1Uza3lkLW9tdmRaOVhGY010UmxXOVBVVE5FdWl0QnMyVDVhTDRzWno3NU5neUdtUHVmTGJpakRhZm9lYXJYaUl0ODZHelFXNWxYOXVqM2lScEFVS2tCV3ZRVnNUMTdWRlItUERNbnpVR3NSUHo5RnNjQjhHVXlpYk10NkdteGZTYklYYldZMjI3dFJjN21WejFCMXEzaWxYczNqNmRkRXE4MkNTbW83VTN3Z29UU1BGN3BNUDVwSTdpbXc4MlI2WG0xVmpEYTFoYmVQdS1ia3VadnRBcVJkTk9xdDVRWjgwaUZ1dWF1c0k3V0V0d1AtWGw3cVhTSGFqajNUOUYzZU5FTno1blVJUWpabUJ2bjZpRDRYbjRwUE53akJhY29GeC1tSmxhRWUta1lwTWVRWEFtc25DYWFYeGJ1cTNYQno2eC1oMG9MemFuWm9tTndWWXNBSkFPTTFIUE53M01lajUyMWtyYkVlZWl5OVRFZERrcGZabEsxUUo2YnJfbnExbi1KemdMRjZGcnpHSFcwcWNsd1ZQQ0gxbC1ZNWhtanBpYUVyWGhEd21qUmdKdVNST3JEeXZlQ21WaTA5ZXA2X3I2bmVWejIzNHVIOG9sQTlndjVqQzhKdVRQdGdYdUlhdDhlTHpXaWN0TzNRbWxfZHJXWGh1aGdyeU1pbVRBZlRqSkNTeWhsUEZMZFBwR0VGdnNjZHA2ZXFJdDl4N0VpN0sxbDhGX1puNU9LZmoyY1NjWW1pSm0zRVN0Vjk3bkI0dUJTdzVYaDRxcExteTk2UnBmbF9ydi1MN2hzOHpyVVEtX21WOGxfSE5saUxnNnZFbS1jcUw0WDJ3TXdhNkZOWUhTdndRNVRaOXpuTDJKWHpiOHItclI2UEpqMFhtakpVTlh1cWxVMFlWVEZOMk1hOUNBTk11b3hiZzd4UTRsOWZFUnlodlp0d1NyQjFsaHdmLW9IOFN5ZXczWlRJTldnSWpHWks3OGY0TV9SZmFRM1o3a0tZOUtYdksyUmFsZTRZWmxVRGo5WmltQ2dGWl9YbkZhRmV5dUZfUQ?oc=5",
-    "date": "Thu, 02 Jul 2026 13:56:09 GMT",
-    "summary": "",
-    "source": "전자신문"
-   },
-   {
     "title": "공유숙박업 매출 불성실 신고 성행… 국세청 “매출 자료 정밀 점검할 것”",
     "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBubzdVZWhOSjNTbFFuUmFWTW5mYkhrS0xYWGtHblNpWFQwTnlNSi1Hbk9NNUFoQXRuV2VqZnlncGRFQXowMVhBQmVSR1Z4cl9nWThDMllraE1wYzUyamhVb2pELW41SG1HZlctaEhLQUktNGtYZFBGdA?oc=5",
     "date": "Thu, 02 Jul 2026 09:36:41 GMT",
@@ -1224,20 +1238,6 @@
     "date": "Thu, 02 Jul 2026 09:00:00 GMT",
     "summary": "",
     "source": "채널A"
-   },
-   {
-    "title": "\"부가세 신고 27일까지\"…692만 사업자 대상, 103만 명은 납부 2개월 자동 연장",
-    "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9YNFVuQU1TZWowNzkyS2o0empwYVhtSTB5ekZWWFJOQmZ5V0QtMjdKYkxTNGF1ckRxYnVNeWR4WFBkMXpMckZ2dVJLTTZSMjlEMkJrQXhicmZ3aVU2bGpB?oc=5",
-    "date": "Thu, 02 Jul 2026 08:03:20 GMT",
-    "summary": "",
-    "source": "kjtimes"
-   },
-   {
-    "title": "부가세 확정신고 27일까지…신고 대상자는 692만명",
-    "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE15WFQwU0pIdjc1QmxNWjNzeFd3S0JITmViSmo4Z2tVOW52NmtWbEhIMnV3eWVpQXNrSWdRRnhHRjB5LTVULTJTV2s2QQ?oc=5",
-    "date": "Thu, 02 Jul 2026 07:47:00 GMT",
-    "summary": "",
-    "source": "v.daum.net"
    }
   ]
  }
