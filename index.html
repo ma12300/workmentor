@@ -553,6 +553,9 @@ h2.section { font-weight: 800; font-size: 24px; color: var(--navy); letter-spaci
 .dkzone .list .card .sub { color: var(--dksub); }
 .ssStage { position: relative; margin-top: 10px; background: #0E1116; border-radius: 10px; overflow: hidden; aspect-ratio: 16/9; }
 .ssStage video { width: 100%; height: 100%; object-fit: contain; background: #0E1116; display: block; }
+.ssStage:fullscreen { aspect-ratio: auto; width: 100%; height: 100%; border-radius: 0; background: #000; }
+.ssStage:fullscreen video { background: #000; }
+.ssStage:-webkit-full-screen { aspect-ratio: auto; width: 100%; height: 100%; border-radius: 0; background: #000; }
 .ssPtr { position: absolute; width: 0; height: 0; pointer-events: none; z-index: 3; transform: translate(-2px, -2px); }
 .ssPtr::before { content: ""; position: absolute; width: 0; height: 0; border-left: 9px solid #FF3B30; border-top: 6px solid transparent; border-bottom: 6px solid transparent; transform: rotate(-35deg); filter: drop-shadow(0 1px 2px rgba(0,0,0,.6)); }
 .ssPtrLbl { position: absolute; left: 12px; top: 8px; background: #FF3B30; color: #fff; font-size: 11px; font-weight: 800; padding: 1px 6px; border-radius: 6px; white-space: nowrap; }
@@ -839,14 +842,16 @@ footer select { border: 1px solid var(--line); border-radius: 6px; padding: 4px 
         </select>
         <button class="fsave" id="ssStart" style="margin:0; padding:8px 12px;" onclick="SShare.start()">화면 공유 시작</button>
         <button class="btn-ghost" id="ssStop" style="margin:0; padding:8px 12px; display:none;" onclick="SShare.stop()">중지</button>
+        <button class="btn-ghost" id="ssFull" style="margin:0; padding:8px 12px;" onclick="SShare.fullscreen()" title="영상 더블클릭으로도 전환됩니다">⛶ 전체화면</button>
+        <button class="btn-ghost" id="ssPip" style="margin:0; padding:8px 12px; display:none;" onclick="SShare.pointerWindow()" title="다른 프로그램 작업 중에도 상대 포인터가 항상 위에 표시됩니다">🔴 포인터 창</button>
       </div>
     </div>
     <div class="ssStage" id="ssOverlay">
-      <video id="ssVideo" playsinline autoplay muted></video>
+      <video id="ssVideo" playsinline autoplay muted ondblclick="SShare.fullscreen()" title="더블클릭: 전체화면"></video>
       <div class="ssPtr" id="ssPtr" style="display:none;"><span class="ssPtrLbl"></span></div>
     </div>
     <p class="status" id="ssStatus" style="margin-top:6px;">준비됨</p>
-    <p class="status" style="margin-top:2px; color:#9AA3B5;">※ 상대 컴퓨터를 직접 조작하지는 않습니다. 화면을 보며 포인터로 위치를 안내하는 방식입니다. <span style="opacity:.55;">· SShare v3</span></p>
+    <p class="status" style="margin-top:2px; color:#9AA3B5;">※ 상대 컴퓨터를 직접 조작하지는 않습니다. 화면을 보며 포인터로 위치를 안내하는 방식입니다. 영상을 더블클릭하면 전체화면(ESC로 종료)으로 볼 수 있습니다. <span style="opacity:.55;">· SShare v5</span></p>
   </div>
 
   <div id="chatRoom" style="display:none;">
@@ -1264,14 +1269,16 @@ footer select { border: 1px solid var(--line); border-radius: 6px; padding: 4px 
         <button class="fsave" id="assReq" style="margin:0; padding:8px 12px;" onclick="SShare.request()">📥 회원 화면 요청</button>
         <button class="btn-ghost" id="assStart" style="margin:0; padding:8px 12px;" onclick="SShare.start()">내 화면 공유</button>
         <button class="btn-ghost" id="assStop" style="margin:0; padding:8px 12px; display:none;" onclick="SShare.stop()">중지</button>
+        <button class="btn-ghost" id="assFull" style="margin:0; padding:8px 12px;" onclick="SShare.fullscreen()" title="영상 더블클릭으로도 전환됩니다">⛶ 전체화면</button>
+        <button class="btn-ghost" id="assPip" style="margin:0; padding:8px 12px; display:none;" onclick="SShare.pointerWindow()" title="다른 프로그램 작업 중에도 상대 포인터가 항상 위에 표시됩니다">🔴 포인터 창</button>
       </div>
     </div>
     <div class="ssStage" id="assOverlay">
-      <video id="assVideo" playsinline autoplay muted></video>
+      <video id="assVideo" playsinline autoplay muted ondblclick="SShare.fullscreen()" title="더블클릭: 전체화면"></video>
       <div class="ssPtr" id="assPtr" style="display:none;"><span class="ssPtrLbl"></span></div>
     </div>
     <p class="status" id="assStatus" style="margin-top:6px;">준비됨</p>
-    <p class="status" style="margin-top:2px; color:#9AA3B5;">※ 상대 컴퓨터를 직접 조작하지는 않습니다. 화면을 보며 포인터로 위치를 안내하는 방식입니다. <span style="opacity:.55;">· SShare v3</span></p>
+    <p class="status" style="margin-top:2px; color:#9AA3B5;">※ 상대 컴퓨터를 직접 조작하지는 않습니다. 화면을 보며 포인터로 위치를 안내하는 방식입니다. 영상을 더블클릭하면 전체화면(ESC로 종료)으로 볼 수 있습니다. <span style="opacity:.55;">· SShare v5</span></p>
   </div>
       <div class="card chatbox" style="margin-top:14px;">
         <div class="chatlog" id="aChatLog"><p class="empty">기업을 선택하면 대화가 표시됩니다.</p></div>
@@ -4582,6 +4589,7 @@ else if (DB.api.key || DB.api.proxy) loadLiveFunds();
   const SS = {
     ch: null, pc: null, localStream: null, role: null, room: null,
     active: false, polite: false, makingOffer: false, reqTimer: null,
+    pipWin: null, pipVideo: null, pipPtr: null, pipHl: null, pipVl: null, pipLbl: null, pipT: null,
   };
   const ICE = {
     iceServers: [
@@ -4605,6 +4613,15 @@ else if (DB.api.key || DB.api.proxy) loadLiveFunds();
   }
   function amAdmin() { return !!(typeof MEMBER !== "undefined" && MEMBER && MEMBER.isAdmin); }
   function $(id) { return document.getElementById(id); }
+  function contentRect(v) {
+    // object-fit:contain 레터박스 여백을 제외한 실제 영상 표시 영역
+    const r = v.getBoundingClientRect();
+    const vw = v.videoWidth || 0, vh = v.videoHeight || 0;
+    if (!vw || !vh || !r.width || !r.height) return r;
+    const s = Math.min(r.width / vw, r.height / vh);
+    const w = vw * s, h = vh * s;
+    return { left: r.left + (r.width - w) / 2, top: r.top + (r.height - h) / 2, width: w, height: h };
+  }
 
   function ui(prefix) {
     // prefix "" = 회원측, "a" = 관리자측
@@ -4612,7 +4629,7 @@ else if (DB.api.key || DB.api.proxy) loadLiveFunds();
       wrap: $(prefix + "ssWrap"), video: $(prefix + "ssVideo"),
       startBtn: $(prefix + "ssStart"), stopBtn: $(prefix + "ssStop"),
       status: $(prefix + "ssStatus"), ptr: $(prefix + "ssPtr"),
-      overlay: $(prefix + "ssOverlay"),
+      overlay: $(prefix + "ssOverlay"), pipBtn: $(prefix + "ssPip"),
     };
   }
   function myUI() { return ui(amAdmin() ? "a" : ""); }
@@ -4747,8 +4764,10 @@ else if (DB.api.key || DB.api.proxy) loadLiveFunds();
     if (u.startBtn) { u.startBtn.style.display = "none"; u.startBtn.classList.remove("ssReqPulse"); }
     if (u.stopBtn) u.stopBtn.style.display = "inline-block";
     if (u.video) { u.video.srcObject = null; } // 공유자는 자기 화면 프리뷰 생략(에코 방지)
-    setStatus("내 화면 공유 중 — 상대가 보고 있습니다. 상대 포인터가 여기에 표시됩니다.");
+    setStatus("내 화면 공유 중 — 상대가 보고 있습니다. [🔴 포인터 창]을 열어 두면 다른 프로그램 작업 중에도 상대 포인터 위치가 항상 위에 표시됩니다.");
     enableSharerPointerReceive();
+    if (u.pipBtn) u.pipBtn.style.display = "inline-block";
+    openPointerWindow().then(ok => { if (!ok && u.pipBtn) u.pipBtn.classList.add("ssReqPulse"); });
     send({ kind: "req-start" });
   }
 
@@ -4761,6 +4780,8 @@ else if (DB.api.key || DB.api.proxy) loadLiveFunds();
     if (u.startBtn) u.startBtn.style.display = "inline-block";
     if (u.stopBtn) u.stopBtn.style.display = "none";
     if (u.overlay) u.overlay.style.display = "none";
+    if (u.pipBtn) { u.pipBtn.style.display = "none"; u.pipBtn.classList.remove("ssReqPulse"); }
+    closePointerWindow();
     setStatus("공유를 종료했습니다.");
   }
 
@@ -4787,7 +4808,7 @@ else if (DB.api.key || DB.api.proxy) loadLiveFunds();
       const now = Date.now();
       if (now - last < 40) return; // 25fps 스로틀
       last = now;
-      const r = u.video.getBoundingClientRect();
+      const r = contentRect(u.video);
       const x = (ev.clientX - r.left) / r.width;
       const y = (ev.clientY - r.top) / r.height;
       if (x >= 0 && x <= 1 && y >= 0 && y <= 1) send({ kind: "pointer", x, y, name });
@@ -4807,6 +4828,7 @@ else if (DB.api.key || DB.api.proxy) loadLiveFunds();
     u.ptr.style.top = (y * r.height) + "px";
     u.ptr.style.display = "block";
     if (u.ptr._lbl) u.ptr._lbl.textContent = name || "상대";
+    drawPipPointer(x, y, name);
     clearTimeout(u.ptr._t);
     u.ptr._t = setTimeout(() => { u.ptr.style.display = "none"; }, 2500);
   }
@@ -4831,11 +4853,86 @@ else if (DB.api.key || DB.api.proxy) loadLiveFunds();
   // ───────── 정리 ─────────
   async function leave() {
     clearTimeout(SS.reqTimer);
+    closePointerWindow();
     const _u = myUI();
     if (_u.startBtn) _u.startBtn.classList.remove("ssReqPulse");
     if (SS.active) stopShare(); else stopViewing();
     await teardownChannel();
     showWrap(false);
+  }
+
+  // ───────── 항상-위 포인터 창 (공유자용, Document PiP) ─────────
+  async function openPointerWindow() {
+    if (!SS.localStream) return false;                       // 공유 중일 때만
+    if (!("documentPictureInPicture" in window)) return false; // 크롬·엣지·웨일 116+
+    if (SS.pipWin && !SS.pipWin.closed) { try { SS.pipWin.focus(); } catch (_) {} return true; }
+    let pip;
+    try { pip = await window.documentPictureInPicture.requestWindow({ width: 400, height: 250 }); }
+    catch (_) { return false; }
+    SS.pipWin = pip;
+    const d = pip.document;
+    d.title = "워크멘토 원격 포인터";
+    d.body.style.cssText = "margin:0; background:#000; overflow:hidden;";
+    const v = d.createElement("video");
+    v.muted = true; v.autoplay = true; v.playsInline = true;
+    v.style.cssText = "width:100vw; height:100vh; object-fit:contain; display:block; opacity:.9;";
+    v.srcObject = SS.localStream;                            // 내 바탕화면 미니뷰 (재인코딩 없음)
+    const hl = d.createElement("div");
+    hl.style.cssText = "position:fixed; left:0; width:100vw; height:0; border-top:1.5px dashed rgba(255,59,48,.8); pointer-events:none; display:none; z-index:8;";
+    const vl = d.createElement("div");
+    vl.style.cssText = "position:fixed; top:0; height:100vh; width:0; border-left:1.5px dashed rgba(255,59,48,.8); pointer-events:none; display:none; z-index:8;";
+    const ptr = d.createElement("div");
+    ptr.style.cssText = "position:fixed; left:-99px; top:-99px; z-index:9; pointer-events:none; display:none; transform:translate(-7px,-7px);";
+    const dot = d.createElement("div");
+    dot.style.cssText = "width:14px; height:14px; border-radius:50%; background:#FF3B30; box-shadow:0 0 12px 5px rgba(255,59,48,.55);";
+    const lbl = d.createElement("span");
+    lbl.style.cssText = "position:absolute; left:18px; top:-4px; background:#FF3B30; color:#fff; font:800 11px/1.6 sans-serif; padding:1px 7px; border-radius:6px; white-space:nowrap;";
+    ptr.appendChild(dot); ptr.appendChild(lbl);
+    d.body.appendChild(v); d.body.appendChild(hl); d.body.appendChild(vl); d.body.appendChild(ptr);
+    SS.pipVideo = v; SS.pipPtr = ptr; SS.pipHl = hl; SS.pipVl = vl; SS.pipLbl = lbl;
+    pip.addEventListener("pagehide", () => {
+      SS.pipWin = SS.pipVideo = SS.pipPtr = SS.pipHl = SS.pipVl = SS.pipLbl = null;
+      const u = myUI();
+      if (SS.active && u.pipBtn) u.pipBtn.classList.add("ssReqPulse"); // 다시 열도록 안내
+    });
+    return true;
+  }
+  function closePointerWindow() {
+    if (SS.pipWin && !SS.pipWin.closed) { try { SS.pipWin.close(); } catch (_) {} }
+    SS.pipWin = SS.pipVideo = SS.pipPtr = SS.pipHl = SS.pipVl = SS.pipLbl = null;
+  }
+  function drawPipPointer(x, y, name) {
+    if (!SS.pipWin || SS.pipWin.closed || !SS.pipVideo) return;
+    try {
+      const cr = contentRect(SS.pipVideo);
+      const px = cr.left + x * cr.width, py = cr.top + y * cr.height;
+      SS.pipPtr.style.left = px + "px"; SS.pipPtr.style.top = py + "px";
+      SS.pipHl.style.top = py + "px"; SS.pipVl.style.left = px + "px";
+      SS.pipLbl.textContent = name || "상대";
+      SS.pipPtr.style.display = SS.pipHl.style.display = SS.pipVl.style.display = "block";
+      clearTimeout(SS.pipT);
+      SS.pipT = setTimeout(() => {
+        if (SS.pipPtr) { SS.pipPtr.style.display = "none"; }
+        if (SS.pipHl) { SS.pipHl.style.display = "none"; }
+        if (SS.pipVl) { SS.pipVl.style.display = "none"; }
+      }, 2500);
+    } catch (_) {}
+  }
+
+  // ───────── 전체화면 (영상+포인터 스테이지 전체) ─────────
+  function toggleFullscreen() {
+    const u = myUI();
+    const stage = u.overlay;
+    if (!stage) return;
+    if (document.fullscreenElement || document.webkitFullscreenElement) {
+      const ex = document.exitFullscreen || document.webkitExitFullscreen;
+      if (ex) { try { ex.call(document); } catch (_) {} }
+      return;
+    }
+    stage.style.display = "block";
+    const rq = stage.requestFullscreen || stage.webkitRequestFullscreen;
+    if (!rq) { alert("이 브라우저는 전체화면을 지원하지 않습니다. 최신 크롬·엣지·웨일을 사용하세요."); return; }
+    try { const p = rq.call(stage); if (p && p.catch) p.catch(() => {}); } catch (_) {}
   }
 
   // ───────── 상대 화면 요청 (관리자 → 회원이 주 사용처) ─────────
@@ -4870,10 +4967,19 @@ else if (DB.api.key || DB.api.proxy) loadLiveFunds();
     join: async function () { try { if (roomKey() && (await ensureChannel())) send({ kind: "viewer-ready" }); } catch (_) {} },
     stop: function () { if (SS.active) stopShare(); else stopViewing(); },
     quality: applyQuality,
+    fullscreen: toggleFullscreen,
+    pointerWindow: async function () {
+      const u = myUI();
+      if (u.pipBtn) u.pipBtn.classList.remove("ssReqPulse");
+      const ok = await openPointerWindow();
+      if (!ok) alert(SS.localStream
+        ? "포인터 창은 크롬·엣지·웨일(116 이상)에서 지원됩니다.\n지원되지 않는 브라우저에서는 아래 화면 공유 패널에서 포인터를 확인하세요."
+        : "화면 공유 중일 때만 포인터 창을 열 수 있습니다.");
+    },
     leave: leave,
-    v: 3,
+    v: 5,
   };
-  try { console.log("[SShare] v3 로드됨"); } catch (_) {}
+  try { console.log("[SShare] v5 로드됨"); } catch (_) {}
 })();
 </script>
 </body>
