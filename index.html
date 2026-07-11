@@ -485,6 +485,33 @@ h2.section { font-weight: 800; font-size: 24px; color: var(--navy); letter-spaci
 .ptodos .prow.done span.tx { text-decoration: line-through; color: #9AA3B5; }
 .ptodos .prow span.tx { flex: 1; font-size: 13.5px; }
 .ptodos .prow .who { font-size: 10.5px; font-weight: 800; color: #fff; border-radius: 5px; padding: 1px 6px; }
+/* ── 다크 소통방 테마 (채팅·캘린더·To-Do·쪽지 — 장시간 작성용 저광량 배색) ── */
+#page-chat, #apanel-chat { --dkbg:#23262D; --dkcell:#2B2F37; --dkline:#454B57; --dktext:#E9EAEE; --dksub:#A7ADBB; }
+#page-chat .card, #apanel-chat .card { background: var(--dkbg); border-color: var(--dkline); color: var(--dktext); }
+#page-chat .card .title, #apanel-chat .card .title,
+#page-chat .card h1, #page-chat .card h2, #page-chat .card h3,
+#page-chat .card b, #apanel-chat .card b { color: var(--dktext); }
+#page-chat .card .sub, #page-chat .card .status, #page-chat .card label, #page-chat .card .empty,
+#apanel-chat .card .sub, #apanel-chat .card .status, #apanel-chat .card label, #apanel-chat .card .empty { color: var(--dksub); }
+#page-chat .card .row, #apanel-chat .card .row { background: var(--dkcell); border-color: var(--dkline); }
+#page-chat .chatlog, #apanel-chat .chatlog { background: #1E2127; border-color: var(--dkline); }
+#page-chat .msg.other, #apanel-chat .msg.other { background: var(--dkcell); border-color: var(--dkline); color: var(--dktext); }
+#page-chat .msg.other a, #apanel-chat .msg.other a { color: #7FA8FF; }
+#page-chat .chatin, #apanel-chat .chatin { background: var(--dkbg); border-color: var(--dkline); }
+#page-chat input:not([type="file"]), #page-chat textarea, #page-chat select,
+#apanel-chat input:not([type="file"]), #apanel-chat textarea, #apanel-chat select {
+  background: var(--dkcell); border-color: var(--dkline); color: var(--dktext); }
+#page-chat input::placeholder, #page-chat textarea::placeholder,
+#apanel-chat input::placeholder, #apanel-chat textarea::placeholder { color: #7E8595; }
+#page-chat .pcal .d, #apanel-chat .pcal .d { background: var(--dkcell); border-color: var(--dkline); }
+#page-chat .pcal .d.out, #apanel-chat .pcal .d.out { background: #1B1E24; opacity: 0.55; }
+#page-chat .pcal .dn, #apanel-chat .pcal .dn { color: var(--dksub); }
+#page-chat .pcal .wd, #apanel-chat .pcal .wd { color: var(--dksub); }
+#page-chat .ptodos .prow, #apanel-chat .ptodos .prow { background: var(--dkcell); border-color: var(--dkline); }
+#page-chat .ptodos .prow span.tx, #apanel-chat .ptodos .prow span.tx { color: var(--dktext); }
+#page-chat .ptodos .prow.done span.tx, #apanel-chat .ptodos .prow.done span.tx { color: #6C7382; }
+#page-chat .ptodos .prow a, #apanel-chat .ptodos .prow a { color: #7FA8FF; }
+#page-chat .filebtn, #apanel-chat .filebtn { background: var(--dkcell); border-color: var(--dkline); color: var(--dktext); }
 .notebell { position: relative; border: 1.5px solid var(--line); background: #fff; border-radius: 10px; padding: 5px 10px; font-size: 16px; cursor: pointer; line-height: 1; filter: grayscale(0.35); transition: all .18s; }
 .notebell:hover { border-color: var(--brand); filter: none; }
 .notebell.hasnew { filter: none; border-color: #F26F1F; box-shadow: 0 0 0 3px rgba(249,123,51,0.18); animation: bellPulse 1.6s ease-in-out infinite; }
