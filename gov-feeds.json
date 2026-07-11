@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-07-11T14:21:06.808Z",
+ "updatedAt": "2026-07-11T15:29:49.813Z",
  "groups": {
   "tax": [
    {
@@ -243,18 +243,18 @@
     "source": "knongnews.com"
    },
    {
-    "title": "중앙부처 공무직, ‘모범사용자’가 고용한 최임 노동자",
-    "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFA3U2IyOU9QcW9wYzNmVUQwYWpUMi1hU1hQeUsxaldJUGVEZVhrNTFBUEloR29DVjdxVkZyVmRzRGZvYjV2UHBtNVJVcEdCYnItNjV1SVBvRGtVUkFXNEhRT2F5S0xaR0twa2VMRFJ3?oc=5",
-    "date": "Fri, 10 Jul 2026 09:16:18 GMT",
-    "summary": "",
-    "source": "참여와혁신"
-   },
-   {
     "title": "'주 15시간' 대신 '월 80만원'…정부, 소득기반 고용보험 입법예고",
     "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5rcVVLc19RclpMUU5VYUkxUHRjSjMtNWstQ3lZTFl2QTRhOWFaNzBjdkQybU9pM2dtUF9qZThkekZxMmc2RHNydVRZRldydjVxWWtXNmg4V0RrWndCb2wtWmN3VlVKWUNqMlNn?oc=5",
     "date": "Fri, 10 Jul 2026 08:59:43 GMT",
     "summary": "",
     "source": "한국부동산뉴스"
+   },
+   {
+    "title": "초단기 알바·일용직도 가입…고용보험 사각지대 줄인다",
+    "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5VS3NnRm9NckNIVEVnSHlldmtMUWgzRlBKMEZDSW9MNXo2bWc4ZW5DcF9NTXpjREJyQzhQemZ5NGZXQjNCQXc4UkRMQ2d0X2ZwY2lPY0ZkSkUzUdIBVEFVX3lxTE5HakxvOWJCODQ1eXBiRU54WjI4NnZxMFhFd2FHTkdxZnVNSjFfRWdEamFCXzlTS1pYNmUzOUh6TnczUEUyNzV0MjlIaDg4RXpnS2ctYQ?oc=5",
+    "date": "Fri, 10 Jul 2026 08:54:17 GMT",
+    "summary": "",
+    "source": "한국경제"
    },
    {
     "title": "'월 80만원' n잡러도 고용보험 가입",
@@ -348,11 +348,11 @@
     "source": "뉴스핌"
    },
    {
-    "title": "고용노동부 장관과 대화 나누는 국회의장",
-    "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE5xSVFyV1dpQzhydkt1ZVBQWVlKTENpZHFHZmxnb2lXSy1JS0xwMlRSZWdaTWhlWjNOWWpXZ3Y4b1FIM3JqdE5FNlBOcw?oc=5",
-    "date": "Fri, 10 Jul 2026 02:56:53 GMT",
+    "title": "조정식 의장 예방하는 김영훈 고용노동부 장관 [TF사진관]",
+    "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE0zWHRfY1NKTURvWnRMWWxzdWljRVdxTmZHSEFJSWs3SFRVaEV0VlhDMXhmWHhYMmpVNHU3SE9CSjltZzFhV3pDcThKSFdYN3UzT0pieVI3dkU4RzRnUHfSAVhBVV95cUxOSmNqQmlXeVlJeGpmVVBjWTVVRUZ3SDZMeDd1UFllRjZwbHJvNlE2NjQ4Q2UtbzdEM2tZa3lvWVJWWDMxNTJkLVVudmJESGxpUkhmRlRPRklw?oc=5",
+    "date": "Fri, 10 Jul 2026 02:59:37 GMT",
     "summary": "",
-    "source": "뉴스1"
+    "source": "더팩트"
    }
   ],
   "law": [
@@ -476,6 +476,13 @@
     "source": "hkilbo.kr"
    },
    {
+    "title": "공정위·16개 시도교육청, 교복 입찰담합 차단 협력…감시망 강화",
+    "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBQS3FUQlM5RWdfS1NfZlZPX1ZFNV81WUVTcURPbHVzaHltX3hFRVo2bk1MVlhkSWprSGd3Mjl5SFVQVnF2TlJwUnlRRlFNS0VRdlpJMA?oc=5",
+    "date": "Fri, 10 Jul 2026 05:46:10 GMT",
+    "summary": "",
+    "source": "뉴스1"
+   },
+   {
     "title": "교복 입찰담합 막는다...공정위, 16개 시도교육청과 감시망 강화",
     "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE0wRmhZNENMbUhGaVRpTWFVR3B0X3VldktvZU4zN1MzTTZaNzlVQUNnR0lPcTZZWkNXNEZOZlh4cEN6ZmJaWnNTUnJHcWdWU1lNamFfbDhzSWJIeFZD?oc=5",
     "date": "Fri, 10 Jul 2026 05:30:00 GMT",
@@ -523,13 +530,6 @@
     "date": "Fri, 10 Jul 2026 03:00:04 GMT",
     "summary": "",
     "source": "서남투데이"
-   },
-   {
-    "title": "법무부·대검, \"민주당 '특사경 검사 수사지휘권 삭제'에 반대\"",
-    "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE91QkViSDd1Nl9kR0t3YTR2ZXlYWG0xTW8tc2Z5QV9ULXZsU0tlX0ZlYVVpOHN5UTVURW51OW40a1BVdURWZ1NsYTZjZ2UxOG8?oc=5",
-    "date": "Fri, 10 Jul 2026 02:33:00 GMT",
-    "summary": "",
-    "source": "v.daum.net"
    }
   ],
   "fund": [
@@ -732,32 +732,11 @@
     "source": "대한민국 정책브리핑"
    },
    {
-    "title": "모두의 창업 피해신청 87명 … 창업 아이디어 샜나",
-    "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1rb1MxV24tMVFhVVQ2MHV3aGROMllFc0pkV3RJWnpDYTROOC0tVEs1Y0lXdGZWbTZZR2ExelN6RDBPX2VrR3hVZzllRGMtLVltYU4xRlF1RVY2cFRKbEE0Nkh3M1Z3RXlYMC1OeVBVZ9IBc0FVX3lxTE5YeXlTTVhiRW1NNlVOWHJyZC15SDU1TFlwX19NdjNNUGh1VW9MYVBubkYtZVpONmpWWEt0YmxTb1VBcm0xTGEwb2Nlel9tLWRwLU9uTDRxcWdWY0JtVGhNMlJiSUpkLXdHTjNmVDh3bDNZd3c?oc=5",
-    "date": "Fri, 10 Jul 2026 06:48:21 GMT",
-    "summary": "",
-    "source": "세이프타임즈"
-   },
-   {
-    "title": "중동 전쟁 여파, 국내 중소기업 피해·애로 접수 1000 건 육박",
-    "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5raDJBWXRnOURnVmVYVDVOLVM4eXJrNU9mZHhPZGFQMEo5RHc3ck5Sa0NwMjVMMVhYQ0ljbEZEYzctbzN1dnd4ME96Wnh0dzNCNDh6cGNWSzNBV0hqUXd6dndpSVF2aVE?oc=5",
-    "date": "Fri, 10 Jul 2026 06:16:45 GMT",
-    "summary": "",
-    "source": "산경e뉴스"
-   },
-   {
     "title": "중기부, 2026년도 하반기 혁신제품 신규 지정 공고…중기 판로 개척 지원",
     "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE0zbjJzaXNkS2p0TlhVS1BNRm1HcUhXM1ZHWUxyUEpHcUtVTTktNTNHMmpBMkJnWEkzYWdDNEVWWElWb0w0czRNRTlOdWd1aUFsWWpNRFNqbG84MFZjbWlReFRkcm9sSW1KZ18xN9IBcEFVX3lxTE02dmg4dnphTFJ1V01wamxrM2FySGpKZngxbkFocmRQeGtzS3J2dlZTdlp1WGpWLXcybV91TjhaZmNwWVBrU0pCbTdIN2xRRWJ3b19YSF8yUGx6VVg3VjktWFp6bkxONjNyTTJrZG1hbXo?oc=5",
     "date": "Fri, 10 Jul 2026 04:37:30 GMT",
     "summary": "",
     "source": "전기신문"
-   },
-   {
-    "title": "중기부 ‘모두의 창업’ 프로젝트 정보 유출… 피해 접수 87건",
-    "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBfUGlBVkdYSVlFbTlwcDN3QnotVnA4d0ZoLXVfTGVTWHR5WFlDRElsTHdmWHRnWkFpalhvMWFWY25ISGJqNFluUUNGQ19FVmh1TXVjT1ZPRWRrcDl6cmlWM2RoR09mUQ?oc=5",
-    "date": "Fri, 10 Jul 2026 02:22:37 GMT",
-    "summary": "",
-    "source": "한국대학신문"
    },
    {
     "title": "작은 위성이 지키는 대한민국의 하늘 - 영상 | 멀티미디어",
@@ -774,25 +753,11 @@
     "source": "한국NGO신문"
    },
    {
-    "title": "부산중기청, 공공기관·유통플랫폼 구매상담회…판로확대",
-    "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5SdmZKUVp3dHJxREc5SjlkdmxFdDFyRDhSaFBxN0duemNHeUNkMFNlbWV4V3EyUlJVN29hc0tyeXRjUkhONjdmRG9uMVMwVVZlc2tVRWdFVjZJV1pYbm9hUtIBeEFVX3lxTE9EQV9KM01jaDZ3bTJkMVFaTXk0N3dTS1VRRDAzSzFFMWZQSGhsN2dkcG9xS0RFc1F5MUdyczBxRXU4Y2ZJWUgwbENYTk5EelpQNXV3a2JTbjE4Z0QxVHRCcnM1WENkZ0tYNlVob3UxZGhDVHM1V3JjQQ?oc=5",
-    "date": "Thu, 09 Jul 2026 07:30:23 GMT",
-    "summary": "",
-    "source": "뉴시스"
-   },
-   {
     "title": "[2026 SME AX 리더스포럼] “AI 날개 단 中企, 적은 인원으로 대기업 수준 성과 가능”(종합) - 조선비즈",
     "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQb25iTUdjX2I2TlMzdzJLdk5KSzdOLWNCQlctWjBFc0RzbTR3S18yODVtd0UyWjJQMUFHLVNNbXNXNDlvbVZZdS1MWTk0WUhPZllMTDBad3I0RElRQTdxdDJzMmRvZFVTU1ZVSGJuM05jTVZzYjNzRWdDYlNJZnI0WUJMYWoyd2tmRVRmTHlSeW7SAaQBQVVfeXFMT0otYThGdTJLTlh6WXFxOXZFOVBhN2VQR0RtWHRxRTdJcFQ4VVZIeUV5Sk9tZXJrRGVTSFZjMm4xQWUxZFEtLU9QcFRvODU4bFl4elc5WFo3aDE5MkFvNGNjQnVVenVKc1Boc2ZiMURGTjgyUG5RTGhIRDRObTJFdzVHZGdnNWwxNzd3V2ZMa014UGdadFAwTlhFS2dBOFFUTk5RTEI?oc=5",
     "date": "Thu, 09 Jul 2026 07:23:00 GMT",
     "summary": "",
     "source": "Chosunbiz"
-   },
-   {
-    "title": "중기부·한유원, 부산브랜드페스타 연계 구매상담회 개최",
-    "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1zVnBkV09lZjBLdWVIdkNpcXlqR1l3aE1OY2l2M2FXNGljOHBPeXcxZ1M0NUFhcjI5cTJudlVqVVE4anpnWDAzU0NKN3g1cmZCOGYyeEM0TEJVOUR6OUxOYTJJeHI5SjB1Sm40UnY4MkNKMmdVOFVEbkRB?oc=5",
-    "date": "Thu, 09 Jul 2026 06:52:11 GMT",
-    "summary": "",
-    "source": "로이슈"
    },
    {
     "title": "중기부, ‘혁신제품 신규 지정’ 공모…中企 공공시장 진입 지원",
@@ -821,13 +786,6 @@
     "date": "Thu, 09 Jul 2026 03:00:07 GMT",
     "summary": "",
     "source": "연합뉴스"
-   },
-   {
-    "title": "중기부, R&D 성과 ‘혁신제품’ 하반기 신규 지정",
-    "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNbkhHTk9CMkQ3V3lNb3NMd0h3X2VYcHNUVEVlSEdlamlOZndaTThDUFhLbDFNd3FGZ1Z6cDhTVnZ1c3kyUmlNOGJUNE5RSHZncl9Wd3JhVVo5VGRnZlBObzhvcmJjUllQMlJpLTVzZHJ4X01Cd2tGQ0xQNzJ6cnczeA?oc=5",
-    "date": "Thu, 09 Jul 2026 03:00:03 GMT",
-    "summary": "",
-    "source": "이데일리"
    },
    {
     "title": "\"공공 수의계약·시범구매 혜택\"…중기부, '혁신제품' 신규 지정",
@@ -884,6 +842,48 @@
     "date": "Wed, 08 Jul 2026 23:54:25 GMT",
     "summary": "",
     "source": "매일일보"
+   },
+   {
+    "title": "중기부, 위기 중소기업 맞춤 지원체계 구축",
+    "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5NZkZURUdjSzg0OW9hTUJOQW1jVXBNUHpVTUlpd1dNeFFJR0FBWmZSclFWOTZpMl8yeXNxSWk0Y1VkMi1TYV9lb2c2TlVjWXlkR2MtSUttdk9oUEc0UHRFNjBITHp0ai1kdkE?oc=5",
+    "date": "Wed, 08 Jul 2026 23:38:59 GMT",
+    "summary": "",
+    "source": "서울파이낸스"
+   },
+   {
+    "title": "중소벤처기업부는 「모두의 창업」 AI 솔루션 지원이 본래 취지에 맞게 운영될 수 있도록 내실 있게 관리해 가겠습니다.",
+    "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE50MXZpRmZNOW1XclphSk1oSmtXOXpWV1NxYlRUSXJWWmRTWnBfbXZTRXJkOFRGeklGRlZHeFVPYUhaTGwzSDJrWUZ4Z1ZrWnRmdmJJREs4VEFjYnIxSmc4YmVvYi1aUTFKdHFEd21mMA?oc=5",
+    "date": "Wed, 08 Jul 2026 15:02:15 GMT",
+    "summary": "",
+    "source": "대한민국 정책브리핑"
+   },
+   {
+    "title": "제이앤피메디, DIPS 이어 중소벤처기업부 ‘2026 유니콘브릿지’ 최종 선정",
+    "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBqYml1aDZhVTd2WVR1aHUtQVV0Mnc0UUx3cGk5QmJXbFp0bnJ2cnhBaktkRDJtWTFrY0NZVG01U2dNX2hGcWVGLWJFUHNMQk15emRUUGEtcUNjT2lnQnfSAWNBVV95cUxQbW1vWU5BWWtVTXZzN3NLNmJQVEJ4Vm5yQVNodmdsaTQ1aXFKTU5NaGFDbWRONGtmMkE1NXg3X2djcTQ2M1BPelpUdHFNN29CRHVJNEI4a1Yxc09saFZWLXhzUU0?oc=5",
+    "date": "Wed, 08 Jul 2026 13:39:00 GMT",
+    "summary": "",
+    "source": "스포츠경향"
+   },
+   {
+    "title": "올해 마지막 수출 바우처 모집…중기부, 470억원 투입",
+    "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBjODljdjBYSGFGYlAtZUVzcTZFTzNZSmRodDVEUi1FbXdLUzNCZkxRZjZHTDFEaGNvU1IwMkxqdGlRZ1RvT3FRMW1MM3BoeFE?oc=5",
+    "date": "Wed, 08 Jul 2026 11:07:36 GMT",
+    "summary": "",
+    "source": "v.daum.net"
+   },
+   {
+    "title": "“영업이익으로 이자도 못내는 기업 늘어”...위기관리 중소기업 6만개에서 25만개로 확대",
+    "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBQSXphaHAxaDRJZU0xcXZ4dlA5dzRneXAxRkp5Umo4T0FldFE3dnZ3aFZ2aDFDck5WRHozX2RNdklMNm9QZHJPaW1Ec0NWblk?oc=5",
+    "date": "Wed, 08 Jul 2026 09:18:00 GMT",
+    "summary": "",
+    "source": "v.daum.net"
+   },
+   {
+    "title": "중기부, ’우월적 지위 남용’ 한국엔지니어링플라스틱 고발 요청",
+    "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBPVklBZFBYVUlMYU1hMFZIWHZqYm1hazdobTlIdFhDYnNGU3FrTXdXeGN5QmJad1VhSjNBQ2xRRTAyUGRjOTZRUWQ3djdmTG1oV0hVdFAzU0RTTk41ODc0VjNzQWRWWWs?oc=5",
+    "date": "Wed, 08 Jul 2026 08:56:00 GMT",
+    "summary": "",
+    "source": "연합뉴스TV"
    }
   ],
   "money": [
