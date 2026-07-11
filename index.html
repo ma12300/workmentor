@@ -4584,9 +4584,10 @@ else if (DB.api.key || DB.api.proxy) loadLiveFunds();
   };
 
   function roomKey() {
-    if (window.CHAT) {
-      if (CHAT.memberId) return "ss_m_" + CHAT.memberId;
-      if (CHAT.companyId) return "ss_c_" + CHAT.companyId;
+    const C = (typeof CHAT !== "undefined" && CHAT) ? CHAT : window.CHAT;
+    if (C) {
+      if (C.memberId) return "ss_m_" + C.memberId;
+      if (C.companyId) return "ss_c_" + C.companyId;
     }
     if (window.WM_ROOM) return window.WM_ROOM;   /* CHAT이 흔들려도 마지막 방 기억 */
     return null;
@@ -4595,7 +4596,7 @@ else if (DB.api.key || DB.api.proxy) loadLiveFunds();
     if (amAdmin()) return "먼저 위에서 [기업 선택] 또는 [개인 회원 방]을 선택해\n대화 상대를 연 뒤에 화면 공유를 사용할 수 있습니다.";
     return "먼저 소통방에 입장한 뒤(기업 코드 또는 개인 코드로 입장)\n화면 공유를 사용할 수 있습니다.";
   }
-  function amAdmin() { return !!(window.MEMBER && MEMBER.isAdmin); }
+  function amAdmin() { return !!(typeof MEMBER !== "undefined" && MEMBER && MEMBER.isAdmin); }
   function $(id) { return document.getElementById(id); }
 
   function ui(prefix) {
@@ -4765,6 +4766,7 @@ else if (DB.api.key || DB.api.proxy) loadLiveFunds();
   function drawPointer(x, y, name) {
     const u = myUI();
     if (!u.overlay || !u.ptr) return;
+    if (!u.ptr._lbl) u.ptr._lbl = u.ptr.querySelector(".ssPtrLbl");
     u.overlay.style.display = "block";
     const r = u.overlay.getBoundingClientRect();
     u.ptr.style.left = (x * r.width) + "px";
