@@ -3450,6 +3450,7 @@ async function joinChatMember() {
   if (!chk.data || String(chk.data.code).toLowerCase() !== mcode) return alert("개인 소통방 코드가 올바르지 않습니다.\n📮 쪽지로 관리자에게 코드 발급을 요청해주세요.");
   CHAT.mode = "member"; CHAT.companyId = null; CHAT.code = mcode;   /* 플래너 검증에도 사용 */
   CHAT.memberId = MEMBER.user.id;
+  try { window.WM_ROOM = "ss_m_" + MEMBER.user.id; } catch (_) {}
   CHAT.memberName = (MEMBER.profile && MEMBER.profile.company_name) || MEMBER.user.email.split("@")[0];
   document.getElementById("chatEntry").style.display = "none";
   document.getElementById("chatRoom").style.display = "block";
@@ -3514,6 +3515,7 @@ function adminOpenMemberChat() {
   document.getElementById("achat-code").value = "";
   if (!uid) { stopChatPoll(); document.getElementById("aChatLog").innerHTML = '<p class="empty">기업 또는 개인 회원을 선택하면 대화가 표시됩니다.</p>'; return; }
   CHAT.mode = "admin-member"; CHAT.companyId = null; CHAT.memberId = uid;
+  try { window.WM_ROOM = "ss_m_" + uid; } catch (_) {}
   CHAT.memberName = (sel.options[sel.selectedIndex] ? sel.options[sel.selectedIndex].text : "회원").replace(" · 대화중 💬", "");
   sb.from("member_chat_codes").select("code").eq("member_id", uid).maybeSingle()
     .then(r => { const el = document.getElementById("amchat-code"); if (el) el.value = (r.data && r.data.code) || ""; });
@@ -3529,6 +3531,7 @@ async function joinChat() {
   if (error) return alert("확인 실패: " + error.message + "\n(add-chat.sql이 실행되었는지 확인하세요)");
   if (data !== true) return alert("소통방 코드가 올바르지 않습니다.");
   CHAT.mode = "company"; CHAT.companyId = cid; CHAT.code = code; CHAT.memberId = null;
+  try { window.WM_ROOM = "ss_c_" + cid; } catch (_) {}
   const co = DB.companies.find(c => c.id === cid);
   try { localStorage.setItem("wm_identity", JSON.stringify({ companyId: cid, code, name: co ? co.name : "" })); } catch (_) {}
   document.getElementById("chatEntry").style.display = "none";
@@ -3540,6 +3543,7 @@ async function joinChat() {
 }
 function leaveChat() {
   stopChatPoll(); CHAT.mode = null; CHAT.companyId = null; CHAT.code = ""; CHAT.memberId = null; CHAT.memberName = "";
+  try { window.WM_ROOM = null; } catch (_) {}
   document.getElementById("chatRoom").style.display = "none";
   document.getElementById("chatEntry").style.display = "block";
   showPlannerCard(false);
@@ -3558,6 +3562,7 @@ async function adminOpenChat() {
   document.getElementById("achat-code").value = "";
   if (!cid) { stopChatPoll(); document.getElementById("aChatLog").innerHTML = '<p class="empty">기업을 선택하면 대화가 표시됩니다.</p>'; return; }
   CHAT.mode = "admin"; CHAT.companyId = cid; CHAT.code = ""; CHAT.memberId = null;
+  try { window.WM_ROOM = "ss_c_" + cid; } catch (_) {}
   const mSel = document.getElementById("achat-member"); if (mSel) mSel.value = "";
   const mCode = document.getElementById("amchat-code"); if (mCode) mCode.value = "";
   loadPlanner();
