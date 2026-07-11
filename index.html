@@ -471,6 +471,20 @@ h2.section { font-weight: 800; font-size: 24px; color: var(--navy); letter-spaci
 .atabs { display: flex; gap: 6px; flex-wrap: wrap; margin-bottom: 16px; }
 .atabs button { border: 1px solid var(--line); background: var(--white); border-radius: 8px; padding: 8px 15px; font-size: 13.5px; font-weight: 600; color: #444E63; }
 .atabs button.on { background: var(--navy); border-color: var(--navy); color: #fff; }
+.pcal { display: grid; grid-template-columns: repeat(7, 1fr); gap: 4px; }
+.pcal .wd { text-align: center; font-size: 11.5px; font-weight: 800; color: #8A8F9E; padding: 3px 0; }
+.pcal .d { min-height: 62px; border: 1px solid var(--line); border-radius: 8px; padding: 4px 5px; background: #fff; cursor: pointer; overflow: hidden; }
+.pcal .d:hover { border-color: var(--brand); }
+.pcal .d.out { background: #F6F4F0; opacity: 0.55; }
+.pcal .d.today { border: 2px solid var(--brand); }
+.pcal .dn { font-size: 11px; font-weight: 800; color: #6C7386; }
+.pcal .pev { display: block; font-size: 10.5px; font-weight: 700; color: #fff; border-radius: 5px; padding: 1px 5px; margin-top: 2px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.pcal .pev.adm { background: #F26F1F; }
+.pcal .pev.usr { background: #3E63DD; }
+.ptodos .prow { display: flex; align-items: center; gap: 8px; border: 1px solid var(--line); border-radius: 9px; padding: 8px 11px; margin-bottom: 6px; background: #fff; }
+.ptodos .prow.done span.tx { text-decoration: line-through; color: #9AA3B5; }
+.ptodos .prow span.tx { flex: 1; font-size: 13.5px; }
+.ptodos .prow .who { font-size: 10.5px; font-weight: 800; color: #fff; border-radius: 5px; padding: 1px 6px; }
 .notebell { position: relative; border: 1.5px solid var(--line); background: #fff; border-radius: 10px; padding: 5px 10px; font-size: 16px; cursor: pointer; line-height: 1; filter: grayscale(0.35); transition: all .18s; }
 .notebell:hover { border-color: var(--brand); filter: none; }
 .notebell.hasnew { filter: none; border-color: #F26F1F; box-shadow: 0 0 0 3px rgba(249,123,51,0.18); animation: bellPulse 1.6s ease-in-out infinite; }
@@ -687,6 +701,28 @@ footer select { border: 1px solid var(--line); border-radius: 6px; padding: 4px 
       </div>
     </div>
     <p class="status" style="margin-top:8px;">📎로 파일을 보낼 수 있습니다 (25MB 이하) · <a href="#" onclick="leaveChat(); return false;">소통방 나가기</a></p>
+
+  <!-- 공유 플래너 (회원측) -->
+  <div class="card" style="margin-top:14px;">
+    <div style="display:flex; align-items:center; justify-content:space-between; flex-wrap:wrap; gap:8px;">
+      <p class="title" style="font-size:15px; margin:0;">📅 공유 캘린더</p>
+      <div style="display:flex; align-items:center; gap:8px;">
+        <button class="filebtn" style="margin:0;" onclick="planNav(-1)">◀</button>
+        <b id="planMonth" style="min-width:110px; text-align:center;"></b>
+        <button class="filebtn" style="margin:0;" onclick="planNav(1)">▶</button>
+      </div>
+    </div>
+    <div id="plannerCal" class="pcal" style="margin-top:10px;"></div>
+    <p class="status" style="margin-top:6px;">날짜를 누르면 일정을 등록합니다 · 일정을 누르면 삭제 · <span style="color:#F26F1F;">■ 관리자</span> <span style="color:#3E63DD;">■ 회원</span></p>
+    <p class="title" style="font-size:15px; margin-top:16px;">✅ To-Do List</p>
+    <div id="plannerTodos" class="ptodos" style="margin-top:8px;"></div>
+    <div class="chatin" style="margin-top:8px;">
+      <label class="filebtn" style="cursor:pointer; margin:0;">📎<input type="file" id="plan-file" style="display:none;" onchange="planFilePicked(this, '')" /></label>
+      <input id="plan-todo" placeholder="함께 진행할 일 입력..." onkeydown="if(event.key==='Enter')addPlanTodo('')" />
+      <button class="cta gold" onclick="addPlanTodo('')">추가</button>
+    </div>
+    <p class="status" id="planFileName" style="display:none; margin-top:6px;"></p>
+  </div>
   </div>
 </section>
 
@@ -1048,6 +1084,28 @@ footer select { border: 1px solid var(--line); border-radius: 6px; padding: 4px 
           <button class="cta gold" onclick="sendChat()">전송</button>
         </div>
       </div>
+
+  <!-- 공유 플래너 (관리자측) -->
+  <div class="card" style="margin-top:14px;">
+    <div style="display:flex; align-items:center; justify-content:space-between; flex-wrap:wrap; gap:8px;">
+      <p class="title" style="font-size:15px; margin:0;">📅 공유 캘린더</p>
+      <div style="display:flex; align-items:center; gap:8px;">
+        <button class="filebtn" style="margin:0;" onclick="planNav(-1)">◀</button>
+        <b id="aplanMonth" style="min-width:110px; text-align:center;"></b>
+        <button class="filebtn" style="margin:0;" onclick="planNav(1)">▶</button>
+      </div>
+    </div>
+    <div id="aplannerCal" class="pcal" style="margin-top:10px;"></div>
+    <p class="status" style="margin-top:6px;">날짜를 누르면 일정을 등록합니다 · 일정을 누르면 삭제 · <span style="color:#F26F1F;">■ 관리자</span> <span style="color:#3E63DD;">■ 회원</span></p>
+    <p class="title" style="font-size:15px; margin-top:16px;">✅ To-Do List</p>
+    <div id="aplannerTodos" class="ptodos" style="margin-top:8px;"></div>
+    <div class="chatin" style="margin-top:8px;">
+      <label class="filebtn" style="cursor:pointer; margin:0;">📎<input type="file" id="aplan-file" style="display:none;" onchange="planFilePicked(this, 'a')" /></label>
+      <input id="aplan-todo" placeholder="함께 진행할 일 입력..." onkeydown="if(event.key==='Enter')addPlanTodo('a')" />
+      <button class="cta gold" onclick="addPlanTodo('a')">추가</button>
+    </div>
+    <p class="status" id="aplanFileName" style="display:none; margin-top:6px;"></p>
+  </div>
     </div>
 
     <!-- 시장 브리핑 게시 -->
@@ -2868,6 +2926,161 @@ function chatOnTab(t) {
   if (t === "chat" && MEMBER.isAdmin) { loadAdminMemberRooms(); loadAdminNotes(); }
 }
 
+/* ---------- 소통방 공유 플래너 (캘린더 + To-Do) ---------- */
+const PLAN = { events: [], todos: [], y: new Date().getFullYear(), m: new Date().getMonth(), file: null };
+function planIsAdm() { return String(CHAT.mode || "").startsWith("admin"); }
+function pfx() { return planIsAdm() ? "a" : ""; }
+function pel(id) { return document.getElementById(pfx() + id); }
+function planRoomCols() { return CHAT.memberId ? { member_id: CHAT.memberId } : { company_id: CHAT.companyId }; }
+function planRpcArgs() { return { p_company: CHAT.memberId ? null : CHAT.companyId, p_member: CHAT.memberId || null, p_code: CHAT.code || "" }; }
+async function loadPlanner() {
+  if (!useCloud || (!CHAT.companyId && !CHAT.memberId)) return;
+  try {
+    if (planIsAdm()) {
+      const col = CHAT.memberId ? "member_id" : "company_id";
+      const val = CHAT.memberId || CHAT.companyId;
+      const ev = await sb.from("chat_events").select("*").eq(col, val).order("ymd");
+      const td = await sb.from("chat_todos").select("*").eq(col, val).order("created_at");
+      if (ev.error || td.error) throw new Error((ev.error || td.error).message);
+      PLAN.events = ev.data || []; PLAN.todos = td.data || [];
+    } else {
+      const { data, error } = await sb.rpc("planner_fetch", planRpcArgs());
+      if (error) throw new Error(error.message);
+      PLAN.events = (data && data.events) || []; PLAN.todos = (data && data.todos) || [];
+    }
+  } catch (e) {
+    const c = pel("plannerCal");
+    if (c) c.innerHTML = '<p class="empty" style="grid-column:1/-1;">플래너 로드 실패: ' + esc(e.message) + ' (add-chat-planner.sql 실행 여부 확인)</p>';
+    return;
+  }
+  renderPlanner();
+}
+function planNav(d) {
+  PLAN.m += d;
+  if (PLAN.m < 0) { PLAN.m = 11; PLAN.y--; }
+  if (PLAN.m > 11) { PLAN.m = 0; PLAN.y++; }
+  renderPlanner();
+}
+function renderPlanner() {
+  const cal = pel("plannerCal");
+  if (!cal) return;
+  const mt = pel("planMonth");
+  if (mt) mt.textContent = PLAN.y + "년 " + (PLAN.m + 1) + "월";
+  const first = new Date(PLAN.y, PLAN.m, 1);
+  const start = new Date(first); start.setDate(1 - first.getDay());
+  const today = new Date(); const tY = today.getFullYear(), tM = today.getMonth(), tD = today.getDate();
+  const byDay = {};
+  PLAN.events.forEach(e => { const k = String(e.ymd).slice(0, 10); (byDay[k] = byDay[k] || []).push(e); });
+  let html = ["일", "월", "화", "수", "목", "금", "토"].map(w => `<div class="wd">${w}</div>`).join("");
+  for (let i = 0; i < 42; i++) {
+    const d = new Date(start); d.setDate(start.getDate() + i);
+    const ymd = d.getFullYear() + "-" + String(d.getMonth() + 1).padStart(2, "0") + "-" + String(d.getDate()).padStart(2, "0");
+    const out = d.getMonth() !== PLAN.m;
+    const isToday = d.getFullYear() === tY && d.getMonth() === tM && d.getDate() === tD;
+    const evs = (byDay[ymd] || []).map(e =>
+      `<span class="pev ${e.by_admin ? "adm" : "usr"}" title="누르면 삭제" onclick="event.stopPropagation(); delPlanEvent(${e.id})">${esc(e.title)}</span>`).join("");
+    html += `<div class="d${out ? " out" : ""}${isToday ? " today" : ""}" onclick="addPlanEvent('${ymd}')"><span class="dn">${d.getDate()}</span>${evs}</div>`;
+  }
+  cal.innerHTML = html;
+  const box = pel("plannerTodos");
+  if (!box) return;
+  box.innerHTML = PLAN.todos.map(t => `
+    <div class="prow${t.done ? " done" : ""}">
+      <input type="checkbox" style="width:auto;" ${t.done ? "checked" : ""} onchange="togglePlanTodo(${t.id}, this.checked)" />
+      <span class="tx">${esc(t.content)}${t.file ? ` · <a href="${esc(t.file)}" target="_blank" rel="noopener">📎 ${esc(t.file_name || "파일")}</a>` : ""}</span>
+      <span class="who" style="background:${t.by_admin ? "#F26F1F" : "#3E63DD"};">${t.by_admin ? "관리자" : "회원"}</span>
+      <button class="mdel" onclick="delPlanTodo(${t.id})">✕</button>
+    </div>`).join("") || '<p class="empty">등록된 할 일이 없습니다. 첫 항목을 추가해보세요.</p>';
+}
+async function addPlanEvent(ymd) {
+  const title = prompt(ymd + " 일정 내용을 입력하세요");
+  if (title === null || !title.trim()) return;
+  if (planIsAdm()) {
+    const { error } = await sb.from("chat_events").insert({ ...planRoomCols(), ymd, title: title.trim(), by_admin: true });
+    if (error) return alert("등록 실패: " + error.message);
+  } else {
+    const { error } = await sb.rpc("planner_event_add", { ...planRpcArgs(), p_ymd: ymd, p_title: title.trim() });
+    if (error) return alert("등록 실패: " + error.message);
+  }
+  loadPlanner();
+}
+async function delPlanEvent(id) {
+  if (!confirm("이 일정을 삭제할까요?")) return;
+  if (planIsAdm()) {
+    const { error } = await sb.from("chat_events").delete().eq("id", id);
+    if (error) return alert("삭제 실패: " + error.message);
+  } else {
+    const { error } = await sb.rpc("planner_event_del", { ...planRpcArgs(), p_id: id });
+    if (error) return alert("삭제 실패: " + error.message);
+  }
+  loadPlanner();
+}
+function planFilePicked(input, p) {
+  PLAN.file = input.files[0] || null;
+  const lb = document.getElementById(p + "planFileName");
+  if (lb) { lb.style.display = PLAN.file ? "block" : "none"; lb.textContent = PLAN.file ? "첨부 대기: " + PLAN.file.name : ""; }
+}
+async function addPlanTodo(p) {
+  const inp = document.getElementById(p + "plan-todo");
+  const content = inp.value.trim();
+  if (!content) return alert("할 일 내용을 입력하세요.");
+  let file = null, fileName = null;
+  if (PLAN.file) {
+    const f = PLAN.file;
+    if (f.size > 25 * 1024 * 1024) return alert("25MB 이하 파일만 첨부할 수 있습니다.");
+    if (planIsAdm()) {
+      const up = await uploadToR2(f, "plan");
+      if (!up) return;
+      file = up.url; fileName = f.name;
+    } else if (CHAT.companyId) {
+      const proxy = (DB.api.proxy || "").replace(/\/$/, "");
+      if (!proxy) return alert("파일 첨부가 아직 준비되지 않았습니다.");
+      try {
+        const res = await fetch(proxy + "/?api=chatupload&company=" + CHAT.companyId + "&code=" + encodeURIComponent(CHAT.code) + "&name=" + encodeURIComponent(f.name), { method: "POST", headers: { "Content-Type": f.type || "application/octet-stream" }, body: f });
+        const d = await res.json();
+        if (!res.ok || !d.url) return alert("파일 업로드 실패: " + (d.error || ("HTTP " + res.status)));
+        file = d.url; fileName = f.name;
+      } catch (e) { return alert("파일 업로드 실패: " + e.message); }
+    } else {
+      return alert("개인 방의 파일 첨부는 곧 지원됩니다.\n내용만 먼저 등록하거나, 파일은 관리자에게 요청해주세요.");
+    }
+  }
+  if (planIsAdm()) {
+    const { error } = await sb.from("chat_todos").insert({ ...planRoomCols(), content, file, file_name: fileName, by_admin: true });
+    if (error) return alert("등록 실패: " + error.message);
+  } else {
+    const { error } = await sb.rpc("planner_todo_add", { ...planRpcArgs(), p_content: content, p_file: file, p_file_name: fileName });
+    if (error) return alert("등록 실패: " + error.message);
+  }
+  inp.value = "";
+  PLAN.file = null;
+  const lb = document.getElementById(p + "planFileName");
+  if (lb) lb.style.display = "none";
+  const fi = document.getElementById(p + "plan-file");
+  if (fi) fi.value = "";
+  loadPlanner();
+}
+async function togglePlanTodo(id, done) {
+  if (planIsAdm()) {
+    const { error } = await sb.from("chat_todos").update({ done }).eq("id", id);
+    if (error) return alert("변경 실패: " + error.message);
+  } else {
+    const { error } = await sb.rpc("planner_todo_toggle", { ...planRpcArgs(), p_id: id, p_done: done });
+    if (error) return alert("변경 실패: " + error.message);
+  }
+  loadPlanner();
+}
+async function delPlanTodo(id) {
+  if (!confirm("이 항목을 삭제할까요?")) return;
+  if (planIsAdm()) {
+    const { error } = await sb.from("chat_todos").delete().eq("id", id);
+    if (error) return alert("삭제 실패: " + error.message);
+  } else {
+    const { error } = await sb.rpc("planner_todo_del", { ...planRpcArgs(), p_id: id });
+    if (error) return alert("삭제 실패: " + error.message);
+  }
+  loadPlanner();
+}
 function goNoteBox() {
   if (MEMBER.isAdmin) { go("admin"); setTimeout(() => { try { atab("chat"); } catch (_) {} }, 60); }
   else { go("chat"); setTimeout(() => { const c = document.getElementById("notesCard"); if (c) c.scrollIntoView({ behavior: "smooth", block: "center" }); }, 120); }
@@ -3007,13 +3220,14 @@ async function joinChatMember() {
   const chk = await sb.from("member_chat_codes").select("code").eq("member_id", MEMBER.user.id).maybeSingle();
   if (chk.error) return alert("확인 실패: " + chk.error.message + "\n(add-notes.sql 실행 여부를 확인하세요)");
   if (!chk.data || chk.data.code !== mcode) return alert("개인 소통방 코드가 올바르지 않습니다.\n📮 쪽지로 관리자에게 코드 발급을 요청해주세요.");
-  CHAT.mode = "member"; CHAT.companyId = null; CHAT.code = "";
+  CHAT.mode = "member"; CHAT.companyId = null; CHAT.code = mcode;   /* 플래너 검증에도 사용 */
   CHAT.memberId = MEMBER.user.id;
   CHAT.memberName = (MEMBER.profile && MEMBER.profile.company_name) || MEMBER.user.email.split("@")[0];
   document.getElementById("chatEntry").style.display = "none";
   document.getElementById("chatRoom").style.display = "block";
   document.getElementById("chatRoomTitle").innerHTML = `<b>${esc(CHAT.memberName)}</b> (개인 회원) ↔ 워크멘토 관리자`;
   startChatPoll();
+  loadPlanner();
 }
 async function loadAdminMemberRooms() {
   const sel = document.getElementById("achat-member");
@@ -3035,6 +3249,7 @@ function adminOpenMemberChat() {
   CHAT.mode = "admin-member"; CHAT.companyId = null; CHAT.memberId = uid;
   CHAT.memberName = sel.options[sel.selectedIndex] ? sel.options[sel.selectedIndex].text : "회원";
   startChatPoll();
+  loadPlanner();
 }
 async function joinChat() {
   if (!useCloud) return alert("소통방은 클라우드 모드에서 사용할 수 있습니다.");
@@ -3051,6 +3266,7 @@ async function joinChat() {
   document.getElementById("chatRoom").style.display = "block";
   document.getElementById("chatRoomTitle").innerHTML = `<b>${esc(co ? co.name : "기업")}</b> ↔ 워크멘토 관리자`;
   startChatPoll();
+  loadPlanner();
 }
 function leaveChat() {
   stopChatPoll(); CHAT.mode = null; CHAT.companyId = null; CHAT.code = ""; CHAT.memberId = null; CHAT.memberName = "";
@@ -3063,6 +3279,7 @@ async function adminOpenChat() {
   if (!cid) { stopChatPoll(); document.getElementById("aChatLog").innerHTML = '<p class="empty">기업을 선택하면 대화가 표시됩니다.</p>'; return; }
   CHAT.mode = "admin"; CHAT.companyId = cid; CHAT.code = ""; CHAT.memberId = null;
   const mSel = document.getElementById("achat-member"); if (mSel) mSel.value = "";
+  loadPlanner();
   if (useCloud) {
     const r = await sb.from("chat_codes").select("code").eq("company_id", cid).maybeSingle();
     document.getElementById("achat-code").value = r.data ? r.data.code : "(미설정 — 기업 관리에서 코드 저장)";
