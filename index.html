@@ -489,13 +489,20 @@ h2.section { font-weight: 800; font-size: 24px; color: var(--navy); letter-spaci
 .pn-row { display: flex; gap: 14px; align-items: stretch; }
 .pn-row #notesCard { flex: 1; max-width: 460px; }
 .pn-row.open #notesCard { flex: 0 0 340px; max-width: 340px; display: flex; flex-direction: column; }
-.pn-row.open #notesCard #noteList { flex: 1; min-height: 0; overflow-y: auto; max-height: 420px; }
+.pn-row.open #notesCard #noteList { flex: 1; min-height: 0; overflow-y: auto; }
 .pn-row.open #plannerCard { flex: 1; min-width: 0; margin-top: 14px; display: flex; flex-direction: column; }
 .pn-row.open #plannerCard .pcal { flex: 1; align-content: start; }
 @media (max-width: 920px) {
   .pn-row { flex-direction: column; }
   .pn-row.open #notesCard { flex: auto; max-width: none; width: 100%; }
+  .pn-row.open #notesCard #noteList { max-height: 300px; }
 }
+.pn-row #notesCard textarea { resize: none; }   /* 손잡이 드래그로 높이 흐트러짐 방지 */
+.ptodos { height: 232px; overflow-y: auto; padding-right: 4px; }   /* 5행 기본창 + 스크롤 */
+.dkzone ::-webkit-scrollbar { width: 9px; }
+.dkzone ::-webkit-scrollbar-thumb { background: #454B57; border-radius: 8px; }
+.dkzone ::-webkit-scrollbar-thumb:hover { background: #5A6170; }
+.dkzone ::-webkit-scrollbar-track { background: transparent; }
 /* ── 다크 존 테마 (.dkzone — 소통방·자유게시판 등 장시간 작성 화면용 저광량 배색) ── */
 .dkzone { --dkbg:#23262D; --dkcell:#2B2F37; --dkline:#454B57; --dktext:#E9EAEE; --dksub:#A7ADBB; }
 .dkzone .card{ background: var(--dkbg); border-color: var(--dkline); color: var(--dktext); }
@@ -705,8 +712,6 @@ footer select { border: 1px solid var(--line); border-radius: 6px; padding: 4px 
 
 <!-- ============ 소통방 ============ -->
 <section class="page dkzone" id="page-chat">
-  <h2 class="section">소통방</h2>
-  <p class="section-sub">회원(기업·개인)과 워크멘토 관리자가 1:1로 대화하는 전용 공간입니다. 등록 기업은 파일도 주고받을 수 있습니다.</p>
 
   <div class="card" id="chatEntry" style="max-width:460px;">
     <div class="form">
