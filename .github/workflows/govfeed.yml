@@ -2,15 +2,22 @@ name: gov-feed-collect
 
 on:
   schedule:
-    - cron: "*/30 * * * *"
+    # 15분 간격 + 오프피크 분(3,18,33,48) — 정각·30분 정각은 GitHub 크론 혼잡으로 지연이 가장 심함
+    - cron: "3,18,33,48 * * * *"
   workflow_dispatch: {}
 
 permissions:
   contents: write
 
+# 지연된 실행이 겹쳐 도는 것 방지 (이전 실행이 끝날 때까지 대기)
+concurrency:
+  group: govfeed
+  cancel-in-progress: false
+
 jobs:
   collect:
     runs-on: ubuntu-latest
+    timeout-minutes: 10   # 행(hang) 방지 — 10분 넘으면 강제 종료
     steps:
       - uses: actions/checkout@v4
 
@@ -29,5 +36,18 @@ jobs:
           git config user.name "workmentor-bot"
           git config user.email "bot@workmentor.co.kr"
           git add gov-feeds.json news
-          git diff --cached --quiet || git commit -m "auto: gov feeds + news pages [skip ci]"
+          if git diff --cached --quiet; then
+            echo "변경 없음 — 커밋 생략"
+            exit 0
+          fi
+          git commit -m "auto: gov feeds + news pages [skip ci]"
+          # 관리자 수동 업로드와 push가 경합해도 rebase 후 재시도 (최대 3회)
+          for i in 1 2 3; do
+            if git push; then
+              echo "push 성공"
+              exit 0
+            fi
+            echo "push 경합 감지 — rebase 후 재시도 ($i/3)"
+            git pull --rebase origin main || exit 1
+          done
           git push
