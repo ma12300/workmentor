@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-07-12T18:39:34.899Z",
+ "updatedAt": "2026-07-12T19:54:21.941Z",
  "groups": {
   "tax": [
    {
@@ -257,13 +257,6 @@
     "source": "서울STV뉴스"
    },
    {
-    "title": "한수원, 인공지능 기반 산업안전 기술로 '고용노동부 장관상'",
-    "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQVGo4YlBWOXd1RFdXRF85SldzaDJ5NGxNVTFoeHc1aHV3S3BkTHpidkZkYWxFN1c1XzNJNFgySEVUMV9hZG5iaDlUeEsxcThrNWNLVEt2YVN5WmRNVjM4OTJSM21Cb0tSME5BVnQwU1pvVGFQbzU1dGtzTDRnSEk2aA?oc=5",
-    "date": "Sat, 11 Jul 2026 08:04:00 GMT",
-    "summary": "",
-    "source": "tbc.co.kr"
-   },
-   {
     "title": "백석대, 고용노동부 미래내일 일경험 사업 규모 확대",
     "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBPSndUNnNqOTNjTmoyRktZajlIdU5uLWdTWGxwdHFGOEhBZERfM0VDYVNtRzE5RzFHSDU0MExyZjJWdDVDLThfWHlxeGc5SmdkZzZkSmJuSWQ4eHhpUjUtVHMyTF9sZkVKcEE4Vg?oc=5",
     "date": "Sat, 11 Jul 2026 03:07:58 GMT",
@@ -353,9 +346,30 @@
     "date": "Fri, 10 Jul 2026 08:05:54 GMT",
     "summary": "",
     "source": "복지TV부울경방송"
+   },
+   {
+    "title": "전재수 시장, 김영훈 고용노동부 장관 접견...\"조선업 상생 해법\" 모색",
+    "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9MaTFJWnFDbmdVVEkwR3dtV0owcEdSUWhtLXhLNGctVE5Gc3pLLXRNZFk4eHdpUzk3QjN5NjFNaThrRkV3eHZhUk4xQjBLeDJwYlhBeUNLelFzY1hMSS14YzYwWURsMDh0VW5lLUN3?oc=5",
+    "date": "Fri, 10 Jul 2026 07:59:22 GMT",
+    "summary": "",
+    "source": "gukjenews.com"
    }
   ],
   "law": [
+   {
+    "title": "“트럼프 새 전용기 보안 우려” 보도… 美 법무부, NYT기자 4명에 소환장",
+    "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5nLVN6WTkwUTlrUEUxNE9jSmtkMGxyZHpjUFFsVUI4N0JBU3JCalEzZFI5Q09BOFhybVpkVmFtQXFEcWI2VW1VYkZsRm9QSm80U2RxT2tqVUhlblVBM3UyaDdVQ3hUWlpxUDQ4d3RTblZFRXPSAWZBVV95cUxQcW9kSmVCZkoxLV9mSGxub3czR0RyU1lIdUF6akd2ZHVrS2Q3aVZvaklRclh3NWtPR21Ha0lyVk1nTldZWVVoLVZmOFhyYzVLVE1Pc1hxcTJZakE2NlBCT1JYYm1BaFE?oc=5",
+    "date": "Sun, 12 Jul 2026 19:30:00 GMT",
+    "summary": "",
+    "source": "동아일보"
+   },
+   {
+    "title": "수술비 깎아주고 아닌척 ‘뒷광고’… 공정위, 강남 성형외과 3곳 제재",
+    "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFAtQkItUzgzVU1ZazE1MDc2TVBQX1NIUldWUlFPUGZsNS1HdnE2YkJjVUtoM2NUR2tSRjRSM2VpNnFPTk51YXVrNjB3TzlhTUFDSDdYV0RpVVk4YXl1RENZOWVBYmZmdWIwdEJKOXJOWjJyWTREc3fSAWZBVV95cUxQSjR1NDF0dHQyMF8zX3k1UG5fREhldWcydTg3NDVpZFpnVkZ5akR1NDFmMFlJalgyWnBNOUUtemI1NmxPUmZVOWY2VmN4T1pnRWJSMkRZcGllcHUtb2VnTWN4aGhkcWc?oc=5",
+    "date": "Sun, 12 Jul 2026 19:30:00 GMT",
+    "summary": "",
+    "source": "동아일보"
+   },
    {
     "title": "법무부 ‘디지털 노마드 비자’ 정식 제도화",
     "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE1nMmNyWmZ2T2FrbXdQU1B2SHZGblNSNU9QeDloRERSNnVyWWlXT1E2aUtSbFVJaTJSUlZ0S3VwZGNWMlVZR1BUNg?oc=5",
@@ -442,10 +456,17 @@
    },
    {
     "title": "광고성 후기 올린 성형외과 3곳…공정위 시정명령",
-    "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE8zVDdaSkxWMmlVOGJYYzhiVnVCMmlTd3hHbFI4MGROakJaSlVFQWQ4eHotaDJfRDcxOVEtNFFlUzA2NmhOMi13TFJveVpRbWFDSkFzQzNQbVltTlVESWd2U0FuajhZUjRC?oc=5",
+    "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9BcV92U3RMVFpYbWRUZ0tHeVNfcXNwVUZPUHlwa1hPMVhqbUp0NUx6VFFSbFItMVlJWndhUTRpd0dWTExEX19zeEFNV0NUTVBvZGxaRDJUb2NtTDVpMWpPdFVHWjFpZDg?oc=5",
     "date": "Sun, 12 Jul 2026 07:57:23 GMT",
     "summary": "",
     "source": "강원도민일보"
+   },
+   {
+    "title": "[포토뉴스] 고향 양구 방문한 정성호 법무부 장관",
+    "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFB2TTN1eVdtcGsteExjdk5tTi1fMm1uRC1OS29Kd2lCUm53V3JqMUxYbThPbF81cUhEYlFlcGFPcG9ZMVd5ZG0tYlZVRkhzSGk1SXhCWkZXRHA?oc=5",
+    "date": "Sun, 12 Jul 2026 07:56:58 GMT",
+    "summary": "",
+    "source": "강원일보"
    },
    {
     "title": "“후기인 척 뒷광고”…서울 성형외과 3곳, 공정위 제재",
@@ -474,13 +495,6 @@
     "date": "Sun, 12 Jul 2026 05:41:00 GMT",
     "summary": "",
     "source": "연합뉴스TV"
-   },
-   {
-    "title": "美법무부, ‘트럼프 전용기 보안 우려’ 보도한 NYT 기자들에 소환장",
-    "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9MeXc5VXFLbGQzZXRmT2RROFpuOTJOV0RQSDlrbDFnbW1RdGZ3MTZlRWRsQzZsV09SdmhKYzBFTXpNRTkzdkdpUWozQkFOdk1pQ1ZZckFoTVdLTTJVM29YRmVfTHV0RnNsajE0QnB5cnh3TTTSAWZBVV95cUxQZ2xYYUtsN09HTEkybDRJVzVjeUx6a0dRU05ucl9uR3F6ZEZWbVcybFJEVUktckw0eGhiakxKb0VnTjRlQ1N3cmxBdV9yem9SVno4VUJWXy0yQ2xJUGtWNENGcVM0dmc?oc=5",
-    "date": "Sun, 12 Jul 2026 05:31:00 GMT",
-    "summary": "",
-    "source": "동아일보"
    },
    {
     "title": "'후기인 척하며 뒷광고'... 성형외과 3곳 공정위 제재",
@@ -516,20 +530,6 @@
     "date": "Sun, 12 Jul 2026 04:24:00 GMT",
     "summary": "",
     "source": "경향신문"
-   },
-   {
-    "title": "‘자발적 후기’가 아니라 알고 보니 ‘뒷광고’… 성형외과 3곳 덜미 잡혀",
-    "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPeTJJVTh3Um5wM3ZyZlNVVDJmS3Mxak5LZzJCbVB0eHB4T1V6cDRaUE1EUGtVck9IUDU4b2p0b3d0Q21lQW9UbmFuTW1DYnZwRGtlTkIxY2JON3dmUnp0emxaLXV4dmVZajlac21vRGdRVWVfZC0yQS1tS09JX1lQUmxrSEpKenpRZDhFeER3?oc=5",
-    "date": "Sun, 12 Jul 2026 03:17:00 GMT",
-    "summary": "",
-    "source": "국제신문"
-   },
-   {
-    "title": "“내돈내산인 줄 알았는데”…성형외과 ‘후기 뒷광고’ 공정위 철퇴",
-    "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1VanA2YV82bmlnbTVJaVY0d0ZYM1REYi1JZW11ZWtNYWhVY0d3eVFVQUk1dDdSb3d0X29FOVVmcEd4OHg4dlJGZ2NxejJLWjYyNWlaOUMyVXB5V25OV3BjcGFCU28zZGZDM3ZlT01B?oc=5",
-    "date": "Sun, 12 Jul 2026 03:15:49 GMT",
-    "summary": "",
-    "source": "아시아투데이"
    }
   ],
   "fund": [
@@ -711,11 +711,11 @@
   ],
   "biz": [
    {
-    "title": "중기부, 전국서 '아이디어 컨설팅 데이' 개최…창업기업 맞춤형 상담 지원",
-    "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5CSWFDZ2VjLWlYZDJqaDZ6OFFLUmFFUmNWZWR1cVg3MmdTZGs4V0laU0ZvTUJmYnBQSGxKUUtRSzk3elQ3bG5CbHZzdkZ3STFCbGNYdFFoa1ZTUFFLTXNxZGRlWGM?oc=5",
-    "date": "Sun, 12 Jul 2026 16:34:41 GMT",
+    "title": "'유출 논란' 모두의창업, 아이디어 보호 컨설팅 진행",
+    "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9fOVl0V2tqNk5RTUtOeHF5cnhwLW9wMXlBVV83ZnUzdklwMEh1ZXItWHp1V29ZYVd1RUpBc0lydjNVNTkyeVVPU0VBSURSbElSdzBfaU9sRWkyS0wyOEZEYzFScUFrcFRVU0VZVnFpUzQwaG9sU1VlOA?oc=5",
+    "date": "Sun, 12 Jul 2026 19:12:00 GMT",
     "summary": "",
-    "source": "entv.kr"
+    "source": "네이트"
    },
    {
     "title": "신용보증기금, 중소벤처기업부 장관 표창",
@@ -767,6 +767,13 @@
     "source": "지디넷코리아"
    },
    {
+    "title": "중기부, 전국서 '아이디어 컨설팅 데이' 개최…창업기업 맞춤형 상담 지원",
+    "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5CSWFDZ2VjLWlYZDJqaDZ6OFFLUmFFUmNWZWR1cVg3MmdTZGs4V0laU0ZvTUJmYnBQSGxKUUtRSzk3elQ3bG5CbHZzdkZ3STFCbGNYdFFoa1ZTUFFLTXNxZGRlWGM?oc=5",
+    "date": "Sun, 12 Jul 2026 06:32:00 GMT",
+    "summary": "",
+    "source": "entv.kr"
+   },
+   {
     "title": "중기부, '아이디어 컨설팅 데이' 개최…창업 아이디어 고도화",
     "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5Dc1FXVS1FWWQyY1RSazE3YlMtMWZFRzlFOHJ1NU5TaWdsaXZqSjhQRzQ3TmtwbE9LTHU5M1RPcm1tVVRHcTdlOEhaSnZrWndKQnRUS2s4VTlweWVXN0otLTNmLVhVQ3A4eXpOd1hQdGE?oc=5",
     "date": "Sun, 12 Jul 2026 05:10:15 GMT",
@@ -789,10 +796,10 @@
    },
    {
     "title": "중기부, 17개 시도서 '아이디어 컨설팅 데이'…맞춤형 상담 지원",
-    "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9rODJMU05ZUXA5b01kR2FJRmxPVktNWHFTZ2owNUpMZTc4WmRsQktjX1p5YWwzcUxxaHFoQV9UcE9Xb3owaExrOWN0ZXFQd3NKcGYw?oc=5",
-    "date": "Sun, 12 Jul 2026 04:36:00 GMT",
+    "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5QOW45bndPWHBDUEZ1bEFMYWRQcjNJNUV3RmdXXzEyU0IwLUlzczZ4S3F2SXNFN1FxbzVZNEQ4MTZCWGdZNGpab3VHMnhrQnhDNjVPM192SG1WYVgxZFJxUjF4UE1EVlk0RFE?oc=5",
+    "date": "Sun, 12 Jul 2026 04:33:00 GMT",
     "summary": "",
-    "source": "네이트"
+    "source": "news.sbs.co.kr"
    },
    {
     "title": "중진공, 차세대 후계자 리더십 키운다…‘2026 중소벤처기업이음학교’ 장기과정 수강생 모집",
@@ -877,13 +884,6 @@
     "date": "Sun, 12 Jul 2026 02:14:39 GMT",
     "summary": "",
     "source": "더팩트"
-   },
-   {
-    "title": "유니콘브릿지 50개사, 바이오·AI가 절반 [벤처인사이드]",
-    "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5GbkRZQTNiclgtcjhkVmVxQnJtcm9aQ2FhaE1qb2lKRDVMRFRuSk9RMl9uV21pWE82ZlFqQ1h3eGpfMDllaDdtbXF1aVZDcnZLckItMjJjakNCcEJXQ080a01R?oc=5",
-    "date": "Fri, 10 Jul 2026 21:00:00 GMT",
-    "summary": "",
-    "source": "디지털데일리"
    }
   ],
   "money": [
@@ -898,6 +898,13 @@
     "title": "중소벤처기업부, 창업지원 200만원 지급…5천명 선발... 대상자 지금 확인",
     "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFA2enlFNTV2UE5Td19FQzBSVXNObFRPelJvamIwMWhSLUZhMmRKaThhamk0bmQxT1dvUmtOd2xtdTJwdEFLR2k5dlJZNlVmRFZYazVSSk5fandya3U1MExTVF9oNmlnc1XSAWtBVV95cUxOb0FhaFVUSnZhRHZfeWVPM1BLYURId3Vlcnh3VGJUN3U1czk2T181eUhEaUZxT3oyaGtmSjVoZmVmNHBGdC1POER1RUR2RmpPYnF3aEtqdUtrWDB1VU9GbWpDd1RYMFVkSEsxOA?oc=5",
     "date": "Sat, 23 May 2026 07:00:00 GMT",
+    "summary": "",
+    "source": "창원특례신문"
+   },
+   {
+    "title": "소상공인 지원금 최대 3억 원…6월 8일 전 신청 안 하면 제외",
+    "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5Fb29OMkVhUVAyaG1IdWt2SF9TSHp0UVNlRndMQlJveEc0NGZGb1d6aTEzRTlkSG5tSGNCdzdYSXE1RnByMF9oMkk3WktjTERNSU1mbnhtVnc5MTdpV2RmeS1pMG1McDjSAWtBVV95cUxNbWxzMnEzdHQ4NlVYenhZVWVwYy1FTWxkS2NiMUpnU2F4Wlg2bXRndlBQYjV0XzZQUm9lLTlneWhFVlVFVmJBcXA3bE5yZUVoMklsc3lES3pyWnBQUURVbmk4RGRHSjFXNHZ4QQ?oc=5",
+    "date": "Tue, 19 May 2026 07:00:00 GMT",
     "summary": "",
     "source": "창원특례신문"
    },
@@ -998,13 +1005,6 @@
     "date": "Fri, 13 Mar 2026 07:00:00 GMT",
     "summary": "",
     "source": "bntnews.co.kr"
-   },
-   {
-    "title": "소상공인 바우처 신청 및 사용 방법",
-    "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTFBGTHA4UC00MEZIQ2pnaDlWUWpsRWVFZU9tM1htdGRVeFRpbGZveVVvbXBZRFNYUFo3VlpnYU8tYnY4WVR2Nnc?oc=5",
-    "date": "Fri, 13 Mar 2026 07:00:00 GMT",
-    "summary": "",
-    "source": "v.daum.net"
    },
    {
     "title": "속초시, 소상공인 생애 첫 창업지원금 대상 모집",
