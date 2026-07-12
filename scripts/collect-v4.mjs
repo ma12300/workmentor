@@ -1,4 +1,4 @@
-/* 워크멘토 정부 피드 수집기 v4 — GitHub Actions에서 30분마다 실행
+/* 워크멘토 정부 피드 수집기 v4 — GitHub Actions에서 15분마다 실행
    분류별 부처 키워드로 구글 뉴스 RSS 검색 → gov-feeds.json (그룹별 최신 25건)
    (korea.kr 직접 수집은 대다수 서버망을 차단하여 구글 뉴스 경유로 전환) */
 
@@ -51,6 +51,7 @@ async function fetchGroup(key, query) {
       const r = await fetch(url, {
         headers: { "User-Agent": UA, "Accept-Language": "ko-KR,ko;q=0.9" },
         redirect: "follow",
+        signal: AbortSignal.timeout(15000),   /* 15초 무응답 시 중단 — 잡 행(hang) 방지 */
       });
       if (!r.ok) throw new Error("HTTP " + r.status);
       const rows = parseRss(await r.text());

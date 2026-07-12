@@ -81,7 +81,8 @@ function fmtKST(s) {
   return `${p(k.getUTCMonth() + 1)}.${p(k.getUTCDate())} ${p(k.getUTCHours())}:${p(k.getUTCMinutes())}`;
 }
 function digestBody(d) {
-  let out = `<p style="color:#6C7386; font-size:13px;">수집 기준: ${esc(String(d.updatedAt).slice(0, 16).replace("T", " "))} UTC · 30분마다 자동 갱신 · 출처: 각 언론사</p>`;
+  const upKST = new Date(new Date(d.updatedAt).getTime() + 9 * 3600 * 1000).toISOString().slice(0, 16).replace("T", " ");
+  let out = `<p style="color:#6C7386; font-size:13px;">수집 기준: ${esc(upKST)} (한국시간) · 15분마다 자동 갱신 · 출처: 각 언론사</p>`;
   for (const [key, name] of Object.entries(NAMES)) {
     const rows = (d.groups[key] || []).slice(0, 20);
     if (!rows.length) continue;
@@ -113,7 +114,7 @@ const archive = `<h2>지난 브리핑 아카이브</h2><p class="arch">` +
 const wkBanner = `<a href="weekly.html" style="display:block; text-align:center; background:linear-gradient(180deg,#4A4540,#37332E); color:#FFD9BC; font-weight:800; padding:13px; border-radius:11px; text-decoration:none; margin:0 0 22px; box-shadow:0 3px 10px rgba(0,0,0,0.15);">🏆 이번 주 지원금·정책자금 TOP10 보러가기 →</a>`;
 writeFileSync("news/index.html",
   page(`중소기업 정책 뉴스 브리핑 — 세무·노무·금융·법률 실시간 | 워크멘토`,
-       `30분마다 갱신되는 중소기업 필수 정책 뉴스. 기획재정부, 국세청, 고용노동부, 금융위원회, 공정거래위원회, 중소벤처기업부 관련 최신 보도 모음.`,
+       `15분마다 갱신되는 중소기업 필수 정책 뉴스. 기획재정부, 국세청, 고용노동부, 금융위원회, 공정거래위원회, 중소벤처기업부 관련 최신 보도 모음.`,
        `/news/`, wkBanner + body + archive));
 
 /* ── ② 이번 주 주목할 지원금·정책자금 TOP10 ── */
@@ -125,7 +126,7 @@ const seenT = new Set(); const top = [];
 for (const x of scored) { const key = x.title.slice(0, 20); if (!seenT.has(key)) { seenT.add(key); top.push(x); } if (top.length >= 10) break; }
 const wk = Math.ceil(kst.getUTCDate() / 7);
 const wkLabel = `${kst.getUTCMonth() + 1}월 ${wk}주차`;
-let wbody = `<p style="color:#6C7386; font-size:13px;">${wkLabel} · 정책자금·지원금 관련 주요 소식 TOP10 — 30분마다 자동 선별</p>`;
+let wbody = `<p style="color:#6C7386; font-size:13px;">${wkLabel} · 정책자금·지원금 관련 주요 소식 TOP10 — 15분마다 자동 선별</p>`;
 if (NOTES.money) wbody += `<p style="background:#FFF7EF; border:1px solid #F5CDAE; border-left:4px solid #F97B33; border-radius:10px; padding:12px 15px; font-size:13.5px; color:#5A4632;">💬 <b>워크멘토 해설</b> — ${esc(NOTES.money)}</p>`;
 wbody += `<ul>` + top.map((x, i) => `<li><a href="${esc(x.url)}" target="_blank" rel="noopener"><b style="color:#F26F1F;">${i + 1}.</b> ${esc(x.title)}</a><div class="meta">${esc(x.source)} · ${fmtKST(x.date)}</div></li>`).join("\n") + `</ul>`;
 writeFileSync("news/weekly.html",
@@ -151,9 +152,9 @@ const draft = `[제목 후보 — 하나 골라 쓰세요]
 
 [본문 — 아래부터 복사해서 붙여넣기]
 안녕하세요, 기업 경영의 멘토 '워크멘토'입니다.
-매일 30분마다 자동 수집되는 중소기업 필수 뉴스 중 오늘의 핵심만 추렸습니다.
+15분마다 자동 수집되는 중소기업 필수 뉴스 중 오늘의 핵심만 추렸습니다.
 
-${secTxt("정책자금·지원금", "money")}${secTxt("세무·회계", "tax")}${secTxt("노무·인사", "labor")}${secTxt("중소기업 정책", "biz")}▶ 전체 실시간 브리핑 (30분마다 갱신)
+${secTxt("정책자금·지원금", "money")}${secTxt("세무·회계", "tax")}${secTxt("노무·인사", "labor")}${secTxt("중소기업 정책", "biz")}▶ 전체 실시간 브리핑 (15분마다 갱신)
 https://www.workmentor.co.kr/news/
 
 ▶ 이번 주 지원금 TOP10 한눈에
