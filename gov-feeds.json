@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-07-12T15:28:27.400Z",
+ "updatedAt": "2026-07-12T16:29:56.511Z",
  "groups": {
   "tax": [
    {
@@ -195,10 +195,10 @@
    },
    {
     "title": "고용노동부, 창원국가산단 '포괄임금 오남용' 특별감독…공짜 야근·52시간 허위관리 정조준",
-    "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE4wRzlaZEZHT3pFcGNHbTl6RUptYjExUHBMUF9zdGhjM1F6eGM3QVI3T0FYNzNlQ1BlMDdBWWNOM18teDdaczY3Sw?oc=5",
-    "date": "Sun, 12 Jul 2026 06:33:17 GMT",
+    "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE1JVjY4QkE0NWVVZ21hV2NZMEM5M0xiMGp1NFdHTzdob29kZ0ZxVlNZT3gyalh4VHJ0anhaOTR1azN1QjljelJZbnVB?oc=5",
+    "date": "Sun, 12 Jul 2026 06:33:40 GMT",
     "summary": "",
-    "source": "얼리어답터뉴스"
+    "source": "뉴스N연합"
    },
    {
     "title": "전재수 시장, 김영훈 노동부장관에 극지 해기사 양성과정 건의",
@@ -264,6 +264,13 @@
     "source": "서울STV뉴스"
    },
    {
+    "title": "한수원, 인공지능 기반 산업안전 기술로 '고용노동부 장관상'",
+    "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQVGo4YlBWOXd1RFdXRF85SldzaDJ5NGxNVTFoeHc1aHV3S3BkTHpidkZkYWxFN1c1XzNJNFgySEVUMV9hZG5iaDlUeEsxcThrNWNLVEt2YVN5WmRNVjM4OTJSM21Cb0tSME5BVnQwU1pvVGFQbzU1dGtzTDRnSEk2aA?oc=5",
+    "date": "Sat, 11 Jul 2026 08:04:00 GMT",
+    "summary": "",
+    "source": "tbc.co.kr"
+   },
+   {
     "title": "백석대, 고용노동부 미래내일 일경험 사업 규모 확대",
     "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBPSndUNnNqOTNjTmoyRktZajlIdU5uLWdTWGxwdHFGOEhBZERfM0VDYVNtRzE5RzFHSDU0MExyZjJWdDVDLThfWHlxeGc5SmdkZzZkSmJuSWQ4eHhpUjUtVHMyTF9sZkVKcEE4Vg?oc=5",
     "date": "Sat, 11 Jul 2026 03:07:58 GMT",
@@ -290,13 +297,6 @@
     "date": "Fri, 10 Jul 2026 21:52:24 GMT",
     "summary": "",
     "source": "매일경제 마켓"
-   },
-   {
-    "title": "\"월 소득 80만원 이상 가입\".. '전국민 고용보험' 시동",
-    "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1RbV9JSlk1a0I1VjhzWE5OdUNmd09uVUlrLUUwRkFFVzFhVjhYNVUwYVhqY1d5YmZfQ1ZKRWd1THBjY3VJWUJOSUY2bU80T0lpVHJoQ19NM0J5REU1NWZsck1yQmJZZUFEb1Rr?oc=5",
-    "date": "Fri, 10 Jul 2026 15:29:00 GMT",
-    "summary": "",
-    "source": "열린정책뉴스"
    },
    {
     "title": "고용노동부 장관, 부산청 방문 지역 특화사업과 노동·산업안전 정책 점검",
@@ -434,8 +434,15 @@
     "source": "한국경제"
    },
    {
+    "title": "수술비 할인 숨기고 ‘내돈내산’ 후기…강남 성형외과 3곳 적발",
+    "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9MNDIzeWVDZGVwZXhkSUw2SnM0ME9NNWpqNjdnZGEzMjdaRkdnSDAyVVYyQzJZejlwa3hwSGo0QjFfVHJMcHNNTVJoVGUyRHZCRHBzNkJQWlNFZl85MUtpSkVzY0NUZ2RuVHE5SA?oc=5",
+    "date": "Sun, 12 Jul 2026 08:13:55 GMT",
+    "summary": "",
+    "source": "메디컬투데이"
+   },
+   {
     "title": "광고성 후기 올린 성형외과 3곳…공정위 시정명령",
-    "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9BcV92U3RMVFpYbWRUZ0tHeVNfcXNwVUZPUHlwa1hPMVhqbUp0NUx6VFFSbFItMVlJWndhUTRpd0dWTExEX19zeEFNV0NUTVBvZGxaRDJUb2NtTDVpMWpPdFVHWjFpZDg?oc=5",
+    "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE8zVDdaSkxWMmlVOGJYYzhiVnVCMmlTd3hHbFI4MGROakJaSlVFQWQ4eHotaDJfRDcxOVEtNFFlUzA2NmhOMi13TFJveVpRbWFDSkFzQzNQbVltTlVESWd2U0FuajhZUjRC?oc=5",
     "date": "Sun, 12 Jul 2026 07:57:23 GMT",
     "summary": "",
     "source": "강원도민일보"
@@ -523,16 +530,16 @@
     "date": "Sun, 12 Jul 2026 03:07:00 GMT",
     "summary": "",
     "source": "한겨레"
-   },
-   {
-    "title": "수술비 깎아주고 '실제 후기'인 척…공정위, 성형외과 3곳 제재",
-    "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1ZcWp6N1pvQnVsSjV4aXcwOXhzTGVKeXRJdUszYWxBX1ZZZVpRZWpPNDhLNzk5UUI2TUp6Q21XQVpTNXkzQmZzRTRGUXcwX3JQaWtF?oc=5",
-    "date": "Sun, 12 Jul 2026 03:03:00 GMT",
-    "summary": "",
-    "source": "네이트"
    }
   ],
   "fund": [
+   {
+    "title": "5대 금융지주, 상반기 포용금융 11.3조 공급",
+    "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQNFJUMGZtbFJuMnFxRC1pTXRubGlCbW1BRHY5WmNHcHFXV2hFVi1TX05QVFRrd004XzV2SDB0Uml6dGdyOUZuYzM4QnNNOTlwSUZ4Nm5qcnh3dUdWVExBZVZDUFpIWTRpTDZBMUE0bUgxdjFVci1SMGd5NGFQRnJkTlVGam9fbzRqU1VFb1V3?oc=5",
+    "date": "Sun, 12 Jul 2026 15:32:00 GMT",
+    "summary": "",
+    "source": "조선일보"
+   },
    {
     "title": "관세청, 패션봉제업계 간담회… 범정부 의류 라벨갈이 단속 결과 애로사항 청취",
     "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9zWlpUWEZucUo3RlBpMWVVNnRWb0otekN4MWI1X2hnNzRtUUxETmlybEUtdGcxR1RsNk9Tb25CSFIwWC1mSEFCaUo0M1daNVpBemJFMVdPVGd1eG82UzRhcGZkMDFPR1Y0NjBsZmd3?oc=5",
@@ -553,13 +560,6 @@
     "date": "Sun, 12 Jul 2026 05:55:51 GMT",
     "summary": "",
     "source": "퍼블릭타임스"
-   },
-   {
-    "title": "5대 금융지주, 상반기 포용금융 11.3조 공급…2.3조원 규모 채무조정도",
-    "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPQzVNQVNIdE1WSllrYkFVdUVaQnRhNWhHZ3B2T0I4eWItWWUtQllaUTBHTG04eWFwaUFwWnVIUGt5eWZVVDNMbTYya2ZxZVNxODJ4aTIzZ1puVUM0UnA1dmVOMTVja3hBWFE0S0pkM2NIcXdQcE80N094NmNoSWhQX1I4a0RGMi02bFhIMnVn?oc=5",
-    "date": "Sun, 12 Jul 2026 03:27:17 GMT",
-    "summary": "",
-    "source": "조선일보"
    },
    {
     "title": "5대 금융지주 상반기 포용금융 11.3조…금융위, 상시 점검 나선다",
@@ -718,25 +718,11 @@
     "source": "대구신문"
    },
    {
-    "title": "중진공, ‘2026 중소벤처기업이음학교’ 장기과정 수강생 모집",
-    "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9PYTQzT09XeGZXZ0FGYy1BU3FmNEhlblh6cVZncDBtNjlQbDZ2YlBxR3dJWHBkREdnODdveWt4NXdFWG5iczNxNVBJSC1OSkx3blZrN19uUVFib0JzS0tEbVZnM0R4SDB1Zy03QnRtbnR5NV92?oc=5",
-    "date": "Sun, 12 Jul 2026 10:01:19 GMT",
-    "summary": "",
-    "source": "글로벌뉴스통신GNA"
-   },
-   {
     "title": "전국 어디서나 창업 아이디어 보호 상담…중기부, 17개 시·도 '아이디어 컨설팅 데이' 운영",
     "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE4xRTVvbE5Qa2oyNGdZUExsd0tTQThidWJtOWhsT0cxODBVNkgyc1c3RE9rN09SU1ktZ3Y4VGhRMHFZUko2N0c5SFJLclFEZGhobWo1M29oS29rRVpMQ0tESHJTOGg2Yjgz?oc=5",
     "date": "Sun, 12 Jul 2026 09:56:35 GMT",
     "summary": "",
     "source": "투데이안"
-   },
-   {
-    "title": "중기부, 창업기업 대상 ‘아이디어 컨설팅 데이’ 개최",
-    "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1zWFBmYzA4ZTRNeHdoTGJrN3hoTGFvczk1QXpzdUFCZ2U4VVcta0NyZzYzWFk2cl96UEVGRHNIUlkzQVNoNWozMHBPVmdEaXlSa01jMkNjalhDcy1aeG0yeFpYQU5vU0tNUjRyd3JUaE81NHpSNG9ucU5nZw?oc=5",
-    "date": "Sun, 12 Jul 2026 09:17:02 GMT",
-    "summary": "",
-    "source": "서울창업신문"
    },
    {
     "title": "전남TP, 광양에 310억 규모 첨단제조 인큐베이팅센터 구축",
@@ -816,13 +802,6 @@
     "source": "네이트"
    },
    {
-    "title": "\"전국에서 아이디어 보호 상담\"…아이디어 컨설팅 데이 개최",
-    "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBpMXlHS1lhMUczMURUQzJuZFJUQWc5ZUE3VFVLdEcyTTl1eHd4TXdRMXBjVkFIbXQwU01YVTFJS0UwTzlXUU02cWk4RTRORVM1dldr?oc=5",
-    "date": "Sun, 12 Jul 2026 03:01:00 GMT",
-    "summary": "",
-    "source": "네이트"
-   },
-   {
     "title": "\"전국 어디서나 아이디어 보호 상담 받는다\" 중기부, 17개 시·도서 컨설팅",
     "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPUEpYRGw0dmxVT2ozcmpFdEphRGhwLU55STNSblNUZkJJQ2xCbW4tRXg5cjFIcDloYVJ3VXF2ejhVZC1vQ2JXT3NHN2hBWjJVdzZLQnhmLU04ZXFrY3gyLVRjZUljc3BkRTliRWNRcVFJUGZoeGdrTlBRRDRFVFBxaA?oc=5",
     "date": "Sun, 12 Jul 2026 03:00:13 GMT",
@@ -865,13 +844,6 @@
     "source": "아시아투데이"
    },
    {
-    "title": "중진공, '기업승계 장기과정' 신설…차세대 후계자 7월 말까지 모집",
-    "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9mSV9UWWptSkhJUTlzZHk2bEZDeDZ6S2NMS05qa3N5ck9zR3l6TmJvQlN2c1hPQ3k1bGtqRDBtekFmZ1dvZkZ0Q19lcUpqQ0gwOXdXY3lsYkczM18yaWNoTkdHcVo?oc=5",
-    "date": "Sun, 12 Jul 2026 03:00:00 GMT",
-    "summary": "",
-    "source": "매일일보"
-   },
-   {
     "title": "중기부, 창업자 아이디어 지킨다…전국서 '컨설팅 데이'",
     "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFB6Y0NtQXozZ195QXpTX1h4TUdMaVN0aV9BbkhqSXhCT1Fzb3B5X2ZWQ2ViNTRqNmZkbWZQX3lfR0RPTUlDUnRJLThfVVNEQTlNNHhkOER1MkIzU1IwRHc2Tw?oc=5",
     "date": "Sun, 12 Jul 2026 02:30:38 GMT",
@@ -884,6 +856,34 @@
     "date": "Sun, 12 Jul 2026 02:14:39 GMT",
     "summary": "",
     "source": "더팩트"
+   },
+   {
+    "title": "중소기업, 위기징후는 빠르게 찾고 재도약은 더 확실하게 - 카드/한컷 | 멀티미디어",
+    "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFA0MjA3b3BMWDZxTFZSVUtiUjFjelo4NGJGX2R1d0c0MXZFVDR0RmtBMl9aUFdxOFJmeHV3UDF2cnZKWEZyeENaaWZkTkFiYVVGeVV2akVwUjBXVDFMWVZhZi1sN1dxb0tWN2RrbG5n?oc=5",
+    "date": "Fri, 10 Jul 2026 08:29:34 GMT",
+    "summary": "",
+    "source": "대한민국 정책브리핑"
+   },
+   {
+    "title": "중기부, 2026년도 하반기 혁신제품 신규 지정 공고…중기 판로 개척 지원",
+    "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE0zbjJzaXNkS2p0TlhVS1BNRm1HcUhXM1ZHWUxyUEpHcUtVTTktNTNHMmpBMkJnWEkzYWdDNEVWWElWb0w0czRNRTlOdWd1aUFsWWpNRFNqbG84MFZjbWlReFRkcm9sSW1KZ18xN9IBcEFVX3lxTE02dmg4dnphTFJ1V01wamxrM2FySGpKZngxbkFocmRQeGtzS3J2dlZTdlp1WGpWLXcybV91TjhaZmNwWVBrU0pCbTdIN2xRRWJ3b19YSF8yUGx6VVg3VjktWFp6bkxONjNyTTJrZG1hbXo?oc=5",
+    "date": "Fri, 10 Jul 2026 04:37:30 GMT",
+    "summary": "",
+    "source": "전기신문"
+   },
+   {
+    "title": "중기부 ‘모두의 창업’ 프로젝트 정보 유출… 피해 접수 87건",
+    "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBfUGlBVkdYSVlFbTlwcDN3QnotVnA4d0ZoLXVfTGVTWHR5WFlDRElsTHdmWHRnWkFpalhvMWFWY25ISGJqNFluUUNGQ19FVmh1TXVjT1ZPRWRrcDl6cmlWM2RoR09mUQ?oc=5",
+    "date": "Fri, 10 Jul 2026 02:22:37 GMT",
+    "summary": "",
+    "source": "한국대학신문"
+   },
+   {
+    "title": "내 기술, '혁신제품' 되면 공공조달 '프리패스'... 8월 11일까지 신청",
+    "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5zZ1lzbUZjWUtOR3JoeUZLYTZldE5qTWhvMW5vQjUwN19BRU1lN2R0bWxzLVlBUEZWa2VsajFCN3E2bTRMZjJVSkZvT3pDWHRnTW5wUUlnYUFhWlp1R184ZjdRc2ZKdXFm?oc=5",
+    "date": "Fri, 10 Jul 2026 01:39:00 GMT",
+    "summary": "",
+    "source": "동행일보"
    }
   ],
   "money": [
