@@ -1,7 +1,14 @@
 {
- "updatedAt": "2026-07-12T19:54:21.941Z",
+ "updatedAt": "2026-07-12T20:59:46.346Z",
  "groups": {
   "tax": [
+   {
+    "title": "'물가불안' 철퇴...국세청, '독과점·담합' 등 업체 3195억 추징",
+    "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1ieHBhZU4yM3hWOU1vX2hYeVgwai1NS0F6enJoc1FrU2NRTm1YYlNGMlZLRjk1ZzFwWU1MMHhINUIyOXg0YTRHUTR4elVxRzlBU3U4ZVR2VmhmRUpqbklOM2JJdU1sQnpCdlpNWDJaYWphdTFU?oc=5",
+    "date": "Sun, 12 Jul 2026 20:30:00 GMT",
+    "summary": "",
+    "source": "파이낸셜포스트"
+   },
    {
     "title": "국세청 '물가불안 조장 탈세' 117개 업체 세무조사...114곳에 3195억 추징",
     "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1BRlBsTGhDOGNCS2d2SFNGb1VGMGR3WXRYX3p1Q0hPSC1tRHVkZUk4b0lpV1lVQV8yQ0NNa2kwb3dsN1lwY2pvdGZ2R3EwRFp2NDctald4NlB1Y2ZMUkhEMw?oc=5",
@@ -169,13 +176,6 @@
     "date": "Sun, 12 Jul 2026 03:20:00 GMT",
     "summary": "",
     "source": "네이트"
-   },
-   {
-    "title": "국세청 “물가불안 조장 탈세자” 세무조사…114개 업체 3,195억 원 추징",
-    "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE81Y2ExcEFRMWZTMTVRaUNrUXFqSGJJSndLNEk2aTYtUjRWblVMVFhMWFNZa3RaeFVtV2VRNVNUbk4zSXRuZVQ1QTE3SE9weGgxc2JfOUItOXRKSWZUQlpNUkkwVGQteVh0UnJF?oc=5",
-    "date": "Sun, 12 Jul 2026 03:13:29 GMT",
-    "summary": "",
-    "source": "medicalworldnews.co.kr"
    }
   ],
   "labor": [
@@ -185,13 +185,6 @@
     "date": "Sun, 12 Jul 2026 13:46:00 GMT",
     "summary": "",
     "source": "더코리아"
-   },
-   {
-    "title": "올 육아휴직 10만명 돌파…10명중 4명은 아빠였다",
-    "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9KTEFNUUpGZm90dGhBMV85WDJCUktvMHpveTRIUmQyRk5fcV9sdDRpOFEzaUVzTUwyeEFONTJZV0tMc0pURkJfRUtJQnBpTVZWX2c?oc=5",
-    "date": "Sun, 12 Jul 2026 08:33:54 GMT",
-    "summary": "",
-    "source": "매일경제 마켓"
    },
    {
     "title": "고용노동부, 창원국가산단 '포괄임금 오남용' 특별감독…공짜 야근·52시간 허위관리 정조준",
@@ -334,6 +327,13 @@
     "source": "한국경제"
    },
    {
+    "title": "월 80만원 받는 알바도 실업급여 받는다",
+    "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1abHdnM0pGSHlnd3lVOVNjUE00S2VOWEdhUDFWZEc3RzNUa21WWGhpVFFzVGpzekxxSUNvX3RoZk9wOU9sVDRaYVoySkVqUzFsWlHSAVNBVV95cUxORUtpTXFvY29qd254STRVTjJ1N1Nwb2tmaXgtMkgwYkFMWTNXaVdhR3Jjc0RRTlFSS3Z6eElvRjBjQnktcnJyeUR2OEJlanhYclFnVQ?oc=5",
+    "date": "Fri, 10 Jul 2026 08:44:42 GMT",
+    "summary": "",
+    "source": "서울경제신문"
+   },
+   {
     "title": "고용노동부-산업안전보건공단, 안전체험교육장 우수사례 발표대회 개최",
     "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBSUGoybUR0dVRsNURYa0JsdHNTdlRocEhtWUNqLUpsZVl1NlNvb3E1bUVlYTJ5aEQ3bmwyTU5jWHVnQ0EtVzhRd2FvMTJ5aEx5MDQxQzg5RWxOYkFrdmdxSVZVS0lEeXdsVXR0SmRYaDZ5VHNFczFGelFR?oc=5",
     "date": "Fri, 10 Jul 2026 08:34:31 GMT",
@@ -456,7 +456,7 @@
    },
    {
     "title": "광고성 후기 올린 성형외과 3곳…공정위 시정명령",
-    "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9BcV92U3RMVFpYbWRUZ0tHeVNfcXNwVUZPUHlwa1hPMVhqbUp0NUx6VFFSbFItMVlJWndhUTRpd0dWTExEX19zeEFNV0NUTVBvZGxaRDJUb2NtTDVpMWpPdFVHWjFpZDg?oc=5",
+    "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE8zVDdaSkxWMmlVOGJYYzhiVnVCMmlTd3hHbFI4MGROakJaSlVFQWQ4eHotaDJfRDcxOVEtNFFlUzA2NmhOMi13TFJveVpRbWFDSkFzQzNQbVltTlVESWd2U0FuajhZUjRC?oc=5",
     "date": "Sun, 12 Jul 2026 07:57:23 GMT",
     "summary": "",
     "source": "강원도민일보"
@@ -533,6 +533,13 @@
    }
   ],
   "fund": [
+   {
+    "title": "대통령 업무보고 마치자마자 부동산 토론회…금융위 '가계부채 시험대'",
+    "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1oSjg2MldVVHNqSTlKT3ptNFJGd3BaTEVDajE3bE4zQjBPZ0lfdlMzMm9VbG95T29aZ1RqSnBPRXlTRmY5b2kyXzhmTlVwc2ZGSUdOSWhPV1dBc1RPTEtmbnZ3?oc=5",
+    "date": "Sun, 12 Jul 2026 20:00:00 GMT",
+    "summary": "",
+    "source": "뉴스1"
+   },
    {
     "title": "5대 금융지주, 상반기 포용금융 11.3조 공급",
     "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQNFJUMGZtbFJuMnFxRC1pTXRubGlCbW1BRHY5WmNHcHFXV2hFVi1TX05QVFRrd004XzV2SDB0Uml6dGdyOUZuYzM4QnNNOTlwSUZ4Nm5qcnh3dUdWVExBZVZDUFpIWTRpTDZBMUE0bUgxdjFVci1SMGd5NGFQRnJkTlVGam9fbzRqU1VFb1V3?oc=5",
@@ -700,13 +707,6 @@
     "date": "Fri, 10 Jul 2026 08:36:19 GMT",
     "summary": "",
     "source": "fetv.co.kr"
-   },
-   {
-    "title": "한국관세사회, AI 통관플랫폼 구축 등 관세행정 혁신방안 제시",
-    "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFB6RFBPMmlpUm9jSjYycmNiRFJSc3RBcjhyOHg4X3ZLUmNvYmR0RDhub0J5T1h0Q29XcWJMdzl5a1VXSlh4LWhQZXlRTFlRQ0NtVzFSZWlVQVUyWEp5bzREdTlzLUU?oc=5",
-    "date": "Fri, 10 Jul 2026 08:23:02 GMT",
-    "summary": "",
-    "source": "한국세정신문"
    }
   ],
   "biz": [
@@ -823,13 +823,6 @@
     "source": "네이트"
    },
    {
-    "title": "유출 논란 '모두의 창업' 아이디어, 전국서 보호 상담 시작",
-    "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFAyMlVnd2YxUVhteFlWVi1uQ3JvaHdZZkRWc04xSUlrMTdYMjAxR0E3dDVtSmtCR2NJUDI1RVBQbjJzMmJqMlhhUk1BalJPbkRtdUxZ?oc=5",
-    "date": "Sun, 12 Jul 2026 03:01:00 GMT",
-    "summary": "",
-    "source": "네이트"
-   },
-   {
     "title": "\"전국 어디서나 아이디어 보호 상담 받는다\" 중기부, 17개 시·도서 컨설팅",
     "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPUEpYRGw0dmxVT2ozcmpFdEphRGhwLU55STNSblNUZkJJQ2xCbW4tRXg5cjFIcDloYVJ3VXF2ejhVZC1vQ2JXT3NHN2hBWjJVdzZLQnhmLU04ZXFrY3gyLVRjZUljc3BkRTliRWNRcVFJUGZoeGdrTlBRRDRFVFBxaA?oc=5",
     "date": "Sun, 12 Jul 2026 03:00:13 GMT",
@@ -849,6 +842,13 @@
     "date": "Sun, 12 Jul 2026 03:00:00 GMT",
     "summary": "",
     "source": "뉴스1"
+   },
+   {
+    "title": "유출 논란 '모두의 창업' 아이디어, 전국서 보호 상담 시작",
+    "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBON0FQRHA0UjFxTDV2Nms0OWpjTjE5VWhvQklHRDRDaEViUW4zYS1VSDh1VXZsMkpVZk1HX2ZYcnZ6VnEtRWJTM2RBNmhsMHkyODF1bzlQWFlLLW51bWVnVXVfanJ1Ynkta0lDVA?oc=5",
+    "date": "Sun, 12 Jul 2026 03:00:00 GMT",
+    "summary": "",
+    "source": "유니콘팩토리"
    },
    {
     "title": "“‘모두의 창업’ 아이디어 보호”…중기부, 17개 시도서 컨설팅 데이 진행",
@@ -898,13 +898,6 @@
     "title": "중소벤처기업부, 창업지원 200만원 지급…5천명 선발... 대상자 지금 확인",
     "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFA2enlFNTV2UE5Td19FQzBSVXNObFRPelJvamIwMWhSLUZhMmRKaThhamk0bmQxT1dvUmtOd2xtdTJwdEFLR2k5dlJZNlVmRFZYazVSSk5fandya3U1MExTVF9oNmlnc1XSAWtBVV95cUxOb0FhaFVUSnZhRHZfeWVPM1BLYURId3Vlcnh3VGJUN3U1czk2T181eUhEaUZxT3oyaGtmSjVoZmVmNHBGdC1POER1RUR2RmpPYnF3aEtqdUtrWDB1VU9GbWpDd1RYMFVkSEsxOA?oc=5",
     "date": "Sat, 23 May 2026 07:00:00 GMT",
-    "summary": "",
-    "source": "창원특례신문"
-   },
-   {
-    "title": "소상공인 지원금 최대 3억 원…6월 8일 전 신청 안 하면 제외",
-    "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5Fb29OMkVhUVAyaG1IdWt2SF9TSHp0UVNlRndMQlJveEc0NGZGb1d6aTEzRTlkSG5tSGNCdzdYSXE1RnByMF9oMkk3WktjTERNSU1mbnhtVnc5MTdpV2RmeS1pMG1McDjSAWtBVV95cUxNbWxzMnEzdHQ4NlVYenhZVWVwYy1FTWxkS2NiMUpnU2F4Wlg2bXRndlBQYjV0XzZQUm9lLTlneWhFVlVFVmJBcXA3bE5yZUVoMklsc3lES3pyWnBQUURVbmk4RGRHSjFXNHZ4QQ?oc=5",
-    "date": "Tue, 19 May 2026 07:00:00 GMT",
     "summary": "",
     "source": "창원특례신문"
    },
@@ -1005,6 +998,13 @@
     "date": "Fri, 13 Mar 2026 07:00:00 GMT",
     "summary": "",
     "source": "bntnews.co.kr"
+   },
+   {
+    "title": "소상공인 바우처 신청 및 사용 방법",
+    "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTFBGTHA4UC00MEZIQ2pnaDlWUWpsRWVFZU9tM1htdGRVeFRpbGZveVVvbXBZRFNYUFo3VlpnYU8tYnY4WVR2Nnc?oc=5",
+    "date": "Fri, 13 Mar 2026 07:00:00 GMT",
+    "summary": "",
+    "source": "v.daum.net"
    },
    {
     "title": "속초시, 소상공인 생애 첫 창업지원금 대상 모집",
