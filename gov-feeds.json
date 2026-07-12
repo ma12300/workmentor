@@ -1,7 +1,14 @@
 {
- "updatedAt": "2026-07-12T10:38:59.791Z",
+ "updatedAt": "2026-07-12T11:45:27.307Z",
  "groups": {
   "tax": [
+   {
+    "title": "독과점 이용, 가격 올리고 탈세…국세청, 114개 업체 3195억 추징",
+    "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5QSzdqSExPVUpaQktmNmp6VERCcW8wY3R0VDY0NVJBZWpWS20zc3UzdTNzdzBWaEdLUWVCaWw5RXpwbkFOZmhwUmlCcDVLZzR0Y0JGYl9CS0dVZ9IBX0FVX3lxTFBlak9mNzMtdmF5cFpieGY3dVQ2NFZZWFV3UE1DZV9yQ3ZhSlhRR19vbkVVWHh5ZURndloycExNc2Z4cjlMa3c1dlZvNGVoSjJYNE9xQ0pfakFJZjFEeDFR?oc=5",
+    "date": "Sun, 12 Jul 2026 11:32:00 GMT",
+    "summary": "",
+    "source": "경향신문"
+   },
    {
     "title": "최현덕 남양주시장 기획재정부 장관에 시정 핵심 현안 건의 > 뉴스",
     "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFA5NFdELUswSEUzelc1WUdNZU5wZ1pPeHNlU2R0RjJQeTBYbmR0RWZkaFRrUlcxNEV5ak02ak5vZE55VWVZdHFBVXN5ZGNSNHVKWEtZakFoVVBZUVJrVU9tRTJ5R1MwZGNSS01PNE9nbFE?oc=5",
@@ -112,7 +119,7 @@
     "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5ZQzVoQjVudmVCYmltNk5haGY0YjdmSzg3dW4xWS1pNlBJY3VRQ1V2enh4T291ZnBHQkRMSXhQLUZUY2RIZlZVb084VDg5TUpaWFE?oc=5",
     "date": "Sun, 12 Jul 2026 04:06:00 GMT",
     "summary": "",
-    "source": "노컷뉴스"
+    "source": "nocutnews.co.kr"
    },
    {
     "title": "\"가격 올리고 탈세까지\"…물가불안 조장 114개 업체에 3195억 추징",
@@ -169,13 +176,6 @@
     "date": "Sun, 12 Jul 2026 03:02:00 GMT",
     "summary": "",
     "source": "네이트"
-   },
-   {
-    "title": "국세청, 독과점·담합 등 업체에 3,195억 추징…“물가 불안 유발”",
-    "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9BRDlpcHgyaEZpUV9faXoyTXdybXdvbTBsRXQzQ21Obk5FTzQ0bS1wMVVfcEpYc3RrLVRDN3hLZ1BrYURSbnJINjBZUHNpUGc?oc=5",
-    "date": "Sun, 12 Jul 2026 03:01:52 GMT",
-    "summary": "",
-    "source": "v.daum.net"
    }
   ],
   "labor": [
@@ -188,10 +188,10 @@
    },
    {
     "title": "고용노동부, 창원국가산단 '포괄임금 오남용' 특별감독…공짜 야근·52시간 허위관리 정조준",
-    "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE9TZVJLN2pJd0hxeTVTVzJEcVQ5VkFfNWVaXzRrdkR4Q1VFdzhUV0lkamRORjQzX05Hay1HOGo2Q3hNVTlTcVhsc2djekk?oc=5",
-    "date": "Sun, 12 Jul 2026 06:33:34 GMT",
+    "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE4wRzlaZEZHT3pFcGNHbTl6RUptYjExUHBMUF9zdGhjM1F6eGM3QVI3T0FYNzNlQ1BlMDdBWWNOM18teDdaczY3Sw?oc=5",
+    "date": "Sun, 12 Jul 2026 06:33:17 GMT",
     "summary": "",
-    "source": "한국AI부동산신문"
+    "source": "얼리어답터뉴스"
    },
    {
     "title": "전재수 시장, 김영훈 노동부장관에 극지 해기사 양성과정 건의",
@@ -208,7 +208,7 @@
     "source": "국민일보"
    },
    {
-    "title": "최저임금 이번 주 결론 전망…경영계 \"영세사업장 한계\"",
+    "title": "내년 최저임금 최종 단계 돌입…격차 줄였지만 입장차 여전",
     "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBYUXBYWXVERHowTFNqLWdXNUJxTU9ZYXZrMFRWSHRpcThST3Zvdk8yR3lEWURteHFsSm9Yak9yUG8zeXFXdVJpV21wOHJuVXBPemsxREUtSjBabkhnTE1KZEhn?oc=5",
     "date": "Sun, 12 Jul 2026 05:15:19 GMT",
     "summary": "",
@@ -306,13 +306,6 @@
     "source": "매일경제 마켓"
    },
    {
-    "title": "\"월 소득 80만원 이상 가입\".. '전국민 고용보험' 시동",
-    "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1RbV9JSlk1a0I1VjhzWE5OdUNmd09uVUlrLUUwRkFFVzFhVjhYNVUwYVhqY1d5YmZfQ1ZKRWd1THBjY3VJWUJOSUY2bU80T0lpVHJoQ19NM0J5REU1NWZsck1yQmJZZUFEb1Rr?oc=5",
-    "date": "Fri, 10 Jul 2026 15:29:00 GMT",
-    "summary": "",
-    "source": "열린정책뉴스"
-   },
-   {
     "title": "고용노동부 장관, 부산청 방문 지역 특화사업과 노동·산업안전 정책 점검",
     "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1TSnhZMlZHSmRlTXROUXF1bEFzMm5QY0V1OUhkeEVrN2pkV1c1ekdVQUlHc1p3RnNSSjZIZk13eWJqMVhjZmFYNG4xR0UyaTk4bnpfMzBzS04zYTJvM2pkc2hBU3Z3SWY3NXBlTEI1dE9YU1VfalUyVnVn?oc=5",
     "date": "Fri, 10 Jul 2026 10:43:48 GMT",
@@ -353,9 +346,37 @@
     "date": "Fri, 10 Jul 2026 08:34:31 GMT",
     "summary": "",
     "source": "로이슈"
+   },
+   {
+    "title": "전재수 부산시장, 김영훈 고용노동부 장관 접견…해양인재 양성·조선업 상생협력 강화",
+    "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE11Q1BqVmQ5NTQ4T1ZFUG0xMHNsWHBpR2NTOHplOFNtWE1HX25HOFVzdXQxUC1zWXBsZVRnZnk1WnZaQUZuLWV0c09lVmJiUEc3ZWtkQW45TzF2Q28zVkJIRFdVWXRLYnhs?oc=5",
+    "date": "Fri, 10 Jul 2026 08:05:54 GMT",
+    "summary": "",
+    "source": "복지TV부울경방송"
    }
   ],
   "law": [
+   {
+    "title": "공정거래위원회, 3개 성형외과의원의 표시광고법 위반 광고행위 제재",
+    "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE0tc2RhMFN3M2s5Z29yN0Mwc09QRzVtLXd2dzlmSmdXekRQNGRlaEo0S0VQMjM1MjJyTnFSM2lUSXZfd0hCeW8tOXNjT2pjeG03UlFtbWNuWFRNSGpx?oc=5",
+    "date": "Sun, 12 Jul 2026 11:30:14 GMT",
+    "summary": "",
+    "source": "누리일보"
+   },
+   {
+    "title": "'전용기 보도' NYT 기자에 소환장‥법무부, FBI 동원해 언론 탄압",
+    "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9EZ1FRWlU5eG1KeHIyb2t0OENrMGtVc1g0Zm9Mb1dETExXVTRmZkU4bTBLRjcwd3czWTRQc1o5M0hpVkt4S1AzeWtKTE05MHc?oc=5",
+    "date": "Sun, 12 Jul 2026 11:22:16 GMT",
+    "summary": "",
+    "source": "v.daum.net"
+   },
+   {
+    "title": "'전용기 보도' NYT 기자에 소환장‥법무부, FBI 동원해 언론 탄압",
+    "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNeGdTR1BtYnBUVTRJS2d0N05DR0NnSDBBWUN5aVdCT0pxcnVzc3hxRGR6OVI1SS1RYmU3blU1MGhXMUpoUDAtNXYyek5pVm5pbHQ3LXZCOS1rSU1vUEVXVmlDcGIxYzlObDlqTFNZRk9oRzNfdmNGbWJfMVNEMk1nOTJ4WTFHdVVObFhjSm50TUZPcFZCcGhHNWcyYjg2Q202ZTNSUUF1cC1RdkFHU2VlcldSMUdNQzExbmpQQ2lRSjg?oc=5",
+    "date": "Sun, 12 Jul 2026 11:08:57 GMT",
+    "summary": "",
+    "source": "MBC 뉴스"
+   },
    {
     "title": "정성호 법무부 장관 고향 양구 방문... 팔랑리 등 찾아",
     "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9DVWdodkFFRmE4dElKU1NobjFuZ1ZPdy1FNl8xeWJzQlNuOU94UlpyVzlNRGVXMUREWV90S0VSQm9YWmROM0E5OGJiOXd2WDN4M05mSGFiUThESDVqeFROLTItUF9xNXc?oc=5",
@@ -404,13 +425,6 @@
     "date": "Sun, 12 Jul 2026 07:28:37 GMT",
     "summary": "",
     "source": "충북일보"
-   },
-   {
-    "title": "성형수술 후기 믿고 갔다가?…공정위, 강남 3곳 제재",
-    "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBtRjR2OUozR0d5SmVHbzZobzdzWWgzR1BTSUYta0xGdmlHam5uSTlpSk1aOGxzaFZjRFhza2wxVUswb2dOcVVwdW9fMDRTSGw2bnF3?oc=5",
-    "date": "Sun, 12 Jul 2026 05:56:00 GMT",
-    "summary": "",
-    "source": "네이트"
    },
    {
     "title": "’후기인 척 뒷광고’ 성형외과 3곳, 공정위 제재",
@@ -483,13 +497,6 @@
     "source": "네이트"
    },
    {
-    "title": "공정위, 후기인 척, 광고 아닌 척...성형외과 뒷광고 제재",
-    "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1HRmtGQTVzaVJyMVJwc3UxWDNITDRwd0lDc3NwOEl2YTUxdnVWeEFzQWl6WC1MQ0c0TV9LYWR5S3dmNi16YU5CLUM1TkxRRzdNeUpsbFAwaExZUk5wRE9FdUhjR3NnZEVmNVE?oc=5",
-    "date": "Sun, 12 Jul 2026 03:00:00 GMT",
-    "summary": "",
-    "source": "intn.co.kr"
-   },
-   {
     "title": "수술비 깎아주고 뒷광고…공정위, 뷰·에이비·디에이 성형외과 제재",
     "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE02bVNsb08yRHg4NlpGMFhBZktEREFqbzkybkRyeVdOak1DS25BREZRVGh1UzIyVlVPSzEwY24zWVQ1YlZDVmt3WG00RmwxT0g0VHdDWQ?oc=5",
     "date": "Sun, 12 Jul 2026 03:00:00 GMT",
@@ -523,13 +530,6 @@
     "date": "Sat, 11 Jul 2026 22:59:00 GMT",
     "summary": "",
     "source": "네이트"
-   },
-   {
-    "title": "[기획] 노동자에게 사고 책임 전가한 택배사들…공정위, 5개사에 30억 과징금 철퇴 (상)",
-    "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE81QXNFZllqWUtUSWxxSWo5Q1hONFhPOGlITEFSU2VuMGpFQ0dHVG9kY2dQSlNUNDZTaEJNazBGVDliLWxzNTNmeGFMRkJHUFByLS1XdHFTWDg1NGhzMXNZUklhOW9ITE5VVm1uVg?oc=5",
-    "date": "Sat, 11 Jul 2026 22:21:25 GMT",
-    "summary": "",
-    "source": "알티케이뉴스"
    }
   ],
   "fund": [
@@ -872,21 +872,28 @@
     "source": "더팩트"
    },
    {
+    "title": "칼 들고 찾아가겠다는 민원인, 돌아온 말은 \"문단속 잘 하세요\"",
+    "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1DdGZ6czJmNExRZkpHZXJGY3NRSGpUSzlmc1V0dDJGanJhdXV6LWpyNy1jOXZQRDNiVE9DQ1FzbnJJNFk0bWgtVGN6MDhXLW5vbXBnWE9CbHdRaFhISnctd0puQ3k0dnJKcDdZTXByUEhaYS12aVJn?oc=5",
+    "date": "Sat, 11 Jul 2026 10:27:00 GMT",
+    "summary": "",
+    "source": "OhmyNews"
+   },
+   {
     "title": "유니콘브릿지 50개사, 바이오·AI가 절반 [벤처인사이드]",
     "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5GbkRZQTNiclgtcjhkVmVxQnJtcm9aQ2FhaE1qb2lKRDVMRFRuSk9RMl9uV21pWE82ZlFqQ1h3eGpfMDllaDdtbXF1aVZDcnZLckItMjJjakNCcEJXQ080a01R?oc=5",
     "date": "Fri, 10 Jul 2026 21:00:00 GMT",
     "summary": "",
     "source": "디지털데일리"
-   },
-   {
-    "title": "중소기업, 위기징후는 빠르게 찾고 재도약은 더 확실하게 - 카드/한컷 | 멀티미디어",
-    "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFA0MjA3b3BMWDZxTFZSVUtiUjFjelo4NGJGX2R1d0c0MXZFVDR0RmtBMl9aUFdxOFJmeHV3UDF2cnZKWEZyeENaaWZkTkFiYVVGeVV2akVwUjBXVDFMWVZhZi1sN1dxb0tWN2RrbG5n?oc=5",
-    "date": "Fri, 10 Jul 2026 08:29:34 GMT",
-    "summary": "",
-    "source": "대한민국 정책브리핑"
    }
   ],
   "money": [
+   {
+    "title": "희망리턴패키지로 재기하는 법? 점포 철거비부터 재창업 지원까지 | KB의 생각",
+    "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBpMzdHWlY5QV9PU1JSdGMwVU1QTTU5d0YybmZWU3kyX2t2OEpfQnhGbXcyazZ2QzRPNENhRHBHNUF6TXdfWlFMbXZrdU9WZERmeEdJNEFwQWROZVlpYjhMLUlyekdmUQ?oc=5",
+    "date": "Wed, 24 Jun 2026 07:00:00 GMT",
+    "summary": "",
+    "source": "KB Think"
+   },
    {
     "title": "정부 지원 창업학교 졸업생, 3년 만에 30% 넘게 폐업",
     "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOSklIWmR5T1phR3hvUzFsYWV3ZHE2RDdTMHZBMFd0NFJPTzBCejd3WlJaWW5hMlhYaEp0RWRKSVF4alhjYUZ1al9Oc2VPdC1wc1FxdEVqRkFLOVdYTjZkYUVUNlJjazRyanZobGF1WUVDZms4MXp6eE5sWlMxN3drM3JRS3JBMDdP?oc=5",
@@ -1005,13 +1012,6 @@
     "date": "Tue, 24 Mar 2026 07:00:00 GMT",
     "summary": "",
     "source": "경인매일"
-   },
-   {
-    "title": "소상공인 바우처 신청 및 사용 방법",
-    "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1aZ0Q4cEdTbWpQcnJySTA2ZDdjRjM2WnBHZ3pBbnUxZ19qOG0yaXc5RkRsSEdQMFFFWnBXRzdOSmRzVjlSbFVjYmVpeWZvUElTRFlia3FVTC1zVG1XbTBpc3oyVDQ?oc=5",
-    "date": "Fri, 13 Mar 2026 07:00:00 GMT",
-    "summary": "",
-    "source": "bntnews.co.kr"
    },
    {
     "title": "소상공인 바우처 신청 및 사용 방법",
