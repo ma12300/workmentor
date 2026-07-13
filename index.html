@@ -2060,7 +2060,8 @@ function showJob(j) {
    경영수업 (관리자가 올리는 정보·파일 자료실)
    ========================================================== */
 let lState = { cat: "최신 정보" };
-const LESSON_CATS = ["최신 정보", "전체", "세무/회계", "노무/인사", "금융", "계약/법률", "경영 일반", "자료실"];
+let briefState = "idle", BRIEFINGS = [];
+const LESSON_CATS = ["최신 정보", "브리핑", "세무/회계", "노무/인사", "금융", "계약/법률", "경영 일반", "자료실"];
 
 /* ---- 최신 정보: 지원사업포털 행사정보 + 정책뉴스 자동 수집 ---- */
 let LATEST = [];
@@ -2305,9 +2306,22 @@ function buildLessonFilters() {
   });
 }
 
+/* 아침 브리핑 목록 (briefings/index.json — GitHub Actions가 매일 자동 생성) */
+async function loadBriefings() {
+  briefState = "loading"; drawLessonList();
+  try {
+    const r = await fetch("briefings/index.json?t=" + Date.now(), { cache: "no-store" });
+    if (!r.ok) throw new Error("HTTP " + r.status);
+    BRIEFINGS = await r.json();
+    briefState = "done";
+  } catch (_) { briefState = "error"; }
+  drawLessonList();
+}
+
 function renderLessons() {
   /* "최신 정보"=지원사업포털 자동 수집 · "세무/회계"=기획재정부 실시간 + 관리자 자료 · 나머지=관리자 자료 */
   if (lState.cat === "최신 정보" && latestState === "idle") { loadLatestInfo(); return; }
+  if (lState.cat === "브리핑" && briefState === "idle") { loadBriefings(); return; }
   const gg = GOV_GROUPS[lState.cat];
   if (gg && ["idle", "error"].includes(govState(gg.key).state)) { loadGovFeed(gg.key); return; }
   drawLessonList();
@@ -2339,6 +2353,32 @@ function drawLessonList() {
           </div>
         </div>
         <div class="right"><p class="sub mono">${esc(fmtDate(x.date))}</p></div>`;
+      box.appendChild(el);
+    });
+    return;
+  }
+
+  if (lState.cat === "브리핑") {
+    if (briefState === "loading") { box.innerHTML = '<p class="empty">아침 브리핑 목록을 불러오는 중...</p>'; return; }
+    if (briefState === "error") { box.innerHTML = '<p class="empty">브리핑 목록을 불러오지 못했습니다. 잠시 후 분류를 다시 눌러 재시도해주세요.</p>'; return; }
+    const rows = (BRIEFINGS || []).filter(b => !q || String(b.title || "").includes(q) || String(b.top || "").includes(q) || String(b.date || "").includes(q));
+    if (!rows.length) { box.innerHTML = '<p class="empty">등록된 브리핑이 아직 없습니다. 매일 아침 8시에 자동 등록됩니다.</p>'; return; }
+    const todayYmd = new Date(Date.now() + 9 * 3600 * 1000).toISOString().slice(0, 10);
+    rows.forEach(b => {
+      const el = document.createElement("div");
+      el.className = "card row";
+      el.onclick = () => window.open(b.file, "_blank", "noopener");
+      el.innerHTML = `
+        <div>
+          <p class="title">📰 ${esc(b.title)}</p>
+          <p class="sub">주요: ${esc(b.top || "")}</p>
+          <div class="tags">
+            <span class="badge fund">유료회원 전용</span>
+            <span class="badge hr">PDF</span>
+            ${b.date === todayYmd ? '<span class="badge free">오늘</span>' : ""}
+          </div>
+        </div>
+        <div class="right"><p class="sub mono">${esc(b.date)} · ${+b.count || 0}건</p></div>`;
       box.appendChild(el);
     });
     return;
@@ -2394,7 +2434,7 @@ function drawLessonList() {
   }
 
   const rows = (DB.lessons || []).filter(l =>
-    (lState.cat === "전체" || l.category === lState.cat) &&
+    (l.category === lState.cat) &&
     (!q || (l.title || "").includes(q) || (l.descr || "").includes(q)));
   if (!rows.length) {
     if (!box.children.length) box.innerHTML = '<p class="empty">등록된 자료가 없습니다. 관리자 페이지에서 등록해보세요.</p>';
