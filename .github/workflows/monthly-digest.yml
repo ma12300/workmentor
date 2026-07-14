@@ -1,0 +1,49 @@
+name: monthly-digest
+
+on:
+  schedule:
+    - cron: "0 0 1 * *"   # 매월 1일 09:00 KST — 회원별 맞춤 지원사업 이메일
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: "1 = 발송 없이 미리보기만 생성 (테스트)"
+        default: "1"
+      test_to:
+        description: "지정 시 이 주소로 1통만 테스트 발송"
+        default: ""
+
+permissions:
+  contents: read
+
+concurrency:
+  group: monthly-digest
+  cancel-in-progress: false
+
+jobs:
+  digest:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: send-monthly-digest
+        env:
+          SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
+          RESEND_API_KEY: ${{ secrets.RESEND_API_KEY }}
+          MAIL_FROM: ${{ vars.MAIL_FROM || '워크멘토 <onboarding@resend.dev>' }}
+          DRY_RUN: ${{ github.event_name == 'workflow_dispatch' && github.event.inputs.dry_run || '0' }}
+          TEST_TO: ${{ github.event_name == 'workflow_dispatch' && github.event.inputs.test_to || '' }}
+        run: node scripts/send-monthly-digest.mjs
+
+      - name: upload-previews
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: digest-previews
+          path: digest-previews/
+          if-no-files-found: ignore
+          retention-days: 7
