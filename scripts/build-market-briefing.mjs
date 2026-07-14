@@ -95,8 +95,17 @@ const MOCK = process.env.MARKET_MOCK === "1";
 const now = Date.now(), freshMs = FRESH_H * 3600e3;
 const tOf = x => { const d = new Date(x.date); return isNaN(d) ? 0 : d.getTime(); };
 
-/* 같은 날 앞선 판에서 이미 실은 기사 키 (중복 발행 방지) */
+/* 같은 판 중복 발행 방지: 이미 이 날짜·판이 발행돼 있으면 종료 (백업 크론 안전장치) */
 mkdirSync("briefings", { recursive: true });
+try {
+  const idx0 = JSON.parse(readFileSync("briefings/index.json", "utf-8"));
+  if (idx0.some(b => b.kind === "market" && b.date === ymd && b.edition === EDITION)) {
+    console.error(`${ymd} ${EDITION} 이미 발행됨 — 이번 실행 생략(정상 종료)`);
+    process.exit(0);
+  }
+} catch (_) {}
+
+/* 같은 날 앞선 판에서 이미 실은 기사 키 (중복 발행 방지) */
 const seenPath = "briefings/market-seen.json";
 let seenState = { date: ymd, keys: [] };
 try { const s = JSON.parse(readFileSync(seenPath, "utf-8")); if (s.date === ymd) seenState = s; } catch (_) {}
