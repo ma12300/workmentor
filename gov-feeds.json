@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-07-14T17:23:54.337Z",
+ "updatedAt": "2026-07-14T18:42:06.998Z",
  "groups": {
   "tax": [
    {
@@ -208,13 +208,6 @@
     "source": "MBC 뉴스"
    },
    {
-    "title": "내년 최저임금 시간당 1만 700원 확정…올해보다 380원 인상",
-    "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1aOFFveWdYdFBhUjlXU1BEVHJkcWxXbzltbWw3cUZKVHpBd2YtaFpwdm54S19qX2M2VGgtcEtQb3Bxd1NYdmYtOTJGVVQwcnVnWTh5aDFOYmFIV2N2azd0c3VB?oc=5",
-    "date": "Tue, 14 Jul 2026 15:31:27 GMT",
-    "summary": "",
-    "source": "경기신문"
-   },
-   {
     "title": "2027년 최저임금 시간당 1만 700원···2026년보다 380원, 3.7% 인상",
     "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE0xa1ZFUVYzS3ZUend3cVN3a09ibnUxU250V2dJS2gyRHR2bDVKd195UExHSFRMQ0hLZktkTHBPT0hvYVhxVmMyR1RWcjA?oc=5",
     "date": "Tue, 14 Jul 2026 15:28:06 GMT",
@@ -234,6 +227,13 @@
     "date": "Tue, 14 Jul 2026 14:48:00 GMT",
     "summary": "",
     "source": "YTN"
+   },
+   {
+    "title": "내년도 최저임금 1만700원…노사 모두 “유감”",
+    "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBxOG9KTGh2WXhkYTdpM3ZyWGc2RmUzVTNPMVh3RXZEUWpsSXpNVFBobUVmSmZVZFppOGIwVTVjekI5c0UyeWFLdl9Yd1ZXdjExbWp6Vk5uVzdKUdIBX0FVX3lxTE1TbDVFY1NKU2J3cDRvMTdjc1NCWDFzRy1NaVF4VFpaMXpCT1d6cEpPR0k5eWxLbFNJYnJfQUI5NTZqdk9ZbGJLYVBWbEYwb0NfMFpFR3plcnE5cGhPS0lN?oc=5",
+    "date": "Tue, 14 Jul 2026 14:36:00 GMT",
+    "summary": "",
+    "source": "경향신문"
    },
    {
     "title": "폭염 중대경보인데도…노동부 산하기관 절반 이상 '형식적 대응'",
@@ -258,10 +258,10 @@
    },
    {
     "title": "고용노동부, 노사가 함께 만든 자율적 노동시간 단축 모델, 기업의 성장과 일자리 창출로 이어집니다",
-    "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9kX2FOclVHdHV2a0MybHpaZEJpOTlJMGhPeXZCY0NnOWp0S0FsZjVRaFBBUnJfQURFSW51ajhKazYtTUxUN2lrNFlaeTF0Vlc1VDlsemgwb0ltNlpQN3hiN3hhY1E4dFU?oc=5",
-    "date": "Tue, 14 Jul 2026 12:51:02 GMT",
+    "url": "https://news.google.com/rss/articles/CBMiQ0FVX3lxTE1GcUFFN2wtbXlVVHVDUHJHSWtUcUprRkdBaWtXNmlCU1hacnBoaDVLb21sQmNUUExCRFlvUjZEWEJkTDQ?oc=5",
+    "date": "Tue, 14 Jul 2026 12:51:00 GMT",
     "summary": "",
-    "source": "hkilbo.kr"
+    "source": "인디포커스"
    },
    {
     "title": "“산재 없는 경기지역 조성” 노동부·안전보건공단 경기광역본부, 지역 행사 전개",
@@ -269,13 +269,6 @@
     "date": "Tue, 14 Jul 2026 12:41:25 GMT",
     "summary": "",
     "source": "비욘드포스트"
-   },
-   {
-    "title": "인천시교육청·노동부 합동 '학교 안전보건 컨설팅' 실시",
-    "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1FVHlOOW1YM2VLVk00dURrdEdJWE13SjlIWnphdWdVOENDLS1ySlZ3bV9CSTdUb0N5aW1YNUo0eWNSTFFTOVZtVVlpdE9PUGZkTzV4NElhVlU0RFRsNjlmQ0VGSThRQ3dIQzRYcVJn?oc=5",
-    "date": "Tue, 14 Jul 2026 11:42:46 GMT",
-    "summary": "",
-    "source": "gukjenews.com"
    },
    {
     "title": "고용노동부, 폭염 취약사업장 불시 감독",
@@ -320,13 +313,6 @@
     "source": "대한민국 정책브리핑"
    },
    {
-    "title": "[단독] 기업마다 노동자대표委 띄운다",
-    "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9XaXgwSk15Q1hCY2FjamhWWHF3UUdJS29OMDZuRHhNOVMzSUtuSzR2SktzNTlVQlVpT2NZSkdncGp0dVEwNmZGalFyQURWN0lwREE?oc=5",
-    "date": "Tue, 14 Jul 2026 08:55:00 GMT",
-    "summary": "",
-    "source": "매일경제 마켓"
-   },
-   {
     "title": "AI 초과이익 특별목적세 도입해 청년 채용에 쓸까? …고용노동부 토론회에서 제안",
     "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1za3JyXzhuS2loQkoybHc2OHJQblR2ek53b1Y5QnBiU2JheS1mc0pXbldUV2x4bTIzcFpSclZTc0JWNXd0NkdLeUNybll3NHlGempTWkZ5U19kcWhwTmc?oc=5",
     "date": "Tue, 14 Jul 2026 08:55:00 GMT",
@@ -353,6 +339,20 @@
     "date": "Tue, 14 Jul 2026 08:31:00 GMT",
     "summary": "",
     "source": "경기도민일보 미디어"
+   },
+   {
+    "title": "고용노동부, \"인공지능(AI) 기술혁신에 발맞춘 새로운 사회 혁신의 길\"을 모색한다",
+    "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5SaXkxU3dHbldRRTVFNjRveHhlMWp0UGpUcEdodkFkclViQnVudUxuNVBudE1rRkFIeGo4bG9GanpleE81YjJXc0Q0NS1nMHJZTHQzTU1neERHYnhLcUZn?oc=5",
+    "date": "Tue, 14 Jul 2026 08:30:37 GMT",
+    "summary": "",
+    "source": "뉴스라이트"
+   },
+   {
+    "title": "고용노동부 원주지청, 물류·유통업 산업재해 예방위한 업무협약",
+    "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1rOURYam43NmtJSE5vODhudXByb2dmbzRTcXQxd2plRUowNnF2NVZlZHlWZFZpVDhpcmhnZjIyd1oxRW96eDBydnNiUEROdzg1S29kNTNEbmhOM09iOWZhbFBuT2pUckV4?oc=5",
+    "date": "Tue, 14 Jul 2026 08:08:40 GMT",
+    "summary": "",
+    "source": "강원도민일보"
    }
   ],
   "law": [
@@ -402,6 +402,13 @@
     "title": "법무부,내년부터 전자주총 의무화.. 시행령 개정 국무회의 통과",
     "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1BeklYUFdNLUxWYUlWUmxmckFaV084RTRSSU1Wa0xta1VGYnlHQnZlbkx3WGZJNXBTYy1yamFoRVJWYXNaYmpUVjFISkFpRWp3a2UzdlBCYkV4ZnBjX3dMUTBPTU1mQlVjQjhJ?oc=5",
     "date": "Tue, 14 Jul 2026 12:33:24 GMT",
+    "summary": "",
+    "source": "뉴스데일리"
+   },
+   {
+    "title": "종합 특검, 유병호 前 감사위원 구속영장 청구",
+    "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE53b3VHaVVrRkszZEktaFVFR1dUakRYSjhnc3VOWmk4ZmVsLWdnX1pJVUc4bGZNdE9ibXRqLVBLbW5HUWNYNTJHLUhXS3o4UHdfTVdQVHY0TjhLYm5FQl9qV3hNY091LWYzTDJv?oc=5",
+    "date": "Tue, 14 Jul 2026 12:19:35 GMT",
     "summary": "",
     "source": "뉴스데일리"
    },
@@ -462,18 +469,18 @@
     "source": "파이낸셜뉴스"
    },
    {
-    "title": "법무부, \"어디서나 주총 참여\"…슈퍼 주총데이로 인한 주주총회 참석 불편 해소",
-    "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFB5QjBHaEFQMEZfcXM4ZHk2N05TRTB6aDZRdVBSUnE1MFhGN1pZUmZDdVRUYVJvT0hJbnNvUURWdHpVNmZfcDJsVmN1R29ZYmsweG9Jd3dpLTAxZHJuOHBmWVR3V2dJR1JPNmIyTDVB?oc=5",
-    "date": "Tue, 14 Jul 2026 08:33:27 GMT",
-    "summary": "",
-    "source": "시민행정신문"
-   },
-   {
     "title": "공정거래위원회, 전자상거래법 시행령·시행규칙 및 과징금 고시 개정",
     "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9leERTUTlvODM4QVVHd3Z4RUVpa0hENmVOOWlGYzQ4WnJsTTVpSTRVYzBGQ3hWeXVaNl81bThkNzJpblYzb3MtS08wSnNPSm9ONHhlcnZtVEd4NHFt?oc=5",
     "date": "Tue, 14 Jul 2026 08:32:09 GMT",
     "summary": "",
     "source": "누리일보"
+   },
+   {
+    "title": "법무부, \"어디서나 주총 참여\"…슈퍼 주총데이로 인한 주주총회 참석 불편 해소",
+    "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1wT0FmaURrWXdjeG9OTWMtY3E1aEVrQVRpVlBmSGRjZUZkQmVFbF9Ba0lfdG9XR1pLRVNNQVNRUDBNT2VSQnN4TEcwV0toZ08wRVNjNUlUcjV5ZDJjR0M3cXN1Skg3SnBIeFE?oc=5",
+    "date": "Tue, 14 Jul 2026 08:32:00 GMT",
+    "summary": "",
+    "source": "인사이드피플"
    },
    {
     "title": "'창고형약국' 안 된다?…공정위 \"경쟁 제한\"",
@@ -523,13 +530,6 @@
     "date": "Tue, 14 Jul 2026 07:51:30 GMT",
     "summary": "",
     "source": "글로벌경제신문"
-   },
-   {
-    "title": "대웅제약 '거점 도매' 탄력…공정위 민원 종결",
-    "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFB3WUJhRFNjd2hYZS1odlZMOWRfd0gwd3gtY2puakZIUWptMlNXN244T3F5UE9TVm82QmZDOTUxc0JQU3hveF9xbzdnQkxCRVE?oc=5",
-    "date": "Tue, 14 Jul 2026 07:48:09 GMT",
-    "summary": "",
-    "source": "v.daum.net"
    }
   ],
   "fund": [
@@ -888,6 +888,13 @@
   ],
   "money": [
    {
+    "title": "희망리턴패키지로 재기하는 법? 점포 철거비부터 재창업 지원까지 | KB의 생각",
+    "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBpMzdHWlY5QV9PU1JSdGMwVU1QTTU5d0YybmZWU3kyX2t2OEpfQnhGbXcyazZ2QzRPNENhRHBHNUF6TXdfWlFMbXZrdU9WZERmeEdJNEFwQWROZVlpYjhMLUlyekdmUQ?oc=5",
+    "date": "Wed, 24 Jun 2026 07:00:00 GMT",
+    "summary": "",
+    "source": "KB Think"
+   },
+   {
     "title": "정부 지원 창업학교 졸업생, 3년 만에 30% 넘게 폐업",
     "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOSklIWmR5T1phR3hvUzFsYWV3ZHE2RDdTMHZBMFd0NFJPTzBCejd3WlJaWW5hMlhYaEp0RWRKSVF4alhjYUZ1al9Oc2VPdC1wc1FxdEVqRkFLOVdYTjZkYUVUNlJjazRyanZobGF1WUVDZms4MXp6eE5sWlMxN3drM3JRS3JBMDdP?oc=5",
     "date": "Wed, 27 May 2026 07:00:00 GMT",
@@ -1012,13 +1019,6 @@
     "date": "Tue, 24 Mar 2026 07:00:00 GMT",
     "summary": "",
     "source": "경인매일"
-   },
-   {
-    "title": "익산시, 청년창업 키우고 소상공인 카드수수료 ‘최대120만 원’ 지원",
-    "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1ocW90UlJGNVhUNzBOd3QyeEprYTQwNDJWcHpNckIxcHRxLWJRbVFCWVBoS3ExM0ZhU0JMSzRoZi1UZzdjTzBCLVVDWkVzck93ZzhhdjVTcjZKa0k?oc=5",
-    "date": "Sat, 21 Mar 2026 07:00:00 GMT",
-    "summary": "",
-    "source": "에너지경제신문"
    },
    {
     "title": "소상공인 바우처 신청 및 사용 방법",
@@ -1156,13 +1156,6 @@
     "source": "통신일보"
    },
    {
-    "title": "KB국민은행, 개인사업자 부가세 셀프신고 지원",
-    "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE95V2N3dWFPTmhSVnV2X2xqWEo3b2RMdEZuSDhlbXEwR2E1UU5QQ0ZSc0NGbDZxQlluTGo3Uk5NOG1EWjdvSWV1Mk16MlNmUi1PU2owQ1Zza3pRR254NXQtWGE3T2NrRnpZWnN1Um5R0gFyQVVfeXFMTm9DN2w0SmRwYjU3UnZ6NkRqZlJFT1RYTV9vVklkaEdjNXhDSEk4UXBQM3FLc2hCY2dpWFRQSjM5SDJqS3Zqd2wzWThtNHJYVG5sSDloN3ZveVZNNGN5RVdIMzNlOWFxTm1McGk4S0RkeXpn?oc=5",
-    "date": "Mon, 13 Jul 2026 06:28:59 GMT",
-    "summary": "",
-    "source": "잡포스트"
-   },
-   {
     "title": "“부가세 신고, 터치 몇 번에 끝낸다”…KB국민은행, 사장님들 세금 앓는 이 갈아치운다",
     "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5vRVBIMmpGdXpFN3plc0tHVHh2T3J5eDdpNFM5aFAxQUtoYk5PeTNOVmtlbEZ3NW93cVFKa1FrenlXd2FSSTNjakhpMUFNczVKZFlsODRuYzV3TkZoMTVKbnFBajNWcE1sSlJ1SDY4NA?oc=5",
     "date": "Mon, 13 Jul 2026 06:06:37 GMT",
@@ -1171,7 +1164,7 @@
    },
    {
     "title": "국민은행, 개인사업자 대상 부가가치세 신고 지원 서비스 개시",
-    "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5Mb2R2VmNienc1Q2tmTTZQOE1tSUc0enN5OFd2SkxQRWNsNHE4WGNDR3g4UmdVcTZhZWJUbWE3RDNycTlZOUI3Qzd4M1NNaVJRQVRmTGs2OWNGb0NHd1F4TGhRdnhXTGhKYzdBZ3V30gFyQVVfeXFMT296b1lXRmxhUWo4Zk9IMVF6NUxFbTBQWHJyTmh2LU9JbWhKb192QTZlSHgxalpVYnM2c2N0MERfQWxaQVdxdDMzOFR3X19WTVhLQ3hwUjNkREJIZV9reUczM0dLRFYxVm91aGtFZ1p4cm93?oc=5",
+    "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFB1M3dudHNlbmp6QkdZYk1qaVRHazFHdjZrRjRFejBmb1ExY05vRjhuZXRkT0c1OGxkZFBVWkpMYkJFcE9ZVVR2RlFUd0swN0R6ei1sc3VLc1ppQ0g5Umg0YU0yd2wyMEt6Z1JZbDZHSdIBckFVX3lxTE9vem9ZV0ZsYVFqOGZPSDFRejVMRW0wUFhyck5odi1PSW1oSm9fdkE2ZUh4MWpaVWJzNnNjdDBEX0FsWkFXcXQzMzhUd19fVk1YS0N4cFIzZERCSGVfa3lHMzNHS0RWMVZvdWhrRWdaeHJvdw?oc=5",
     "date": "Mon, 13 Jul 2026 06:03:00 GMT",
     "summary": "",
     "source": "아이러브PC방"
@@ -1238,6 +1231,13 @@
     "date": "Mon, 13 Jul 2026 05:01:44 GMT",
     "summary": "",
     "source": "경제타임스"
+   },
+   {
+    "title": "국민銀, 개인사업자 '부가세 신고' 돕는다",
+    "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFAtbEtIZXgwYkxaSnVIcHQ1dVBBOXE1SWp3WDJfbURfaEhEQjBralNLdUgzRXQ5Vzg2eElZVklIeE5vdTlvMG1OSHlHeVRmemRyUVFCdEM0TGM5dU05aVI5RXY4MnZITUdSOFN6bdIBbEFVX3lxTFAtbEtIZXgwYkxaSnVIcHQ1dVBBOXE1SWp3WDJfbURfaEhEQjBralNLdUgzRXQ5Vzg2eElZVklIeE5vdTlvMG1OSHlHeVRmemRyUVFCdEM0TGM5dU05aVI5RXY4MnZITUdSOFN6bQ?oc=5",
+    "date": "Mon, 13 Jul 2026 04:34:17 GMT",
+    "summary": "",
+    "source": "중소기업투데이"
    }
   ]
  }
