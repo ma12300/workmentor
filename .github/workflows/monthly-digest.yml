@@ -1,4 +1,4 @@
-name: monthly-digest
+﻿name: monthly-digest
 
 on:
   schedule:
@@ -34,7 +34,7 @@ jobs:
         env:
           SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
           RESEND_API_KEY: ${{ secrets.RESEND_API_KEY }}
-          MAIL_FROM: ${{ vars.MAIL_FROM || '워크멘토 <onboarding@resend.dev>' }}
+          MAIL_FROM: ${{ vars.MAIL_FROM || '워크멘토 <briefing@workmentor.co.kr>' }}
           DRY_RUN: ${{ github.event_name == 'workflow_dispatch' && github.event.inputs.dry_run || '0' }}
           TEST_TO: ${{ github.event_name == 'workflow_dispatch' && github.event.inputs.test_to || '' }}
         run: node scripts/send-monthly-digest.mjs
