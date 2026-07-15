@@ -2,6 +2,15 @@
  {
   "date": "2026-07-15",
   "kind": "market",
+  "edition": "저녁판",
+  "title": "7월 15일 (수) 투자 브리핑 · 저녁판",
+  "file": "briefings/2026-07-15-market-저녁판.pdf",
+  "top": "미국 뉴욕증시, 물가 둔화에 반도체 랠리 재개…다우존스·S&P500·나스닥지수 상승·SK하이닉스 ADR 27% 급등 - 한국강사신문",
+  "count": 28
+ },
+ {
+  "date": "2026-07-15",
+  "kind": "market",
   "edition": "아침판",
   "title": "7월 15일 (수) 투자 브리핑 · 아침판",
   "file": "briefings/2026-07-15-market-아침판.pdf",
