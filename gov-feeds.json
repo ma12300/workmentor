@@ -1,7 +1,14 @@
 {
- "updatedAt": "2026-07-15T21:08:10.467Z",
+ "updatedAt": "2026-07-15T22:15:24.003Z",
  "groups": {
   "tax": [
+   {
+    "title": "국세청·캠코 체납자 '중복관리' 우려…\"역할 분담 확실해야\"",
+    "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9lM0hlMGYyc3FLT0NEZmVFMi1PTHdUS04wakp4bm0yUUlpQVoxNjgzWHJPYV9CZ2RMQkRDci1vSm1UZkxiOHZFeGtwTXdCdWczUUdj?oc=5",
+    "date": "Wed, 15 Jul 2026 22:02:00 GMT",
+    "summary": "",
+    "source": "네이트"
+   },
    {
     "title": "국세청, 하반기 핵심 추진과제 발표…'AI 세정'으로 조세행정 패러다임 바꾼다",
     "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5kdktBcFFfTm9TUXhQX3k3ekc3TkhkNmUyclhHYWZzc3N5S19xRnVhVEtvRVBoeVRXbUZHS1JleUs3ZjFoZ0dFR1E2b2NEUHpBOEtCSUVQRlA5a0FlV1pyX3RIbjNEQQ?oc=5",
@@ -169,13 +176,6 @@
     "date": "Wed, 15 Jul 2026 04:48:00 GMT",
     "summary": "",
     "source": "연합뉴스TV"
-   },
-   {
-    "title": "“과태료, 국세청이 관리합니다”…안내하니 ‘경찰납부 서버다운’",
-    "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOR0lKa3JZbjBoOHJid25Bd0ZvZzRLMERIeGs3V1BRaFowM1g0WHgzTDRsdDFSc0dSbHRyNVFxYmZDOTZ2elZWQ0dKQWdkUmNPYm5mX3FTN24ybUZKeGhWNXJkSFN2aFZqVVZCVkJfOWprdi1BTjhxcnZTUW1vU2lPbw?oc=5",
-    "date": "Wed, 15 Jul 2026 04:30:25 GMT",
-    "summary": "",
-    "source": "edaily.co.kr"
    }
   ],
   "labor": [
@@ -341,21 +341,28 @@
     "source": "뉴시스"
    },
    {
+    "title": "아워홈 용인공장 끼임사고 근로자 사망…경찰·고용부 수사 확대(종합)",
+    "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9rRXhuQmswSk9lRmZoRnhJb2I3bEtwWTRGWm85NVgwem1UN0libS1GTWE5ajhHU1dYV01yVmpSN0NTOG8wZDg3NXp3aTFJMkJCQU0zTGd5UmlUcG_SAWBBVV95cUxOWExfLTkxR29UVm1ET3E2TElHSzVFb3RKOVpXMHJIVHhBb1pYUDVSY2Q1dGxXamJLT21CNU1RYlJPV09kc3R4NFhRWXFhc0NMeEVUOGhFTzJiVzEwWFhxTGc?oc=5",
+    "date": "Wed, 15 Jul 2026 07:39:54 GMT",
+    "summary": "",
+    "source": "연합뉴스"
+   },
+   {
     "title": "'폭염엔 충분한 휴식과 물 섭취'…고용노동부 서산지청 캠페인 벌여",
     "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9hNnRGaG50VnNJSEpOakZfQko3N3VIdUNjVDBYRzF4YUd3YWMyN3hqUm00aDNkVnJsa2haUnJHd1lSZ3dxcXpkNTl4RFRrTFRWcENV?oc=5",
     "date": "Wed, 15 Jul 2026 07:32:00 GMT",
     "summary": "",
     "source": "네이트"
-   },
-   {
-    "title": "최저임금 1만700원으로 올랐지만 ‘사각지대’ 여전…공은 정부로",
-    "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1lTzBKdHh5alppMDgxUkVDNTNoSjJiOXJWWkJTYnZHRG9VUGI2UFdCbEF5aS01Zk12OW0zTVRQR0JlRWFBWXBrZDZmWmN2Tk0?oc=5",
-    "date": "Wed, 15 Jul 2026 07:29:07 GMT",
-    "summary": "",
-    "source": "v.daum.net"
    }
   ],
   "law": [
+   {
+    "title": "“보완수사 없애면 전건송치 필요”…법무부도 ‘속도전’에 브레이크?",
+    "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5UY3NuZGFJQ2JVeEh5bDcxQ3hiaGxwUjRnYzRrdmFhLXR1dXpjdzZlV2FZSUkxbDlOcURyMDRULVBsZ1BDV2NGVmNGVTZxRUU?oc=5",
+    "date": "Wed, 15 Jul 2026 21:17:12 GMT",
+    "summary": "",
+    "source": "v.daum.net"
+   },
    {
     "title": "[인사]공정거래위원회 外",
     "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFAyOGJNTzJER2E0MDIxc1gtVmEwTkl2QTRtTGRKV21id0RDSl8zSVhPcDd6VHNfMnlBTHVqajMwOUhPMjNYNndCWjZJMWJpZGxJd0lqbkMtT1ltV0pEN2xhZ3hMaGZmaTBTVFM1VVZHdkFVdjlm0gFmQVVfeXFMT1NVMEdLS2JwOVRqRjdxTFVNaVdsSWRiSzBPZGxiV2ZvQ2p0aEd6SE1aZVBnZ2d1R3RETVU5aHhKY214VXhxUmlTLWo4emV5ZUdGMlUxRm9ZUlRFNm1YcE9XZzlzWk5n?oc=5",
@@ -418,6 +425,13 @@
     "date": "Wed, 15 Jul 2026 10:55:27 GMT",
     "summary": "",
     "source": "뉴스필드"
+   },
+   {
+    "title": "이랜드, 하도급대금 지급 비율 수정…공정위 발표 후 오류 바로잡아",
+    "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5YUTk5WldnRDJQZmRKMnRiMWpQVUVXaERwZVg5cWxnbTlTM0VqYlFzWDB3RmNoZHM4T1I5MlhSTi1vbEFhbVM1QzcxWFNrR1RVbGJqOHFpS2Y0dm84QVZDRWxhbFo4RTlTVDk5QUlWUWo?oc=5",
+    "date": "Wed, 15 Jul 2026 10:11:29 GMT",
+    "summary": "",
+    "source": "비즈트리뷴"
    },
    {
     "title": "석화업계 첫 사업재편 '대산 1호'…공정위 본심의 돌입",
@@ -483,6 +497,13 @@
     "source": "일요신문"
    },
    {
+    "title": "블랜치, 법무장관 청문회서 “트럼프의 에스맨 아니다”",
+    "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE11WVYyM2hTbzBudmtLek9pNUtna2Q0RzFMdnhvM00wRjVhUnRvUUl4ZkR3bnpnbTNPSmtTWkZ3RExPbU5hc3Z0NmhSVVRwNWI1bnBIOXpVWWo0TDEtNXZkc1Q5SE1KNi05LV9heWF1TWVuQW8?oc=5",
+    "date": "Wed, 15 Jul 2026 08:28:08 GMT",
+    "summary": "",
+    "source": "뉴스앤포스트"
+   },
+   {
     "title": "‘통합 대한항공’ 출범해도 마일리지는 둘?…공정위 승인 관건",
     "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5wRVM3NFBra2VXazRIc0JXVExCb01LakI1UmdLa3dNY0FwM3hiaXc2Tk1xVk1feXM1VTdwb3k5MTZFWHhzVDN3eTNvRWxFWEJXSU84djZCdHdYbkVuQXBoMVJ6U3p5WFpjQTZF?oc=5",
     "date": "Wed, 15 Jul 2026 08:23:58 GMT",
@@ -509,30 +530,23 @@
     "date": "Wed, 15 Jul 2026 08:02:19 GMT",
     "summary": "",
     "source": "뉴스21일간"
-   },
-   {
-    "title": "공정위, 롯데·HD현대 석화 통합에 ‘심의 패스트트랙’ 가동",
-    "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFB0dmFiYzFMcXJsMnE1U05kZWlnNjk5alZTUS1aOU1iNkxjVjNsV3hmcHlqUEYwckFKOVFJXzRwdjg1RUZuY3NyUWhqMUg3WnhHN1RsZGcxdkRxNmhuQW1QOFNjX1pBWmtjeXBHQw?oc=5",
-    "date": "Wed, 15 Jul 2026 07:43:36 GMT",
-    "summary": "",
-    "source": "메디컬투데이"
-   },
-   {
-    "title": "[인사] 공정거래위원회",
-    "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5PNTZ3SFRjaV9RUkRNaFJGV1VFbHBmTERpZGV4dFhKYVdWSEctRzFocS05dEpYOWVkVHhLdWwxSnpnWWE2STdXRm5obl91d2VSajl1RElNS3BWY05qdTJ0R0ZYbFZ5UjM1bUE?oc=5",
-    "date": "Wed, 15 Jul 2026 07:31:21 GMT",
-    "summary": "",
-    "source": "서울파이낸스"
-   },
-   {
-    "title": "[인사] 공정거래위원회",
-    "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE01RWJPT0VxMzNJcFJMTnZjSUlqSVA2ZlItQnhQWUQ1TDlOTWlqb3FEci05MS1JRHpEYnJUZ0FoR0piSzFRd2FGWmNWV0RGYzAtakgzbg?oc=5",
-    "date": "Wed, 15 Jul 2026 07:25:00 GMT",
-    "summary": "",
-    "source": "이투데이"
    }
   ],
   "fund": [
+   {
+    "title": "금융위, 10개사 정상화·부실정리계획 승인",
+    "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9XOEU1U3kzLXpqazF3aF9uNXdiTHpmWll6LTl6ZzBBNTlMc3hjQ1V5RV81M1hQNGJsdWkweWZRSUN3cE8zT2E2cDdYZjBuQ0VoRHlBQWJqQ0xTLVVXSmdCUE90WllRV0xnV1Bn?oc=5",
+    "date": "Wed, 15 Jul 2026 22:02:13 GMT",
+    "summary": "",
+    "source": "퍼블릭뉴스통신"
+   },
+   {
+    "title": "‘회계처리 위반’ 영풍·고려아연… 금융위, 204억·84억 과징금 부과",
+    "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5hRnI1eHhnUV9INDdtMDBPdkF2M1NnQlNSbGloZmIzdGgtLV9ZMjVadlpyQkx3MjFWUDdPVm13Yjh2RE9WRnRVY0IxMHNNMkRsZjY4UjhlV3g4RXNmdkgxa0RnMEYxR1oteGVR0gFUQVVfeXFMTmE0NEYxUzJDT3YyUVlIZkdQMHhNbmFfWllhMjlwUy1SVEZNZDRSelF5SzZDZWtnZm5uclNFYUxxTzMzOUN5MjVhRmNqVHlKa1dWNVVE?oc=5",
+    "date": "Wed, 15 Jul 2026 21:00:00 GMT",
+    "summary": "",
+    "source": "세계일보"
+   },
    {
     "title": "이억원 금융위원장, \"우리 가계부채 비율 여전히 높고, 절대 규모도 상당\"",
     "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBJTmpSSmJUaFlZbXZ0TmVtY0FvcnExQS1ZUEFrOWw5WF83OENwZ25wRTFMMWhjVTlXUzZPVDQwUWpvLU4zTTZRWFF0N29ZSlREVmQ5ODJ6REJxRGp6Mk1iVmxFTldQRjJFWFE?oc=5",
@@ -588,6 +602,13 @@
     "date": "Wed, 15 Jul 2026 12:57:00 GMT",
     "summary": "",
     "source": "연합뉴스TV"
+   },
+   {
+    "title": "금융위, 회계위반 영풍 205억원·고려아연 84억원 과징금 부과",
+    "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBwU0lSMEk0TU56RVFsMU91UEVwWElYTVBlRHRnd0w0cGk3aXpXYlRpLWlsQS1NSHQyTEN6X3hlcXNyVER5TzlvVEZGaE1mN0JncWpBZHdlM2VNZ9IBWEFVX3lxTE5tMm1WS0NzTWp1UjQ0eTNwV3NEVWpVdmFzajVsbzVrMlRwMEJuLUNPVE9icjNpNXFwUFRZc0VDRndMMFFQNmZZd3U1ZTVqZDVSTWxmVWw2bzQ?oc=5",
+    "date": "Wed, 15 Jul 2026 12:39:25 GMT",
+    "summary": "",
+    "source": "아주경제"
    },
    {
     "title": "관세청, 2026년 6월 수출입 운송비용 현황 발표",
@@ -686,43 +707,15 @@
     "date": "Wed, 15 Jul 2026 09:02:24 GMT",
     "summary": "",
     "source": "조선일보"
-   },
-   {
-    "title": "[금융 HOT 뉴스] 금융위, 하반기 금융구조개혁 속도 낸다",
-    "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE96cmVYekd2N1VoaHhWZHQ3QVlvY2xVbmtGQmFCbThaaS1ja0VEZnRKN0s4YjlQV0NlbGRRem1pVy1wUjZhVEdCYkVtVF9zUGluWTV4bGxDV092N2FGUkFESFd1S2tRMlBDZlE?oc=5",
-    "date": "Wed, 15 Jul 2026 08:57:00 GMT",
-    "summary": "",
-    "source": "비즈월드"
-   },
-   {
-    "title": "금융위, 한은 '프로젝트 한강 2단계' 혁신금융서비스 지정",
-    "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBacTdCajJfZDBqRWRNOTFkMGtYS0VoS0ZGWmlxbTVEZUpTSU8xRmxJb0Z2UjVyN2RXN3VEeUVGbWdha2QyOV9hV1hFS3ZUSzJQ?oc=5",
-    "date": "Wed, 15 Jul 2026 08:55:12 GMT",
-    "summary": "",
-    "source": "블루밍비트"
-   },
-   {
-    "title": "금융위, ‘회계위반’ 영풍·고려아연에 205억·84억 과징금 부과",
-    "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1BRlZfS3l5S0gyUnhZVGlzNVBseHljTUlCSFdQMUt4MFdPX2xPVXMybk9EUGZiUDdOcTdlNW1tNnVHc2FOVDlkZUVKclU5cjB5ekVKYnBVTk53WDZ6SEZIdVRRLUZZY0U?oc=5",
-    "date": "Wed, 15 Jul 2026 08:55:00 GMT",
-    "summary": "",
-    "source": "연합뉴스TV"
    }
   ],
   "biz": [
    {
-    "title": "중기부, 온라인 수출기업 물류비 70% 지원…최대 3000만원 - 조선비즈",
-    "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQS2xQODUwbkFNdGpVMHRmekJteHk3U0U1ekxHcHcxM1RhbWFydmpYNjROcDU2ZjJJM0VSYnBKQTBZVWdWQWVWTkx1QTI2eklmeVRRd0ItSTFlcVdSSHNZRmE0Z1RXRTVXcTdjdFpkbGs5MFF5alV5MFhLZmhHR3kzSTMyMjZRbm1fSm0yZ1lZYzfSAaQBQVVfeXFMT0hNOUd4N2ZqQ3libW9kS1BqaGdyaURhTmQ3MVQwWW5lczJUWFQ0WllBVFg1VkNuQlgtczU3V2J1NnJUSU5wOWRWOXN1d1pYWjVFZUlvaUlGLVpoVWRiVjdzYjJaQkhwRGZKRHBLSV9aLXFyQy1EVW12ZTlzM29fM0JfYTBpdFhMbzQtLVlfalkxRXFpdFBIb2tRS3lDNEhrb2djdlM?oc=5",
-    "date": "Wed, 15 Jul 2026 21:04:24 GMT",
-    "summary": "",
-    "source": "Chosunbiz"
-   },
-   {
     "title": "중기부, 온라인 수출기업 물류비 지원 참여기업 모집",
-    "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFB5OVhMUGc4TEdFZjRXNW1qei1iYXpWd3BXRGtxRVVXMmdqdGQwMGx6YTlhYXdBQUVMaEstcm5rQVNhVGhJTVA1eDRXb0VDNDQ?oc=5",
-    "date": "Wed, 15 Jul 2026 21:02:19 GMT",
+    "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1ubVNNbHNMR2hWc3RJSGVMRG1jOFNrOERTOW5fTmdHWGpLWTl2dVVWaTNraHVIcmJ1WDRnbEZVb3I3VVlhdUd0ZXNHdXBSSU1qeFNV?oc=5",
+    "date": "Wed, 15 Jul 2026 21:36:00 GMT",
     "summary": "",
-    "source": "v.daum.net"
+    "source": "네이트"
    },
    {
     "title": "중기부, 온라인 수출기업 물류비 지원 참여기업 모집",
@@ -732,32 +725,11 @@
     "source": "네이트"
    },
    {
-    "title": "온라인 수출 中企 물류비 부담 완화…최대 3000만원 지원한다",
-    "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBmaW1pSzJza2QtRm1hUUdUOHNyb2dWcndDcXdSU3ZpcVBvNHpCX3QyUXZINXliVGJYVnJjemNHWFRzY25USG1Td3FoVVI4SC1OUXhB?oc=5",
-    "date": "Wed, 15 Jul 2026 21:01:00 GMT",
+    "title": "중기부, 온라인 수출기업 물류비 지원 참여기업 모집",
+    "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBqQkJlRzYyd3JBcU9jNG5BS0ZtMlZlQ3I4TXNGcjE2QnZkdENDaEowUFJpU2RPRTNFODdwU2xpYUg1M2Z3bmptUUFfYmRCdjl2NGd3NktCUTY4aVXSAWBBVV95cUxNbWotQXFvR0FUdVFvd0tOTVNGT0draXVITEdMN2QweEY0YXpWQ2gyLVJSbEtoOHBXNzlmc05lNzA1akN1cmh3MXNLcXU1YmJmQkpieG1JeWEwckZkVURtbGk?oc=5",
+    "date": "Wed, 15 Jul 2026 21:00:03 GMT",
     "summary": "",
-    "source": "네이트"
-   },
-   {
-    "title": "\"중소기업 물류비 부담 던다\"…최대 3000만원 지원",
-    "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE01NlE2aGpxZTJmUy1UNmxpVEFHWGJ4SHFhMkNZNi16V0tlZnA3eDBBX1kzTVhhTkdGZmdZaFFBcGJKajRiZ1pybmhlVV9sLUszYVQ4?oc=5",
-    "date": "Wed, 15 Jul 2026 21:01:00 GMT",
-    "summary": "",
-    "source": "네이트"
-   },
-   {
-    "title": "중기부, 온라인 수출기업 물류비 지원…최대 3000만원",
-    "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5wUjdzNWkwMjVHcHZ0cFROVnN2OVpfWFh1cHBWV2tfR1dJYzV2MXdqY1dVVkZBZGdlampaRnVDYWwtVjNTS3lXeldOUXlHNmxNVjJj?oc=5",
-    "date": "Wed, 15 Jul 2026 21:01:00 GMT",
-    "summary": "",
-    "source": "네이트"
-   },
-   {
-    "title": "온라인 수출 中企 물류비 부담 완화…최대 3000만원 지원한다",
-    "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE12RzB2N3JhNzJ3aXgzeENXb2FCV2dRRjU1MF84aEhISkZ2YzFmYjBKemx0ZlNVSTliLXpXUFdZemdoaGo2THNKZHBXOWFDWDNpSTQtSFZ0WWV3UjV0?oc=5",
-    "date": "Wed, 15 Jul 2026 21:00:00 GMT",
-    "summary": "",
-    "source": "뉴스1"
+    "source": "연합뉴스"
    },
    {
     "title": "온라인 수출 물류비 최대 3000만원 지원...중기부, 참여기업 모집",
@@ -767,11 +739,32 @@
     "source": "뉴스핌"
    },
    {
+    "title": "온라인 수출 中企 물류비 부담 완화…최대 3000만원 지원한다",
+    "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE12RzB2N3JhNzJ3aXgzeENXb2FCV2dRRjU1MF84aEhISkZ2YzFmYjBKemx0ZlNVSTliLXpXUFdZemdoaGo2THNKZHBXOWFDWDNpSTQtSFZ0WWV3UjV0?oc=5",
+    "date": "Wed, 15 Jul 2026 21:00:00 GMT",
+    "summary": "",
+    "source": "뉴스1"
+   },
+   {
+    "title": "\"중소기업 물류비 부담 던다\"…최대 3000만원 지원",
+    "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBrRjYyaDdScWxCRXBIRU1VYlFJRkpNaS1wWE1EWWNheDJYTnU3ajJhTGFCV2lmcHVMWUhxMXlwN2pwVWpZNUpsdW11RFV2LTRKU2RoTl9Tc3pCekN1SmJnRtIBeEFVX3lxTFAxNG9iclB3NGF0aHk5YVdJeHpGTnc1LUt3WEx3OVhiWDJZMUJYemhVdmQtV3N5dUhqZHZ4TE1FYjB5NlFHOWpWVDJ4YU1IdlA3OTI3ajBvbUEyZzhLSVA0LUt5QWVEd2VNQlNTWEdHRUJKQXFhamlfUQ?oc=5",
+    "date": "Wed, 15 Jul 2026 21:00:00 GMT",
+    "summary": "",
+    "source": "뉴시스"
+   },
+   {
     "title": "중기부, 온라인수출 물류 지원기업 모집…최대 3000만원",
     "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1PUm1MYlc4bjFmZjh4dVhKcWdUaEpRTmpKYUdsai1lRmRXbmt0MmViMGFBVzM4NkFGTmRubElCZFhsenlILThoOEJFbHdSZjJCZ0d5ZA?oc=5",
     "date": "Wed, 15 Jul 2026 21:00:00 GMT",
     "summary": "",
     "source": "이투데이"
+   },
+   {
+    "title": "중기부, 온라인 수출기업 물류비 지원…최대 3000만원",
+    "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE04NDdWYktLY3dnUUhUamJHRHhuZEpDSDJKSC16MWhoZ2gydGY1M0hhdmFCWjJmRmlVWjd4NWdlS3BDSWtNSVBCTTQwRFNnOUtPZXZkN193?oc=5",
+    "date": "Wed, 15 Jul 2026 21:00:00 GMT",
+    "summary": "",
+    "source": "헤럴드경제"
    },
    {
     "title": "중소벤처기업부, K-방산 미래 이끌 '혁신 스타트업' 찾는다",
@@ -817,7 +810,7 @@
    },
    {
     "title": "공영홈쇼핑, 중소기업·소상공인 판로 지원 본격화…‘생생활로’ 브랜드 선봬",
-    "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE8tZTBFVk5RSWpMcjE1dTA1bFlyc0RfREIzYVhCQkpBODVxWWptMXprcnVtaGNDZWZpdzVjMHdJV2hKOW81Q0N2RTdSRExXQWJCY2NQTkd4amZhcmIzY01JSVlxM0lvNEdvSENKWjFmZ1o5d01rMDFEY2xoNzk?oc=5",
+    "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE0xeGxGQkJ5RzRoZExlVGNJLW1PVUlfWVRhSzI4cWVsZk02M1hQLXJLWElkd0stR1ZQMGxEaHNiT0kwWGZfR0x0eVNfNmRhNmQyOExNQlNmWHE2UnVDN250M3dmWFNYZnRxamxmY0dMN2FnNFZh?oc=5",
     "date": "Wed, 15 Jul 2026 10:08:30 GMT",
     "summary": "",
     "source": "부산일보"
@@ -884,6 +877,13 @@
     "date": "Wed, 15 Jul 2026 08:32:16 GMT",
     "summary": "",
     "source": "매일경제 마켓"
+   },
+   {
+    "title": "중기부, K-방산 이끌 혁신 스타트업 50개사 모집",
+    "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE04WWpJa1RKbHVqdlJBZDFJM3VaZE1lbmFPTG0tdV9tLTIwRVpVbDlRamMxWktMRkFOMWhSbVVLajV1bGtzZHlQMWpibkZxT1VoclE?oc=5",
+    "date": "Wed, 15 Jul 2026 08:14:00 GMT",
+    "summary": "",
+    "source": "전라매일"
    }
   ],
   "money": [
@@ -1021,13 +1021,6 @@
     "source": "bntnews.co.kr"
    },
    {
-    "title": "소상공인 바우처 신청 및 사용 방법",
-    "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFA3VGVIM1RiWlBmdWhQZFVkNG5oeDNmcHdrQkNGWm9aSFVCZ3J1NUpodjdGS0x3TmtxOG5ZOTRSeHZHV1Awb25zS00zRQ?oc=5",
-    "date": "Fri, 13 Mar 2026 07:00:00 GMT",
-    "summary": "",
-    "source": "v.daum.net"
-   },
-   {
     "title": "속초시, 소상공인 생애 첫 창업지원금 대상 모집",
     "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBRUGJoT2Q1ZnZnSmVzWnA5SzZYQ09wU3pCdmpjNXhfdDZQQVFPdTVTRThvLTZBeEZRT1BleElKV0pjc2F0Ui1jVkE2NHdZLXJJX2RGZTFFUFFCcjBWRDZCM2hNdjg?oc=5",
     "date": "Tue, 10 Mar 2026 07:00:00 GMT",
@@ -1061,6 +1054,13 @@
     "date": "Thu, 26 Feb 2026 08:00:00 GMT",
     "summary": "",
     "source": "IT비즈뉴스"
+   },
+   {
+    "title": "소상공인24 지원금 신청 방법과 자격 조건 총정리",
+    "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5saXRMOGZoMzdYUTBxRE5tMlE3eWQzMjVDYk1PbzVCaDFvVXpwRnUyM3pEZWp6dHNoelo4dnljc1YwTkUzd2d3YkJ3b2lFTkNkMGc?oc=5",
+    "date": "Thu, 26 Feb 2026 08:00:00 GMT",
+    "summary": "",
+    "source": "브런치"
    }
   ],
   "guide": [
@@ -1122,7 +1122,7 @@
    },
    {
     "title": "쌤157, 부가세 신고 서비스 오픈…“사업자 스스로 확인·신고 지원”",
-    "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE9SYndwLVg4UnBQaUZDdGhPdTZIRWdfMUZUTGpDM0FRM2VpcVlDS0ZIOG40OW40VkhTMDQyVHVKcDR0VkR0NkN3dEVGNHBpZmNqUllwcE1YaGhOVjFRc09qUFFtWF9xRDBmY3R1eE81ZlZpd9IBckFVX3lxTE9SYndwLVg4UnBQaUZDdGhPdTZIRWdfMUZUTGpDM0FRM2VpcVlDS0ZIOG40OW40VkhTMDQyVHVKcDR0VkR0NkN3dEVGNHBpZmNqUllwcE1YaGhOVjFRc09qUFFtWF9xRDBmY3R1eE81ZlZpdw?oc=5",
+    "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1idFVXcUpvcUhyUXdEUkU2U3VLTTBpUG1OaW1UaGYxRFRnVml2WkRmbExUOVhqM1VMVmhyb2lFcGRvRVdhcWZZc0VPOVRKWUFWQkM2YkRhXy1VckR5N0J5d3c2dkRTX1l5V3RrdWdXamE1T21l0gFyQVVfeXFMT1Jid3AtWDhScFBpRkN0aE91NkhFZ18xRlRMakMzQVEzZWlxWUNLRkg4bjQ5bjRWSFMwNDJUdUpwNHRWRHQ2Q3d0RUY0cGlmY2pSWXBwTVhoaE5WMVFzT2pQUW1YX3FEMGZjdHV4TzVmVml3?oc=5",
     "date": "Tue, 14 Jul 2026 04:14:51 GMT",
     "summary": "",
     "source": "메가경제"
