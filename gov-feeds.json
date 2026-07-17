@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-07-17T18:11:37.554Z",
+ "updatedAt": "2026-07-17T19:34:35.609Z",
  "groups": {
   "tax": [
    {
@@ -102,8 +102,8 @@
    },
    {
     "title": "국세청 하반기, 국민 여러분께 업무 보고드립니다! - 카드/한컷 | 멀티미디어",
-    "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1ZUWp3b2hEanFvVkpWVHZUYU5SblQtem5JM0t2QUpuR0g3Wi12Z09nTUpjdERvbkdRXzJqUzR0a0ZHSTNnZDlTMG5GcjNwTTFYSllUUGpmdHZPM1BIeE9CeHoxSGFUVVJreVBISFB3?oc=5",
-    "date": "Wed, 15 Jul 2026 22:42:01 GMT",
+    "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxORUJGVG9fVkREUVM0NURmeXhZWkxvUXA2elFFQzFpajZDTFJnMDdqY1Ywb1hKeTdHOTZWd1F5ZmNmLTFyX2Z6SHhGSkpjeTZ3QldicnNreG9BQTh5Q1BELWp6N3J0d0JQckV5TUJVWkpFYUVzYnVkM3FLMFNIZ1RZTHZnYVdicXV6UTM4?oc=5",
+    "date": "Wed, 15 Jul 2026 22:36:03 GMT",
     "summary": "",
     "source": "대한민국 정책브리핑"
    },
@@ -179,6 +179,13 @@
    }
   ],
   "labor": [
+   {
+    "title": "노동부 군산지청, 새만금 현장서 폭염안전 합동점검",
+    "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBjTVltYkJQd0l6WkVwYUNNbXFwRVNRcXkzTnVVSFQ0X2hmaEZ6TTB2dDBMc3ItbnJ4QVdDUFZLRUN0dFhSWkpqclJjQlhtUk1GY1p2RmNLRE9rMktBcUFjaWxvMUgtbnBYSzdB?oc=5",
+    "date": "Fri, 17 Jul 2026 19:19:30 GMT",
+    "summary": "",
+    "source": "전민일보"
+   },
    {
     "title": "고용노동부, 폭염 취약 사업장 불시 감독",
     "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBzcGtWZmUzSVFCMm5tVjN5SWswaTFCZ0RNdXNTMlkzNmc3bG9TalllSURjdTdQUktsUkdXQ1F0M0UwbUo0V3g4SG1vX0pMejkyaDY4?oc=5",
@@ -346,13 +353,6 @@
     "date": "Thu, 16 Jul 2026 07:13:00 GMT",
     "summary": "",
     "source": "이투데이"
-   },
-   {
-    "title": "나킴컨설팅 임금체계 개선 컨설팅, 노동부 우수사례 선정",
-    "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE16aUt6TjZDSWhGZU5xaVphNzNUWWJOcWtiUzJ0cVcyWDlqTTYwY0pjanRUem15QUVLUjRqcnAtVy01T0tDaVNuWVVxSHBzcllhd1JxWk9n?oc=5",
-    "date": "Thu, 16 Jul 2026 07:05:00 GMT",
-    "summary": "",
-    "source": "중앙일보"
    }
   ],
   "law": [
@@ -534,6 +534,13 @@
   ],
   "fund": [
    {
+    "title": "업무보고 (재정경제부, 국가데이터처, 금융위원회, 기획예산처) - 포토 | 멀티미디어",
+    "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5ab0NIdzBQZ0F3ekt3ZVJyb0tyejNXbUNnLXV0emxPbmVWVUJoWWptWm5wajNOUW50ckJXaG5sS0ZzYkVFQUdMdWUtYjBxc1pLZE1aWHlRbzB3RWRCQUhxNGFTMGI1YS1NWXc?oc=5",
+    "date": "Fri, 17 Jul 2026 19:09:44 GMT",
+    "summary": "",
+    "source": "대한민국 정책브리핑"
+   },
+   {
     "title": "금융위 예탁금 3000만원 속내…단일종목 레버리지 ‘12조→4조’ 계산",
     "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE52OFJ4QzExbDJtaGFqRlVSNjl6dFl4MEk4SmpyUFlrWTNvOEQwSF9ENWt5MUo4WUJLNDNrd0VpeFBRejlCaWtNV0htcXBsWVh2ZlktZDdNVW5Ub1U0QkUwUFZyOA?oc=5",
     "date": "Fri, 17 Jul 2026 14:26:27 GMT",
@@ -553,13 +560,6 @@
     "date": "Fri, 17 Jul 2026 08:13:20 GMT",
     "summary": "",
     "source": "이세종경제"
-   },
-   {
-    "title": "업무보고 (재정경제부, 국가데이터처, 금융위원회, 기획예산처) - 포토 | 멀티미디어",
-    "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5ab0NIdzBQZ0F3ekt3ZVJyb0tyejNXbUNnLXV0emxPbmVWVUJoWWptWm5wajNOUW50ckJXaG5sS0ZzYkVFQUdMdWUtYjBxc1pLZE1aWHlRbzB3RWRCQUhxNGFTMGI1YS1NWXc?oc=5",
-    "date": "Fri, 17 Jul 2026 07:37:05 GMT",
-    "summary": "",
-    "source": "대한민국 정책브리핑"
    },
    {
     "title": "금융위, 단일종목 레버리지 ETF 효과와 논란 해명",
@@ -711,6 +711,13 @@
   ],
   "biz": [
    {
+    "title": "\"온라인 수출 물류비 최대 3000만 원 지원\"…전북중기청, 참여기업 모집",
+    "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFA0SW9KV0l1em1MOVdLcTRRTW1OU1V4Sk0teXdfWXcyUTUwSkQzdEpabG5JdnRaaFlCRC1oZExKYTNLanBzRjNvNDJ3eS1LZUtNbnFObnBpeDFJLUxjUFE4ZW4zcUNBYk1kOC1F?oc=5",
+    "date": "Fri, 17 Jul 2026 19:19:30 GMT",
+    "summary": "",
+    "source": "전민일보"
+   },
+   {
     "title": "라엘네이처, 중기부 온라인 브랜드 육성사업 TOPS 참여기업 선정",
     "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9DR0J0QU9NOEc3MTJwcEJjdmxFb3RHYXhrZC1VLVFHOG1GSXdPZkcwSmoyblJIU0k5U3VzUG5ncFExUW9Fc2tKRkZtVEM0OFRsMzRGWnpuY0FISDdrYmJ2MEl2N3BvLXRXenRjVVdqcm40WG5oRjlEdnR3?oc=5",
     "date": "Fri, 17 Jul 2026 01:52:41 GMT",
@@ -837,13 +844,6 @@
     "source": "네이트"
    },
    {
-    "title": "한유원, 초복 맞아 어르신 200명에 삼계탕 배식 - 조선비즈",
-    "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNQURQUGlXWXlLb3NaeWF4WkFROXpXTGk0WjB2UFVhQzRuVGRDaEg2MzFkS2JLR1dFYmx5eFMxVmRpNXpCS1RiNVBkNk5TOUNtdjJ2Y1pzSjhfSkVWQ3dxVVAtYjA0RW0wRHpFNTZoUjM2dEhiQ1haVUpMOHhzYlZkZ2VDWGdNVVFHREJLZ21TaDbSAaQBQVVfeXFMT09mS0NhNC1peWFyY1RmNmQ1LXJZNVBoUFY1Y0RiTEdJY3oxclI5cEhsd1FnT09makxfWUxPSl9jN2pOTGwwdVBnT3REY2UtaUZrMFlZclZKbm1XU2J6dS03bC0wQ01iVzYta2dTMElkdVhHRHdjQTR6ZVZOSlhIRkJEcnNkaEMzTi1IU25kM3JObXA1MkgwajBiTW5iN09fby1EZUE?oc=5",
-    "date": "Thu, 16 Jul 2026 01:43:00 GMT",
-    "summary": "",
-    "source": "Chosunbiz"
-   },
-   {
     "title": "중기부, 중소기업 물류비 최대 3000만원 지원…참여기업 모집",
     "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1WU2FfSkZvQVNhSFhNNUVUWmpZMTN5MHFiYm4xNFVZd3l6ZWk0d0Z4SXE1SEZrLUhnUEhZZGhxNnpBdkxaZkVLOWxQZjNDSzBKdEJHeXN6ZzFtck5XeWptNDhIQUtSM0RKRGRYZQ?oc=5",
     "date": "Thu, 16 Jul 2026 00:55:34 GMT",
@@ -900,6 +900,13 @@
     "date": "Wed, 15 Jul 2026 21:03:46 GMT",
     "summary": "",
     "source": "kmrk.ru"
+   },
+   {
+    "title": "희망리턴패키지로 재기하는 법? 점포 철거비부터 재창업 지원까지 | KB의 생각",
+    "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBpMzdHWlY5QV9PU1JSdGMwVU1QTTU5d0YybmZWU3kyX2t2OEpfQnhGbXcyazZ2QzRPNENhRHBHNUF6TXdfWlFMbXZrdU9WZERmeEdJNEFwQWROZVlpYjhMLUlyekdmUQ?oc=5",
+    "date": "Wed, 24 Jun 2026 07:00:00 GMT",
+    "summary": "",
+    "source": "KB Think"
    },
    {
     "title": "정부 지원 창업학교 졸업생, 3년 만에 30% 넘게 폐업",
@@ -1054,13 +1061,6 @@
     "date": "Tue, 10 Mar 2026 07:00:00 GMT",
     "summary": "",
     "source": "뉴스1"
-   },
-   {
-    "title": "속초시, 소상공인 생애 첫 창업지원금 지원",
-    "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE4zd1FjNmJ3N3dUSmVOcDl2a3N0NlJyakVpRnNJMTNXZTA1WUFHMlpVdnFodTZ1Uk5iZW1pbEk1U2pZTlFPb2dtZ0hTRDhEbF9wQ2x5WmM5RXhMbHVncHk4cNIBeEFVX3lxTE81d1hPcHdDanEzT1NwcmxNcDhyUUZVeHVIY1BkaTZXTm5XZGRQbUVKRFczMGJmVzdGR3IxTF8yNnhVRjJyWGxjWnA5NlVMd045QVZ3S3p3cEl4RGF6cWdZMGJHdkljeEhJWmRnTG5zYllCajZCV0V3Ug?oc=5",
-    "date": "Tue, 10 Mar 2026 07:00:00 GMT",
-    "summary": "",
-    "source": "뉴시스"
    }
   ],
   "guide": [
