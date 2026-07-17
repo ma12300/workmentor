@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-07-17T19:34:35.609Z",
+ "updatedAt": "2026-07-17T20:36:00.520Z",
  "groups": {
   "tax": [
    {
@@ -102,8 +102,8 @@
    },
    {
     "title": "국세청 하반기, 국민 여러분께 업무 보고드립니다! - 카드/한컷 | 멀티미디어",
-    "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxORUJGVG9fVkREUVM0NURmeXhZWkxvUXA2elFFQzFpajZDTFJnMDdqY1Ywb1hKeTdHOTZWd1F5ZmNmLTFyX2Z6SHhGSkpjeTZ3QldicnNreG9BQTh5Q1BELWp6N3J0d0JQckV5TUJVWkpFYUVzYnVkM3FLMFNIZ1RZTHZnYVdicXV6UTM4?oc=5",
-    "date": "Wed, 15 Jul 2026 22:36:03 GMT",
+    "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1ZUWp3b2hEanFvVkpWVHZUYU5SblQtem5JM0t2QUpuR0g3Wi12Z09nTUpjdERvbkdRXzJqUzR0a0ZHSTNnZDlTMG5GcjNwTTFYSllUUGpmdHZPM1BIeE9CeHoxSGFUVVJreVBISFB3?oc=5",
+    "date": "Wed, 15 Jul 2026 22:42:01 GMT",
     "summary": "",
     "source": "대한민국 정책브리핑"
    },
@@ -181,7 +181,7 @@
   "labor": [
    {
     "title": "노동부 군산지청, 새만금 현장서 폭염안전 합동점검",
-    "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBjTVltYkJQd0l6WkVwYUNNbXFwRVNRcXkzTnVVSFQ0X2hmaEZ6TTB2dDBMc3ItbnJ4QVdDUFZLRUN0dFhSWkpqclJjQlhtUk1GY1p2RmNLRE9rMktBcUFjaWxvMUgtbnBYSzdB?oc=5",
+    "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9uRkJPTmJEejF2ZzFZRVJiWk5HWDhvWUVDT0xPOG5SdHNubkowQ3E2UDltRnU3VFVjdFJnZEJrXzE3MDJBVUFzZ0ZnbFU2NjlpS0ZESWdLcTZTR2Z5aTJ5OEFwZm5uS1VhdmxJUA?oc=5",
     "date": "Fri, 17 Jul 2026 19:19:30 GMT",
     "summary": "",
     "source": "전민일보"
@@ -541,13 +541,6 @@
     "source": "대한민국 정책브리핑"
    },
    {
-    "title": "금융위 예탁금 3000만원 속내…단일종목 레버리지 ‘12조→4조’ 계산",
-    "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE52OFJ4QzExbDJtaGFqRlVSNjl6dFl4MEk4SmpyUFlrWTNvOEQwSF9ENWt5MUo4WUJLNDNrd0VpeFBRejlCaWtNV0htcXBsWVh2ZlktZDdNVW5Ub1U0QkUwUFZyOA?oc=5",
-    "date": "Fri, 17 Jul 2026 14:26:27 GMT",
-    "summary": "",
-    "source": "쿠키뉴스"
-   },
-   {
     "title": "금융위 “단일종목 레버리지, 외화유출 완화 효과 있었다”",
     "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1Ja3JYM09JR1ZXNWd0TE1ZbzlnZG1leHd6ZWNfZWNKNXpMeG5xLUV1eXdnbEpyMGNCSHlHWFpXbW5RZmt1YjBqdGNsSHFEXzQ5S1dMQzBYMmxNMU5pczNvQ3FqY0Q0aUE?oc=5",
     "date": "Fri, 17 Jul 2026 13:54:18 GMT",
@@ -707,12 +700,19 @@
     "date": "Thu, 16 Jul 2026 05:06:00 GMT",
     "summary": "",
     "source": "intn.co.kr"
+   },
+   {
+    "title": "권대영 금융위 부위원장, 베트남 재무부 차관 면담",
+    "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9MTHI0MTlPaGxNcjFfcHp5cFRqOHg4cUFBcFptbzg2Vi1ua0JiYTQ5X2d6Y1lLTFlwLVE3eThTUkdCR3pLMkJaZ1FtemhQSHBuVVpieUVOWDh2NGNMQjFBWlJSTFR2SVZiR0E?oc=5",
+    "date": "Thu, 16 Jul 2026 04:54:22 GMT",
+    "summary": "",
+    "source": "intn.co.kr"
    }
   ],
   "biz": [
    {
     "title": "\"온라인 수출 물류비 최대 3000만 원 지원\"…전북중기청, 참여기업 모집",
-    "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFA0SW9KV0l1em1MOVdLcTRRTW1OU1V4Sk0teXdfWXcyUTUwSkQzdEpabG5JdnRaaFlCRC1oZExKYTNLanBzRjNvNDJ3eS1LZUtNbnFObnBpeDFJLUxjUFE4ZW4zcUNBYk1kOC1F?oc=5",
+    "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5MQTlvTi1ReVkxZlE3ZWx4WGl6YmFZRUNBLVFVU0xBSm9KS0VhLWV5ZzlCTGQ5X0VzeWpIdkh0UjB1SDViVGliMXVWaHNFRHZyNlc1LU04b1pxZFI0RWM5WDZEX3AwUlNha3RiMA?oc=5",
     "date": "Fri, 17 Jul 2026 19:19:30 GMT",
     "summary": "",
     "source": "전민일보"
@@ -765,13 +765,6 @@
     "date": "Thu, 16 Jul 2026 09:42:30 GMT",
     "summary": "",
     "source": "에너지경제신문"
-   },
-   {
-    "title": "중기부, 온라인 수출기업 물류비 최대 3000만원 지원",
-    "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9RVXFpUkdUTmRLMFdZNVZrd1FXY0lJWkZqRE1zSU5KeFVKUkZrZl9xNndOaHNhTjFUWWlRRGNzVy0yYVI5dzFhWFN0OUF4ZmhGRkRKeg?oc=5",
-    "date": "Thu, 16 Jul 2026 08:39:00 GMT",
-    "summary": "",
-    "source": "더글로벌기빙뉴스"
    },
    {
     "title": "중소기업 R&D 성과, ‘혁신제품’ 지정으로 공공조달 첫걸음 뗀다",
@@ -884,6 +877,13 @@
     "date": "Wed, 15 Jul 2026 23:09:00 GMT",
     "summary": "",
     "source": "SBS Biz"
+   },
+   {
+    "title": "중기부, ‘모두의 챌린지-방산’ 스타트업 모집…과제별 최대 1억원 지원",
+    "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBHNGpvSGtYaENkd0JLcl9YU181Y1JkRy1BaVdWWVdZQWtwS0NXRGhxRmN6N1NyWEFqdDRiMDk1WmstcHlNQU9ZN0FhV0ZKN1BvT0h6LTZRbTN5a0dhQ0J6QjdqT2NuQmJfdUJDQQ?oc=5",
+    "date": "Wed, 15 Jul 2026 23:00:00 GMT",
+    "summary": "",
+    "source": "IT비즈뉴스"
    }
   ],
   "money": [
@@ -1036,17 +1036,17 @@
    },
    {
     "title": "소상공인 바우처 신청 및 사용 방법",
-    "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFA3VGVIM1RiWlBmdWhQZFVkNG5oeDNmcHdrQkNGWm9aSFVCZ3J1NUpodjdGS0x3TmtxOG5ZOTRSeHZHV1Awb25zS00zRQ?oc=5",
-    "date": "Fri, 13 Mar 2026 07:00:00 GMT",
-    "summary": "",
-    "source": "v.daum.net"
-   },
-   {
-    "title": "소상공인 바우처 신청 및 사용 방법",
     "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1aZ0Q4cEdTbWpQcnJySTA2ZDdjRjM2WnBHZ3pBbnUxZ19qOG0yaXc5RkRsSEdQMFFFWnBXRzdOSmRzVjlSbFVjYmVpeWZvUElTRFlia3FVTC1zVG1XbTBpc3oyVDQ?oc=5",
     "date": "Fri, 13 Mar 2026 07:00:00 GMT",
     "summary": "",
     "source": "bntnews.co.kr"
+   },
+   {
+    "title": "소상공인 바우처 신청 및 사용 방법",
+    "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFA3VGVIM1RiWlBmdWhQZFVkNG5oeDNmcHdrQkNGWm9aSFVCZ3J1NUpodjdGS0x3TmtxOG5ZOTRSeHZHV1Awb25zS00zRQ?oc=5",
+    "date": "Fri, 13 Mar 2026 07:00:00 GMT",
+    "summary": "",
+    "source": "v.daum.net"
    },
    {
     "title": "속초시, 소상공인 생애 첫 창업지원금 대상 모집",
@@ -1087,8 +1087,8 @@
    },
    {
     "title": "쌤157, 부가세 신고 서비스 개시",
-    "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE84NWd3QWJZcXFwWmR5WXozRV9wVDJNdGNQRE10Y25BRGZERUhqQ2JMd1dPMzZFYXpQd2JnWnZQdkxLU2N6VWk3VW02S0M1WGhNdWZFbWU4b3N6NWc5SlVZczRhLU9QY21Vdlp2djRDY9IBb0FVX3lxTE84NWd3QWJZcXFwWmR5WXozRV9wVDJNdGNQRE10Y25BRGZERUhqQ2JMd1dPMzZFYXpQd2JnWnZQdkxLU2N6VWk3VW02S0M1WGhNdWZFbWU4b3N6NWc5SlVZczRhLU9QY21Vdlp2djRDYw?oc=5",
-    "date": "Wed, 15 Jul 2026 07:47:11 GMT",
+    "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFA4OTAtdzlDVy1MbTB4V2taNUZqa2JQNGpNcjFnWVlFU0dvMkN3dWJsQV9yZDhKa1VrSDZtdjFnYjFGbUxfNWZ6S3pDNFB4ZEtrUXJ5QlNROUxxWFFoc1JzQm9mMWlfXzBuZXJr0gFvQVVfeXFMTzg1Z3dBYllxcXBaZHlZejNFX3BUMk10Y1BETXRjbkFEZkRFSGpDYkx3V08zNkVhelB3YmdadlB2TEtTY3pVaTdVbTZLQzVYaE11ZkVtZThvc3o1ZzlKVVlzNGEtT1BjbVV2WnZ2NENj?oc=5",
+    "date": "Wed, 15 Jul 2026 07:38:03 GMT",
     "summary": "",
     "source": "한스경제"
    },
