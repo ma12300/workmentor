@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-07-18T16:05:11.380Z",
+ "updatedAt": "2026-07-18T17:16:31.925Z",
  "groups": {
   "tax": [
    {
@@ -8,6 +8,13 @@
     "date": "Sat, 18 Jul 2026 11:23:00 GMT",
     "summary": "",
     "source": "미디어파인"
+   },
+   {
+    "title": "공시지가로 신고한 상속 토지, 국세청은 감정가로 다시 확인한다[판례방]",
+    "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBKTy15MW1mNlY4NWhWVVRpamFmR0NpOWdhaFdoNW1CZ0RMZnVkamlqQ2V6bWtnSkdBNnhIS3RMVEY5Nnh1Q0JheUVDcnVsS29SQzNhRFF6a0RQZkpJYmJWMWYwc2JmbkJ6U25EQXdjTlktczVodGUwSA?oc=5",
+    "date": "Sat, 18 Jul 2026 03:32:00 GMT",
+    "summary": "",
+    "source": "네이트"
    },
    {
     "title": "공시지가로 신고한 상속 토지, 국세청은 감정가로 다시 확인한다[판례방]",
@@ -169,13 +176,6 @@
     "date": "Wed, 15 Jul 2026 05:40:32 GMT",
     "summary": "",
     "source": "연합뉴스"
-   },
-   {
-    "title": "국세외수입 징수도 국세청으로… 카톡 한 통에 경찰 과태료 3배 늘었다",
-    "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBXQjIxTkRBV1BCb2ZvdmhQN21qX3RtQXJDMllUM2ZfU25fR09EaTIyVktPSFdsODVpcndNTUdSeGVJTVV6bjcxbHZkQm1HYjVmVjRKUng4amdfa3I0Y18ya0lJWGozVzRxVEpQZVZYY1hyMlN1dmZPd1d4NNIBgAFBVV95cUxNUjE4akI4LUFVbWplY01JTnE2bmNxcTRJY2NyNUxCdS1JLVZ4cEhxVDBnb1k2Qi1WRVBNVGMwTk9JcXY4QmxONmpZMUxWMmtHN1hGcXk1Yno3bm5ZNjZFdkhBMzY1ZEpaVXpvWnhTQ3ljM0ZOenp3bzhvdzFjeGl4Yg?oc=5",
-    "date": "Wed, 15 Jul 2026 05:32:12 GMT",
-    "summary": "",
-    "source": "뉴데일리"
    }
   ],
   "labor": [
@@ -534,6 +534,13 @@
   ],
   "fund": [
    {
+    "title": "前 미 하원 금융위원장 \"클래리티법, 통신법에 버금가는 규제 혁신…통과시켜야\"",
+    "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9yT0NTdXZ5U2Nqei1FNmdjQVBoaTZGNk1kS2ZFZ0J6WEloUDdxOTY5SGZtX1RSS1NUdTlDaDRlQXpaWnlMZFMwVGRsMkxrVV80?oc=5",
+    "date": "Sat, 18 Jul 2026 10:06:46 GMT",
+    "summary": "",
+    "source": "블루밍비트"
+   },
+   {
     "title": "이번주 국내 주요 금융일정(7.20~7.24)",
     "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9yZE5jSXMwM2dTYnhuZzhWQnVCb1ZkdkxEeUFPeEhhX3p3aXlyLVpRQ2dhSHNBUDUxcm9YYk16YUJqT3U4X29QdnRiQVRBd3F2VTJmSTRSYzNiYUt4?oc=5",
     "date": "Sat, 18 Jul 2026 08:14:00 GMT",
@@ -700,16 +707,16 @@
     "date": "Thu, 16 Jul 2026 07:00:00 GMT",
     "summary": "",
     "source": "조선일보"
-   },
-   {
-    "title": "이랜드월드, 관세청 AEO 최고등급 'AAA' 획득…‘패션업계’ 최초 달성",
-    "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5qOW5RRXEyaFAtRE9ZUEY5N19yLWJodXJSZDRLRFA4bEdoMU9oeGZwdkpJY0ZiQ1VhcWxCYUFzSVVSZDczZUpBSWhqLUxxR3hNTVdXd2Nqd0VXeEdwOThWanNhSDVodUFkbEtZ?oc=5",
-    "date": "Thu, 16 Jul 2026 06:48:31 GMT",
-    "summary": "",
-    "source": "백세시대"
    }
   ],
   "biz": [
+   {
+    "title": "[AI로 읽는 경제] 하루 문 닫으면 매출 0원…소상공인 '휴업권'은 왜 복지가 아닌가",
+    "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBrczlaYzFSVHRjMjdWMzhheVRPWGJwXzhaRDF1X1NvcTdDaDZ4LVhzLXRtMGFKM09ibmc2dnd4Y1M3RjViNHRPS2pnOG9yQjZkeUxR?oc=5",
+    "date": "Sat, 18 Jul 2026 02:43:00 GMT",
+    "summary": "",
+    "source": "네이트"
+   },
    {
     "title": "중동전쟁 장기화로 中企 피해 1천여건…물류비 상승·원자재 수급 불안",
     "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5mSnZGNHVZdVllXzJWekJZSi1EWENoMVlwNThUWlVwcFJudUlJcEJUcDRkcUpFMndjN1RIRW1yYWdsUkY3V3NGcXpZYmVUZDZFNExPVWozTWpuUkFjbWdOVmprNkpVT3hEcGpkcQ?oc=5",
@@ -802,6 +809,13 @@
     "source": "스페셜경제"
    },
    {
+    "title": "BPA 해외물류센터 이용하면 물류비 70% 지원…중기부 참여기업 모집",
+    "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9JSXVBMjExZWV2ZF80d29ZbEFXNUxUWU1qZkFVVUx0UE9oU2MxS2xSRVRuZjlfaGhHRjdxSGliMWZDUHl3RHg2QlNHbmNTY1RIaGEzU0pYVjNWSW12VXZ2R1B2NzRzUHFLdFg0?oc=5",
+    "date": "Thu, 16 Jul 2026 00:42:43 GMT",
+    "summary": "",
+    "source": "해사신문"
+   },
+   {
     "title": "중기부, 온라인 수출 중소기업 물류비 지원…최대 3000만원",
     "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9yaEtodDdXS0hubDUxaFR2NjdzRlMzeDhxc3NMTWJHdEpZc0ttR1d4WEZreDI3N2hETW5xWjlhbFpqMGg2OVFESDVWTHF5aVN4N3RCLXVZbHgxb2ZNbzNvYmRPX00?oc=5",
     "date": "Thu, 16 Jul 2026 00:28:58 GMT",
@@ -870,20 +884,6 @@
     "date": "Wed, 15 Jul 2026 21:00:00 GMT",
     "summary": "",
     "source": "Chosunbiz"
-   },
-   {
-    "title": "온라인 수출 물류비 최대 3000만원 지원...중기부, 참여기업 모집",
-    "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBmNTNtWGdiMjE4V095TFMtRm0zX1AyMF82NFFidE9KeEMxSTJwNUVBNVF1cUZqSFYweU5YQkdJTU1iUDRiX1AtbWZDZ1ZVeF9vYlNyTzc2NEJiSFM1?oc=5",
-    "date": "Wed, 15 Jul 2026 21:00:00 GMT",
-    "summary": "",
-    "source": "뉴스핌"
-   },
-   {
-    "title": "온라인 수출 中企 물류비 부담 완화…최대 3000만원 지원한다",
-    "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE12RzB2N3JhNzJ3aXgzeENXb2FCV2dRRjU1MF84aEhISkZ2YzFmYjBKemx0ZlNVSTliLXpXUFdZemdoaGo2THNKZHBXOWFDWDNpSTQtSFZ0WWV3UjV0?oc=5",
-    "date": "Wed, 15 Jul 2026 21:00:00 GMT",
-    "summary": "",
-    "source": "뉴스1"
    }
   ],
   "money": [
