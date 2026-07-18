@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-07-18T13:52:08.386Z",
+ "updatedAt": "2026-07-18T15:01:48.071Z",
  "groups": {
   "tax": [
    {
@@ -34,13 +34,6 @@
     "title": "국세청, 옛 날 전통과 관례는 막강 인사권 앞에선 한 여름 밤의 꿈(?)",
     "url": "https://news.google.com/rss/articles/CBMiQEFVX3lxTE9jTHk4RklmNFpHZS0xWVhjV2pDSVV6a3lIN1NySGR2M1gyU21VRmhNSHNZdEE3M2w5ZTNZVDhRa1k?oc=5",
     "date": "Fri, 17 Jul 2026 08:02:00 GMT",
-    "summary": "",
-    "source": "온투데이"
-   },
-   {
-    "title": "[국세청+인물탐구]=전국 133곳 세무서장 중 당연, 1번지 고근수 강남세무서장(!)",
-    "url": "https://news.google.com/rss/articles/CBMiQEFVX3lxTE92VmVlNzgtZGQxTE5ISlh4MnNuQndLcHlfVGprVG02eDdna1ZOTjYwcEo4WVAxZFVKMFhSNnBURTQ?oc=5",
-    "date": "Fri, 17 Jul 2026 01:23:00 GMT",
     "summary": "",
     "source": "온투데이"
    },
@@ -169,6 +162,13 @@
     "date": "Wed, 15 Jul 2026 05:29:12 GMT",
     "summary": "",
     "source": "경기일보"
+   },
+   {
+    "title": "세금 걷을 준비는 속도 내는데…코인 과세 폐지 논의는 제자리",
+    "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9CX2cxYnh5b2o0ZHlaZWJ5bENzSHRSaTRVMHBYbHBDUmVwaEdaTGYwM0xUQlJQemlOS18xTFVveW9XY05sbmdVNTROWDZqUQ?oc=5",
+    "date": "Wed, 15 Jul 2026 04:51:13 GMT",
+    "summary": "",
+    "source": "전자신문"
    },
    {
     "title": "임광현 \"국세청 과태료 관리 시작에 납부 폭주…경찰 서버 마비\"",
@@ -590,13 +590,6 @@
     "source": "대한민국 정책브리핑"
    },
    {
-    "title": "금융위 “단일종목 레버리지, 외화유출 완화 효과 있었다”",
-    "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1Ja3JYM09JR1ZXNWd0TE1ZbzlnZG1leHd6ZWNfZWNKNXpMeG5xLUV1eXdnbEpyMGNCSHlHWFpXbW5RZmt1YjBqdGNsSHFEXzQ5S1dMQzBYMmxNMU5pczNvQ3FqY0Q0aUE?oc=5",
-    "date": "Fri, 17 Jul 2026 13:54:18 GMT",
-    "summary": "",
-    "source": "이로운경제TV"
-   },
-   {
     "title": "금융위 \"단일종목 레버리지 ETF, 해외 자금 유출 막았다\"…증시 변동성 확대 논란 적극 반박",
     "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFB3SHpFX2k5Y0pDTGVkZFZoQmdRTVA1UTFPck01Tk4xYWgxQWtTWDA0c2h3OWx1T3o3VnJIT09pdDh3MlZWYWdPY1VJcEo2d0lDOGIyMnZEd0VHT3J3OHRPc3ZYclB4RE9Gcm9IdE9n?oc=5",
     "date": "Fri, 17 Jul 2026 07:21:46 GMT",
@@ -702,6 +695,13 @@
     "source": "조선일보"
    },
    {
+    "title": "이랜드월드, 관세청 AEO 최고등급 'AAA' 획득…‘패션업계’ 최초 달성",
+    "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5qOW5RRXEyaFAtRE9ZUEY5N19yLWJodXJSZDRLRFA4bEdoMU9oeGZwdkpJY0ZiQ1VhcWxCYUFzSVVSZDczZUpBSWhqLUxxR3hNTVdXd2Nqd0VXeEdwOThWanNhSDVodUFkbEtZ?oc=5",
+    "date": "Thu, 16 Jul 2026 06:48:31 GMT",
+    "summary": "",
+    "source": "백세시대"
+   },
+   {
     "title": "이랜드월드, 관세청 AEO 최고등급 'AAA' 획득",
     "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5FNm5rNEFLWVdSOHpuUzdFdTlQU2t5RWRRZENEQTN1LW1LYnMzOTZyT0xTRnBYVEtLYVF6NWNTWUl4Y2pfVmZ1b2dJang3T2VaQjZPOGpYWGJuRmNuODFTcQ?oc=5",
     "date": "Thu, 16 Jul 2026 06:08:43 GMT",
@@ -760,13 +760,6 @@
     "source": "뉴시스"
    },
    {
-    "title": "중소기업 R&D 성과, ‘혁신제품’ 지정으로 공공조달 첫걸음 뗀다",
-    "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9sUnhQSzZQbFhPRzExSUVTMzg0cDVNWU5VMHVEak0tV3RiLXdCWF9nOWRpVEFwdFMxN0J3OTZFSFNHOFViTS1femFhSi15em1KQW0tS0xkZE54RVlhNDlJ?oc=5",
-    "date": "Thu, 16 Jul 2026 06:16:46 GMT",
-    "summary": "",
-    "source": "헬로티"
-   },
-   {
     "title": "중기부, 사우디와 AI·반도체 공동펀드 조성…스타트업 협력 강화",
     "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE94VWRrRm1DYjZySW9Xdl9ua2d1QlZUUTVOY014MXVRYUpHdjFjNWRDRVNBVVAtS2hhWGV6U0F0aWFtclhhTkx1Rzh2cFZZR2h5S1lKb2ZLRzFzQdIBWEFVX3lxTFBGM29icWJGbnlCa1ZQUXZEeDNhbVFqWVlMUGkyaldwSmxpbDJ6OTdHOU5LQkJvVkJ6QW10SHQwZkRhY3FIMEZzcFRuYk1RUG1CeXQ2azF5NTE?oc=5",
     "date": "Thu, 16 Jul 2026 05:04:45 GMT",
@@ -793,6 +786,13 @@
     "date": "Thu, 16 Jul 2026 01:43:00 GMT",
     "summary": "",
     "source": "Chosunbiz"
+   },
+   {
+    "title": "[물류뉴스] 중소기업 물류비 최대 3000만원 지원...8월 7일까지 접수",
+    "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE0wZG5TcV9FZ2ZSX0xxOGpjZjdyaXlBdUhoSmR4WTdwU0l0Rlhra2hkZEhwOFhPS1JrY2dXajFoSk00ZUJMZE9HNHowQjZTMDBLcjRDRWxzX2VwTVRVXy1DQkliZFdLUUU5WjhYSndRWnJwUQ?oc=5",
+    "date": "Thu, 16 Jul 2026 01:11:14 GMT",
+    "summary": "",
+    "source": "아웃소싱타임스"
    },
    {
     "title": "중기부, 중소기업 물류비 최대 3000만원 지원…참여기업 모집",
@@ -900,6 +900,13 @@
     "date": "Wed, 15 Jul 2026 21:03:46 GMT",
     "summary": "",
     "source": "kmrk.ru"
+   },
+   {
+    "title": "\"소상공인 정책자금, 희망인가 희망고문인가\"",
+    "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBjOG80N0Z5aW53WUhYU1g1WW0tSzFTdzVEQVFSdDhLWFAwLWRnVTNNUXJzSE9Xc05XMnZfMG9iNnhkYkc3S3hyUTFXZ2g1LTc2Qm4xVzF6OXRzcEMyODZNOEhibmFsTWg1TjBWZkZXeFN0MVHSAXdBVV95cUxNc0dKX3ZTVWNqUVdXeWJRelpzclhNTmRDaUh1aGNyVmpXSHZwd3Rvemh2TTdaWFFBQ0pwM1dlRk1uZ3h5SVI0M0wzX19NeHcxWGRwejZFd2hYQ2hibG4zbnc1NUJOOXZNOWRENzhJbkpEazR1ZUZ2Zw?oc=5",
+    "date": "Wed, 15 Jul 2026 05:51:30 GMT",
+    "summary": "",
+    "source": "한국시민기자협회 뉴스포털1"
    },
    {
     "title": "희망리턴패키지로 재기하는 법? 점포 철거비부터 재창업 지원까지 | KB의 생각",
@@ -1054,13 +1061,6 @@
     "date": "Fri, 13 Mar 2026 07:00:00 GMT",
     "summary": "",
     "source": "bntnews.co.kr"
-   },
-   {
-    "title": "속초시, 소상공인 생애 첫 창업지원금 대상 모집",
-    "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBRUGJoT2Q1ZnZnSmVzWnA5SzZYQ09wU3pCdmpjNXhfdDZQQVFPdTVTRThvLTZBeEZRT1BleElKV0pjc2F0Ui1jVkE2NHdZLXJJX2RGZTFFUFFCcjBWRDZCM2hNdjg?oc=5",
-    "date": "Tue, 10 Mar 2026 07:00:00 GMT",
-    "summary": "",
-    "source": "G1방송"
    }
   ],
   "guide": [
@@ -1084,6 +1084,13 @@
     "date": "Wed, 15 Jul 2026 09:23:42 GMT",
     "summary": "",
     "source": "충청도민일보"
+   },
+   {
+    "title": "쌤157, 개인사업자 대상 부가세 셀프 신고 서비스 개시",
+    "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5FWkkxZlVvSE8xV1c2SkhwejdOeFM3MEtTVlFrVThZZXNOcUhPNWRYbm1nMnVtampmd28wWURVcTBCN2JFdjRQd0NmOUdlbHBINDlLNzZMVnVmZUpJWktEcTFqNFFmQkdUMTctb3N30gFyQVVfeXFMT1dybmJXcVo0Nm5pbDl2OEJtYS0xV3RVaGdEMTlrN05zX1dYY196LU9hYl9RYUY0U3BfYXNpSzFCQTRKWVFzR2lrM2xUdExhdDNqclI0SllkbjFqdjRZMmEycF8wckZETExuWHRmOE12VEln?oc=5",
+    "date": "Wed, 15 Jul 2026 08:52:00 GMT",
+    "summary": "",
+    "source": "아이러브PC방"
    },
    {
     "title": "쌤157, 부가세 신고 서비스 개시",
@@ -1133,13 +1140,6 @@
     "date": "Tue, 14 Jul 2026 22:34:00 GMT",
     "summary": "",
     "source": "이코노뉴스"
-   },
-   {
-    "title": "쌤157, 부가세 신고 서비스 오픈…“사업자 스스로 확인·신고 지원”",
-    "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE9SYndwLVg4UnBQaUZDdGhPdTZIRWdfMUZUTGpDM0FRM2VpcVlDS0ZIOG40OW40VkhTMDQyVHVKcDR0VkR0NkN3dEVGNHBpZmNqUllwcE1YaGhOVjFRc09qUFFtWF9xRDBmY3R1eE81ZlZpd9IBckFVX3lxTE9SYndwLVg4UnBQaUZDdGhPdTZIRWdfMUZUTGpDM0FRM2VpcVlDS0ZIOG40OW40VkhTMDQyVHVKcDR0VkR0NkN3dEVGNHBpZmNqUllwcE1YaGhOVjFRc09qUFFtWF9xRDBmY3R1eE81ZlZpdw?oc=5",
-    "date": "Tue, 14 Jul 2026 04:14:51 GMT",
-    "summary": "",
-    "source": "메가경제"
    },
    {
     "title": "KB국민은행, 개인사업자 위한 ‘부가세 예상조회·셀프신고 서비스’ 출시",
