@@ -2,6 +2,15 @@
  {
   "date": "2026-07-19",
   "kind": "market",
+  "edition": "아침판",
+  "title": "7월 19일 (일) 투자 브리핑 · 아침판",
+  "file": "briefings/2026-07-19-market-아침판.pdf",
+  "top": "일론 머스크, 다시 조만장자 클럽 이탈…순자산 9970억달러로 하락 - 디지털투데이",
+  "count": 8
+ },
+ {
+  "date": "2026-07-19",
+  "kind": "market",
   "edition": "자정판",
   "title": "7월 19일 (일) 투자 브리핑 · 자정판",
   "file": "briefings/2026-07-19-market-자정판.pdf",
