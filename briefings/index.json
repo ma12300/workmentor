@@ -2,6 +2,15 @@
  {
   "date": "2026-07-18",
   "kind": "market",
+  "edition": "저녁판",
+  "title": "7월 18일 (토) 투자 브리핑 · 저녁판",
+  "file": "briefings/2026-07-18-market-저녁판.pdf",
+  "top": "미 증시 마감: 3대 지수 일제히 하락, 나스닥 1.4% 하락; 메모리주 하락 멈추며 안정세, 기술주 매도세; 시장은 다음 주 실적 발표에 주목 - TradingKey",
+  "count": 8
+ },
+ {
+  "date": "2026-07-18",
+  "kind": "market",
   "edition": "아침판",
   "title": "7월 18일 (토) 투자 브리핑 · 아침판",
   "file": "briefings/2026-07-18-market-아침판.pdf",
