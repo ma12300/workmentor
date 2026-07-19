@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-07-19T16:37:36.362Z",
+ "updatedAt": "2026-07-19T17:43:30.710Z",
  "groups": {
   "tax": [
    {
@@ -78,13 +78,6 @@
     "date": "Thu, 16 Jul 2026 00:55:00 GMT",
     "summary": "",
     "source": "온투데이"
-   },
-   {
-    "title": "이재명 대통령도 흐뭇, 국세청 아주 잘하고 있어요!",
-    "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE43dWJMZllUZlNvVnpoejUtUXJNQVFGc2t1ZDFhYkxNQWp1d0JYUzZZTFJEWmV2NEdmUWtBLWNWN3AyeHdiYm51RUM4R05IMWVyRXN4YklWazliSWRlWlBJdEVmRVk?oc=5",
-    "date": "Thu, 16 Jul 2026 00:18:41 GMT",
-    "summary": "",
-    "source": "대한민국 정책브리핑"
    },
    {
     "title": "국세청 하반기, 국민 여러분께 업무 보고드립니다! - 카드/한컷 | 멀티미디어",
@@ -176,6 +169,13 @@
     "date": "Wed, 15 Jul 2026 05:32:12 GMT",
     "summary": "",
     "source": "뉴데일리"
+   },
+   {
+    "title": "국세청, 국세외수입 통합징수 발판 마련…\"1만명 체납관리단 반드시 성공\"",
+    "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBzSFdIVzdza2x2NE5hZkl3bGpkbVEwdm1qZkxCeHpqT1czOWl0XzBYeEFNcms2aUl3b1BYcURXeldWNldlWDFZdlNyQ05tVTZiYjVyYXB6ZU1EZw?oc=5",
+    "date": "Wed, 15 Jul 2026 05:31:55 GMT",
+    "summary": "",
+    "source": "파이낸셜뉴스"
    }
   ],
   "labor": [
@@ -251,7 +251,14 @@
    },
    {
     "title": "김영훈 고용노동부 장관, 강원지청 방문… 현장 목소리 청취",
-    "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9kNVVaV0NiYU9xN1FuOG5LMlJtVWgxZDBYM1JyUGJjZHNUOFF0UDdzRWxWajdZbFBpMEYzZkhpSEljZWpCeU5yZEhzWUNubkU?oc=5",
+    "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE9XVXlDd2h5clg3QnZERkZjeFZFWDMzLXVmZWx2cGMxWGtJSl9SVVRuLS1qeDU0OGJ2QThYNXdqdzFhZ0p3WXc?oc=5",
+    "date": "Sun, 19 Jul 2026 04:19:39 GMT",
+    "summary": "",
+    "source": "v.daum.net"
+   },
+   {
+    "title": "김영훈 고용노동부 장관, 강원지청 방문… 현장 목소리 청취",
+    "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFA5TmlSV3VaSzdwYnMtU3lGT0YyOVZXUlYtY0RKRUMtY1ltWFZNYUpnQkp3b3U4SGNTazA0alhJYld4cFNtNWNlb25hTmpjQmh5WEpoMw?oc=5",
     "date": "Sun, 19 Jul 2026 04:19:39 GMT",
     "summary": "",
     "source": "v.daum.net"
@@ -346,16 +353,16 @@
     "date": "Sat, 18 Jul 2026 21:00:00 GMT",
     "summary": "",
     "source": "에너지경제신문"
-   },
-   {
-    "title": "김영훈 고용노동부 장관, 강원 일자리 현장 찾아 \"지역 인재와 산업 경쟁력 함께 키운다\"",
-    "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFA2SXNTQ2RZU2J3SWZSRXQ2c1lYc01odW0wRkJaUHBnb0JNNGF2Nk1kUlE2Y19ZWjNsc0ctaVl4d1doVDZmUy1oOWEtNXJhaTgzanlBTWhydFVoS3BhQ0sydEZwNmlVNExP?oc=5",
-    "date": "Sat, 18 Jul 2026 09:19:06 GMT",
-    "summary": "",
-    "source": "강원신문"
    }
   ],
   "law": [
+   {
+    "title": "트럼프 법무부, 기업범죄 기소 대폭 축소",
+    "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNRjdLSHZiY0xsZUpUOHNFb3ZIZ0hPWUE4c3JPbnhBSXZqOEhYTW5nb0lLZk02dkpuWUtFUEJwWnlzbzdqOHRGTDlYOEdEQ21Vam1QYkdMbFBBa3c4MXhlZzAtRGNHQWdnRUtKaUpuZTJRUEtzNFNuUEd4OVlwZXFONWdianlXMjBu?oc=5",
+    "date": "Sun, 19 Jul 2026 17:00:00 GMT",
+    "summary": "",
+    "source": "글로벌이코노믹"
+   },
    {
     "title": "[기획] 정성호 법무부 취임 1년 성적표 최우수...\"국회 통과 법안 65% UP\"",
     "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5IeEptT0otdDdEQjRNRnRYdzRmUzR1RUdYRl9lZ0oyOHZqQnNGbHphQzQzVy1CZVVXUjRYNHdMaXFqbVl6TmM5QXB1c1dpWkhCa1JoY25GTFlPeWJJc1F0Ni0wN0NIRHlN?oc=5",
@@ -365,7 +372,7 @@
    },
    {
     "title": "정성호 법무 1년… “일하는 법무부 확립” vs “與 강경파에 발목”",
-    "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1fQW5ncURJWklkOEJJb041R1RzQlJ2OG94VzhfWm9lN3NOUzY1STZPcGk4ZUM4dEMxb0JsWkpFVkttbE5lN1loc3kzbXdOMUFUbm5jWlJLTGxXVUx6R190N1hCRHBQblhwQjktVtIBbEFVX3lxTE1fQW5ncURJWklkOEJJb041R1RzQlJ2OG94VzhfWm9lN3NOUzY1STZPcGk4ZUM4dEMxb0JsWkpFVkttbE5lN1loc3kzbXdOMUFUbm5jWlJLTGxXVUx6R190N1hCRHBQblhwQjktVg?oc=5",
+    "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBxUUFTSWpjMjdXbXVpaTdmbjljRGRrVDlTS0xwVzJzYUx0dHpqNGhzQUZLVkJHaVJabG0yWmlnQ3NEQ1VYQTl3SWVPU0lTcjBHb18yWldXZ0trdk1OUVVuNE1RdWpabHfSAWxBVV95cUxNX0FuZ3FESVpJZDhCSW9ONUdUc0JSdjhveFc4X1pvZTdzTlM2NUk2T3BpOGVDOHRDMW9CbFpKRVZLbWxOZTdZaHN5M213TjFBVG5uY1pSS0xsV1VMekdfdDdYQkRwUG5YcEI5LVY?oc=5",
     "date": "Sun, 19 Jul 2026 09:54:00 GMT",
     "summary": "",
     "source": "국민일보"
@@ -523,13 +530,6 @@
     "date": "Sun, 19 Jul 2026 03:00:00 GMT",
     "summary": "",
     "source": "intn.co.kr"
-   },
-   {
-    "title": "\"환불 불가\" 못박은 피부·미용 시술 약관…공정위 제재로 손질",
-    "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1OTERPS3hRUHJnRUdKdUhlMHh6czk5RG1kbnl5Xy1XVVVudUliSzhNWjJxcFVBSVdjRnY4Yl9EQ2N6NmdJVklUY24tV0t5U084ZExiVA?oc=5",
-    "date": "Sun, 19 Jul 2026 03:00:00 GMT",
-    "summary": "",
-    "source": "뉴스1"
    }
   ],
   "fund": [
@@ -711,6 +711,13 @@
   ],
   "biz": [
    {
+    "title": "중기부, 전국 17개 시·도서 ‘아이디어 컨설팅 데이’ 개최",
+    "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1RUnNkMktNSWxnbWRaZXh1bWxHQmx6ZjNlTEp3YUJ6dTAzU0NjYW81bFZ0TjhMel9DaW40RlpYT0JYdGhaeEpXWmllTlBXV290aFMzMG9tVFJpRm5NUUlsRVEwS2dvY29HTDgw?oc=5",
+    "date": "Sun, 19 Jul 2026 16:58:10 GMT",
+    "summary": "",
+    "source": "산학뉴스"
+   },
+   {
     "title": "중기부, 방위 산업 분야 스타트업 진출 지원",
     "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5zUlQ4QVMzT24yNmJDLTcwcHduVFU5NzlES0hOUEFBdWNqM2ZoOXpXRGdNcmlIOFVnLVJYSExUSmVQS0ExUTQ3bFFzREdQdkFjUmxFOGxGYXlDbXc?oc=5",
     "date": "Sun, 19 Jul 2026 12:25:00 GMT",
@@ -751,13 +758,6 @@
     "date": "Sun, 19 Jul 2026 09:01:00 GMT",
     "summary": "",
     "source": "네이트"
-   },
-   {
-    "title": "[보도자료] 한성숙 국무총리 주재 중소기업협단체 오찬 간담회",
-    "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5lT2hueFl3d0QxemUzZC11TVc5Rk1DQ2pEWWltckV6WVpBaUFfX25tTFhkeFFZVklYRHZPTHB0SjVmd3M0UDN2cWgzekRZYzRJaXJCZE5GREpEX2FMQ3ZQMDJB?oc=5",
-    "date": "Sun, 19 Jul 2026 09:00:53 GMT",
-    "summary": "",
-    "source": "서울Pn"
    },
    {
     "title": "중기부, 온라인수출 물류 지원기업 모집",
@@ -1079,6 +1079,13 @@
     "source": "MSN"
    },
    {
+    "title": "쌤157, 부가세 신고 서비스 개시",
+    "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxPNlBhYXpZWE5TMzRTdlNGNEQ4NDY1WEYyRnQ5RkZvLW1TQVBIU2ZONmVRQ0xIc2JnbXIxTDREMEx5VWNGMGFWQ0YwbTl4VmFqZzVSTURQUncteE9zZXU0UmRweDZqVGxpMlVNS0ZvSVhuUFlGNXE2OWFLalgyTWhFLUw5aHNGeGlES3dBRklDSTNQRGlBODIyZ2V6WDc0WkpOVl9ma0FsZVp5QlVHRDdBVnkxSzl1ME5KTHdDRENNcVFxTUVkT0ZWekxCNFkzckRXZVVoZW8zTEpjcDR3WHpWV2hXUlhhdVZDc0tr?oc=5",
+    "date": "Sun, 19 Jul 2026 03:51:56 GMT",
+    "summary": "",
+    "source": "MSN"
+   },
+   {
     "title": "7월 부가세 신고･납부 회계처리",
     "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE8yOTd2Q19pQXlSTTBZaGZoUWZ0ZHBrdHZ5bjNHMDNVTUhIOWZMZkRyWWF3LVppYVJGVWx4YWJOakdUdEFTM1BGVlNDdUhqTVJ4aWR5amZjbm4wbXM0UDlybHYxT0tvUDZF?oc=5",
     "date": "Fri, 17 Jul 2026 07:00:00 GMT",
@@ -1226,18 +1233,11 @@
     "source": "더퍼스트미디어"
    },
    {
-    "title": "금융업계, 부가가치세 신고 지원 서비스 출시·IBK창공 혁신창업기업 육성 개시·‘사업자보증 설명회’ 개최·제5차 농촌의료지원사업 실시",
-    "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE8yMnBJbmxxQ01IR09xRjZXM2E4ZHA1Um1IbWRnNzlaWGE3Z21CaWl4dkhfWkJlOEZqWExHWjFKZUpfcWw0b1FpM0lmVkhydkUzU3loTk9pZTVTY0hBbW5mV3poV19JUQ?oc=5",
-    "date": "Mon, 13 Jul 2026 06:42:00 GMT",
+    "title": "KB국민은행, 부가가치세 신고 지원 서비스 제공",
+    "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9mVEJkU1huakZUcXRDZklBekx3T2pUWWtLdjFuZUQ2S2tDM0plRFpLOHZ0Rk44ZDQ0cTB0d1FyY2RQaU5samlpNUJpTVd0MXk2eXJHaEx6SEVyUUN2dF9NS2V1NzVsdmdDdlVrQ1l0MNIBb0FVX3lxTE9mVEJkU1huakZUcXRDZklBekx3T2pUWWtLdjFuZUQ2S2tDM0plRFpLOHZ0Rk44ZDQ0cTB0d1FyY2RQaU5samlpNUJpTVd0MXk2eXJHaEx6SEVyUUN2dF9NS2V1NzVsdmdDdlVrQ1l0MA?oc=5",
+    "date": "Mon, 13 Jul 2026 07:00:00 GMT",
     "summary": "",
-    "source": "통신일보"
-   },
-   {
-    "title": "‘부가세 예상조회부터 셀프신고’까지 KB국민은행, 개인사업자 대상 부가가치세 신고 지원 서비스 선보여",
-    "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9KQTBnYkVHSWZYVVBZYS03RkRVclFZSUhuWUVyUmFVWjk3SlpnU3E2S0lfRFFUSGFCLUtQS3Y4X2NhUjNTLVR3Y1Nha1I5SmZrb3diRDZIUGNNQl9pYWFTTDdWMXJSdVVhM2tJYdIBcEFVX3lxTE1adm1YZDVXOVpMdXBmOXJxYUFlMVdLNi04TzQ5WFAzLTYweWxETVZ0cENTQmlPRHR4VEpTbXRPeGZTaW9ZUXJFaEtzMFBLZTlDVy1fT0Q2ZEFHbTgxSzgwM2dFZjgtbG1YMmJIa05Uelo?oc=5",
-    "date": "Mon, 13 Jul 2026 06:34:16 GMT",
-    "summary": "",
-    "source": "내외뉴스통신"
+    "source": "서울일보"
    }
   ]
  }
