@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-07-19T18:40:51.386Z",
+ "updatedAt": "2026-07-19T19:56:25.438Z",
  "groups": {
   "tax": [
    {
@@ -407,10 +407,10 @@
    },
    {
     "title": "유학생 정책 ‘양에서 질로’ 전환한다",
-    "url": "https://news.google.com/rss/articles/CBMiQ0FVX3lxTE5CM1BkQllFbDBBVzNvNjVYTWhMY3FUdTVSMVB0Q1h5SEZWOXpvR2ZGVXJOQ2J2cHdrVU9FN29NbnlmNms?oc=5",
-    "date": "Sun, 19 Jul 2026 07:23:01 GMT",
+    "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE1ZdENPSFdoeTN3YjhlOWlZR2F6aENWSmtJSzlHNWVPUG5PNld6ZHd1d21xQmF2dVdRSkdfb0FMSmpOblVrOVNPd3FPdWY?oc=5",
+    "date": "Sun, 19 Jul 2026 07:23:30 GMT",
     "summary": "",
-    "source": "한국공공정책신문"
+    "source": "한국AI부동산신문"
    },
    {
     "title": "정성호 법무장관 취임 1년…민생범죄 엄단 성과, ‘항소 포기’는 논란",
@@ -632,13 +632,6 @@
     "source": "뉴데일리"
    },
    {
-    "title": "금융위, 베트남·호주서 금융외교…금융협력·기업 지원 확대",
-    "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1xaDZYMmdlWnFNbnpvQUJlYUNuTkhva3BoSzRrcGRYT2YwaFNkb1JUQVRDSFhqUmdqTzlhLXQtekdoa0NRX1pxSGZpdlBNN3lPVUx3?oc=5",
-    "date": "Sun, 19 Jul 2026 03:02:00 GMT",
-    "summary": "",
-    "source": "네이트"
-   },
-   {
     "title": "금융위, 베트남·호주와 금융협력 강화…고위급 소통, 금융·실물 동반진출 논의",
     "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1YcUxkNjhIcS1mNzhiNUoxcjZGZm5meFZ6SF9NZGRCV3hxMFo3eDBiU2pEMmhRcHpJLXllRE5hN1B3cGt2OUhsejVpQ2IyZDNPaUdn?oc=5",
     "date": "Sun, 19 Jul 2026 03:01:00 GMT",
@@ -707,6 +700,13 @@
     "date": "Sun, 19 Jul 2026 02:30:19 GMT",
     "summary": "",
     "source": "메트로신문"
+   },
+   {
+    "title": "관세청, 정부혁신 우수사례 발굴·포상",
+    "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBVUTUyR3pMYkM2eVNla1pNN3dWMXRxNU5KVm9DOXFreVluZ2pFbUtIcm1tY1JFSzhtQWprbG9EbngyWEVVbGxoLUFoTlJkTmx4VUI4dnplZXdpWGxlS0EtWXIwVDB3T1pv?oc=5",
+    "date": "Sun, 19 Jul 2026 02:23:00 GMT",
+    "summary": "",
+    "source": "충청타임즈"
    }
   ],
   "biz": [
@@ -767,11 +767,25 @@
     "source": "네이트"
    },
    {
+    "title": "[보도자료] 한성숙 국무총리 주재 중소기업협단체 오찬 간담회",
+    "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5lT2hueFl3d0QxemUzZC11TVc5Rk1DQ2pEWWltckV6WVpBaUFfX25tTFhkeFFZVklYRHZPTHB0SjVmd3M0UDN2cWgzekRZYzRJaXJCZE5GREpEX2FMQ3ZQMDJB?oc=5",
+    "date": "Sun, 19 Jul 2026 09:00:53 GMT",
+    "summary": "",
+    "source": "서울Pn"
+   },
+   {
     "title": "중기부, 온라인수출 물류 지원기업 모집",
     "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9OYUx5MWhwSzg3dzBmYXdvbW9NWXpTUzhZYnEzV2MxX1VQV21QMjYxYk1GWVNDODhTZnRDZC1QZjJWNUt3WVNOOUhSLVdZemdwaU40b1BmWFNpakpaMVhYTkFqbjZkNld3N0E?oc=5",
     "date": "Sun, 19 Jul 2026 09:00:08 GMT",
     "summary": "",
     "source": "충청매일"
+   },
+   {
+    "title": "한성숙 총리, 친정격 중기協 초청…\"자강불식 자세로 대체 불가 대한민국\"",
+    "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBfME1CSnZYOWxwOUw2dWlkNzVSYkw0dlRFaFo0YXJLeTF5OUdOUEVTMTlnanhtd0ZBVWpxRkZ0UEtpVWlDbkNVNkIyb3hyaTRvc1lV?oc=5",
+    "date": "Sun, 19 Jul 2026 08:59:00 GMT",
+    "summary": "",
+    "source": "네이트"
    },
    {
     "title": "한유원, 수장 맞이 준비 끝...중기부 산하기관 인사태풍 예고",
@@ -870,20 +884,6 @@
     "date": "Sun, 19 Jul 2026 03:00:00 GMT",
     "summary": "",
     "source": "뉴시스"
-   },
-   {
-    "title": "중진공, 온라인 수출플랫폼 사업 2차 모집…중소기업 해외판로 지원",
-    "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFBPWlgtU0V6M1V6X3luaVUzLU5HdHdGRHV2WU41SmV4Sk5PWFQ0bzNXc3QtQng4bmhXXzR1THQ3RmxYVGlfREY2bTNTOEw2dw?oc=5",
-    "date": "Sun, 19 Jul 2026 03:00:00 GMT",
-    "summary": "",
-    "source": "전자신문"
-   },
-   {
-    "title": "해외마케팅 돕고 무역실무 지원…온라인 기반 중기 50개사 모집",
-    "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1XSU5jRFZPYVVKTFNzS09ESE5IbDQ1N1pwdi1WWE11azAzaDRrRmFpd3A0UU1Mc3BPOVZoT3U2RlpmRUlUSGc3NjNHRGNsVUdIRHRMSHNiVURIQ005?oc=5",
-    "date": "Sun, 19 Jul 2026 03:00:00 GMT",
-    "summary": "",
-    "source": "뉴스1"
    }
   ],
   "money": [
@@ -1079,13 +1079,6 @@
     "source": "MSN"
    },
    {
-    "title": "쌤157, 부가세 신고 서비스 개시",
-    "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxPNlBhYXpZWE5TMzRTdlNGNEQ4NDY1WEYyRnQ5RkZvLW1TQVBIU2ZONmVRQ0xIc2JnbXIxTDREMEx5VWNGMGFWQ0YwbTl4VmFqZzVSTURQUncteE9zZXU0UmRweDZqVGxpMlVNS0ZvSVhuUFlGNXE2OWFLalgyTWhFLUw5aHNGeGlES3dBRklDSTNQRGlBODIyZ2V6WDc0WkpOVl9ma0FsZVp5QlVHRDdBVnkxSzl1ME5KTHdDRENNcVFxTUVkT0ZWekxCNFkzckRXZVVoZW8zTEpjcDR3WHpWV2hXUlhhdVZDc0tr?oc=5",
-    "date": "Sun, 19 Jul 2026 03:51:56 GMT",
-    "summary": "",
-    "source": "MSN"
-   },
-   {
     "title": "7월 부가세 신고･납부 회계처리",
     "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE8yOTd2Q19pQXlSTTBZaGZoUWZ0ZHBrdHZ5bjNHMDNVTUhIOWZMZkRyWWF3LVppYVJGVWx4YWJOakdUdEFTM1BGVlNDdUhqTVJ4aWR5amZjbm4wbXM0UDlybHYxT0tvUDZF?oc=5",
     "date": "Fri, 17 Jul 2026 07:00:00 GMT",
@@ -1238,6 +1231,13 @@
     "date": "Mon, 13 Jul 2026 07:02:19 GMT",
     "summary": "",
     "source": "더퍼스트미디어"
+   },
+   {
+    "title": "KB국민은행, 부가가치세 신고 지원 서비스 제공",
+    "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9mVEJkU1huakZUcXRDZklBekx3T2pUWWtLdjFuZUQ2S2tDM0plRFpLOHZ0Rk44ZDQ0cTB0d1FyY2RQaU5samlpNUJpTVd0MXk2eXJHaEx6SEVyUUN2dF9NS2V1NzVsdmdDdlVrQ1l0MNIBb0FVX3lxTE9mVEJkU1huakZUcXRDZklBekx3T2pUWWtLdjFuZUQ2S2tDM0plRFpLOHZ0Rk44ZDQ0cTB0d1FyY2RQaU5samlpNUJpTVd0MXk2eXJHaEx6SEVyUUN2dF9NS2V1NzVsdmdDdlVrQ1l0MA?oc=5",
+    "date": "Mon, 13 Jul 2026 07:00:00 GMT",
+    "summary": "",
+    "source": "서울일보"
    }
   ]
  }
