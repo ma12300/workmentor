@@ -2,6 +2,15 @@
  {
   "date": "2026-07-20",
   "kind": "market",
+  "edition": "저녁판",
+  "title": "7월 20일 (월) 투자 브리핑 · 저녁판",
+  "file": "briefings/2026-07-20-market-저녁판.pdf",
+  "top": "[미장 브리핑] 뉴욕증시, 다우존스 방어주 혼조... S&P 500·나스닥 기술주 약세 - 센머니",
+  "count": 29
+ },
+ {
+  "date": "2026-07-20",
+  "kind": "market",
   "edition": "아침판",
   "title": "7월 20일 (월) 투자 브리핑 · 아침판",
   "file": "briefings/2026-07-20-market-아침판.pdf",
