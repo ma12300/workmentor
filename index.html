@@ -593,6 +593,26 @@ footer { max-width: 1160px; margin: 0 auto; padding: 0 20px 40px; font-size: 12.
 footer .viewmode { margin-top: 8px; }
 footer select { border: 1px solid var(--line); border-radius: 6px; padding: 4px 8px; font-size: 12.5px; }
 </style>
+<style id="wmSpaceCss">
+/* ══ 우주 배경 Space v1 — 페이지 전체 고정 스타필드 ══ */
+html { background: #04060D; }
+body { background: transparent; }
+#wmSpace { position: fixed; inset: 0; z-index: -1; pointer-events: none; opacity: 0.5; }  /* 배경용 감광 — 취향껏 0.3(은은)~1(원본 세기) */
+/* 어두운 배경 위에 직접 놓이는 글자 보정 (카드/모달 내부는 그대로) */
+h2.section, .ab-head h2, .ab-sec b { color: #EDF0FA; }
+.section-sub, .ab-head p { color: #A9B2C8; }
+.showcol-t { color: #DCE2F2; }
+.filterrow .flabel { color: #D6DCEC; }
+.status, .empty { color: #9AA4BA; }
+footer { color: #98A1B6; }
+footer b { color: #C9D0E0 !important; }
+.ab-sec span, .wm-partner-title { color: #B7B1A7; }
+/* 별 궤적 위 글자 가독성: 어두운 후광 (페이지 바닥에 직접 놓이는 글자만) */
+h2.section, .section-sub, .showcol-t, .filterrow .flabel, footer,
+.ab-head h2, .ab-head p, .ab-sec b, .ab-sec span, .wm-partner-title { text-shadow: 0 1px 10px rgba(2, 4, 10, 0.95), 0 0 3px rgba(2, 4, 10, 0.9); }
+/* 밝은 배경 위 자식 요소는 후광 해제 (광고 슬롯·버튼 등) */
+footer .wm-partner-slot, footer button { text-shadow: none; }
+</style>
 </head>
 <body class="is-home">
 
@@ -1503,7 +1523,7 @@ footer select { border: 1px solid var(--line); border-radius: 6px; padding: 4px 
     <a href="#" onclick="go('terms'); ttab('tos'); return false;" style="color:var(--blue); margin-right:10px;">이용약관</a>
     <a href="#" onclick="go('terms'); ttab('privacy'); return false;" style="color:var(--blue); font-weight:700; margin-right:10px;">개인정보처리방침</a>
     <a href="#" onclick="go('terms'); ttab('refund'); return false;" style="color:var(--blue);">환불정책</a>
-    <a href="news/" target="_blank" rel="noopener" style="color:var(--blue); margin-left:10px;">뉴스 아카이브</a>
+    <a href="news/" target="_blank" rel="noopener" style="color:var(--blue); margin-left:10px;">뉴스 아카이브</a> <span style="opacity:.5;">· Space v1</span>
   </div>
   본 사이트의 기업을 위한 지원사업 정보 출처는 중소벤처기업부와 각종 지자체 입니다. 예시 데이터가 표시될 수 있으며,
   최종 확인은 각 공고 원문을 따릅니다. ( 사업자등록번호 133-16-02411 워크멘토 ) 
@@ -5056,6 +5076,191 @@ else if (DB.api.key || DB.api.proxy) loadLiveFunds();
     v: 6,
   };
   try { console.log("[SShare] v6 로드됨"); } catch (_) {}
+})();
+</script>
+<script>
+/* ══ 우주 배경 Space v1 — Originkit GlitterWrap(React) 바닐라 JS 이식 ══
+   원본 기본값 그대로: 별 500개 · 흰/빨강/노랑 · speed 5 · trail 100 */
+(function () {
+  "use strict";
+  var CFG = {
+    particleCount: 500,
+    color1: "#ffffff", color2: "#FF0000", color3: "#FFE500",
+    speed: 5, density: 100, starSize: 20, focalDepth: 13,
+    turbulence: 0, brightness: 100, glitterIntensity: 3,
+    trailAmount: 100, reverse: false
+  };
+  try {  /* 모바일·저사양 기기는 별 수를 줄여 배터리/발열 보호 */
+    if (Math.min(window.innerWidth, window.innerHeight) < 720 ||
+        (navigator.deviceMemory && navigator.deviceMemory <= 4)) CFG.particleCount = 220;
+  } catch (_) {}
+
+  var canvas = document.createElement("canvas");
+  canvas.id = "wmSpace";
+  canvas.setAttribute("aria-hidden", "true");
+  document.body.insertBefore(canvas, document.body.firstChild);
+  var ctx = canvas.getContext("2d");
+  if (!ctx) return;
+
+  function parseColor(input) {
+    if (!input) return [255, 255, 255, 1];
+    var s = String(input).trim();
+    if (s.charAt(0) === "#") {
+      var hex = s.slice(1);
+      if (hex.length === 3) hex = hex.split("").map(function (c) { return c + c; }).join("");
+      var num = parseInt(hex, 16);
+      return [(num >> 16) & 255, (num >> 8) & 255, num & 255, 1];
+    }
+    var m = s.match(/rgba?\(([^)]+)\)/i);
+    if (m) {
+      var p = m[1].split(",").map(function (x) { return parseFloat(x.trim()); });
+      return [p[0] || 0, p[1] || 0, p[2] || 0, p[3] == null ? 1 : p[3]];
+    }
+    return [255, 255, 255, 1];
+  }
+  var PAL = [parseColor(CFG.color1), parseColor(CFG.color2), parseColor(CFG.color3)];
+  var RGB = PAL.map(function (c) { return "rgb(" + c[0] + ", " + c[1] + ", " + c[2] + ")"; });
+
+  /* 정수 컨트롤 → 내부 물리 단위 (원본 cfg()와 동일 매핑) */
+  var C = {
+    reverse: CFG.reverse,
+    density: CFG.density,
+    stepZ: CFG.speed * 0.0008,
+    focalDepth: CFG.focalDepth / 100,
+    starScale: CFG.starSize * 0.15,
+    turbulence: CFG.turbulence * 0.2,
+    glitter: CFG.glitterIntensity * 0.1,
+    brightness: Math.min(1, CFG.brightness / 100),
+    trail: CFG.trailAmount / 100
+  };
+
+  var W = 0, H = 0, DPR = 1, elapsed = 0;
+  function resize() {
+    var dpr = Math.min(window.devicePixelRatio || 1, 2);
+    var w = Math.max(1, window.innerWidth), h = Math.max(1, window.innerHeight);
+    /* 모바일 주소창 출몰(작은 높이 변화)은 무시 — 리사이즈는 캔버스를 지우므로 */
+    if (dpr === DPR && w === W && Math.abs(h - H) < 140) return;
+    W = w; H = h; DPR = dpr;
+    canvas.width = Math.floor(w * dpr);
+    canvas.height = Math.floor(h * dpr);
+    ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
+    ctx.clearRect(0, 0, w, h);
+  }
+
+  var stars = [];
+  function resetStar(s, initial) {
+    var angle = Math.random() * Math.PI * 2;
+    var radius = (0.2 + Math.random() * 0.8) * (C.density / 15);
+    s.x = Math.cos(angle) * radius;
+    s.y = Math.sin(angle) * radius;
+    if (C.reverse) s.z = initial ? C.focalDepth + Math.random() * (1 - C.focalDepth) : C.focalDepth;
+    else s.z = initial ? Math.random() : 1.0;
+    s.px = NaN; s.py = NaN;
+    s.seed = Math.random() * 1000;
+    s.vmul = 0.6 + Math.random() * 0.8;       /* 별마다 속도 달리해 뭉침 방지 */
+    s.colorIdx = (Math.random() * 3) | 0;
+    s.flashUntil = 0;
+    s.nextFlash = elapsed + 1 + Math.random() * 4 * (1 / Math.max(0.0001, C.glitter));
+  }
+  for (var i0 = 0; i0 < CFG.particleCount; i0++) {
+    var st = { x: 0, y: 0, z: 0, px: NaN, py: NaN, seed: 0, vmul: 1, colorIdx: 0, flashUntil: 0, nextFlash: 0 };
+    resetStar(st, true);
+    stars.push(st);
+  }
+
+  function drawFrame(deltaSec) {
+    var w = W, h = H, cx = w / 2, cy = h / 2;
+    var projScale = Math.min(w, h) * 0.9;
+    var dt = Math.max(0.001, Math.min(0.1, deltaSec)) * 60;
+    /* 잔상: 프레임률 무관하게 일정한 꼬리 길이 (destination-out 지우기) */
+    var keep = Math.pow(Math.min(0.98, Math.max(0, C.trail)), dt);
+    var trailAlpha = Math.max(0.02, 1 - keep);
+    ctx.globalAlpha = 1;
+    ctx.globalCompositeOperation = "destination-out";
+    ctx.fillStyle = "rgba(0, 0, 0, " + trailAlpha + ")";
+    ctx.fillRect(0, 0, w, h);
+    ctx.globalCompositeOperation = "lighter";
+    for (var i = 0; i < stars.length; i++) {
+      var s = stars[i];
+      var vz = C.stepZ * s.vmul * dt;
+      if (C.reverse) {
+        s.z += vz;
+        if (s.z >= 1.0) { resetStar(s); continue; }
+      } else {
+        s.z -= vz;
+        if (s.z <= C.focalDepth) { resetStar(s); continue; }
+      }
+      var tx = s.x, ty = s.y;
+      if (C.turbulence > 0) {
+        var t = elapsed * 1.2 + s.seed;
+        var amp = C.turbulence * (1 - s.z) * 0.25;
+        tx += Math.sin(t + s.seed) * amp;
+        ty += Math.cos(t * 1.13 + s.seed * 0.7) * amp;
+      }
+      var persp = C.focalDepth / Math.max(s.z, 0.0001);
+      var sx = cx + tx * persp * projScale;
+      var sy = cy + ty * persp * projScale;
+      if (!C.reverse && (sx < -20 || sx > w + 20 || sy < -20 || sy > h + 20)) { resetStar(s); continue; }
+      var flashMult = 1;
+      if (C.glitter > 0) {
+        if (elapsed >= s.nextFlash && s.flashUntil < elapsed) {
+          s.flashUntil = elapsed + 0.04 + Math.random() * 0.07;   /* 40~110ms 반짝 */
+          s.nextFlash = elapsed + 1 + Math.random() * 4 * (1 / Math.max(0.0001, C.glitter));
+        }
+        if (elapsed <= s.flashUntil) flashMult = 1 + 2.5 * C.glitter;
+      }
+      var sizePersp = Math.min(2.5, (C.focalDepth / Math.max(s.z, 0.0001)) * 0.6);
+      var baseR = Math.max(0.25, C.starScale * (0.4 + sizePersp));
+      var maxR = 1 + C.starScale * 2.5;
+      var r = Math.min(baseR * flashMult, maxR);
+      var lifeT = C.reverse ? s.z : 1 - s.z;
+      var fadeIn = C.reverse ? Math.min(1, (s.z - C.focalDepth) / (1 - C.focalDepth) / 0.12) : 1;
+      var a = Math.min(1, C.reverse ? 0.85 - lifeT * 0.6 : lifeT * 0.9 + 0.05) * fadeIn * C.brightness * (flashMult > 1 ? 1 : 0.85);
+      var col = RGB[s.colorIdx];
+      if (s.px === s.px && s.py === s.py) {   /* NaN 검사: 이전 위치가 있을 때만 궤적 */
+        ctx.globalAlpha = a * 0.5;
+        ctx.strokeStyle = col;
+        ctx.lineWidth = Math.max(0.4, r * 0.4);
+        ctx.beginPath();
+        ctx.moveTo(s.px, s.py);
+        ctx.lineTo(sx, sy);
+        ctx.stroke();
+      }
+      ctx.globalAlpha = a;
+      ctx.fillStyle = col;
+      ctx.fillRect(sx - r, sy - r, r * 2, r * 2);
+      if (flashMult > 1) {
+        var rf = Math.min(r * 1.4, maxR * 1.4);
+        ctx.globalAlpha = a * 0.5;
+        ctx.fillRect(sx - rf, sy - rf, rf * 2, rf * 2);
+      }
+      s.px = sx; s.py = sy;
+    }
+    ctx.globalAlpha = 1;
+    ctx.globalCompositeOperation = "source-over";
+    elapsed += Math.min(0.1, Math.max(0, deltaSec));
+  }
+
+  resize();
+  window.addEventListener("resize", resize);
+  window.WMSpace = { v: 1 };
+
+  /* 접근성: 시스템 '동작 줄이기' 설정 시 정지 별하늘만 (워밍업 80프레임) */
+  var reduced = false;
+  try { reduced = window.matchMedia("(prefers-reduced-motion: reduce)").matches; } catch (_) {}
+  if (reduced) {
+    for (var k = 0; k < 80; k++) drawFrame(1 / 60);
+    return;
+  }
+  var lastT = performance.now();
+  function loop(t) {
+    var deltaSec = (t - lastT) / 1000;
+    lastT = t;
+    drawFrame(deltaSec);
+    requestAnimationFrame(loop);
+  }
+  requestAnimationFrame(loop);
+  try { console.log("[Space] v1 로드됨 — 별 " + stars.length + "개"); } catch (_) {}
 })();
 </script>
 </body>
