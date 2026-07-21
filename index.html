@@ -1523,7 +1523,7 @@ footer .wm-partner-slot, footer button { text-shadow: none; }
     <a href="#" onclick="go('terms'); ttab('tos'); return false;" style="color:var(--blue); margin-right:10px;">이용약관</a>
     <a href="#" onclick="go('terms'); ttab('privacy'); return false;" style="color:var(--blue); font-weight:700; margin-right:10px;">개인정보처리방침</a>
     <a href="#" onclick="go('terms'); ttab('refund'); return false;" style="color:var(--blue);">환불정책</a>
-    <a href="news/" target="_blank" rel="noopener" style="color:var(--blue); margin-left:10px;">뉴스 아카이브</a> <span style="opacity:.5;">· Space v1</span>
+    <a href="news/" target="_blank" rel="noopener" style="color:var(--blue); margin-left:10px;">뉴스 아카이브</a> <span style="opacity:.5;">· Space v2</span>
   </div>
   본 사이트의 기업을 위한 지원사업 정보 출처는 중소벤처기업부와 각종 지자체 입니다. 예시 데이터가 표시될 수 있으며,
   최종 확인은 각 공고 원문을 따릅니다. ( 사업자등록번호 133-16-02411 워크멘토 ) 
@@ -5243,15 +5243,10 @@ else if (DB.api.key || DB.api.proxy) loadLiveFunds();
 
   resize();
   window.addEventListener("resize", resize);
-  window.WMSpace = { v: 1 };
+  window.WMSpace = { v: 2 };
 
-  /* 접근성: 시스템 '동작 줄이기' 설정 시 정지 별하늘만 (워밍업 80프레임) */
-  var reduced = false;
-  try { reduced = window.matchMedia("(prefers-reduced-motion: reduce)").matches; } catch (_) {}
-  if (reduced) {
-    for (var k = 0; k < 80; k++) drawFrame(1 / 60);
-    return;
-  }
+  /* v2: Windows '애니메이션 효과 끄기'/원격 데스크톱에서도 항상 구동
+     (v1은 동작 줄이기 신호 시 정지 별하늘만 그려 "멈춤"으로 보였음) */
   var lastT = performance.now();
   function loop(t) {
     var deltaSec = (t - lastT) / 1000;
@@ -5260,7 +5255,7 @@ else if (DB.api.key || DB.api.proxy) loadLiveFunds();
     requestAnimationFrame(loop);
   }
   requestAnimationFrame(loop);
-  try { console.log("[Space] v1 로드됨 — 별 " + stars.length + "개"); } catch (_) {}
+  try { console.log("[Space] v2 로드됨 — 별 " + stars.length + "개"); } catch (_) {}
 })();
 </script>
 </body>
