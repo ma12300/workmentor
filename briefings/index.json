@@ -2,6 +2,15 @@
  {
   "date": "2026-07-22",
   "kind": "market",
+  "edition": "아침판",
+  "title": "7월 22일 (수) 투자 브리핑 · 아침판",
+  "file": "briefings/2026-07-22-market-아침판.pdf",
+  "top": "백악관·CLARITY 법안 합의 기대에 XRP 강세, ETF 자금 유입도 상승세 뒷받침 - 미디어파인",
+  "count": 16
+ },
+ {
+  "date": "2026-07-22",
+  "kind": "market",
   "edition": "자정판",
   "title": "7월 22일 (수) 투자 브리핑 · 자정판",
   "file": "briefings/2026-07-22-market-자정판.pdf",
