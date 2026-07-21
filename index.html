@@ -594,10 +594,10 @@ footer .viewmode { margin-top: 8px; }
 footer select { border: 1px solid var(--line); border-radius: 6px; padding: 4px 8px; font-size: 12.5px; }
 </style>
 <style id="wmSpaceCss">
-/* ══ 우주 배경 Space v1 — 페이지 전체 고정 스타필드 ══ */
+/* ══ 우주 배경 Space v3 — 페이지 전체 고정 스타필드 ══ */
 html { background: #04060D; }
 body { background: transparent; }
-#wmSpace { position: fixed; inset: 0; z-index: -1; pointer-events: none; opacity: 0.5; }  /* 배경용 감광 — 취향껏 0.3(은은)~1(원본 세기) */
+#wmSpace { position: fixed; inset: 0; width: 100%; height: 100%; z-index: -1; pointer-events: none; opacity: 0.95; }  /* width/height 100% 필수: canvas는 치환 요소라 inset만으론 안 늘어남 */
 /* 어두운 배경 위에 직접 놓이는 글자 보정 (카드/모달 내부는 그대로) */
 h2.section, .ab-head h2, .ab-sec b { color: #EDF0FA; }
 .section-sub, .ab-head p { color: #A9B2C8; }
@@ -1523,7 +1523,7 @@ footer .wm-partner-slot, footer button { text-shadow: none; }
     <a href="#" onclick="go('terms'); ttab('tos'); return false;" style="color:var(--blue); margin-right:10px;">이용약관</a>
     <a href="#" onclick="go('terms'); ttab('privacy'); return false;" style="color:var(--blue); font-weight:700; margin-right:10px;">개인정보처리방침</a>
     <a href="#" onclick="go('terms'); ttab('refund'); return false;" style="color:var(--blue);">환불정책</a>
-    <a href="news/" target="_blank" rel="noopener" style="color:var(--blue); margin-left:10px;">뉴스 아카이브</a> <span style="opacity:.5;">· Space v2</span>
+    <a href="news/" target="_blank" rel="noopener" style="color:var(--blue); margin-left:10px;">뉴스 아카이브</a> <span style="opacity:.5;">· Space v3</span>
   </div>
   본 사이트의 기업을 위한 지원사업 정보 출처는 중소벤처기업부와 각종 지자체 입니다. 예시 데이터가 표시될 수 있으며,
   최종 확인은 각 공고 원문을 따릅니다. ( 사업자등록번호 133-16-02411 워크멘토 ) 
@@ -5079,20 +5079,20 @@ else if (DB.api.key || DB.api.proxy) loadLiveFunds();
 })();
 </script>
 <script>
-/* ══ 우주 배경 Space v1 — Originkit GlitterWrap(React) 바닐라 JS 이식 ══
+/* ══ 우주 배경 Space v3 — Originkit GlitterWrap(React) 바닐라 JS 이식 ══
    원본 기본값 그대로: 별 500개 · 흰/빨강/노랑 · speed 5 · trail 100 */
 (function () {
   "use strict";
   var CFG = {
-    particleCount: 500,
-    color1: "#ffffff", color2: "#FF0000", color3: "#FFE500",
-    speed: 5, density: 100, starSize: 20, focalDepth: 13,
-    turbulence: 0, brightness: 100, glitterIntensity: 3,
-    trailAmount: 100, reverse: false
+    particleCount: 800,
+    color1: "#ffffff", color2: "#CDD9FF", color3: "#FFE9B0",   /* 흰 · 은청 · 연금빛 별빛 */
+    speed: 2, density: 100, starSize: 9, focalDepth: 13,
+    turbulence: 0, brightness: 100, glitterIntensity: 7,
+    trailAmount: 25, reverse: false
   };
   try {  /* 모바일·저사양 기기는 별 수를 줄여 배터리/발열 보호 */
     if (Math.min(window.innerWidth, window.innerHeight) < 720 ||
-        (navigator.deviceMemory && navigator.deviceMemory <= 4)) CFG.particleCount = 220;
+        (navigator.deviceMemory && navigator.deviceMemory <= 4)) CFG.particleCount = 320;
   } catch (_) {}
 
   var canvas = document.createElement("canvas");
@@ -5143,6 +5143,8 @@ else if (DB.api.key || DB.api.proxy) loadLiveFunds();
     W = w; H = h; DPR = dpr;
     canvas.width = Math.floor(w * dpr);
     canvas.height = Math.floor(h * dpr);
+    canvas.style.width = w + "px";
+    canvas.style.height = h + "px";
     ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
     ctx.clearRect(0, 0, w, h);
   }
@@ -5215,7 +5217,7 @@ else if (DB.api.key || DB.api.proxy) loadLiveFunds();
       var r = Math.min(baseR * flashMult, maxR);
       var lifeT = C.reverse ? s.z : 1 - s.z;
       var fadeIn = C.reverse ? Math.min(1, (s.z - C.focalDepth) / (1 - C.focalDepth) / 0.12) : 1;
-      var a = Math.min(1, C.reverse ? 0.85 - lifeT * 0.6 : lifeT * 0.9 + 0.05) * fadeIn * C.brightness * (flashMult > 1 ? 1 : 0.85);
+      var a = Math.min(1, C.reverse ? 0.85 - lifeT * 0.6 : lifeT * 0.72 + 0.28) * fadeIn * C.brightness * (flashMult > 1 ? 1 : 0.85);
       var col = RGB[s.colorIdx];
       if (s.px === s.px && s.py === s.py) {   /* NaN 검사: 이전 위치가 있을 때만 궤적 */
         ctx.globalAlpha = a * 0.5;
@@ -5243,7 +5245,7 @@ else if (DB.api.key || DB.api.proxy) loadLiveFunds();
 
   resize();
   window.addEventListener("resize", resize);
-  window.WMSpace = { v: 2 };
+  window.WMSpace = { v: 3 };
 
   /* v2: Windows '애니메이션 효과 끄기'/원격 데스크톱에서도 항상 구동
      (v1은 동작 줄이기 신호 시 정지 별하늘만 그려 "멈춤"으로 보였음) */
@@ -5255,7 +5257,7 @@ else if (DB.api.key || DB.api.proxy) loadLiveFunds();
     requestAnimationFrame(loop);
   }
   requestAnimationFrame(loop);
-  try { console.log("[Space] v2 로드됨 — 별 " + stars.length + "개"); } catch (_) {}
+  try { console.log("[Space] v3 로드됨 — 별 " + stars.length + "개"); } catch (_) {}
 })();
 </script>
 </body>
