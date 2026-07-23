@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-07-23T17:48:47.959Z",
+ "updatedAt": "2026-07-23T19:36:32.018Z",
  "groups": {
   "tax": [
    {
@@ -73,13 +73,6 @@
     "source": "네이트"
    },
    {
-    "title": "국세청·관세청 첫 합동조사...체납자 은닉재산 끝까지 추적",
-    "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1SeHhCSGc1dnByVktNc3A0VmoxYi1UMDBIcklHNjAtd1hVMkhXTG1QeTVQeDMweWxyUktQemRrRFRPc0dJRFRxa0E2eFJKaS1SNThzMDB3cUxmR0pIdmRsTXJldDZiaVd4Smc?oc=5",
-    "date": "Thu, 23 Jul 2026 08:32:54 GMT",
-    "summary": "",
-    "source": "경북구미신문"
-   },
-   {
     "title": "여행가방에 현금 수억 원…국세청·관세청 체납자 합동 수색",
     "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1MMTVsZUx3Zmt5M0N2ZE0zeUtWN1Y1am5ZR0hVV0E4dnhONmpOSlBlWVduV1V2eW9NNEVxRUg0TTgySkk5dnpQYVlSR1QwUXVNdWNEQWs5ZjlCbTQ?oc=5",
     "date": "Thu, 23 Jul 2026 08:19:00 GMT",
@@ -122,6 +115,13 @@
     "source": "네이트"
    },
    {
+    "title": "여행 가방서 10억 ’돈뭉치’…국세청·관세청 첫 합동수색",
+    "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9JSUVLZDdOeVRGcy1fU0tMVEFneXdjSng5N1puNmxmUExvWVpuUWVBM3Z4dTZjV1c0dnJCZ3l6eVNMSDFEZExoYXZOWHZ5cFpXb3VtNGtkWlBHc1MwOVF4VUJ2a1pkcU0?oc=5",
+    "date": "Thu, 23 Jul 2026 07:03:00 GMT",
+    "summary": "",
+    "source": "연합뉴스TV"
+   },
+   {
     "title": "[조세금융TV] 제1회 조세정책 TF콜로키움...국세청, '세무조사 기간선택제' 설명회",
     "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBaVXd6ZFFtOGhnSEJGNjlHQ2tzbUY2cmFGR29sLXZ0c1RLeGNUWDJwYlRxc25SZFFlWlZxVl9vcDZaVWMtM2lfQjkzTWMwMkl3Y2p3X3duQVhVV3FPUHJnU1hDcw?oc=5",
     "date": "Thu, 23 Jul 2026 06:43:19 GMT",
@@ -150,13 +150,6 @@
     "source": "헤럴드경제"
    },
    {
-    "title": "세금 안 내려 위장이혼…국세청·관세청 첫 합동수색",
-    "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1lLXd5cjVuOVBZRWJBQUgyYzhVTTNGajFHUkl2blZBX1I1TWZyUXF5eDNFSWNHQnRINjFGQXJobllPLXZ0dWFnODJ0NDVUM1NMTXpqZ0NaYWwxamlWYjNJN1pMZFA1T1U?oc=5",
-    "date": "Thu, 23 Jul 2026 05:42:00 GMT",
-    "summary": "",
-    "source": "연합뉴스TV"
-   },
-   {
     "title": "국세·관세 체납자 숨긴 재산 끝까지 추적…13억 원 압류",
     "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBmTUVzT1NYSVNIaDRFa3hUUm01Y0IxLTdfdFBfa0NwUHJvcUZpZUpsYmpoazFaem03aGdBbnpOWDctNVIxTEx6MWE0aFNpVjVfVm5YY2ZsX1otNXpHZ3Y5OENR?oc=5",
     "date": "Thu, 23 Jul 2026 05:20:53 GMT",
@@ -176,6 +169,13 @@
     "date": "Thu, 23 Jul 2026 05:14:00 GMT",
     "summary": "",
     "source": "동아일보"
+   },
+   {
+    "title": "국세청·관세청 합동 수색…고액·악성체납자 은닉재산 압류",
+    "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5DNS1rcDUxM3ZpY2F3VERORlVnRDNrejl2bkRZRE5Db2NLOEo3MG1IMV9RRVo2Wl9aRFlkRVRLRUZsS1RqQ29wZTBfVlNwVzAtaFBtRUJHU0VreDlmYmRjTVJiYzQ3SHRkWlhON3FB?oc=5",
+    "date": "Thu, 23 Jul 2026 05:07:32 GMT",
+    "summary": "",
+    "source": "뉴스후플러스"
    }
   ],
   "labor": [
@@ -348,11 +348,11 @@
     "source": "뉴스1"
    },
    {
-    "title": "발언하는 김영훈 고용노동부 장관",
-    "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5nNEs2eEZ6VlFYUDFJV3dpUjRjLVlIRFc5WVVfT25XekVGay1Hc04weGx0NnBmSWk5cWlNNTFOYjJod3JLUGxobkZJMk9VRFBJczln?oc=5",
-    "date": "Thu, 23 Jul 2026 06:04:00 GMT",
+    "title": "노동부·강원도·시멘트 원하청, 상생협력 협약",
+    "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE0xN2Q3UU1Cc2N2ZndjZGhrUHNzQ2tyTUtxaERBV1pCRUs1c1V2V0hIY1hLU0JUYUp1dlFrTmlHOUJ1eHNPLWNQaFQxNA?oc=5",
+    "date": "Thu, 23 Jul 2026 06:04:17 GMT",
     "summary": "",
-    "source": "네이트"
+    "source": "뉴스1"
    }
   ],
   "law": [
@@ -511,6 +511,13 @@
     "source": "네이트"
    },
    {
+    "title": "정성호 장관, 법무부 토크콘서트 발언",
+    "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE15NklLeV9vYVAzOGpsS1h1Q3U0N2xuU2piYjlhNmV5c2lINTFHam1CM2s5NndMeTdyY1BDUkU0NDBfRjJCam1YMEdLdnNvVnhyMGh2S0xvTkdlVG_SAWBBVV95cUxNMkxrNkRxY2U5V3JMLTVLZWtkMmNNR1E3ckxGV19zUGZvSVhjMU01THhwYUwzS1FsQkFrdGZtWjlxMGpaenA4bjdOOXo3Y0hXSWlib3JVeTJmMVZ6VlNxc2Q?oc=5",
+    "date": "Thu, 23 Jul 2026 07:07:40 GMT",
+    "summary": "",
+    "source": "연합뉴스"
+   },
+   {
     "title": "법무부 직원들 만나는 정성호 장관",
     "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE54bXlPeXBxSWpxSWVXSXRMd1MwemNDbHJ5b0QzQmVHY1FBenNqdWFSOVZVZzhHNHJCeUVwUW5SWXduRDRHT2t1Tll4ekpXX09XenVOb25xNS0tc3RxM19GLWdrYVZiX1g1OVdEZF9vU3hldnF4aWNpcw?oc=5",
     "date": "Thu, 23 Jul 2026 07:07:00 GMT",
@@ -523,13 +530,6 @@
     "date": "Thu, 23 Jul 2026 06:46:15 GMT",
     "summary": "",
     "source": "edaily.co.kr"
-   },
-   {
-    "title": "공정거래위원회, 공정거래법 위반행위에 대한 경제적 제재 강화",
-    "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFB2cVYxMXVYdHg3andLcHFqVmRIcnEteTZLdl9HeTcxZHlDeHU1aTY2Q0FnNkFyU0I5bmJwb09IX2VMQkRTSG9IRHpyeTBqNm52SjdwTUxxdms3cHlERVd0RA?oc=5",
-    "date": "Thu, 23 Jul 2026 06:30:45 GMT",
-    "summary": "",
-    "source": "한국글로벌뉴스"
    }
   ],
   "fund": [
@@ -539,13 +539,6 @@
     "date": "Thu, 23 Jul 2026 14:33:24 GMT",
     "summary": "",
     "source": "열린뉴스통신"
-   },
-   {
-    "title": "40대 여행가방서 10억 돈뭉치…해먹은 돈 반의 반도 안된다는데",
-    "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE40aHJMOExpSkNnRVlFR1hEa0dBZXdpcGdHS25UMmJManM4WU51b3BKTVpwdmx4akhITi11TWxoWDFEMTJnZFpXWVRIS2VKM2Ruc3c?oc=5",
-    "date": "Thu, 23 Jul 2026 11:39:43 GMT",
-    "summary": "",
-    "source": "매일경제 마켓"
    },
    {
     "title": "백제초, 「백제 금융위원회」활동 실시",
@@ -574,13 +567,6 @@
     "date": "Thu, 23 Jul 2026 09:28:10 GMT",
     "summary": "",
     "source": "v.daum.net"
-   },
-   {
-    "title": "국세청·관세청 첫 합동조사...체납자 은닉재산 끝까지 추적",
-    "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1SeHhCSGc1dnByVktNc3A0VmoxYi1UMDBIcklHNjAtd1hVMkhXTG1QeTVQeDMweWxyUktQemRrRFRPc0dJRFRxa0E2eFJKaS1SNThzMDB3cUxmR0pIdmRsTXJldDZiaVd4Smc?oc=5",
-    "date": "Thu, 23 Jul 2026 08:32:54 GMT",
-    "summary": "",
-    "source": "경북구미신문"
    },
    {
     "title": "산업부-금융위, 핵심광물 공급망 지원 협력",
@@ -646,11 +632,25 @@
     "source": "헤럴드경제"
    },
    {
+    "title": "여행 가방서 10억 ’돈뭉치’…국세청·관세청 첫 합동수색",
+    "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9JSUVLZDdOeVRGcy1fU0tMVEFneXdjSng5N1puNmxmUExvWVpuUWVBM3Z4dTZjV1c0dnJCZ3l6eVNMSDFEZExoYXZOWHZ5cFpXb3VtNGtkWlBHc1MwOVF4VUJ2a1pkcU0?oc=5",
+    "date": "Thu, 23 Jul 2026 07:03:00 GMT",
+    "summary": "",
+    "source": "연합뉴스TV"
+   },
+   {
     "title": "문체부·금융위, K-컬처 산업 투자할 1,500억 원 펀드 조성",
     "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9jTGZnQXRQLTNVRENlWE0tbmoydUtYTllicUo0RlJiQ1p6UTBJRENRa2JKNG55SDVIZmY2bVR1ZDRfLWdvMEhGQjZkRG9QdjZIZEVObDBrc3ZqZHlzQl93S0ZsRkZDWk9WVFE?oc=5",
     "date": "Thu, 23 Jul 2026 07:00:00 GMT",
     "summary": "",
     "source": "서울문화투데이"
+   },
+   {
+    "title": "국세청, 체납자 은닉재산, 끝까지 찾아낸다…국세청·관세청 합동 수색 실시",
+    "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5kT3Q4aUQ3NDgtWkx1Mi03UHJqLTQ5aVNQMlRSQVh3T1ZFWUh1aDUxQ0o1UDBuSk9fN3NhYzQtaktJNXdvVXFfZmJ3elFsMnNqbThyUkYwNnZCNUNOaEM1cUxvVjlYT3NWc0FvS2tB?oc=5",
+    "date": "Thu, 23 Jul 2026 06:51:21 GMT",
+    "summary": "",
+    "source": "하나뉴스"
    },
    {
     "title": "국세청·관세청 첫 합동 수색...악성 체납자 은닉재산 13억 압류",
@@ -702,20 +702,20 @@
     "source": "디지털데일리"
    },
    {
-    "title": "세금 안 내려 위장이혼…국세청·관세청 첫 합동수색",
-    "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1lLXd5cjVuOVBZRWJBQUgyYzhVTTNGajFHUkl2blZBX1I1TWZyUXF5eDNFSWNHQnRINjFGQXJobllPLXZ0dWFnODJ0NDVUM1NMTXpqZ0NaYWwxamlWYjNJN1pMZFA1T1U?oc=5",
-    "date": "Thu, 23 Jul 2026 05:42:00 GMT",
+    "title": "산업부·금융위, 핵심광물 공급망 지원 강화…국민성장펀드 활용 추진",
+    "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBoNXMzTjZqWjN6aWpHRlg1alBQdkp4d1dFcURiNVZfdEdwS29ZN1RVa1U4QzNwNUFHby1rT3JpU0JrQ3E4WXBoYUFyZVpMRktlVUtRakd1M21vS0JPS2FnZVcwTkN6VlF4SnFQNWhjTDDSAXRBVV95cUxONERBdHc0S05HZW5qdmt3WmJsR2QwLXlOTzhpb2hCNFVVNmZKenMwaE5teEFwRWprM0NCZGhkY2Y5RmdTNEtqS0VmT1JqbTRlOUJBY0puYUxlcUd6cWwwZEFnVmFGSm40QkViTVJqMTFWdjl4bg?oc=5",
+    "date": "Thu, 23 Jul 2026 05:34:09 GMT",
     "summary": "",
-    "source": "연합뉴스TV"
+    "source": "주간한국"
    }
   ],
   "biz": [
    {
-    "title": "포스코그룹, 국내 첫 첨단제조 인큐베이팅센터 개소…지역 제조 스타트업 성장 거점 구축",
-    "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFA2a2lFLW1QN3NnSHVzT3RIS3V4ZmhiUFgzdVBUdURVZS1lajJNRklXbEFlblV3TDdNMnhKeXhZVmV1Q3BHclVWU0pweVR4NVFCVWFQSlRyQ3ppRGFlcWxfVVExejVVUQ?oc=5",
-    "date": "Thu, 23 Jul 2026 11:33:08 GMT",
+    "title": "중소기업 상반기 수출 첫 600억 달러 돌파 신화 창조…화장품 30.7% 폭발적 증가!!",
+    "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTFBoVnR2LWdUVFF2eFRPWkhxTjQtQi1YT2dWRUdjeHNaUmpnMGpaYmRXMG9KWDVfQlhpcEV4NUlSRDB6bTI4QS1ER0pR?oc=5",
+    "date": "Thu, 23 Jul 2026 15:03:00 GMT",
     "summary": "",
-    "source": "이슈투데이"
+    "source": "국민뉴스"
    },
    {
     "title": "김성원 의원, 국회 산자중기위원장 선출...경기북부 출신 첫 위원장",
@@ -830,20 +830,6 @@
     "source": "글로벌뉴스통신GNA"
    },
    {
-    "title": "광명시, 맞춤형 창업 지원 결실…관내 스타트업 정부 공모사업 잇따라 선정",
-    "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBwUm5hSjV5dTFXR3FkbEdtb3V3Zl9sQ2puVEhpcTZmWExLQWZSTWhQVWh3Y2dIeFpZcFNrU3ZWVEVLSXJEdmtrckhubzZCd1VYVGZaNmRKbkE4N3M?oc=5",
-    "date": "Thu, 23 Jul 2026 06:07:49 GMT",
-    "summary": "",
-    "source": "경기일보"
-   },
-   {
-    "title": "2026 충북중소기업인대회 수상자 명단",
-    "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1hbTdYSWRZVS1oU1BEYWNkTXVQNm5yZkR0TE9jSXRTS2gtbFNONkNuSzBTZ2M3UVFsNk9tT3Z3NDhzY1ZMYlV1aURxZ2FjUTdqWE85ZjZUMGNMUnpoblpLUmk2RjJzZ1E0eFE?oc=5",
-    "date": "Thu, 23 Jul 2026 06:06:51 GMT",
-    "summary": "",
-    "source": "동양일보"
-   },
-   {
     "title": "중기부, 국내 최초 스마트제조기술산업 특수분류 제정...AI 전문기업 육성과 스마트제조 혁신",
     "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFA5a1NTZTBlU0loVFFueEIxcTc5V0hRUnI4Zm5ZTjhHbkJhdmVQZWctNkJIanJOdGNhVjZMVHJfdEhCRHNaa253YXdGaHdkb1plWVFHc3k5VXV4bV9IVmF1aXZYcFBERE0?oc=5",
     "date": "Thu, 23 Jul 2026 06:06:40 GMT",
@@ -884,6 +870,20 @@
     "date": "Thu, 23 Jul 2026 05:18:04 GMT",
     "summary": "",
     "source": "파이낸셜뉴스"
+   },
+   {
+    "title": "중기부, 'OGQ 사태' 논란에 제도 재확인...신철호 대표 호소에 정부·국회 응답했다",
+    "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBmMDM3VENqcWllc0xHZWtJaEZEVXdkQlNHZUpyd2JGT2t2dzRDVExEeWdiSXdlbGNQYW1mLUJRcm1EMDZvTExkR1FYckZNSnFZUzFCcU9zU3d3TGpTWXR4UlNJcVpfQdIBakFVX3lxTE5LQWRWOG9NVXdHV0xTWF9QZmdPRnZ3cXZjQXoySkxJOEhCVDBnNjNGWml5NEVZRzAxWVZPd1VLY0NTRHFrOGVLdjBYZ210LXVwc3ZDNG9vTVI5eVVwanpKVmctTVhHRVRRUUE?oc=5",
+    "date": "Thu, 23 Jul 2026 04:43:17 GMT",
+    "summary": "",
+    "source": "테크M"
+   },
+   {
+    "title": "상반기 중소기업 수출 첫 600억 달러 돌파…K-뷰티 날개",
+    "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE8xRmhUU1VWOURwMHN5QXB0OW9DdVhYLWpSVUpnWGxPc0NBMkJZNkZjaEVxMlBkMHJHMnlMYXVPQXBya1JzdTNuWW9jNWNPSXRodTdzTmc4SXI2VkV1SzVrNE9qX2lvbGM?oc=5",
+    "date": "Thu, 23 Jul 2026 04:12:00 GMT",
+    "summary": "",
+    "source": "연합뉴스TV"
    }
   ],
   "money": [
@@ -900,6 +900,20 @@
     "date": "Thu, 16 Jul 2026 21:40:00 GMT",
     "summary": "",
     "source": "뉴스1"
+   },
+   {
+    "title": "\"지원금도 '원클릭' 시대\"…中企·소상공인 지원도 서비스 경쟁",
+    "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1mSktqczd0MmFNWFVhdGlKVkZIUUdwUzhBOTdHbUJrYWZMQ2M2LWxCYWtJd1hyWEZ0eE1zSFljRlY0SExkNTUwVmZMZ3JST0c1bU5F?oc=5",
+    "date": "Thu, 16 Jul 2026 21:40:00 GMT",
+    "summary": "",
+    "source": "네이트"
+   },
+   {
+    "title": "바둑이 홀덤 의 최고 선택: 2026년 톱 10 비교 분석 - 장단점 비교 분석",
+    "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNaWlSYkxXQzlBM2pFa3R6cmp4cHBCLTEzZmkwdGRHY3h0VVpZY1Jia2ZxNjY3N1I4cHo3MWtWZ0lrcFpCYWJCTzFyTmRFMUhRNUk4OGFsTWJQczFvR2pHbE1JczFNNTdoZUFqcHlJQnRiMmtaYjRnWThmY3FLV1R5eUxLczI5eU96TEhj?oc=5",
+    "date": "Wed, 15 Jul 2026 21:03:46 GMT",
+    "summary": "",
+    "source": "Калининградский морской рыбопромышленный колледж"
    },
    {
     "title": "\"소상공인 정책자금, 희망인가 희망고문인가\"",
@@ -1047,20 +1061,6 @@
     "date": "Fri, 13 Mar 2026 07:00:00 GMT",
     "summary": "",
     "source": "v.daum.net"
-   },
-   {
-    "title": "소상공인 바우처 신청 및 사용 방법",
-    "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFA3VGVIM1RiWlBmdWhQZFVkNG5oeDNmcHdrQkNGWm9aSFVCZ3J1NUpodjdGS0x3TmtxOG5ZOTRSeHZHV1Awb25zS00zRQ?oc=5",
-    "date": "Fri, 13 Mar 2026 07:00:00 GMT",
-    "summary": "",
-    "source": "v.daum.net"
-   },
-   {
-    "title": "속초시, 소상공인 생애 첫 창업지원금 대상 모집",
-    "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBRUGJoT2Q1ZnZnSmVzWnA5SzZYQ09wU3pCdmpjNXhfdDZQQVFPdTVTRThvLTZBeEZRT1BleElKV0pjc2F0Ui1jVkE2NHdZLXJJX2RGZTFFUFFCcjBWRDZCM2hNdjg?oc=5",
-    "date": "Tue, 10 Mar 2026 07:00:00 GMT",
-    "summary": "",
-    "source": "G1방송"
    }
   ],
   "guide": [
