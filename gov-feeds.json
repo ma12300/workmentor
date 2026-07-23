@@ -1,14 +1,7 @@
 {
- "updatedAt": "2026-07-23T19:36:32.018Z",
+ "updatedAt": "2026-07-23T20:44:09.051Z",
  "groups": {
   "tax": [
-   {
-    "title": "체납자 집에서 쏟아진 현금·수표 10억…국세청·관세청 합동수색",
-    "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1vbUNUQ1pjVno2d3dWam9FOXVLbGEwNTJCRmFWa092dHVWc2t5TGdMUjEzblhHRTBMWGZ6SnlHZk1sMklxQ01BdHY1UFBuOFpjNjU2aVA1NG13bDhLV0p6Wk1UT2VXcXB3?oc=5",
-    "date": "Thu, 23 Jul 2026 16:40:00 GMT",
-    "summary": "",
-    "source": "CBC뉴스"
-   },
    {
     "title": "국세청·관세청, 공조 수사로 악성 체납자 은닉 재산 13억 원 압류",
     "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5oZ3E0UlVnSUJjdUc1YkNTZ3RXdVB5LXZ3OUZrbUNhd0Z3SDNuc1NHRkcyNWptQ1NsU0lxYm8xUVB4c29xN3A0NWIwOFBPMnZmbFI0alRjQzZMZjZxWWVsSFhjTjQ?oc=5",
@@ -176,9 +169,23 @@
     "date": "Thu, 23 Jul 2026 05:07:32 GMT",
     "summary": "",
     "source": "뉴스후플러스"
+   },
+   {
+    "title": "[단독] 국세청, 전국 조사국장 긴급 회의서 ‘비정기 세무조사 실효성 강화’ 논의",
+    "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBFN3JiWVgyMWVLMEZqWlMwQ0ZoS3ItdTJGSHItTUxzQmZZTFNvM2NxYW5lUnVmRHJvWlFFWlBQSVQ1UFkwWDR6dzZmcFdseUh5OVNrVUtsSnIwQWVSaThLN1hmYTMxT0hUQnfSAWxBVV95cUxOVjJTU1VsOXJ0cTg1SWZxaTh2VlV1cERvTzZMYi1PdXpiWkd3dnRpbEtCNkdWRy1QMmFOdVpMS2JVM0hldVo1WmRjcHZTSTR2cG5VVlF5Nks1U0l4MXpvSnBRZkt0Q0twaG1uUkc?oc=5",
+    "date": "Thu, 23 Jul 2026 04:55:38 GMT",
+    "summary": "",
+    "source": "필드뉴스"
    }
   ],
   "labor": [
+   {
+    "title": "여수시, 고용위기지역 지정 신청으로 석유화학 고용불안 대응 강화",
+    "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE04a01KTmdUTnpMdlZMYjNjLUpxNHVQbHdwdlhnRnl1dEdxS3lRVWNjWkpPeXFjcHNReldQdDdvMzRfUTBITEVPSFN3?oc=5",
+    "date": "Thu, 23 Jul 2026 19:30:00 GMT",
+    "summary": "",
+    "source": "국민뉴스"
+   },
    {
     "title": "강원시멘트산업·노동부, 전국 최초 지역상생협약 체결",
     "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9CcjZhbE0zbzhFWlpmV18zeHExRmJDZk9LeWxvNWhqRE5Sbm03a0MxSFRNNUpBTG9jSjVDazgwLUxkVzVZNlZsS2FOSHRfenc?oc=5",
@@ -327,6 +334,13 @@
     "source": "연합뉴스"
    },
    {
+    "title": "'석유화학산업 고용 불안 대응 강화'...여수시, '고용위기지역' 지정 신청",
+    "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBMaGlZRS1FdVd5RmgzVkdTV1dXNDVHSi1PaWhlZnBaU2Roam9uVzdhZ1FwUnZFTVhwam1KOFZxc2d0NG00SUF2b2VmLXBxYmJpWXlWZ2JkemdTQQ?oc=5",
+    "date": "Thu, 23 Jul 2026 06:31:56 GMT",
+    "summary": "",
+    "source": "파이낸셜뉴스"
+   },
+   {
     "title": "강원특별자치도, 전국 최초 시멘트산업 상생협약 체결",
     "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBES0xWUDhEU3cwMm1leXlyS2hUZmdDU29DX2N0MUJXVkdpQ1VReHRDZEtWNzNkWGdURFNaNlE5SzFDTUNJVjFpNWtqTDRDYzJCYmlyNTZRR2xoUHcybGIxem9B?oc=5",
     "date": "Thu, 23 Jul 2026 06:30:07 GMT",
@@ -339,20 +353,6 @@
     "date": "Thu, 23 Jul 2026 06:16:00 GMT",
     "summary": "",
     "source": "네이트"
-   },
-   {
-    "title": "\"여수시 고용위기지역으로\"…전남광주특별시, 고용노동부에 신청",
-    "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE02bWJnNC1sU0oyVzIzQml3VXFlbzJ5cnIzci1jZHRiSk5LYmxjaFNOeWR1WkdxNTVQZ0hTMl9JVnBDS0dYZUQwOVdnVldMVHQ0YnNlWDB0dzRHZzVrUnlJ?oc=5",
-    "date": "Thu, 23 Jul 2026 06:09:22 GMT",
-    "summary": "",
-    "source": "뉴스1"
-   },
-   {
-    "title": "노동부·강원도·시멘트 원하청, 상생협력 협약",
-    "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE0xN2Q3UU1Cc2N2ZndjZGhrUHNzQ2tyTUtxaERBV1pCRUs1c1V2V0hIY1hLU0JUYUp1dlFrTmlHOUJ1eHNPLWNQaFQxNA?oc=5",
-    "date": "Thu, 23 Jul 2026 06:04:17 GMT",
-    "summary": "",
-    "source": "뉴스1"
    }
   ],
   "law": [
@@ -781,6 +781,13 @@
     "source": "보건신문"
    },
    {
+    "title": "호식이두마리치킨, '2026 한국의 최고 경영대상' 사회공헌 부문 대상과 혁신기업 부문 중기부 장관상 수상…2관왕 기록",
+    "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1USU9HN3Rfa0dCbmh1cGxTcDFNVUt6aUxlZzM3X2NCeFRVQlVrNFRNQVlRMjVZNmZWRkZaTWZJRW1UOHMydmJ2TUU1R1ZUeGhGTm92dHQ3MmJnSDF1ZnFzMW5WaGZ2eEtDZXhZaA?oc=5",
+    "date": "Thu, 23 Jul 2026 07:24:11 GMT",
+    "summary": "",
+    "source": "파이낸스투데이"
+   },
+   {
     "title": "중기부, 스마트제조기술산업 특수분류 제정…24일부터 시행",
     "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9ZY2xEQVFFc1JsMFpzc09hUFdXN1hCb2xHRVpTNkZkZ2J1YnVMZHNJdEY5VllPVnV0LUVnYjdQazNFWE9RdXJJOTZnWlczMU0?oc=5",
     "date": "Thu, 23 Jul 2026 07:16:38 GMT",
@@ -851,13 +858,6 @@
     "source": "경기일보"
    },
    {
-    "title": "K-뷰티·반도체가 견인한 중기 수출… 상반기 첫 600억 달러 돌파",
-    "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBNWHQ0YVlzOUV5MlRMc3k3cEpGRW9PRmJEY0JscENNdHJxZXFaa3A2MXB0N3pFYVpkWmtjTTZXZktTSVhXRDRvZzl0dDNDYm1xMk1KcnVQZ3czRjRWNU9nUWF4UUJTbzFfMzdnaHoyWQ?oc=5",
-    "date": "Thu, 23 Jul 2026 05:39:00 GMT",
-    "summary": "",
-    "source": "대전일보"
-   },
-   {
     "title": "중기부, 스마트제조기술산업 특수분류 제정",
     "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5ObEVnTF8waEZyejJfMDlGU2U5N2VITVVzTnNtWWZjaHAwZXdmM3dJYTA5OEV6UXJTNjd4NkVMcEJJTG9INWM3LU9xUGxDTzQ?oc=5",
     "date": "Thu, 23 Jul 2026 05:18:32 GMT",
@@ -879,11 +879,11 @@
     "source": "테크M"
    },
    {
-    "title": "상반기 중소기업 수출 첫 600억 달러 돌파…K-뷰티 날개",
-    "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE8xRmhUU1VWOURwMHN5QXB0OW9DdVhYLWpSVUpnWGxPc0NBMkJZNkZjaEVxMlBkMHJHMnlMYXVPQXBya1JzdTNuWW9jNWNPSXRodTdzTmc4SXI2VkV1SzVrNE9qX2lvbGM?oc=5",
-    "date": "Thu, 23 Jul 2026 04:12:00 GMT",
+    "title": "26년 상반기 중기 수출, 첫 600억 달러 돌파…K뷰티 날았다",
+    "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9pYlNTWG5wTFBqSG5EeExuYW1PZzlpSHFXS0M5Y08xd0s3WlZRWjZrTk5UMG9qcGtwTDFPN2JpbE1IbktVOXo2NHpNQnZ3S3c?oc=5",
+    "date": "Thu, 23 Jul 2026 04:37:51 GMT",
     "summary": "",
-    "source": "연합뉴스TV"
+    "source": "와우테일"
    }
   ],
   "money": [
