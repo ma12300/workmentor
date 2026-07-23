@@ -2,6 +2,15 @@
  {
   "date": "2026-07-24",
   "kind": "market",
+  "edition": "아침판",
+  "title": "7월 24일 (금) 투자 브리핑 · 아침판",
+  "file": "briefings/2026-07-24-market-아침판.pdf",
+  "top": "[속보] 다우존스·나스닥·S&P500 일제히 약세…테슬라·알파벳A 주가 하락, 인텔 실적 발표 '촉각' - CBC뉴스",
+  "count": 15
+ },
+ {
+  "date": "2026-07-24",
+  "kind": "market",
   "edition": "자정판",
   "title": "7월 24일 (금) 투자 브리핑 · 자정판",
   "file": "briefings/2026-07-24-market-자정판.pdf",
