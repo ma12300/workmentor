@@ -42,8 +42,13 @@
   --gold-soft: #FBF3E0;
   --brand: #F97B33;        /* 워크멘토 브랜드 오렌지 (밝은 톤) */
   --brand-deep: #E06423;
-  --char: #524D46;         /* 밝은 웜그레이 (히어로 배경) */
-  --char-deep: #423E38;
+  --char: #65615A;         /* 밝은 웜그레이: 메뉴·히어로·기업 등록 버튼 공통 */
+  --char-deep: #55514D;
+  /* 메뉴·히어로·상단 기업 등록 버튼이 동일한 배경을 직접 공유합니다. */
+  --wm-main-surface:
+    repeating-linear-gradient(115deg, rgba(255,255,255,0.05) 0 1px, transparent 1px 84px),
+    repeating-linear-gradient(65deg, rgba(255,255,255,0.035) 0 1px, transparent 1px 84px),
+    linear-gradient(180deg, var(--char) 0%, var(--char-deep) 100%);
   --line: #E2E5EE;
   --white: #FFFFFF;
   --danger: #C2402A;
@@ -80,7 +85,20 @@ html, body { max-width: 100%; overflow-x: hidden; }
 .topbar-in { max-width: 1160px; margin: 0 auto; padding: 8px 20px; display: flex; align-items: center; gap: 8px; flex-wrap: wrap; }
 .logo { order: 1; }
 .authArea { order: 2; margin-left: auto; }
-#ctaMain { order: 3; }
+#ctaMain {
+  order: 3;
+  background: var(--wm-main-surface);
+  color: #fff;
+  border: 1px solid rgba(255,255,255,0.16);
+  box-shadow: 0 5px 14px rgba(54,51,47,0.18);
+}
+#ctaMain:hover {
+  background:
+    linear-gradient(180deg, rgba(249,123,51,0.14), rgba(249,123,51,0.03)),
+    var(--wm-main-surface);
+  border-color: rgba(249,123,51,0.72);
+  box-shadow: 0 6px 16px rgba(54,51,47,0.20), 0 0 0 1px rgba(249,123,51,0.12);
+}
 .logo { font-weight: 800; font-size: 21px; color: var(--navy); letter-spacing: -0.02em; margin-right: 14px; white-space: nowrap; }
 body:not(.wm-admin-mode) { -webkit-user-select: none; user-select: none; }
 input, textarea, [contenteditable] { -webkit-user-select: text !important; user-select: text !important; }
@@ -106,15 +124,14 @@ nav {
   flex-wrap: nowrap;
   margin-top: 7px;
   padding: 3px;
-  border: 1px solid rgba(26,34,51,0.56);
+  border: 1px solid rgba(255,255,255,0.10);
   border-radius: 12px;
   overflow: hidden;
-  background:
-    linear-gradient(90deg, rgba(249,123,51,0.05), transparent 18%, transparent 82%, rgba(249,123,51,0.05)),
-    linear-gradient(180deg, #252930 0%, #171A1F 100%);
+  /* 히어로와 같은 변수 하나를 사용하므로 기본 메뉴색이 정확히 일치합니다. */
+  background: var(--wm-main-surface);
   box-shadow:
-    0 10px 24px rgba(23,38,75,0.16),
-    inset 0 1px 0 rgba(255,255,255,0.08);
+    0 10px 24px rgba(54,51,47,0.14),
+    inset 0 1px 0 rgba(255,255,255,0.11);
 }
 nav::before,
 nav::after {
@@ -266,10 +283,7 @@ h2.section { font-weight: 800; font-size: 24px; color: var(--navy); letter-spaci
 .hero {
   position: relative;
   overflow: hidden;
-  background:
-    repeating-linear-gradient(115deg, rgba(255,255,255,0.05) 0 1px, transparent 1px 84px),
-    repeating-linear-gradient(65deg, rgba(255,255,255,0.035) 0 1px, transparent 1px 84px),
-    linear-gradient(180deg, var(--char) 0%, var(--char-deep) 100%);
+  background: var(--wm-main-surface);
   border-radius: 16px;
   padding: clamp(26px, 5vw, 50px) clamp(20px, 5vw, 56px);
   color: #E7E3DC;
@@ -1640,8 +1654,30 @@ footer select { border: 1px solid var(--line); border-radius: 6px; padding: 4px 
 </footer>
 
 <script>
-/* 클릭재킹 방어: 워크멘토가 남의 사이트 iframe에 갇히면 즉시 탈출 */
-if (window.self !== window.top) { try { window.top.location = window.self.location; } catch (_) { document.documentElement.style.display = "none"; } }
+/*
+ * 클릭재킹 방어
+ * - 실제 워크멘토 운영 주소에서만 iframe 차단을 실행합니다.
+ * - PC의 로컬 파일 및 ChatGPT 같은 안전한 파일 미리보기에서는 화면을 숨기지 않습니다.
+ * - 운영 사이트가 다른 출처의 iframe에 삽입되면 최상위 창으로 탈출하고,
+ *   브라우저가 이동을 막는 경우에만 삽입된 화면을 비웁니다.
+ */
+(() => {
+  const productionHosts = new Set([
+    "workmentor.co.kr",
+    "www.workmentor.co.kr"
+  ]);
+
+  const isProduction = productionHosts.has(window.location.hostname);
+  const isEmbedded = window.self !== window.top;
+
+  if (!isProduction || !isEmbedded) return;
+
+  try {
+    window.top.location.replace(window.location.href);
+  } catch (_) {
+    document.documentElement.style.display = "none";
+  }
+})();
 </script>
 <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
 
