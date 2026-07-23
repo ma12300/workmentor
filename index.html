@@ -68,26 +68,19 @@ img { max-width: 100%; }
 html, body { max-width: 100%; overflow-x: hidden; }
 
 /* ---------- 상단 바 ---------- */
-.topbar { position: sticky; top: 0; z-index: 50; background: var(--white); border-bottom: 1px solid var(--line); }
+.topbar {
+  position: sticky;
+  top: 0;
+  z-index: 50;
+  background: rgba(255,255,255,0.97);
+  border-bottom: 1px solid var(--line);
+  -webkit-backdrop-filter: blur(14px);
+  backdrop-filter: blur(14px);
+}
 .topbar-in { max-width: 1160px; margin: 0 auto; padding: 8px 20px; display: flex; align-items: center; gap: 8px; flex-wrap: wrap; }
 .logo { order: 1; }
 .authArea { order: 2; margin-left: auto; }
 #ctaMain { order: 3; }
-@media (max-width: 720px) {
-  .topbar-in { padding-left: 13px; padding-right: 13px; }
-  nav { display: grid; grid-template-columns: repeat(4, 1fr); gap: 1px; background: rgba(255,255,255,0.4); border-radius: 12px; }
-  body.is-home nav { border-radius: 12px 12px 0 0; }
-  nav button { min-width: 0; border-right: none; padding: 7px 2px 6px; }
-  nav .nt { font-size: 11.5px; font-weight: 500; letter-spacing: -0.02em; }
-  nav .ns { font-size: 8px; margin-top: 1px; }
-  nav button.locked .ns::after { font-size: 7px; }
-  #ctaMain { padding: 7px 9px; font-size: 12px; }
-  .authbtn { padding: 5px 8px; font-size: 11.5px; }
-}
-@media (max-width: 420px) {
-  nav button { padding: 8px 1px 7px; }
-  nav .nt { font-size: 10.5px; }
-}
 .logo { font-weight: 800; font-size: 21px; color: var(--navy); letter-spacing: -0.02em; margin-right: 14px; white-space: nowrap; }
 body:not(.wm-admin-mode) { -webkit-user-select: none; user-select: none; }
 input, textarea, [contenteditable] { -webkit-user-select: text !important; user-select: text !important; }
@@ -101,30 +94,151 @@ input, textarea, [contenteditable] { -webkit-user-select: text !important; user-
 }
 .logo { cursor: pointer; }
 .logo .accent { color: var(--brand); }
-nav { order: 4; flex-basis: 100%; display: flex; flex-wrap: wrap; margin-top: 7px; border-radius: 10px; overflow: hidden; }
-nav button { flex: 1 1 0; min-width: 96px; background: var(--brand); border: none; border-right: 1px solid rgba(255,255,255,0.28); padding: 7px 6px 6px; color: #fff; text-align: center; }
+/* ---------- Signal Rail: 한 줄 사이버틱 메뉴 ---------- */
+nav {
+  order: 4;
+  flex: 1 0 100%;
+  width: 100%;
+  min-width: 0;
+  position: relative;
+  isolation: isolate;
+  display: flex;
+  flex-wrap: nowrap;
+  margin-top: 7px;
+  padding: 3px;
+  border: 1px solid rgba(26,34,51,0.56);
+  border-radius: 12px;
+  overflow: hidden;
+  background:
+    linear-gradient(90deg, rgba(249,123,51,0.05), transparent 18%, transparent 82%, rgba(249,123,51,0.05)),
+    linear-gradient(180deg, #252930 0%, #171A1F 100%);
+  box-shadow:
+    0 10px 24px rgba(23,38,75,0.16),
+    inset 0 1px 0 rgba(255,255,255,0.08);
+}
+nav::before,
+nav::after {
+  content: "";
+  position: absolute;
+  z-index: 3;
+  top: 0;
+  width: 58px;
+  height: 1px;
+  pointer-events: none;
+  background: var(--brand);
+  box-shadow: 0 0 14px rgba(249,123,51,0.72);
+}
+nav::before { left: 14px; }
+nav::after { right: 14px; }
+nav button {
+  position: relative;
+  flex: 1 1 0;
+  min-width: 0;
+  min-height: 58px;
+  padding: 13px 7px 9px;
+  border: none;
+  border-right: 1px solid rgba(255,255,255,0.075);
+  background: transparent;
+  color: #F3F5F8;
+  text-align: center;
+  overflow: hidden;
+}
 nav button:last-child { border-right: none; }
-nav button:hover { background: var(--brand-deep); }
-nav .nt { display: block; font-size: 13px; font-weight: 400; letter-spacing: -0.01em; white-space: nowrap; }
-nav .ns { display: block; font-size: 9px; margin-top: 2px; color: rgba(255,255,255,0.78); font-weight: 400; }
-nav button.locked .ns::after { content: "🔒"; font-size: 8.5px; margin-left: 3px; }
-nav button.on { background: var(--char); }
-nav button.on .nt { font-weight: 700; }
+nav button::before {
+  content: attr(data-index);
+  position: absolute;
+  top: 7px;
+  left: 8px;
+  color: rgba(255,255,255,0.30);
+  font: 600 7px/1 var(--mono);
+  letter-spacing: 0.08em;
+}
+nav button::after {
+  content: "";
+  position: absolute;
+  right: 50%;
+  bottom: 6px;
+  left: 50%;
+  height: 2px;
+  border-radius: 2px;
+  background: var(--brand);
+  box-shadow: 0 0 12px rgba(249,123,51,0.74);
+  opacity: 0;
+  transition: left 0.2s ease, right 0.2s ease, opacity 0.2s ease;
+}
+nav button:hover {
+  color: #FFFFFF;
+  background: linear-gradient(180deg, rgba(249,123,51,0.12), rgba(249,123,51,0.025) 72%, transparent);
+}
+nav button:hover::after { right: 24%; left: 24%; opacity: 0.54; }
+nav button:focus-visible { z-index: 4; outline: 2px solid var(--brand); outline-offset: -3px; }
+nav .nt { display: block; font-size: 13px; font-weight: 700; letter-spacing: -0.015em; white-space: nowrap; }
+nav .ns {
+  display: block;
+  margin-top: 3px;
+  color: rgba(255,255,255,0.46);
+  font: 600 8px/1.2 var(--mono);
+  letter-spacing: 0.07em;
+  white-space: nowrap;
+}
+nav button.locked .ns::after { content: " · LOCK"; color: rgba(249,123,51,0.76); font-size: 7px; margin-left: 2px; }
+nav button.on {
+  color: #FF9B67;
+  background: linear-gradient(180deg, rgba(249,123,51,0.17), rgba(249,123,51,0.035) 68%, transparent);
+}
+nav button.on::before { color: rgba(255,155,103,0.80); }
+nav button.on::after { right: 14px; left: 14px; opacity: 1; }
+nav button.on .nt { font-weight: 800; text-shadow: 0 0 14px rgba(249,123,51,0.22); }
+nav button.on .ns { color: rgba(255,190,155,0.68); }
 .cta { background: var(--navy); color: #fff; border: none; border-radius: 8px; padding: 9px 15px; font-size: 13.5px; font-weight: 700; white-space: nowrap; }
 .cta:hover { background: #0F1A38; }
 .cta.gold { background: var(--gold); }
 
 .wrap { max-width: 1160px; margin: 0 auto; padding: 30px 20px 90px; }
-nav button, .cta, .authbtn, .fsave, .filebtn, .btn-blue, .btn-gold, .btn-ghost { transition: transform 0.12s ease, background 0.15s ease, box-shadow 0.15s ease; }
-nav button:active, .cta:active, .authbtn:active, .fsave:active, .btn-blue:active, .btn-gold:active { transform: scale(0.97); }
+nav button, .cta, .authbtn, .fsave, .filebtn, .btn-blue, .btn-gold, .btn-ghost { transition: transform 0.12s ease, color 0.15s ease, background 0.15s ease, box-shadow 0.15s ease; }
+nav button:active { transform: translateY(1px); }
+.cta:active, .authbtn:active, .fsave:active, .btn-blue:active, .btn-gold:active { transform: scale(0.97); }
 .cocard, .card.row { transition: transform 0.15s ease, box-shadow 0.15s ease, border-color 0.15s ease; }
 .cocard:hover, .card.row:hover { transform: translateY(-2px); box-shadow: 0 6px 16px rgba(66, 62, 56, 0.10); }
 .cocard:active, .card.row:active { transform: translateY(0) scale(0.99); }
 @media (prefers-reduced-motion: reduce) { *, *::before, *::after { animation: none !important; transition: none !important; } html { scroll-behavior: auto; } }
+@media (max-width: 900px) and (min-width: 721px) {
+  nav button { padding-right: 3px; padding-left: 3px; }
+  nav .nt { font-size: 11.5px; letter-spacing: -0.03em; }
+  nav .ns { font-size: 7px; letter-spacing: 0.035em; }
+}
+@media (max-width: 720px) {
+  .topbar-in { padding-right: 13px; padding-left: 13px; }
+  nav {
+    overflow-x: auto;
+    overflow-y: hidden;
+    justify-content: flex-start;
+    overscroll-behavior-x: contain;
+    scroll-snap-type: x proximity;
+    scrollbar-width: none;
+    -webkit-overflow-scrolling: touch;
+  }
+  nav::-webkit-scrollbar { display: none; }
+  nav button {
+    flex: 0 0 104px;
+    min-width: 104px;
+    min-height: 56px;
+    padding: 13px 5px 8px;
+    scroll-snap-align: start;
+  }
+  nav .nt { font-size: 11.5px; }
+  nav .ns { font-size: 7.5px; }
+  #ctaMain { padding: 7px 9px; font-size: 12px; }
+  .authbtn { padding: 5px 8px; font-size: 11.5px; }
+}
+@media (max-width: 420px) {
+  nav button { flex-basis: 98px; min-width: 98px; }
+  nav .nt { font-size: 11px; }
+}
 /* 홈: 메뉴 스트립이 대문(히어로) 머리 위에 딱 붙는 한 몸 구성 */
 body.is-home .topbar { border-bottom: none; }
 body.is-home .topbar-in { padding-bottom: 0; }
-body.is-home nav { border-radius: 10px 10px 0 0; }
+body.is-home nav { border-bottom-color: rgba(249,123,51,0.34); border-radius: 12px 12px 0 0; }
 body.is-home .wrap { padding-top: 0; }
 body.is-home .hero { border-radius: 0 0 16px 16px; }
 html { scroll-behavior: smooth; }
@@ -600,15 +714,15 @@ footer select { border: 1px solid var(--line); border-radius: 6px; padding: 4px 
 <div class="topbar">
   <div class="topbar-in">
     <span class="logo" onclick="go('home')" title="홈으로"><svg width="18" height="18" viewBox="0 0 52 52" style="vertical-align:-2px; margin-right:6px;" aria-hidden="true"><rect x="4" y="34" width="14" height="14" fill="#F97B33"/><rect x="18" y="20" width="14" height="28" fill="#F97B33"/><rect x="32" y="4" width="14" height="44" fill="#F97B33"/></svg>Work<span class="accent">Mentor</span></span>
-    <nav id="nav">
-      <button data-page="funds"><span class="nt">지원사업</span><span class="ns">자세히보기</span></button>
-      <button data-page="companies"><span class="nt">기업정보</span><span class="ns">자세히보기</span></button>
-      <button data-page="jobs"><span class="nt">요청공고</span><span class="ns">자세히보기</span></button>
-      <button data-page="lessons"><span class="nt">경영수업</span><span class="ns">자세히보기</span></button>
-      <button data-page="board"><span class="nt">자유게시판</span><span class="ns">자세히보기</span></button>
-      <button data-page="chat"><span class="nt">소통방</span><span class="ns">자세히보기</span></button>
-      <button data-page="plans"><span class="nt">멤버쉽</span><span class="ns">자세히보기</span></button>
-      <button data-page="about"><span class="nt">워크멘토 소개</span><span class="ns">자세히보기</span></button>
+    <nav id="nav" aria-label="주요 메뉴">
+      <button data-page="funds" data-index="01"><span class="nt">지원사업</span><span class="ns">POLICY</span></button>
+      <button data-page="companies" data-index="02"><span class="nt">기업정보</span><span class="ns">COMPANY</span></button>
+      <button data-page="jobs" data-index="03"><span class="nt">요청공고</span><span class="ns">REQUEST</span></button>
+      <button data-page="lessons" data-index="04"><span class="nt">경영수업</span><span class="ns">CLASS</span></button>
+      <button data-page="board" data-index="05"><span class="nt">자유게시판</span><span class="ns">BOARD</span></button>
+      <button data-page="chat" data-index="06"><span class="nt">소통방</span><span class="ns">LOUNGE</span></button>
+      <button data-page="plans" data-index="07"><span class="nt">멤버쉽</span><span class="ns">MEMBER</span></button>
+      <button data-page="about" data-index="08"><span class="nt">워크멘토 소개</span><span class="ns">ABOUT</span></button>
     </nav>
     <span id="authArea" class="authArea"><button class="authbtn" onclick="go('admin')">관리자</button><button class="authbtn" onclick="openAuth('login')">로그인</button><button class="authbtn strong" onclick="openAuth('signup')">회원가입</button></span>
     <button class="cta" id="ctaMain" style="display:none;" onclick="ctaClick()">기업 등록하기</button>
