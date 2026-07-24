@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-07-24T16:58:55.164Z",
+ "updatedAt": "2026-07-24T18:24:39.514Z",
  "groups": {
   "tax": [
    {
@@ -264,6 +264,20 @@
     "source": "열린뉴스통신"
    },
    {
+    "title": "고용노동부 폴리텍, 적십자와 재외동포 자립 힘 모은다",
+    "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE8yOEpuaVNwc2Q1TEFlcG1EdW1aYnhPTmlOODliUFh1ZkV1TS01cExfLWJ2WXUwZ0ZsTzV6WmNhUHFiRkRSMXI2bTd1WmpBR0l6ci1iYUpGVXh0LVdocjNKZGtxYVNzellHTjJJVg?oc=5",
+    "date": "Fri, 24 Jul 2026 05:35:43 GMT",
+    "summary": "",
+    "source": "행정신문"
+   },
+   {
+    "title": "고용노동부 한국기술교육대, 코트디부아르 직업교육 혁신 이끌 리더 키운다",
+    "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBCVnlLeS1ocGRGRmlJMUpIRUg3dk9iODdfaXFieWRycVJoVTdyUlFCbU9nMXVWQmxKQXZCUXJsWE1EY1ZadHY2VENhel9iYUlCTzJkOXhTS0NwamZu?oc=5",
+    "date": "Fri, 24 Jul 2026 05:30:50 GMT",
+    "summary": "",
+    "source": "누리일보"
+   },
+   {
     "title": "취준생 희소식…경력·자격 한 번에 확인하는 시대 열린다",
     "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFB2MWtuSjZMY09Eci1vc09oM2xkQjVJZVZvNVM5VTdvU0gyQV9xdmdPN1JUb1JzajlGMzRnbFRlYlE1Wm9fbWlIRWhzLUs5TENwYlRLbkVXb19WVjVlbGZ5Rk4za2tta2NzX0xLSdIBcEFVX3lxTFB6VEFsSC1fZjl2Z195VlZTYjVEOURIanQ0eGJpYnE0cVpXajl2bjIwQnZUVzdiLS1Pc3dOZ0xXN2h4VHBIblJFSHoxTkxqRGtHUUNkcWg1M2NnRHB5VVdick1Ra2t1aVJRcGQtOXAwSm4?oc=5",
     "date": "Fri, 24 Jul 2026 05:05:00 GMT",
@@ -297,13 +311,6 @@
     "date": "Fri, 24 Jul 2026 05:00:00 GMT",
     "summary": "",
     "source": "네이트"
-   },
-   {
-    "title": "'측정'보다 '위험성평가'… 화학물질 관리체계 대전환 시동",
-    "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9XVE1SQVBjTTEtT0dBRGlOOFRMeUVBRXZXbHhVcDFtVDdtVkxSUm96cjl1Rlk5QXh3eFNVR3Z0LWJGeDRqanhlVmUxY3M2dTQ5bFlwakpHWkRhaFd5clFLWG5ERU5RdkM2VmJoRXo3SQ?oc=5",
-    "date": "Fri, 24 Jul 2026 04:52:20 GMT",
-    "summary": "",
-    "source": "안전신문"
    },
    {
     "title": "노동부, ‘대학교수 노조 정치활동 허용’ 교원노조법 개정 추진 - 조선비즈",
@@ -346,13 +353,6 @@
     "date": "Fri, 24 Jul 2026 04:00:00 GMT",
     "summary": "",
     "source": "뉴스핌"
-   },
-   {
-    "title": "노동부, 산업보건-화학물질 제도 정책포럼 세미나 개최",
-    "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE4tcDltX0I1SXB5OTR4OHpwUk4wS0JuRkE5di1BRDRlZU00bkdSLTVBdFhFaFc4djB0d0d6ZlgzdHZPazBPOS1icUtOSlBlU3c1SHNrcTBRUnhzUTdhTUJDQzVuOEEtbVY0OUpxdtIBcEFVX3lxTFBuRmI2N1Vxd05mZEoxT2hHSEpkb1pUYjJZWlQyM2dlRHFvdHRzbHQ1dlNZd0pLX1RiTXQxOEk5eF9pcFhSRnktSUVPN011QzNzYnBLZ25PT08yM2gzNGt0cktXcWVtZ0thX2ZSb3BUQ04?oc=5",
-    "date": "Fri, 24 Jul 2026 04:00:00 GMT",
-    "summary": "",
-    "source": "전기신문"
    }
   ],
   "law": [
@@ -456,7 +456,7 @@
    },
    {
     "title": "정성호 법무부 장관, 사의 표명…이 대통령 만류",
-    "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1JVFlmWXYzYlZPWTl6WDZBSFRXbzdDdjQ2eFhtTnRlQ3Z6TnktQmdiRmVpSmxwMWR3THpXOHJLa2FlYVo4dGw1UWh2aE1zWGMyUllB?oc=5",
+    "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFB6TjRlTzVGUFE3cGFsd3U0dHpJeVBmdWVNVUcyT2VUMnhRd0JmVUtTUjZVVnZSaHFnVS1KQ3lZdWsxV2dqaElOSGpxcjNKM09LMy01X0wxNXpqRW10cUVPQTl3Q3NjeXlfVHM2bi1TOHlZQ3dSRlFnSXZsRGtBdw?oc=5",
     "date": "Fri, 24 Jul 2026 12:49:00 GMT",
     "summary": "",
     "source": "네이트"
@@ -719,10 +719,10 @@
    },
    {
     "title": "중소벤처기업부, 국경 밖 우리 국민의 창업 도전을 뒷받침한다",
-    "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE5fRW5YNjZxTUJGaTBJemQzbzRQZllDWDdla0loM1VOUEJUaF9TQXowZXlRemcteEZUcUJ6MV93WnpEVklpN1Y2RURhNnc?oc=5",
+    "url": "https://news.google.com/rss/articles/CBMiQ0FVX3lxTE9JUFFfcFpQSTdyUmVDQ3R3NzNhTTRWQTVFMVc4SmpCTE5ZdGIyM3NhRnJlWW9XVzhnZmR6blQydEsxdWs?oc=5",
     "date": "Fri, 24 Jul 2026 07:58:00 GMT",
     "summary": "",
-    "source": "시사일보"
+    "source": "GNN 뉴스통신"
    },
    {
     "title": "중소기업 수출, 상반기 첫 600억달러 돌파…K-뷰티·AI 반도체가 견인",
@@ -774,13 +774,6 @@
     "source": "산경e뉴스"
    },
    {
-    "title": "국경 밖 우리 국민의 창업 도전을 뒷받침한다",
-    "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1RQi03VmthZVFxa1VrT3VuUGdvRk51YS1PUUFnLWlxN0VpRmN1dWl4ME14XzhJZlhBb2Y1Nlc3dzdSd2t0U0dOazFoTHBwZi1GVU45OUhlWHV4Q2hKRlBBa1F3?oc=5",
-    "date": "Fri, 24 Jul 2026 06:02:38 GMT",
-    "summary": "",
-    "source": "서울Pn"
-   },
-   {
     "title": "중기부, 국내 최초 스마트제조기술산업 특수분류 제정",
     "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE9kRFd1UlhpT0pKeXNJbVcxOERvdzg4VkNWeVBjSlpXSE9La3dpYjYyVGNmOXNqTkFHRkN6OFRsMHpVTi1ycUtIZ2JJNA?oc=5",
     "date": "Fri, 24 Jul 2026 05:59:52 GMT",
@@ -809,11 +802,11 @@
     "source": "경제타임스"
    },
    {
-    "title": "중기부, 국경밖 국민창업 지원…1000억원 규모 펀드 출범?",
-    "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9XRE1MdUJqZ2NLMVJYMHM3bk5FRDZFdHk5VGpyNjFPWTdXejFydEdjNlE0ZTA2Rkc0WG1vQlpaamptWElscFFWbklWUmIwM3l1RUFn?oc=5",
-    "date": "Fri, 24 Jul 2026 03:59:00 GMT",
+    "title": "중기부, 국경밖 국민창업 지원...1000억원 규모 펀드 출범",
+    "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5yeHhBSElOSkphY3I5MG4wQ0N4T2QwNDZzZ3Vza3V4Ylc4enFuTDI3UmZhRjhBWGdJVGxObVFqckhvNkdHR0h5d2ZpcjJOVU0?oc=5",
+    "date": "Fri, 24 Jul 2026 03:58:23 GMT",
     "summary": "",
-    "source": "네이트"
+    "source": "v.daum.net"
    },
    {
     "title": "중기부, 국경밖 국민창업 지원...1000억원 규모 펀드 출범",
@@ -835,13 +828,6 @@
     "date": "Fri, 24 Jul 2026 03:01:00 GMT",
     "summary": "",
     "source": "네이트"
-   },
-   {
-    "title": "중기부, 미국서 'K파운더스 커넥트' 개최…\"창업 도전 뒷받침\"",
-    "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1aeWVmTmwzSmZvSGF2aHo2UkZSN3RldTVwZS1QRVNtOUQ1V1BhX1I5NVRSVXBaUTRtUmtPRTJUaTVVOE9HZHBWWHRDV1lMS3hUSlE?oc=5",
-    "date": "Fri, 24 Jul 2026 03:00:01 GMT",
-    "summary": "",
-    "source": "매일경제 마켓"
    },
    {
     "title": "\"해외 한인 창업가도 지원\"…중기부, 1000억원 'K-파운더 펀드' 출범",
@@ -884,6 +870,20 @@
     "date": "Fri, 24 Jul 2026 02:37:00 GMT",
     "summary": "",
     "source": "IT비즈뉴스"
+   },
+   {
+    "title": "콜로세움, 중기부 '온라인수출 중소기업 물류 지원사업' 수행기관 선정",
+    "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9vNkY0Uk9XVWREbXlOTDNDa3FTTzRiSmZSRlRPTlFqVmdmZk9QcWNKRmx0R1pyZV94N08waEt0Yjh5NmZRbWloZlhmX3lNWFRpVk9B?oc=5",
+    "date": "Fri, 24 Jul 2026 02:18:00 GMT",
+    "summary": "",
+    "source": "네이트"
+   },
+   {
+    "title": "콜로세움, 중기부 ‘온라인수출 중소기업 물류 지원사업’ 수행기관 선정",
+    "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9adXpiUWFlUm5fTzdwNmJIcGhwcFBiMFhsQVBITU9wWnRVa2tQbm9CMlIxNVdZSUZfUlh2eXhPMWgxZldtSUxXd1dQNmlpaElpc3R4bF9B?oc=5",
+    "date": "Fri, 24 Jul 2026 02:17:45 GMT",
+    "summary": "",
+    "source": "매일경제"
    }
   ],
   "money": [
@@ -1121,6 +1121,13 @@
     "source": "타임뉴스"
    },
    {
+    "title": "심욱기 대전국세청장, 부가세 신고현장 점검…고환율 피해 납세자 등 세정지원",
+    "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5uRVVSTVBOcTlTN2ZXTGFYSzZZbjJQeTZVckpodUpLNmFUU2w0QkY1SHZlbDBYYUFKa1VOcFVCcVZOT1NIX0xiUFlXTUxGYkotaGtLN1hGRWM4cmxsV3k4Uk0xVjJkbzFlbjJRU01lbVRkSmPSAXNBVV95cUxObkVVUk1QTnE5UzdmV0xhWEs2WW4yUHk2VXJKaHVKSzZhVFNsNEJGNUh2ZWwwWGFBSmtVTnBVQnFWTk9TSF9MYlBZV01MRmJKLWhrSzdYRkVjOHJsbFd5OFJNMVYyZG8xZW4yUVNNZW1UZEpj?oc=5",
+    "date": "Thu, 23 Jul 2026 09:13:54 GMT",
+    "summary": "",
+    "source": "대전일보"
+   },
+   {
     "title": "심욱기 대전국세청장, 부가세 신고 현장 직접 챙긴다",
     "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE11QUR4UGJfNVJIYmIyX0ZWaEZuUU51VmVfUVZ3c3JoNmdEUXdiMTFMY09MWkdrQkoyUU8zXy1vbjFUTEZQSUh3cWZWVkZGTWd6c1lYQzZ3c3VKMkx5REdHTFdFZEJrMUE?oc=5",
     "date": "Thu, 23 Jul 2026 08:57:40 GMT",
@@ -1128,15 +1135,8 @@
     "source": "팍스경제TV"
    },
    {
-    "title": "심욱기 대전국세청장, 부가세 신고현장 점검…고환율 피해 납세자 등 세정지원",
-    "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5jVmFCbEV0NDB5Qlk1aUJ6WUdCOWUxaVRtaWNjaTJGSTJ5UHBZUUtnM0MxMllhek9wLWsyTXN1ZUc1SWtJZEduZVNzSGtRbUk?oc=5",
-    "date": "Thu, 23 Jul 2026 08:47:51 GMT",
-    "summary": "",
-    "source": "v.daum.net"
-   },
-   {
     "title": "심욱기 대전청장 \"납세자 눈높이 맞춰 부가세 신고 불편없도록\"",
-    "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFA0dXppOEp5Um1FZjQycXQwVUU2dDlUUXpHMnlNX3NRaHVqNFg1XzBEblhCN1E0SHNiXzhnLS1GekVZRkY3aTd1ODIzTGRNNWlMN0thT0tZcHV5dU9wWjExaDBjanc?oc=5",
+    "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1pZ1d4QXBiZzFFSU15WG53OHlYdFhQSWh5d1dXWHNTMHllUzUtS3o4MUpDRkNBZ1lQYVlWWk1PcHJJVzVfWWhXMDhyT3p2blY5NjA2WEliYTFhR0kxb0tMNHFkQQ?oc=5",
     "date": "Thu, 23 Jul 2026 08:41:40 GMT",
     "summary": "",
     "source": "한국세정신문"
@@ -1147,13 +1147,6 @@
     "date": "Thu, 23 Jul 2026 08:07:52 GMT",
     "summary": "",
     "source": "세정일보"
-   },
-   {
-    "title": "심욱기 대전국세청장, 일선 세무서 방문…부가세 신고현장 점검",
-    "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9fODFvVTZsM1d4Z21rdVNoRk8yVGI5SlNEYVVDMVRPRFo1RnRKOTdsanFOY1VVdzg4aktrSlA4XzVxSzJSMGpNV3BQWmR4YktyTlFz?oc=5",
-    "date": "Thu, 23 Jul 2026 07:47:00 GMT",
-    "summary": "",
-    "source": "네이트"
    },
    {
     "title": "부가세 신고 27일 마감…전문가 \"공제 누락·가산세 주의\"",
@@ -1238,6 +1231,13 @@
     "date": "Tue, 21 Jul 2026 07:14:37 GMT",
     "summary": "",
     "source": "세정일보"
+   },
+   {
+    "title": "양철호 광주국세청장, 부가세·체납관리단 점검",
+    "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5RYzBHZXpGUnFicTJqcU5ia09FQnlmWm92Ty1NNENZc1d2WWdwZGtzLXRqTXFJblFIUG5aOFp3NGhienF6NHVyLWlQOEJYTi1EZzVuNU9walRQQTTSAWBBVV95cUxNTXNGMm1TeUJtVzlEcjlpNmZWS09kZk82bTdfa2VWN0ZHRzM0QjczZUNJY1RZWjd2Z3AzMHJXazYxRjAwel9yMi03MTJhbTV2OUhDSEw1ejdpUVVCXzhDMTE?oc=5",
+    "date": "Tue, 21 Jul 2026 06:50:22 GMT",
+    "summary": "",
+    "source": "연합뉴스"
    }
   ]
  }
