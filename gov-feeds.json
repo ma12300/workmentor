@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-07-24T22:28:38.389Z",
+ "updatedAt": "2026-07-24T23:36:05.875Z",
  "groups": {
   "tax": [
    {
@@ -115,13 +115,6 @@
     "source": "타임뉴스"
    },
    {
-    "title": "국세청, \"그 때도 힘(力) 못 쓰던 인사권한 등...지금은 오죽 하겠는가(?)\"",
-    "url": "https://news.google.com/rss/articles/CBMiQEFVX3lxTE9GM1lqOE56bV9lN3ZuVF9rREJTTllkVmVRbEI2eWg1ZjlBS2VKV1NRZjFSMkxLb1E4V2hta2xiTTI?oc=5",
-    "date": "Thu, 23 Jul 2026 10:40:00 GMT",
-    "summary": "",
-    "source": "온투데이"
-   },
-   {
     "title": "국세청, '130조 체납' 전국 전수 실태조사 착수",
     "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9vR19sTFk3LWtSZjZyVGN0NXZWSU1IVEpLUTROeEc2WTF1dTJ5ZjFraGlGaElBWlY2aHBKdnoyMURtVnBJZXE0bThnS05uZC00RFREUA?oc=5",
     "date": "Thu, 23 Jul 2026 10:29:37 GMT",
@@ -176,6 +169,13 @@
     "date": "Thu, 23 Jul 2026 06:51:21 GMT",
     "summary": "",
     "source": "하나뉴스"
+   },
+   {
+    "title": "[조세금융TV] 제1회 조세정책 TF콜로키움...국세청, '세무조사 기간선택제' 설명회",
+    "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBaVXd6ZFFtOGhnSEJGNjlHQ2tzbUY2cmFGR29sLXZ0c1RLeGNUWDJwYlRxc25SZFFlWlZxVl9vcDZaVWMtM2lfQjkzTWMwMkl3Y2p3X3duQVhVV3FPUHJnU1hDcw?oc=5",
+    "date": "Thu, 23 Jul 2026 06:43:19 GMT",
+    "summary": "",
+    "source": "조세금융신문"
    }
   ],
   "labor": [
@@ -201,11 +201,11 @@
     "source": "브릿지경제"
    },
    {
-    "title": "취업 서류 일일이 떼던 시대 끝… 고용노동부, '고용24 통합경력증명' 전격 개시",
-    "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5ZaXVqRVdmaEdoSVByTzJjSlN0VEpPcVM3YnhBTkF5WkE4UnJvanEzZWZpZ1FnZ24wLVNuVHlDTFdFTTZ3ZTgwbGZvS2pyWnQ5cTRsTm42RkVIMy1zRUxmR0FocXdHWTlXMFZ1MnExbw?oc=5",
-    "date": "Fri, 24 Jul 2026 11:29:55 GMT",
+    "title": "현대중공업 군산 조선소서 끼임 사고…30대 하청 노동자 숨져",
+    "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE90MlZvelNfbzR1ZE1pX3ZUNzdoWGRfWXhzYlNEY0Y5dS1sV2ZYV2RmZHZSalFRVFJsdUk2ak1BMUpVN0hsNUhBWnpjMWVIbXdMRmfSAVNBVV95cUxOeDNqX1pKRVo3TzFyczVFNTJaWjZHbXktejlMQ3FsT2tTekFjNXBnS1ZkU0NMUUVSLVdmakdTcGZuTjVjeWJJaHJFeVlhdVFSdVdFcw?oc=5",
+    "date": "Fri, 24 Jul 2026 12:38:28 GMT",
     "summary": "",
-    "source": "대한일보"
+    "source": "서울경제"
    },
    {
     "title": "고용노동부 천안지청, 반도체·디스플레이 안전보건협의회 출범",
@@ -356,6 +356,27 @@
    }
   ],
   "law": [
+   {
+    "title": "한동훈, 정성호 사의 표명에 \"도망간다고 책임 없어지지 않아\"",
+    "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE10RXZzeG9ZVzBBN2I0NW1rSnBZM01QQW1GSDZVT0RrZmgwWWUtNTFKd0c0eHZJNDdzN0dQOG96bm40QmZHVnh1REk3SEdVNm1GVFM2aGxMMHlsQQ?oc=5",
+    "date": "Fri, 24 Jul 2026 22:51:52 GMT",
+    "summary": "",
+    "source": "한국경제"
+   },
+   {
+    "title": "법무부 청소년범죄예방위원 증평지구협·증평인삼씨름단, 사랑 나눔 훈훈",
+    "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBBMEZGRi1qOUpHRFRtSHRtX2xwbURfX3VFbFljLW5qcXppakw3Rk9NbkpCQURsRDNYTHpGeE50bFZDZUlMRmtuLTRfZ2x3bjBla1l4WmdJREJvSkx0VGN6OHRIcGtablkzY0wzZA?oc=5",
+    "date": "Fri, 24 Jul 2026 22:51:43 GMT",
+    "summary": "",
+    "source": "중도일보"
+   },
+   {
+    "title": "정성호 법무부 장관, 사의 표명",
+    "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1uaTZBVldCcmEzU01wdHhWdWhrUWtBanprODNxa3hxcTM5YWIweXBacFk4WGhBWXVTYTd5MHhoN0pzQ2d3dXgxdFJ3bkR3ODc1b2Jvek04bHlDM3c?oc=5",
+    "date": "Fri, 24 Jul 2026 22:34:00 GMT",
+    "summary": "",
+    "source": "KBS 뉴스"
+   },
    {
     "title": "미 법무부, 뉴욕타임스(NYT) 기자 발부 소환장 철회",
     "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5YUTVjb3hseEZUZUFRcnZXRGp3ZjdzWE9GZmYtQ2FkbHVfRkNLeThjazBjY1ZCS0RQeEJFaWl2Z044elFqc0k3V1JiRDBLdjU3NXlOYlJZZ3ZOcmlZaEg3X29fUTJtY1RxNzVJ?oc=5",
@@ -509,30 +530,16 @@
     "date": "Fri, 24 Jul 2026 11:38:37 GMT",
     "summary": "",
     "source": "뉴스1"
-   },
-   {
-    "title": "양주시장, 정성호 법무부장관ㆍ우희종 한국마사회장 만나 과천경마공원 양주 이전 제안",
-    "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9uN09zbVNfZWhXMnZ1QWp0R2dYQWV4WW1jYlpubWtSOHBLVGpSVTNpTTYtc2FOLWgxTWdmdEZwRzFuMkVHaHNiZjlsZDNCRGgtbGxCTWJuYW5jc2dmSnplLXZSMDduQW54dDhiQkVibkI2aEc4?oc=5",
-    "date": "Fri, 24 Jul 2026 10:57:43 GMT",
-    "summary": "",
-    "source": "경기종합뉴스"
-   },
-   {
-    "title": "[단독] 정성호 법무장관, 이 대통령에 직접 사의 표명‥보완수사권 폐지 당론 탓?",
-    "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE14R0M5NWNzOGxiWUFydTdOMmR6allZbjVkcXhWOXNXU3ZocVdSTFdCellyWUxYSlFsdnV4WElBNkFkbjdqdkoxRllES0I1SWx5VndCRXFXcnJmajJrdGtXSmN6UmVIWHNZLXJtZW1DYkUydWp4MXBWMQ?oc=5",
-    "date": "Fri, 24 Jul 2026 10:45:47 GMT",
-    "summary": "",
-    "source": "MBC 뉴스"
-   },
-   {
-    "title": "공정위·전문건설협회, 상위 50개 건설사와 상생협약",
-    "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE80cEdkRDZjb0tnRjQ5V3VwMHJ0QXFMWHJEX3dOMTdIYWdJYU53S1VSQnctb0lsekxYczFJanJrcy1oa1ZYSzM4UlNvYkN3V0pteWtNbDhFM1dkb09FLThuUEdCYUhyUWhjYk1pMy10Ymc?oc=5",
-    "date": "Fri, 24 Jul 2026 09:34:45 GMT",
-    "summary": "",
-    "source": "코리아리포트"
    }
   ],
   "fund": [
+   {
+    "title": "[다음주 한국은행 및 금융위·금감원 일정]",
+    "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1oWXJXbGtUUzNGVzNnRExMaUZtSFdiblVCdG5tLVQ4cG5Sa3MyZDlvX3EtbUVObzVGb0VWMDA4UXBqNFlJQkxrbC1NNnBHRXBOWWlSeVhwTG9HMmFtUnEtbjVmbzVDZGFQT3h1Z3BVUVPSAXRBVV95cUxQTUZWZEQ2dWZPYzlkQVg0RlN3MzNhcGthYzhHeF9mT2pVYndpYVcyeFZpUkI4SHNjT0g2TUhaazNuMURZVnVYMlNmX1gwSlBCN3VXUDg0SzdZbnhBdkpIY0lTY3d4ZWR2b0dBcmVLdEJPdEVVRQ?oc=5",
+    "date": "Fri, 24 Jul 2026 23:00:09 GMT",
+    "summary": "",
+    "source": "연합인포맥스"
+   },
    {
     "title": "李대통령 지적에… 금융위, 레버리지 ‘예탁금 3000만원’ 31일 조기시행",
     "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE0wQzlmei12bWFhLW9EU0N0YlBlbjByZUlJczY2Z1VWbjhBR2o3emVZdnhNaUZmcGE0WlNYYXdud2FtaGNNbDVsMV9PMS1RWkQ2Wk9kVnhtZ2o?oc=5",
@@ -700,13 +707,6 @@
     "date": "Fri, 24 Jul 2026 01:59:36 GMT",
     "summary": "",
     "source": "전국매일신문"
-   },
-   {
-    "title": "'64억원 체납자' 잠가둔 여행 가방에 10억원어치 돈뭉치 가득",
-    "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5icER3YjVkVndjZTNiamNSclFxYWxNRFRQT1BmeERUUHV2UEpUSWVoYnRpdFVJT2k5c3c2NlFPcW92LWtwOUdIRDNWVU4za1FhVllOcV9XSjdVM1g5R0hLcFFLRU5IXzJFTzhfQzl3?oc=5",
-    "date": "Fri, 24 Jul 2026 01:52:41 GMT",
-    "summary": "",
-    "source": "세무사신문"
    }
   ],
   "biz": [
@@ -781,6 +781,13 @@
     "source": "티스토리"
    },
    {
+    "title": "중소벤처기업유통원, 경기침체 속 소상공인 지원 강화",
+    "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1LVmtPb0pydk10eUgwNGZpdk43WnRnUldyeDA0b3V4Y2JybVRaeWRtcXFucHNweFRMenBIcWFNaFZCNXJIWXd2UWZPWmw5TmxpWTR3Z0Jzc3YzMFhsdlNVd2QyVG9HZWZHZHhPSnVsRTBGdkHSAXdBVV95cUxPemU2U0pGdktvbXFFalE2a3hlUjNjemNidTVKem4xdzZoVENVTDFCWlN6TTBKQV92R3FPM3J1dGV2ZjY4ajIzbmp5WTNrdlRpUGhmRmF0RjExS01OWEk1ZVdlVW0yRk1PZFZXS0p6d0RwX3RTX1IxZw?oc=5",
+    "date": "Fri, 24 Jul 2026 05:55:00 GMT",
+    "summary": "",
+    "source": "스트레이트뉴스"
+   },
+   {
     "title": "4족보행 로봇기업 라이온로보틱스 “기정원 연구개발 지원 기업성장 기폭제”",
     "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE82aGpMRy1kWGNXN2NOdVhDakpFNFdhWTFsZnB1UW53WEoycXc1NDJ4eS1zTzlaeDBwVFc2cXFPcnppRVRYaU5salRzaHZfbGV2eHZQNlhZVUxGUlVxS3NCc2JXM2dvWFdCYk1WRGp5azVuSmlW?oc=5",
     "date": "Fri, 24 Jul 2026 05:26:09 GMT",
@@ -849,13 +856,6 @@
     "date": "Fri, 24 Jul 2026 03:00:00 GMT",
     "summary": "",
     "source": "뉴시스"
-   },
-   {
-    "title": "해외로 가는 '모두의창업'…미국·싱가포르 등서 한인창업가 80명 선발",
-    "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9BQ1RvTHJVVlN4SkUwa0NsQ05INnBvd1ZFTEF0dUJjR0JWWU9aMlBqVVYyd1Z1dWFFTkdRUmxaWDh6bV94dEV5T3JiOFl5QXlXWHpaN0dXbEdwWm53cnoxVVltZ0hOTmtzRjNRMg?oc=5",
-    "date": "Fri, 24 Jul 2026 03:00:00 GMT",
-    "summary": "",
-    "source": "unicornfactory.co.kr"
    },
    {
     "title": "스마트제조기술산업 특수분류 제정…중기부 “기술中企 실태조사 정례화”",
