@@ -2,6 +2,15 @@
  {
   "date": "2026-07-24",
   "kind": "market",
+  "edition": "저녁판",
+  "title": "7월 24일 (금) 투자 브리핑 · 저녁판",
+  "file": "briefings/2026-07-24-market-저녁판.pdf",
+  "top": "반도체지수, 고점서 20% 무너졌는데...월가 베테랑 \"美 증시 장기 강세 살린다\" - 코인리더스",
+  "count": 25
+ },
+ {
+  "date": "2026-07-24",
+  "kind": "market",
   "edition": "아침판",
   "title": "7월 24일 (금) 투자 브리핑 · 아침판",
   "file": "briefings/2026-07-24-market-아침판.pdf",
