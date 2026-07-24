@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-07-24T19:57:07.347Z",
+ "updatedAt": "2026-07-24T21:12:33.087Z",
  "groups": {
   "tax": [
    {
@@ -22,13 +22,6 @@
     "date": "Fri, 24 Jul 2026 05:02:14 GMT",
     "summary": "",
     "source": "디트NEWS24"
-   },
-   {
-    "title": "한국 집 팔았다가 세금 '쾅'…억울함에 국세청 찾은 해외 선교사",
-    "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE00QnBTdkduR1A4U09mWXE0MmVXcXVXTHZkVVV5ZHlpNmhsMVNOOXIxRmNCY3J1SEhGVDRXeURyMmp4THF4N3dONDN5ZGxWZlRZSW5F?oc=5",
-    "date": "Fri, 24 Jul 2026 02:15:00 GMT",
-    "summary": "",
-    "source": "네이트"
    },
    {
     "title": "국세청·관세청, '고액·악성 체납자' 첫 합동 수색···13억 원어치 은닉 재산 찾아",
@@ -176,6 +169,13 @@
     "date": "Thu, 23 Jul 2026 07:03:16 GMT",
     "summary": "",
     "source": "연합뉴스"
+   },
+   {
+    "title": "국세청, 체납자 은닉재산, 끝까지 찾아낸다…국세청·관세청 합동 수색 실시",
+    "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5kT3Q4aUQ3NDgtWkx1Mi03UHJqLTQ5aVNQMlRSQVh3T1ZFWUh1aDUxQ0o1UDBuSk9fN3NhYzQtaktJNXdvVXFfZmJ3elFsMnNqbThyUkYwNnZCNUNOaEM1cUxvVjlYT3NWc0FvS2tB?oc=5",
+    "date": "Thu, 23 Jul 2026 06:51:21 GMT",
+    "summary": "",
+    "source": "하나뉴스"
    }
   ],
   "labor": [
@@ -187,25 +187,11 @@
     "source": "대한민국 정책브리핑"
    },
    {
-    "title": "군산 에이치디현대중공업에서 30대 노동자 사망 중대재해 발생",
-    "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1pdEdEZ3R6YjBQMHU5dWFtU3ltdjItekExZmF1cS1na2FZdGhjbUxsUlJtY0JmNk9mQUlDLXB5eUpUcnd2SXpjRnBlVktFamZsVUhr?oc=5",
-    "date": "Fri, 24 Jul 2026 14:02:00 GMT",
-    "summary": "",
-    "source": "네이트"
-   },
-   {
     "title": "김해 영진의료재단에서 60대 노동자 사망 중대재해 발생",
     "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1XdFVMeTZzejFSRktJMGVHYTQ5NWtDdWM2ZkI4REFiTExGeE8xTzBSaDJxM2IwemVIZnNyUnlvRGRYZjYzSXpJQVQ4eWVsSjRmdktOcDd6X0RvUQ?oc=5",
     "date": "Fri, 24 Jul 2026 13:43:00 GMT",
     "summary": "",
     "source": "브릿지경제"
-   },
-   {
-    "title": "노동부, 대학교수 노조 정치활동 허용 추진…교원노조법 개정 속도",
-    "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE16TDFNMGRkbHU3WXFua2ItZTFjS19aYkY1enN2OFFiR2FyU191Y1dTbGI4WmVkUnczT1FKa0FfN2x3QnI5ZGdVa3BpVEU1dHI0ck9nWFFnaDQ2TFMtYktGMG10SQ?oc=5",
-    "date": "Fri, 24 Jul 2026 13:06:24 GMT",
-    "summary": "",
-    "source": "쿠키뉴스"
    },
    {
     "title": "현대중공업 군산 조선소서 끼임 사고…30대 하청 노동자 숨져",
@@ -243,6 +229,13 @@
     "source": "스마트비즈"
    },
    {
+    "title": "노동부, 대학교수 노조 정치활동 허용 추진…교원노조법 개정 속도",
+    "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE16TDFNMGRkbHU3WXFua2ItZTFjS19aYkY1enN2OFFiR2FyU191Y1dTbGI4WmVkUnczT1FKa0FfN2x3QnI5ZGdVa3BpVEU1dHI0ck9nWFFnaDQ2TFMtYktGMG10SQ?oc=5",
+    "date": "Fri, 24 Jul 2026 06:49:40 GMT",
+    "summary": "",
+    "source": "쿠키뉴스"
+   },
+   {
     "title": "흩어진 경력을 한곳에···‘고용24 통합 경력증명’",
     "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE01Z0FlSENzNUpscVBhUVNvbzNXdmJ6MDNpY2R3QnloT0hoRy1YX2t2ajhZWDg3enc0X3pxUDFSM2dTaXNYc0Vxek1XcDVGUGFBWkdoQXZ1dmlWQ0h1amhIc3VOeEJTX0Y4U251b2NB?oc=5",
     "date": "Fri, 24 Jul 2026 06:25:21 GMT",
@@ -271,11 +264,11 @@
     "source": "행정신문"
    },
    {
-    "title": "고용노동부 한국기술교육대, 코트디부아르 직업교육 혁신 이끌 리더 키운다",
-    "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBCVnlLeS1ocGRGRmlJMUpIRUg3dk9iODdfaXFieWRycVJoVTdyUlFCbU9nMXVWQmxKQXZCUXJsWE1EY1ZadHY2VENhel9iYUlCTzJkOXhTS0NwamZu?oc=5",
-    "date": "Fri, 24 Jul 2026 05:30:50 GMT",
+    "title": "고용노동청, 일양약품 고충 신고 '조사 미이행'에 시정지시",
+    "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBGeVV6Mi1EeE5mOE85Yk5DdFZPamhiOVMzbnZIbXZPdm1sRE9XeXF4c2J2NEpXTDlFRDlwWUdZYWxhbUlLdlNtdVVBV1Z5QVF2dUNPTFF0ZVJxQ3ZfTHRYTndGQ3VLMVXSAWtBVV95cUxQeEpXRTJya2w1cC15Z0REU0ZsTVJrUDFiNHFtWktlRlV6Mi1UOXVXTGNyN2ZnQjFoeEZ5b3hSd0h1SDZIel80VW1vRXBkZk0xZjhTRXpvQ3kzMHVuei1NSzFZZTl3RU9rVG4wcw?oc=5",
+    "date": "Fri, 24 Jul 2026 05:33:27 GMT",
     "summary": "",
-    "source": "누리일보"
+    "source": "한국원자력신문"
    },
    {
     "title": "취준생 희소식…경력·자격 한 번에 확인하는 시대 열린다",
@@ -304,13 +297,6 @@
     "date": "Fri, 24 Jul 2026 05:00:00 GMT",
     "summary": "",
     "source": "아주경제"
-   },
-   {
-    "title": "고용24서 경력 한 번에 증명…이력서 자동완성 서비스 도입",
-    "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBXUXFIai1fX0Z2UVNsS1Nud1JhejhsMGNiX2NoQzVOTm8yLTFEOHBZR1B0U2dCa3hVa3pzdWF6MTR1UjExZ05lZzJQdEtIVjdiTXNF?oc=5",
-    "date": "Fri, 24 Jul 2026 05:00:00 GMT",
-    "summary": "",
-    "source": "네이트"
    },
    {
     "title": "노동부, ‘대학교수 노조 정치활동 허용’ 교원노조법 개정 추진 - 조선비즈",
@@ -353,6 +339,20 @@
     "date": "Fri, 24 Jul 2026 04:00:00 GMT",
     "summary": "",
     "source": "뉴스핌"
+   },
+   {
+    "title": "노동부, 산업보건-화학물질 제도 정책포럼 세미나 개최",
+    "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE4tcDltX0I1SXB5OTR4OHpwUk4wS0JuRkE5di1BRDRlZU00bkdSLTVBdFhFaFc4djB0d0d6ZlgzdHZPazBPOS1icUtOSlBlU3c1SHNrcTBRUnhzUTdhTUJDQzVuOEEtbVY0OUpxdtIBcEFVX3lxTFBuRmI2N1Vxd05mZEoxT2hHSEpkb1pUYjJZWlQyM2dlRHFvdHRzbHQ1dlNZd0pLX1RiTXQxOEk5eF9pcFhSRnktSUVPN011QzNzYnBLZ25PT08yM2gzNGt0cktXcWVtZ0thX2ZSb3BUQ04?oc=5",
+    "date": "Fri, 24 Jul 2026 04:00:00 GMT",
+    "summary": "",
+    "source": "전기신문"
+   },
+   {
+    "title": "화학물질 안전관리 전환점…노동부, 위험성 평가 중심 제도개선 논의",
+    "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9Sa1lQMDhNS1NneHY4NWVZTTZLbEFlcUNZRTBKdjhrZW5sQ29PcXYzbU52aS01SFVBTHVFQjZiRF9VSDV5TFREZ01iMllnM3pWTWhBNFZuQ012WGtFR2NlMkdseVJLTmJ6cERN?oc=5",
+    "date": "Fri, 24 Jul 2026 04:00:00 GMT",
+    "summary": "",
+    "source": "서울뉴스통신"
    }
   ],
   "law": [
@@ -518,18 +518,18 @@
     "source": "뉴스1"
    },
    {
-    "title": "정부, 30개 중견건설사와 상생협약 체결…\"불공정관행 근절\"",
-    "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFB5VzlFLU9LX0FMZFNNcW5jbWxzT0ppUW5kV0xTZWFfWW0zc2dBd2RJRmdpTks1LTQtdlpscy1EVTMwWDRZQVJhalhoanUxZUl1ZUc1UERuTG9VOGJ6SFE?oc=5",
-    "date": "Fri, 24 Jul 2026 11:21:33 GMT",
-    "summary": "",
-    "source": "한국방송뉴스"
-   },
-   {
     "title": "양주시장, 정성호 법무부장관ㆍ우희종 한국마사회장 만나 과천경마공원 양주 이전 제안",
     "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9uN09zbVNfZWhXMnZ1QWp0R2dYQWV4WW1jYlpubWtSOHBLVGpSVTNpTTYtc2FOLWgxTWdmdEZwRzFuMkVHaHNiZjlsZDNCRGgtbGxCTWJuYW5jc2dmSnplLXZSMDduQW54dDhiQkVibkI2aEc4?oc=5",
     "date": "Fri, 24 Jul 2026 10:57:43 GMT",
     "summary": "",
     "source": "경기종합뉴스"
+   },
+   {
+    "title": "[단독] 정성호 법무장관, 이 대통령에 직접 사의 표명‥보완수사권 폐지 당론 탓?",
+    "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE14R0M5NWNzOGxiWUFydTdOMmR6allZbjVkcXhWOXNXU3ZocVdSTFdCellyWUxYSlFsdnV4WElBNkFkbjdqdkoxRllES0I1SWx5VndCRXFXcnJmajJrdGtXSmN6UmVIWHNZLXJtZW1DYkUydWp4MXBWMQ?oc=5",
+    "date": "Fri, 24 Jul 2026 10:45:47 GMT",
+    "summary": "",
+    "source": "MBC 뉴스"
    }
   ],
   "fund": [
@@ -1065,6 +1065,13 @@
   ],
   "guide": [
    {
+    "title": "잔인한 부가세신고의 달",
+    "url": "https://news.google.com/rss/articles/CBMiQ0FVX3lxTE85blFpWk1jYmREN003ckpBU21QZGZGOFJIR3V1a2xXWkNvRmZuOUFYLUtiT0stWmtPUDB6VmpQVGc2cTg?oc=5",
+    "date": "Fri, 24 Jul 2026 06:03:03 GMT",
+    "summary": "",
+    "source": "브런치"
+   },
+   {
     "title": "심욱기 대전지방국세청장 \"부가세 신고하는데 어려움 없도록 적극적인 신고지원 당부\"",
     "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1EQVlzVWpJQlRjVGViOXFsTVljZ3g0VWFUSDQxYWdaeVRieWxLX0lXenl2aWZ2a0RmUjRPai1GRE1aVDkyR0twZ0pKd0NsbDhzN3VJTHdHcldBeGhKMEM2Q19JRmVqU1pmVlpaVw?oc=5",
     "date": "Fri, 24 Jul 2026 05:38:59 GMT",
@@ -1086,11 +1093,11 @@
     "source": "조세일보"
    },
    {
-    "title": "심욱기 대전지방국세청장, 부가세 신고 현장 점검…\"납세자 불편 없게 지원\"",
-    "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5IUXladTN3R3hhZ1RPZ19xaVFCbkptaVFpRk1TSERlNkkyMm04bElTUVItaHI5TFhtR3I2X2xBaHZhdnZWX3k3QTJmQ0VaVFRYbE1R?oc=5",
-    "date": "Fri, 24 Jul 2026 01:21:00 GMT",
+    "title": "심욱기 대전지방국세청장, 부가세 신고 현장 점검…“납세자 불편 없게 지원”",
+    "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFAyTjRtMXROc3oyWFowcTVuWkVxRU1JcWRIRUJYUVdYNVBibzVJYmVVOXIyVnQzZDlHQ1Q4UUdpRmRCNlN6TVRBVGZ3MGpVWjhHTkJPMTNjbUlPc0Q4R2RB?oc=5",
+    "date": "Fri, 24 Jul 2026 01:20:32 GMT",
     "summary": "",
-    "source": "네이트"
+    "source": "조세일보"
    },
    {
     "title": "안덕수 서울국세청장, 부가세 신고현장·체납관리단 운영 점검",
@@ -1231,13 +1238,6 @@
     "date": "Tue, 21 Jul 2026 07:43:31 GMT",
     "summary": "",
     "source": "한국세정신문"
-   },
-   {
-    "title": "박정열 대구국세청장, 5개 세무서 찾아 ‘부가세 신고현장·체납관리단 운영상황’ 점검",
-    "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE94T2lGMHBNZlZYWXNocXl0bVZLZ3JlMXRCNWpicTlzUWptOTJiVUZFWnBqakRfNG5sWjB3T3dRbU5Tc1JodHNmczJoUU5vbWpLdi15b3dFOEpfaWJaQVU4VGxrZlB3TWdfS2tEbw?oc=5",
-    "date": "Tue, 21 Jul 2026 07:14:37 GMT",
-    "summary": "",
-    "source": "세정일보"
    }
   ]
  }
