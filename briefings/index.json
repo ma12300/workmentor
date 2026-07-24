@@ -2,6 +2,15 @@
  {
   "date": "2026-07-25",
   "kind": "market",
+  "edition": "아침판",
+  "title": "7월 25일 (토) 투자 브리핑 · 아침판",
+  "file": "briefings/2026-07-25-market-아침판.pdf",
+  "top": "[서울데이터랩] 미국 증시, 다우 상승·나스닥 약세로 혼조…반도체주 급락에 기술주 부담 - 네이트",
+  "count": 14
+ },
+ {
+  "date": "2026-07-25",
+  "kind": "market",
   "edition": "자정판",
   "title": "7월 25일 (토) 투자 브리핑 · 자정판",
   "file": "briefings/2026-07-25-market-자정판.pdf",
