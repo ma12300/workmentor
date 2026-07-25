@@ -2,6 +2,15 @@
  {
   "date": "2026-07-25",
   "kind": "market",
+  "edition": "저녁판",
+  "title": "7월 25일 (토) 투자 브리핑 · 저녁판",
+  "file": "briefings/2026-07-25-market-저녁판.pdf",
+  "top": "[미국증시] 반도체 4%↓ 나스닥 사흘째 하락…브렌트유 100달러 밑으로 - 자본시장뉴스",
+  "count": 11
+ },
+ {
+  "date": "2026-07-25",
+  "kind": "market",
   "edition": "아침판",
   "title": "7월 25일 (토) 투자 브리핑 · 아침판",
   "file": "briefings/2026-07-25-market-아침판.pdf",
