@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-07-25T21:38:22.582Z",
+ "updatedAt": "2026-07-25T22:39:15.426Z",
  "groups": {
   "tax": [
    {
@@ -69,6 +69,13 @@
     "title": "국세청, 내달 12일 하반기 ‘전국 세무관서장회의’ 연다",
     "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1SVFp3TnJRZHZIdUFoRDE1cDgwTGFoWEs1RTc2RGdYRUdxY0lxRngteko2UkUtUUlCV0wwUDRvSjJ6WnlyRFZqYngxUDhuS1lnMXh5VmRIclVENmd2V19wTWRWc0lIZ0VlUUpxTg?oc=5",
     "date": "Thu, 23 Jul 2026 23:10:35 GMT",
+    "summary": "",
+    "source": "세정일보"
+   },
+   {
+    "title": "[세미콜론] ‘대통령 칭찬 네 번’ 받은 임광현 국세청장…취임 1주년, ‘일로 시작 일로 끝났다’",
+    "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5GOHRQN0prZ3dqcV9zbVVXdFhpTVBXMXBad0diS1RZQVBBNjh3ODFwMFVxVldVMHFacERLTnlRbXo1dkFrYlUxUUJBNV9rZHRZY0MtZ0RGZkRIQkYxcjR4ZURHazZrZnVkRW1IVQ?oc=5",
+    "date": "Thu, 23 Jul 2026 22:46:45 GMT",
     "summary": "",
     "source": "세정일보"
    },
@@ -169,13 +176,6 @@
     "date": "Thu, 23 Jul 2026 05:43:10 GMT",
     "summary": "",
     "source": "연합뉴스"
-   },
-   {
-    "title": "국세·관세 체납자 숨긴 재산 끝까지 추적…13억 원 압류",
-    "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBmTUVzT1NYSVNIaDRFa3hUUm01Y0IxLTdfdFBfa0NwUHJvcUZpZUpsYmpoazFaem03aGdBbnpOWDctNVIxTEx6MWE0aFNpVjVfVm5YY2ZsX1otNXpHZ3Y5OENR?oc=5",
-    "date": "Thu, 23 Jul 2026 05:20:53 GMT",
-    "summary": "",
-    "source": "경기신문"
    }
   ],
   "labor": [
@@ -292,11 +292,11 @@
     "source": "팍스경제TV"
    },
    {
-    "title": "고용노동청, 일양약품 고충 신고 '조사 미이행'에 시정지시",
-    "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBGeVV6Mi1EeE5mOE85Yk5DdFZPamhiOVMzbnZIbXZPdm1sRE9XeXF4c2J2NEpXTDlFRDlwWUdZYWxhbUlLdlNtdVVBV1Z5QVF2dUNPTFF0ZVJxQ3ZfTHRYTndGQ3VLMVXSAWtBVV95cUxQeEpXRTJya2w1cC15Z0REU0ZsTVJrUDFiNHFtWktlRlV6Mi1UOXVXTGNyN2ZnQjFoeEZ5b3hSd0h1SDZIel80VW1vRXBkZk0xZjhTRXpvQ3kzMHVuei1NSzFZZTl3RU9rVG4wcw?oc=5",
-    "date": "Fri, 24 Jul 2026 05:33:27 GMT",
+    "title": "고용노동부 폴리텍, 적십자와 재외동포 자립 힘 모은다",
+    "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE8yOEpuaVNwc2Q1TEFlcG1EdW1aYnhPTmlOODliUFh1ZkV1TS01cExfLWJ2WXUwZ0ZsTzV6WmNhUHFiRkRSMXI2bTd1WmpBR0l6ci1iYUpGVXh0LVdocjNKZGtxYVNzellHTjJJVg?oc=5",
+    "date": "Fri, 24 Jul 2026 05:35:43 GMT",
     "summary": "",
-    "source": "한국원자력신문"
+    "source": "행정신문"
    },
    {
     "title": "\"취준생 서류 준비 고생 끝\" 고용24, 통합경력증명 서비스 개시",
@@ -357,6 +357,13 @@
   ],
   "law": [
    {
+    "title": "[칼럼]정성호 법무부 장관 사퇴... 이재명 정부 레임덕 가속화",
+    "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9LM1RCTXlIV0ZJVkNKaUl0bmdOV3ZxMGFyZ1hLbWg5SVVORDVDX21RQnNEVHpKWGhjMEFDZkJYV1htQXEzejRCcVlWWDdGUXFoTUVqY0pQcE5IWjNpUWFmeVI1WlN1V2RQWWc?oc=5",
+    "date": "Sat, 25 Jul 2026 15:53:10 GMT",
+    "summary": "",
+    "source": "데일리저널"
+   },
+   {
     "title": "정점식, 정성호 법무부장관 사의 표명에 “이재명 정부 레임덕 신호탄”",
     "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9lRkRPdVcybFF2SVlyeGdVeEN6UlZEbnBHb0VzZFpXUjBESDhfUlVOSTJmVzJwc3RubUpSdTRUN0N0a1Azcm1LaU40ekZiOEJfSmhuOHlB?oc=5",
     "date": "Sat, 25 Jul 2026 11:45:19 GMT",
@@ -383,6 +390,13 @@
     "date": "Sat, 25 Jul 2026 07:55:56 GMT",
     "summary": "",
     "source": "강원일보"
+   },
+   {
+    "title": "정성호 법무장관 “참모 통해 사퇴 의지 오래 전부터 전달”",
+    "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE16M2ZsSmMtSGFfTmk5dkQyMW01VWRwZGZ6VUhpQTREcFNaMXVjZVBhc25vSWt3N0FwM3ZzUm5nUFFEaU1WZUFYOEJiTjF3OFIwZTZRNDZoMmJ4VzhOUHQzd2NFRmhxWkhiX2Y0S3pSTm9uenRO?oc=5",
+    "date": "Sat, 25 Jul 2026 06:53:00 GMT",
+    "summary": "",
+    "source": "한겨레"
    },
    {
     "title": "정점식 \"정성호 사의 표명, 李 정부 레임덕 신호탄\"",
@@ -516,20 +530,6 @@
     "date": "Sat, 25 Jul 2026 01:15:06 GMT",
     "summary": "",
     "source": "edaily.co.kr"
-   },
-   {
-    "title": "정성호 장관 사의 표명에…여·야, 이례적 한목소리 만류 왜",
-    "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBaMHQ1MGRRWTJyV1ZYd2ZleExZLXgwYi1iQ29kbjZ4cnpHN3hJYno3ZWhkcjRjSDBmOF9xNzJCM3VsR1VJeXB5ek11Qlp6UGd4TzV0elBQOGhJZw?oc=5",
-    "date": "Sat, 25 Jul 2026 01:11:11 GMT",
-    "summary": "",
-    "source": "한국경제"
-   },
-   {
-    "title": "정성호 법무부 장관, 사의 표명",
-    "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFA5NWZqLUo2cWRtLXVwdDR3OTUwMkJGV1VCb3hRRUh1bWFXQkdYLVlnNWJvM214eXBlejhnMmYxb0FIRk9vVkg0azQxZllqRjQ?oc=5",
-    "date": "Sat, 25 Jul 2026 00:54:11 GMT",
-    "summary": "",
-    "source": "v.daum.net"
    }
   ],
   "fund": [
@@ -897,7 +897,7 @@
    {
     "title": "\"지원금도 '원클릭' 시대\"…中企·소상공인 지원도 서비스 경쟁",
     "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5ybU0wQmN0clh3OGk1bW9wWTNGVnAxbk5lVWthT0xRalUzV2txRVlxTlhnZGluMTM1Sm50M0UtWDhoak8tWmYyb19MVTB4MEpyUVhmVERLZWlrUktGaFdtbFI4Y1Q?oc=5",
-    "date": "Thu, 16 Jul 2026 21:40:00 GMT",
+    "date": "Fri, 17 Jul 2026 07:00:00 GMT",
     "summary": "",
     "source": "뉴스1"
    },
@@ -1080,7 +1080,7 @@
    },
    {
     "title": "안덕수 서울청장, 부가세 신고·체납관리단 현장 점검",
-    "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5lSm9VZTFLUm53d1NHTExEV2REUjJqWnFhWTN0SGlJbFp0TDBqMzl0czd1SXMxc0xJak5wa0xXN2F1MnNULUFXdGY1WFY2UlVhYXhV?oc=5",
+    "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9ScEowclllZ2FvdkNNa3p6TG5BQ3dpODZObmRHTWZLc0xIaGpqSERxWlpFMk10NjF3WWNReklRaWtKTUphcjdFWEphYXc0UEdSZDl4Q00tRkNEVnMxbWhSTHprRzRSZTFZbkZmVjI5a1JKbndYVmtCZQ?oc=5",
     "date": "Fri, 24 Jul 2026 01:31:00 GMT",
     "summary": "",
     "source": "네이트"
@@ -1150,7 +1150,7 @@
    },
    {
     "title": "심욱기 대전청장 \"납세자 눈높이 맞춰 부가세 신고 불편없도록\"",
-    "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFA0dXppOEp5Um1FZjQycXQwVUU2dDlUUXpHMnlNX3NRaHVqNFg1XzBEblhCN1E0SHNiXzhnLS1GekVZRkY3aTd1ODIzTGRNNWlMN0thT0tZcHV5dU9wWjExaDBjanc?oc=5",
+    "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1pZ1d4QXBiZzFFSU15WG53OHlYdFhQSWh5d1dXWHNTMHllUzUtS3o4MUpDRkNBZ1lQYVlWWk1PcHJJVzVfWWhXMDhyT3p2blY5NjA2WEliYTFhR0kxb0tMNHFkQQ?oc=5",
     "date": "Thu, 23 Jul 2026 08:41:40 GMT",
     "summary": "",
     "source": "한국세정신문"
