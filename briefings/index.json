@@ -2,6 +2,15 @@
  {
   "date": "2026-07-26",
   "kind": "market",
+  "edition": "저녁판",
+  "title": "7월 26일 (일) 투자 브리핑 · 저녁판",
+  "file": "briefings/2026-07-26-market-저녁판.pdf",
+  "top": "미국지수·AI ETF에 뭉칫돈…최근 1년 투자자 자금 집중 - 네이트",
+  "count": 13
+ },
+ {
+  "date": "2026-07-26",
+  "kind": "market",
   "edition": "아침판",
   "title": "7월 26일 (일) 투자 브리핑 · 아침판",
   "file": "briefings/2026-07-26-market-아침판.pdf",
