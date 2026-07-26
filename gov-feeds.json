@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-07-26T15:31:18.903Z",
+ "updatedAt": "2026-07-26T16:31:31.665Z",
  "groups": {
   "tax": [
    {
@@ -278,6 +278,13 @@
     "source": "세명일보"
    },
    {
+    "title": "경력지원서비스 의무 확대, 기업과 인력시장이 맞닥뜨린 실질 변화",
+    "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTFBtTDIzVWhHTlZiVnNGYVZhRTVpMWl4RnVJTXJRZjVXejlSSmxGSWFNcnlTWnQyVFJZV2RZVjdIRHptVzBLeE1uejVITkU?oc=5",
+    "date": "Sat, 25 Jul 2026 19:58:19 GMT",
+    "summary": "",
+    "source": "한국AI부동산신문"
+   },
+   {
     "title": "고용노동부 천안지청, 반도체·디스플레이 장비 업종 안전보건협의회 출범",
     "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE9SNVFuRDBWRjVkYnFTZmxUa2R4czhjc0F4dmxwVHFqSk9QYU9GMlhCRTMyaENJTE5LOGNtMG5wV19LSmVrcXc?oc=5",
     "date": "Sat, 25 Jul 2026 10:18:21 GMT",
@@ -346,13 +353,6 @@
     "date": "Fri, 24 Jul 2026 08:56:37 GMT",
     "summary": "",
     "source": "매일경제 마켓"
-   },
-   {
-    "title": "고용24서 경력 한 번에 증명…'통합경력증명' 29일 시작",
-    "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5JSkt0Yzhrcmw0dTVmSnZnOG5DNjNJUWtGM2NkX01sSGdRemVWSnF0RUt6a1ZRbnRYTHZDRHBhYy0zWHBnd2prMFE4SThJaVRBd2VUaXBhV0d6QQ?oc=5",
-    "date": "Fri, 24 Jul 2026 08:09:00 GMT",
-    "summary": "",
-    "source": "브릿지경제"
    }
   ],
   "law": [
@@ -725,13 +725,6 @@
     "source": "영남신문"
    },
    {
-    "title": "실리콘밸리 벤처캐피털 “한국 스타트업과의 협력 확대 희망”",
-    "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBuWGFKd2NQSE11dDlVRl9IU3JJWnJuWi0xZ21mNW1kOGxKMFJabTZqYzg1UGFMWk4zMWhNaXc5YnhmeFloSl9nQ0NWb1k2c0hQcHRuV1hVbld0TlcwMHFSbkxWZnhfLWllT21QUUhDU2ZPTjJF?oc=5",
-    "date": "Sun, 26 Jul 2026 09:12:42 GMT",
-    "summary": "",
-    "source": "부산일보"
-   },
-   {
     "title": "중기부, K-뷰티 넘어 K-브랜드 육성 나선다 …패션·라이프 분야까지 확대",
     "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1YLTZ2QlhCdXVQRThWMGFuVnM5NUtpajFvWFZkV0FNeU1zRU83ckt3R1VZaGx6MnJKNmpGTnZkaUtEQkd5UE1Ka0ZzUTdXMUoyLTJ1aA?oc=5",
     "date": "Sun, 26 Jul 2026 08:00:00 GMT",
@@ -881,6 +874,13 @@
    {
     "title": "중기부, 'K-브랜드 챌린지' 모집…제2의 마뗑킴·에이피알 찾는다",
     "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE8tc1kyVEpPQkw1ZHNkMWRicmdxZEdzbkhwY0pqQ2ZnSldPQkRVMGppaHMwMkREOVFvTmVhbC1uMDY0R1BTNUtEWXJNQmo3eDBIVHcw?oc=5",
+    "date": "Sun, 26 Jul 2026 03:01:00 GMT",
+    "summary": "",
+    "source": "네이트"
+   },
+   {
+    "title": "중기부, 'K-브랜드 챌린지' 모집…뷰티·패션·라이프 키운다",
+    "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9YVnp3OE1wODlBc004MnduODhRaXJ4OGFrVzdyQ1diME9hTFJPSzluVTBMa1htMVVFSXJXU3BITi1kVUFHd1hVcURFdkd5WTVHeDYw?oc=5",
     "date": "Sun, 26 Jul 2026 03:01:00 GMT",
     "summary": "",
     "source": "네이트"
@@ -1056,11 +1056,11 @@
     "source": "v.daum.net"
    },
    {
-    "title": "속초시, 소상공인 생애 첫 창업지원금 대상 모집",
-    "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBRUGJoT2Q1ZnZnSmVzWnA5SzZYQ09wU3pCdmpjNXhfdDZQQVFPdTVTRThvLTZBeEZRT1BleElKV0pjc2F0Ui1jVkE2NHdZLXJJX2RGZTFFUFFCcjBWRDZCM2hNdjg?oc=5",
-    "date": "Tue, 10 Mar 2026 07:00:00 GMT",
+    "title": "소상공인24홈페이지 이용 방법|신청절차 한눈에",
+    "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBHT3V3Z3ctejYzdmFrQWJoTXlvaUdSYWl3UjVhRnRrVGQ3SExDUnJuRGMtTWNoVkpGSkhncXZDOHBkUFVPc0NTYTlGUWlOT1BCaEE?oc=5",
+    "date": "Sat, 28 Feb 2026 08:00:00 GMT",
     "summary": "",
-    "source": "G1방송"
+    "source": "브런치"
    }
   ],
   "guide": [
@@ -1080,7 +1080,7 @@
    },
    {
     "title": "안덕수 서울청장, 부가세 신고·체납관리단 현장 점검",
-    "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5lSm9VZTFLUm53d1NHTExEV2REUjJqWnFhWTN0SGlJbFp0TDBqMzl0czd1SXMxc0xJak5wa0xXN2F1MnNULUFXdGY1WFY2UlVhYXhV?oc=5",
+    "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9ScEowclllZ2FvdkNNa3p6TG5BQ3dpODZObmRHTWZLc0xIaGpqSERxWlpFMk10NjF3WWNReklRaWtKTUphcjdFWEphYXc0UEdSZDl4Q00tRkNEVnMxbWhSTHprRzRSZTFZbkZmVjI5a1JKbndYVmtCZQ?oc=5",
     "date": "Fri, 24 Jul 2026 01:31:00 GMT",
     "summary": "",
     "source": "네이트"
