@@ -2,6 +2,15 @@
  {
   "date": "2026-07-29",
   "kind": "market",
+  "edition": "아침판",
+  "title": "7월 29일 (수) 투자 브리핑 · 아침판",
+  "file": "briefings/2026-07-29-market-아침판.pdf",
+  "top": "뉴욕증시, 반도체 급락 속 혼조 마감···다우·S&P500↑, 나스닥↓ - 글로벌E",
+  "count": 14
+ },
+ {
+  "date": "2026-07-29",
+  "kind": "market",
   "edition": "자정판",
   "title": "7월 29일 (수) 투자 브리핑 · 자정판",
   "file": "briefings/2026-07-29-market-자정판.pdf",
