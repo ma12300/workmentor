@@ -1,21 +1,10 @@
 [
  {
   "date": "2026-07-29",
-  "kind": "market",
-  "edition": "아침판",
-  "title": "7월 29일 (수) 투자 브리핑 · 아침판",
-  "file": "briefings/2026-07-29-market-아침판.pdf",
-  "top": "뉴욕증시, 반도체 급락 속 혼조 마감···다우·S&P500↑, 나스닥↓ - 글로벌E",
-  "count": 14
- },
- {
-  "date": "2026-07-29",
-  "kind": "market",
-  "edition": "자정판",
-  "title": "7월 29일 (수) 투자 브리핑 · 자정판",
-  "file": "briefings/2026-07-29-market-자정판.pdf",
-  "top": "'뉴욕증시' 다우, 상승 출발… 나스닥·S&P500 AI 반도체 약세에 하락 - gukjenews.com",
-  "count": 41
+  "title": "7월 29일 (수) 아침 브리핑",
+  "file": "briefings/2026-07-29.pdf",
+  "top": "혁신기업을 집중 지원하는 혁신 프리미어 1000",
+  "count": 28
  },
  {
   "date": "2026-07-28",
