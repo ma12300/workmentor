@@ -2,6 +2,15 @@
  {
   "date": "2026-07-30",
   "kind": "market",
+  "edition": "아침판",
+  "title": "7월 30일 (목) 투자 브리핑 · 아침판",
+  "file": "briefings/2026-07-30-market-아침판.pdf",
+  "top": "뉴욕증시, 연준발 금리 충격에 급락…다우 1,153포인트↓ - 산경투데이",
+  "count": 6
+ },
+ {
+  "date": "2026-07-30",
+  "kind": "market",
   "edition": "자정판",
   "title": "7월 30일 (목) 투자 브리핑 · 자정판",
   "file": "briefings/2026-07-30-market-자정판.pdf",
