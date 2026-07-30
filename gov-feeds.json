@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-07-30T04:23:31.846Z",
+ "updatedAt": "2026-07-30T07:15:42.741Z",
  "groups": {
   "tax": [
    {
@@ -8,6 +8,13 @@
     "date": "Thu, 30 Jul 2026 02:26:28 GMT",
     "summary": "",
     "source": "뉴스케이"
+   },
+   {
+    "title": "[국세청, 인사전망대(7.30)]...박종희 인천, 김승민 교육원장, 이광섭 성동세무장...김대원 복지단장 등",
+    "url": "https://news.google.com/rss/articles/CBMiQEFVX3lxTE05V2NzbUY0ZE1vcDJVenNwNE5lZ2p3dWpGVUFma1BCR3dJaG9BU3FhSGJyZDBvaWs4c2FjTFpud2k?oc=5",
+    "date": "Thu, 30 Jul 2026 01:23:00 GMT",
+    "summary": "",
+    "source": "온투데이"
    },
    {
     "title": "국세청 대변인, 부이사관 승격 추진… 세정홍보과 통합해 '홍보 사령탑' 격상",
@@ -52,6 +59,13 @@
     "source": "전라매일"
    },
    {
+    "title": "국세청 여성세무서장 12명…행시·세대·7공 각각 4명",
+    "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE51ZVc5S2VZVTVTMG5BUkhZUm1fNzRNR2ZEREVpS04yS2ZrNl8yaGExMnhZRzVKd1IwRHVUWkVaYm1MV0RaT05CWWU3Tjd4U1NXR3lWd2FYalpaajBRR0YxSjMzQmY?oc=5",
+    "date": "Wed, 29 Jul 2026 06:20:04 GMT",
+    "summary": "",
+    "source": "한국세정신문"
+   },
+   {
     "title": "국세청, 세대출신 중 가장 막강했던 세대5기 5인 리더 면면(!)",
     "url": "https://news.google.com/rss/articles/CBMiQEFVX3lxTFBldGt1SFVCOEpYM0sxdkphVkFyak8wT201ZzZQWDR0anQzaGhvdEZVM2pEb2wyTE9lZ1hOTmxaaU8?oc=5",
     "date": "Wed, 29 Jul 2026 01:25:00 GMT",
@@ -63,7 +77,7 @@
     "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9ZTWVKS2dSaHpNU3dnYmdDdHJDSFJ4a1ZJZi1iaEI2MVIzbFp0dXNOMEd3SmVLOTg1VWFtM3gtUTdZVTd2VGFhdTNhQ0hEcFhrLUFid29hdk1RY1Vtc1MzOTJGQzNMT2t0VUHSAWxBVV95cUxNT0lFekpsczVkajNYZjdrYkxBM2FUTG9lalJPSWduMUVLQ1J0VjNCSnhnUWJZU2VJUHZoTlAwODhoTmZ4cE1lN1JKN2xxd0t2a3JLRXUtZldVdEo2OGg4c1UtMEw2a2tNZEFTWjI?oc=5",
     "date": "Wed, 29 Jul 2026 01:21:06 GMT",
     "summary": "",
-    "source": "필드뉴스"
+    "source": "fieldnews.kr"
    },
    {
     "title": "심욱기 대전국세청장, 체납관리단 현장소통 행보나서",
@@ -129,13 +143,6 @@
     "source": "뉴스핌"
    },
    {
-    "title": "'비정기 세무조사 열람하세요'…국세청 사칭 피싱 주의보",
-    "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5lRnkwNF92VDlMbEtjbWh3akZlQ1kteDdMWFc0WWdkUklLdi1xa0JGUmF2N25TbHZUczR3ek5PSk5qVTBDaXk5TmFMQVFvMnRSNHlRSWlpS0VoOVRwV1pMY9IBeEFVX3lxTE02RFExZG1UYTNDRHpBT3pnbjU1bjM3enJaYUZUaDItYUw0NjcwcFM2M3A4TENXSk93VExBWDh1TGR6Tll4YUtUcWdYdkdBTVExSW8wNVM0YVVsX3RETzBqdDFhT1dIaFpsR05oQ0RmbGF3emVqX24tQg?oc=5",
-    "date": "Tue, 28 Jul 2026 01:26:08 GMT",
-    "summary": "",
-    "source": "뉴시스"
-   },
-   {
     "title": "[촛점+국세청, 3인 3색]임광현 국세청장, 배우자, 처남 등...행시38회 전 판사(현 변호사)...",
     "url": "https://news.google.com/rss/articles/CBMiQEFVX3lxTE5XR0FUUDFMZ2twdHNGS09RdldzVzA5UmFDbjRIOWRnUmJYcHRaYzNnc3hiWHVTNW1RekU0UTVUYWs?oc=5",
     "date": "Tue, 28 Jul 2026 01:26:00 GMT",
@@ -169,22 +176,148 @@
     "date": "Mon, 27 Jul 2026 08:48:00 GMT",
     "summary": "",
     "source": "온투데이"
-   },
-   {
-    "title": "심욱기 대전국세청장, 동청주세무서 체납관리단 현장 점검",
-    "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBGZC0wS1BqQkx1MmtGcTBoektrM2N1aDd3NjA4RjFUSklGZngxcWt6Zk1ZODRvd245UHhmV3p4ZWFTUnV3NFY5N05lU3dyUU5OMi1URVRHbVZqejFub0lQdVB6NWtxN09TT1dweQ?oc=5",
-    "date": "Mon, 27 Jul 2026 08:36:31 GMT",
-    "summary": "",
-    "source": "세정일보"
    }
   ],
   "labor": [
    {
-    "title": "배달라이더 ‘근로자’ 첫 확정 판결…노조 “노동부·배민·쿠팡 대책 내놔야”",
-    "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9pMHpydWU1ekU3bHM5NnB6S1Z6a3I5S2d3Z1FQSW9rdDEtWVdSUnJ5ZlM4Sk1mbGNmUmw3TmJyalZ6TWhDV0VHTFQ3dXg3d1I5S25sU01UMlJRZjQ?oc=5",
-    "date": "Thu, 30 Jul 2026 03:40:00 GMT",
+    "title": "경기도·노동부·민주노총, 폭염 취약사업장 현장점검 체계 구축",
+    "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5TSWNHdGdjUjM4YjlCUkFMVjhqUXd0WUVYa0RLTFJIQ2VXcEFSUGxxSWhWQVVrRmJwTDNTTUJsbTZmVDFSUkUtZnBMWGtONHh3UXNRME54VUk5U3BfM2tfd19QTTh5YzhCMFE?oc=5",
+    "date": "Thu, 30 Jul 2026 06:56:00 GMT",
     "summary": "",
-    "source": "KBS 뉴스"
+    "source": "인천일보"
+   },
+   {
+    "title": "부산시, 폭염 속 이동노동자 쉼터 48곳 운영",
+    "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5oRmJvaXgxYTIwMnVsSzRKSTJMYmNvOFN3a242NjRVY1VZek9OakRYbkh2cElIalg5QnNFck5lM1ZGMTN2cEkzcWpoWmM5aXJ6QXVDMjY1cWhtem1LdWJOVGJHZw?oc=5",
+    "date": "Thu, 30 Jul 2026 06:47:05 GMT",
+    "summary": "",
+    "source": "에너지경제신문"
+   },
+   {
+    "title": "\"경비노동자도 안전한 일터에서\"…서산고용노동지청, 공동주택 근무환경 집중 점검",
+    "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5DbmRiUm5xdkhKY3BLOU42LVNicWVhWUJ0U3M0Q2xIM1FGdkhhdS05V3o5NlozS0E2NkNWaGNvS2REVTM0S0ltWE9SNFNBVWx3WHJoU1Q1ZnU5LW9nZVk3ZjRVcDE?oc=5",
+    "date": "Thu, 30 Jul 2026 06:40:03 GMT",
+    "summary": "",
+    "source": "joongdo.co.kr"
+   },
+   {
+    "title": "정부, 염전 노동자 고용실태조사 실시…작업환경 개선 지원",
+    "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE4zMXQ3QXE5am9PQjhNYm5xRkRyMlBTeHpYN1hFSmxEVzRrU0tRTkpBRm84bC1BZms5NEZVU0d1c1QzWUxEdUx4U2h1RWZHWHFjZ1dCaW1FRVpCSTNR?oc=5",
+    "date": "Thu, 30 Jul 2026 06:30:00 GMT",
+    "summary": "",
+    "source": "뉴스핌"
+   },
+   {
+    "title": "염전노예 재발 막는다 노동부, 관계당국과 협력체계 구축",
+    "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE41M0haVWcxQW4zRk5SUkVzclBqWU1NZHhfbE0yS05RMVJXNFp2ZWVBeHhZRE13MFFkTzdaOE9oZFJFU0w4eG5mTlp5QXMxbEpPMVlkUlRJVUFJQdIBWEFVX3lxTE4yemE0ZmdQdExselQtU1M5czZnMW9PTEdScTJYOUE2LUtNajNJNmNfMi1vYTdTbFpjOW9JOTJGeFBTMnZnM29zZHNGNDI3aUZwRGtHNDdVY24?oc=5",
+    "date": "Thu, 30 Jul 2026 06:30:00 GMT",
+    "summary": "",
+    "source": "아주경제"
+   },
+   {
+    "title": "노동부, 6월 사업체노동력조사 결과... 건설업 고용 24개월 만에 증가",
+    "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE93MzdGNVFSQlRQX1FBR01WNmlSaEpHeEJOenZyVjFqaEVFTUhuVm5WTkN2dlJhUnlUS191VllOdFBCR2FzV2dNOFhHa2pBTDc3TFVBSUdrWkhIa2tkbXJwUF9TTW1LTXZPaTdJ?oc=5",
+    "date": "Thu, 30 Jul 2026 06:22:40 GMT",
+    "summary": "",
+    "source": "BBS불교방송"
+   },
+   {
+    "title": "노동부, 전남광주서 '수산·양식업 이주노동자 권익보호' 간담회 개최",
+    "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1oNUVrUmxfMWFSWEZyNE1BdjM2bjR3R2s0NlFwZkR3bl9PZDRPaDd3STJLbW1tTWUwXzhpTy11ekw1elBhYWtqbW1PM291ZjU3WXJuOEdxbWNWUjBqbVV5OExOLTB0anZWN1hF?oc=5",
+    "date": "Thu, 30 Jul 2026 06:13:47 GMT",
+    "summary": "",
+    "source": "BBS불교방송"
+   },
+   {
+    "title": "고용노동부-안전보건공단-한국철도공사 폭염대비 대형사고 예방 합동 캠페인 전개",
+    "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFAyYTlBNlhRX0t5WmU3T2EwTmVOVlFlV2ZNWFVqQzY2aDJUSTktdDFhMnpuSk5aam80YWJET2ZHWGtlSVUtd2otTXRGVy1TVlVEMllia2hTWWhmRmdmQmFUeHdJeUFTTW5TZU1V?oc=5",
+    "date": "Thu, 30 Jul 2026 05:51:05 GMT",
+    "summary": "",
+    "source": "서울뉴스통신"
+   },
+   {
+    "title": "부산 첫 「폭염중대경보」 발령... 부산고용노동청, 온열질환 대응 총력",
+    "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5Hdi15M0RRc2pwaEsyelV5N1h0RDlIN3RPdVJUYzB4bTRLMlc1aFFQWWVreXRSZjdKeXkzNVhKQlBzNWkteE9PQWhVbENtZG41X1lCTk9QenE1NmhtdFNVWEgzNWZZOGROZl9jeVJiN2xZRzFybklRYUhB?oc=5",
+    "date": "Thu, 30 Jul 2026 05:38:32 GMT",
+    "summary": "",
+    "source": "로이슈"
+   },
+   {
+    "title": "\"물·쉼터 없다면 제보\" 경기도·노동부·민주노총 '온열질환 예방' 맞손",
+    "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1lLWFLTDVPaXJoTENxbk1ta3JFajhlUXFNR0E4eS1Jb1l5REZHUnJpWmR1OF9yVjg5dFp5SUVVVEZ3MTMzX1ZJR0JEeXBIXzE0OWM0?oc=5",
+    "date": "Thu, 30 Jul 2026 05:37:00 GMT",
+    "summary": "",
+    "source": "네이트"
+   },
+   {
+    "title": "한화에어로 사고 후 첫 인사, 오너 3형제는 승진... 에어로 대표는 교체",
+    "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPV0k5eXBDZDNBb3lUU095b21uTHYzR0dKV29FTU9xcS11cHU0dnJkbGVxcUt3ZjR6c09kQUxrclp2dnlNdWdEUnB1QmtEWmk5UnpWSFQ3aGw5dGZNeWdCRE00VTg1ZmNhWWprdmdGLUk1ZGxKOGVGN1E4SlItNjB3M0x1c0tkTUZiSzZhSnRrRQ?oc=5",
+    "date": "Thu, 30 Jul 2026 05:31:00 GMT",
+    "summary": "",
+    "source": "조선일보"
+   },
+   {
+    "title": "[인사] 고용노동부",
+    "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBldFFOZXdxRExTa1hKWXFWcWl3MnAwWDljUk9RMzd1MldPNlF4aWpHMW10eFl3MlhOWmVOWGl2TnlEenNZdnJYc1ZIVTZoNDZhSHpHRGxhaDZlZ1JDWlZCZ0ZtcEl5Z3FoeWFZ0gFrQVVfeXFMUGV0UU5ld3FETFNrWEpZcVZxaXcycDBYOWNST1EzN3UyV082UXhpakcxbXR4WXcyWE5aZU5YaXZOeUR6c1l2clhzVkhVNmg0NmFIekdEbGFoNmVnUkNaVkJnRm1wSXlncWh5YVk?oc=5",
+    "date": "Thu, 30 Jul 2026 05:17:03 GMT",
+    "summary": "",
+    "source": "이투뉴스"
+   },
+   {
+    "title": "고용노동부 강원지청, 외국인 인권리더 발대식 개최",
+    "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9NdnpPSzNBM29lQjNyYUhkVkZHM3hGMTF6bGxVUEtuOFQtSHVoX2VSalFNZFhDRUhmLWo3UmROU09jYkxfejB3Y29fdllaQUJ4eWtGNi1pYnlPUWhsVGR1Y9IBYEFVX3lxTE9NdnpPSzNBM29lQjNyYUhkVkZHM3hGMTF6bGxVUEtuOFQtSHVoX2VSalFNZFhDRUhmLWo3UmROU09jYkxfejB3Y29fdllaQUJ4eWtGNi1pYnlPUWhsVGR1Yw?oc=5",
+    "date": "Thu, 30 Jul 2026 05:08:12 GMT",
+    "summary": "",
+    "source": "연합뉴스"
+   },
+   {
+    "title": "권창준 노동부 장관 \"K-뉴딜 아카데미, 모두가 함께 성장하는 정책\"",
+    "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE00MW5KVUZDQ2VJS0VLay1vUTZDNkhiUUtwYW9vcmtXdGdKRnZaRDVJTURjdnE4UWZDQlplN0lBMUlDYzFHS2lncmdnRmVoR0tEUE5sUWl4X1lwaDdM?oc=5",
+    "date": "Thu, 30 Jul 2026 05:00:00 GMT",
+    "summary": "",
+    "source": "뉴스핌"
+   },
+   {
+    "title": "양식업 이주노동자 인권보호 강화…노동부, 목포·여수 사업장 집중점검",
+    "url": "https://news.google.com/rss/articles/CBMirgJBVV95cUxOSEJjcUtjYmVNZjBUb0ZfcWVEYnFreXVZbHRWVmRzY1VoLTh3dHhUX0g0UGZWNTR5TVAwcnh1a29SMDdFcDVkZHIwMzc1cnpCTnlNejJoTU5jVXB5YnJrd19FNW1LSEtVSjhlS1Jod3ZCblVXVG03NU9DTW9wOFRZTmxLZlIyNlZDWWw5UUd2N0FYek5nSFl4V1JBN24tLTBOUWhJbFBsVmJFWHNpVjk5ZnRJYVRUQlppZGJrTThKNi1saFFVSUNVajF2dE5yb0FVVXhGRWFSQm5lSldPblBPTVJEcjB6d05HZ3h3TlB0Y29nTTNNNjZxNUltd1J6T1RIa2FNOFIzZGp2S3FLajhfRmVnLTBFNVJESVlfc1JLQ0sxWUp1dWJWc0V3RUpxdw?oc=5",
+    "date": "Thu, 30 Jul 2026 05:00:00 GMT",
+    "summary": "",
+    "source": "데일리안"
+   },
+   {
+    "title": "노동부·삼성, 청년인재 1천명 양성…'K-뉴딜 아카데미' 출범",
+    "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9BOHAtdE8wdkJVUER0dmR6TlZZeG5YbkJTMXFhS0o4ckd0em1mOFZOakYwTEZ4SFhKUmQtWlZHSFptU3pOR25ab0tSNGtpODYyVW1jb2JzV2MzYTZyTkszRnFR?oc=5",
+    "date": "Thu, 30 Jul 2026 05:00:00 GMT",
+    "summary": "",
+    "source": "뉴시스"
+   },
+   {
+    "title": "노동부, 수산양식업 이주노동자 보호 강화…\"어촌 핵심인력\"",
+    "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBrc0pPZ1k0WnBtTzdJZWlrYlU4bXFLajUwMWlwWHZ0bDVDQmFBNm5fTFdYNmdXdHB0R3VHNWU0V0U3cXVwdElMb1M3V01vVWFvYmE3QlUyVGdSQjhR?oc=5",
+    "date": "Thu, 30 Jul 2026 04:42:00 GMT",
+    "summary": "",
+    "source": "뉴스핌"
+   },
+   {
+    "title": "\"이주노동자 인권침해 막자\"…노동부, 수산·양식업 간담회",
+    "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE82QjhSbnpuUUpjaWxMRHpOT3QtZmlITjB2STUycjd3ZjRjY1h1MXpqY3JQYVV2dXBVVVZqQTg1VXN2ZEN4Ujc0SDFEczZrekl2QWhXUi1XSk5ucnR4WmpLWNIBeEFVX3lxTE1GUkh5TG54T3hGRUsyTkFsa05RM1BDX3dwWENNUlpjaWJrbUFocGRERUszZnc3S3lCWXJXWTQwSXlPakxGYkR2b0N4OFRvenFiTVMyRnRfOWlvNzRlRWxSVGRMRVJtdjZyVnNSR01JTURWX0NrZG9zSA?oc=5",
+    "date": "Thu, 30 Jul 2026 04:30:00 GMT",
+    "summary": "",
+    "source": "뉴시스"
+   },
+   {
+    "title": "폭행·임금체불 잇따른 양식장…노동부, 이주노동자 '보호대책' 시동",
+    "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1LXzN3ZTEyYWxFRFFXMElTME8tOTc1TlA2ejFEdElQdFBJZ3FhbTJENUx4aURQVy1pQkNjeGdKYXR6NUpfUEh0OThOeFNxN0ZhaHgw?oc=5",
+    "date": "Thu, 30 Jul 2026 04:30:00 GMT",
+    "summary": "",
+    "source": "네이트"
+   },
+   {
+    "title": "고용노동부, '26년 6월 사업체노동력조사 결과 발표",
+    "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBJbzBHNHdjSlhFVlFWQlJZbUpMU2xBMGVvaUE0Wkh4RFNsaE1oSF9RQlVzNm42OVk5bGtERjNJSndjZzZDRXlUREtZMXZFMnl5Ympn?oc=5",
+    "date": "Thu, 30 Jul 2026 03:31:00 GMT",
+    "summary": "",
+    "source": "네이트"
    },
    {
     "title": "고용노동부, '26년 6월 사업체노동력조사 결과 발표",
@@ -198,14 +331,21 @@
     "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE4tSGVmUGRhZUo1U3c5MEd3TkE2VHRPM0RlaVd0Z3Q3dm5pNHV5ek1Xc3N2SGc3cHY4Y09ONnhPYnA4emNJa3QtS1oxMmZlMm9KNUFmb0RB?oc=5",
     "date": "Thu, 30 Jul 2026 03:00:00 GMT",
     "summary": "",
-    "source": "biz.heraldcorp.com"
+    "source": "헤럴드경제"
    },
    {
-    "title": "늘어난 일자리 10명 중 6명 임시일용…짙어지는 '고용 불안'",
-    "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1xcGZvbU55dGh3SlBjSUJobm9kSE83ZzFydExIbDNpaVp4cDdfTW5EQWNEWGtpSnNUdUpoakxyMlBFLTdIejhCbHdtQjlIVVZLcGpDTkh3V2x4M2lQeHU4XzNONHNHS3NlZkJHcVBNbEdwamtUS0UyYg?oc=5",
+    "title": "늘어난 일자리 10명 중 6명 임시일용…짙어지는 ‘고용 불안’",
+    "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxPNURpdF9TTW1ScDJIc3JycDBWZ1N1bkZ2QmptUkUxeGRXemJjVHZGSTlGUm9kZU5JOVU1Mm5NZG1wV3Z5ajZURThCUkFkdHlzQ3Z6V1pxcTZzdFhjb3cxT0E3MC1xUHVjNms3VGRjQk1OSnVoa0tibXpDd1BLOWpFY0IxeWxtQVVfQl9Id3ZnWDI5RkU1TlJxYXdiRmlpd3RaY3ZyLWhtM1ZnengxdEkxbXo5RVphMGpmYkV4TDVlTnVSQTBkaGhNZ1ZHdzJ5MGk3bWlnRFlmcnNKZEozU0R6cG9qWDY1RFJWTjlIQWZzem45bWxiR1VrRA?oc=5",
     "date": "Thu, 30 Jul 2026 03:00:00 GMT",
     "summary": "",
-    "source": "네이트"
+    "source": "데일리안"
+   },
+   {
+    "title": "창원 대기업 3곳, 중소기업 안전관리 돕는다",
+    "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1OMVhOcjVZbWJiZ3h0OTUySnBSczE1ZTN3WGh3Z0lhNGs5amJ0anJzWHM1T1hNWTV2djRnd0JBYk95eXRBTXBfY0lLdEp3OFRuZmdWbk5HNFNsYVlIY0FmSWlCanlDSHhlVmc?oc=5",
+    "date": "Thu, 30 Jul 2026 02:31:23 GMT",
+    "summary": "",
+    "source": "경남도민일보"
    },
    {
     "title": "고용노동부 성남지청, 폭염 속 배달종사자 위한 생수 나눔 캠페인 실시",
@@ -213,149 +353,142 @@
     "date": "Thu, 30 Jul 2026 02:23:00 GMT",
     "summary": "",
     "source": "성남포커스"
-   },
+   }
+  ],
+  "law": [
    {
-    "title": "고용노동부, 고용24 '통합경력증명' 서비스 개시",
-    "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE45ejY0VzRmb0FtVDhZcTRoZlUwNjBrMjJHNFBYR3VxLWd0TDQwbWpLdG8xZ0dib3NzMklfNzAxaTB5aFJkNGM1SHIzU1ZCSHZTNkk1UWJ2MERUMVkzVFhlT2ZsQmI5M3NxN0VRYVBjV1Y?oc=5",
-    "date": "Thu, 30 Jul 2026 01:47:23 GMT",
+    "title": "“너무 생생해서 부끄럽다”…법무부, 수형자 상대 ‘VR 심리치료’ 도입",
+    "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE54emNZOVgtWW5NaGtkaXVzNGZKNHZSY2VEWHlBWjNMZU5ESjhUbmF5RUt0Ri1DcWgzajBQclB3OW9WUmdlaTVPaVNvQXFod1ZfanFCN0l4UTRkRjE3dEZoRlVZV3VXS2FJZnVj0gFUQVVfeXFMUEFNcDJkYXJvWHpxbTlOWUJwY2dzNGNNNnB1d095UjFmX3A4U3BUVUp1TE9YRmhtWkU5eWlHQ3Bra0VNbDlZcWRJQVk2OXZyZWJjZl9P?oc=5",
+    "date": "Thu, 30 Jul 2026 06:53:40 GMT",
     "summary": "",
-    "source": "소셜포커스"
+    "source": "세계일보"
    },
    {
-    "title": "폭염 취약 사각지대 없애자···경기도·노동부·민주노총 '온열 질환 없는 경기도 만들기' 업무협약",
-    "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1Ja1pkemI0dV92cTNYYVA1bU44dnFNUDVybWpyYVV1akpjUFoyZEg2UklrZDE0bmw2Y1BnUjhDNEVaUFA1ZlJfN0EzUXNXWlBKdV93?oc=5",
-    "date": "Thu, 30 Jul 2026 01:44:00 GMT",
+    "title": "\"피해자 고통 생생히 체험\"…법무부, '가상현실 심리치료' 11개 교정기관 본격 도입",
+    "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9peWFGOUY5QXpTZFBlOVdIdlVJRjN5THZYYWlGWkkxUVFEUlI2NzZXNkhQM3FCNzEzU0dkckhNZGlwdzZ3TnJRTU1IenJpSHBmWFhKZmMzT0tuUWlqVDhEbjE4VQ?oc=5",
+    "date": "Thu, 30 Jul 2026 06:51:31 GMT",
+    "summary": "",
+    "source": "외교저널"
+   },
+   {
+    "title": "법무부, 수형자 대상 `가상현실 심리치료` 11개 교정기관 본격 도입",
+    "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9iYUFBX3Z2bENtdjF4SktMM1hUMXZUN2VPQ2dzOF90aTduNTdGTlJLa2k2eFFCMmJ4WUdRTVZIWlFHZllTTHprOEtlc0JUU3I1Ry1EcE5xRXRXUQ?oc=5",
+    "date": "Thu, 30 Jul 2026 06:48:33 GMT",
+    "summary": "",
+    "source": "서남투데이"
+   },
+   {
+    "title": "당 중앙위원회 서기국 상임위원인 쩐깜투는 법무부 당위원회 상임위원회에서 근무하고 있습니다.",
+    "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNbnhHX282aEg5d0xGSmQwb0F6ekdLR0xrNXRUWmF4VS1OaW1fRFNXTVF6aEdFSHZ2ZGN3V0NKc2N3OWl6UDJweXo3bUswMGhEcXJKeDVxcFAyNUFrOTRYYVBjS1g1b2tjaE1HU1RlM0xHajBNdDRmSklrMk5URnRUZFA2M3hURENaMGc0TXZGR1NWRjlXVFdHbzFrS0I5UlhtbnpqZ2J4TlVMQQ?oc=5",
+    "date": "Thu, 30 Jul 2026 06:39:40 GMT",
+    "summary": "",
+    "source": "Vietnam.vn"
+   },
+   {
+    "title": "대웅제약, 일정 기준 갖춰야 의약품 도매…'블록형 유통망' 공정위 넘었다",
+    "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9PaURLUlJ3RVVvOWZuZm5va1hoUnJLUFFmbHBvZFNGRW5ta2tvQ0gyNFNxWjFHemxPRmRCdk9VQ2ZGWEZZV3EzVjNEY0NJLWlhazVyS3Vva3U4dw?oc=5",
+    "date": "Thu, 30 Jul 2026 06:34:14 GMT",
+    "summary": "",
+    "source": "한국경제"
+   },
+   {
+    "title": "\"피해자 고통 생생히 체험\"…법무부 'VR 심리치료' 11개 교정기관 도입",
+    "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE0zWHRnRFMwWGY1VTNkbElWdkp3QzV1M21MWjhZVFR5Y2ZHc3RPRW03T1RUNE1QbUxzYXNlcWZiZ3JMMEFyalFTcHU3Y080czlaMGow?oc=5",
+    "date": "Thu, 30 Jul 2026 06:29:00 GMT",
     "summary": "",
     "source": "네이트"
    },
    {
-    "title": "고용노동부 서산지청, 폭염 속 소규모 건설현장 안전점검 강화",
-    "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1MNExxQ3RhR0c1YTh4NTlBSV9RSndCOG1wR2tDdkdWaW1nTGtqLVk0R3E3OU04RjRmcFl2MnNWdWFBaGZDNHBYYmZZNlRQYWozLU5JUmw3MjVERC1SMEVVdA?oc=5",
-    "date": "Thu, 30 Jul 2026 01:26:26 GMT",
+    "title": "피해자 고통 '역지사지'…법무부, 수형자 'VR 심리치료' 도입",
+    "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1VamJQYXFWcGxHMHhVcm5mdWlrZWVOT0U4dnJLbUxMYVdpM1NqX3dVOEtTUm5IdlAxRmFGQ0Z4RGgtajQ1elBRVVYwNG5iWFM2X3c4?oc=5",
+    "date": "Thu, 30 Jul 2026 06:28:00 GMT",
+    "summary": "",
+    "source": "네이트"
+   },
+   {
+    "title": "\"피해자의 눈으로 본 나의 범죄\"… 법무부, 'VR 교정 심리치료' 전격 확대",
+    "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE0wYnhJd19kNE1YaUpSWDZtMW1QbUVLemlnUWl5X0JyR3pNYkF6dWpMbWJvOXZ1RzdzT2FuVUVCbnNkX3J2WmxrRUdlNDE?oc=5",
+    "date": "Thu, 30 Jul 2026 06:26:37 GMT",
+    "summary": "",
+    "source": "한국AI부동산신문"
+   },
+   {
+    "title": "피해자 고통 생생히 체험…법무부, 가상현실 심리치료 11개 교정기관 본격 도입",
+    "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE85YlFYeGVrRVV6YzQ4OUtCRVRyamd0T0x2TVRxQmNvbnJSOXFaQmtTcjF3a0ZVdEZlWk1mQnIxQTFwcEpnTGtTc282c280eEc5NnV4NERmZ1AtZ9IBWEFVX3lxTE02ekwyRzJIVlZHdWNaUHFJWTJHZWJzX2llSXZLZGs2bjlidWVkcEVObXhacjV6S0lNeFB1TmZJNS01LVJPN0ttQzVWZ2JOM3VKZE92MEtJVU8?oc=5",
+    "date": "Thu, 30 Jul 2026 06:25:59 GMT",
+    "summary": "",
+    "source": "아주경제"
+   },
+   {
+    "title": "VR로 피해자 고통 체험…법무부, 11개 교정기관 심리치료 도입",
+    "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBTM2V0TU9JLUlIbnFRWXUzM3dZUmZKUkg4eWd2RnVJS3R2VFNvMUplUktfMUtfQXNPVHhET1h4TmU4RlIwbjNjUzdvSDRhOVNoR3BtaFVYSmYxbDhpTWctTXJiUTM?oc=5",
+    "date": "Thu, 30 Jul 2026 05:57:23 GMT",
     "summary": "",
     "source": "뉴스1"
    },
    {
-    "title": "의료기관 '직장 내 괴롭힘' 4년 새 2배 폭증... 사건 처리는 10%에 불과",
-    "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9DblVFRnlxTDFLWW9DUFBzRkdCREFBTzB4X1FvcVE5NW9aOGlVLWl1NDlZU2NmRlYyTHYtcWt5NzZpem95MFV2NVlfa3lGVFUzSzFpMDg1VW9LSndqemV2OWdidHkwdXZYa2JqYw?oc=5",
-    "date": "Thu, 30 Jul 2026 01:08:13 GMT",
+    "title": "\"피해자가 돼보세요\"…법무부, VR 심리치료 11개 교정기관 도입",
+    "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9VX05LQ3htcWpDYndtakFNVWpNVVo3blYxU1ktaGY2M3NCWF9IR2Z5UmxUb2c2dmxmN1F5c01ZTVhBY3lBM1p2enhzSm83akFQRFlZaEhGdTZCSVVJR1ZkdNIBeEFVX3lxTE5yS2lWS2xxdEdQN2RsaE1IVHM3Z0RYY09lRGVwckczVGRBMVhXNnplT2xydURJVlhSZk9Hbnk2YnhTVFhRRGZLWXJGZTFQUHVjdkhtM2FQNlNkbXZ3TVN6QnViYXJqNEgzLTBTZFNzb0FvREVnM0dMRw?oc=5",
+    "date": "Thu, 30 Jul 2026 05:49:07 GMT",
     "summary": "",
-    "source": "데일리중앙"
+    "source": "뉴시스"
    },
    {
-    "title": "[고용서비스 뉴스] 사람은 상담에 집중 AI는 행정지원...정부, 고용서비스 혁신 본격 시동",
-    "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBycmdkMnF5U1JGSVMtYWllNnVMTGtyeFBrWmhSQUlkYVZLZUFkdlZfNlpHSUE2R05VckNncUl4dVR1Y0VmbFBPTkNvTUJKSVFsQXo3Rm5KLXBKTFlra2MtdnJRTlFxSTFmODVCck5LLU5HQQ?oc=5",
-    "date": "Thu, 30 Jul 2026 01:01:57 GMT",
-    "summary": "",
-    "source": "아웃소싱타임스"
-   },
-   {
-    "title": "SM그룹 경남기업, 노동청·LH 손잡고 혹서기 현장 '온열질환 방어선'",
-    "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE51Nm9iN1U4OEM2MkpHWktoa0NHTlI4Vk11dkp6OXJCXzVWNlNLNDlkcG0tcmpPRkFGb2pFQ1VrSFdRX0ZkenpGZ3MxUGpDLWxSbW1zcGU3ZDRCbG1YYlV2aElhOG9DSTha?oc=5",
-    "date": "Thu, 30 Jul 2026 00:18:46 GMT",
-    "summary": "",
-    "source": "fetv.co.kr"
-   },
-   {
-    "title": "SM그룹 경남기업, 노동청∙LH와 폭염 대응 현장 합동간담회",
-    "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBzN19xaDE2RVRZcjdRVlVldndZVGZfSXItUFM0aWRXa0VtRU5kU3dHaE9hbTVUVDFKcXAza0w5aXNkQXhzM3R1bEJJaUM1V3VHbHfSAVNBVV95cUxPTEtMeGJtLWZsZGE1S0RJYUpfT1lrZUZoRXB1SzR2eU9OU0xzbXlLa0luNU9GRWxoVEVEUkd4LTFubmJ6cTQ1NEFJY2ZEMk1PZjRTQQ?oc=5",
-    "date": "Thu, 30 Jul 2026 00:14:17 GMT",
-    "summary": "",
-    "source": "서울경제"
-   },
-   {
-    "title": "고용노동부 서산지청, 폭염 대응 소규모 건설현장 불시 점검 실시",
-    "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBHb1JGU3BVb1dxRXFmbjhwZUxxenNSZVVOUTUxRTJyODJvQ3JmSFk4MGNxMHYzUHFsVFdVWkdZQVhPbVBQdTVOY21RekkxODE4NEhHNzBiWDBXZmRBUEhMNk9EaDJVRl9rUFBkUklNVQ?oc=5",
-    "date": "Thu, 30 Jul 2026 00:11:07 GMT",
-    "summary": "",
-    "source": "서산포스트"
-   },
-   {
-    "title": "SM그룹 경남기업, 고용노동청·LH와 폭염 예방 현장 점검",
-    "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9BSkJ1Y2k4Y2QwV0UzNlFoN09YbE1GNVFVc21mMkVocjdpRDRocFlXV3NEenNQck90eDFmampReWUwNk1EaFZ3Ry1qVjQ4QXFRZFFIc3hzX08tbDA?oc=5",
-    "date": "Thu, 30 Jul 2026 00:02:17 GMT",
-    "summary": "",
-    "source": "뉴스1"
-   },
-   {
-    "title": "[단독] MB 형 회사 다스, 직원 351명 임금 4억 체불…노동부 시정지시",
-    "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5TWU0zX0FUbXp5eDU5R3g5Tll5eWNONjFudHI0c25FRVBtVWRyOTgzNVZFYTNHeUI4YW1jbmpKZ3pDajl5THIwRlZWU0M5TEc4R0hYdDFR?oc=5",
-    "date": "Wed, 29 Jul 2026 23:24:06 GMT",
-    "summary": "",
-    "source": "biz.heraldcorp.com"
-   },
-   {
-    "title": "고용노동부 서산지청, 소규모 건설현장 불시 안전점검, \"폭염·추락사고 동시 차단\"",
-    "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9ncnFiTHdJSnhWR1p0d0VKSjB2dTlDVDUzNGZoYlM5Qng4MUZyOGFFTzhqbU5yMnVCeVVwRzNZYWZSdE5WQld1a0xZWk9XWXJBaXhocS1OcFlhUXlMRDF2NFVnTmY?oc=5",
-    "date": "Wed, 29 Jul 2026 23:06:17 GMT",
-    "summary": "",
-    "source": "중도일보"
-   },
-   {
-    "title": "\"개정 노조법 무시하는 현대차\"…금속노조, 부당노동행위 고발 및 울산지노위원장 해임 요구",
-    "url": "https://news.google.com/rss/articles/CBMisAJBVV95cUxQTEp0R0F3b0N6VlQ0Q1dYZzJyNlU2QnJTOUFINUNoQkFLZGJUanIzejJzRzd5eEFOZGF5NkJOcnBGZ1NvYWtvd2paT21Ia25RY2xBeWM2bnBIU1NfbEVmRXdrV2tjMFNiT3p5RXRJNnVKMkpmZ0pad0p6a3NGQlhCeWlXTXhsM21aRHM2MnVZMU1faUFxbUV6emdyY2VUeE5RWWVHeUlleW93bEVvUWlMMmRMQzdLeVJjdFRKUE9JSHBaeWE2X2FZQks0Y2cwYlRKS2llcTIxQ3RocjFKM1hQV1V3eVZ3TmtpVGtoazg3X21mWEhSaXVsZzdfdkZZeWI2eGFTaFZjZ3JzaVlOckIyQkREbWlDNGhiby0tcVNPZVg0cGx5cEF1b0JSZmFwd281?oc=5",
-    "date": "Wed, 29 Jul 2026 14:04:55 GMT",
-    "summary": "",
-    "source": "뉴스필드"
-   },
-   {
-    "title": "고용노동부, 인공지능(AI) 충격 실시간 감지하는 '카나리아 대시보드' 고도화한다",
-    "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE45ZlBiU3hjYlF5TWpKMWdueDItaEhtUjVKQnVrcXNGaWlNS2pCQkttZHE5eTlLd19GRkh4ckp3NWNKMzk0cW51N19QQ1N1UUtCR1dfS2QtVW5QSGlxX0V2eW1ENVQxOHhqMWc?oc=5",
-    "date": "Wed, 29 Jul 2026 08:53:43 GMT",
-    "summary": "",
-    "source": "한국시사경제"
-   },
-   {
-    "title": "레미콘 노동자들 “노동부, 제조사 부당노동행위 조사하라”",
-    "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFAtWGR2SzRWaDczOENYa3F5NVpJYS1uRklNQ1ktdEN0c2l1VUdSdkxtVEtyVGxWV0pxaVQxRmx2NTgwOUZJUy1kOWdBc3FGUm8?oc=5",
-    "date": "Wed, 29 Jul 2026 08:50:06 GMT",
-    "summary": "",
-    "source": "v.daum.net"
-   },
-   {
-    "title": "노동부, ILO '플랫폼노동협약' 비준 준비 착수",
-    "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5uZnRxd0Faa3hxMWlWMTFDdXdoVWF4eFdsTmRBM1lPd2ZPbzZNcEtKWjdqdWs3V1lvSk5mOXVhNWY2Nl9wNHpUUmxLZzQ0d1R6aWc?oc=5",
-    "date": "Wed, 29 Jul 2026 08:43:44 GMT",
-    "summary": "",
-    "source": "매일경제 마켓"
-   },
-   {
-    "title": "고용노동부 양산지청, 건설현장 폭염 대응 점검",
-    "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9LbXVnYXdZSmlWWUZCWTN1dm9yY3U5REZrRk00MU51UkZzc2NBN19mUnlZVEdJVkMweEh1cmRueVVELXZhZVhLUTBVUVdmbUtZZkdfVVlUMDZLSmtHZ2l6ZTI0bw?oc=5",
-    "date": "Wed, 29 Jul 2026 08:34:17 GMT",
-    "summary": "",
-    "source": "쿠키뉴스"
-   },
-   {
-    "title": "“11시간 일 시키고 임금체불…폭언에 폭행” 베트남 계절근로자 노동부 진정",
-    "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBsZUozZFJxODI2emVBbTRwYmdPaUNSNFVSV3pSOVRCYng3SFdOdHE2ZFRRWlBOT1JfU3BpeGlhZGFBRUQ5T2lmTU1fbFo1ZDZ5VVAtdFlBR2VVTHFFbUdrSw?oc=5",
-    "date": "Wed, 29 Jul 2026 07:57:00 GMT",
+    "title": "“설탕 털었는데 밀가루가 나왔어요”…5조 담합 4개월 만에 잡은 막전막후",
+    "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE1fek4yZ0I5R3Bxek1qV1A3SXBBM2NQNW5jOFNSLUk2QnZGVWx3dlpEZjdHNzNnLWcxU1o5bkVTeF9ZNUI2UkNpZWdfWUNZTm9zaXkyS05vcGRmMzlUSUdsRG1BeXg5OUZDUWFKbVJFTEF3QQ?oc=5",
+    "date": "Thu, 30 Jul 2026 05:47:00 GMT",
     "summary": "",
     "source": "한겨레"
    },
    {
-    "title": "\"장기휴직 청년 맞춤 지원\"…AI고용상황판·청년일자리 대책 논의",
-    "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE16dkxaM2k2ZHNRZ0EzUnJJTWFGR2ZFZ2NZT3U5S2QwVW50YkhKU1JhVGJ6Y05rSGpXbXRoaERQTjk5dkdQallaenJ4LXZra1hJVzNKUlljYlVQQQ?oc=5",
-    "date": "Wed, 29 Jul 2026 07:35:46 GMT",
+    "title": "‘피해자 고통 직접 체험’ 법무부, 교정기관에 ‘VR 심리치료’ 도입",
+    "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9JWXVnMS1tSFZzb0ZjbEV5WUhQWncza0xxS05GTF9JVWFVRnBXU2Z6MnhleUJqNF8xTXRRekFIYWJ0YUVyblYyVmdudUpPYkRhZkMxTQ?oc=5",
+    "date": "Thu, 30 Jul 2026 05:37:00 GMT",
     "summary": "",
-    "source": "파이낸셜뉴스"
+    "source": "이투데이"
    },
    {
-    "title": "신한라이프, 고용노동부 주관 ‘미래내일 일경험 사업’ 참여",
-    "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE0xLUpoQi1kSVNtTG1aajYyTEYycEMtem9CaHVMZ1dYUThobEFoRkVybjRRVmVVY2NZV3RKWXZqTWtNeEdjdDJtcHVmTmVsOVdfcHRyOEtpbEtaZEV5QW0xblVJcmtZLXIxd2hFdnE1c9IBc0FVX3lxTE9ab0gzLTA1b29LYmRlRGlIdHhTZV9rVDJ2R1ZRbHhLRFNKaEQzOEdlMXpSZ21fMlUtVC1ER0xhZ2lzZHBXd0JRQldjYnE0ekFDTzVTWmIwYldDY1lLWkJ0SkF6cFlsbjUtWjdkOExFR1pNY28?oc=5",
-    "date": "Wed, 29 Jul 2026 07:33:54 GMT",
+    "title": "'공소취소 2탄' 논란 부른 공소기각…법무부·대검 반대도 묵살",
+    "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1lSEFWdG50b1ZHUmh4MExVRF9wRi1RZng3ajlWcWhMR2M4bXlKWHFGSGEzaEFLVHBQTHBrak5UYjVPOV94OVk0Z205LWRFbmtqMFFOM1BoTmhmTTNWMDcxb0gxTnQ?oc=5",
+    "date": "Thu, 30 Jul 2026 05:30:00 GMT",
     "summary": "",
-    "source": "데일리한국"
+    "source": "매일일보"
    },
    {
-    "title": "남해군, 고용노동부 공모 선정 '온마을 치유정원' 협약",
-    "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9QV0U3Q2xlZkVEbFM0bGJrczdUQmRleFF5b2o4dmtObWhjU2RnRm1keUhaakM3WTRRU3Q0NE9GbzN3OEFuVkdNMzNUZVE4czVLUTBDY2s2THEwcEhIMzlOb3RjV0tibmFTa2NF?oc=5",
-    "date": "Wed, 29 Jul 2026 07:28:20 GMT",
+    "title": "11년간 9.7조 원 ‘짬짜미’… 공정위, 바이오연료 7개사 담합 적발",
+    "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE03RWpXeHdtVWRwNWxQOWZvNGlHUDVMWGk0Mzc2MEl5TktaYklaQUJBWWtrV2wtbDVWTFlZdk1XM3JvemFFLU45V3FjNEVHcWx3ZEVEbUJ3c1lyQQ?oc=5",
+    "date": "Thu, 30 Jul 2026 05:29:00 GMT",
     "summary": "",
-    "source": "한국사회복지저널"
-   }
-  ],
-  "law": [
+    "source": "브릿지경제"
+   },
+   {
+    "title": "공정위, ‘하도급 갑질’ 건룡건설에 과징금 1억 300만 원 부과",
+    "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBTdnYxOXBBYl9rbndFQjExQUJCX1lhVFZCTG9jY0NldE9BWkZjQnp3SUJNR3B3cUZQbWJyYXhuS2lTNzZqaWpaWWlCVFA4QkVJRGxRa3BYSk1EeUxUSjdBRg?oc=5",
+    "date": "Thu, 30 Jul 2026 05:27:37 GMT",
+    "summary": "",
+    "source": "메트로신문"
+   },
+   {
+    "title": "\"피해자 고통 체험\"...법무부, 수형자에 가상현실 심리치료 도입",
+    "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBfUzVXX09UR2NDcGhodFZxb0hJdUhQQzkwVEhoOEpmblVHVHhyVFhlaWg1MENEeWNvdmx3VHZLOWdoWlBBdFdCRDNEMjJXcDZ4dEM5RUNGNzkya19Tb2VSd0xQS0gtejREd3Jv?oc=5",
+    "date": "Thu, 30 Jul 2026 05:21:49 GMT",
+    "summary": "",
+    "source": "BBS불교방송"
+   },
+   {
+    "title": "공정위, 9조7000억 규모 바이오연료 담합 심의 착수…7개사 대상",
+    "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBnRVRybkxqR2Z0bm44d0t4dmt0TzhQSTBSRURQS1puVmkxUHdZLXNsc0tpTC0zSTRkR1R0RS1fenoyMnR2SFZpLUJScUlGS3R6TUxPT18yN2hBeUFp?oc=5",
+    "date": "Thu, 30 Jul 2026 05:06:00 GMT",
+    "summary": "",
+    "source": "뉴스핌"
+   },
+   {
+    "title": "바이오연료 9.7조 입찰 담합…공정위, 7개 업체에 최대 1.9조 과징금 예고",
+    "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE0yQ0Vid3pLQzZNd3d1NVZrT0FqS3g2TmItN2lwY3RwNmxvVlF4MUI3bGVfYUZMLXYyWnJseENBeldYTWhLZWpCSVBkdEJMVE1XbU5ONTBIWW5SUk9WREdBMjB0RU4tUdIBU0FVX3lxTE1IT1hkelYtTGhjdGxpdkQzLVJ0UVM2S0FWZGJCbDhEdXZrNXhlakN2eUlVWU5NeDk5YjNiTnZvR3lReW5jbWdOSmVFRHVyRlhtUUhR?oc=5",
+    "date": "Thu, 30 Jul 2026 04:49:35 GMT",
+    "summary": "",
+    "source": "서울경제"
+   },
    {
     "title": "[정치家] 정성호 법무부 장관 ⑦ㅣ 형소법 개정안 국면…여야 충돌·거취 논란 확산",
     "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1QQUVEZkxXYUI1eTMxU0FrcFpmY0lMYTVoX2I2UGJ1UUx4bFBIbkZGczZ5alY4RDFOc0VMX1JZalVhVDNIcmN3XzNBRE4xRXRhckRGSU9iMWZZSndyVUpDODVaOUxQcUQ0?oc=5",
@@ -393,146 +526,69 @@
    },
    {
     "title": "법무부 청소년 범죄예방위원 오산지구위원회, 오산시립지역아동센터와 '수호천사운동' 업무협약",
-    "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE01SUJyXzVQN0xJM0JDX21Zb28xWUtxaFVKUlR0clNROXZPMllTSHBGS0tkdzJqbHZZcGdwVUhUVGN6dXh1Zm5OZHA5V1IydHVnbjl5eEh3YmVUVnFLS1NtQUpVRQ?oc=5",
+    "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBPdG5vajN6S013Z2QtVHFGNjdDTkZyQlRCMjFZbkk1YjlMbkRpcElmMF9SWnNVSW1PYmJyTHNhU2Fmc1QtOUFKQktxLVhhQjRLcndVYTJKMTc2XzJ1cl9TUnF3?oc=5",
     "date": "Thu, 30 Jul 2026 03:30:14 GMT",
     "summary": "",
     "source": "경기탑뉴스"
-   },
-   {
-    "title": "11년간 입찰 담합 혐의...공정위, 7개 바이오연료 제조·판매업체 제재 착수",
-    "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOMGJCUGcyR2ZpTVVJVWNfeklKWWk3eG9qS1Q5R2hxQ1RjY2FnZUc2WExjS1ptWGZETEUwdXBjejBXYlNzcHVwbnZjQmZjck8ycjBTMnUwazVwTzJQQ1c4NVVUVXpuWjRVcGt6ZkRvbnJYWldUWmp5M215S1NHQl9lTWdlZm9TbzJkYTAyQjRB?oc=5",
-    "date": "Thu, 30 Jul 2026 03:08:21 GMT",
-    "summary": "",
-    "source": "조선일보"
-   },
-   {
-    "title": "공정위, ‘하도급 대금 미지급’ 건룡선설에 과징금 1억 - 조선비즈",
-    "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOdDhjeEVVOHUtenhoSm5xR3RWYVRYUGh2c2NWWDZhbUxCUWlXLXdvT1Z5dUJONi1PbXpSaGRpQW02TjBtc0h0eURDelFyZUpxeUthTFNuZ0ZCM2prZnVLSDlHWEZ6MU9XbUEyRE1MQURDc1FkZ1d3Nlh1Y3VQRlNwQXRhY2Q0UdIBmgFBVV95cUxOS1FVOENVZFFYRGNBTVFUYnR3TWlZZVY4NUdGNWxWRkFaMG41Q0pVY0Nhck9ldE5aQ3BQb3pwSlNIU3Bhb1E3TEluUVh6aTNMcmlVbVBEbVJBNjRPb2I3SGxSWjVEb25qQlZzMngtQ2ZLN3NLT0lpazZISmpUSEloU2Ztak5nSUpOWl8wWU94ZHBkWHN5SDM5UTdB?oc=5",
-    "date": "Thu, 30 Jul 2026 03:03:53 GMT",
-    "summary": "",
-    "source": "Chosunbiz"
-   },
-   {
-    "title": "공정위, SK케미칼 등 바이오연료 제조·판매사 9.7兆 담합 제재 착수 - 조선비즈",
-    "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPU2M5V0ZHckZ3UGhsLWFtSjR1NW9jOFFXQWZvUUlmSV9HTzk5NEtZbmYxUHl0N1FxUjVFZTF3NXpWeHF2TUFxYjMyQ1dpNVdDaGVtS0pSNVp6VDZLeVRZUlJxQUdXZHRtcml4TXRmSVFyb21YTkVldDhDMHR6SjRxVEN4ejA2UdIBmgFBVV95cUxOMUFpLUZIUVdQOS1ZUk9XdVU5QWY4R3lxOUZaOWlKZXp6Z25qRzNac2U0VkZqSkhHMWRySzV0UnpUV3hjZ1Nuc3dFcm9LbjFTV1NYbTVUN3gyTlY5d2RvWXFDOExldTB3TUNyd1ktT2UxdmRMQnpYWDlEU2wwRk1QVzFwd1A2dE9DMWphUFlha3BiM3gyd25IWEtB?oc=5",
-    "date": "Thu, 30 Jul 2026 03:02:32 GMT",
-    "summary": "",
-    "source": "Chosunbiz"
-   },
-   {
-    "title": "\"공사대금 안 주고 계약서 미발급\"…공정위, 건룡건설에 과징금 1억",
-    "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5iLVpSWkhoTkJuMWZjZjN1ZWlqSk1xWERQLWQ0VlAtQjhBaUhXUVc1SXdqX2lNUlBQQTFnMGExdW9kcXd0ekQ0XzIwUHJ4ejZFbGQ0?oc=5",
-    "date": "Thu, 30 Jul 2026 03:01:00 GMT",
-    "summary": "",
-    "source": "네이트"
-   },
-   {
-    "title": "하도급 대금 1억원 지급 안 한 건룡건설…공정위 과징금 1억원",
-    "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBSYkhrdWpUeEdJTGNpR3VNT2dSTURFQVdhT2lPTTZwMEhlYmNUbEpMNEI2UFIyXzA0RXRrVHdmYS1IQkFlOE9zNzFyZkFLQkRLMGdNM1hjTEhaU0trcjU0aEtvYzI0VkNVWV9VZ2Ztc01TMk5i?oc=5",
-    "date": "Thu, 30 Jul 2026 03:00:18 GMT",
-    "summary": "",
-    "source": "연합뉴스 한민족센터"
-   },
-   {
-    "title": "'에너지안보' 핵심 바이오연료…국내선 7개사가 11년간 담합",
-    "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9HaGJQME1SWm1FTFFxbzhMNHp6QnlTNE5HYmV5c2dOZHNoSjRjV1ZBWWgzVXFIX1JFRXh2b0dDSmFCWjVULVp1OTZvVUIzNDMxX3d4bFd6R3JyZw?oc=5",
-    "date": "Thu, 30 Jul 2026 03:00:14 GMT",
-    "summary": "",
-    "source": "한국경제"
-   },
-   {
-    "title": "바이오연료 10조 규모 들러리 입찰담합…공정위, 심의 착수",
-    "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5oMEhYQ1BtSHczb0ZfU0NMTXBFeVIzZGY5eTY5VXVvcTRraTk5WkQ2bEcyUFBzbkp4R0N6dlFtNXhiaUNjRGkzY3hGSHB1enhFWkxuaEU4eXktcno4N190MDR0QmJJVXE4Vmp1YnVJQm53dw?oc=5",
-    "date": "Thu, 30 Jul 2026 03:00:00 GMT",
-    "summary": "",
-    "source": "한겨레"
-   },
-   {
-    "title": "수급사업자 하도급대금 떼먹은 건룡건설, 공정위 제재 - 머니투데이",
-    "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1OVVZ6LTA1b3RSRzJseVJqQUQzaUVOZHUycjdEeE1fNGR4RF8ydjhoVjVmVlhXUzh3SmJwT0E3WldjejVhM2ROOHpuZS1qM2VOd0phU1VTVjlXQUpxUGkyV3V3OXBaSmF3U3Vv0gFwQVVfeXFMTlYxaE9ZVno5WFdoVFRMS3J5ZjF5dElUclViZVAtcXNXTm1ZbXFMNXdPb1dTdG45TGU3dXZhUFhyLTJTRHByUWxkWFZYcl83UHYxVHZLbUlJX1FnTThQUHF2RzhHbHctdFM3QVdLYmJhdg?oc=5",
-    "date": "Thu, 30 Jul 2026 03:00:00 GMT",
-    "summary": "",
-    "source": "머니투데이"
-   },
-   {
-    "title": "공정위, '9조7000억 규모' 바이오연료 담합 사건 심의 개시",
-    "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5RUXJxaUFsX3JLR3hpUk9PVndjMkgxQkhrdnRhTU9pODFiRnEzbk9xU2xRRFJrQWZGM1VIbzN6LXYyQVl6MzhwNVdZR1JVR3NlalExN0c4OXhqRm9NMlJoUFVpQk1JMlJUX1E?oc=5",
-    "date": "Thu, 30 Jul 2026 03:00:00 GMT",
-    "summary": "",
-    "source": "서울파이낸스"
-   },
-   {
-    "title": "이래서 기름값 비쌌나…9.7조 규모 바이오연료 카르텔, 공정위 심판대로",
-    "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5PMGdrVHk5U2VnWnhwVVR2ckcwQ1FBeWhxQWNzY3gtOGFEb2g0VFRyd0F6aGRJZGFJZDVRMHRlLXhvYXRvZHhZZmhOR2E4ekQzbEx3bG5EY1NxR3ljZF9TRg?oc=5",
-    "date": "Thu, 30 Jul 2026 03:00:00 GMT",
-    "summary": "",
-    "source": "아시아경제"
-   },
-   {
-    "title": "공정위, 애경케미칼·SK케미칼 등 '9.7조원대 바이오연료 입찰담합' 제재 착수 - 머니투데이",
-    "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE53V0JWcjlsMUxFYmFURU5obnZHSktVdEljXzFMVk5XZ3lwSU1NU1pvUUQ4R3B4dXNBM2FqYzJ3OUNzTlR1bDZSbENzMWxRZE1PLWNtYzFBTkE4VDN4N2lkNlZmdTk2Z3JwSFpj0gFwQVVfeXFMTlUyNUItcmZyX2VTYXJYQWhDN2M3cTI0ekJkYXdNZ3ViQm9oSW51V0JzZW91VDROcnNFRmk4cmxyNzNxb0J3VXVxMVROR0dVdGdIcXVHSDJnRUFXXzBaaHFXdjBLN2xsYlE3cmltSlpmNQ?oc=5",
-    "date": "Thu, 30 Jul 2026 03:00:00 GMT",
-    "summary": "",
-    "source": "머니투데이"
-   },
-   {
-    "title": "공정위, 바이오연료 담합 심사 착수…과징금 최대 2조원",
-    "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE44MUxhTzdVZFdCSkd1eHFkVklVanJnYmtoQk5hNkd6N1FuTmlMb1U1V3ZoWGdqbGFWRUFIbnRUa3RrSHpkWnpaX25CT3BJNTZCTFlJNGdhTWVoV09uMGFlWNIBeEFVX3lxTE84R3lVTS1iMFhmcXJpd2tTSndseHNhektKX0ttdnRXcVc1X0VRNEdGN1pZUnVSSHREbVZkcExkLUZmYWlBM1NJbTB2Y3RBc05mTzlRVkVWUk9OUFBZZ3NYbWdrTW5IejNGMVJ2X1MtM1lpY0lxalE5Rw?oc=5",
-    "date": "Thu, 30 Jul 2026 03:00:00 GMT",
-    "summary": "",
-    "source": "뉴시스"
-   },
-   {
-    "title": "공정위, 하도급대금 미지급 건룡건설에 과징금 1억300만원",
-    "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5Jb0NoZGhrQ2hZbGFnejhyelI4MmJfSlB6U01seFBxcm1mNVdqaGNQY0xRLXlSdDZvZWQxTnRQc0dkRjNPSDRvTWd4Z2tQNExMM3ZKcnlCSk04cElxWDZnZ9IBeEFVX3lxTE9TQm5qUHFWQTRtQmMzZXdLUktUUHE1dnhidWhkTkVTWlg2Q00yX0RQNG82eW1CU0RTT2p0UVhIMTNQQzJ4cGo5eWpqVmdGcnJwamZaOTRpOXpFMU54bHJrSGFvTDFGOFFVcjRqWEhCVDQ4ZXNCT0c3ZA?oc=5",
-    "date": "Thu, 30 Jul 2026 03:00:00 GMT",
-    "summary": "",
-    "source": "뉴시스"
-   },
-   {
-    "title": "공정위, 바이오연료 제조·판매업자 애경케미칼·SK에코프라임 심의 착수",
-    "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE45bDlYOGJVR1BOSUZVZ18ybE5BT1ZKWkZDS3ZST2M1N1dCZkhzMlk1SUxzaWhJYVUtVWlMNlpFOV8wLUd2QTF4VUkxYlp6RTlOd0ItdQ?oc=5",
-    "date": "Thu, 30 Jul 2026 03:00:00 GMT",
-    "summary": "",
-    "source": "이투데이"
-   },
-   {
-    "title": "스드메 가격 표시 제대로 하고 있나…공정위 집중점검",
-    "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5XNVJzWlIzYU5kVDF3c2YzRkRBcEM1RWI0aDd6RTIyUUc2NGtJX1VYYl9BVDVGR0k4SUtnYW1xRDJWRDExT2tnWXpxNVF1RUkxZUV5YXkwQUJPaHI0Ymt2eVJXNTZ5WHFlTjFxUks5UdIBc0FVX3lxTFBwZEhVTkpESG1faExOMXhRNnQ0REdHVGNrbHd0WFBIQVVJME9Pd1BTWlVpY0F3b09sNzFzSGdFU29aVGZnNU1EcVd3WHRWM3gyTEJVM1lZZkYwbnFTNUxncjJWeXJXeVl5Uk9kRWZzcUdKREE?oc=5",
-    "date": "Thu, 30 Jul 2026 02:28:30 GMT",
-    "summary": "",
-    "source": "시사저널"
-   },
-   {
-    "title": "법무부 인사",
-    "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBUZWVOYWVEVklEcG5GTFVBNDFEUlROUXRieVN0bjlfVDZvZmQwX0RhUWxVaUZ5UnFhRi15clhVcWNpaTVlaVdud0s5azk4SVBjQUs4UWFOalU4TUFPLWFXaWQwVTN4Y2dpbUlyVjR3VQ?oc=5",
-    "date": "Thu, 30 Jul 2026 02:27:00 GMT",
-    "summary": "",
-    "source": "기호일보"
-   },
-   {
-    "title": "음성군외국인지원센터, 법무부지정 ‘동포체류지원센터’ 개소",
-    "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE82WVJLbzdoX3BBQUdZTHg3NlNoeWlOZDhTbVRreU5YQkllTXcta2hTNDg3aFhNbDkxcGF6R1dLZGhlNXlOZHd2MlRpMkN2ZER2aHlYUE4yS29YTUV5M3JRYjJ3YW45RDhHRjk3eUF0aTk?oc=5",
-    "date": "Thu, 30 Jul 2026 01:59:14 GMT",
-    "summary": "",
-    "source": "충청일보"
-   },
-   {
-    "title": "공정거래위원회, 내 리뷰가 삭제됐다면? 이제 이의 제기할 수 있습니다!",
-    "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1TUkhwQ2d5eVFKNTVONUZVcndfTkUxeExOcGp6SkE4LWM2c0wwMnZQUkZacE9mcl9Xa1FfNWczQmdhUVZqR0h1OUhKYlpoM0pwdFhLR2x2ZUhhb1ZDQU9kOHhGMW1OV2lHM2U5ZA?oc=5",
-    "date": "Thu, 30 Jul 2026 01:55:29 GMT",
-    "summary": "",
-    "source": "저널25방송"
-   },
-   {
-    "title": "공정위, 스드메 가격 표시 집중점검…최대 1억원 과태료",
-    "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE85eS1rU3E4VVVMVmhWc29nbVB0VU81V2YzemsyZmN1SmtfNWlFNnlodkQ2cnRjWk1YcjB5MXdoUVFJdUkxRHZCc0k1cl9POXV0U08zb2hHS2loamRPeGZ0WdIBeEFVX3lxTFBhOXRxY1JwdWJnZnhQVDlOclNVUXlxeElNNDkzbWpzNjJVV1JzQkluUXJjOTc1M2I4b2gyeERhWHNrZEZhMGlhNEZybUVHLTlUOXl2akhfZEp3d0tFTFpGTzdsX1NiTGVyZkFSa0xrdFZJVXoxeWVxVw?oc=5",
-    "date": "Thu, 30 Jul 2026 01:04:42 GMT",
-    "summary": "",
-    "source": "뉴시스"
    }
   ],
   "fund": [
+   {
+    "title": "국민성장펀드, LG디스플레이·테크윙에 1.3조 저리 대출 지원 - 조선비즈",
+    "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQT1BuU3dERlNGMjdJQlB5MmJOc3R2RUc5M3c0MVNHSmNXZjZCSDVLMzFrNXQ2dk5wa1M5R2RXY2dHS2xKSzZtclRhUUV4bjBqQ2RBWWtxZGdxRmNmSDFOdXg0ZmZvVURnVEM1UGFfR2FlSk5LaTVZSm1GNm9WSEVOaNIBlAFBVV95cUxPUTFXUUdZMEhFMW5pOTNBSlA3b2lqMUdZSGpOSi1RUC1kdklhYWZaQUVueURWUWJJYk5zQjFFMGVBTEpybnlvSVRzN0p5dzZfeFpfMVlabzNoTVZVSkpXVmVNbXpObk9nTU1EbjlhOXVjME9RS1lBYUNMOHpjYnotdWZjRWtndTdsZ01fbUpRaEdlU1lS?oc=5",
+    "date": "Thu, 30 Jul 2026 07:06:00 GMT",
+    "summary": "",
+    "source": "Chosunbiz"
+   },
+   {
+    "title": "금융위, OLED·HBM 공급망 강화에 국민성장펀드 투자 승인",
+    "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBDaHJlWjN3ZVh3ckdyVHF3d1hheUYydE92bms3MnNTUkJWanpsUmxrcFBnR2tRSHVmTmVxbkRmeUFQODZRR0hROUJIWG9za3ZCWTY4emJxbUlhTnNV?oc=5",
+    "date": "Thu, 30 Jul 2026 06:53:00 GMT",
+    "summary": "",
+    "source": "뉴스핌"
+   },
+   {
+    "title": "'공모주 잔혹사' 막는다…금융위, 사전수요예측·코너스톤 제도 도입",
+    "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPSXNSaklMeHJja0l1SVBxZll1eGZ1NUdOUW4xUXplU1dqT1FqMDFBNFVmdC1haDlHblhnT1RTdGVJNGJmSmMxa0puX2t6M09NQXp1Wnh5UVROWDdNQzRrd2JOWnRZbzFWTXhXcHYyaVp5QldVYS1IajFHay1oS0hYbzYxZEF3TG9P?oc=5",
+    "date": "Thu, 30 Jul 2026 06:20:22 GMT",
+    "summary": "",
+    "source": "글로벌이코노믹"
+   },
+   {
+    "title": "관세청, 위조상품 410만점 적발…피해액 93%는 ‘의류·가방·신발’",
+    "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFA0eFFGZXdjaEEzRkFRclFrMWlPZlBQMjg5V19Eb1ZCZWZfN2tpMTJKckM0c1NmZ0pQLVpGWVFYNW45QkZWeWdKa1RVSGt3UWVDRjV3Q0MyTFptRTktV250aHQ5Ym5KWjF6?oc=5",
+    "date": "Thu, 30 Jul 2026 06:00:02 GMT",
+    "summary": "",
+    "source": "한국섬유신문"
+   },
+   {
+    "title": "금융위, KB증권·신한투자증권 DLS 과징금 소송 항소심도 패소",
+    "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9pTW01MEtkbEp4cVFiU2U5bVJBMVpVLXI1Wi1yVHNiaVpRLTEwcUYwN3Q2SjNnNmFKbTNPNnVqXzhWSUJHaHBnVW5CS3JBRzZadGFoUHV3RHk4R0JkRkQ0Y21vYmg?oc=5",
+    "date": "Thu, 30 Jul 2026 04:41:09 GMT",
+    "summary": "",
+    "source": "뉴스1"
+   },
+   {
+    "title": "금융위 \"국민성장펀드의 콘텐츠 사업 참여 여부 등 정해진 바 없어\"",
+    "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5KZ3F0TnZyclhsdFlwcmhIMUpCdFA1UXFGdDhqdVJ5RGV4UmQ2MEJvNUdfZ3dDM1lvSFBhUFc4cmk0cm1MOVQ1MnlJRWJwZFBYOU9raEdDVzg3LW9uZVktb0prUjAtRU5HaGV2R1AxQQ?oc=5",
+    "date": "Thu, 30 Jul 2026 04:39:21 GMT",
+    "summary": "",
+    "source": "대한민국 정책브리핑"
+   },
+   {
+    "title": "관세청, 환율 흔드는 불법외환거래 점검",
+    "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE52aHBqTXZ2aTh1Z0ZHREpENDFRS3MwcTdpeGJPWHJkMHBhdVI3NlNWZUJvZGRCZTJkcXZZUmhScGEyRkN2c2d0Rjh3M2x4QzlHYldEeHFvai1XMFBDTmhBQlkzUVR3M3JLMUZ1bnZyZERQZ9IBckFVX3lxTE52aHBqTXZ2aTh1Z0ZHREpENDFRS3MwcTdpeGJPWHJkMHBhdVI3NlNWZUJvZGRCZTJkcXZZUmhScGEyRkN2c2d0Rjh3M2x4QzlHYldEeHFvai1XMFBDTmhBQlkzUVR3M3JLMUZ1bnZyZERQZw?oc=5",
+    "date": "Thu, 30 Jul 2026 04:27:46 GMT",
+    "summary": "",
+    "source": "법률신문"
+   },
+   {
+    "title": "합리적 공모가 산정에 상장 후 급락 완화까지…금융위, IPO 관련 입법예고",
+    "url": "https://news.google.com/rss/articles/CBMijgJBVV95cUxNZ1gzdGtJR04zWXpvRXpzMWRnSTY4WmJWWVMxU0hrbTJNa2c0NjJVLU1EYl8xSU44NUZiWlE2OFA1OE9IUlZ2b1VnMjRCSjFsMnVXa3J0bHc5ekhkNldXM0VSTG9DdzAtbVBoYUhjV0Jyb3B6cFRvNHptTGY1MHVvU3R5QnlaXzdjaUw3RTUySnNBWkxIY2RNVHJjTVRmTWZxVTF1NHBUeU9fSlZ1Z21xV3R0cWNDWFlDVVZVTmo1ZUFpMER3X2RlVk5yTHFicFBLcmN0RHNzTjJOQlR4LVgzWjdHcDRsZEFiY2VScDlHM1l0RXM5QkZKWlFWaDVjTlZ3VHlWdEd3ejFleFNoZnc?oc=5",
+    "date": "Thu, 30 Jul 2026 04:24:00 GMT",
+    "summary": "",
+    "source": "데일리안"
+   },
    {
     "title": "한은·금감원·금융위 이전 다시고개…\"기왕 옮기면 세종\"",
     "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFAwYl80ZDN1LUFsd0NWYlVmak80amVaVGRyNGZiSjhObElEMHp1OVNwMW5jcm1JNEVISE1aU1AzaTYwVzdTaFlzTmNSQ05OaU1yT29KMl9DdmZITzh2SUluSdIBeEFVX3lxTFBLdjFsRldRVUZqTFJmZ2RnTExWWnRYamxtb0dhLUhpT0Jid0hlUTVrZndYcDU2eVVsSVpkU2pJNzg4eTNZeVB2c0h4UjV5SktMd0NjUlVVQ05CLVhhbTJoRldyS29GOTBGQXFpSy1ibWx3NmZsWjNjWA?oc=5",
@@ -555,6 +611,13 @@
     "source": "edaily.co.kr"
    },
    {
+    "title": "금융위, IPO '사전수요예측·코너스톤투자자' 제도 하위법규 입법예고",
+    "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE8yMVpQeUJlbXdlSE1XS3l1MlR5TzhGWVN0WUhnX2Rrajd1SFBWMWpOU2JXalcwSkVoMkVQdEF0ZU9kd3llQ3BENG9jeWVJakg4ZThoZVZ5aTBJek1kVWZKRFZCcW8wMkh6UWc?oc=5",
+    "date": "Thu, 30 Jul 2026 03:00:00 GMT",
+    "summary": "",
+    "source": "intn.co.kr"
+   },
+   {
     "title": "금융위 \"코너스톤 투자자 최대 10개월 의무보유\"",
     "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFA1OVJ3ZjNZU2YxS21hSnJ1bExnaWxyTjcwcnN4ckM3aEEtcE85SDdUVktZckFlVDF3RGdsRThEYm9zcTE4TWhzdmhnczh6MVNEZTVYVW9qZGNwZjEyYTYxZlNn?oc=5",
     "date": "Thu, 30 Jul 2026 03:00:00 GMT",
@@ -574,6 +637,13 @@
     "date": "Thu, 30 Jul 2026 03:00:00 GMT",
     "summary": "",
     "source": "아주경제"
+   },
+   {
+    "title": "김용범 “韓증시의 ‘구조적 과다 변동성’을 금융위 통해 점검”",
+    "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9aWjd4ZVhOSXc3UEpGbmZ5dG5XeXo3aGJRUWJZdjJIdFdPVTdsc1Z4T01IZTNVdzJsWmtGNFNHS3FjVVk5b2JDUFBXODhCalo3UzFwdWdoUVNhX3ZfeWY5Zi1nZVZ3ZFo2b3Zr?oc=5",
+    "date": "Thu, 30 Jul 2026 01:58:23 GMT",
+    "summary": "",
+    "source": "CNB뉴스"
    },
    {
     "title": "'빚투도 레버리지'라던 금융위…규제 선회에 투자정책 일관성 논란",
@@ -604,11 +674,11 @@
     "source": "세이프타임즈"
    },
    {
-    "title": "[들어보니]박종문 삼성증권 대표, ‘발행어음 숙원’ 풀리나…금융위 ‘기관경고’ 잠정결론에 업계 ‘이례적’",
+    "title": "[들어보니]삼성증권, 발행어음 인가 재추진…업계 “금융위 정례회의 주목”",
     "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBRek9aM0p3VGh6b2NIRFQxZF84enN6YmNidi1CeGhtZ05iTHBNZkxjVExENUFfakctNURkcjFDbU82bWF6MGl3Q1JxTUhJQVZORWp6dGdHU0ZvM21WYnJJVA?oc=5",
     "date": "Wed, 29 Jul 2026 23:30:07 GMT",
     "summary": "",
-    "source": "NSP통신"
+    "source": "nspna.com"
    },
    {
     "title": "해외명품부터 K브랜드까지… 관세청, ‘짝퉁’ 410만건 적발",
@@ -616,13 +686,6 @@
     "date": "Wed, 29 Jul 2026 15:30:00 GMT",
     "summary": "",
     "source": "동아일보"
-   },
-   {
-    "title": "與 “투자자 보호 미흡”…野 “금융위·금감원발 인재”",
-    "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1JbllXTm55UU1ndEY0dVA1cTExcWZSRENpbHp0dmhLOUxleWdVOFNrQXpRbkM0c3gyakRvc3E2V2lQREdxeW5mVzM4XzZHWm5iWjVfT0k0cnFRUDc2ODdzRDFEb2VLYkZreXJj?oc=5",
-    "date": "Wed, 29 Jul 2026 12:19:00 GMT",
-    "summary": "",
-    "source": "idaegu.co.kr"
    },
    {
     "title": "김용범 “증시 안정화보다 구조 개선···금융위, 레버리지 ETF 계속 보완”",
@@ -643,73 +706,73 @@
     "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5XMFFBWkJXc3J6VG1JMkt1N0w4S21UWl9RTVdGeXdUNmhVc2dRVDFCM3B1NTEySWhXbGZEZUxmYUNFTkkyUzd4S2l3Y0ZwNjAzY01CTUZRT1JZa1BQN2NMTm02OHJFTnFKRG5iamZxemdGeEhJ0gF0QVVfeXFMTjdnS0Fra0doWUFEX3gtSEk4UkNjWVE4aWYtMFd5dWJqVHBHeDZPZWNOZ2dKWk5HOURUM0h4RVE2eHQzWTh4OS00dWRXQ0VDa1BtdV80dHpIcGZtZGVaYThYNXllUzh1Um9mczVNSjdtVjZrRVk?oc=5",
     "date": "Wed, 29 Jul 2026 11:06:13 GMT",
     "summary": "",
-    "source": "MBC 뉴스"
-   },
-   {
-    "title": "긴급 시장점검회의 참석하는 이억원 금융위원장",
-    "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5EcTNvY29XSDFPd05TLU96WW1xNWJWVjJVXzduRjJMZEgxSmd1VVMxX0FReEgyVzV3dVlibi1EdjNlMUQ0Q19pUGhzd2Y5YXF5U0dlTllNcjdNS180ZTYyaNIBYEFVX3lxTE5EcTNvY29XSDFPd05TLU96WW1xNWJWVjJVXzduRjJMZEgxSmd1VVMxX0FReEgyVzV3dVlibi1EdjNlMUQ0Q19pUGhzd2Y5YXF5U0dlTllNcjdNS180ZTYyaA?oc=5",
-    "date": "Wed, 29 Jul 2026 11:02:49 GMT",
-    "summary": "",
-    "source": "연합뉴스"
-   },
-   {
-    "title": "스테이블코인법 정부안 공개하나…이억원 “최대한 신속 추진”(종합)",
-    "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9EcGFIdFdiWjZJSzAyOWlrUDlTQTE0ZXhfcXhBWHJMdEltVzY2ZnZaMmZHWEpRREU5QkFmWGV5QkYyM3FpZ2JidGR6MFdjVmRHeExLZXIwTnZST3BuNDJ2WGdibHp4RDBVSVByVTV6cXRnc28?oc=5",
-    "date": "Wed, 29 Jul 2026 10:52:35 GMT",
-    "summary": "",
-    "source": "마켓인"
-   },
-   {
-    "title": "주가 이틀 연속 급락…재경부·금융위·금감원·한은 ‘F4’ 긴급회의",
-    "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFA1RWduZXVkalY1N05td0FtcDJaRmJhTUdWNDJONXBSTHV4LVZZVWFGclkwamo4UGNQSTZDT25McVMtNTlxNEpKZEdXeGNvV3IyOTlRdEd5SFRWZw?oc=5",
-    "date": "Wed, 29 Jul 2026 10:50:47 GMT",
-    "summary": "",
-    "source": "세계비즈"
-   },
-   {
-    "title": "국회 정무위 참석한 이억원 금융위원장과 이찬진 금감원장",
-    "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBaR3N1RmRZcmxaNFdpbGJRNmxTQ1RhMC0taTBMYXFWZWNfamU2VFlzQUZJN2pZUklYN0tJYlZNV09VdHVlbk1rUHlMTjRjNFJ1LWkwZU5n?oc=5",
-    "date": "Wed, 29 Jul 2026 09:34:01 GMT",
-    "summary": "",
-    "source": "매일경제"
-   },
-   {
-    "title": "최은석 \"김용범 지시로 단일종목 상품 졸속 출시\"…이억원 \"다양한 제안 검토\"",
-    "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5QRXRaemhZZF8wYXlTU3Vtd1JuUXQySG9EMlY5Ml83SXp0NWVwZFhyek5lU1Q4WWpCaEJiVnZ4OTd0b1ExVHBOamVTTGplcDFRbjNhSDNGenBpTDMzeTI3Xzlib0ZyNkhsaVRnVUFibzlPQQ?oc=5",
-    "date": "Wed, 29 Jul 2026 08:49:57 GMT",
-    "summary": "",
-    "source": "KB Think"
-   },
-   {
-    "title": "꼬인 '디지털자산법' 푼 당정…금융위가 짜고 野가 발의, 與가 수용 : 알파경제TV",
-    "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9rbEo5UUk3cWxpY2pIR1l4OXhjY3VGV3ExRk5wcHlfYUVHRFZ0ZzZHbWpQdVhUOXJhNkJPTi1RSTZlSXA5SnQteDZxMzJHd3NtQmZmT1VXeVhGbGotQ1UtNVdRUkVFVnVjejJva1pB?oc=5",
-    "date": "Wed, 29 Jul 2026 08:37:11 GMT",
-    "summary": "",
-    "source": "알파경제"
-   },
-   {
-    "title": "금융위, 디지털자산기본법안 마련…이억원 “이견 조율해 신속 제출”",
-    "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE40LWJHWnphaFJhRkREeWNncHhzY1VmWkptaEw1T1J0YUpvNzJaU09CalpFT19QN2dwSUl4N3NEWnV4R0tobGJfZXBaS2hBWTBObkVfUQ?oc=5",
-    "date": "Wed, 29 Jul 2026 08:01:00 GMT",
-    "summary": "",
-    "source": "이투데이"
-   },
-   {
-    "title": "금융위 AI 러닝플랫폼 유료가입자 3명...은행권 AI 보안예산 편중도 도마",
-    "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBRQlRWcEpYTTJFMHpVV1JhZElUODlsSVE0T05KVVc3UlpDVXIxRU1CSF9TN1RmTEpEeHNLY1FKX3EzWDRmVGRuSmIyQ0hzWnNBNmZ0VWU0M1VubngwSXAtOTJmMHNsUEtv?oc=5",
-    "date": "Wed, 29 Jul 2026 07:56:41 GMT",
-    "summary": "",
-    "source": "녹색경제신문"
-   },
-   {
-    "title": "“삼전닉스 레버리지 폭락, 금융위-금감원發 인재”…여야 질타",
-    "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5tWlBKWVU2bUcyS1A0bXVNRmlmN0hQYXU4N2hZME96UDRmTEc4dzFSbXA2c1ctS1RKZkN5ZGg1RkNoSnVqc2JCUGJsd0o5T1U?oc=5",
-    "date": "Wed, 29 Jul 2026 07:44:49 GMT",
-    "summary": "",
-    "source": "v.daum.net"
+    "source": "imnews.imbc.com"
    }
   ],
   "biz": [
+   {
+    "title": "지아이에스, 경기중기청장 방문…신사업 판로 확대 논의",
+    "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5MRm5NY0FwLUJoa1dIdFRVQ1Nsa3VFQU9TakxLU2pUaGFnQUxnT0E0T2JVUTV3VHRWbVBlbjM5WVlUWGNEYnAtS2oyemtSZk14NldvVTRvY3p3V1cyanF6cG5hZnI?oc=5",
+    "date": "Thu, 30 Jul 2026 07:01:02 GMT",
+    "summary": "",
+    "source": "서울경제TV"
+   },
+   {
+    "title": "전북도, 7월 소통의 날.... AI로 미래를 말하다",
+    "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBPa0Y0UENVYlVkMEktTWxUNE5TSlZjamdxY1cwbnpZOFZ2WUdjWndWcWZfYm15Q2l2QjFja2lzcUdTNkJnWkRKMld1WU5oQUFoVi10QTYxRGF2dw?oc=5",
+    "date": "Thu, 30 Jul 2026 06:05:51 GMT",
+    "summary": "",
+    "source": "무진장인터넷뉴스"
+   },
+   {
+    "title": "제주테크노파크, 스마트제조혁신센터 4년 연속 ‘우수기관’ 쾌거",
+    "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5ZM3J3VGFsZHhaX0dmV01XSUNxb1lDV0N2X1ZGTG5BenBTbGVKdjBkODVSZUlvZVdwaHlTaFRZeGYyb09Ocm1UUU50amtKUE1lQjFTby1hcDVmSlY4enZWalI5SHRLTXRDUWgwdmtHQQ?oc=5",
+    "date": "Thu, 30 Jul 2026 06:01:56 GMT",
+    "summary": "",
+    "source": "youngjuilbo.com"
+   },
+   {
+    "title": "지아이에스, 경기중기청장 현장 방문…드론·푸드테크 신사업 판로 확대 논의",
+    "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE8xUHo4TGI1ajF3X2NSTEFZMmNfc2R5WEg0Mzhnc0dzZTNEUnAxMzFRYnNTUTMzaVBkZ0pOcnZzUkRTUGQzaDQ0bFFycl9LcHlwQkYw?oc=5",
+    "date": "Thu, 30 Jul 2026 05:35:06 GMT",
+    "summary": "",
+    "source": "네이트"
+   },
+   {
+    "title": "제주TP 스마트제조혁신센터, 4년 연속 ‘우수기관’ 선정",
+    "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9nbmFMc1VDcG1sVXhPNWFWQTA5bEswSzlGTzFIMTgta2dtLXBwbXpTQjBZbUZ3bko3UkFWZzliMmVTRzVWcjExLXoxdTBYclFua1VKQmd0WnpnMXkyMzR6TkdYX0dGVjhfNTRiWUl3?oc=5",
+    "date": "Thu, 30 Jul 2026 05:27:23 GMT",
+    "summary": "",
+    "source": "제주투데이"
+   },
+   {
+    "title": "전북자치도, '소통의 날'서 AI 미래전략 공유",
+    "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9HemMzRUcyRE85VUFhbUFaMUNxa1M5b0lydU9JNGxNS0cwZTh0SmROTDJHRlNzVGtabWwzVFl4eHhhSFoxelNlaVVfSnZPWVVZQ2ROdjBfNVZuTzZ2djBTNGVzNi15cGdfV0I4eUhn?oc=5",
+    "date": "Thu, 30 Jul 2026 05:07:50 GMT",
+    "summary": "",
+    "source": "뉴스홈(newshome)"
+   },
+   {
+    "title": "중기부, 상생협력법 위반 의심 508곳 적발…29곳 과태료 등 행정조치",
+    "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9QZFN3REJ6VnhiVW8tblRUR2UydVV2SUllVGQ4ZDdTN2Rqd2FGM0ZvbUk1TDJidXhIa0xIdVNkS2dyUVF4R2NlX0lOdVVmNTZLMjVTQ2t6d2xhQQ?oc=5",
+    "date": "Thu, 30 Jul 2026 04:59:53 GMT",
+    "summary": "",
+    "source": "fnnews.com"
+   },
+   {
+    "title": "목원대, 중소벤처기업부 '모두의 창업' 2기 멘토기관 선정",
+    "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFA1cjYyOXNxMFZ5dW9ESVVZb25uMkhUZ2dpaUJac3dsZFNvSE9RTkZsR3ZqR1lIcXBoTnZBN3htOEZOTkRkdWw4X2E4WmhuMXZVSDFnYWRqUVB3ZGgtdTUycQ?oc=5",
+    "date": "Thu, 30 Jul 2026 04:51:15 GMT",
+    "summary": "",
+    "source": "뉴스1"
+   },
+   {
+    "title": "사회문제 해결할 혁신 창업가 찾는다...최대 1.5억 지원",
+    "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBLUU0tSFV3M2dESF9nUEpJMHpuaVZtcVQzWm5Ib1g0blgtOWtaemFOUGlUWWFuZ1R6ZlJLZ3NKNVc0cG1pN21iTDVub1ctdFplYTdNRVdQc3lHNWtjNkNNYUNtZzRfQ3BKSXBEamtnWmdEMXc?oc=5",
+    "date": "Thu, 30 Jul 2026 04:18:37 GMT",
+    "summary": "",
+    "source": "마켓인"
+   },
    {
     "title": "사회문제 해결할 혁신 창업가 찾는다...최대 1.5억 지원",
     "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPWkgzam1KMExPa09RZEtaT0VWd0pCVTctQS0tT3gzUlBwZTJHbzVfS2NqMDE3OGt5b25LTGhWX09LLWNKVjRiaDdfSHhGQzNuemhmUDBMSzdEcmJvS2duVHF3Q1dKS3ljbV9yYTlBV1ljYlZrVFNYQkQ3ZzM4Z3BLUQ?oc=5",
@@ -781,13 +844,6 @@
     "source": "뉴스1"
    },
    {
-    "title": "미지급 납품대금 92억원 지급…중기부, 불공정 거래 508곳 적발",
-    "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9GZ2JxckxQcE1MX21fVV95ekFqX0ZxOTBRcVVsTEttTXlxa1ctZTFQUnNQY2hybVRHN1ZqckFoVUxyLUlHUVJlMU1TM2wxOG9ueEF1cHpPWjhlUHRXRGV2YTktLUc?oc=5",
-    "date": "Thu, 30 Jul 2026 03:00:00 GMT",
-    "summary": "",
-    "source": "매일일보"
-   },
-   {
     "title": "중기부, 방산 스타트업 챌린지 2차 참여기업 50개사 내외 모집(~8월4일)",
     "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBhV0xpNmJ3R1I2YnJZVmJkRjNOdWZUXzl0RVdWaWlyNGtvb0dmS1NzcEZnX2hmcUg5NGNfaklic0hqUVYtWDZvNTlQYzNEWGM?oc=5",
     "date": "Thu, 30 Jul 2026 02:56:33 GMT",
@@ -800,13 +856,6 @@
     "date": "Thu, 30 Jul 2026 02:49:00 GMT",
     "summary": "",
     "source": "네이트"
-   },
-   {
-    "title": "목원대, 중기부 '모두의 창업' 2기 멘토기관 선정",
-    "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1fSXdCU09sNm13bC0tV2N5MEZKczNfRkdwNk80cFQ5RjVLcVhjclhsM0NFWHNwdlBlSUJuRnVtSnpRb01LaTgwQnVQOGI0d3Rjc0JHNmhiVDdFS0VlUzJBQmN1cWlLNU42dVFlS9IBcEFVX3lxTE9ZV3FESC1GRk9ZSTdkV1h4RmsxNUw0b004MGp2ZF9KRU40X1lPWDVZbXpSVWRYaVhyUWxqdFcwUXRFeEJLaHVFbE1NSG5NaWNvb1J3NDBrdGhZQlN1V0lYanY1bF9nQlpJVmt2ZWdnLUs?oc=5",
-    "date": "Thu, 30 Jul 2026 02:34:37 GMT",
-    "summary": "",
-    "source": "대학IN"
    },
    {
     "title": "\"아이디어로 사회 문제 해결\"…중기부, 소셜벤처 리그 공모",
@@ -835,55 +884,6 @@
     "date": "Thu, 30 Jul 2026 01:54:51 GMT",
     "summary": "",
     "source": "드론저널"
-   },
-   {
-    "title": "중기부, 아이디어로 사회문제를 해결한다! '모두의 창업:사회혁신 소셜벤처 리그' 도전자 모집",
-    "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBEUjNrelZwSnVCNnB2UXZZNXFsOWg2T1MteXdaOXNYWEFELWE5THZ5UXoya0JJeV9LdlpGNTB0Ujl0T1ZlYTBjQTlYbDk2VWMtTFpUWGJuVUFfMm1VTGNGRkhwUTlIZEU?oc=5",
-    "date": "Thu, 30 Jul 2026 01:48:21 GMT",
-    "summary": "",
-    "source": "hkilbo.kr"
-   },
-   {
-    "title": "중기부, 소상공인 재기지원 현장 간담회 개최",
-    "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBHc0JHQThNWE9tZ0w2M1ZpQlJqNWVGWGJkOGtzMXRFZllaU1lISUNaVnlHQTVxOElOQmVoNEhpU292RElXZmtJYUNibVlrdTFJa21teHM3M3ZIVFNNaXF6QmNQMV9kM0k?oc=5",
-    "date": "Thu, 30 Jul 2026 01:46:59 GMT",
-    "summary": "",
-    "source": "hkilbo.kr"
-   },
-   {
-    "title": "중기부, 사회문제 해결할 `소셜벤처` 창업가 발굴 나선다",
-    "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1yM3JnclNkTkJhZnZZQnp4ckNkbTFGMzkzVjFaTmFDOVVGakxvelhQV1ZFNElweVpCbTB2VUhIcmVEQUxTZ1JVQWd1Umh0SkJ1RFBMMDZ6QVZGdw?oc=5",
-    "date": "Thu, 30 Jul 2026 01:28:06 GMT",
-    "summary": "",
-    "source": "서남투데이"
-   },
-   {
-    "title": "[대구소식]'제조데이터 활성화 사업' 참여 기업 공모 등",
-    "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE4yZEdBNms4a1VKWmtWMk1GNEVHUWpzOFZscG9fcFNhSm92d0RTUEZDS3M0OE02MmRLSUtmVjhqbU9NQjR0VE1sNU8zRmNlODJaV0xVYTVoalQySE5hVGxNT9IBeEFVX3lxTFB3c2ZqdnBweENubU5KSDliaUtvendDSDlnS3R6MDRFMmF6dE9wb19BcXR0MXoxM3FfbXIwcGhKMlotZWZHQ2tZampaMl9scDZBMlY4OXhQUEZrSHYzVDF4VlB1cnNxWUlPOGtRYS03VFJ2MlNBUWhBZQ?oc=5",
-    "date": "Thu, 30 Jul 2026 01:22:31 GMT",
-    "summary": "",
-    "source": "뉴시스"
-   },
-   {
-    "title": "피에프디, 중소벤처기업부 '2026 글로벌강소기업 1000+' 선정",
-    "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1NYmNJQVBYVmRtRThIakRvNWxuSzBnTzRDMEJHRlVjU0J1cmVVTXdxVThyVVJGQUJsMlk0cWZpWUNHbUhYVTFlazg1TEhvbjQwQXdB?oc=5",
-    "date": "Thu, 30 Jul 2026 01:05:00 GMT",
-    "summary": "",
-    "source": "네이트"
-   },
-   {
-    "title": "세종TP, 스마트 제조혁신 지원 성과 빛났다…운영평가 A등급 획득",
-    "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFAwZkVEUTloaTZnRWRLanpEZWZHY2RXTHRLd2oyTUxZYk1XTG15cXBVbmdoQXNNZXh5VDBscmtfR1pjTEdGWnVoSDhGR0Jkd1E2UWI5YVR0d1lsZEludkZTa3I3MEFKTEV5Q2VtU3E5MNIBc0FVX3lxTFBpZUlLT0tvUURmSURFaW9XLWVVc0s4MUpGcmlCN3lkWUQwUEppbU05am5XSWI5bVNNWVlJUWlveHpfdEJSRDN2eURJRGZ6OXFRMjZVc2dSRmdyWGE2ZHo0MmdaYlZFTDF0WDlxSWpzQjI3d00?oc=5",
-    "date": "Thu, 30 Jul 2026 00:36:00 GMT",
-    "summary": "",
-    "source": "대전일보"
-   },
-   {
-    "title": "중기부, 소상공인 재기 지원 위한 현장 간담회 개최",
-    "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBzM214NGRYOWEwQUVHejlZSVVvTDRTaG56ZTAzc0tORFZ4cDRMZFQzbk5HQW9jbmwyQlJyZ1NudEMtYU5vWW52aktiOFpScHNVaEtpbV80Y2VBZw?oc=5",
-    "date": "Thu, 30 Jul 2026 00:16:59 GMT",
-    "summary": "",
-    "source": "서남투데이"
    }
   ],
   "money": [
@@ -934,21 +934,21 @@
     "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFA2enlFNTV2UE5Td19FQzBSVXNObFRPelJvamIwMWhSLUZhMmRKaThhamk0bmQxT1dvUmtOd2xtdTJwdEFLR2k5dlJZNlVmRFZYazVSSk5fandya3U1MExTVF9oNmlnc1XSAWtBVV95cUxOb0FhaFVUSnZhRHZfeWVPM1BLYURId3Vlcnh3VGJUN3U1czk2T181eUhEaUZxT3oyaGtmSjVoZmVmNHBGdC1POER1RUR2RmpPYnF3aEtqdUtrWDB1VU9GbWpDd1RYMFVkSEsxOA?oc=5",
     "date": "Sat, 23 May 2026 07:00:00 GMT",
     "summary": "",
-    "source": "창원특례신문"
+    "source": "cwtr.co.kr"
    },
    {
     "title": "소상공인 지원금 최대 3억 원…6월 8일 전 신청 안 하면 제외",
     "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5Fb29OMkVhUVAyaG1IdWt2SF9TSHp0UVNlRndMQlJveEc0NGZGb1d6aTEzRTlkSG5tSGNCdzdYSXE1RnByMF9oMkk3WktjTERNSU1mbnhtVnc5MTdpV2RmeS1pMG1McDjSAWtBVV95cUxNbWxzMnEzdHQ4NlVYenhZVWVwYy1FTWxkS2NiMUpnU2F4Wlg2bXRndlBQYjV0XzZQUm9lLTlneWhFVlVFVmJBcXA3bE5yZUVoMklsc3lES3pyWnBQUURVbmk4RGRHSjFXNHZ4QQ?oc=5",
     "date": "Tue, 19 May 2026 07:00:00 GMT",
     "summary": "",
-    "source": "창원특례신문"
+    "source": "cwtr.co.kr"
    },
    {
     "title": "대출 넘어 퇴로 확보까지… 은행권 소상공인 폐업 컨설팅 확대",
     "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE0tRTRwWXg3ZGNYR0FVUTJDaXdaVlJoOGgtZDZEamlKMG02aHR3MjRGSXBLaFE2aHNnREs2Z3FlYkFXX1pnOTh4eHNsWjZUNHRaU0t4N1JWb3FiQ2Y3TF9EV0l0RjR0b1pxTFZB?oc=5",
     "date": "Mon, 18 May 2026 07:00:00 GMT",
     "summary": "",
-    "source": "ngetnews.com"
+    "source": "뉴스저널리즘"
    },
    {
     "title": "소상공인 AI 지원금 2026년 정부지원사업 4천만원",
@@ -962,7 +962,7 @@
     "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFB3a01EbGs1SzFzWnZDSVpOVG5LOTNzNEE1R3RKX0VBSm9rbkhRYmk5WFJuVDRmY1V2bnNhY0ZuTm5PcmVQVGh0NXA3bnBqUkpSY2c5WFZJcjZOSVZUOFZmR2FkbFh3Wk3SAWtBVV95cUxQd19MdXNvRUJLUEF0alZkakc2bG15TWFNeU5ETE9VMG40djExdUl0N2Njbmo1ZE5HR0w0R1Fmcy0xY1lKbmdEeVpPUGlmT29lXzI1SnpOVVBtMzdQX2dNamE4eE9tQkowQm1mMA?oc=5",
     "date": "Thu, 23 Apr 2026 07:00:00 GMT",
     "summary": "",
-    "source": "창원특례신문"
+    "source": "cwtr.co.kr"
    },
    {
     "title": "소상공인 추경지원금 500만원 진짜 기준 총정리",
@@ -1043,17 +1043,17 @@
    },
    {
     "title": "소상공인 바우처 신청 및 사용 방법",
-    "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1vem5RRlIwN2RpQ0IxdXZ2cmVZY3hWdlF3S2tOTldVT3lROVI0WjN0d2NtUjRUc2Z2U3hvbnlnYjlaXzhjbzY3M2xCQkR6WTQ?oc=5",
-    "date": "Fri, 13 Mar 2026 07:00:00 GMT",
-    "summary": "",
-    "source": "v.daum.net"
-   },
-   {
-    "title": "소상공인 바우처 신청 및 사용 방법",
     "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1aZ0Q4cEdTbWpQcnJySTA2ZDdjRjM2WnBHZ3pBbnUxZ19qOG0yaXc5RkRsSEdQMFFFWnBXRzdOSmRzVjlSbFVjYmVpeWZvUElTRFlia3FVTC1zVG1XbTBpc3oyVDQ?oc=5",
     "date": "Fri, 13 Mar 2026 07:00:00 GMT",
     "summary": "",
     "source": "bntnews.co.kr"
+   },
+   {
+    "title": "소상공인 바우처 신청 및 사용 방법",
+    "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1vem5RRlIwN2RpQ0IxdXZ2cmVZY3hWdlF3S2tOTldVT3lROVI0WjN0d2NtUjRUc2Z2U3hvbnlnYjlaXzhjbzY3M2xCQkR6WTQ?oc=5",
+    "date": "Fri, 13 Mar 2026 07:00:00 GMT",
+    "summary": "",
+    "source": "v.daum.net"
    },
    {
     "title": "속초시, 소상공인 생애 첫 창업지원금 대상 모집",
@@ -1084,6 +1084,13 @@
     "date": "Mon, 27 Jul 2026 23:50:50 GMT",
     "summary": "",
     "source": "한국세정신문"
+   },
+   {
+    "title": "오상훈 부산지방국세청장, 부가가치세 신고 현장 방문",
+    "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9Rbm1GaHFURUF3eHJzdjJYY3dGTGFwSHZ6Zk9UR0VlbzczWkV1ZWJsX3JhZ2UzR21iWkNVc1R5REFmT0w1YWR5NEs2VlFHRGxVRElCVHE3ZW44WXdwUG13RmlQZkdHa01SUDJ6S0ln?oc=5",
+    "date": "Mon, 27 Jul 2026 10:49:43 GMT",
+    "summary": "",
+    "source": "영남신문"
    },
    {
     "title": "오상훈 부산국세청장, 부가세 신고 현장 점검…소상공인 세정지원 주문",
@@ -1231,13 +1238,6 @@
     "date": "Thu, 23 Jul 2026 08:57:40 GMT",
     "summary": "",
     "source": "팍스경제TV"
-   },
-   {
-    "title": "심욱기 대전국세청장, 부가세 신고현장 점검…고환율 피해 납세자 등 세정지원",
-    "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5jVmFCbEV0NDB5Qlk1aUJ6WUdCOWUxaVRtaWNjaTJGSTJ5UHBZUUtnM0MxMllhek9wLWsyTXN1ZUc1SWtJZEduZVNzSGtRbUk?oc=5",
-    "date": "Thu, 23 Jul 2026 08:47:51 GMT",
-    "summary": "",
-    "source": "v.daum.net"
    }
   ]
  }
