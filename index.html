@@ -1520,7 +1520,7 @@ footer select { border: 1px solid var(--line); border-radius: 6px; padding: 4px 
       <div><label>기업명 *</label><input id="pm-company" placeholder="예: (주)한빛물류" /></div>
       <div><label>대표자 이름 *</label><input id="pm-ceo" placeholder="예: 홍길동" /></div>
       <div><label>담당자 연락처</label><input id="pm-contact" placeholder="예: 010-0000-0000" /></div>
-      <button class="fsave" onclick="saveMyProfile()">저장하고 승인 요청</button>
+      <button class="fsave" onclick="saveProfileModal()">저장하고 승인 요청</button>
       <p class="status">나중에 입력하려면 창 밖을 눌러 닫을 수 있습니다. (다음 접속 시 다시 안내됩니다)</p>
     </div>
   </div>
@@ -2063,7 +2063,7 @@ function renderCompanies() {
     el.className = "card cocard";
     el.onclick = () => showCompany(c);
     el.innerHTML = `
-      <div class="thumb">${c.img ? `<img src="${c.img}" alt="${esc(c.name)}" />` : esc(c.name.slice(0, 2))}</div>
+      <div class="thumb">${c.img ? `<img src="${esc(c.img)}" alt="${esc(c.name)}" loading="lazy" decoding="async" />` : esc(c.name.slice(0, 2))}</div>
       <div class="body">
         <h3>${esc(c.name)} ${c.tier === "paid" ? '<span class="badge paid">유료회원</span>' : '<span class="badge free">무료</span>'}</h3>
         <p class="co-sub">${esc(c.ind)} · ${esc(c.region)} · <b>${esc(c.want)}</b> 찾는 중</p>
@@ -2075,7 +2075,7 @@ function renderCompanies() {
 function showCompany(c) {
   const canSeeContact = DB.view === "paid";   /* 유료회원만 연락처 열람 */
   document.getElementById("detailBody").innerHTML = `
-    ${c.img ? `<img class="m-img" src="${c.img}" alt="${esc(c.name)}" />` : ""}
+    ${c.img ? `<img class="m-img" src="${esc(c.img)}" alt="${esc(c.name)}" loading="lazy" decoding="async" />` : ""}
     <span class="badge hr">${esc(c.ind)}</span>
     ${c.tier === "paid" ? '<span class="badge paid">유료회원</span>' : ''}
     <h3>${esc(c.name)}</h3>
@@ -2188,7 +2188,7 @@ async function delMyJob(id) {
 
 function showJob(j) {
   document.getElementById("detailBody").innerHTML = `
-    ${j.img ? `<img class="m-img" src="${j.img}" alt="" />` : ""}
+    ${j.img ? `<img class="m-img" src="${esc(j.img)}" alt="" loading="lazy" decoding="async" />` : ""}
     <span class="badge ${reqBadgeCls(j.req_type || "인력채용")}">${esc(j.req_type || "인력채용")}</span>
     <span class="badge hr">${esc(j.type)}</span>
     ${j.grant ? '<span class="badge fund">지원금 연계</span>' : ''}
@@ -3816,7 +3816,7 @@ function renderChat(rows) {
     const bigMark = m.file_size && m.file_size > 5 * 1024 * 1024 ? " 🔶" : "";
     const fileHtml = m.file
       ? (isImg
-        ? `<a href="${esc(m.file)}" target="_blank" rel="noopener"><img src="${esc(m.file)}" style="max-width:200px; border-radius:8px; display:block; margin-top:4px;" /></a><span style="font-size:11px; opacity:.75;">${esc(m.file_name || "이미지")}${szTxt}${bigMark}</span>`
+        ? `<a href="${esc(m.file)}" target="_blank" rel="noopener"><img src="${esc(m.file)}" loading="lazy" decoding="async" style="max-width:200px; border-radius:8px; display:block; margin-top:4px;" /></a><span style="font-size:11px; opacity:.75;">${esc(m.file_name || "이미지")}${szTxt}${bigMark}</span>`
         : `<a href="${esc(m.file)}" target="_blank" rel="noopener" style="display:inline-block; margin-top:4px;">📎 ${esc(m.file_name || "파일")}${szTxt}${bigMark}</a>`)
       : "";
     const delBtn = isAdm ? `<button class="mdel" title="메시지 삭제 (첨부 시 저장소 파일도 삭제)" onclick="delChatMsg(${m.id})">✕</button>` : "";
@@ -4050,7 +4050,7 @@ function maybeAskProfile() {
   setV("pm-contact", MEMBER.profile.contact);
   openModal("profileModal");
 }
-async function saveMyProfile() {
+async function saveProfileModal() {
   const company = document.getElementById("pm-company").value.trim();
   const ceo = document.getElementById("pm-ceo").value.trim();
   const contact = document.getElementById("pm-contact").value.trim();
@@ -4384,6 +4384,27 @@ function wmTextBlock(parent, label, value) {
   p.appendChild(document.createTextNode(value));
   parent.appendChild(p);
 }
+/* ── 신선도 판정 (KST 문자열 → 경과 분) ────────────────────────────────
+   서버가 "2026-07-30 10:27:22 KST" 형태로 주는 시각을 실제 경과 시간으로
+   환산한다. KST=UTC+9 이므로 UTC 시각은 시(hour)에서 9를 뺀 값. Date.UTC는
+   음수 시를 전날로 알아서 넘겨주므로 자정 근처도 안전하다. */
+const WM_STALE_MIN = 12;          /* 실시간 지표: 12분 넘으면 '지연' 표시 */
+const WM_CURATED_MAX_MIN = 48 * 60; /* 검증판: 48시간 넘으면 '지난 검증판' */
+function wmKstMs(s) {
+  const m = String(s || "").match(/(\d{4})-(\d{2})-(\d{2})[ T](\d{2}):(\d{2})(?::(\d{2}))?/);
+  if (!m) return NaN;
+  return Date.UTC(+m[1], +m[2] - 1, +m[3], +m[4] - 9, +m[5], +m[6] || 0);
+}
+function wmAgeMin(s) {
+  const t = wmKstMs(s);
+  return isNaN(t) ? Infinity : (Date.now() - t) / 60000;
+}
+function wmAgeText(min) {
+  if (!isFinite(min)) return "시각 불명";
+  if (min < 60) return Math.max(0, Math.round(min)) + "분 경과";
+  if (min < 48 * 60) return Math.round(min / 60) + "시간 경과";
+  return Math.round(min / 1440) + "일 경과";
+}
 const BRIEF = { pool: [], idx: 0, timer: null, hover: false, listEl: null, lastStamp: "" };
 const HL = { rows: [], idx: 0, timer: null, hover: false, listEl: null };
 
@@ -4411,7 +4432,11 @@ function showBriefItem(item) {
     .map(s => `<a href="${esc(s.url)}" target="_blank" rel="noopener">🔗 ${esc(s.name || "출처")}</a>`).join("");
   document.getElementById("detailBody").innerHTML = `
     <span class="badge ${item.urgent ? "fund" : "hr"}">${esc(item.category || "시장 속보")}</span>
-    ${item.verified === false ? '<span class="badge free">교차검증 전</span>' : '<span class="badge paid">검증 완료</span>'}
+    ${item.verified === false
+      ? '<span class="badge free">교차검증 전</span>'
+      : (wmAgeMin(item.publishedAtKST) > WM_CURATED_MAX_MIN
+          ? '<span class="badge free">지난 검증판 · ' + esc(wmAgeText(wmAgeMin(item.publishedAtKST))) + '</span>'
+          : '<span class="badge paid">검증 완료</span>')}
     <h3>${esc(item.title || "")}</h3>
     <p class="m-sub">게시/공시: ${esc(item.publishedAtKST || "-")}${item.originalTime ? " · 원문: " + esc(item.originalTime) : ""}${item.confirmedAtKST ? " · 확인: " + esc(item.confirmedAtKST) : ""}</p>
     <div class="m-body">${esc(item.summary || "")}</div>
@@ -4433,12 +4458,18 @@ function drawBriefCards() {
   page.forEach(entry => {
     if (entry.kind === "verified") {
       const item = entry.it;
-      const card = wmEl("article", "wm-market-briefing__card" + (item.urgent ? " wm-market-briefing__card--urgent" : ""), "");
-      card.appendChild(wmEl("span", "wm-market-briefing__tag", item.category || "시장 속보"));
+      /* 오래된 검증판은 '긴급'으로 보이면 안 된다 — 붉은 강조를 떼고 흐리게 */
+      const aged = wmAgeMin(item.publishedAtKST) > WM_CURATED_MAX_MIN;
+      const card = wmEl("article", "wm-market-briefing__card" + (item.urgent && !aged ? " wm-market-briefing__card--urgent" : ""), "");
+      if (aged) card.style.opacity = "0.62";
+      card.appendChild(wmEl("span", "wm-market-briefing__tag",
+        (aged ? "지난 검증판 · " : "") + (item.category || "시장 속보")));
       card.appendChild(wmEl("h3", "", item.title || "제목 없음"));
       card.appendChild(wmEl("p", "", item.summary || ""));
       card.appendChild(wmEl("div", "wm-market-briefing__time",
-        (item.publishedAtKST || "") + " · 자세히 보기 →"));
+        (item.publishedAtKST || "")
+        + (aged ? " · " + wmAgeText(wmAgeMin(item.publishedAtKST)) + " · 현재 시세와 다를 수 있음" : "")
+        + " · 자세히 보기 →"));
       card.style.cursor = "pointer";
       card.onclick = () => showBriefItem(item);
       list.appendChild(card);
@@ -4497,7 +4528,12 @@ function updateStockCard() {
   const nameEl = document.querySelector("#wmStockCard strong");
   const val = document.getElementById("wmStockVal");
   if (!nameEl || !val) return;
-  if (!WM_STOCKS.rows.length) { nameEl.textContent = "주요 종목"; val.textContent = "시세 불러오는 중..."; return; }
+  const wmSCard = document.getElementById("wmStockCard");
+  if (!WM_STOCKS.rows.length) {
+    nameEl.textContent = "주요 종목";
+    val.textContent = (loadStocks._fail || 0) >= 2 ? "시세를 불러오지 못했습니다" : "시세 불러오는 중...";
+    return;
+  }
   const r = WM_STOCKS.rows[WM_STOCKS.i % WM_STOCKS.rows.length];
   const n = parseFloat(String(r.change || "").replace(/[^-\d.]/g, ""));
   const dir = n > 0 ? "up" : (n < 0 ? "down" : "");
@@ -4505,22 +4541,34 @@ function updateStockCard() {
   val.className = dir ? "wm-mv " + dir : "wm-mv";
   val.textContent = [r.value, r.change].filter(Boolean).join(" ");
   if (dir) val.appendChild(wmEl("b", "wm-arr", dir === "up" ? " ▲" : " ▼"));
+  /* 12분 넘게 갱신 성공이 없으면 흐리게 — 다른 지표 타일과 같은 규칙 */
+  if (wmSCard) {
+    const sAge = (Date.now() - (loadStocks._okAt || 0)) / 60000;
+    wmSCard.style.opacity = (loadStocks._okAt && sAge > WM_STALE_MIN) ? "0.62" : "";
+  }
 }
 async function loadStocks() {
   try {
-    const res = await fetch(MARKET_API + "/?api=stocks");
+    /* 캐시버스터 + no-store: 이 요청만 캐시 정책이 빠져 있어 값이 굳는 원인이었다 */
+    const res = await fetch(MARKET_API + "/?api=stocks&v=" + Date.now(), { cache: "no-store" });
+    if (!res.ok) throw new Error("HTTP " + res.status);
     const d = await res.json();
     if (d && Array.isArray(d.stocks) && d.stocks.length) {
       WM_STOCKS.rows = d.stocks;
+      loadStocks._okAt = Date.now();     /* 마지막 성공 시각 — 신선도 판정용 */
+      loadStocks._fail = 0;
       updateStockCard();
     }
-  } catch (_) {}
+  } catch (_) {
+    loadStocks._fail = (loadStocks._fail || 0) + 1;
+    updateStockCard();                   /* 실패도 화면에 정직하게 반영 */
+  }
 }
 function wmStockBoot() {
   if (wmStockBoot._on) return;
   wmStockBoot._on = true;
   loadStocks();
-  setInterval(loadStocks, 60 * 1000);                               /* 데이터 1분 갱신 */
+  setInterval(() => { if (!document.hidden) loadStocks(); }, 60 * 1000);   /* 데이터 1분 갱신 (숨은 탭 건너뜀 — 복귀 시 즉시 갱신) */
   setInterval(() => { WM_STOCKS.i++; updateStockCard(); }, 10 * 1000); /* 표시 10초 회전 */
 }
 
@@ -4529,12 +4577,31 @@ function renderBriefing(data) {
   const list = document.getElementById("wm-market-briefing-list");
   const market = document.getElementById("wm-market-briefing-market");
   if (!meta || !list || !market) return;
-  meta.textContent = "최근 업데이트: " + (data.updatedAtKST || "-") + " · 확인: " + (data.confirmedAtKST || "-");
+  /* '최근 업데이트'(자동 수집)와 '검증판'(관리자 수동 게시)은 서로 다른
+     시계다. 한 줄에 뭉쳐 두면 검증판이 낡았을 때 패널 전체가 고장 난 것처럼
+     보인다 — 분리하고 각각 지연 여부를 붙인다. */
+  const wmUpAge = wmAgeMin(data.updatedAtKST);
+  let wmMeta = "최근 업데이트: " + (data.updatedAtKST || "-");
+  if (isFinite(wmUpAge) && wmUpAge > WM_STALE_MIN) wmMeta += " ⚠ 지연(" + wmAgeText(wmUpAge) + ")";
+  if (data.confirmedAtKST) {
+    const wmCfAge = wmAgeMin(data.confirmedAtKST);
+    wmMeta += " · 검증판: " + data.confirmedAtKST;
+    if (wmCfAge > WM_CURATED_MAX_MIN) wmMeta += " (지난 검증판 · " + wmAgeText(wmCfAge) + " — 새 브리핑 게시 필요)";
+  }
+  meta.textContent = wmMeta;
   BRIEF.lastStamp = data.headlinesUpdatedAtKST || data.updatedAtKST || "";
   /* 카드 풀 구성: 검증 뉴스 + 반검증 언론 보도(자동 수집) → 6칸씩 5초마다 회전 */
   const verified = (Array.isArray(data.items) ? data.items : []).map(it => ({ kind: "verified", it }));
   const wires = (Array.isArray(data.headlines) ? data.headlines : []).map(h => ({ kind: "wire", it: h }));
-  BRIEF.pool = verified.concat(wires);
+  /* 순서 = 신선한 검증판 → 오늘의 언론 보도 → 지난 검증판(참고용, 맨 뒤).
+     이전에는 verified가 무조건 앞이라 22일 전 카드가 첫 화면을 점유했다. */
+  const vFresh = verified.filter(e => wmAgeMin(e.it.publishedAtKST) <= WM_CURATED_MAX_MIN);
+  const vAged = verified.filter(e => wmAgeMin(e.it.publishedAtKST) > WM_CURATED_MAX_MIN);
+  BRIEF.pool = vFresh.concat(wires).concat(vAged);
+  if (vAged.length) {
+    console.warn("[워크멘토] 만료된 검증판 " + vAged.length + "건을 뒤로 보냈습니다. 최신 브리핑을 게시하세요.",
+      vAged.map(e => (e.it.publishedAtKST || "?") + " " + (e.it.title || "")));
+  }
   BRIEF.listEl = list;
   if (!BRIEF.pool.length) {
     list.replaceChildren();
@@ -4572,7 +4639,12 @@ function renderBriefing(data) {
     val.textContent = [m.value, m.change].filter(Boolean).join(" ");
     if (dir) val.appendChild(wmEl("b", "wm-arr", dir === "up" ? " ▲" : " ▼"));
     box.appendChild(val);
-    if (m.note || m.asOfKST) box.appendChild(wmEl("small", "", [m.note, m.asOfKST].filter(Boolean).join(" · ")));
+    /* 값은 그대로 보여주되, 낡은 값에는 반드시 '지연'을 붙인다 */
+    const tAge = m.asOfKST ? wmAgeMin(m.asOfKST) : NaN;
+    const tStale = isFinite(tAge) && tAge > WM_STALE_MIN;
+    if (tStale) box.style.opacity = "0.62";
+    const tNote = [m.note, m.asOfKST, tStale ? "지연 " + wmAgeText(tAge) : ""].filter(Boolean).join(" · ");
+    if (tNote) box.appendChild(wmEl("small", "", tNote));
     market.appendChild(box);
   });
   if (!document.getElementById("wmStockCard")) market.appendChild(wmStockCardEl());
@@ -4618,7 +4690,9 @@ function renderBriefing(data) {
   const sinceAsk = Date.now() - (renderBriefing._askedAt || 0);
   if ((isNaN(age) || age > 4.5 * 60 * 1000) && sinceAsk > 4.5 * 60 * 1000) {
     renderBriefing._askedAt = Date.now();
-    fetch(MARKET_API + "/?api=market-refresh").then(() => setTimeout(loadMarketBriefing, 6000)).catch(() => {});
+    /* no-store 필수: 이 GET이 캐시에 걸리면 워커에 재수집 요청이 실제로 가지 않는다 */
+    fetch(MARKET_API + "/?api=market-refresh&v=" + Date.now(), { cache: "no-store" })
+      .then(() => setTimeout(loadMarketBriefing, 6000)).catch(() => {});
   }
 }
 /* 헤드라인·시세 즉시 갱신 (워커에 강제 재수집 요청 후 다시 불러오기) */
@@ -4638,18 +4712,98 @@ async function refreshHeadlinesNow() {
   }
 }
 
+/* ═══════════════ 자동 생성 검증 브리핑 덮어쓰기 ═══════════════
+   검증판 카드는 원래 관리자가 손으로 붙여넣는 층이었다. 사람이 며칠 손을 못
+   대면 그 층이 그대로 굳어, 낡은 카드가 최신 시세 타일 옆에 남는다 — 실제로
+   "코스피 8,000선" 카드가 5,748.59 타일 옆에 22일째 걸려 있었다.
+
+   그래서 GitHub Actions 가 주기적으로 scripts/build-verified-brief.mjs 를 돌려
+   같은 저장소에 verified-brief.json 을 만들어 둔다(언론사 2곳 이상 교차검증 +
+   실시간 지표와 본문 숫자 대조). 여기서는 그 파일을 읽어 워커 응답의 items 를
+   갈아끼운다.
+
+   원칙 — 확신할 때만 덮어쓴다
+     · 파일이 없거나 깨졌거나 카드가 0장이면 손대지 않는다(오늘과 같은 동작).
+     · 시각을 못 읽으면 손대지 않는다.
+     · 워커 검증판이 자동본보다 새것이면 손대지 않는다 → 관리자가 방금 게시한
+       브리핑은 언제나 자동본을 이긴다.
+     · 지표 타일·언론 보도(headlines)·updatedAtKST 는 워커 것을 그대로 쓴다.
+   그래서 어떤 실패에서도 화면이 지금보다 나빠지지 않는다.                     */
+const WM_VB_URL = "verified-brief.json";   /* 같은 출처의 정적 파일 — 키·비밀값 없음 */
+
+async function loadVerifiedBrief() {
+  /* 이 함수는 절대 예외를 던지지 않는다 — 호출부의 try 를 오염시키면
+     워커는 정상인데 브리핑 전체가 '불러오지 못했습니다'로 보일 수 있다. */
+  try {
+    const r = await fetch(WM_VB_URL + "?v=" + Date.now(), { cache: "no-store" });
+    if (!r.ok) return null;                 /* 첫 실행 전이면 404 — 정상 상황 */
+    const j = await r.json();               /* 404 HTML 페이지가 와도 여기서 걸린다 */
+    return j && Array.isArray(j.items) && j.items.length ? j : null;
+  } catch (_) { return null; }
+}
+
+/* 한 층이 얼마나 '최신'인지 재는 하나의 기준:
+   확인 시각과 카드 게시 시각 중 가장 새것의 나이(분). 못 읽으면 Infinity. */
+function wmLayerAge(o) {
+  let best = o && o.confirmedAtKST ? wmAgeMin(o.confirmedAtKST) : Infinity;
+  const items = Array.isArray(o && o.items) ? o.items : [];
+  for (const it of items) {
+    const a = wmAgeMin(it && it.publishedAtKST);
+    if (a < best) best = a;
+  }
+  return best;
+}
+
+function wmApplyVerifiedBrief(data, vb) {
+  if (!data || typeof data !== "object") return data;
+  if (!vb || !Array.isArray(vb.items) || !vb.items.length) return data;
+  const vbAge = wmLayerAge(vb);
+  if (!isFinite(vbAge)) return data;                 /* 시각 불명 — 판단 보류 */
+  if (vbAge >= wmLayerAge(data)) return data;        /* 워커 쪽이 더 새것 — 존중 */
+  const c = vb.counts || {};
+  console.info("[워크멘토] 자동 교차검증 브리핑 " + vb.items.length + "장 적용 · 확인 "
+    + (vb.confirmedAtKST || "?")
+    + (c.droppedSingleSource != null ? " · 단일보도 " + c.droppedSingleSource + "건 폐기" : "")
+    + (c.droppedNumeric ? " · 숫자 불일치 " + c.droppedNumeric + "건 폐기" : ""));
+  return Object.assign({}, data, {
+    items: vb.items,
+    confirmedAtKST: vb.confirmedAtKST || data.confirmedAtKST,
+  });
+}
+
 async function loadMarketBriefing() {
   const meta = document.getElementById("wm-market-briefing-meta");
+  /* 자동본은 워커 호출과 동시에 시작한다 — 화면이 한 박자 늦어지지 않게 */
+  const vbPromise = loadVerifiedBrief();
   try {
     const res = await fetch(MARKET_API + "/?api=market&v=" + Date.now(), { cache: "no-store" });
     if (!res.ok) throw new Error("HTTP " + res.status);
-    renderBriefing(await res.json());
+    renderBriefing(wmApplyVerifiedBrief(await res.json(), await vbPromise));
+    loadMarketBriefing._okAt = Date.now();      /* 마지막 성공 시각 (자체 시계) */
+    loadMarketBriefing._fail = 0;
   } catch (e) {
-    if (meta) meta.textContent = "브리핑 데이터를 불러오지 못했습니다. 잠시 후 자동으로 다시 시도합니다.";
+    const n = (loadMarketBriefing._fail = (loadMarketBriefing._fail || 0) + 1);
+    if (meta) meta.textContent = "브리핑 데이터를 불러오지 못했습니다. 다시 시도 중... (" + n + "회)";
+    /* 이전에는 다음 시도가 5분 뒤였다 — 순간적인 오류가 오래 남았다 */
+    if (n <= 3) setTimeout(loadMarketBriefing, n * 5000);
   }
 }
 loadMarketBriefing();
-setInterval(loadMarketBriefing, 5 * 60 * 1000);   /* 5분마다 자동 갱신 */
+setInterval(() => { if (!document.hidden) loadMarketBriefing(); }, 5 * 60 * 1000);   /* 5분마다 자동 갱신 (숨은 탭 건너뜀 — 복귀 시 wmMarketWake가 즉시 갱신) */
+
+/* 브라우저는 백그라운드 탭의 타이머를 늦추거나 아예 멈춘다(모바일은 페이지째
+   동결). 그래서 탭을 열어둔 채 돌아오면 낡은 화면이 그대로 남아 있었다.
+   화면이 다시 보이는 순간 · 네트워크가 돌아온 순간 즉시 다시 불러온다. */
+function wmMarketWake() {
+  if (Date.now() - (loadMarketBriefing._okAt || 0) < 60 * 1000) return;  /* 1분 내 성공했으면 생략 */
+  loadMarketBriefing();
+  if (typeof loadStocks === "function") loadStocks();
+}
+document.addEventListener("visibilitychange", () => {
+  if (document.visibilityState === "visible") wmMarketWake();
+});
+window.addEventListener("focus", wmMarketWake);
+window.addEventListener("online", wmMarketWake);
 
 /* 관리자: ChatGPT 브리핑 JSON 게시 */
 function setBriefStatus(m) { const el = document.getElementById("brief-status"); if (el) el.textContent = m; }
