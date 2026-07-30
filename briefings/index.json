@@ -2,6 +2,15 @@
  {
   "date": "2026-07-30",
   "kind": "market",
+  "edition": "저녁판",
+  "title": "7월 30일 (목) 투자 브리핑 · 저녁판",
+  "file": "briefings/2026-07-30-market-저녁판.pdf",
+  "top": "뉴욕증시, 하락 마감... 다우존스지수, 1년 3개월 만에 최대 낙폭 - 조선비즈 - Chosunbiz",
+  "count": 22
+ },
+ {
+  "date": "2026-07-30",
+  "kind": "market",
   "edition": "아침판",
   "title": "7월 30일 (목) 투자 브리핑 · 아침판",
   "file": "briefings/2026-07-30-market-아침판.pdf",
