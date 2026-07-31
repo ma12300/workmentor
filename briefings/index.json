@@ -2,6 +2,15 @@
  {
   "date": "2026-07-31",
   "kind": "market",
+  "edition": "저녁판",
+  "title": "7월 31일 (금) 투자 브리핑 · 저녁판",
+  "file": "briefings/2026-07-31-market-저녁판.pdf",
+  "top": "(뉴욕증시) MS 호실적에 3대 지수 상승…나스닥 2.8%↑ - 경제 - koreadailytimes.com",
+  "count": 27
+ },
+ {
+  "date": "2026-07-31",
+  "kind": "market",
   "edition": "아침판",
   "title": "7월 31일 (금) 투자 브리핑 · 아침판",
   "file": "briefings/2026-07-31-market-아침판.pdf",
