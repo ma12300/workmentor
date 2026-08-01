@@ -2,6 +2,15 @@
  {
   "date": "2026-08-01",
   "kind": "market",
+  "edition": "저녁판",
+  "title": "8월 1일 (토) 투자 브리핑 · 저녁판",
+  "file": "briefings/2026-08-01-market-저녁판.pdf",
+  "top": "아마존 호실적에 미국 뉴욕증시 반등…다우존스·S&P500·나스닥지수 상승 마감,상승, AI 투자 기대감 회복 - 한국강사신문",
+  "count": 14
+ },
+ {
+  "date": "2026-08-01",
+  "kind": "market",
   "edition": "아침판",
   "title": "8월 1일 (토) 투자 브리핑 · 아침판",
   "file": "briefings/2026-08-01-market-아침판.pdf",
