@@ -2,6 +2,15 @@
  {
   "date": "2026-08-02",
   "kind": "market",
+  "edition": "저녁판",
+  "title": "8월 2일 (일) 투자 브리핑 · 저녁판",
+  "file": "briefings/2026-08-02-market-저녁판.pdf",
+  "top": "이더리움(ETH), ETF만으로 설명 안 된다…스테이킹·네트워크 활동이 만든 7월 강세 지속될까 - CBC뉴스",
+  "count": 13
+ },
+ {
+  "date": "2026-08-02",
+  "kind": "market",
   "edition": "아침판",
   "title": "8월 2일 (일) 투자 브리핑 · 아침판",
   "file": "briefings/2026-08-02-market-아침판.pdf",
