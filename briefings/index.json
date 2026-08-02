@@ -2,6 +2,15 @@
  {
   "date": "2026-08-03",
   "kind": "market",
+  "edition": "아침판",
+  "title": "8월 3일 (월) 투자 브리핑 · 아침판",
+  "file": "briefings/2026-08-03-market-아침판.pdf",
+  "top": "일론 머스크, 테슬라와 스페이스엑스 앞세워 세계 최고 부자 수성 - 글로벌이코노믹",
+  "count": 10
+ },
+ {
+  "date": "2026-08-03",
+  "kind": "market",
   "edition": "자정판",
   "title": "8월 3일 (월) 투자 브리핑 · 자정판",
   "file": "briefings/2026-08-03-market-자정판.pdf",
