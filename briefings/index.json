@@ -2,6 +2,15 @@
  {
   "date": "2026-08-04",
   "kind": "market",
+  "edition": "아침판",
+  "title": "8월 4일 (화) 투자 브리핑 · 아침판",
+  "file": "briefings/2026-08-04-market-아침판.pdf",
+  "top": "[오늘의 글로벌마켓] 뉴욕증시, 유가 급락 속 기술주 급등...나스닥 2.1%↑ - 오피니언뉴스",
+  "count": 14
+ },
+ {
+  "date": "2026-08-04",
+  "kind": "market",
   "edition": "자정판",
   "title": "8월 4일 (화) 투자 브리핑 · 자정판",
   "file": "briefings/2026-08-04-market-자정판.pdf",
