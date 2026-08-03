@@ -2,6 +2,15 @@
  {
   "date": "2026-08-03",
   "kind": "market",
+  "edition": "저녁판",
+  "title": "8월 3일 (월) 투자 브리핑 · 저녁판",
+  "file": "briefings/2026-08-03-market-저녁판.pdf",
+  "top": "이번 주 미국 증시의 향방···S&P 500·다우존스 지수 ‘3대 관전 포인트’ - Benzinga",
+  "count": 21
+ },
+ {
+  "date": "2026-08-03",
+  "kind": "market",
   "edition": "아침판",
   "title": "8월 3일 (월) 투자 브리핑 · 아침판",
   "file": "briefings/2026-08-03-market-아침판.pdf",
