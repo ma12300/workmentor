@@ -2,6 +2,15 @@
  {
   "date": "2026-08-04",
   "kind": "market",
+  "edition": "저녁판",
+  "title": "8월 4일 (화) 투자 브리핑 · 저녁판",
+  "file": "briefings/2026-08-04-market-저녁판.pdf",
+  "top": "제임스 윈, S&P 500 공매도 '올인'...결과는 '청산 22회' - 코인리더스",
+  "count": 25
+ },
+ {
+  "date": "2026-08-04",
+  "kind": "market",
   "edition": "아침판",
   "title": "8월 4일 (화) 투자 브리핑 · 아침판",
   "file": "briefings/2026-08-04-market-아침판.pdf",
