@@ -2,6 +2,15 @@
  {
   "date": "2026-08-05",
   "kind": "market",
+  "edition": "저녁판",
+  "title": "8월 5일 (수) 투자 브리핑 · 저녁판",
+  "file": "briefings/2026-08-05-market-저녁판.pdf",
+  "top": "다우·S&P 500, AI로 나란히 최고치 경신...인공지능 거품 붕괴는 시간문제? - coinreaders.com",
+  "count": 29
+ },
+ {
+  "date": "2026-08-05",
+  "kind": "market",
   "edition": "아침판",
   "title": "8월 5일 (수) 투자 브리핑 · 아침판",
   "file": "briefings/2026-08-05-market-아침판.pdf",
