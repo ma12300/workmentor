@@ -2,6 +2,15 @@
  {
   "date": "2026-08-06",
   "kind": "market",
+  "edition": "아침판",
+  "title": "8월 6일 (목) 투자 브리핑 · 아침판",
+  "file": "briefings/2026-08-06-market-아침판.pdf",
+  "top": "[속보] 美재무 \"이틀내 호르무즈 재개방 가능\" … S&P500·다우, 사상 '최고치', 삼전닉스 프리장 '질주' - 뉴데일리",
+  "count": 13
+ },
+ {
+  "date": "2026-08-06",
+  "kind": "market",
   "edition": "자정판",
   "title": "8월 6일 (목) 투자 브리핑 · 자정판",
   "file": "briefings/2026-08-06-market-자정판.pdf",
