@@ -2,6 +2,15 @@
  {
   "date": "2026-08-09",
   "kind": "market",
+  "edition": "아침판",
+  "title": "8월 9일 (일) 투자 브리핑 · 아침판",
+  "file": "briefings/2026-08-09-market-아침판.pdf",
+  "top": "미 디지털자산 현물 ETF에 한 주간 11억달러 유입…4월 이후 최대 - 블록미디어",
+  "count": 8
+ },
+ {
+  "date": "2026-08-09",
+  "kind": "market",
   "edition": "자정판",
   "title": "8월 9일 (일) 투자 브리핑 · 자정판",
   "file": "briefings/2026-08-09-market-자정판.pdf",
