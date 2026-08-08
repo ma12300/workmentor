@@ -2,6 +2,15 @@
  {
   "date": "2026-08-08",
   "kind": "market",
+  "edition": "저녁판",
+  "title": "8월 8일 (토) 투자 브리핑 · 저녁판",
+  "file": "briefings/2026-08-08-market-저녁판.pdf",
+  "top": "뉴욕증시, 금리인상 우려 완화에 상승…S&P500 사상 최고치 경신 - 산경투데이",
+  "count": 14
+ },
+ {
+  "date": "2026-08-08",
+  "kind": "market",
   "edition": "아침판",
   "title": "8월 8일 (토) 투자 브리핑 · 아침판",
   "file": "briefings/2026-08-08-market-아침판.pdf",
