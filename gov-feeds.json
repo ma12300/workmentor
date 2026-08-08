@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-08T19:00:36.112Z",
+ "updatedAt": "2026-08-08T19:37:44.058Z",
  "groups": {
   "tax": [
    {
@@ -28,7 +28,7 @@
     "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE14OXVkakJMUmVPTnRySEhkY1o5bUxqWk5WNm1ReC1pRlM2VVc5aEV5XzlWbUYzR2Z0UnVtU00tZURvQkZRb21JbmF5UXNLMFNiN2NOSjdkdTU5NThfR2dSWklCUTMzQQ?oc=5",
     "date": "Fri, 07 Aug 2026 03:09:00 GMT",
     "summary": "",
-    "source": "캐나다 한국일보"
+    "source": "koreatimes.net"
    },
    {
     "title": "임광현 국세청장 \"직원들에게 최고의 보상은 결국 승진“",
@@ -73,13 +73,6 @@
     "source": "뉴시스"
    },
    {
-    "title": "美국세청 못 걷은 세금 1000조원...이후 4년째 통계 무소식",
-    "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5Fa1U5Uktudi0xTGx6S2tma3J3MV9lcHhoOXVVb2g0WkJhcDQ0WHY5NnZIOC1CQ0Nmdm9wLVJET0FPSW9CMk5qMHBGeUFWZjd4OVZqNnkySUsxc01obHhB?oc=5",
-    "date": "Thu, 06 Aug 2026 22:00:00 GMT",
-    "summary": "",
-    "source": "조세일보"
-   },
-   {
     "title": "[세무] 베트남 국세청, 납세자 정보 공개 확대…세금 체납·무단 휴업 사업자 공개한다",
     "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE96NFl2SXp0UWo4MkJwSlh4R1JYTUw2cXozaHdic09YdWNkdHc4eGtXTVozU1d0NzRpWHBMTUp2NXBwak4tTUVMWjdfMTNsX1RkTVJSdm5ESDNHWGZ3eXZMMzJBazAteFIySWE0TnBUNkI?oc=5",
     "date": "Thu, 06 Aug 2026 12:04:38 GMT",
@@ -98,7 +91,7 @@
     "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5tLTNHY2NWZGtJLTJYVGdEemRkckVxMmdwX2NGVDdNVU5GSFJaSFBuVDAtdGNVSnRuZXFiN25WZ1ZNN1pNRGozbXV6dDdCTEV5VmFNcURxZzlrZ0FBLU9RMl9HSnIxRlpZVG5hY3ln?oc=5",
     "date": "Thu, 06 Aug 2026 09:11:31 GMT",
     "summary": "",
-    "source": "시민행정신문"
+    "source": "citizenadmnews.co.kr"
    },
    {
     "title": "국세청, 상반기 주식양도세 예정신고·납부하세요(~8/31)",
@@ -120,13 +113,6 @@
     "date": "Thu, 06 Aug 2026 09:10:52 GMT",
     "summary": "",
     "source": "한국시사경제"
-   },
-   {
-    "title": "국세청, 상반기 주식양도세 예정신고·납부하세요(~8/31)",
-    "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1VZV9HUmU2Y0MteXhURVhPWDhsMEx3TzVpWFA1dFVpaW1ERGNKbkJsdDR1Z21IS3RxcW5MZmZhLXd2ZGg3WGMtcVFwTzZBLUxBWnJQdy1zWWN3THdh?oc=5",
-    "date": "Thu, 06 Aug 2026 09:10:47 GMT",
-    "summary": "",
-    "source": "누리일보"
    },
    {
     "title": "국세청, 상반기 주식양도세 예정신고·납부하세요(~8/31)",
@@ -176,6 +162,20 @@
     "date": "Thu, 06 Aug 2026 08:17:56 GMT",
     "summary": "",
     "source": "이택스뉴스"
+   },
+   {
+    "title": "영원무역, 창업 후 최대 위기(?)…국세청 세무조사 배경엔 ‘오너리스크’",
+    "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE4wM0xyaGt1YmlnR29FRVlxUG5CczVFcFZLcjliT2I2RVFFU2Z2ckpFd0paQXhFcDMxc3FhdG41aVphRnBQenV3M1FsV1ZUXzBQYXdFMWx6RDFlcjVQUmgzVm8tajhJNndRelJKeQ?oc=5",
+    "date": "Thu, 06 Aug 2026 08:11:21 GMT",
+    "summary": "",
+    "source": "세정일보"
+   },
+   {
+    "title": "국세청, 상반기 주식양도세 예정신고·납부하세요(~8/31)",
+    "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE9fT1ZyaGJfOGZCaURrRy10a2VSeG5RYW5oUnB5ekkxZ0RZMGVDdWJjOXE4bm9MZmliNlM1THVmd19jSUhpY3VQV0FydmE?oc=5",
+    "date": "Thu, 06 Aug 2026 07:43:00 GMT",
+    "summary": "",
+    "source": "시사일보"
    }
   ],
   "labor": [
@@ -215,15 +215,8 @@
     "source": "아시아경제"
    },
    {
-    "title": "노동장관, 폭염 김포공항 불시점검…\"옥외작업자 휴게시설 확충\"",
-    "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1UQnlxNHJVMlhEakpNYllGdW5mTjQ5bnBiM2g0Rk5EUm1qSVFnaThjeWdHcVhPVnJHQmwzNUFnYnNESzh6X2d3MkRFekREb2Y4aXhWVWlPUW5wM0N4M1pvQQ?oc=5",
-    "date": "Sat, 08 Aug 2026 08:26:00 GMT",
-    "summary": "",
-    "source": "네이트"
-   },
-   {
     "title": "인신매매방지법 걸린 '우즈벡 인력 송출'…성평등부, 노동·법무부에 개선 요청",
-    "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5iTUNodFBMY0d6M0VjeXptX3BVaDI3dUx5c1JVRnkzWmJIZDM5VEw0UDlpbWVEbENIMGQ4enc0OE4takdvc3dCdlo2SXJvbmNBeDRmTXI1d3djQmdfd0FDODFzOHZqT0NEZFIw?oc=5",
+    "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBUWDU0OFJucGx6dXlyTHFlQmRYcmNyOFVGeHc5SzZ1azFCWFdIeWgyWUI4LUpjVlJ0N1lfUEFKbTFoYllVVmxURmFXV3BRb3M4RnhMWC1tNFFzTG53Q0xuQjFrMHVRQ2RVVlZySXRmaDNUZFZwTVRLNnlPNnd3d0U?oc=5",
     "date": "Sat, 08 Aug 2026 01:24:13 GMT",
     "summary": "",
     "source": "프레시안"
@@ -353,6 +346,13 @@
     "date": "Fri, 07 Aug 2026 04:30:13 GMT",
     "summary": "",
     "source": "신경북뉴스"
+   },
+   {
+    "title": "고용노동부, 2027년 최저임금 시급 10,700원",
+    "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFAzYi1VWEcwRm9BWVR3STNmQUFjZW5IQS1BQWlJd3FqbG5tZEIwUFdXLVNGZXVmc2NYa2lZWjEwUFJkVFkxLWxHRkVWeG1uTU9wTmV0XzBtU19DMTJVM2JPTGJ0dE9KWUVuREhHT0dQQ3FzQWlk?oc=5",
+    "date": "Fri, 07 Aug 2026 03:40:58 GMT",
+    "summary": "",
+    "source": "경기종합뉴스"
    }
   ],
   "law": [
@@ -913,7 +913,7 @@
     "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBpMzdHWlY5QV9PU1JSdGMwVU1QTTU5d0YybmZWU3kyX2t2OEpfQnhGbXcyazZ2QzRPNENhRHBHNUF6TXdfWlFMbXZrdU9WZERmeEdJNEFwQWROZVlpYjhMLUlyekdmUQ?oc=5",
     "date": "Wed, 24 Jun 2026 07:00:00 GMT",
     "summary": "",
-    "source": "KB Think"
+    "source": "kbthink.com"
    },
    {
     "title": "더좋은 자금연구소 김보석 대표, 소상공인·중소기업 맞춤 정부 정책자금·지원금 컨설팅 전문 서비스 운영",
