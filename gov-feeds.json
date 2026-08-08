@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-08T20:50:06.451Z",
+ "updatedAt": "2026-08-08T21:37:02.983Z",
  "groups": {
   "tax": [
    {
@@ -84,14 +84,14 @@
     "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9tUGNkaVlOOWxnVGRmZzE0VUVmQ0FBdUJqOHNUU2FUV0tHWlJQWGh0LWswSTg5TENNWXBmSGd6bGVsZDJzTHpNUVZlcllkVjBSdXU2dmxOWHBiQUE?oc=5",
     "date": "Thu, 06 Aug 2026 09:11:36 GMT",
     "summary": "",
-    "source": "kbcs.kr"
+    "source": "한국소통투데이"
    },
    {
     "title": "국세청, 상반기 주식양도세 예정신고·납부하세요(~8/31)",
     "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5tLTNHY2NWZGtJLTJYVGdEemRkckVxMmdwX2NGVDdNVU5GSFJaSFBuVDAtdGNVSnRuZXFiN25WZ1ZNN1pNRGozbXV6dDdCTEV5VmFNcURxZzlrZ0FBLU9RMl9HSnIxRlpZVG5hY3ln?oc=5",
     "date": "Thu, 06 Aug 2026 09:11:31 GMT",
     "summary": "",
-    "source": "citizenadmnews.co.kr"
+    "source": "시민행정신문"
    },
    {
     "title": "국세청, 상반기 주식양도세 예정신고·납부하세요(~8/31)",
@@ -113,13 +113,6 @@
     "date": "Thu, 06 Aug 2026 09:10:52 GMT",
     "summary": "",
     "source": "한국시사경제"
-   },
-   {
-    "title": "국세청, 상반기 주식양도세 예정신고·납부하세요(~8/31)",
-    "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1VZV9HUmU2Y0MteXhURVhPWDhsMEx3TzVpWFA1dFVpaW1ERGNKbkJsdDR1Z21IS3RxcW5MZmZhLXd2ZGg3WGMtcVFwTzZBLUxBWnJQdy1zWWN3THdh?oc=5",
-    "date": "Thu, 06 Aug 2026 09:10:47 GMT",
-    "summary": "",
-    "source": "누리일보"
    },
    {
     "title": "국세청, 상반기 주식양도세 예정신고·납부하세요(~8/31)",
@@ -176,6 +169,13 @@
     "date": "Thu, 06 Aug 2026 08:11:21 GMT",
     "summary": "",
     "source": "세정일보"
+   },
+   {
+    "title": "국세청, 상반기 주식양도세 예정신고·납부하세요(~8/31)",
+    "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE9fT1ZyaGJfOGZCaURrRy10a2VSeG5RYW5oUnB5ekkxZ0RZMGVDdWJjOXE4bm9MZmliNlM1THVmd19jSUhpY3VQV0FydmE?oc=5",
+    "date": "Thu, 06 Aug 2026 07:43:00 GMT",
+    "summary": "",
+    "source": "koreasisailbo.com"
    }
   ],
   "labor": [
@@ -243,13 +243,6 @@
     "source": "v.daum.net"
    },
    {
-    "title": "인천시·고용노동부, 맨홀 질식사고 추방 공동선언을 통한 공공 발주 밀폐공간 작업 안전관리 강화 안전제일",
-    "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5yVzlXUFNleFZGZXhjLUJPUXBhVmVFSG5odS1uSl9JMzVydlZHbFRUaEVYb05xclBKYXd5OUhTU21DYUNTLWRzOGZCbzFfaENEc09EUnVjcUlUUmNKc0NJSWJ4X0hkaWZzV2xYUlEtYms?oc=5",
-    "date": "Fri, 07 Aug 2026 14:40:00 GMT",
-    "summary": "",
-    "source": "thekorea.kr"
-   },
-   {
     "title": "고용노동부 한국산업안전보건공단, 감사인 전문성 및 인공지능(AI) 감사역량 확보로 내부통제 강화한다",
     "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5rUjkzWmh1SVNYNHlyTDBpTWhzTjNwNkxSWk1SUlNIU0Q3cnNsN28tWlZoVFlVclZKRmw0eE9EVjRLWGhMMmsxS0xkY1lOcEVjbU1rQXRGYjRzdU52Y1ZDNFZfN1pvVXZyMjdyaA?oc=5",
     "date": "Fri, 07 Aug 2026 10:57:42 GMT",
@@ -275,7 +268,7 @@
     "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5hS0p6RXJ4TGNNYl9meXJBWWlJalVsWUxVWHZtRE8xVmliLWJta3I4T2xRdVVpSURDVm9sUklLVXJfdU1mbnN5OUN4X0ZWSzMyNWFRRW1TazJ5ZWVsLTQxRi11dzktNXFfSFd6R2hHdnLSAXRBVV95cUxQRXBqd0szVmdDTVJOQnE0clhaQmhZZVpCMXVzZnFqaFpoU1ZLbVNiMXFHOFVfak5ScTRvMV80cjdzMjZ5amJ0SlFSNmN5Sk01TGNzN08zcGhaTF80aHhlQWIydG9neV80Yy15OGo0S1QyMlNlTw?oc=5",
     "date": "Fri, 07 Aug 2026 07:25:00 GMT",
     "summary": "",
-    "source": "enewstoday.co.kr"
+    "source": "이뉴스투데이"
    },
    {
     "title": "노동부·경찰, '끼임 사망 사고 발생' HL만도 평택사업장 압수수색",
@@ -353,15 +346,36 @@
     "date": "Fri, 07 Aug 2026 04:27:47 GMT",
     "summary": "",
     "source": "연합뉴스"
+   },
+   {
+    "title": "고용노동부, 2027년 최저임금 시급 10,700원",
+    "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFAzYi1VWEcwRm9BWVR3STNmQUFjZW5IQS1BQWlJd3FqbG5tZEIwUFdXLVNGZXVmc2NYa2lZWjEwUFJkVFkxLWxHRkVWeG1uTU9wTmV0XzBtU19DMTJVM2JPTGJ0dE9KWUVuREhHT0dQQ3FzQWlk?oc=5",
+    "date": "Fri, 07 Aug 2026 03:40:58 GMT",
+    "summary": "",
+    "source": "경기종합뉴스"
    }
   ],
   "law": [
+   {
+    "title": "[정책 인사이트] ‘돼지고기 담합’ 공정위 190억 vs 검찰 1조2000억… 법원은 어떤 판단 내릴까 - 조선비즈",
+    "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPNGx4YkNqRFdvbDFWdDEwU2xYQjExYlo4TWxWZE5Td3R3QnZPdkZ6M2pBUlNNaUd4Q2MyMzJRWUwwZGhqckoxdnY0NGIxS0tDNzBMemM1Q0ZzQzFwbDJwR0tMZVdKUW9RVnhBV0tXT2VwTUs3Sy1jMklCWm9DdkZ2STJwWDdOd9IBmgFBVV95cUxQRXpFc0RYbTdjb0FlTk8xV1JEVjVnSExlajhGczhPZ2RTY2IxdU5SUGlSeWw3bzhoeHRrdGNwMGZBT29nUEhKSVpEbkQ5bVgwZ2VWUFJLQURKR0JDVVBXYU5nS0QxaFZVTnkwbWoyYjB3TXJ2Z2ltRDlmZXNoWGpnZWdWS2xrRDJ3UTM0THVFSjNrVUFkWF9ma3R3?oc=5",
+    "date": "Sat, 08 Aug 2026 21:00:00 GMT",
+    "summary": "",
+    "source": "Chosunbiz"
+   },
    {
     "title": "여야 모두의 적이 됐다... 정성호 법무의 딜레마",
     "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFB1Z0hUN3l3WU54N3JGRnEzeTZJRUgycDVDVjBhSDA4Y2dOaEJzanRhVjlhOTVaNXRzR0pTWEFlMUtRc2dGZXZ0QTFJX0dfanhVMTR4RWhaTWlYMm9XRmd0eUdtMzVNWHZ2bDJWM1h1WWlnc2tabFNwdUpR?oc=5",
     "date": "Sat, 08 Aug 2026 20:30:00 GMT",
     "summary": "",
     "source": "조선일보"
+   },
+   {
+    "title": "법무부 대구청소년비행예방센터, 여름방학 맞아 ｢회복적 사법 교육프로그램｣ 개설 운영",
+    "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE4tcHRocFhqZFhHV2JBblFBam5GbnUwZXdhNEcxeWlBdUM4dEVscng3eGtGWkNnSFZlcFU5YXhPU19KRl9TeldRSnJrd3hWX083UWEtbFVVMWJnTWJyVHMzdmE3TDFwd9IBakFVX3lxTE5BSXp3bUJQQ1RtSk40UlFQZWd1c0VXLVo1TjU5S2dpNF84ZS1HS1plQmRvbWJqVFowVDBrajd1SlVvczlVb0hJbTZrazIzYnFWV1F5SHp2YkR2eUF6cm80REthcU5Eay1rX0E?oc=5",
+    "date": "Sat, 08 Aug 2026 20:04:44 GMT",
+    "summary": "",
+    "source": "씨원뉴스"
    },
    {
     "title": "트럼프의 변호사 블랜치, 美 상원 입준 '법무장관 됐다'",
@@ -516,20 +530,6 @@
     "date": "Thu, 06 Aug 2026 19:30:00 GMT",
     "summary": "",
     "source": "동아일보"
-   },
-   {
-    "title": "공정위, 국고채 입찰 담합 혐의 15개 은행·증권사 등 전문 딜러사 제재 절차 착수",
-    "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPVy1RM2tpWDd5Z2xOS09fVkZvZDZZTVF5ZmR0eWw2dkNpc0VwNnBkSEpSZ3RfNmNqQkNFR0ZkNERqUFUzbVhQbDl3VHdlZ19SbVQ3ZFA3eF9qZHE3QWFjZEVDUV9nNWJxMnh6a19KYVdqemVfdXJ6eEhtUDNLMFB5OUJvbmJEXzhHaHBleUln?oc=5",
-    "date": "Thu, 06 Aug 2026 12:24:39 GMT",
-    "summary": "",
-    "source": "조선일보"
-   },
-   {
-    "title": "오픈AI, 美 법무부에 46억원 낸다…\"미국인 대신 비자 소지자 우대\"",
-    "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9SUHJlMzdvUTZGOWVFYTFYNElIcTJ1Q25XNDRSdllWbGxEblZSSk1VMGxOX1NlM1UxOEx4c2lSc056TkhoeElHcG1VTFVtUmJKblVtU2lR?oc=5",
-    "date": "Thu, 06 Aug 2026 11:36:33 GMT",
-    "summary": "",
-    "source": "지디넷코리아"
    }
   ],
   "fund": [
@@ -573,7 +573,7 @@
     "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9jVklYWlY5MXdEMUJYUUdxYnVqSWdUU3d2cXA4R0JsenBiLUJ6YWpEXzduUUxPSmNFRUMzbW9RRzBhdjF4UFNEU1pBRk5BMmRpY29WSEdDNjVrZw?oc=5",
     "date": "Fri, 07 Aug 2026 01:46:47 GMT",
     "summary": "",
-    "source": "seonamtoday.com"
+    "source": "서남투데이"
    },
    {
     "title": "리츠협회, 금융위원회에 상장리츠 외부감사인 지정제도 개선 건의",
@@ -608,7 +608,7 @@
     "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1WSG40REpCNEZFRmRJeDhNT28xZTlaR3gtYmFGY3V2VGladUhrUWY4eVFxR0ctd014b25HZ3ZBVTdjY0diT3BUbW82ZHVKZi1vclF3QUtFZy1PaHNZblBIMGduTHNSbG1DMEJTeDBiOA?oc=5",
     "date": "Thu, 06 Aug 2026 10:08:14 GMT",
     "summary": "",
-    "source": "korea.kr"
+    "source": "대한민국 정책브리핑"
    },
    {
     "title": "관세청, 국제무역선·요트에도 마약 N차 저지선 구축 ...",
@@ -643,7 +643,7 @@
     "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9OTUZsNlBVVWcyY2JudzlJS0JjeTBfdHA5d2RIS3E1dEdVblVmVVZyOUR4eGk4NGxDeWFSTTE2Vk84MUJsVlBJV2pVRkxrN18zVnR5MVBrc3RLTDFsMzlTejZtckl6MmZRNnR3?oc=5",
     "date": "Thu, 06 Aug 2026 06:52:16 GMT",
     "summary": "",
-    "source": "haesanews.com"
+    "source": "해사신문"
    },
    {
     "title": "블룸버그 '韓 투자 부적합' 칼럼에…금융위 이어 부총리도 \"문제없다\" 반박",
@@ -706,10 +706,17 @@
     "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBTanN0Yi1HNW1WdjZSSHZtalVHTVh5Q0ZTZVdTM1BkSHF1Z0trbEhBSnVPMV9SNTZyTXFWRnZVVkp0NGhLSUJ4OFlXa0ZzTkJFSDNiSFNR?oc=5",
     "date": "Thu, 06 Aug 2026 02:11:17 GMT",
     "summary": "",
-    "source": "joongang.co.kr"
+    "source": "중앙일보"
    }
   ],
   "biz": [
+   {
+    "title": "중소·벤처기업 성장사다리 구축 및 온기 확산… 중기부, ‘2026년도 세제개편안’ 발표",
+    "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBTdmFTWnFJM0ltcVlTODZEZEhZRTVZYmxsRnZjT3BWZ045d2JGWVp1Z1YtYVV0dmFpQVRuSXF4eXp1ZC1SXzNtbmhpWHJFNG8yM1VWUzU5X2lzeExwQjRKckg1U1p1V1U?oc=5",
+    "date": "Sat, 08 Aug 2026 06:01:04 GMT",
+    "summary": "",
+    "source": "기계신문"
+   },
    {
     "title": "경남테크노파크, 하반기 Stand-up 맞춤 지원 수혜 기업 모집",
     "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBqZ3ZFM0hTSi1ialEyaWFkUG0zeVNmNlpZTS1zbFNnXzlnLTBYSVRhcl9mUWV6MEVHTEtHWWROa1NFamh3YVlxWDJ6RmZsamVPXzJmSDZEZ3R2NzVmbmMtRA?oc=5",
@@ -778,7 +785,7 @@
     "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5BZE1YRHVMei1GZ3pabXFFUDhYZE5BRVhDTExtU1JEZGhPWEYwcS0tcVh4R19pYlJhaGFyS0dKVkRKclRXcU1NLTl3ellyMU56WFJreWNneWROak5RSWJmaVBWU1FUb0lrdDNrMkJn?oc=5",
     "date": "Fri, 07 Aug 2026 08:54:20 GMT",
     "summary": "",
-    "source": "korea.kr"
+    "source": "대한민국 정책브리핑"
    },
    {
     "title": "한국벤처투자, 기록경영시스템 ISO 30301 인증 획득",
@@ -820,7 +827,7 @@
     "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9lQnhZTXV4OU94UmhiaTI0bGdrN1B4MDRIaV9PRUJuckdqMV96dS02TE1JX25hcko4dld4MU9zRVV4emlsUDdYbmg1NW1rTTRRQk5ER2hR?oc=5",
     "date": "Fri, 07 Aug 2026 06:47:00 GMT",
     "summary": "",
-    "source": "joongang.co.kr"
+    "source": "중앙일보"
    },
    {
     "title": "창업.벤처기업 성장동력 확충, 중소기업 균형발전 등 세제개편 내용 포함",
@@ -877,13 +884,6 @@
     "date": "Fri, 07 Aug 2026 04:39:14 GMT",
     "summary": "",
     "source": "thedailyeconomy.kr"
-   },
-   {
-    "title": "비수도권 유망 중기 창업지원...최대 100% 법인세 감면 나서",
-    "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE11MnBCQnJtN0pzLWUteGFxbUxCLW0ycG5odGpHazVsSVozYjM2Nk92MTRMT2g3aDFscV9veGVVMGhRd3BHTFk5SUc5UkhxQk94UHE0Y3FnM2tFUdIBWEFVX3lxTE01U1gtVXRMVWtvQ1VGZVIyMVU2QTN1RTR5VzZuTW9oU2dtNnVLcmVCN1hYX2FVUjN4UFU1Y2pZRlVoc19hcmRXX1ZYSEJOVmJpd1JYVjhZeFk?oc=5",
-    "date": "Fri, 07 Aug 2026 02:12:19 GMT",
-    "summary": "",
-    "source": "아주경제"
    }
   ],
   "money": [
@@ -913,7 +913,7 @@
     "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBpMzdHWlY5QV9PU1JSdGMwVU1QTTU5d0YybmZWU3kyX2t2OEpfQnhGbXcyazZ2QzRPNENhRHBHNUF6TXdfWlFMbXZrdU9WZERmeEdJNEFwQWROZVlpYjhMLUlyekdmUQ?oc=5",
     "date": "Wed, 24 Jun 2026 07:00:00 GMT",
     "summary": "",
-    "source": "kbthink.com"
+    "source": "KB Think"
    },
    {
     "title": "더좋은 자금연구소 김보석 대표, 소상공인·중소기업 맞춤 정부 정책자금·지원금 컨설팅 전문 서비스 운영",
@@ -1069,7 +1069,7 @@
     "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9FLVdEdUFwVHVHVFl1Z3BNdkdYZlpPOVhMXzIxSnRRS3pjbUt5N2U3NGQ4eERJX2hyVzlvX2JlMWZPdnBkQk84eVk2SEJ6Tml5cExQM19CNWg4ZjFWV2dRMER0Q1BXVkR1NVFFQXJ4NWNOSHB0?oc=5",
     "date": "Fri, 07 Aug 2026 00:12:08 GMT",
     "summary": "",
-    "source": "financialreview.co.kr"
+    "source": "파이낸셜리뷰"
    },
    {
     "title": "아산 여성커뮤니티센터 ‘세무교육’…소상공인 부가세·종소세 1대1 상담",
@@ -1167,14 +1167,7 @@
     "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5yN1JicHZsWGg5d2J5LVVYYzlfei1BNEVTN2RXaWdFVXJGVjVDWG1QWU1pb0xjNlFNR3NFcTNHQnJuZm9RczB4Mks3ekpLdmtwVW5pT2pLYk9yRFNmS0NPeEhFYmRVc29wY3VpLdIBcEFVX3lxTE5oYjlXalJ5TU9aR3ZYWVJ1Ni1TWEdEREtORElHdThNbURqSWxTN1pzbTN2ZGM1VlE0TTZKWk9kOG5mcHNEZ0F1T1JFMzEwMEdFaDJqbnpjUExmNzlGaFp3dVdtUnpKWngtanI2ODMyYkM?oc=5",
     "date": "Mon, 27 Jul 2026 02:15:55 GMT",
     "summary": "",
-    "source": "중소기업뉴스"
-   },
-   {
-    "title": "개정 세무사법, 효과 발휘…플랫폼, 잇달아 '오인광고' 자진 시정",
-    "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBUT2o4VG41RFN6SEpRVkxpZ3RPdjRCVnJ1ZGlEMkh6LS0yenJkbmlsYUNVUnByTnJwZmtaOUZPOHJORG9YYnpPamFQcUlJdGxUMEhSU01XTDdaQ3R4YUxySmVaM2o?oc=5",
-    "date": "Mon, 27 Jul 2026 02:09:19 GMT",
-    "summary": "",
-    "source": "한국세정신문"
+    "source": "kbiznews.co.kr"
    },
    {
     "title": "심욱기 대전국세청장, 부가세 신고현장 점검",
@@ -1195,7 +1188,7 @@
     "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBObU5wY1QyREdzR3JKMS1tZFlkVnR2Zm1EclhzT3N4T3FOM001MWlDak1WVWxwQmxrYklRT3lTbUVKNXlReDhhWVZ1WWJxaUwwZnY3QjJPX0Jpdw?oc=5",
     "date": "Fri, 24 Jul 2026 07:00:00 GMT",
     "summary": "",
-    "source": "viva100.com"
+    "source": "브릿지경제"
    },
    {
     "title": "대전국세청, 부가세 신고 현장 점검...경영난 납세자 세정지원 강화",
@@ -1238,6 +1231,13 @@
     "date": "Thu, 23 Jul 2026 23:51:00 GMT",
     "summary": "",
     "source": "네이트"
+   },
+   {
+    "title": "심욱기 대전국세청장, 부가세 신고현장 점검",
+    "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1KOG5lVWdlVFBMNTZKN3ZiWk9wVHdrY0hsdXFRYjF2d0lKZmFGYXVydUoweFA2c3drcXY2aHVYOTA5LWdlellDX2ZtREhmQ0JTV003NmxsMGI5Rl9obDUzc3VKdzR1SUZDZEE?oc=5",
+    "date": "Thu, 23 Jul 2026 19:46:11 GMT",
+    "summary": "",
+    "source": "intn.co.kr"
    }
   ]
  }
