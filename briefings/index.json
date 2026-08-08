@@ -1,21 +1,10 @@
 [
  {
   "date": "2026-08-09",
-  "kind": "market",
-  "edition": "아침판",
-  "title": "8월 9일 (일) 투자 브리핑 · 아침판",
-  "file": "briefings/2026-08-09-market-아침판.pdf",
-  "top": "미 디지털자산 현물 ETF에 한 주간 11억달러 유입…4월 이후 최대 - 블록미디어",
-  "count": 8
- },
- {
-  "date": "2026-08-09",
-  "kind": "market",
-  "edition": "자정판",
-  "title": "8월 9일 (일) 투자 브리핑 · 자정판",
-  "file": "briefings/2026-08-09-market-자정판.pdf",
-  "top": "뉴욕증시, 금리인상 우려 완화에 상승…S&P500 사상 최고치 경신 - sankyungtoday.com",
-  "count": 30
+  "title": "8월 9일 (일) 아침 브리핑",
+  "file": "briefings/2026-08-09.pdf",
+  "top": "경남테크노파크, 하반기 Stand-up 맞춤 지원 수혜 기업 모집",
+  "count": 28
  },
  {
   "date": "2026-08-08",
@@ -509,39 +498,5 @@
   "file": "briefings/2026-07-21.pdf",
   "top": "공적자금 15조 상환 놓고 금융위·기획예산처 동상이몽…\"재정 더\" vs \"지분 팔아라\"",
   "count": 28
- },
- {
-  "date": "2026-07-20",
-  "kind": "market",
-  "edition": "저녁판",
-  "title": "7월 20일 (월) 투자 브리핑 · 저녁판",
-  "file": "briefings/2026-07-20-market-저녁판.pdf",
-  "top": "[미장 브리핑] 뉴욕증시, 다우존스 방어주 혼조... S&P 500·나스닥 기술주 약세 - 센머니",
-  "count": 29
- },
- {
-  "date": "2026-07-20",
-  "kind": "market",
-  "edition": "아침판",
-  "title": "7월 20일 (월) 투자 브리핑 · 아침판",
-  "file": "briefings/2026-07-20-market-아침판.pdf",
-  "top": "\"떨어질 때가 기회?\" 마이크론·샌디스크·씨게이트 부진에도···DRAM ETF 자금 유입 급증 - Benzinga",
-  "count": 2
- },
- {
-  "date": "2026-07-20",
-  "title": "7월 20일 (월) 아침 브리핑",
-  "file": "briefings/2026-07-20.pdf",
-  "top": "김영훈 노동부 장관 “청년 정주여건 마련 적극 지원”",
-  "count": 28
- },
- {
-  "date": "2026-07-19",
-  "kind": "market",
-  "edition": "저녁판",
-  "title": "7월 19일 (일) 투자 브리핑 · 저녁판",
-  "file": "briefings/2026-07-19-market-저녁판.pdf",
-  "top": "여러 악재 속...미국증시 '하락', 나스닥·S&P500 '급락' - 초이스경제",
-  "count": 12
  }
 ]
