@@ -2,6 +2,15 @@
  {
   "date": "2026-08-10",
   "kind": "market",
+  "edition": "저녁판",
+  "title": "8월 10일 (월) 투자 브리핑 · 저녁판",
+  "file": "briefings/2026-08-10-market-저녁판.pdf",
+  "top": "S&P 500(SPX), AI 돈폭탄'의 역습...월가 최대 공포 됐다 - 코인리더스",
+  "count": 27
+ },
+ {
+  "date": "2026-08-10",
+  "kind": "market",
   "edition": "아침판",
   "title": "8월 10일 (월) 투자 브리핑 · 아침판",
   "file": "briefings/2026-08-10-market-아침판.pdf",
