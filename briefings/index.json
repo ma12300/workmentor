@@ -2,6 +2,15 @@
  {
   "date": "2026-08-12",
   "kind": "market",
+  "edition": "아침판",
+  "title": "8월 12일 (수) 투자 브리핑 · 아침판",
+  "file": "briefings/2026-08-12-market-아침판.pdf",
+  "top": "신고가 찍은 다우·S&P500…이제 '나스닥' 랠리 차례? - 뉴시스",
+  "count": 14
+ },
+ {
+  "date": "2026-08-12",
+  "kind": "market",
   "edition": "자정판",
   "title": "8월 12일 (수) 투자 브리핑 · 자정판",
   "file": "briefings/2026-08-12-market-자정판.pdf",
