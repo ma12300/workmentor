@@ -2,6 +2,15 @@
  {
   "date": "2026-08-13",
   "kind": "market",
+  "edition": "아침판",
+  "title": "8월 13일 (목) 투자 브리핑 · 아침판",
+  "file": "briefings/2026-08-13-market-아침판.pdf",
+  "top": "[서울데이터랩]SK하이닉스 ADR 9% 급등…나스닥·S＆P500 상승, 다우 약보합 - 네이트",
+  "count": 13
+ },
+ {
+  "date": "2026-08-13",
+  "kind": "market",
   "edition": "자정판",
   "title": "8월 13일 (목) 투자 브리핑 · 자정판",
   "file": "briefings/2026-08-13-market-자정판.pdf",
