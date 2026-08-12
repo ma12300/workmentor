@@ -2,6 +2,15 @@
  {
   "date": "2026-08-12",
   "kind": "market",
+  "edition": "저녁판",
+  "title": "8월 12일 (수) 투자 브리핑 · 저녁판",
+  "file": "briefings/2026-08-12-market-저녁판.pdf",
+  "top": "다우·S&P500 다음은 나스닥인가…미 증시 ‘2막 랠리’의 조건 - 시사프리즘",
+  "count": 24
+ },
+ {
+  "date": "2026-08-12",
+  "kind": "market",
   "edition": "아침판",
   "title": "8월 12일 (수) 투자 브리핑 · 아침판",
   "file": "briefings/2026-08-12-market-아침판.pdf",
