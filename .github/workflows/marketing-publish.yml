@@ -1,0 +1,65 @@
+name: marketing-publish
+
+on:
+  schedule:
+    # 매시 41분 — 정각·30분 크론 혼잡 회피 (govfeed와 동일한 오프피크 전략)
+    - cron: "41 * * * *"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+# 지연된 실행이 겹쳐 도는 것 방지
+concurrency:
+  group: marketing-publish
+  cancel-in-progress: false
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: publish-scheduled-content
+        run: node scripts/build-marketing-publish.mjs
+        env:
+          SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
+          # 아래는 선택 — 등록된 채널만 자동 발행됩니다
+          X_API_KEY: ${{ secrets.X_API_KEY }}
+          X_API_SECRET: ${{ secrets.X_API_SECRET }}
+          X_ACCESS_TOKEN: ${{ secrets.X_ACCESS_TOKEN }}
+          X_ACCESS_SECRET: ${{ secrets.X_ACCESS_SECRET }}
+          THREADS_USER_ID: ${{ secrets.THREADS_USER_ID }}
+          THREADS_ACCESS_TOKEN: ${{ secrets.THREADS_ACCESS_TOKEN }}
+          # 네이버는 refresh 토큰 방식 권장 (access 토큰은 1시간 만료)
+          NAVER_CLIENT_ID: ${{ secrets.NAVER_CLIENT_ID }}
+          NAVER_CLIENT_SECRET: ${{ secrets.NAVER_CLIENT_SECRET }}
+          NAVER_REFRESH_TOKEN: ${{ secrets.NAVER_REFRESH_TOKEN }}
+          NAVER_ACCESS_TOKEN: ${{ secrets.NAVER_ACCESS_TOKEN }}
+
+      - name: commit-if-changed
+        run: |
+          git config user.name "workmentor-bot"
+          git config user.email "bot@workmentor.co.kr"
+          # posts/는 첫 발행 때 생성됨 — 없으면 추가 생략
+          if [ -d posts ]; then git add posts; fi
+          if git diff --cached --quiet; then
+            echo "변경 없음 — 커밋 생략"
+            exit 0
+          fi
+          git commit -m "auto: marketing posts [skip ci]"
+          # 다른 자동화·수동 push와 경합해도 rebase 후 재시도 (최대 3회)
+          for i in 1 2 3; do
+            if git push; then
+              echo "push 성공"
+              exit 0
+            fi
+            echo "push 경합 감지 — rebase 후 재시도 ($i/3)"
+            git pull --rebase origin main || exit 1
+          done
+          git push

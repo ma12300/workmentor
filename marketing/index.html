@@ -1,0 +1,2427 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta name="color-scheme" content="only light" />
+<meta name="referrer" content="strict-origin-when-cross-origin" />
+<meta name="robots" content="noindex,nofollow" />
+<!-- 콘텐츠 보안 정책(CSP): 이 페이지가 실제 통신하는 곳만 화이트리스트 -->
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' https://cdn.jsdelivr.net; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src https://fonts.gstatic.com data:; img-src 'self' data: https:; connect-src 'self' https://aggndijeezodnfrnqpwp.supabase.co wss://aggndijeezodnfrnqpwp.supabase.co https://workmentor.dbsghddls123.workers.dev; object-src 'none'; base-uri 'self'; form-action 'self'; upgrade-insecure-requests" />
+<title>워크멘토 마케팅 허브 — AI 콘텐츠 자동화 스튜디오</title>
+<meta name="description" content="관리자 전용 — 블로그·유튜브·SNS 6채널 콘텐츠 자동 생성·승인·발행 대시보드" />
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='0.9em' font-size='90'%3E%F0%9F%93%A3%3C/text%3E%3C/svg%3E" />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700;800&family=IBM+Plex+Mono:wght@500;600&display=swap" rel="stylesheet" />
+
+<style>
+:root { color-scheme: only light; }
+/* ==========================================================
+   워크멘토 디자인 토큰 — 본 사이트(index.html)와 동일 값 공유
+   ========================================================== */
+:root {
+  --paper: #F5F6FA;
+  --ink: #1A2233;
+  --navy: #17264B;
+  --blue: #2757C9;
+  --blue-soft: #E8EEFC;
+  --gold: #B57F0A;
+  --gold-soft: #FBF3E0;
+  --brand: #F97B33;
+  --brand-deep: #E06423;
+  --char: #65615A;
+  --char-deep: #55514D;
+  --wm-main-surface:
+    repeating-linear-gradient(115deg, rgba(255,255,255,0.05) 0 1px, transparent 1px 84px),
+    repeating-linear-gradient(65deg, rgba(255,255,255,0.035) 0 1px, transparent 1px 84px),
+    linear-gradient(180deg, var(--char) 0%, var(--char-deep) 100%);
+  --line: #E2E5EE;
+  --white: #FFFFFF;
+  --danger: #C2402A;
+  --ok: #1E7B4D;
+  --sans: 'Noto Sans KR', sans-serif;
+  --mono: 'IBM Plex Mono', monospace;
+  --radius: 12px;
+}
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body {
+  font-family: var(--sans);
+  background: var(--paper);
+  color: var(--ink);
+  line-height: 1.7;
+  word-break: keep-all;
+  letter-spacing: -0.01em;
+}
+button { font-family: inherit; cursor: pointer; }
+input, select, textarea { font-family: inherit; font-size: 14px; }
+:focus-visible { outline: 2px solid var(--blue); outline-offset: 2px; }
+img { max-width: 100%; }
+html, body { max-width: 100%; overflow-x: hidden; }
+html { scroll-behavior: smooth; }
+
+/* ---------- 상단 바 ---------- */
+.topbar {
+  position: sticky; top: 0; z-index: 50;
+  background: rgba(255,255,255,0.97);
+  border-bottom: 1px solid var(--line);
+  -webkit-backdrop-filter: blur(14px); backdrop-filter: blur(14px);
+}
+.topbar-in { max-width: 1240px; margin: 0 auto; padding: 10px 20px; display: flex; align-items: center; gap: 10px; flex-wrap: wrap; }
+.logo { font-weight: 800; font-size: 19px; color: var(--navy); letter-spacing: -0.02em; white-space: nowrap; cursor: pointer; }
+.logo .accent { color: var(--brand); }
+.logo small { font-size: 11px; font-weight: 700; color: #8B847B; letter-spacing: 0.1em; margin-left: 6px; }
+.tb-right { margin-left: auto; display: flex; gap: 8px; align-items: center; flex-wrap: wrap; }
+.authbtn { border: 1px solid var(--line); background: var(--white); border-radius: 8px; padding: 6px 10px; font-size: 12.5px; font-weight: 700; color: var(--navy); }
+.authbtn.strong { background: var(--brand); color: #fff; border: none; }
+.wrap { max-width: 1240px; margin: 0 auto; padding: 22px 20px 90px; }
+
+/* 동기화 상태 점 */
+.syncdot { display: inline-flex; align-items: center; gap: 6px; font-size: 12px; font-weight: 700; color: #7A8398; }
+.syncdot i { width: 9px; height: 9px; border-radius: 50%; background: #C9C2B8; display: inline-block; }
+.syncdot.ok i { background: var(--ok); }
+.syncdot.err i { background: var(--danger); }
+.syncdot.local i { background: var(--gold); }
+
+/* ---------- 공통 (본 사이트와 동일 클래스) ---------- */
+h2.section { font-weight: 800; font-size: 22px; color: var(--navy); letter-spacing: -0.02em; margin-bottom: 4px; }
+.section-sub { color: #5A6478; font-size: 14px; margin-bottom: 18px; }
+.card { background: var(--white); border: 1px solid var(--line); border-radius: var(--radius); padding: 20px; }
+.badge { display: inline-block; font-size: 11.5px; font-weight: 700; padding: 3px 9px; border-radius: 99px; vertical-align: middle; }
+.badge.hr { background: var(--blue-soft); color: var(--blue); }
+.badge.fund { background: var(--gold-soft); color: var(--gold); }
+.badge.hot { background: #FBE7E2; color: var(--danger); }
+.badge.paid { background: #E5F3EC; color: var(--ok); }
+.badge.free { background: #EEF0F5; color: #5A6478; }
+.badge.talent { background: #EFE6FB; color: #7C3AED; }
+.mono { font-family: var(--mono); font-variant-numeric: tabular-nums; }
+.empty { text-align: center; color: #7A8398; padding: 40px 0; font-size: 14px; }
+.status { font-size: 12.5px; color: #7A8398; }
+.status.live { color: var(--ok); font-weight: 700; }
+.cta { background: var(--navy); color: #fff; border: none; border-radius: 8px; padding: 9px 15px; font-size: 13.5px; font-weight: 700; white-space: nowrap; }
+.cta:hover { background: #0F1A38; }
+.cta.gold { background: var(--gold); }
+.cta.orange { background: var(--brand); }
+.cta.orange:hover { background: var(--brand-deep); }
+.btn-ghost { background: var(--paper); color: var(--ink); border: 1px solid var(--line); border-radius: 8px; padding: 9px 14px; font-size: 13.5px; font-weight: 700; }
+.noti-badge { display: inline-block; min-width: 16px; height: 16px; line-height: 16px; background: var(--danger); color: #fff; border-radius: 99px; font-size: 10px; font-weight: 800; padding: 0 4px; margin-left: 5px; vertical-align: 1px; text-align: center; }
+.hintbox { background: var(--blue-soft); border-radius: 10px; padding: 14px 16px; font-size: 13.5px; color: #24437E; line-height: 1.7; margin-bottom: 16px; }
+.wm-note { background: #FFF7EF; border: 1px solid #F5CDAE; border-left: 4px solid var(--brand); border-radius: 9px; padding: 11px 14px; font-size: 13.5px; color: #5A4632; line-height: 1.65; margin: 2px 0 12px; }
+.demo-note { background: #FBE7E2; color: var(--danger); font-size: 12.5px; font-weight: 700; padding: 8px 12px; border-radius: 8px; margin: 12px 0; }
+
+/* ---------- 탭 (본 사이트 관리자 탭과 동일) ---------- */
+.atabs { display: flex; gap: 6px; flex-wrap: wrap; margin-bottom: 16px; }
+.atabs button { border: 1px solid var(--line); background: var(--white); border-radius: 8px; padding: 8px 15px; font-size: 13.5px; font-weight: 600; color: #444E63; }
+.atabs button.on { background: var(--navy); border-color: var(--navy); color: #fff; }
+.apanel { display: none; }
+.apanel.on { display: block; animation: pageIn 0.32s ease both; }
+@keyframes pageIn { from { opacity: 0; transform: translateY(10px); } to { opacity: 1; transform: none; } }
+@media (prefers-reduced-motion: reduce) { *, *::before, *::after { animation: none !important; transition: none !important; } html { scroll-behavior: auto; } }
+
+/* ---------- 폼 ---------- */
+.form { display: grid; gap: 10px; }
+.form label { font-size: 13px; font-weight: 700; color: var(--navy); }
+.form input, .form select, .form textarea { width: 100%; border: 1px solid var(--line); border-radius: 8px; padding: 10px 12px; background: var(--paper); }
+.form textarea { min-height: 90px; resize: vertical; }
+.form .frow { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
+@media (max-width: 640px) { .form .frow { grid-template-columns: 1fr; } }
+.form .fsave { background: var(--navy); color: #fff; border: none; border-radius: 8px; padding: 12px; font-weight: 700; font-size: 14.5px; }
+.alist { margin-top: 18px; display: grid; gap: 8px; }
+.aitem { display: flex; align-items: center; gap: 10px; background: var(--white); border: 1px solid var(--line); border-radius: 10px; padding: 10px 14px; font-size: 14px; flex-wrap: wrap; }
+.aitem .grow { flex: 1; min-width: 180px; }
+.aitem button { border: none; border-radius: 6px; padding: 6px 12px; font-size: 12.5px; font-weight: 700; }
+.aitem .edit { background: var(--blue-soft); color: var(--blue); }
+.aitem .del { background: #FBE7E2; color: var(--danger); }
+.chips { display: flex; gap: 6px; flex-wrap: wrap; }
+.chips button { border: 1px solid var(--line); background: var(--white); border-radius: 99px; padding: 6px 13px; font-size: 13px; font-weight: 500; color: #444E63; overflow-wrap: anywhere; }
+.chips button.on { background: var(--brand); border-color: var(--brand); color: #fff; }
+
+/* ---------- 관심 분석 바 (insight) ---------- */
+.insrow { display: flex; align-items: center; gap: 10px; margin: 5px 0; }
+.inslabel { min-width: 110px; font-size: 13.5px; font-weight: 700; color: var(--navy); }
+.insbar { flex: 1; height: 14px; background: var(--paper); border-radius: 7px; overflow: hidden; }
+.insbar span { display: block; height: 100%; background: linear-gradient(90deg, var(--brand), #FFB185); border-radius: 7px; }
+.insval { min-width: 60px; text-align: right; font-size: 12px; color: #7A8398; }
+
+/* ---------- 달력 (본 사이트 플래너와 동일) ---------- */
+.pcal { display: grid; grid-template-columns: repeat(7, 1fr); gap: 4px; }
+.pcal .wd { text-align: center; font-size: 11.5px; font-weight: 800; color: #8A8F9E; padding: 3px 0; }
+.pcal .d { min-height: 62px; border: 1px solid var(--line); border-radius: 8px; padding: 4px 5px; background: #fff; cursor: pointer; overflow: hidden; }
+.pcal .d:hover { border-color: var(--brand); }
+.pcal .d.out { background: #F6F4F0; opacity: 0.55; }
+.pcal .d.today { border: 2px solid var(--brand); }
+.pcal .dn { font-size: 11px; font-weight: 800; color: #6C7386; }
+.pcal .pev { display: block; font-size: 10.5px; font-weight: 700; color: #fff; border-radius: 5px; padding: 1px 5px; margin-top: 2px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.pcal .pev.adm { background: #F26F1F; }
+.pcal .pev.usr { background: #3E63DD; }
+.pcal .pev.ok { background: var(--ok); }
+
+/* ---------- 모달 ---------- */
+.modal-bg { display: none; position: fixed; inset: 0; z-index: 100; background: rgba(20,26,45,0.55); align-items: flex-start; justify-content: center; padding: 30px 16px; overflow-y: auto; }
+.modal-bg.on { display: flex; animation: bgIn 0.18s ease both; }
+@keyframes bgIn { from { opacity: 0; } to { opacity: 1; } }
+.modal-bg.on .modal { animation: popIn 0.26s cubic-bezier(0.2, 0.9, 0.3, 1.15) both; }
+@keyframes popIn { from { opacity: 0; transform: translateY(14px) scale(0.97); } to { opacity: 1; transform: none; } }
+.modal { background: #fff; border-radius: 14px; padding: 26px; max-width: 720px; width: 100%; }
+.modal h3 { font-size: 19px; font-weight: 800; line-height: 1.45; margin-bottom: 4px; color: var(--navy); }
+.modal .m-sub { font-size: 13.5px; color: #5A6478; margin-bottom: 14px; }
+.modal .m-body { font-size: 14px; line-height: 1.8; padding: 14px 0; border-top: 1px solid var(--line); white-space: pre-wrap; overflow-wrap: anywhere; }
+.modal .btns { display: flex; gap: 8px; margin-top: 18px; }
+.modal .btns button { flex: 1; border: none; border-radius: 8px; padding: 12px; font-weight: 700; font-size: 14.5px; }
+.modal pre { background: var(--paper); border: 1px solid var(--line); border-radius: 10px; padding: 14px; font-size: 12.5px; line-height: 1.6; overflow-x: auto; white-space: pre-wrap; overflow-wrap: anywhere; font-family: var(--mono); max-height: 420px; overflow-y: auto; }
+
+/* ==========================================================
+   마케팅 허브 전용 (mk- 접두)
+   ========================================================== */
+/* 로그인 게이트 */
+#mkGate { max-width: 400px; margin: 48px auto; }
+#mkGate input { width: 100%; border: 1px solid var(--line); border-radius: 8px; padding: 12px 14px; margin: 8px 0; background: var(--paper); }
+#mkApp { display: none; }
+
+/* 브랜드 헤더 스트립 */
+.mk-hero { background: var(--wm-main-surface); border-radius: 14px; padding: 20px 24px; color: #E7E3DC; margin-bottom: 16px; display: flex; align-items: center; gap: 16px; flex-wrap: wrap; }
+.mk-hero h1 { font-size: clamp(17px, 2.6vw, 22px); font-weight: 800; color: #fff; letter-spacing: -0.01em; }
+.mk-hero .kicker { display: block; font-size: 10.5px; font-weight: 800; letter-spacing: 0.2em; color: var(--brand); text-transform: uppercase; margin-bottom: 2px; }
+.mk-hero p { font-size: 12.5px; color: #CFC9C0; }
+.mk-hero .right { margin-left: auto; text-align: right; font-size: 12px; color: #CFC9C0; }
+.mk-hero .right b { color: #FFC49E; }
+
+/* KPI 타일 */
+.mk-kpis { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 12px; margin-bottom: 16px; }
+.mk-kpi { background: var(--white); border: 1px solid var(--line); border-radius: var(--radius); padding: 14px 16px; cursor: pointer; transition: transform 0.15s ease, box-shadow 0.15s ease, border-color 0.15s ease; }
+.mk-kpi:hover { transform: translateY(-2px); box-shadow: 0 6px 16px rgba(66,62,56,0.10); border-color: var(--brand); }
+.mk-kpi .k { font-size: 12px; font-weight: 700; color: #5A6478; }
+.mk-kpi .v { font-family: var(--mono); font-weight: 600; font-size: 24px; color: var(--navy); margin-top: 2px; }
+.mk-kpi .v small { font-size: 12px; color: #7A8398; font-weight: 500; }
+.mk-kpi.warn .v { color: var(--danger); }
+.mk-kpi.good .v { color: var(--ok); }
+
+/* 2단 그리드 */
+.mk-cols { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; align-items: start; }
+@media (max-width: 820px) { .mk-cols { grid-template-columns: 1fr; } }
+.mk-cols3 { display: grid; grid-template-columns: repeat(3, 1fr); gap: 14px; align-items: start; }
+@media (max-width: 920px) { .mk-cols3 { grid-template-columns: 1fr; } }
+
+/* 파이프라인 스텝 표시 */
+.mk-flow { display: flex; gap: 6px; flex-wrap: wrap; align-items: center; margin: 8px 0 2px; }
+.mk-flow .st { font-size: 12px; font-weight: 700; padding: 4px 11px; border-radius: 99px; background: #EEF0F5; color: #5A6478; }
+.mk-flow .st.hit { background: var(--navy); color: #fff; }
+.mk-flow .ar { color: #C9C2B8; font-size: 12px; }
+
+/* 칸반 */
+.mk-kanban { display: grid; grid-template-columns: repeat(6, minmax(190px, 1fr)); gap: 10px; overflow-x: auto; padding-bottom: 8px; }
+.mk-kcol { background: #EEF0F5; border-radius: 12px; padding: 10px; min-height: 120px; }
+.mk-kcol h4 { font-size: 12.5px; font-weight: 800; color: var(--navy); margin: 2px 4px 8px; display: flex; align-items: center; gap: 6px; }
+.mk-kcol h4 .cnt { font-family: var(--mono); font-size: 11px; color: #7A8398; }
+.mk-kcard { background: #fff; border: 1px solid var(--line); border-radius: 10px; padding: 10px 12px; margin-bottom: 8px; font-size: 13px; cursor: pointer; transition: border-color 0.15s; }
+.mk-kcard:hover { border-color: var(--brand); }
+.mk-kcard .t { font-weight: 700; line-height: 1.45; overflow-wrap: anywhere; }
+.mk-kcard .m { font-size: 11px; color: #7A8398; margin-top: 3px; }
+.mk-kcard .chs { margin-top: 6px; display: flex; gap: 3px; flex-wrap: wrap; }
+.mk-kcard .chs i { font-style: normal; font-size: 10.5px; background: var(--paper); border: 1px solid var(--line); border-radius: 5px; padding: 0 5px; }
+.mk-kcard .mv { display: flex; gap: 4px; margin-top: 8px; }
+.mk-kcard .mv button { flex: 1; border: none; border-radius: 6px; padding: 4px 0; font-size: 11.5px; font-weight: 700; background: var(--paper); color: #444E63; }
+.mk-kcard .mv button.go { background: var(--blue-soft); color: var(--blue); }
+.mk-kcard .mv button.ap { background: #E5F3EC; color: var(--ok); }
+
+/* 스튜디오 */
+.mk-chan-tabs { display: flex; gap: 6px; flex-wrap: wrap; margin: 12px 0 10px; }
+.mk-chan-tabs button { border: 1px solid var(--line); background: var(--white); border-radius: 8px; padding: 7px 12px; font-size: 12.5px; font-weight: 700; color: #444E63; }
+.mk-chan-tabs button.on { background: var(--brand); border-color: var(--brand); color: #fff; }
+.mk-chan-tabs button .len { font-family: var(--mono); font-size: 10px; margin-left: 4px; opacity: 0.75; }
+.mk-prev { background: var(--paper); border: 1px solid var(--line); border-radius: 10px; padding: 14px 16px; font-size: 13.5px; line-height: 1.8; white-space: pre-wrap; overflow-wrap: anywhere; max-height: 460px; overflow-y: auto; }
+.mk-prev h2, .mk-prev h3 { color: var(--navy); margin: 10px 0 4px; }
+.mk-genbar { display: flex; gap: 8px; flex-wrap: wrap; align-items: center; margin: 10px 0; }
+.mk-count { font-family: var(--mono); font-size: 12.5px; color: #7A8398; }
+.mk-count b { color: var(--navy); }
+textarea.mk-editor { width: 100%; min-height: 300px; border: 1px solid var(--line); border-radius: 10px; padding: 14px 16px; background: #fff; font-size: 14px; line-height: 1.8; resize: vertical; }
+
+/* 검수 리스트 */
+.mk-checks { display: grid; gap: 6px; margin-top: 10px; }
+.mk-check { display: flex; gap: 8px; align-items: baseline; font-size: 13px; padding: 7px 11px; border-radius: 8px; background: var(--paper); }
+.mk-check.ok { color: #2C5E44; background: #E5F3EC; }
+.mk-check.warn { color: #6B4E08; background: var(--gold-soft); }
+.mk-check.bad { color: var(--danger); background: #FBE7E2; }
+.mk-check b { flex-shrink: 0; }
+
+/* 발행 카드 */
+.mk-pubrow { display: flex; align-items: center; gap: 10px; background: #fff; border: 1px solid var(--line); border-radius: 10px; padding: 10px 14px; font-size: 13.5px; flex-wrap: wrap; }
+.mk-pubrow .ch { font-weight: 800; min-width: 110px; }
+.mk-pubrow .st { font-size: 11.5px; font-weight: 700; border-radius: 99px; padding: 2px 9px; }
+.mk-pubrow .st.wait { background: #EEF0F5; color: #5A6478; }
+.mk-pubrow .st.done { background: #E5F3EC; color: var(--ok); }
+.mk-pubrow .acts { margin-left: auto; display: flex; gap: 6px; flex-wrap: wrap; }
+.mk-pubrow .acts button, .mk-pubrow .acts a { border: none; border-radius: 6px; padding: 6px 11px; font-size: 12px; font-weight: 700; text-decoration: none; display: inline-block; }
+.mk-pubrow .copy { background: var(--blue-soft); color: var(--blue); }
+.mk-pubrow .open { background: var(--gold-soft); color: var(--gold); }
+.mk-pubrow .mark { background: #E5F3EC; color: var(--ok); }
+
+/* 댓글 인박스 */
+.mk-cmt { background: #fff; border: 1px solid var(--line); border-radius: 10px; padding: 12px 14px; margin-bottom: 10px; }
+.mk-cmt .head { display: flex; gap: 8px; align-items: center; flex-wrap: wrap; font-size: 12.5px; color: #5A6478; }
+.mk-cmt .txt { font-size: 14px; margin: 6px 0; overflow-wrap: anywhere; }
+.mk-cmt textarea { width: 100%; border: 1px solid var(--line); border-radius: 8px; padding: 9px 11px; background: var(--paper); font-size: 13.5px; min-height: 64px; margin-top: 6px; resize: vertical; }
+.mk-cmt .acts { display: flex; gap: 6px; margin-top: 8px; flex-wrap: wrap; }
+.mk-cmt .acts button { border: none; border-radius: 6px; padding: 6px 12px; font-size: 12.5px; font-weight: 700; }
+.mk-cmt.sent { opacity: 0.6; }
+.mk-tag { font-size: 11px; font-weight: 800; border-radius: 99px; padding: 2px 9px; }
+.mk-tag.q { background: var(--blue-soft); color: var(--blue); }
+.mk-tag.pos { background: #E5F3EC; color: var(--ok); }
+.mk-tag.neg { background: #FBE7E2; color: var(--danger); }
+.mk-tag.spam { background: #EEF0F5; color: #5A6478; }
+
+/* AI 기획 채팅 */
+.mk-chat { display: flex; flex-direction: column; height: 380px; border: 1px solid var(--line); border-radius: 10px; overflow: hidden; background: #fff; }
+.mk-chatlog { flex: 1; overflow-y: auto; padding: 14px; display: flex; flex-direction: column; gap: 8px; background: var(--paper); }
+.mk-msg { max-width: 78%; padding: 9px 13px; border-radius: 12px; font-size: 13.5px; line-height: 1.6; white-space: pre-wrap; overflow-wrap: anywhere; }
+.mk-msg.me { align-self: flex-end; background: var(--brand); color: #fff; border-bottom-right-radius: 4px; }
+.mk-msg.bot { align-self: flex-start; background: #fff; border: 1px solid var(--line); border-bottom-left-radius: 4px; }
+.mk-msg .sug { display: block; margin-top: 6px; }
+.mk-msg .sug button { display: block; width: 100%; text-align: left; margin-top: 4px; border: 1px solid var(--line); background: var(--paper); border-radius: 8px; padding: 6px 10px; font-size: 12.5px; font-weight: 700; color: var(--navy); }
+.mk-msg .sug button:hover { border-color: var(--brand); }
+.mk-chatin { display: flex; gap: 8px; padding: 10px; border-top: 1px solid var(--line); background: #fff; }
+.mk-chatin input { flex: 1; border: 1px solid var(--line); border-radius: 8px; padding: 10px 13px; background: var(--paper); }
+
+/* 자동 수집 후보 */
+.mk-harv { display: flex; align-items: center; gap: 10px; background: #fff; border: 1px solid var(--line); border-radius: 10px; padding: 9px 13px; font-size: 13px; }
+.mk-harv .sc { font-family: var(--mono); font-size: 11px; font-weight: 600; color: var(--brand); min-width: 34px; }
+.mk-harv .grow { flex: 1; overflow-wrap: anywhere; }
+.mk-harv .src { font-size: 11px; color: #7A8398; }
+
+/* 활동 로그 */
+.mk-act { font-size: 12.5px; color: #5A6478; padding: 6px 0; border-bottom: 1px dashed var(--line); display: flex; gap: 8px; }
+.mk-act .tm { font-family: var(--mono); font-size: 11px; color: #9AA3B5; white-space: nowrap; }
+
+/* 토스트 */
+#mkToast { position: fixed; left: 50%; bottom: 26px; transform: translateX(-50%) translateY(20px); background: var(--navy); color: #fff; font-size: 13.5px; font-weight: 700; border-radius: 10px; padding: 11px 18px; opacity: 0; pointer-events: none; transition: opacity 0.2s ease, transform 0.2s ease; z-index: 200; max-width: 90vw; }
+#mkToast.on { opacity: 1; transform: translateX(-50%) translateY(0); }
+
+/* 표 */
+.mk-table { width: 100%; border-collapse: collapse; font-size: 13px; }
+.mk-table th { text-align: left; font-size: 12px; color: #5A6478; border-bottom: 1px solid var(--line); padding: 7px 8px; white-space: nowrap; }
+.mk-table td { border-bottom: 1px dashed var(--line); padding: 7px 8px; vertical-align: top; overflow-wrap: anywhere; }
+.mk-table td input { width: 64px; border: 1px solid var(--line); border-radius: 6px; padding: 3px 6px; font-size: 12px; background: var(--paper); }
+.mk-tablewrap { overflow-x: auto; }
+
+@media (max-width: 720px) {
+  .wrap { padding: 14px 12px 64px; }
+  h2.section { font-size: 19px; }
+  .card { padding: 16px 14px; }
+  .mk-kanban { grid-template-columns: repeat(6, 220px); }
+  .mk-hero { padding: 16px; }
+  .mk-hero .right { margin-left: 0; text-align: left; }
+}
+</style>
+</head>
+<body>
+
+<!-- ===== 상단 바 ===== -->
+<div class="topbar">
+  <div class="topbar-in">
+    <span class="logo" onclick="location.href='../'">워크<span class="accent">멘토</span><small>MARKETING HUB</small></span>
+    <div class="tb-right">
+      <span class="syncdot" id="mkSync"><i></i><span id="mkSyncTx">준비 중</span></span>
+      <button class="authbtn" onclick="location.href='../#admin'">← 관리자 대시보드</button>
+      <button class="authbtn" id="mkLogoutBtn" onclick="mkLogout()" style="display:none">로그아웃</button>
+    </div>
+  </div>
+</div>
+
+<div class="wrap">
+
+<!-- ===== 로그인 게이트 ===== -->
+<div id="mkGate" class="card">
+  <h2 class="section">마케팅 허브 로그인</h2>
+  <p class="section-sub">관리자 전용 페이지입니다. 워크멘토 관리자 계정으로 로그인하세요.</p>
+  <input type="email" id="mkEmail" placeholder="관리자 이메일" autocomplete="username" />
+  <input type="password" id="mkPw" placeholder="비밀번호" autocomplete="current-password" onkeydown="if(event.key==='Enter')mkLogin()" />
+  <button class="cta orange" style="width:100%;padding:12px;margin-top:6px" onclick="mkLogin()">로그인</button>
+  <div class="status" id="mkGateMsg" style="margin-top:10px"></div>
+  <div class="wm-note" style="margin-top:14px">이 로그인은 본 사이트 관리자 계정(승인된 관리자 또는 '마케팅 허브' 권한이 있는 부관리자)과 동일합니다. 데이터 보호는 Supabase RLS(행 수준 보안)로 서버에서 검증됩니다.</div>
+</div>
+
+<!-- ===== 앱 본체 ===== -->
+<div id="mkApp">
+
+  <!-- 브랜드 헤더 -->
+  <div class="mk-hero">
+    <div>
+      <span class="kicker">AI Marketing Automation</span>
+      <h1>마케팅 허브 — 콘텐츠 자동화 스튜디오</h1>
+      <p>주제 기획 → AI 생성 → 검수 → 승인 → 6채널 동시 발행 → 댓글 관리, 한 화면에서.</p>
+    </div>
+    <div class="right">
+      <div>오늘 <b id="mkHeroToday">-</b></div>
+      <div>이번 달 발행 <b id="mkHeroMonth">-</b>건 · 절감 <b id="mkHeroSave">-</b></div>
+    </div>
+  </div>
+
+  <!-- 탭 -->
+  <div class="atabs" id="mkTabs">
+    <button class="on" data-tab="dash" onclick="mtab('dash')">현황판</button>
+    <button data-tab="topic" onclick="mtab('topic')">① 주제 기획</button>
+    <button data-tab="studio" onclick="mtab('studio')">② 콘텐츠 스튜디오</button>
+    <button data-tab="pub" onclick="mtab('pub')">③ 승인·발행</button>
+    <button data-tab="cmt" onclick="mtab('cmt')">④ 댓글 관리</button>
+    <button data-tab="stat" onclick="mtab('stat')">⑤ 성과 분석</button>
+    <button data-tab="set" onclick="mtab('set')">설정</button>
+  </div>
+
+  <!-- ============ 현황판 ============ -->
+  <div class="apanel on" id="mkpanel-dash">
+    <div class="mk-kpis" id="mkKpis"></div>
+
+    <div class="mk-cols">
+      <div class="card">
+        <h2 class="section" style="font-size:17px">콘텐츠 파이프라인</h2>
+        <p class="section-sub" style="margin-bottom:10px">담당자는 주제 관리와 최종 승인만, 나머지는 자동화가 처리합니다.</p>
+        <div class="mk-flow" id="mkFlowBar"></div>
+        <div id="mkDashPipe" style="margin-top:12px"></div>
+      </div>
+      <div class="card">
+        <h2 class="section" style="font-size:17px">채널별 발행 현황 <span class="status">(최근 30일)</span></h2>
+        <div id="mkDashChan" style="margin-top:10px"></div>
+        <h2 class="section" style="font-size:17px;margin-top:18px">자동화 절감 효과</h2>
+        <div id="mkDashSave" style="margin-top:8px"></div>
+      </div>
+    </div>
+
+    <div class="mk-cols" style="margin-top:14px">
+      <div class="card">
+        <h2 class="section" style="font-size:17px">오늘의 추천 주제 <span class="status">뉴스·정책 데이터 자동 수집</span></h2>
+        <div id="mkDashIdeas"><div class="empty">수집 중…</div></div>
+        <button class="btn-ghost" style="margin-top:10px" onclick="mtab('topic');topicMode('auto')">자동 수집 전체 보기 →</button>
+      </div>
+      <div class="card">
+        <h2 class="section" style="font-size:17px">최근 활동</h2>
+        <div id="mkDashAct"><div class="empty">아직 활동이 없습니다</div></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ============ ① 주제 기획 ============ -->
+  <div class="apanel" id="mkpanel-topic">
+    <div class="hintbox">주제를 준비하는 4가지 방법 — <b>직접 등록</b>, <b>AI 기획 대화</b>, <b>자동 수집</b>(사이트가 15분마다 모으는 정책 뉴스에서 주제 후보 추출), <b>예약 등록</b>(매주 반복 주제). 등록된 주제는 ② 콘텐츠 스튜디오에서 본문으로 만들어집니다.</div>
+
+    <div class="chips" style="margin-bottom:14px" id="mkTopicModes">
+      <button class="on" data-m="manual" onclick="topicMode('manual')">✏️ 직접 등록</button>
+      <button data-m="chat" onclick="topicMode('chat')">💬 AI 기획 대화</button>
+      <button data-m="auto" onclick="topicMode('auto')">📡 자동 수집</button>
+      <button data-m="recur" onclick="topicMode('recur')">🔁 예약 등록</button>
+    </div>
+
+    <!-- 직접 등록 -->
+    <div class="card form" id="mkTopicManual">
+      <input type="hidden" id="tp-id" />
+      <div class="frow">
+        <div><label>주제 제목 *</label><input id="tp-title" placeholder="예: 2026년 소상공인 정책자금 총정리" /></div>
+        <div><label>핵심 키워드 (쉼표 구분)</label><input id="tp-kw" placeholder="정책자금, 소상공인, 대출" /></div>
+      </div>
+      <div class="frow">
+        <div><label>발행 채널</label><div class="chips" id="tp-chs" style="margin-top:4px"></div></div>
+        <div><label>발행 예정일 (선택)</label><input type="date" id="tp-due" /></div>
+      </div>
+      <div><label>메모 / 방향성</label><textarea id="tp-memo" placeholder="다뤄야 할 포인트, 타깃, 참고 링크 등"></textarea></div>
+      <button class="fsave" onclick="saveTopic()">주제 저장</button>
+    </div>
+
+    <!-- AI 기획 대화 -->
+    <div class="card" id="mkTopicChat" style="display:none">
+      <h2 class="section" style="font-size:16px">AI 기획 도우미와 대화로 주제 정하기</h2>
+      <p class="section-sub" style="margin-bottom:10px">질문에 답하면 워크멘토 데이터(정책 뉴스·지원사업)를 조합해 주제를 제안합니다.</p>
+      <div class="mk-chat">
+        <div class="mk-chatlog" id="mkChatLog"></div>
+        <div class="mk-chatin">
+          <input id="mkChatIn" placeholder="답변을 입력하거나 아래 제안을 클릭하세요" onkeydown="if(event.key==='Enter')planChatSend()" />
+          <button class="cta orange" onclick="planChatSend()">전송</button>
+        </div>
+      </div>
+      <button class="btn-ghost" style="margin-top:10px" onclick="planChatReset()">대화 새로 시작</button>
+    </div>
+
+    <!-- 자동 수집 -->
+    <div class="card" id="mkTopicAuto" style="display:none">
+      <h2 class="section" style="font-size:16px">자동 수집 주제 후보 <span class="status" id="mkHarvStatus"></span></h2>
+      <p class="section-sub" style="margin-bottom:10px">사이트가 15분마다 수집하는 정책 뉴스(gov-feeds)와 네이버 초안, 브리핑에서 주제 후보를 점수화해 보여줍니다. [주제로 등록]을 누르면 목록에 추가됩니다.</p>
+      <div class="chips" id="mkHarvGroups" style="margin-bottom:10px"></div>
+      <div id="mkHarvList" class="alist" style="margin-top:0"><div class="empty">수집 중…</div></div>
+      <button class="btn-ghost" style="margin-top:10px" onclick="loadSources(true)">새로고침</button>
+    </div>
+
+    <!-- 예약 등록 -->
+    <div class="card" id="mkTopicRecur" style="display:none">
+      <h2 class="section" style="font-size:16px">반복 주제 예약</h2>
+      <p class="section-sub" style="margin-bottom:10px">요일별 고정 코너를 등록하면, 해당 요일에 주제가 자동으로 생성됩니다. (예: 매주 월요일 "이번 주 지원사업 TOP 5")</p>
+      <div class="form">
+        <div class="frow">
+          <div><label>요일</label>
+            <select id="rc-dow"><option value="1">매주 월요일</option><option value="2">매주 화요일</option><option value="3">매주 수요일</option><option value="4">매주 목요일</option><option value="5">매주 금요일</option><option value="6">매주 토요일</option><option value="0">매주 일요일</option></select>
+          </div>
+          <div><label>주제 템플릿 * <span class="status">{날짜}·{주차} 치환</span></label><input id="rc-title" placeholder="{주차} 이번 주 지원사업 TOP 5" /></div>
+        </div>
+        <div class="frow">
+          <div><label>키워드</label><input id="rc-kw" placeholder="지원사업, 마감임박" /></div>
+          <div><label>발행 채널</label><div class="chips" id="rc-chs" style="margin-top:4px"></div></div>
+        </div>
+        <button class="fsave" onclick="saveRecur()">반복 주제 저장</button>
+      </div>
+      <div class="alist" id="mkRecurList"></div>
+    </div>
+
+    <!-- 주제 목록 -->
+    <div class="card" style="margin-top:14px">
+      <h2 class="section" style="font-size:16px">주제 목록 <span class="status" id="mkTopicCnt"></span></h2>
+      <div class="chips" id="mkTopicFilter" style="margin:8px 0 12px">
+        <button class="on" data-f="all" onclick="topicFilter('all')">전체</button>
+        <button data-f="idea" onclick="topicFilter('idea')">기획</button>
+        <button data-f="draft" onclick="topicFilter('draft')">초안</button>
+        <button data-f="review" onclick="topicFilter('review')">검수</button>
+        <button data-f="approved" onclick="topicFilter('approved')">승인</button>
+        <button data-f="scheduled" onclick="topicFilter('scheduled')">예약</button>
+        <button data-f="published" onclick="topicFilter('published')">발행 완료</button>
+      </div>
+      <div class="alist" id="mkTopicList" style="margin-top:0"></div>
+    </div>
+  </div>
+
+  <!-- ============ ② 콘텐츠 스튜디오 ============ -->
+  <div class="apanel" id="mkpanel-studio">
+    <div class="mk-cols" style="grid-template-columns: 300px 1fr">
+      <!-- 주제 선택 -->
+      <div class="card">
+        <h2 class="section" style="font-size:16px">작업할 주제</h2>
+        <div class="alist" id="mkStudioTopics" style="margin-top:10px"></div>
+      </div>
+
+      <!-- 작업 영역 -->
+      <div>
+        <div class="card" id="mkStudioEmpty"><div class="empty">왼쪽에서 주제를 선택하세요.<br/>주제가 없다면 ① 주제 기획에서 먼저 등록합니다.</div></div>
+
+        <div id="mkStudioWork" style="display:none">
+          <!-- 본문 생성 -->
+          <div class="card">
+            <h2 class="section" style="font-size:17px" id="mkStTitle">-</h2>
+            <div class="mk-flow" id="mkStFlow"></div>
+
+            <div class="mk-genbar">
+              <label class="status" style="font-weight:700">생성 방식</label>
+              <select id="mkGenMode" onchange="S.settings.ai.mode=this.value;saveS();renderGenModeHint()">
+                <option value="builtin">⚡ 내장 엔진 (즉시·데이터 조립)</option>
+                <option value="paste">📋 AI 프롬프트 복사 → 결과 붙여넣기</option>
+                <option value="worker">☁️ Worker AI (자동 호출)</option>
+              </select>
+              <button class="cta orange" id="mkGenBtn" onclick="genBody()">본문 생성</button>
+              <span class="mk-count">본문 <b id="mkChars">0</b>자 <span class="status">/ 목표 6,000자</span></span>
+            </div>
+            <div class="status" id="mkGenHint" style="margin-bottom:8px"></div>
+
+            <div id="mkPasteBox" style="display:none">
+              <div class="wm-note">① [프롬프트 복사]를 눌러 ChatGPT/Claude에 붙여넣고 → ② 생성된 결과 전체를 아래에 붙여넣은 뒤 → ③ [결과 반영]을 누르세요. (시장 브리핑 발행과 같은 방식입니다)</div>
+              <div class="mk-genbar">
+                <button class="btn-ghost" onclick="copyMasterPrompt()">① 본문 프롬프트 복사</button>
+                <button class="cta" onclick="applyPaste()">③ 결과 반영</button>
+              </div>
+              <textarea class="mk-editor" id="mkPasteIn" style="min-height:120px" placeholder="AI가 생성한 결과(제목 첫 줄 + 본문, 또는 JSON)를 여기에 붙여넣기"></textarea>
+            </div>
+
+            <div><label class="status" style="font-weight:700">제목</label>
+              <input id="mkStHead" style="width:100%;border:1px solid var(--line);border-radius:8px;padding:10px 12px;background:var(--paper);font-weight:700" placeholder="본문 생성 시 자동 제안" onchange="onBodyEdit()" /></div>
+            <textarea class="mk-editor" id="mkStBody" placeholder="본문이 여기에 생성됩니다. 직접 수정할 수 있습니다." oninput="onBodyEdit()"></textarea>
+
+            <!-- 검수 -->
+            <div class="mk-genbar" style="margin-top:12px">
+              <button class="cta" onclick="runReviewUI()">🔎 자동 검수 실행</button>
+              <span class="status">글자수·금칙어·맞춤법·링크·중복도(네이버 유사문서 위험)를 한 번에 검사합니다</span>
+            </div>
+            <div class="mk-checks" id="mkChecks"></div>
+          </div>
+
+          <!-- 이미지·썸네일 -->
+          <div class="card" style="margin-top:14px">
+            <h2 class="section" style="font-size:16px">이미지·썸네일 문구 검수</h2>
+            <p class="section-sub" style="margin-bottom:10px">이미지 생성 프롬프트를 만들고, 이미지에 들어갈 문구를 발행 전에 검수합니다. (이미지 속 오타는 발행 후 수정이 어렵습니다 — 원천 차단)</p>
+            <div class="mk-genbar">
+              <button class="btn-ghost" onclick="genImgPrompts()">이미지 프롬프트 생성</button>
+              <button class="btn-ghost" onclick="addImgRow()">+ 이미지 문구 추가</button>
+            </div>
+            <div id="mkImgList"></div>
+          </div>
+
+          <!-- 채널 변환 -->
+          <div class="card" style="margin-top:14px">
+            <h2 class="section" style="font-size:16px">채널별 맞춤 변환</h2>
+            <p class="section-sub" style="margin-bottom:4px">본문 하나로 6채널 콘텐츠를 자동 변환합니다. 각 채널 성격(네이버 재작성·유튜브 대화체·쇼츠 장면·SNS 분량 제한)에 맞춥니다.</p>
+            <div class="mk-genbar">
+              <button class="cta orange" onclick="makeVariants()">전체 채널 변환 생성</button>
+              <button class="btn-ghost" onclick="copyVariantPrompt()">이 채널 AI 프롬프트 복사</button>
+              <span class="status" id="mkVarStatus"></span>
+            </div>
+            <div class="mk-chan-tabs" id="mkVarTabs"></div>
+            <textarea class="mk-editor" id="mkVarEdit" style="min-height:220px" placeholder="채널 변환 결과가 여기에 표시됩니다. 직접 다듬을 수 있습니다." oninput="onVariantEdit()"></textarea>
+            <div class="mk-genbar">
+              <span class="mk-count" id="mkVarCount"></span>
+              <button class="btn-ghost" onclick="copyCurVariant()">이 채널 내용 복사</button>
+            </div>
+          </div>
+
+          <!-- 다음 단계 -->
+          <div class="card" style="margin-top:14px">
+            <div class="mk-genbar">
+              <button class="cta" onclick="stuToReview()">검수 단계로 보내기</button>
+              <button class="cta orange" onclick="stuApprove()">✓ 최종 승인 (발행 대기로)</button>
+              <span class="status">승인된 콘텐츠는 ③ 승인·발행에서 예약·발행됩니다</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ============ ③ 승인·발행 ============ -->
+  <div class="apanel" id="mkpanel-pub">
+    <div class="hintbox">파이프라인의 각 카드는 [▶]로 다음 단계로 이동합니다. <b>검수</b> 열의 카드는 [승인] 원클릭으로 발행 대기 상태가 되고, 발행 예정일이 지정된 승인 콘텐츠는 자동 발행 파이프라인(GitHub Actions)이 홈페이지에 게시합니다. 나머지 채널은 아래 발행 카드에서 [복사]→[채널 열기]로 30초 안에 발행합니다.</div>
+
+    <div class="card">
+      <h2 class="section" style="font-size:16px">파이프라인 보드</h2>
+      <div class="mk-genbar">
+        <button class="cta" onclick="bulkApprove()">검수 완료 일괄 승인</button>
+        <span class="status" id="mkKanbanCnt"></span>
+      </div>
+      <div class="mk-kanban" id="mkKanban" style="margin-top:8px"></div>
+    </div>
+
+    <div class="mk-cols" style="margin-top:14px">
+      <div class="card">
+        <h2 class="section" style="font-size:16px">콘텐츠 캘린더</h2>
+        <div class="mk-genbar" style="margin-bottom:6px">
+          <button class="btn-ghost" onclick="calShift(-1)">◀ 이전 달</button>
+          <b id="mkCalTitle" class="mono" style="font-size:14px"></b>
+          <button class="btn-ghost" onclick="calShift(1)">다음 달 ▶</button>
+        </div>
+        <div class="pcal" id="mkCal"></div>
+        <div class="status" style="margin-top:8px">■ <span style="color:#F26F1F;font-weight:700">주황</span> 예약 · ■ <span style="color:var(--ok);font-weight:700">초록</span> 발행 완료 — 날짜를 클릭하면 승인된 콘텐츠를 그 날로 예약합니다</div>
+      </div>
+
+      <div class="card">
+        <h2 class="section" style="font-size:16px">채널 발행 카드 <span class="status" id="mkPubSel"></span></h2>
+        <p class="section-sub" style="margin-bottom:10px">승인/예약된 콘텐츠를 선택하면 채널별 발행 버튼이 나타납니다.</p>
+        <select id="mkPubTopic" onchange="renderPubCards()" style="width:100%;border:1px solid var(--line);border-radius:8px;padding:10px 12px;background:var(--paper);margin-bottom:10px"></select>
+        <div id="mkPubCards" class="alist" style="margin-top:0"></div>
+      </div>
+    </div>
+
+    <div class="card" style="margin-top:14px">
+      <h2 class="section" style="font-size:16px">발행 로그</h2>
+      <div class="mk-tablewrap">
+        <table class="mk-table" id="mkPubLog"></table>
+      </div>
+    </div>
+  </div>
+
+  <!-- ============ ④ 댓글 관리 ============ -->
+  <div class="apanel" id="mkpanel-cmt">
+    <div class="hintbox">각 채널에 달린 댓글을 이곳에 모아 처리합니다. 붙여넣으면 <b>유형(문의·긍정·불만·스팸)</b>을 자동 분류하고 <b>답변 초안</b>을 만들어 드립니다. 검토 후 [승인·복사]를 누르면 답변이 복사되고 해당 채널이 열립니다 — 붙여넣고 등록만 하면 끝.</div>
+
+    <div class="mk-cols">
+      <div class="card form">
+        <h2 class="section" style="font-size:16px">댓글 가져오기</h2>
+        <div class="frow">
+          <div><label>채널</label><select id="cm-ch"></select></div>
+          <div><label>관련 콘텐츠 (선택)</label><select id="cm-topic"></select></div>
+        </div>
+        <div><label>댓글 붙여넣기 <span class="status">한 줄에 하나씩, 또는 "작성자: 내용" 형식</span></label>
+          <textarea id="cm-paste" placeholder="사장님 저는 카페 하는데 이 지원금 대상인가요?&#10;홍길동: 좋은 정보 감사합니다!&#10;링크 참고하세요 http://spam.example.com"></textarea></div>
+        <button class="fsave" onclick="addComments()">가져오기 + AI 분류·초안 생성</button>
+      </div>
+      <div class="card">
+        <h2 class="section" style="font-size:16px">댓글 현황</h2>
+        <div id="mkCmtStats" style="margin-top:8px"></div>
+        <div class="wm-note" style="margin-top:12px">유튜브·인스타·X API를 연동하면 자동 수집도 가능합니다(설정 → 채널 연결). 연동 전에는 붙여넣기 방식이 가장 빠릅니다.</div>
+      </div>
+    </div>
+
+    <div class="card" style="margin-top:14px">
+      <h2 class="section" style="font-size:16px">답변 대기함 <span class="noti-badge" id="mkCmtBadge" style="display:none">0</span></h2>
+      <div class="chips" id="mkCmtFilter" style="margin:8px 0 12px">
+        <button class="on" data-f="wait" onclick="cmtFilter('wait')">처리 대기</button>
+        <button data-f="sent" onclick="cmtFilter('sent')">발송 완료</button>
+        <button data-f="all" onclick="cmtFilter('all')">전체</button>
+      </div>
+      <div id="mkCmtList"><div class="empty">댓글이 없습니다</div></div>
+    </div>
+  </div>
+
+  <!-- ============ ⑤ 성과 분석 ============ -->
+  <div class="apanel" id="mkpanel-stat">
+    <div class="mk-kpis" id="mkStatKpis"></div>
+
+    <div class="mk-cols">
+      <div class="card">
+        <h2 class="section" style="font-size:16px">채널별 성과</h2>
+        <div class="chips" style="margin:8px 0 12px" id="mkStatRange">
+          <button data-r="7" onclick="statRange(7)">7일</button>
+          <button class="on" data-r="30" onclick="statRange(30)">30일</button>
+          <button data-r="90" onclick="statRange(90)">90일</button>
+          <button data-r="0" onclick="statRange(0)">전체</button>
+        </div>
+        <div id="mkStatChan"></div>
+      </div>
+      <div class="card">
+        <h2 class="section" style="font-size:16px">자동화 절감 리포트</h2>
+        <p class="section-sub" style="margin-bottom:10px">수작업 대비 절감된 시간과 외주 비용 환산액입니다. 단가는 설정에서 조정하세요.</p>
+        <div id="mkStatSave"></div>
+      </div>
+    </div>
+
+    <div class="card" style="margin-top:14px">
+      <h2 class="section" style="font-size:16px">발행 기록·성과 입력 <span class="status">조회수·클릭수를 입력하면 위 집계에 반영됩니다</span></h2>
+      <div class="mk-genbar"><button class="btn-ghost" onclick="exportCSV()">CSV 내보내기</button></div>
+      <div class="mk-tablewrap">
+        <table class="mk-table" id="mkStatTable"></table>
+      </div>
+    </div>
+  </div>
+
+  <!-- ============ 설정 ============ -->
+  <div class="apanel" id="mkpanel-set">
+    <div class="mk-cols">
+      <div class="card form">
+        <h2 class="section" style="font-size:16px">브랜드 보이스</h2>
+        <div class="frow">
+          <div><label>톤</label>
+            <select id="st-tone"><option>친절한 전문가</option><option>신뢰감 있는 컨설턴트</option><option>편안한 이웃 사장님</option><option>간결한 뉴스 앵커</option></select></div>
+          <div><label>타깃 독자</label><input id="st-target" placeholder="중소기업 대표·소상공인" /></div>
+        </div>
+        <div><label>인사말 (본문 서두)</label><input id="st-intro" /></div>
+        <div><label>마무리 문구 (CTA)</label><textarea id="st-outro" style="min-height:60px" placeholder="비워두면 기본 CTA(워크멘토 안내)가 들어갑니다"></textarea></div>
+        <div><label>금칙어 (쉼표 구분) <span class="status">검수에서 자동 탐지</span></label><input id="st-banned" placeholder="100% 보장, 무조건, 최저가" /></div>
+        <div><label>고정 해시태그 (쉼표 구분)</label><input id="st-tags" /></div>
+        <button class="fsave" onclick="saveVoice()">브랜드 보이스 저장</button>
+      </div>
+
+      <div class="card form">
+        <h2 class="section" style="font-size:16px">채널 연결</h2>
+        <p class="section-sub" style="margin-bottom:4px">각 채널의 글쓰기(또는 채널 관리) 주소를 넣으면 [채널 열기] 버튼이 바로 그 화면을 엽니다.</p>
+        <div id="mkChanSet"></div>
+        <button class="fsave" onclick="saveChans()">채널 설정 저장</button>
+      </div>
+    </div>
+
+    <div class="mk-cols" style="margin-top:14px">
+      <div class="card form">
+        <h2 class="section" style="font-size:16px">절감 효과 단가</h2>
+        <div class="frow">
+          <div><label>본문 1건 수작업 시간(분)</label><input type="number" id="st-writeMin" /></div>
+          <div><label>채널 변환 1건 수작업(분)</label><input type="number" id="st-convMin" /></div>
+        </div>
+        <div class="frow">
+          <div><label>댓글 1건 처리(분)</label><input type="number" id="st-cmtMin" /></div>
+          <div><label>인건비 환산(원/시간)</label><input type="number" id="st-hourCost" /></div>
+        </div>
+        <div><label>콘텐츠 1건 외주 단가(원)</label><input type="number" id="st-outPost" /></div>
+        <button class="fsave" onclick="saveCosts()">단가 저장</button>
+      </div>
+
+      <div class="card">
+        <h2 class="section" style="font-size:16px">데이터·연동</h2>
+        <div class="mk-genbar" style="margin-top:8px">
+          <button class="btn-ghost" onclick="exportJSON()">전체 데이터 내보내기(JSON)</button>
+          <label class="btn-ghost" style="cursor:pointer">가져오기(JSON)<input type="file" accept="application/json" style="display:none" onchange="importJSON(this)"></label>
+        </div>
+        <div style="margin-top:14px">
+          <b style="font-size:14px;color:var(--navy)">클라우드 동기화 (Supabase)</b>
+          <div class="status" id="mkSupaStatus" style="margin:4px 0 8px">확인 중…</div>
+          <button class="btn-ghost" onclick="showSqlGuide()">테이블 설치 SQL 보기</button>
+        </div>
+        <div style="margin-top:14px">
+          <b style="font-size:14px;color:var(--navy)">자동 발행 파이프라인</b>
+          <div class="status" style="margin:4px 0 8px">발행 예정일이 지정된 승인 콘텐츠는 매시간 GitHub Actions가 확인해 홈페이지(<span class="mono">/posts/</span>)에 자동 게시합니다. X·스레드·네이버는 저장소 시크릿에 API 키를 넣으면 자동 발행됩니다.</div>
+          <button class="btn-ghost" onclick="showPipeGuide()">연동 방법 보기</button>
+        </div>
+        <div style="margin-top:14px">
+          <b style="font-size:14px;color:var(--navy)">Worker AI (선택)</b>
+          <div class="status" style="margin:4px 0 8px">Cloudflare Worker에 AI 프록시(<span class="mono">?api=ai</span>)를 추가하면 [본문 생성]이 완전 자동이 됩니다.</div>
+          <button class="btn-ghost" onclick="showWorkerGuide()">Worker 코드 보기</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</div><!-- /mkApp -->
+</div><!-- /wrap -->
+
+<!-- 공용 모달 -->
+<div class="modal-bg" id="mkModalBg" onclick="if(event.target===this)closeModal()">
+  <div class="modal">
+    <h3 id="mkModalTitle"></h3>
+    <div class="m-sub" id="mkModalSub"></div>
+    <div class="m-body" id="mkModalBody"></div>
+    <div class="btns">
+      <button class="btn-ghost" onclick="closeModal()">닫기</button>
+      <button class="cta orange" id="mkModalCopy" style="display:none" onclick="copyModalPre()">내용 복사</button>
+    </div>
+  </div>
+</div>
+
+<div id="mkToast"></div>
+
+<footer style="max-width:1240px;margin:0 auto;padding:0 20px 40px;font-size:12px;color:#7A8398">
+  워크멘토 마케팅 허브 — 관리자 전용. 데이터는 Supabase(관리자 RLS)와 이 브라우저에 저장됩니다.
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+<script>
+/* ==========================================================
+   워크멘토 마케팅 허브 — 앱 스크립트
+   구조: 코어(상태·동기화·인증) → 주제 → 생성 엔진 → 채널 변환
+         → 검수 → 스튜디오 → 발행 → 댓글 → 성과 → 설정 → 부팅
+   ========================================================== */
+
+/* 클릭재킹 방지: 프레임 안에 갇혀 있으면 최상위로 탈출 (본 사이트와 동일 정책) */
+(function () {
+  try { if (window.top !== window.self) window.top.location.replace(location.href); }
+  catch (_) { document.documentElement.style.display = "none"; }
+})();
+
+/* ---------- 상수 (본 사이트 index.html과 동일 백엔드) ---------- */
+const SUPABASE_URL = "https://aggndijeezodnfrnqpwp.supabase.co";
+const SUPABASE_ANON_KEY = "sb_publishable_gAJZTg5K7lS39m-4nkcQpw_GRaHWqk4";
+const WORKER = "https://workmentor.dbsghddls123.workers.dev";
+const SITE = "https://www.workmentor.co.kr";
+const LS_KEY = "workmentor-mkt";
+const useCloud = !!(SUPABASE_URL && SUPABASE_ANON_KEY) && typeof supabase !== "undefined";
+const sb = useCloud ? supabase.createClient(SUPABASE_URL, SUPABASE_ANON_KEY) : null;
+
+const CHANNELS = [
+  { k: "home",    n: "홈페이지",      icon: "🏠", write: SITE + "/" },
+  { k: "naver",   n: "네이버 블로그", icon: "🟩", write: "https://blog.naver.com" },
+  { k: "youtube", n: "유튜브",        icon: "▶",  write: "https://studio.youtube.com" },
+  { k: "insta",   n: "인스타그램",    icon: "📷", write: "https://www.instagram.com" },
+  { k: "x",       n: "X(트위터)",     icon: "𝕏",  write: "https://x.com/compose/post" },
+  { k: "threads", n: "스레드",        icon: "＠", write: "https://www.threads.net" },
+];
+/* 변환 결과물: 채널 6 + 형식 분화(유튜브 장편/쇼츠) */
+const VARIANTS = [
+  { k: "home",     n: "홈페이지 소식",   ch: "home" },
+  { k: "naver",    n: "네이버 블로그",   ch: "naver" },
+  { k: "yt_long",  n: "유튜브 장편 대본", ch: "youtube" },
+  { k: "yt_short", n: "쇼츠·릴스",       ch: "youtube" },
+  { k: "insta",    n: "인스타 캡션",     ch: "insta" },
+  { k: "x",        n: "X 스레드",        ch: "x" },
+  { k: "threads",  n: "스레드 포스트",   ch: "threads" },
+];
+const STATUS_FLOW = ["idea", "draft", "review", "approved", "scheduled", "published"];
+const STATUS_KO = { idea: "기획", draft: "초안", review: "검수", approved: "승인", scheduled: "예약", published: "발행 완료", rejected: "반려" };
+const GROUP_KO = { tax: "세무·회계", labor: "노무·인사", law: "법률·규제", fund: "정책자금·지원금", biz: "창업·경영", money: "금융·대출", guide: "실무 가이드" };
+
+/* ---------- 헬퍼 ---------- */
+const $ = id => document.getElementById(id);
+const esc = s => String(s ?? "").replace(/[&<>"']/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
+const uid = () => Date.now().toString(36) + Math.random().toString(36).slice(2, 7);
+const fmtDT = ts => { const d = new Date(ts); return d.getFullYear() + "-" + String(d.getMonth() + 1).padStart(2, "0") + "-" + String(d.getDate()).padStart(2, "0") + " " + String(d.getHours()).padStart(2, "0") + ":" + String(d.getMinutes()).padStart(2, "0"); };
+const fmtD = ts => String(fmtDT(ts)).slice(0, 10);
+const todayYmd = () => fmtD(Date.now());
+const fmtWon = n => (n >= 10000 ? (n / 10000).toFixed(n % 10000 === 0 ? 0 : 1) + "만원" : Math.round(n).toLocaleString() + "원");
+const fmtMin = m => (m >= 60 ? Math.floor(m / 60) + "시간 " + (m % 60 ? m % 60 + "분" : "") : m + "분").trim();
+const weekOfMonth = d => { const dt = d ? new Date(d) : new Date(); return (dt.getMonth() + 1) + "월 " + (Math.floor((dt.getDate() - 1) / 7) + 1) + "주차"; };
+
+let toastTimer = null;
+function toast(msg) {
+  const t = $("mkToast"); t.textContent = msg; t.classList.add("on");
+  clearTimeout(toastTimer); toastTimer = setTimeout(() => t.classList.remove("on"), 2600);
+}
+async function copyText(text, okMsg) {
+  try { await navigator.clipboard.writeText(text); toast(okMsg || "복사되었습니다"); }
+  catch (_) {
+    const ta = document.createElement("textarea"); ta.value = text; document.body.appendChild(ta);
+    ta.select(); try { document.execCommand("copy"); toast(okMsg || "복사되었습니다"); } catch (e) { toast("복사 실패 — 수동으로 선택해 주세요"); }
+    ta.remove();
+  }
+}
+function openModal(title, sub, bodyHtml, copyText0) {
+  $("mkModalTitle").textContent = title;
+  $("mkModalSub").textContent = sub || "";
+  $("mkModalBody").innerHTML = bodyHtml;
+  const cp = $("mkModalCopy");
+  if (copyText0 !== undefined) { cp.style.display = ""; cp.dataset.txt = copyText0; } else { cp.style.display = "none"; }
+  $("mkModalBg").classList.add("on");
+}
+function closeModal() { $("mkModalBg").classList.remove("on"); }
+function copyModalPre() { copyText($("mkModalCopy").dataset.txt || ""); }
+
+/* ---------- 상태 ---------- */
+function defaultState() {
+  return {
+    v: 1, savedAt: 0,
+    topics: [], contents: {}, log: [], comments: [], activity: [], recur: [],
+    settings: {
+      voice: {
+        tone: "친절한 전문가", target: "중소기업 대표·소상공인",
+        intro: "안녕하세요, 기업 경영의 멘토 '워크멘토'입니다.",
+        outro: "", sign: "워크멘토 드림", banned: [],
+      },
+      channels: {
+        home: { on: true, url: SITE + "/" },
+        naver: { on: true, url: "" }, youtube: { on: true, url: "" },
+        insta: { on: true, url: "" }, x: { on: true, url: "" }, threads: { on: true, url: "" },
+      },
+      ai: { mode: "builtin" },
+      costs: { writeMin: 120, convMin: 20, cmtMin: 5, hourCost: 30000, outPost: 80000 },
+      tags: ["워크멘토", "정부지원사업", "중소기업", "소상공인"],
+    },
+  };
+}
+let S = defaultState();
+function mergeState(base, saved) {
+  /* 저장본을 기본 골격 위에 얹어 새 필드가 생겨도 깨지지 않게 */
+  if (!saved || typeof saved !== "object") return base;
+  const out = { ...base, ...saved };
+  out.settings = { ...base.settings, ...(saved.settings || {}) };
+  out.settings.voice = { ...base.settings.voice, ...((saved.settings || {}).voice || {}) };
+  out.settings.channels = { ...base.settings.channels, ...((saved.settings || {}).channels || {}) };
+  out.settings.ai = { ...base.settings.ai, ...((saved.settings || {}).ai || {}) };
+  out.settings.costs = { ...base.settings.costs, ...((saved.settings || {}).costs || {}) };
+  ["topics", "log", "comments", "activity", "recur"].forEach(k => { if (!Array.isArray(out[k])) out[k] = []; });
+  if (!out.contents || typeof out.contents !== "object") out.contents = {};
+  return out;
+}
+function loadLocal() {
+  try { const raw = localStorage.getItem(LS_KEY); if (raw) S = mergeState(defaultState(), JSON.parse(raw)); } catch (_) {}
+}
+function act(tx) {
+  S.activity.unshift({ at: Date.now(), tx });
+  if (S.activity.length > 200) S.activity.length = 200;
+}
+
+/* ---------- 저장·클라우드 동기화 ----------
+   저장 순서: localStorage 즉시 → Supabase(mkt_state 테이블, id='main') 2초 디바운스.
+   푸시 직전에 클라우드 최신본을 읽어 자동 발행 봇의 기록(발행 로그·완료 상태)을
+   병합한 뒤 올린다 — 열린 탭이 봇의 진행 상황을 덮어쓰지 않게.
+   테이블이 없으면(42P01) 로컬 전용 모드로 동작하고 설정 탭에서 SQL 안내. */
+let supaTimer = null, supaTableOk = null, AUTHED = false;
+function setSync(cls, tx) { const el = $("mkSync"); el.className = "syncdot " + cls; $("mkSyncTx").textContent = tx; }
+function saveS(pushCloud = true) {
+  try { localStorage.setItem(LS_KEY, JSON.stringify(S)); } catch (e) { toast("브라우저 저장 공간이 가득 찼습니다"); }
+  if (pushCloud) {
+    S.savedAt = Date.now();   /* 클라우드 비교 기준은 실제 푸시할 때만 갱신 */
+    if (AUTHED && supaTableOk) {
+      clearTimeout(supaTimer);
+      setSync("local", "저장 대기");
+      supaTimer = setTimeout(supaPush, 2000);
+    }
+  }
+  renderHero();
+}
+/* 자동 발행 봇이 만드는 변경(발행 로그·활동·발행 완료 상태)을 로컬 상태에 흡수 */
+function absorbCloud(cloud) {
+  if (!cloud) return false;
+  let touched = false;
+  (cloud.log || []).forEach(cl => {
+    if (!S.log.some(l => (l.tid === cl.tid && l.ch === cl.ch) || l.id === cl.id)) { S.log.unshift(cl); touched = true; }
+  });
+  (cloud.activity || []).forEach(ca => {
+    if (!S.activity.some(a => a.at === ca.at && a.tx === ca.tx)) { S.activity.push(ca); touched = true; }
+  });
+  if (touched) S.activity.sort((a, b) => b.at - a.at);
+  if (S.activity.length > 200) S.activity.length = 200;
+  (cloud.topics || []).forEach(ct => {
+    const lt = S.topics.find(t => t.id === ct.id);
+    if (lt && ct.status === "published" && lt.status !== "published") { lt.status = "published"; touched = true; }
+  });
+  return touched;
+}
+async function supaPush() {
+  if (!sb || !AUTHED || !supaTableOk) return;
+  try {
+    /* 푸시 직전 병합 — 봇·다른 탭의 발행 기록을 잃지 않는다 */
+    const { data } = await sb.from("mkt_state").select("value").eq("id", "main").maybeSingle();
+    if (data && data.value) absorbCloud(data.value);
+    const { error } = await sb.from("mkt_state").upsert({ id: "main", value: S, updated_at: new Date().toISOString() });
+    if (error) throw error;
+    try { localStorage.setItem(LS_KEY, JSON.stringify(S)); } catch (_) {}
+    setSync("ok", "클라우드 동기화됨");
+  } catch (e) { setSync("err", "동기화 실패(로컬 저장됨)"); }
+}
+async function supaPull() {
+  if (!sb || !AUTHED) return;
+  try {
+    const { data, error } = await sb.from("mkt_state").select("value, updated_at").eq("id", "main").maybeSingle();
+    if (error) {
+      const noTable = error.code === "42P01" || error.code === "PGRST205" || /find the table|schema cache/i.test(error.message || "");
+      if (noTable) {
+        /* 테이블 없음 — SQL 실행 전까지 로컬 전용 모드 */
+        supaTableOk = false;
+        setSync("local", "로컬 저장 모드");
+        $("mkSupaStatus").innerHTML = '⚠ <b>mkt_state</b> 테이블이 아직 없습니다 — 아래 SQL을 Supabase에서 한 번 실행하면 클라우드 동기화·자동 발행이 켜집니다.';
+      } else {
+        /* 일시 오류(네트워크·토큰 등) — 로컬 모드로 굳히지 말고 재시도 */
+        setSync("err", "클라우드 연결 실패 — 잠시 후 재시도");
+        setTimeout(supaPull, 15000);
+      }
+      return;
+    }
+    supaTableOk = true;
+    $("mkSupaStatus").innerHTML = "✅ 연결됨 — 이 기기와 클라우드가 자동 동기화됩니다.";
+    if (data && data.value) {
+      const cloud = data.value;
+      if ((cloud.savedAt || 0) > (S.savedAt || 0)) {
+        S = mergeState(defaultState(), cloud);
+        saveS(false);
+        toast("클라우드의 최신 데이터를 불러왔습니다");
+      } else if ((S.savedAt || 0) > (cloud.savedAt || 0)) { supaPush(); }
+      else { if (absorbCloud(cloud)) { saveS(false); renderAll(); } }
+    } else { supaPush(); }
+    setSync("ok", "클라우드 동기화됨");
+  } catch (e) { setSync("err", "클라우드 연결 실패 — 잠시 후 재시도"); setTimeout(supaPull, 15000); }
+}
+/* 주기 재동기화: 봇의 발행 결과를 화면에 반영 (5분 + 탭 복귀 시) */
+async function supaTick() {
+  if (!sb || !AUTHED || !supaTableOk || document.hidden) return;
+  try {
+    const { data } = await sb.from("mkt_state").select("value").eq("id", "main").maybeSingle();
+    if (data && data.value && absorbCloud(data.value)) { saveS(false); renderAll(); toast("자동 발행 결과를 반영했습니다"); }
+  } catch (_) {}
+}
+setInterval(supaTick, 5 * 60e3);
+document.addEventListener("visibilitychange", () => { if (!document.hidden) supaTick(); });
+
+/* ---------- 인증 게이트 ----------
+   본 사이트와 동일: check_admin RPC가 true인 관리자, 또는
+   sub_admin + perms에 'mkt'가 있는 부관리자만 입장. */
+async function gateCheck() {
+  if (!sb) { $("mkGateMsg").textContent = "Supabase 설정이 없어 사용할 수 없습니다."; return false; }
+  const { data: { session } } = await sb.auth.getSession();
+  if (!session) return false;
+  try {
+    const { data: isAdm } = await sb.rpc("check_admin");
+    if (isAdm === true) return true;
+  } catch (_) {}
+  try {
+    const { data: prof } = await sb.from("members").select("sub_admin, approved, perms").eq("id", session.user.id).maybeSingle();
+    if (prof && prof.sub_admin && prof.approved !== false && String(prof.perms || "").split(",").includes("mkt")) return true;
+  } catch (_) {}
+  return false;
+}
+async function mkLogin() {
+  const email = $("mkEmail").value.trim(), pw = $("mkPw").value;
+  if (!email || !pw) { $("mkGateMsg").textContent = "이메일과 비밀번호를 입력하세요."; return; }
+  $("mkGateMsg").textContent = "확인 중…";
+  const { error } = await sb.auth.signInWithPassword({ email, password: pw });
+  if (error) { $("mkGateMsg").textContent = "로그인 실패: " + error.message; return; }
+  if (await gateCheck()) enterApp();
+  else {
+    /* 본 사이트와 세션을 공유하므로 여기서 signOut하면 사이트 전체가 로그아웃된다 — 안내만 */
+    $("mkGateMsg").textContent = "이 계정에는 마케팅 허브 권한이 없습니다. (관리자 또는 '마케팅 허브' 권한 부관리자만 입장 가능)";
+  }
+}
+async function mkLogout() { try { await sb.auth.signOut({ scope: "local" }); } catch (_) {} location.reload(); }
+async function enterApp() {
+  AUTHED = true;
+  $("mkGate").style.display = "none";
+  $("mkApp").style.display = "block";
+  $("mkLogoutBtn").style.display = "";
+  await supaPull();
+  runRecurCheck();
+  renderAll();
+  loadSources();
+}
+
+/* ---------- 라우팅(탭) ---------- */
+function mtab(t) {
+  document.querySelectorAll("#mkTabs button").forEach(b => b.classList.toggle("on", b.dataset.tab === t));
+  document.querySelectorAll(".apanel").forEach(p => p.classList.remove("on"));
+  const p = $("mkpanel-" + t); if (p) p.classList.add("on");
+  /* 탭별 렌더 갱신 */
+  if (t === "dash") renderDash();
+  if (t === "topic") renderTopics();
+  if (t === "studio") renderStudio();
+  if (t === "pub") { renderKanban(); renderCal(); renderPubSelect(); renderPubLog(); }
+  if (t === "cmt") renderComments();
+  if (t === "stat") renderStats();
+  if (t === "set") renderSettings();
+}
+
+/* ---------- 전체 렌더 ---------- */
+function renderAll() {
+  const fns = [renderHero, renderDash, renderTopics, renderStudio, renderKanban, renderCal, renderPubSelect, renderPubLog, renderComments, renderStats, renderSettings];
+  fns.forEach(f => { try { f(); } catch (e) { console.error(f.name, e); } });
+}
+
+/* ---------- 헤더·현황판 ---------- */
+function monthLog() { const m = todayYmd().slice(0, 7); return S.log.filter(l => fmtD(l.at).startsWith(m)); }
+function calcSavings(logArr, cmtCnt) {
+  const c = S.settings.costs;
+  const nPosts = new Set(logArr.map(l => l.tid + "|" + fmtD(l.at))).size;   /* 본문 단위 */
+  const nPub = logArr.length;                                              /* 채널 발행 단위 */
+  const min = nPosts * c.writeMin + nPub * c.convMin + (cmtCnt || 0) * c.cmtMin;
+  const won = min / 60 * c.hourCost + nPosts * c.outPost;
+  return { min, won, nPosts, nPub };
+}
+function renderHero() {
+  $("mkHeroToday").textContent = todayYmd() + " (" + "일월화수목금토"[new Date().getDay()] + ")";
+  const ml = monthLog();
+  $("mkHeroMonth").textContent = ml.length;
+  const sv = calcSavings(ml, S.comments.filter(c => c.status === "sent" && fmtD(c.at).startsWith(todayYmd().slice(0, 7))).length);
+  $("mkHeroSave").textContent = fmtWon(sv.won);
+}
+function renderDash() {
+  const t = S.topics;
+  const waitApprove = t.filter(x => x.status === "review").length;
+  const scheduled = t.filter(x => x.status === "scheduled").length;
+  const cmtWait = S.comments.filter(c => c.status !== "sent").length;
+  const pub30 = S.log.filter(l => Date.now() - l.at < 30 * 864e5);
+  const kpis = [
+    { k: "전체 주제", v: t.length, tab: "topic" },
+    { k: "승인 대기", v: waitApprove, tab: "pub", warn: waitApprove > 0 },
+    { k: "발행 예약", v: scheduled, tab: "pub" },
+    { k: "최근 30일 발행", v: pub30.length, tab: "stat", good: pub30.length > 0 },
+    { k: "댓글 대기", v: cmtWait, tab: "cmt", warn: cmtWait > 0 },
+  ];
+  $("mkKpis").innerHTML = kpis.map(x =>
+    '<div class="mk-kpi ' + (x.warn ? "warn" : x.good ? "good" : "") + '" onclick="mtab(\'' + x.tab + '\')"><div class="k">' + esc(x.k) + '</div><div class="v">' + x.v + "<small>건</small></div></div>").join("");
+
+  /* 파이프라인 흐름 바 */
+  $("mkFlowBar").innerHTML = STATUS_FLOW.map((s, i) => {
+    const n = t.filter(x => x.status === s).length;
+    return '<span class="st' + (n ? " hit" : "") + '">' + STATUS_KO[s] + " " + n + "</span>" + (i < STATUS_FLOW.length - 1 ? '<span class="ar">▸</span>' : "");
+  }).join("");
+
+  /* 진행 중 카드 목록 (발행 완료 제외 상위 6) */
+  const active = t.filter(x => x.status !== "published" && x.status !== "rejected").slice(0, 6);
+  $("mkDashPipe").innerHTML = active.length
+    ? active.map(x => '<div class="aitem"><span class="badge ' + stBadge(x.status) + '">' + STATUS_KO[x.status] + '</span><span class="grow">' + esc(x.title) + '</span><button class="edit" onclick="goStudio(\'' + x.id + '\')">작업</button></div>').join("")
+    : '<div class="empty">진행 중인 콘텐츠가 없습니다 — ① 주제 기획에서 시작하세요</div>';
+
+  /* 채널별 발행 바 */
+  const byCh = {}; CHANNELS.forEach(c => byCh[c.k] = 0);
+  pub30.forEach(l => { if (byCh[l.ch] !== undefined) byCh[l.ch]++; });
+  const maxV = Math.max(1, ...Object.values(byCh));
+  $("mkDashChan").innerHTML = CHANNELS.map(c =>
+    '<div class="insrow"><span class="inslabel">' + c.icon + " " + esc(c.n) + '</span><span class="insbar"><span style="width:' + Math.round(byCh[c.k] / maxV * 100) + '%"></span></span><span class="insval">' + byCh[c.k] + "건</span></div>").join("");
+
+  /* 절감 */
+  const sv = calcSavings(pub30, S.comments.filter(c => c.status === "sent" && Date.now() - c.at < 30 * 864e5).length);
+  $("mkDashSave").innerHTML =
+    '<div class="insrow"><span class="inslabel">절감 시간</span><span class="grow mono" style="font-weight:600;font-size:17px;color:var(--navy)">' + fmtMin(sv.min) + '</span></div>' +
+    '<div class="insrow"><span class="inslabel">절감 비용</span><span class="grow mono" style="font-weight:600;font-size:17px;color:var(--ok)">' + fmtWon(sv.won) + '</span></div>' +
+    '<div class="status">최근 30일 · 본문 ' + sv.nPosts + "건 + 채널 발행 " + sv.nPub + "건 기준 (단가는 설정에서 조정)</div>";
+
+  /* 활동 */
+  $("mkDashAct").innerHTML = S.activity.length
+    ? S.activity.slice(0, 10).map(a => '<div class="mk-act"><span class="tm">' + fmtDT(a.at).slice(5) + "</span><span>" + esc(a.tx) + "</span></div>").join("")
+    : '<div class="empty">아직 활동이 없습니다</div>';
+
+  renderDashIdeas();
+}
+function stBadge(s) { return { idea: "free", draft: "hr", review: "hot", approved: "paid", scheduled: "fund", published: "paid", rejected: "free" }[s] || "free"; }
+function goStudio(tid) { CUR_TOPIC = tid; mtab("studio"); }
+</script>
+<script>
+/* ==========================================================
+   ① 주제 기획 — 직접 등록 / AI 기획 대화 / 자동 수집 / 예약 등록
+   ========================================================== */
+let TOPIC_FILTER = "all", CUR_TOPIC = null;
+
+function chipPicker(elId, selected) {
+  /* 채널 선택 칩 (다중 선택) */
+  const el = $(elId);
+  el.innerHTML = CHANNELS.map(c =>
+    '<button type="button" data-ch="' + c.k + '" class="' + (selected.includes(c.k) ? "on" : "") + '" onclick="this.classList.toggle(\'on\')">' + c.icon + " " + esc(c.n) + "</button>").join("");
+}
+function chipValues(elId) {
+  return [...document.querySelectorAll("#" + elId + " button.on")].map(b => b.dataset.ch);
+}
+
+function topicMode(m) {
+  document.querySelectorAll("#mkTopicModes button").forEach(b => b.classList.toggle("on", b.dataset.m === m));
+  $("mkTopicManual").style.display = m === "manual" ? "" : "none";
+  $("mkTopicChat").style.display = m === "chat" ? "" : "none";
+  $("mkTopicAuto").style.display = m === "auto" ? "" : "none";
+  $("mkTopicRecur").style.display = m === "recur" ? "" : "none";
+  if (m === "chat" && !CHAT.steps.length) planChatReset();
+  if (m === "auto") renderHarvest();
+  if (m === "recur") renderRecur();
+}
+
+/* ---------- 직접 등록 ---------- */
+function saveTopic() {
+  const title = $("tp-title").value.trim();
+  if (!title) { toast("주제 제목을 입력하세요"); return; }
+  const id = $("tp-id").value || uid();
+  const exist = S.topics.find(t => t.id === id);
+  const data = {
+    id, title,
+    kw: $("tp-kw").value.split(",").map(s => s.trim()).filter(Boolean),
+    channels: chipValues("tp-chs"),
+    due: $("tp-due").value || "",
+    memo: $("tp-memo").value.trim(),
+    src: exist ? exist.src : "manual",
+    status: exist ? exist.status : "idea",
+    at: exist ? exist.at : Date.now(),
+  };
+  if (exist) Object.assign(exist, data);
+  else { S.topics.unshift(data); act("주제 등록: " + title); }
+  saveS(); clearTopicForm(); renderTopics(); renderDash();
+  toast(exist ? "주제가 수정되었습니다" : "주제가 등록되었습니다");
+}
+function clearTopicForm() {
+  $("tp-id").value = ""; $("tp-title").value = ""; $("tp-kw").value = ""; $("tp-due").value = ""; $("tp-memo").value = "";
+  chipPicker("tp-chs", CHANNELS.map(c => c.k));
+}
+function editTopic(id) {
+  const t = S.topics.find(x => x.id === id); if (!t) return;
+  topicMode("manual");
+  $("tp-id").value = t.id; $("tp-title").value = t.title; $("tp-kw").value = (t.kw || []).join(", ");
+  $("tp-due").value = t.due || ""; $("tp-memo").value = t.memo || "";
+  chipPicker("tp-chs", t.channels || []);
+  window.scrollTo({ top: 0, behavior: "smooth" });
+}
+function delTopic(id) {
+  const t = S.topics.find(x => x.id === id); if (!t) return;
+  if (!confirm('주제 "' + t.title + '"와 생성된 콘텐츠를 삭제할까요?')) return;
+  S.topics = S.topics.filter(x => x.id !== id);
+  delete S.contents[id];
+  if (CUR_TOPIC === id) CUR_TOPIC = null;
+  act("주제 삭제: " + t.title);
+  saveS(); renderTopics(); renderDash();
+}
+function topicFilter(f) {
+  TOPIC_FILTER = f;
+  document.querySelectorAll("#mkTopicFilter button").forEach(b => b.classList.toggle("on", b.dataset.f === f));
+  renderTopics();
+}
+function renderTopics() {
+  if (!$("tp-chs").innerHTML) chipPicker("tp-chs", CHANNELS.map(c => c.k));
+  if (!$("rc-chs").innerHTML) chipPicker("rc-chs", CHANNELS.map(c => c.k));
+  const list = S.topics.filter(t => TOPIC_FILTER === "all" || t.status === TOPIC_FILTER);
+  $("mkTopicCnt").textContent = "총 " + S.topics.length + "건";
+  $("mkTopicList").innerHTML = list.length ? list.map(t => {
+    const srcKo = { manual: "직접", chat: "AI 대화", auto: "자동 수집", recur: "예약" }[t.src] || t.src;
+    return '<div class="aitem">' +
+      '<span class="badge ' + stBadge(t.status) + '">' + STATUS_KO[t.status] + "</span>" +
+      '<span class="grow"><b>' + esc(t.title) + "</b>" +
+      '<span class="status" style="display:block">' + srcKo + " · " + fmtD(t.at) + (t.due ? " · 발행 예정 " + esc(t.due) : "") +
+      ((t.channels || []).length ? " · " + t.channels.map(k => (CHANNELS.find(c => c.k === k) || {}).icon || "").join("") : "") + "</span></span>" +
+      '<button class="edit" onclick="goStudio(\'' + t.id + '\')">스튜디오</button>' +
+      '<button class="edit" onclick="editTopic(\'' + t.id + '\')">수정</button>' +
+      '<button class="del" onclick="delTopic(\'' + t.id + '\')">삭제</button></div>';
+  }).join("") : '<div class="empty">해당 상태의 주제가 없습니다</div>';
+  renderRecur();
+}
+
+/* ---------- AI 기획 대화 ----------
+   질문 흐름으로 목적·타깃·소재를 좁히고, 수집 데이터와 결합해 주제 3~5개를 제안한다. */
+const CHAT = { steps: [], answers: {} };
+const CHAT_FLOW = [
+  { q: "안녕하세요! 콘텐츠 기획을 도와드릴게요.\n이번 콘텐츠의 목적은 무엇인가요?", key: "goal", sug: ["신규 회원 유치", "지원사업 정보 알리기", "워크멘토 서비스 소개", "브랜드 신뢰 쌓기"] },
+  { q: "주로 어떤 분들이 읽었으면 하나요?", key: "who", sug: ["소상공인·자영업 사장님", "중소기업 대표", "예비 창업자", "인사·총무 담당자"] },
+  { q: "다루고 싶은 소재 분야를 골라주세요.", key: "field", sug: ["정책자금·지원금", "세무·회계", "노무·인사", "창업·경영 노하우"] },
+];
+function planChatReset() {
+  CHAT.steps = []; CHAT.answers = {};
+  $("mkChatLog").innerHTML = "";
+  planChatBot(CHAT_FLOW[0].q, CHAT_FLOW[0].sug);
+  CHAT.steps.push(0);
+}
+function planChatBot(text, sug) {
+  const div = document.createElement("div");
+  div.className = "mk-msg bot";
+  div.innerHTML = esc(text) + (sug && sug.length ? '<span class="sug">' + sug.map(s => '<button onclick="planChatPick(this.textContent)">' + esc(s) + "</button>").join("") + "</span>" : "");
+  $("mkChatLog").appendChild(div);
+  $("mkChatLog").scrollTop = 1e6;
+}
+function planChatMe(text) {
+  const div = document.createElement("div");
+  div.className = "mk-msg me"; div.textContent = text;
+  $("mkChatLog").appendChild(div);
+  $("mkChatLog").scrollTop = 1e6;
+}
+function planChatPick(text) { $("mkChatIn").value = text; planChatSend(); }
+function planChatSend() {
+  const v = $("mkChatIn").value.trim(); if (!v) return;
+  $("mkChatIn").value = "";
+  planChatMe(v);
+  const stepIdx = CHAT.steps.length - 1;
+  const flow = CHAT_FLOW[stepIdx];
+  if (flow) CHAT.answers[flow.key] = v;
+  if (stepIdx + 1 < CHAT_FLOW.length) {
+    const next = CHAT_FLOW[stepIdx + 1];
+    setTimeout(() => planChatBot(next.q, next.sug), 250);
+    CHAT.steps.push(stepIdx + 1);
+  } else {
+    setTimeout(planChatPropose, 300);
+  }
+}
+function planChatPropose() {
+  const a = CHAT.answers;
+  const fieldMap = { "정책자금": "fund", "지원금": "fund", "세무": "tax", "회계": "tax", "노무": "labor", "인사": "labor", "창업": "biz", "경영": "biz", "금융": "money", "대출": "money" };
+  let g = "fund";
+  Object.keys(fieldMap).some(k => { if ((a.field || "").includes(k)) { g = fieldMap[k]; return true; } return false; });
+  const newsTitles = (SOURCES.feeds && SOURCES.feeds.groups && SOURCES.feeds.groups[g] || []).slice(0, 3).map(i => i.title);
+  const base = [
+    (a.who || "사장님") + "이 꼭 알아야 할 " + (a.field || "지원사업") + " 핵심 정리 (" + weekOfMonth() + ")",
+    "놓치면 손해! 이번 주 " + (a.field || "지원사업") + " 주요 소식 TOP 5",
+    (a.field || "지원사업") + " 초보 가이드 — " + (a.who || "대표님") + "을 위한 첫걸음",
+  ];
+  const fromNews = newsTitles.map(t => "[해설] " + t);
+  const all = [...base, ...fromNews].slice(0, 5);
+  planChatBot("목적(" + (a.goal || "-") + ")과 최신 수집 뉴스를 반영해 주제를 제안합니다.\n마음에 드는 주제를 클릭하면 바로 등록됩니다.", all.map(t => "📌 " + t));
+  /* 제안 클릭을 등록으로 연결 */
+  const btns = $("mkChatLog").lastChild.querySelectorAll(".sug button");
+  btns.forEach(b => {
+    b.onclick = () => {
+      const title = b.textContent.replace(/^📌 /, "");
+      addTopicFrom(title, (a.field || "").split(/[·,\s]+/).filter(Boolean), "chat");
+      planChatBot('"' + title + '" 주제로 등록했습니다! ② 콘텐츠 스튜디오에서 본문을 생성하세요.\n다른 주제도 클릭해 추가할 수 있습니다.');
+    };
+  });
+}
+
+/* ---------- 자동 수집 ----------
+   사이트가 이미 만들어 두는 데이터(15분마다 갱신)를 재활용한다:
+   - ../gov-feeds.json  : 7개 분야 정책 뉴스
+   - ../news/naver-draft.txt : 오늘의 네이버 블로그 초안(제목 후보+본문)
+   - ../briefings/index.json : 아침·시장 브리핑 목록 */
+const SOURCES = { feeds: null, naverDraft: "", briefings: [], at: 0 };
+let HARV_GROUP = "fund";
+async function loadSources(force) {
+  if (!force && SOURCES.at && Date.now() - SOURCES.at < 5 * 60e3) { renderHarvest(); renderDashIdeas(); return; }
+  $("mkHarvStatus").textContent = "수집 중…";
+  const bust = "?v=" + Math.floor(Date.now() / 3e5);
+  const [feeds, draft, briefs] = await Promise.all([
+    fetch("../gov-feeds.json" + bust).then(r => r.ok ? r.json() : null).catch(() => null),
+    fetch("../news/naver-draft.txt" + bust).then(r => r.ok ? r.text() : "").catch(() => ""),
+    fetch("../briefings/index.json" + bust).then(r => r.ok ? r.json() : []).catch(() => []),
+  ]);
+  SOURCES.feeds = feeds; SOURCES.naverDraft = draft; SOURCES.briefings = Array.isArray(briefs) ? briefs : [];
+  SOURCES.at = Date.now();
+  $("mkHarvStatus").textContent = feeds ? "갱신: " + String(feeds.updatedAt || "").slice(0, 16).replace("T", " ") : "gov-feeds.json을 불러오지 못했습니다";
+  renderHarvest(); renderDashIdeas();
+}
+function harvestScore(item) {
+  /* 주제성 점수: 지원금·마감·모집 등 실행 키워드 가중 + 최신성 */
+  const hot = ["지원금", "지원사업", "정책자금", "모집", "마감", "신청", "공고", "혜택", "환급", "세액공제", "대출", "보조금"];
+  let sc = 0;
+  hot.forEach(k => { if ((item.title || "").includes(k)) sc += 18; });
+  const age = (Date.now() - new Date(item.date || Date.now()).getTime()) / 36e5;
+  sc += Math.max(0, 30 - age);   /* 30시간 이내 최신성 가점 */
+  return Math.round(sc);
+}
+function harvGroup(g) { HARV_GROUP = g; renderHarvest(); }
+function renderHarvest() {
+  const groups = SOURCES.feeds && SOURCES.feeds.groups || {};
+  $("mkHarvGroups").innerHTML = Object.keys(GROUP_KO).map(g =>
+    '<button class="' + (g === HARV_GROUP ? "on" : "") + '" onclick="harvGroup(\'' + g + '\')">' + GROUP_KO[g] + (groups[g] ? " " + groups[g].length : "") + "</button>").join("");
+  const items = (groups[HARV_GROUP] || []).map(i => ({ ...i, sc: harvestScore(i) })).sort((a, b) => b.sc - a.sc).slice(0, 12);
+  $("mkHarvList").innerHTML = items.length ? items.map(i =>
+    '<div class="mk-harv"><span class="sc">' + i.sc + '점</span><span class="grow">' + esc(i.title) +
+    '<span class="src" style="display:block">' + esc(i.source || "") + " · " + esc(String(i.date || "").slice(5, 22)) + "</span></span>" +
+    '<button class="edit" style="border:none;border-radius:6px;padding:6px 12px;font-size:12.5px;font-weight:700;background:var(--blue-soft);color:var(--blue)" onclick="harvAdd(this)" data-title="' + esc(i.title) + '" data-url="' + esc(i.url || "") + '">주제로 등록</button></div>').join("")
+    : '<div class="empty">이 분야의 수집 항목이 없습니다</div>';
+}
+function harvAdd(btn) {
+  const title = btn.dataset.title;
+  addTopicFrom("[해설] " + title, [GROUP_KO[HARV_GROUP]], "auto", "출처 기사: " + btn.dataset.url);
+  btn.textContent = "등록됨 ✓"; btn.disabled = true;
+}
+function addTopicFrom(title, kw, src, memo) {
+  if (S.topics.some(t => t.title === title)) { toast("이미 같은 제목의 주제가 있습니다"); return; }
+  S.topics.unshift({ id: uid(), title, kw: kw || [], channels: CHANNELS.map(c => c.k), due: "", memo: memo || "", src, status: "idea", at: Date.now() });
+  act("주제 등록(" + ({ chat: "AI 대화", auto: "자동 수집", recur: "예약" }[src] || src) + "): " + title);
+  saveS(); renderTopics(); renderDash();
+  toast("주제로 등록되었습니다");
+}
+function renderDashIdeas() {
+  const groups = SOURCES.feeds && SOURCES.feeds.groups || {};
+  const all = [];
+  Object.keys(groups).forEach(g => (groups[g] || []).slice(0, 6).forEach(i => all.push({ ...i, g, sc: harvestScore(i) })));
+  const top = all.sort((a, b) => b.sc - a.sc).slice(0, 5);
+  $("mkDashIdeas").innerHTML = top.length ? top.map(i =>
+    '<div class="mk-harv" style="margin-bottom:6px"><span class="sc">' + i.sc + '점</span><span class="grow">' + esc(i.title) +
+    '<span class="src" style="display:block">' + (GROUP_KO[i.g] || i.g) + " · " + esc(i.source || "") + "</span></span>" +
+    '<button style="border:none;border-radius:6px;padding:6px 12px;font-size:12.5px;font-weight:700;background:var(--blue-soft);color:var(--blue)" onclick="harvAddDash(this)" data-title="' + esc(i.title) + '" data-url="' + esc(i.url || "") + '" data-g="' + i.g + '">등록</button></div>').join("")
+    : '<div class="empty">수집된 데이터가 없습니다 (gov-feeds.json 확인)</div>';
+}
+function harvAddDash(btn) {
+  addTopicFrom("[해설] " + btn.dataset.title, [GROUP_KO[btn.dataset.g] || ""], "auto", "출처 기사: " + btn.dataset.url);
+  btn.textContent = "✓"; btn.disabled = true;
+}
+
+/* ---------- 예약(반복) 주제 ---------- */
+function saveRecur() {
+  const title = $("rc-title").value.trim();
+  if (!title) { toast("주제 템플릿을 입력하세요"); return; }
+  S.recur.push({ id: uid(), dow: Number($("rc-dow").value), title, kw: $("rc-kw").value.split(",").map(s => s.trim()).filter(Boolean), channels: chipValues("rc-chs") });
+  $("rc-title").value = ""; $("rc-kw").value = "";
+  act("반복 주제 등록: " + title);
+  saveS(); renderRecur();
+  runRecurCheck();
+  toast("반복 주제가 저장되었습니다 — 해당 요일에 자동 생성됩니다");
+}
+function delRecur(id) { S.recur = S.recur.filter(r => r.id !== id); saveS(); renderRecur(); }
+function renderRecur() {
+  const DOW = ["일", "월", "화", "수", "목", "금", "토"];
+  $("mkRecurList").innerHTML = S.recur.length ? S.recur.map(r =>
+    '<div class="aitem"><span class="badge fund">매주 ' + DOW[r.dow] + '</span><span class="grow">' + esc(r.title) + "</span>" +
+    '<button class="del" onclick="delRecur(\'' + r.id + '\')">삭제</button></div>').join("") : "";
+}
+function runRecurCheck() {
+  /* 오늘 요일에 해당하는 반복 주제가 아직 없으면 생성 */
+  const today = new Date(), dow = today.getDay(), ymd = todayYmd();
+  let created = false;
+  S.recur.filter(r => r.dow === dow).forEach(r => {
+    if (r.lastYmd === ymd) return;   /* 오늘 이미 생성함 */
+    let title = r.title.replace("{날짜}", ymd).replace("{주차}", weekOfMonth());
+    /* 치환자 없는 템플릿은 주차를 붙여 매주 새 주제가 되게 */
+    if (!/\{날짜\}|\{주차\}/.test(r.title)) title += " (" + weekOfMonth() + ")";
+    if (S.topics.some(t => t.title === title)) { r.lastYmd = ymd; return; }
+    S.topics.unshift({ id: uid(), title, kw: r.kw || [], channels: r.channels && r.channels.length ? r.channels : CHANNELS.map(c => c.k), due: ymd, memo: "반복 주제 자동 생성", src: "recur", status: "idea", at: Date.now() });
+    r.lastYmd = ymd;
+    act("반복 주제 자동 생성: " + title);
+    created = true;
+  });
+  if (created) saveS();   /* 새 주제는 클라우드에도 반영 */
+}
+</script>
+<script>
+/* ==========================================================
+   ② 생성 엔진 — 본문 생성 3모드 + 6채널 맞춤 변환
+   ========================================================== */
+function content(tid) {
+  if (!S.contents[tid]) S.contents[tid] = { title: "", body: "", genMode: "", at: 0, variants: {}, imgs: [], review: null };
+  return S.contents[tid];
+}
+function topicOf(tid) { return S.topics.find(t => t.id === tid); }
+
+/* ---------- 소재 다이제스트: 주제 키워드와 겹치는 수집 뉴스 추림 ---------- */
+function gatherDigest(topic) {
+  const groups = SOURCES.feeds && SOURCES.feeds.groups || {};
+  const kws = [...(topic.kw || []), ...topic.title.split(/[\s\[\]—·,:]+/)].filter(w => w.length >= 2);
+  const picked = [], seen = new Set();
+  Object.keys(groups).forEach(g => (groups[g] || []).forEach(i => {
+    if (seen.has(i.title)) return;
+    const hit = kws.some(k => (i.title || "").includes(k));
+    if (hit || picked.length < 3) { picked.push({ ...i, g, hit }); seen.add(i.title); }
+  }));
+  picked.sort((a, b) => (b.hit - a.hit) || (harvestScore(b) - harvestScore(a)));
+  return picked.slice(0, 8);
+}
+
+/* ---------- 내장 엔진: 데이터 조립식 본문 ----------
+   외부 AI 없이 즉시 동작. 수집 뉴스 + 구조 템플릿 + 브랜드 보이스로
+   장문 초안을 만들고, 6,000자 목표 대비 실제 분량을 정직하게 표기한다. */
+function composeBuiltin(topic) {
+  const v = S.settings.voice;
+  const digest = gatherDigest(topic);
+  const kw = (topic.kw && topic.kw[0]) || "정부 지원사업";
+  const title = topic.title.replace(/^\[해설\]\s*/, "");
+  const L = [];
+  L.push(v.intro);
+  L.push("");
+  L.push("오늘은 「" + title + "」을(를) 주제로, " + (v.target || "사장님들") + "께서 꼭 알아두셔야 할 내용을 정리했습니다. 바쁘신 분들은 소제목만 훑어보셔도 핵심을 파악하실 수 있도록 구성했습니다.");
+  L.push("");
+  L.push("## 목차");
+  L.push("1. 왜 지금 " + kw + "에 주목해야 할까요?");
+  L.push("2. 이번 주 핵심 소식 정리");
+  L.push("3. 실무 체크포인트");
+  L.push("4. 자주 묻는 질문 (FAQ)");
+  L.push("5. 워크멘토가 도와드리는 방법");
+  L.push("");
+  L.push("## 1. 왜 지금 " + kw + "에 주목해야 할까요?");
+  L.push("");
+  L.push("정부 지원사업과 정책 정보는 '아는 만큼' 받을 수 있습니다. 같은 조건의 기업이라도 공고를 먼저 확인하고 서류를 준비한 곳과 그렇지 않은 곳의 결과는 크게 달라집니다. 특히 " + (v.target || "중소기업·소상공인") + "의 경우, 신청 기간이 짧고 예산 소진 시 조기 마감되는 사업이 많아 정보의 '속도'가 곧 경쟁력입니다.");
+  L.push("");
+  L.push(topic.memo && !topic.memo.startsWith("출처 기사:") ? "이번 글의 방향: " + topic.memo : "워크멘토는 15분마다 정부 부처·주요 언론의 소식을 자동 수집해 아래와 같이 정리하고 있습니다.");
+  L.push("");
+  L.push("## 2. 이번 주 핵심 소식 정리");
+  L.push("");
+  if (digest.length) {
+    digest.forEach((d, i) => {
+      L.push("### " + (i + 1) + ") " + d.title);
+      L.push("");
+      L.push("- 분야: " + (GROUP_KO[d.g] || d.g) + (d.source ? " · 출처: " + d.source : ""));
+      L.push("- 무엇이 중요한가: " + pickAngle(d.title, kw));
+      L.push("- 원문 보기: " + (d.url || ""));
+      L.push("");
+    });
+  } else {
+    L.push("(자동 수집 데이터를 불러오지 못했습니다 — 새로고침 후 다시 생성하거나, 직접 소식을 추가해 주세요.)");
+    L.push("");
+  }
+  L.push("## 3. 실무 체크포인트");
+  L.push("");
+  L.push("- **신청 자격 확인**: 공고문 '신청 자격' 항목의 업종 코드·매출 구간·업력 조건을 먼저 확인하세요. 자격 미달 신청은 서류 준비 시간만 잃습니다.");
+  L.push("- **필수 서류 준비**: 사업자등록증명, (필요시) 재무제표, 4대보험 가입자 명부는 미리 최신본으로 준비해 두면 대부분의 사업에 재사용됩니다.");
+  L.push("- **마감일보다 3일 먼저**: 접수 마지막 날은 시스템 폭주로 실패 사례가 많습니다. 마감 3일 전 제출을 권합니다.");
+  L.push("- **중복 수혜 규정**: 동일 목적의 정부 지원을 이미 받고 있다면 중복 지원 제한 여부를 반드시 확인하세요.");
+  L.push("");
+  L.push("## 4. 자주 묻는 질문 (FAQ)");
+  L.push("");
+  L.push("**Q1. 처음이라 뭐부터 봐야 할지 모르겠어요.**");
+  L.push("A. 우리 회사 조건(업종·지역·업력)을 먼저 정리한 뒤, 그 조건으로 신청 가능한 공고만 걸러 보는 것이 가장 빠릅니다. 워크멘토 홈페이지의 지원사업 메뉴에서 지역·분야별로 실시간 공고를 확인할 수 있습니다.");
+  L.push("");
+  L.push("**Q2. 신청서 작성이 너무 어렵습니다.**");
+  L.push("A. 핵심은 '사업 목적과 우리 회사의 계획이 맞닿아 있음'을 보여주는 것입니다. 공고문의 지원 목적 문단을 그대로 뼈대 삼아, 우리 회사의 숫자(매출·고용 계획)를 채워 넣는 방식이 통과율이 높습니다.");
+  L.push("");
+  L.push("**Q3. 전문가 도움을 받고 싶은데 비용이 걱정됩니다.**");
+  L.push("A. 워크멘토 소통방에서 1차 상담은 부담 없이 시작할 수 있습니다. 기업 상황에 맞는 사업을 함께 골라 드립니다.");
+  L.push("");
+  L.push("## 5. 워크멘토가 도와드리는 방법");
+  L.push("");
+  L.push("워크멘토(" + SITE + ")는 " + (v.target || "중소기업") + "을 위해 다음을 한곳에 모았습니다.");
+  L.push("");
+  L.push("- **실시간 지원사업 공고**: 정부 공고를 실시간 연동해 마감일 순으로 보여드립니다.");
+  L.push("- **아침 브리핑·시장 브리핑**: 매일 아침 정책·시장 소식을 PDF로 정리해 드립니다.");
+  L.push("- **기업 네트워킹·요청공고**: 인력·기술이 필요한 기업과 전문가를 연결합니다.");
+  L.push("- **1:1 소통방**: 지원사업 준비 과정을 전담 멘토가 함께합니다.");
+  L.push("");
+  L.push(v.outro || ("오늘 글이 도움이 되셨다면, 워크멘토 홈페이지에서 더 많은 실시간 정보를 확인해 보세요. 회원가입 후 관심 키워드를 등록하시면 맞춤 소식을 이메일로 보내드립니다.\n\n" + SITE));
+  L.push("");
+  L.push(v.sign || "워크멘토 드림");
+  const body = L.join("\n");
+  return { title, body };
+}
+function pickAngle(title, kw) {
+  if (/(마감|신청|모집|접수)/.test(title)) return "신청 기한이 걸린 소식입니다. 자격이 된다면 서류 준비를 바로 시작하는 것이 좋습니다.";
+  if (/(세무|세금|국세|세액)/.test(title)) return "세무 리스크·절세와 직결되는 변화입니다. 담당 세무사와 공유해 두세요.";
+  if (/(노무|고용|임금|근로)/.test(title)) return "인사·노무 운영에 영향을 주는 내용입니다. 취업규칙·근로계약 점검 포인트로 삼으세요.";
+  if (/(대출|금리|금융|보증)/.test(title)) return "자금 조달 조건이 달라질 수 있는 소식입니다. 기존 대출 갈아타기 여부도 함께 검토해 보세요.";
+  return kw + " 관련 최신 흐름을 보여주는 소식으로, 우리 회사에 적용될 수 있는지 확인해 볼 만합니다.";
+}
+
+/* ---------- AI 프롬프트 모드 ----------
+   시장 브리핑의 'ChatGPT 결과 붙여넣기'와 같은 워크플로. */
+function buildMasterPrompt(topic) {
+  const v = S.settings.voice;
+  const digest = gatherDigest(topic);
+  return [
+    "당신은 대한민국 중소기업·소상공인 대상 콘텐츠 마케팅 전문 작가입니다.",
+    "",
+    "## 작성 과제",
+    "아래 주제로 블로그 장문 원고를 작성하세요.",
+    "- 주제: " + topic.title,
+    "- 핵심 키워드: " + (topic.kw || []).join(", "),
+    (topic.memo ? "- 기획 메모: " + topic.memo : ""),
+    "",
+    "## 필수 조건",
+    "- 분량: 공백 포함 6,000자 이상",
+    "- 톤: " + v.tone + " / 독자: " + (v.target || "중소기업 대표·소상공인"),
+    "- 구조: 서론(공감 유도) → 소제목(##) 4~6개 → FAQ 3개 → 마무리 CTA",
+    "- 첫 줄에 제목만 단독으로 출력, 그다음 줄부터 본문",
+    "- 서두 인사말: \"" + v.intro + "\"",
+    "- 마무리에 워크멘토(" + SITE + ") 소개와 방문 유도 포함",
+    "- 과장·확정적 표현 금지" + (v.banned && v.banned.length ? " (금칙어: " + v.banned.join(", ") + ")" : ""),
+    "- 사실 확인이 필요한 수치는 '공고문 기준 확인 필요'로 표기",
+    "",
+    "## 참고할 최신 소식 (사실관계의 근거로 활용)",
+    digest.length ? digest.map((d, i) => (i + 1) + ". " + d.title + " (" + (d.source || "") + ") " + (d.url || "")).join("\n") : "(참고 자료 없음 — 일반 지식으로 작성하되 확정적 수치는 피하세요)",
+  ].filter(Boolean).join("\n");
+}
+function parsePaste(raw) {
+  const text = raw.trim();
+  if (!text) return null;
+  /* JSON 형식 지원: {title, body} 또는 {title, body, variants:{...}} */
+  if (text.startsWith("{")) {
+    try { const j = JSON.parse(text); if (j.body) return { title: j.title || "", body: j.body, variants: j.variants || null }; } catch (_) {}
+  }
+  const lines = text.split("\n");
+  let title = (lines[0] || "").replace(/^#+\s*/, "").replace(/^제목\s*[:：]\s*/, "").trim();
+  let body = lines.slice(1).join("\n").trim();
+  if (title.length > 80) { title = ""; body = text; }   /* 첫 줄이 제목 같지 않으면 전체를 본문으로 */
+  return { title, body };
+}
+
+/* ---------- Worker AI 모드 ---------- */
+async function workerAI(task, payload) {
+  const { data: { session } } = await sb.auth.getSession();
+  const res = await fetch(WORKER + "/?api=ai", {
+    method: "POST",
+    headers: { "Content-Type": "application/json", "Authorization": "Bearer " + (session && session.access_token || "") },
+    body: JSON.stringify({ task, ...payload }),
+  });
+  if (!res.ok) throw new Error("Worker 응답 " + res.status + (res.status === 404 || res.status === 400 ? " — Worker에 ?api=ai 라우트가 아직 없습니다 (설정 → Worker 코드 보기)" : ""));
+  const j = await res.json();
+  if (!j || !j.text) throw new Error("Worker 응답에 text가 없습니다");
+  return j.text;
+}
+
+/* ==========================================================
+   채널 변환기 — 본문 하나로 6채널 콘텐츠 (결정적 변환, 즉시 동작)
+   ========================================================== */
+function sectionsOf(body) {
+  /* '## 소제목' 기준으로 섹션 분해 */
+  const out = []; let cur = { h: "", lines: [] };
+  body.split("\n").forEach(ln => {
+    const m = ln.match(/^#{2,3}\s+(.+)/);
+    if (m) { if (cur.h || cur.lines.length) out.push(cur); cur = { h: m[1].trim(), lines: [] }; }
+    else cur.lines.push(ln);
+  });
+  if (cur.h || cur.lines.length) out.push(cur);
+  return out;
+}
+function plainOf(body) { return body.replace(/^#+\s+/gm, "").replace(/\*\*/g, "").replace(/^- /gm, "· "); }
+function sentencesOf(text) { return plainOf(text).split(/(?<=[.!?다요\.])\s+/).map(s => s.trim()).filter(s => s.length > 8); }
+function keyPoints(body, n) {
+  /* 핵심 문장 추출: 숫자·키워드 가중 점수 */
+  const hot = ["지원", "신청", "마감", "혜택", "핵심", "확인", "주의", "가능", "무료", "만원", "%"];
+  return sentencesOf(body)
+    .map(s => ({ s, sc: (s.match(/\d/g) || []).length * 2 + hot.reduce((a, k) => a + (s.includes(k) ? 3 : 0), 0) + Math.min(s.length / 20, 4) }))
+    .sort((a, b) => b.sc - a.sc).slice(0, n).map(x => x.s);
+}
+function hashtagsOf(topic, n) {
+  const base = [...(topic.kw || []), ...S.settings.tags];
+  const uniq = [...new Set(base.map(t => t.replace(/\s+/g, "")))].filter(Boolean);
+  return uniq.slice(0, n).map(t => "#" + t);
+}
+const NAVER_SYN = [
+  ["정리했습니다", "모아봤습니다"], ["확인하세요", "체크해 보세요"], ["중요합니다", "핵심 포인트입니다"],
+  ["도움이 되셨다면", "유익하셨다면"], ["방법", "노하우"], ["필수", "꼭 필요한"], ["빠르게", "신속하게"],
+  ["준비", "대비"], ["시작", "첫걸음"], ["꼭", "반드시"], ["소식", "새 소식"], ["알아두셔야", "기억해 두셔야"],
+];
+const EMOJI_H = { "목차": "📋", "왜": "🤔", "핵심": "📌", "소식": "📰", "체크": "✅", "실무": "✅", "질문": "💬", "FAQ": "💬", "워크멘토": "🤝", "방법": "🤝" };
+
+function convHome(title, body) {
+  /* 홈페이지 소식: 마크다운 → 게시용 HTML (줄 단위 — 글머리표·문장 혼합 문단도 유실 없음) */
+  const secs = sectionsOf(body);
+  let html = "";
+  secs.forEach(s => {
+    if (s.h) html += "<h2>" + esc(s.h) + "</h2>\n";
+    let inUl = false, para = [];
+    const flushPara = () => { if (para.length) { html += "<p>" + esc(para.join(" ").replace(/\*\*/g, "")) + "</p>\n"; para = []; } };
+    const closeUl = () => { if (inUl) { html += "</ul>\n"; inUl = false; } };
+    s.lines.forEach(ln => {
+      if (ln.startsWith("- ")) { flushPara(); if (!inUl) { html += "<ul>"; inUl = true; } html += "<li>" + esc(ln.slice(2).replace(/\*\*/g, "")) + "</li>"; }
+      else if (!ln.trim()) { flushPara(); closeUl(); }
+      else { closeUl(); para.push(ln.trim()); }
+    });
+    flushPara(); closeUl();
+  });
+  return "<!-- 홈페이지 게시용 HTML -->\n<article>\n<h1>" + esc(title) + "</h1>\n" + html + "</article>";
+}
+function convNaver(title, body, topic) {
+  /* 네이버: 유사문서 방지용 재작성 라이트(치환+구조 변화) + 제목 후보 3 + 태그 */
+  let t = plainOf(body);
+  NAVER_SYN.forEach(([a, b]) => { t = t.split(a).join(b); });
+  const secs = sectionsOf(body);
+  const titled = secs.filter(s => s.h);
+  let out = "";
+  const d = new Date();
+  out += "[제목 후보 — 하나 골라 쓰세요]\n";
+  out += "1) " + (d.getMonth() + 1) + "/" + d.getDate() + " " + title + "\n";
+  out += "2) " + title + " — 사장님 필독 총정리\n";
+  out += "3) 놓치면 손해! " + title + " 핵심만 정리\n\n";
+  out += "[본문 — 아래부터 복사해서 붙여넣기]\n\n";
+  out += S.settings.voice.intro + "\n\n";
+  out += "오늘 포스팅에서는 '" + title + "'를 쉽고 빠르게 정리해 드립니다. 끝까지 보시면 실무에 바로 쓸 수 있는 체크리스트까지 챙기실 수 있어요. 😊\n\n";
+  titled.forEach(s => {
+    const emo = Object.keys(EMOJI_H).find(k => s.h.includes(k));
+    let sec = s.lines.join("\n").trim();
+    NAVER_SYN.forEach(([a, b]) => { sec = sec.split(a).join(b); });
+    out += (emo ? EMOJI_H[emo] : "✔️") + " " + s.h.replace(/^\d+[.)]\s*/, "") + "\n\n" + plainOf(sec) + "\n\n";
+  });
+  out += "오늘 내용이 유익하셨다면 이웃추가와 공감 부탁드려요! 더 많은 실시간 정보는 워크멘토(" + SITE + ")에서 확인하실 수 있습니다.\n\n";
+  out += hashtagsOf(topic, 10).join(" ");
+  return out;
+}
+function convYtLong(title, body) {
+  /* 유튜브 장편: 2인 대화체 대본 + 챕터 */
+  const secs = sectionsOf(body).filter(s => s.h && !/목차/.test(s.h));
+  let out = "🎬 유튜브 장편 대본 — 「" + title + "」\n";
+  out += "출연: 진행자(A) · 워크멘토 컨설턴트(B)\n\n";
+  out += "[인트로 — 후킹]\n";
+  out += "A: 사장님, 혹시 이런 얘기 들어보셨어요? " + (keyPoints(body, 1)[0] || title) + "\n";
+  out += "B: 네, 오늘 이 얘기를 모르고 지나가시면 정말 아까운 분들이 많습니다. 지금부터 하나씩 짚어드릴게요.\n";
+  out += "A: 좋습니다! 구독과 좋아요는 큰 힘이 됩니다. 바로 시작하죠.\n\n";
+  let ts = 0;
+  const chapters = ["00:00 인트로"];
+  secs.forEach((s, i) => {
+    ts += 90 + (i === 0 ? 30 : 0);
+    const mm = String(Math.floor(ts / 60)).padStart(2, "0") + ":" + String(ts % 60).padStart(2, "0");
+    chapters.push(mm + " " + s.h.replace(/^\d+[.)]\s*/, ""));
+    out += "[" + s.h.replace(/^\d+[.)]\s*/, "") + "]\n";
+    const sents = sentencesOf(s.lines.join("\n"));
+    sents.slice(0, 6).forEach((sen, j) => {
+      out += (j % 2 === 0 ? "B: " : "A: ") + (j % 2 === 1 ? toDialog(sen) : sen) + "\n";
+    });
+    out += "\n";
+  });
+  out += "[아웃트로]\n";
+  out += "A: 오늘 내용, 한 줄로 정리하면요?\n";
+  out += "B: '정보를 먼저 아는 사람이 지원금을 받는다' — 워크멘토 홈페이지에서 실시간 공고를 꼭 확인해 보세요.\n";
+  out += "A: 설명란에 링크 있습니다! 다음 영상에서 만나요.\n\n";
+  out += "[챕터(타임스탬프) — 설명란에 붙여넣기]\n" + chapters.join("\n") + "\n\n";
+  out += "[설명란]\n" + title + "\n워크멘토 — 인재·기술 개발과 정부지원사업을 하나로\n" + SITE;
+  return out;
+}
+function toDialog(sen) {
+  /* 문장을 질문·리액션 대화체로 */
+  if (sen.endsWith("다.")) return "아, 그러니까 " + sen.slice(0, -2) + "다는 거군요?";
+  return "그렇군요. " + sen;
+}
+function convYtShort(title, body) {
+  const pts = keyPoints(body, 3);
+  let out = "📱 쇼츠·릴스 대본 (30~45초) — 「" + title + "」\n\n";
+  out += "[장면 1 | 0~4초 | 후킹 — 얼굴 클로즈업/큰 자막]\n";
+  out += "자막: \"" + (title.length > 22 ? title.slice(0, 22) + "…" : title) + "\"\n";
+  out += "멘트: 사장님, 이거 모르면 손해예요!\n\n";
+  pts.forEach((p, i) => {
+    out += "[장면 " + (i + 2) + " | 포인트 " + (i + 1) + " — 자료 화면/자막 강조]\n";
+    out += "멘트: " + p + "\n";
+    out += "자막: ✔ " + (p.length > 28 ? p.slice(0, 28) + "…" : p) + "\n\n";
+  });
+  out += "[마지막 장면 | CTA]\n";
+  out += "멘트: 더 자세한 내용은 프로필 링크, 워크멘토에서 확인하세요!\n";
+  out += "자막: 🔗 워크멘토 검색\n\n";
+  out += "※ 자막 문구는 아래 '이미지·썸네일 문구 검수'에 넣어 오타 검사 후 촬영하세요.";
+  return out;
+}
+function convInsta(title, body, topic) {
+  const pts = keyPoints(body, 4);
+  let cap = "📢 " + title + "\n\n";
+  cap += (pts[0] || "") + "\n\n핵심만 짚어드릴게요 👇\n\n";
+  pts.slice(1).forEach((p, i) => { cap += "✔️ " + p + "\n"; });
+  cap += "\n더 자세한 정보와 실시간 공고는 프로필 링크에서!\n";
+  cap += "@workmentor · " + SITE.replace("https://", "") + "\n\n";
+  cap += ".\n.\n.\n" + hashtagsOf(topic, 30).join(" ");
+  if (cap.length > 2200) cap = cap.slice(0, 2150) + "…\n" + hashtagsOf(topic, 10).join(" ");
+  return cap;
+}
+/* X는 가중 280자 제한: 한글·CJK·이모지는 2로 계산 → 한글 트윗 실제 한도는 약 140자 */
+function xWeight(str) {
+  let w = 0;
+  for (const chr of String(str)) {
+    const cp = chr.codePointAt(0);
+    w += (cp <= 0x10FF || (cp >= 0x2000 && cp <= 0x206F)) ? 1 : 2;
+  }
+  return w;
+}
+function xClip(str, budget) {
+  if (xWeight(str) <= budget) return str;
+  let out = "";
+  for (const chr of String(str)) {
+    if (xWeight(out + chr) > budget - 2) break;
+    out += chr;
+  }
+  return out + "…";
+}
+function convX(title, body, topic, link) {
+  const pts = keyPoints(body, 4);
+  const posts = [];
+  const n = pts.length + 1;
+  /* 본문 예산 240(가중) — 번호 표기·여유 포함 280 이내 보장 */
+  posts.push(xClip("🧵 " + title + "\n\n" + (pts[0] || "핵심 정리 시작합니다."), 240) + "\n\n(1/" + n + ")");
+  pts.slice(1).forEach((p, i) => posts.push(xClip(p, 240) + "\n\n(" + (i + 2) + "/" + n + ")"));
+  posts.push(xClip("자세한 내용과 실시간 공고 👇\n" + (link || SITE) + "\n\n" + hashtagsOf(topic, 2).join(" "), 250) + "\n\n(" + n + "/" + n + ")");
+  return posts.map((p, i) => "── 트윗 " + (i + 1) + " " + "─".repeat(20) + "\n" + p).join("\n\n");
+}
+function convThreads(title, body, topic, link) {
+  const pts = keyPoints(body, 3);
+  let out = title + "\n\n";
+  pts.forEach(p => { out += "• " + p + "\n"; });
+  out += "\n자세한 건 워크멘토에서 👉 " + (link || SITE);
+  if (out.length > 490) out = out.slice(0, 470) + "…\n👉 " + (link || SITE);
+  return out;
+}
+const CONVERTERS = { home: convHome, naver: convNaver, yt_long: convYtLong, yt_short: convYtShort, insta: convInsta, x: convX, threads: convThreads };
+
+function buildVariantPrompt(vk, topic, body) {
+  const v = S.settings.voice;
+  const spec = {
+    home: "홈페이지 소식란용 정돈된 HTML 아티클(h2/p/ul 태그만 사용)",
+    naver: "네이버 블로그용 원고. 유사문서로 걸리지 않도록 본문과 다른 문장 구조·어휘로 완전히 재작성. 제목 후보 3개, 이모지 소제목, 해시태그 10개 포함. 6,000자 내외",
+    yt_long: "유튜브 10분 영상용 2인 대화체 대본(진행자 A, 전문가 B). 인트로 후킹, 챕터 타임스탬프, 설명란 텍스트 포함",
+    yt_short: "45초 쇼츠/릴스 대본. 장면별(후킹→포인트3→CTA) 멘트와 자막 문구",
+    insta: "인스타그램 캡션(2,200자 이내). 첫 줄 후킹, 줄바꿈 가독성, 해시태그 30개",
+    x: "X(트위터) 스레드. 트윗당 한글 기준 120자 이내로 분할(X는 한글을 2자로 계산해 실제 한도가 140자), 번호 표기, 마지막 트윗에 링크",
+    threads: "스레드(Threads) 포스트 500자 이내. 핵심 3줄 + 링크",
+  }[vk];
+  return "다음 원고를 " + spec + "(으)로 변환하세요.\n톤: " + v.tone + " / 독자: " + v.target + "\n결과만 출력하세요.\n\n--- 원고 ---\n" + body;
+}
+</script>
+<script>
+/* ==========================================================
+   자동 검수 — 글자수·금칙어·맞춤법·링크·중복도(유사문서 위험)
+   ========================================================== */
+const BANNED_DEFAULT = ["100% 보장", "무조건 승인", "확실히 받", "전액 무료 보장", "최저가 보장", "절대", "완벽 보장"];
+const SPELL_FIX = [
+  ["되요", "돼요"], ["됬", "됐"], ["안되요", "안 돼요"], ["할께요", "할게요"], ["할꺼", "할 거"],
+  ["몇일", "며칠"], ["왠만", "웬만"], ["금새", "금세"], ["어의없", "어이없"], ["역활", "역할"],
+  ["갯수", "개수"], ["희안", "희한"], ["문의사항은요", "문의 사항은요"], ["바램", "바람"], ["오랫만", "오랜만"],
+];
+function grams3(text) {
+  const t = text.replace(/\s+/g, ""), set = new Set();
+  for (let i = 0; i + 3 <= t.length; i++) set.add(t.slice(i, i + 3));
+  return set;
+}
+function jaccard3(a, b) {
+  const A = grams3(a), B = grams3(b);
+  if (!A.size || !B.size) return 0;
+  let inter = 0; A.forEach(g => { if (B.has(g)) inter++; });
+  return inter / (A.size + B.size - inter);
+}
+function runReview(tid) {
+  const c = content(tid), body = c.body || "", checks = [];
+  const push = (level, label, msg) => checks.push({ level, label, msg });
+
+  /* 1. 분량 */
+  const n = body.replace(/\s/g, "").length, nAll = body.length;
+  if (nAll >= 6000) push("ok", "분량", "공백 포함 " + nAll.toLocaleString() + "자 — 6,000자 목표 달성");
+  else if (nAll >= 2500) push("warn", "분량", "공백 포함 " + nAll.toLocaleString() + "자 — 목표(6,000자)보다 짧습니다. AI 모드로 보강하거나 그대로 진행하세요");
+  else push("bad", "분량", "공백 포함 " + nAll.toLocaleString() + "자 — 본문이 너무 짧습니다");
+
+  /* 2. 금칙어 (기본 + 사용자 지정) */
+  const banned = [...BANNED_DEFAULT, ...(S.settings.voice.banned || [])].filter(Boolean);
+  const hitBan = banned.filter(w => body.includes(w) || (c.title || "").includes(w));
+  if (hitBan.length) push("bad", "금칙어", "발견: " + hitBan.join(", ") + " — 과장·확정 표현은 광고 심의·신뢰도 문제가 됩니다");
+  else push("ok", "금칙어", "과장·확정 표현이 발견되지 않았습니다");
+
+  /* 3. 맞춤법(자주 틀리는 표현) */
+  const hitSp = SPELL_FIX.filter(([a]) => body.includes(a));
+  if (hitSp.length) push("warn", "맞춤법", hitSp.map(([a, b]) => "'" + a + "' → '" + b + "'").join(", "));
+  else push("ok", "맞춤법", "자주 틀리는 표현이 발견되지 않았습니다");
+
+  /* 4. 링크 형식 */
+  const urls = body.match(/https?:\/\/[^\s)"'<>]+/g) || [];
+  const badUrls = urls.filter(u => /[.,]$/.test(u));
+  if (badUrls.length) push("warn", "링크", "끝에 문장부호가 붙은 링크 " + badUrls.length + "개 — 클릭이 깨질 수 있습니다");
+  else push("ok", "링크", "링크 " + urls.length + "개 형식 정상");
+
+  /* 5. 중복도: 기존 발행 본문과의 3-gram 유사도 (네이버 유사문서 위험 신호) */
+  let maxSim = 0, simWith = "";
+  Object.keys(S.contents).forEach(otherId => {
+    if (otherId === tid) return;
+    const ot = topicOf(otherId);
+    if (!ot || (ot.status !== "published" && ot.status !== "scheduled" && ot.status !== "approved")) return;
+    const sim = jaccard3(body, S.contents[otherId].body || "");
+    if (sim > maxSim) { maxSim = sim; simWith = ot.title; }
+  });
+  const simPct = Math.round(maxSim * 100);
+  if (maxSim > 0.45) push("bad", "중복도", "기존 콘텐츠 「" + simWith + "」와 " + simPct + "% 유사 — 유사문서로 노출 제한될 수 있습니다. 재작성을 권합니다");
+  else if (maxSim > 0.25) push("warn", "중복도", "「" + simWith + "」와 " + simPct + "% 유사 — 네이버 발행 시 재작성 변환을 꼭 사용하세요");
+  else push("ok", "중복도", "기존 발행 콘텐츠와 중복 위험 낮음" + (simWith ? " (최대 " + simPct + "%)" : ""));
+
+  /* 6. 제목 */
+  const tl = (c.title || "").length;
+  if (!tl) push("bad", "제목", "제목이 비어 있습니다");
+  else if (tl > 40) push("warn", "제목", tl + "자 — 검색 결과에서 잘릴 수 있습니다 (32자 내외 권장)");
+  else push("ok", "제목", tl + "자 — 적정 길이");
+
+  /* 7. 이미지 문구 오타 */
+  const imgIssues = [];
+  (c.imgs || []).forEach(im => { SPELL_FIX.forEach(([a, b]) => { if ((im.caption || "").includes(a)) imgIssues.push("'" + a + "'→'" + b + "'"); }); banned.forEach(w => { if ((im.caption || "").includes(w)) imgIssues.push("금칙어 '" + w + "'"); }); });
+  if (imgIssues.length) push("bad", "이미지 문구", "썸네일·자막 문구에서 발견: " + imgIssues.join(", "));
+  else if ((c.imgs || []).length) push("ok", "이미지 문구", (c.imgs.length) + "개 문구 검사 통과");
+
+  c.review = { at: Date.now(), checks };
+  return checks;
+}
+function runReviewUI() {
+  if (!CUR_TOPIC) return;
+  const checks = runReview(CUR_TOPIC);
+  $("mkChecks").innerHTML = checks.map(ch =>
+    '<div class="mk-check ' + ch.level + '"><b>' + { ok: "✓", warn: "⚠", bad: "✕" }[ch.level] + " " + esc(ch.label) + "</b><span>" + esc(ch.msg) + "</span></div>").join("");
+  const t = topicOf(CUR_TOPIC);
+  /* 직접 작성한 본문(idea 상태)도 검수를 돌리면 검수 단계로 진행 */
+  if (t && (t.status === "draft" || t.status === "idea")) { t.status = "review"; renderStFlow(); }
+  saveS();
+  toast("검수 완료 — " + checks.filter(c => c.level === "bad").length + "개 필수 수정, " + checks.filter(c => c.level === "warn").length + "개 확인 필요");
+}
+
+/* ==========================================================
+   ② 콘텐츠 스튜디오 UI
+   ========================================================== */
+let CUR_VAR = "home";
+function renderStudio() {
+  const list = S.topics.filter(t => t.status !== "published" || t.id === CUR_TOPIC);
+  $("mkStudioTopics").innerHTML = list.length ? list.map(t =>
+    '<div class="aitem" style="cursor:pointer;' + (t.id === CUR_TOPIC ? "border-color:var(--brand);box-shadow:0 0 0 1px var(--brand)" : "") + '" onclick="pickTopic(\'' + t.id + '\')">' +
+    '<span class="badge ' + stBadge(t.status) + '">' + STATUS_KO[t.status] + '</span><span class="grow" style="font-size:13px">' + esc(t.title) + "</span></div>").join("")
+    : '<div class="empty">주제가 없습니다<br/>① 주제 기획에서 등록하세요</div>';
+  if (CUR_TOPIC && topicOf(CUR_TOPIC)) pickTopic(CUR_TOPIC, true);
+  else { $("mkStudioEmpty").style.display = ""; $("mkStudioWork").style.display = "none"; }
+}
+function pickTopic(tid, keep) {
+  CUR_TOPIC = tid;
+  const t = topicOf(tid); if (!t) return;
+  if (!keep) renderStudio();
+  $("mkStudioEmpty").style.display = "none";
+  $("mkStudioWork").style.display = "";
+  $("mkStTitle").textContent = t.title;
+  const c = content(tid);
+  $("mkStHead").value = c.title || "";
+  $("mkStBody").value = c.body || "";
+  $("mkGenMode").value = S.settings.ai.mode;
+  updateChars();
+  renderGenModeHint();
+  renderStFlow();
+  renderImgs();
+  renderVarTabs();
+  showVariant(CUR_VAR);
+  $("mkChecks").innerHTML = (c.review && c.review.checks || []).map(ch =>
+    '<div class="mk-check ' + ch.level + '"><b>' + { ok: "✓", warn: "⚠", bad: "✕" }[ch.level] + " " + esc(ch.label) + "</b><span>" + esc(ch.msg) + "</span></div>").join("");
+}
+function renderStFlow() {
+  const t = topicOf(CUR_TOPIC); if (!t) return;
+  $("mkStFlow").innerHTML = STATUS_FLOW.map((s, i) =>
+    '<span class="st' + (s === t.status ? " hit" : "") + '">' + STATUS_KO[s] + "</span>" + (i < STATUS_FLOW.length - 1 ? '<span class="ar">▸</span>' : "")).join("");
+}
+function renderGenModeHint() {
+  const m = $("mkGenMode").value;
+  $("mkPasteBox").style.display = m === "paste" ? "" : "none";
+  $("mkGenHint").textContent = {
+    builtin: "즉시 생성됩니다. 수집된 최신 뉴스 데이터를 조립한 초안이며, 생성 후 자유롭게 다듬으세요.",
+    paste: "ChatGPT·Claude 등 쓰시는 AI에 프롬프트를 붙여넣고 결과를 가져오는 방식입니다. 6,000자 이상 전문 원고에 가장 적합합니다.",
+    worker: "Cloudflare Worker의 AI 프록시를 자동 호출합니다. (설정 탭에서 Worker에 ?api=ai 라우트를 먼저 추가해야 합니다)",
+  }[m] || "";
+}
+function updateChars() {
+  const n = $("mkStBody").value.length;
+  $("mkChars").textContent = n.toLocaleString();
+  $("mkChars").style.color = n >= 6000 ? "var(--ok)" : n >= 2500 ? "var(--gold)" : "var(--danger)";
+}
+async function genBody() {
+  if (!CUR_TOPIC) return;
+  const t = topicOf(CUR_TOPIC), c = content(CUR_TOPIC);
+  const mode = $("mkGenMode").value;
+  if (c.body && c.body.length > 200 && !confirm("이미 본문이 있습니다. 새로 생성해 덮어쓸까요?")) return;
+  if (mode === "builtin") {
+    if (!SOURCES.at) await loadSources();
+    const r = composeBuiltin(t);
+    c.title = r.title; c.body = r.body; c.genMode = "builtin"; c.at = Date.now();
+    afterGen(t, c, "내장 엔진");
+  } else if (mode === "paste") {
+    copyMasterPrompt();
+  } else if (mode === "worker") {
+    const btn = $("mkGenBtn"); btn.disabled = true; btn.textContent = "생성 중…";
+    try {
+      const text = await workerAI("compose", { prompt: buildMasterPrompt(t) });
+      const r = parsePaste(text) || { title: t.title, body: text };
+      c.title = r.title || t.title; c.body = r.body; c.genMode = "worker"; c.at = Date.now();
+      afterGen(t, c, "Worker AI");
+    } catch (e) { toast(String(e.message || e)); }
+    btn.disabled = false; btn.textContent = "본문 생성";
+  }
+}
+function afterGen(t, c, how) {
+  $("mkStHead").value = c.title; $("mkStBody").value = c.body;
+  updateChars();
+  if (t.status === "idea") t.status = "draft";
+  act("본문 생성(" + how + "): " + t.title);
+  saveS(); renderStFlow();
+  toast(how + "로 본문을 생성했습니다 (" + c.body.length.toLocaleString() + "자)");
+}
+function copyMasterPrompt() {
+  if (!CUR_TOPIC) return;
+  copyText(buildMasterPrompt(topicOf(CUR_TOPIC)), "본문 프롬프트가 복사되었습니다 — AI에 붙여넣으세요");
+}
+function applyPaste() {
+  if (!CUR_TOPIC) return;
+  const r = parsePaste($("mkPasteIn").value);
+  if (!r) { toast("붙여넣은 내용이 없습니다"); return; }
+  const t = topicOf(CUR_TOPIC), c = content(CUR_TOPIC);
+  c.title = r.title || t.title; c.body = r.body; c.genMode = "paste"; c.at = Date.now();
+  if (r.variants) Object.keys(r.variants).forEach(k => { if (CONVERTERS[k]) c.variants[k] = { text: r.variants[k], at: Date.now(), edited: false }; });
+  $("mkPasteIn").value = "";
+  afterGen(t, c, "AI 붙여넣기");
+}
+function onBodyEdit() {
+  if (!CUR_TOPIC) return;
+  const c = content(CUR_TOPIC);
+  c.title = $("mkStHead").value.trim();
+  c.body = $("mkStBody").value;
+  /* 손으로 본문을 채워도 기획 → 초안으로 진행 */
+  const t = topicOf(CUR_TOPIC);
+  if (t && t.status === "idea" && c.body.length > 200) { t.status = "draft"; renderStFlow(); }
+  updateChars();
+  saveS();
+}
+
+/* ---------- 이미지·썸네일 ---------- */
+function genImgPrompts() {
+  if (!CUR_TOPIC) return;
+  const t = topicOf(CUR_TOPIC), c = content(CUR_TOPIC);
+  const kw = (t.kw && t.kw[0]) || "정부지원사업";
+  const base = t.title.replace(/^\[해설\]\s*/, "");
+  const mk = (usage, prompt, caption) => ({ id: uid(), usage, prompt, caption, at: Date.now() });
+  c.imgs = [
+    mk("블로그 대표 이미지", "한국의 소상공인 사장님이 밝은 사무실에서 서류를 검토하는 모습, 따뜻한 오렌지 톤, 사진 스타일, 텍스트 없음, 16:9", base),
+    mk("유튜브 썸네일", "놀란 표정의 한국인 사업가 상반신, 강한 대비의 스튜디오 조명, 배경에 " + kw + " 관련 아이콘, 텍스트 공간 좌측 확보, 16:9", "사장님 필독! " + (base.length > 14 ? base.slice(0, 14) + "…" : base)),
+    mk("인스타 카드", "미니멀한 카드뉴스 첫 장, 크림색 배경에 오렌지 포인트(#F97B33), 깔끔한 아이콘, 텍스트 없음, 1:1", base + " 핵심정리"),
+  ];
+  saveS(); renderImgs();
+  toast("이미지 프롬프트 3종을 생성했습니다 — 문구는 검수 후 사용하세요");
+}
+function addImgRow() {
+  if (!CUR_TOPIC) return;
+  content(CUR_TOPIC).imgs.push({ id: uid(), usage: "직접 추가", prompt: "", caption: "", at: Date.now() });
+  saveS(); renderImgs();
+}
+function renderImgs() {
+  const c = content(CUR_TOPIC);
+  $("mkImgList").innerHTML = (c.imgs || []).map(im =>
+    '<div class="card form" style="padding:12px 14px;margin-top:10px;background:var(--paper)">' +
+    '<div class="frow"><div><label>' + esc(im.usage) + ' — 생성 프롬프트</label>' +
+    '<textarea style="min-height:56px" onchange="updImg(\'' + im.id + '\',\'prompt\',this.value)">' + esc(im.prompt) + "</textarea></div>" +
+    '<div><label>이미지에 들어갈 문구 (오타 검수 대상)</label>' +
+    '<textarea style="min-height:56px" onchange="updImg(\'' + im.id + '\',\'caption\',this.value)">' + esc(im.caption) + "</textarea></div></div>" +
+    '<div class="mk-genbar" style="margin:0"><button class="btn-ghost" style="padding:6px 11px;font-size:12px" onclick="copyText(this.dataset.p)" data-p="' + esc(im.prompt) + '">프롬프트 복사</button>' +
+    '<button class="btn-ghost" style="padding:6px 11px;font-size:12px" onclick="delImg(\'' + im.id + '\')">삭제</button></div></div>').join("");
+}
+function updImg(id, k, v) { const im = (content(CUR_TOPIC).imgs || []).find(x => x.id === id); if (im) { im[k] = v; saveS(); } }
+function delImg(id) { const c = content(CUR_TOPIC); c.imgs = (c.imgs || []).filter(x => x.id !== id); saveS(); renderImgs(); }
+
+/* ---------- 채널 변환 UI ---------- */
+function renderVarTabs() {
+  const c = content(CUR_TOPIC);
+  $("mkVarTabs").innerHTML = VARIANTS.map(v => {
+    const has = c.variants[v.k] && c.variants[v.k].text;
+    return '<button class="' + (v.k === CUR_VAR ? "on" : "") + '" onclick="showVariant(\'' + v.k + '\')">' + esc(v.n) + (has ? ' <span class="len">' + c.variants[v.k].text.length + "</span>" : "") + "</button>";
+  }).join("");
+}
+function showVariant(vk) {
+  CUR_VAR = vk;
+  const c = content(CUR_TOPIC);
+  const t = c.variants[vk];
+  $("mkVarEdit").value = t ? t.text : "";
+  $("mkVarCount").innerHTML = t ? "<b>" + t.text.length.toLocaleString() + "</b>자" + (t.edited ? " · 수동 수정됨" : "") : "아직 변환 전";
+  renderVarTabs();
+}
+function makeVariants() {
+  if (!CUR_TOPIC) return;
+  const t = topicOf(CUR_TOPIC), c = content(CUR_TOPIC);
+  if (!c.body || c.body.length < 100) { toast("먼저 본문을 생성하세요"); return; }
+  const link = SITE + "/?utm_source={ch}&utm_medium=social&utm_campaign=" + CUR_TOPIC;
+  VARIANTS.forEach(v => {
+    const fn = CONVERTERS[v.k];
+    const text = fn(c.title || t.title, c.body, t, link.replace("{ch}", v.ch));
+    c.variants[v.k] = { text, at: Date.now(), edited: false };
+  });
+  act("채널 변환 생성(7종): " + t.title);
+  saveS();
+  $("mkVarStatus").textContent = "7종 변환 완료 (" + fmtDT(Date.now()).slice(11) + ")";
+  showVariant(CUR_VAR);
+  toast("6채널 맞춤 콘텐츠가 생성되었습니다");
+}
+function onVariantEdit() {
+  const c = content(CUR_TOPIC);
+  if (!c.variants[CUR_VAR]) c.variants[CUR_VAR] = { text: "", at: Date.now(), edited: true };
+  c.variants[CUR_VAR].text = $("mkVarEdit").value;
+  c.variants[CUR_VAR].edited = true;
+  saveS();
+}
+function copyCurVariant() {
+  const c = content(CUR_TOPIC);
+  if (c.variants[CUR_VAR]) copyText(c.variants[CUR_VAR].text, (VARIANTS.find(v => v.k === CUR_VAR) || {}).n + " 내용이 복사되었습니다");
+}
+function copyVariantPrompt() {
+  if (!CUR_TOPIC) return;
+  const c = content(CUR_TOPIC);
+  if (!c.body) { toast("먼저 본문을 생성하세요"); return; }
+  copyText(buildVariantPrompt(CUR_VAR, topicOf(CUR_TOPIC), c.body), "이 채널의 변환 프롬프트가 복사되었습니다 — AI 결과를 편집창에 붙여넣으세요");
+}
+
+/* ---------- 단계 이동 ---------- */
+function stuToReview() {
+  if (!CUR_TOPIC) return;
+  runReviewUI();
+  toast("검수 단계로 이동했습니다 — 검수 결과를 확인하세요");
+}
+function stuApprove() {
+  if (!CUR_TOPIC) return;
+  const t = topicOf(CUR_TOPIC), c = content(CUR_TOPIC);
+  if (!c.body) { toast("본문이 없습니다"); return; }
+  const checks = runReview(CUR_TOPIC);
+  const bad = checks.filter(x => x.level === "bad");
+  if (bad.length && !confirm("필수 수정 " + bad.length + "건(" + bad.map(b => b.label).join(", ") + ")이 있습니다. 그래도 승인할까요?")) return;
+  t.status = t.due ? "scheduled" : "approved";
+  act("최종 승인: " + t.title + (t.due ? " (발행 예정 " + t.due + ")" : ""));
+  saveS(); renderStFlow(); renderDash();
+  toast(t.due ? t.due + " 발행 예약으로 승인되었습니다" : "승인 완료 — ③ 승인·발행에서 발행하세요");
+}
+</script>
+<script>
+/* ==========================================================
+   ③ 승인·발행 — 칸반 · 캘린더 · 채널 발행 카드 · 로그
+   ========================================================== */
+function moveStatus(tid, dir) {
+  const t = topicOf(tid); if (!t) return;
+  const i = STATUS_FLOW.indexOf(t.status);
+  const ni = Math.min(STATUS_FLOW.length - 1, Math.max(0, i + dir));
+  if (STATUS_FLOW[ni] === "published" && t.status !== "published") { toast("발행 완료는 발행 카드에서 [발행 기록]으로 처리됩니다"); return; }
+  t.status = STATUS_FLOW[ni];
+  act("상태 변경: " + t.title + " → " + STATUS_KO[t.status]);
+  saveS(); renderKanban(); renderCal(); renderPubSelect(); renderDash();
+}
+function approveOne(tid) {
+  const t = topicOf(tid); if (!t) return;
+  t.status = t.due ? "scheduled" : "approved";
+  act("승인: " + t.title);
+  saveS(); renderKanban(); renderCal(); renderPubSelect(); renderDash();
+  toast("승인되었습니다");
+}
+function bulkApprove() {
+  const targets = S.topics.filter(t => t.status === "review");
+  if (!targets.length) { toast("검수 상태의 콘텐츠가 없습니다"); return; }
+  if (!confirm("검수 상태 " + targets.length + "건을 모두 승인할까요?")) return;
+  targets.forEach(t => { t.status = t.due ? "scheduled" : "approved"; });
+  act("일괄 승인 " + targets.length + "건");
+  saveS(); renderKanban(); renderCal(); renderPubSelect(); renderDash();
+  toast(targets.length + "건이 승인되었습니다");
+}
+function renderKanban() {
+  const cols = STATUS_FLOW.map(s => {
+    const items = S.topics.filter(t => t.status === s);
+    return '<div class="mk-kcol"><h4>' + STATUS_KO[s] + ' <span class="cnt">' + items.length + "</span></h4>" +
+      items.map(t =>
+        '<div class="mk-kcard" onclick="goStudio(\'' + t.id + '\')">' +
+        '<div class="t">' + esc(t.title) + '</div>' +
+        '<div class="m">' + fmtD(t.at) + (t.due ? " · 예정 " + esc(t.due) : "") + "</div>" +
+        '<div class="chs">' + (t.channels || []).map(k => "<i>" + ((CHANNELS.find(c => c.k === k) || {}).icon || "") + "</i>").join("") + "</div>" +
+        '<div class="mv" onclick="event.stopPropagation()">' +
+        (s !== "idea" ? '<button onclick="moveStatus(\'' + t.id + '\',-1)">◀</button>' : "") +
+        (s === "review" ? '<button class="ap" onclick="approveOne(\'' + t.id + '\')">승인</button>' : "") +
+        (s !== "published" && s !== "review" ? '<button class="go" onclick="moveStatus(\'' + t.id + '\',1)">▶</button>' : "") +
+        "</div></div>").join("") +
+      "</div>";
+  }).join("");
+  $("mkKanban").innerHTML = cols;
+  $("mkKanbanCnt").textContent = "검수 대기 " + S.topics.filter(t => t.status === "review").length + "건 · 발행 대기 " + S.topics.filter(t => t.status === "approved" || t.status === "scheduled").length + "건";
+}
+
+/* ---------- 캘린더 ---------- */
+let CAL_BASE = new Date();
+function calShift(d) { CAL_BASE = new Date(CAL_BASE.getFullYear(), CAL_BASE.getMonth() + d, 1); renderCal(); }
+function renderCal() {
+  const y = CAL_BASE.getFullYear(), m = CAL_BASE.getMonth();
+  $("mkCalTitle").textContent = y + "." + String(m + 1).padStart(2, "0");
+  const first = new Date(y, m, 1), start = new Date(first); start.setDate(1 - first.getDay());
+  const today = todayYmd();
+  let html = ["일", "월", "화", "수", "목", "금", "토"].map(w => '<div class="wd">' + w + "</div>").join("");
+  for (let i = 0; i < 42; i++) {
+    const d = new Date(start); d.setDate(start.getDate() + i);
+    const ymd = fmtD(d.getTime());
+    const out = d.getMonth() !== m;
+    const evs = S.topics.filter(t => t.due === ymd && (t.status === "scheduled" || t.status === "approved"));
+    const pubs = S.log.filter(l => fmtD(l.at) === ymd);
+    html += '<div class="d' + (out ? " out" : "") + (ymd === today ? " today" : "") + '" onclick="calPick(\'' + ymd + '\')">' +
+      '<span class="dn">' + d.getDate() + "</span>" +
+      evs.map(t => '<span class="pev adm" title="' + esc(t.title) + '">' + esc(t.title) + "</span>").join("") +
+      (pubs.length ? '<span class="pev ok">발행 ' + pubs.length + "건</span>" : "") +
+      "</div>";
+  }
+  $("mkCal").innerHTML = html;
+}
+function calPick(ymd) {
+  const cands = S.topics.filter(t => t.status === "approved" || t.status === "scheduled");
+  if (!cands.length) { toast("예약할 승인 콘텐츠가 없습니다"); return; }
+  const names = cands.map((t, i) => (i + 1) + ". " + t.title).join("\n");
+  const pick = prompt(ymd + "에 예약할 콘텐츠 번호를 입력하세요:\n" + names, "1");
+  const idx = Number(pick) - 1;
+  if (isNaN(idx) || !cands[idx]) return;
+  cands[idx].due = ymd; cands[idx].status = "scheduled";
+  act("발행 예약: " + cands[idx].title + " → " + ymd);
+  saveS(); renderCal(); renderKanban(); renderPubSelect();
+  toast(ymd + "로 예약되었습니다 — 자동 발행 파이프라인이 홈페이지에 게시합니다");
+}
+
+/* ---------- 채널 발행 카드 ---------- */
+function renderPubSelect() {
+  const cands = S.topics.filter(t => ["approved", "scheduled", "published"].includes(t.status));
+  const cur = $("mkPubTopic").value;
+  $("mkPubTopic").innerHTML = '<option value="">— 콘텐츠 선택 —</option>' +
+    cands.map(t => '<option value="' + t.id + '"' + (t.id === cur ? " selected" : "") + ">[" + STATUS_KO[t.status] + "] " + esc(t.title) + "</option>").join("");
+  renderPubCards();
+}
+function utmLink(tid, ch) { return SITE + "/?utm_source=" + ch + "&utm_medium=social&utm_campaign=" + tid; }
+function renderPubCards() {
+  const tid = $("mkPubTopic").value;
+  if (!tid) { $("mkPubCards").innerHTML = '<div class="empty">콘텐츠를 선택하세요</div>'; $("mkPubSel").textContent = ""; return; }
+  const t = topicOf(tid), c = content(tid);
+  $("mkPubSel").textContent = t ? t.title : "";
+  const chans = (t.channels && t.channels.length ? t.channels : CHANNELS.map(x => x.k));
+  $("mkPubCards").innerHTML = chans.map(k => {
+    const ch = CHANNELS.find(x => x.k === k); if (!ch) return "";
+    const done = S.log.find(l => l.tid === tid && l.ch === k);
+    const vk = k === "youtube" ? "yt_long" : k;   /* 채널→기본 변환물 매핑 */
+    const hasVar = c.variants[vk] && c.variants[vk].text;
+    const openUrl = (S.settings.channels[k] && S.settings.channels[k].url) || ch.write;
+    return '<div class="mk-pubrow">' +
+      '<span class="ch">' + ch.icon + " " + esc(ch.n) + "</span>" +
+      '<span class="st ' + (done ? "done" : "wait") + '">' + (done ? "발행 완료" : "대기") + "</span>" +
+      '<span class="acts">' +
+      (hasVar ? '<button class="copy" onclick="pubCopy(\'' + tid + '\',\'' + vk + '\')">내용 복사</button>' : '<button class="copy" onclick="toast(\'먼저 스튜디오에서 채널 변환을 생성하세요\')">변환 없음</button>') +
+      '<a class="open" href="' + esc(openUrl) + '" target="_blank" rel="noopener">채널 열기</a>' +
+      '<button class="copy" onclick="copyText(\'' + utmLink(tid, k) + '\',\'UTM 추적 링크가 복사되었습니다\')">UTM 링크</button>' +
+      (done ? '<a class="open" href="' + esc(done.url || "#") + '" target="_blank" rel="noopener">게시물 보기</a>'
+            : '<button class="mark" onclick="pubMark(\'' + tid + '\',\'' + k + '\')">발행 기록</button>') +
+      "</span></div>";
+  }).join("") +
+  '<div class="wm-note" style="margin-top:10px">홈페이지 채널은 발행 예정일이 지정된 경우 매시간 자동 게시됩니다. 다른 채널은 [내용 복사]→[채널 열기]→붙여넣기→[발행 기록] 순서로 30초면 끝납니다.</div>';
+}
+function pubCopy(tid, vk) {
+  const c = content(tid);
+  if (c.variants[vk]) copyText(c.variants[vk].text, "복사 완료 — 채널에 붙여넣으세요");
+}
+function pubMark(tid, ch) {
+  const t = topicOf(tid); if (!t) return;
+  const url = prompt("게시물 주소(URL)를 입력하면 성과 추적에 사용됩니다. 없으면 비워두세요.", "") || "";
+  S.log.unshift({ id: uid(), tid, ch, url, at: Date.now(), mode: "manual", views: 0, clicks: 0, title: t.title });
+  const chans = (t.channels && t.channels.length ? t.channels : CHANNELS.map(x => x.k));
+  const doneAll = chans.every(k => S.log.some(l => l.tid === tid && l.ch === k));
+  if (doneAll) t.status = "published";
+  act("발행: " + t.title + " → " + ((CHANNELS.find(c => c.k === ch) || {}).n || ch));
+  saveS(); renderPubCards(); renderPubLog(); renderKanban(); renderCal(); renderDash();
+  toast("발행이 기록되었습니다" + (doneAll ? " — 모든 채널 발행 완료 🎉" : ""));
+}
+function renderPubLog() {
+  const rows = S.log.slice(0, 50);
+  $("mkPubLog").innerHTML = "<tr><th>일시</th><th>콘텐츠</th><th>채널</th><th>방식</th><th>링크</th></tr>" +
+    (rows.length ? rows.map(l =>
+      "<tr><td class='mono'>" + fmtDT(l.at) + "</td><td>" + esc(l.title || "") + "</td><td>" + ((CHANNELS.find(c => c.k === l.ch) || {}).n || l.ch) + "</td><td>" + (l.mode === "auto" ? "자동" : "수동") + "</td><td>" + (l.url ? '<a href="' + esc(l.url) + '" target="_blank" rel="noopener">보기</a>' : "-") + "</td></tr>").join("")
+      : '<tr><td colspan="5" class="empty">발행 기록이 없습니다</td></tr>');
+}
+
+/* ==========================================================
+   ④ 댓글 관리 — 가져오기 · AI 분류 · 초안 · 원클릭 승인
+   ========================================================== */
+let CMT_FILTER = "wait";
+function classifyCmt(text) {
+  const t = text.toLowerCase();
+  if (/https?:\/\//.test(t) || /(카톡|텔레그램|투자|수익\s*보장|무료\s*수익|도박|홍보|광고문의)/.test(t)) return "spam";
+  if (/[?？]|(문의|궁금|어떻게|가능한가|대상인가|알려주|신청방법|어디서)/.test(text)) return "q";
+  if (/(감사|좋은|유익|도움|최고|잘 봤|잘봤|응원|훌륭)/.test(text)) return "pos";
+  if (/(별로|실망|불만|틀렸|잘못|사기|광고 아닌|믿을 수 없|엉터리)/.test(text)) return "neg";
+  return "pos";
+}
+function draftReply(c) {
+  const v = S.settings.voice;
+  const name = c.author && c.author !== "익명" ? c.author + "님, " : "";
+  const base = {
+    q: name + "관심 가져주셔서 감사합니다. 문의하신 내용은 기업 상황(업종·지역·매출 등)에 따라 달라질 수 있어, 정확한 확인을 위해 워크멘토 홈페이지(" + SITE + ") 소통방으로 남겨주시면 1:1로 자세히 안내드리겠습니다. 공고 원문 확인도 도와드립니다!",
+    pos: name + "따뜻한 댓글 감사합니다 😊 앞으로도 " + (v.target || "사장님들") + "께 꼭 필요한 정보만 골라 전해드리겠습니다. 워크멘토 홈페이지에서 실시간 공고도 확인해 보세요!",
+    neg: name +"소중한 의견 감사합니다. 말씀하신 부분은 확인 후 더 정확하고 도움이 되는 정보로 보완하겠습니다. 구체적인 상황을 소통방으로 남겨주시면 직접 확인해 드리겠습니다. 죄송하고, 감사합니다.",
+    spam: "(답변 대신 신고·삭제를 권장합니다)",
+  };
+  return base[c.type] || base.pos;
+}
+function addComments() {
+  const raw = $("cm-paste").value.trim();
+  if (!raw) { toast("댓글을 붙여넣으세요"); return; }
+  const ch = $("cm-ch").value, tid = $("cm-topic").value;
+  let n = 0;
+  raw.split("\n").map(l => l.trim()).filter(Boolean).forEach(line => {
+    let author = "익명", text = line;
+    /* "작성자: 내용" 분리 — URL의 "://" 콜론은 구분자로 취급하지 않음 */
+    const m = line.match(/^([^:：]{1,20})[:：](?!\/\/)\s*(.+)$/);
+    if (m) { author = m[1].trim(); text = m[2].trim(); }
+    const c = { id: uid(), ch, tid, author, text, type: classifyCmt(text), status: "drafted", at: Date.now() };
+    c.draft = draftReply(c);
+    S.comments.unshift(c); n++;
+  });
+  $("cm-paste").value = "";
+  act("댓글 " + n + "건 가져오기 + 초안 생성");
+  saveS(); renderComments(); renderDash();
+  toast(n + "건을 분류하고 답변 초안을 만들었습니다");
+}
+function cmtFilter(f) {
+  CMT_FILTER = f;
+  document.querySelectorAll("#mkCmtFilter button").forEach(b => b.classList.toggle("on", b.dataset.f === f));
+  renderComments();
+}
+function renderComments() {
+  /* 셀렉트 채우기 */
+  $("cm-ch").innerHTML = CHANNELS.filter(c => c.k !== "home").map(c => '<option value="' + c.k + '">' + c.icon + " " + esc(c.n) + "</option>").join("");
+  $("cm-topic").innerHTML = '<option value="">(지정 안 함)</option>' + S.topics.map(t => '<option value="' + t.id + '">' + esc(t.title) + "</option>").join("");
+
+  const wait = S.comments.filter(c => c.status !== "sent");
+  const badge = $("mkCmtBadge");
+  badge.style.display = wait.length ? "" : "none"; badge.textContent = wait.length;
+
+  /* 유형별 현황 */
+  const types = { q: 0, pos: 0, neg: 0, spam: 0 };
+  S.comments.forEach(c => { if (types[c.type] !== undefined) types[c.type]++; });
+  const maxT = Math.max(1, ...Object.values(types));
+  const TYPE_KO = { q: "문의", pos: "긍정", neg: "불만", spam: "스팸 의심" };
+  $("mkCmtStats").innerHTML = Object.keys(types).map(k =>
+    '<div class="insrow"><span class="inslabel">' + TYPE_KO[k] + '</span><span class="insbar"><span style="width:' + Math.round(types[k] / maxT * 100) + '%"></span></span><span class="insval">' + types[k] + "건</span></div>").join("") +
+    '<div class="status" style="margin-top:8px">전체 ' + S.comments.length + "건 · 발송 완료 " + S.comments.filter(c => c.status === "sent").length + "건</div>";
+
+  const list = S.comments.filter(c => CMT_FILTER === "all" ? true : CMT_FILTER === "sent" ? c.status === "sent" : c.status !== "sent");
+  $("mkCmtList").innerHTML = list.length ? list.map(c => {
+    const ch = CHANNELS.find(x => x.k === c.ch) || {};
+    const openUrl = (S.settings.channels[c.ch] && S.settings.channels[c.ch].url) || ch.write || "#";
+    return '<div class="mk-cmt' + (c.status === "sent" ? " sent" : "") + '">' +
+      '<div class="head"><b>' + (ch.icon || "") + " " + esc(ch.n || c.ch) + '</b><span class="mk-tag ' + c.type + '">' + { q: "문의", pos: "긍정", neg: "불만", spam: "스팸" }[c.type] + "</span><span>" + esc(c.author) + " · " + fmtDT(c.at).slice(5) + "</span></div>" +
+      '<div class="txt">' + esc(c.text) + "</div>" +
+      (c.status === "sent"
+        ? '<div class="status">✅ 발송 완료 — ' + esc(c.draft || "") + "</div>"
+        : '<textarea onchange="updCmtDraft(\'' + c.id + '\',this.value)">' + esc(c.draft || "") + "</textarea>" +
+          '<div class="acts">' +
+          '<button style="background:#E5F3EC;color:var(--ok)" onclick="approveCmt(\'' + c.id + '\')">승인·복사 + 채널 열기</button>' +
+          '<button style="background:var(--blue-soft);color:var(--blue)" onclick="regenCmt(\'' + c.id + '\')">초안 다시 생성</button>' +
+          '<button style="background:#E5F3EC;color:var(--ok)" onclick="sentCmt(\'' + c.id + '\')">발송 완료 표시</button>' +
+          '<button style="background:#FBE7E2;color:var(--danger)" onclick="delCmt(\'' + c.id + '\')">삭제</button>' +
+          "</div>") +
+      "</div>";
+  }).join("") : '<div class="empty">' + (CMT_FILTER === "sent" ? "발송 완료된 댓글이 없습니다" : "처리할 댓글이 없습니다") + "</div>";
+}
+function updCmtDraft(id, v) { const c = S.comments.find(x => x.id === id); if (c) { c.draft = v; saveS(false); } }
+function regenCmt(id) { const c = S.comments.find(x => x.id === id); if (c) { c.type = classifyCmt(c.text); c.draft = draftReply(c); saveS(); renderComments(); } }
+function approveCmt(id) {
+  const c = S.comments.find(x => x.id === id); if (!c) return;
+  /* 채널 URL은 여기서 조회 — 인라인 onclick에 URL을 넣으면 따옴표에 깨진다 */
+  const ch = CHANNELS.find(x => x.k === c.ch) || {};
+  const openUrl = (S.settings.channels[c.ch] && S.settings.channels[c.ch].url) || ch.write || "";
+  copyText(c.draft || "", "답변이 복사되었습니다 — 채널에 붙여넣고 등록하세요");
+  if (openUrl) window.open(openUrl, "_blank", "noopener");
+}
+function sentCmt(id) {
+  const c = S.comments.find(x => x.id === id); if (!c) return;
+  c.status = "sent"; c.sentAt = Date.now();
+  act("댓글 답변 발송: " + (c.author || "") + " (" + ((CHANNELS.find(x => x.k === c.ch) || {}).n || c.ch) + ")");
+  saveS(); renderComments(); renderDash();
+}
+function delCmt(id) { S.comments = S.comments.filter(x => x.id !== id); saveS(); renderComments(); renderDash(); }
+
+/* ==========================================================
+   ⑤ 성과 분석
+   ========================================================== */
+let STAT_RANGE = 30;
+function statRange(r) {
+  STAT_RANGE = r;
+  document.querySelectorAll("#mkStatRange button").forEach(b => b.classList.toggle("on", Number(b.dataset.r) === r));
+  renderStats();
+}
+function statLog() { return STAT_RANGE ? S.log.filter(l => Date.now() - l.at < STAT_RANGE * 864e5) : S.log.slice(); }
+function renderStats() {
+  const logs = statLog();
+  const views = logs.reduce((a, l) => a + (Number(l.views) || 0), 0);
+  const clicks = logs.reduce((a, l) => a + (Number(l.clicks) || 0), 0);
+  const cmtSent = S.comments.filter(c => c.status === "sent" && (!STAT_RANGE || Date.now() - c.at < STAT_RANGE * 864e5)).length;
+  const sv = calcSavings(logs, cmtSent);
+  $("mkStatKpis").innerHTML = [
+    { k: "발행", v: logs.length + "<small>건</small>" },
+    { k: "본문(주제) 수", v: sv.nPosts + "<small>건</small>" },
+    { k: "조회수 합계", v: views.toLocaleString() },
+    { k: "클릭 합계", v: clicks.toLocaleString() },
+    { k: "댓글 응대", v: cmtSent + "<small>건</small>" },
+  ].map(x => '<div class="mk-kpi"><div class="k">' + x.k + '</div><div class="v">' + x.v + "</div></div>").join("");
+
+  const byCh = {}; CHANNELS.forEach(c => byCh[c.k] = { n: 0, v: 0 });
+  logs.forEach(l => { if (byCh[l.ch]) { byCh[l.ch].n++; byCh[l.ch].v += Number(l.views) || 0; } });
+  const maxN = Math.max(1, ...Object.values(byCh).map(x => x.n));
+  $("mkStatChan").innerHTML = CHANNELS.map(c =>
+    '<div class="insrow"><span class="inslabel">' + c.icon + " " + esc(c.n) + '</span><span class="insbar"><span style="width:' + Math.round(byCh[c.k].n / maxN * 100) + '%"></span></span><span class="insval">' + byCh[c.k].n + "건 · " + byCh[c.k].v.toLocaleString() + "뷰</span></div>").join("");
+
+  $("mkStatSave").innerHTML =
+    '<div class="mk-kpis" style="grid-template-columns:1fr 1fr">' +
+    '<div class="mk-kpi good"><div class="k">절감 시간</div><div class="v" style="font-size:20px">' + fmtMin(sv.min) + '</div></div>' +
+    '<div class="mk-kpi good"><div class="k">절감 비용(외주 환산)</div><div class="v" style="font-size:20px">' + fmtWon(sv.won) + "</div></div></div>" +
+    '<div class="status">계산: 본문 ' + sv.nPosts + "건×" + S.settings.costs.writeMin + "분 + 채널 발행 " + sv.nPub + "건×" + S.settings.costs.convMin + "분 + 댓글 " + cmtSent + "건×" + S.settings.costs.cmtMin + "분, 시급 " + S.settings.costs.hourCost.toLocaleString() + "원 + 외주 단가 " + S.settings.costs.outPost.toLocaleString() + "원/건</div>";
+
+  const rows = statLog();
+  $("mkStatTable").innerHTML = "<tr><th>일시</th><th>콘텐츠</th><th>채널</th><th>조회수</th><th>클릭</th><th>링크</th></tr>" +
+    (rows.length ? rows.map(l =>
+      "<tr><td class='mono'>" + fmtDT(l.at) + "</td><td>" + esc(l.title || "") + "</td><td>" + ((CHANNELS.find(c => c.k === l.ch) || {}).n || l.ch) + "</td>" +
+      '<td><input type="number" value="' + (l.views || 0) + '" onchange="updLog(\'' + l.id + '\',\'views\',this.value)"></td>' +
+      '<td><input type="number" value="' + (l.clicks || 0) + '" onchange="updLog(\'' + l.id + '\',\'clicks\',this.value)"></td>' +
+      "<td>" + (l.url ? '<a href="' + esc(l.url) + '" target="_blank" rel="noopener">보기</a>' : "-") + "</td></tr>").join("")
+      : '<tr><td colspan="6" class="empty">기간 내 발행 기록이 없습니다</td></tr>');
+}
+function updLog(id, k, v) { const l = S.log.find(x => x.id === id); if (l) { l[k] = Number(v) || 0; saveS(); renderStats(); } }
+function exportCSV() {
+  const rows = [["일시", "콘텐츠", "채널", "방식", "조회수", "클릭", "URL"]];
+  S.log.forEach(l => rows.push([fmtDT(l.at), l.title || "", (CHANNELS.find(c => c.k === l.ch) || {}).n || l.ch, l.mode, l.views || 0, l.clicks || 0, l.url || ""]));
+  const csv = "﻿" + rows.map(r => r.map(c => '"' + String(c).replace(/"/g, '""') + '"').join(",")).join("\n");
+  const a = document.createElement("a");
+  a.href = URL.createObjectURL(new Blob([csv], { type: "text/csv" }));
+  a.download = "workmentor-marketing-" + todayYmd() + ".csv";
+  a.click(); URL.revokeObjectURL(a.href);
+}
+
+/* ==========================================================
+   설정
+   ========================================================== */
+function renderSettings() {
+  const v = S.settings.voice;
+  $("st-tone").value = v.tone; $("st-target").value = v.target; $("st-intro").value = v.intro;
+  $("st-outro").value = v.outro; $("st-banned").value = (v.banned || []).join(", ");
+  $("st-tags").value = (S.settings.tags || []).join(", ");
+  const c = S.settings.costs;
+  $("st-writeMin").value = c.writeMin; $("st-convMin").value = c.convMin; $("st-cmtMin").value = c.cmtMin;
+  $("st-hourCost").value = c.hourCost; $("st-outPost").value = c.outPost;
+  $("mkChanSet").innerHTML = CHANNELS.map(ch =>
+    '<div class="frow" style="align-items:center"><div style="display:flex;gap:8px;align-items:center"><input type="checkbox" id="chon-' + ch.k + '" style="width:auto" ' + (S.settings.channels[ch.k].on ? "checked" : "") + '><label for="chon-' + ch.k + '" style="margin:0">' + ch.icon + " " + esc(ch.n) + "</label></div>" +
+    '<div><input id="churl-' + ch.k + '" placeholder="글쓰기/관리 페이지 URL" value="' + esc(S.settings.channels[ch.k].url || "") + '"></div></div>').join("");
+}
+function saveVoice() {
+  const v = S.settings.voice;
+  v.tone = $("st-tone").value; v.target = $("st-target").value.trim(); v.intro = $("st-intro").value.trim();
+  v.outro = $("st-outro").value.trim(); v.banned = $("st-banned").value.split(",").map(s => s.trim()).filter(Boolean);
+  S.settings.tags = $("st-tags").value.split(",").map(s => s.trim()).filter(Boolean);
+  saveS(); toast("브랜드 보이스가 저장되었습니다");
+}
+function saveChans() {
+  CHANNELS.forEach(ch => {
+    S.settings.channels[ch.k].on = $("chon-" + ch.k).checked;
+    S.settings.channels[ch.k].url = $("churl-" + ch.k).value.trim();
+  });
+  saveS(); toast("채널 설정이 저장되었습니다");
+}
+function saveCosts() {
+  const c = S.settings.costs;
+  c.writeMin = Number($("st-writeMin").value) || 0; c.convMin = Number($("st-convMin").value) || 0;
+  c.cmtMin = Number($("st-cmtMin").value) || 0; c.hourCost = Number($("st-hourCost").value) || 0;
+  c.outPost = Number($("st-outPost").value) || 0;
+  saveS(); renderStats(); renderDash(); toast("단가가 저장되었습니다");
+}
+function exportJSON() {
+  const a = document.createElement("a");
+  a.href = URL.createObjectURL(new Blob([JSON.stringify(S, null, 1)], { type: "application/json" }));
+  a.download = "workmentor-marketing-backup-" + todayYmd() + ".json";
+  a.click(); URL.revokeObjectURL(a.href);
+}
+function importJSON(input) {
+  const f = input.files && input.files[0]; if (!f) return;
+  const r = new FileReader();
+  r.onload = () => {
+    try {
+      const j = JSON.parse(r.result);
+      if (!j || !Array.isArray(j.topics)) throw new Error("형식이 다릅니다");
+      if (!confirm("현재 데이터를 백업 파일로 교체할까요?")) return;
+      S = mergeState(defaultState(), j);
+      saveS(); renderAll();
+      toast("가져오기 완료");
+    } catch (e) { toast("가져오기 실패: " + e.message); }
+  };
+  r.readAsText(f); input.value = "";
+}
+function showSqlGuide() {
+  const sql = "-- scripts/add-marketing.sql (저장소의 동일 파일을 그대로 실행해도 됩니다)\n-- Supabase 대시보드 → SQL Editor에서 1회 실행 (재실행 안전)\n\n-- 접근 판별: 총관리자 또는 '마케팅 허브(mkt)' 권한 부관리자\ncreate or replace function mkt_allowed() returns boolean\nlanguage sql stable security definer set search_path = public as $$\n  select check_admin() or exists (\n    select 1 from members m\n    where m.id = auth.uid()\n      and m.sub_admin\n      and coalesce(m.approved, true)\n      and (',' || coalesce(m.perms, '') || ',') like '%,mkt,%'\n  );\n$$;\n\ncreate table if not exists mkt_state (\n  id text primary key,\n  value jsonb not null default '{}'::jsonb,\n  updated_at timestamptz not null default now()\n);\nalter table mkt_state enable row level security;\ndrop policy if exists \"mkt admin read\" on mkt_state;\ndrop policy if exists \"mkt admin write\" on mkt_state;\ndrop policy if exists \"mkt admin update\" on mkt_state;\ncreate policy \"mkt admin read\" on mkt_state\n  for select using (mkt_allowed());\ncreate policy \"mkt admin write\" on mkt_state\n  for insert with check (mkt_allowed());\ncreate policy \"mkt admin update\" on mkt_state\n  for update using (mkt_allowed());\n\n-- 자동 발행 원장 (중복 발행 방지 — 자동 발행 스크립트 전용 기록)\ncreate table if not exists mkt_publog (\n  tid text not null,\n  ch text not null,\n  url text default '',\n  at timestamptz not null default now(),\n  primary key (tid, ch)\n);\nalter table mkt_publog enable row level security;\ndrop policy if exists \"mkt publog read\" on mkt_publog;\ncreate policy \"mkt publog read\" on mkt_publog\n  for select using (mkt_allowed());";
+  openModal("클라우드 동기화 설치 SQL", "Supabase SQL Editor에서 한 번만 실행하면 됩니다", "<pre>" + esc(sql) + "</pre>", sql);
+}
+function showPipeGuide() {
+  const txt = "자동 발행 파이프라인 (.github/workflows/marketing-publish.yml)\n\n1) 홈페이지 자동 게시 — 추가 설정 없이 동작\n   · 발행 예정일이 지정된 '예약' 콘텐츠를 매시간 확인해\n     /posts/ 아래 정적 페이지로 게시하고 상태를 '발행 완료'로 바꿉니다.\n   · 필요 시크릿: SUPABASE_SERVICE_ROLE_KEY (이미 등록되어 있음)\n\n2) X(트위터) 자동 발행 — 저장소 시크릿 4개 등록 시 활성화\n   · X_API_KEY, X_API_SECRET, X_ACCESS_TOKEN, X_ACCESS_SECRET\n   · developer.x.com에서 앱 생성 후 발급 (Write 권한)\n\n3) 스레드(Threads) 자동 발행 — 시크릿 2개 등록 시 활성화\n   · THREADS_USER_ID, THREADS_ACCESS_TOKEN\n   · developers.facebook.com에서 Threads API 사용 설정\n\n4) 네이버 블로그 — 시크릿 3개 등록 시 활성화\n   · NAVER_CLIENT_ID, NAVER_CLIENT_SECRET, NAVER_REFRESH_TOKEN\n   · 네이버 개발자센터에서 블로그 API 앱 생성 → 네이버 로그인 1회로\n     refresh 토큰 발급 (access 토큰은 1시간 만료라 매 실행 자동 갱신)\n\n5) 유튜브·인스타그램\n   · 영상 업로드는 파일이 필요해 자동화 대상에서 제외했습니다.\n     대본 [내용 복사] → 채널 열기 방식으로 발행하세요.\n\n시크릿 등록: GitHub 저장소 → Settings → Secrets and variables → Actions";
+  openModal("자동 발행 연동 방법", "채널별 API 키를 등록한 만큼만 자동화됩니다", "<pre>" + esc(txt) + "</pre>", txt);
+}
+function showWorkerGuide() {
+  const code = "// Cloudflare Worker에 추가할 AI 프록시 라우트 (기존 worker.js의 fetch 핸들러에 병합)\n// 환경변수: AI_API_KEY (Anthropic API 키)  — wrangler secret put AI_API_KEY\n\nif (url.searchParams.get('api') === 'ai' && request.method === 'POST') {\n  // 관리자 토큰 검증 (기존 market-update와 동일 패턴)\n  const auth = request.headers.get('Authorization') || '';\n  const ok = await verifyAdmin(auth);   // 기존 관리자 검증 함수 재사용\n  if (!ok) return json({ error: 'unauthorized' }, 401);\n\n  const { prompt } = await request.json();\n  const r = await fetch('https://api.anthropic.com/v1/messages', {\n    method: 'POST',\n    headers: {\n      'x-api-key': env.AI_API_KEY,\n      'anthropic-version': '2023-06-01',\n      'content-type': 'application/json',\n    },\n    body: JSON.stringify({\n      model: 'claude-sonnet-5',\n      max_tokens: 8000,\n      messages: [{ role: 'user', content: prompt }],\n    }),\n  });\n  const j = await r.json();\n  const text = (j.content && j.content[0] && j.content[0].text) || '';\n  return json({ text });\n}";
+  openModal("Worker AI 프록시 코드", "기존 Cloudflare Worker에 이 라우트를 추가하면 [본문 생성]이 완전 자동이 됩니다", "<pre>" + esc(code) + "</pre>", code);
+}
+
+/* ==========================================================
+   부팅
+   ========================================================== */
+(async function boot() {
+  loadLocal();
+  setSync("local", "로컬 저장 모드");
+  chipPicker("tp-chs", CHANNELS.map(c => c.k));
+  chipPicker("rc-chs", CHANNELS.map(c => c.k));
+  if (!sb) { $("mkGateMsg").textContent = "Supabase 클라이언트를 불러오지 못했습니다. 새로고침해 주세요."; return; }
+  try {
+    if (await gateCheck()) { enterApp(); return; }
+  } catch (_) {}
+  /* 미로그인 → 게이트 유지 */
+})();
+</script>
+</body>
+</html>

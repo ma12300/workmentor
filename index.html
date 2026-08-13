@@ -1239,6 +1239,17 @@ footer select { border: 1px solid var(--line); border-radius: 6px; padding: 4px 
       <button data-tab="api" onclick="atab('api')">API 연동</button>
       <button data-tab="data" onclick="atab('data')">데이터 백업</button>
       <button data-tab="set" onclick="atab('set')">설정</button>
+      <button data-tab="mkt" onclick="atab('mkt')">마케팅 허브</button>
+    </div>
+
+    <!-- 마케팅 허브 (별도 앱으로 연결) -->
+    <div class="apanel" id="apanel-mkt">
+      <div class="card">
+        <h2 class="section" style="font-size:17px">마케팅 허브 — AI 콘텐츠 자동화 스튜디오</h2>
+        <p class="section-sub">주제 기획 → AI 본문 생성 → 검수 → 승인 → 6채널(홈페이지·네이버 블로그·유튜브·인스타그램·X·스레드) 동시 발행 → 댓글 관리를 한 화면에서 처리하는 전용 대시보드입니다.</p>
+        <button class="cta" onclick="window.open('marketing/','_blank','noopener')">마케팅 허브 열기 ↗</button>
+        <div class="hintbox" style="margin-top:14px;margin-bottom:0">현재 관리자 계정으로 그대로 로그인하면 됩니다. 부관리자에게는 회원 관리에서 '마케팅 허브' 권한을 부여할 수 있습니다.</div>
+      </div>
     </div>
 
     <!-- 기업 관리 -->
@@ -3922,7 +3933,7 @@ async function sendChatFile(inputId) {
 const MEMBER = { user: null, profile: null, isAdmin: false, _tab: "login" };
 const PAGE_NEED = { funds: 2, jobs: 2, lessons: 2, companies: 1, chat: 1, board: 1 };  /* 1=회원, 2=유료 */
 const TRIAL_PAGES = ["funds", "lessons"];   /* 무료회원 1개월 체험 개방 메뉴 */
-const PERM_LIST = [["co","기업 관리"],["job","요청공고"],["lesson","경영수업"],["chat","소통방"],["brief","시장 브리핑"],["insight","관심 분석"],["members","회원 관리"],["api","API 연동"],["data","데이터 백업"],["set","설정"]];
+const PERM_LIST = [["co","기업 관리"],["job","요청공고"],["lesson","경영수업"],["chat","소통방"],["brief","시장 브리핑"],["insight","관심 분석"],["members","회원 관리"],["api","API 연동"],["data","데이터 백업"],["set","설정"],["mkt","마케팅 허브"]];
 function hasPerm(p) {
   if (MEMBER.isAdmin) return true;
   const pr = MEMBER.profile;
@@ -3931,12 +3942,13 @@ function hasPerm(p) {
 function isSubAdmin() { return !!(MEMBER.profile && MEMBER.profile.sub_admin && MEMBER.profile.approved !== false); }
 function applyPermTabs() {
   let first = null;
-  document.querySelectorAll(".atabs button[data-tab]").forEach(b => {
+  /* 관리자 탭 바로 한정 — 약관 페이지의 .atabs(on 고정)가 폴백을 가리는 것 방지 */
+  document.querySelectorAll("#adminDash .atabs button[data-tab]").forEach(b => {
     const ok = hasPerm(b.dataset.tab);
     b.style.display = ok ? "" : "none";
     if (ok && !first) first = b.dataset.tab;
   });
-  const cur = document.querySelector(".atabs button.on");
+  const cur = document.querySelector("#adminDash .atabs button.on");
   if ((!cur || cur.style.display === "none") && first) atab(first);
 }
 /* 총관리자·부관리자가 로그인 상태면 관리자 페이지에 로그인 카드 없이 바로 대시보드 표시 */
