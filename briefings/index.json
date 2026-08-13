@@ -2,6 +2,15 @@
  {
   "date": "2026-08-14",
   "kind": "market",
+  "edition": "아침판",
+  "title": "8월 14일 (금) 투자 브리핑 · 아침판",
+  "file": "briefings/2026-08-14-market-아침판.pdf",
+  "top": "뉴욕증시 3대 지수 일제 상승…나스닥 0.81%↑ - bntnews.co.kr",
+  "count": 13
+ },
+ {
+  "date": "2026-08-14",
+  "kind": "market",
   "edition": "자정판",
   "title": "8월 14일 (금) 투자 브리핑 · 자정판",
   "file": "briefings/2026-08-14-market-자정판.pdf",
