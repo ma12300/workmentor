@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-14T13:24:16.078Z",
+ "updatedAt": "2026-08-14T14:32:28.958Z",
  "groups": {
   "tax": [
    {
@@ -7,7 +7,7 @@
     "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5ack9sV1p0clI3RTlSWFJmNXowdTNzX0R3QTZnRmk0aE1mZFVGcUp5QnJqdWx1VXJXWjRXUmUxd1NLTXZhekV5aHJrQXVSNmVWTDY0?oc=5",
     "date": "Fri, 14 Aug 2026 11:45:24 GMT",
     "summary": "",
-    "source": "뉴스1"
+    "source": "news1.kr"
    },
    {
     "title": "대구지방국세청, 세무서장 회의 개최",
@@ -98,7 +98,7 @@
     "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE93Ung1QUg4NmFncm9kMTd1NnBKVkplWkVYcy1VZXFHeE1LU3BUX2NQM0ZUU25tdXpsU2l4czVGdFRFc1hlT05INTJHWmllREZLM241d0hTU3d0d3VYY3VrdmhuanI3VFpkX3Y0VjZEYw?oc=5",
     "date": "Fri, 14 Aug 2026 06:20:49 GMT",
     "summary": "",
-    "source": "조세일보"
+    "source": "joseilbo.com"
    },
    {
     "title": "서울국세청, 하반기 체납관리단에 역량 집중…‘체납추적-세무조사 연계팀’ 조기 안착",
@@ -226,7 +226,7 @@
     "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBieDA4SkJtLVB6LVlaN0luaUxGSTZjWk96RHdYLWxKa08xdl90LUxXWTFiRmpYRW1GXzhNcUZCNVVkOUxVRVk2c3lNZVRDWFVJU3NGWGN3LTlfZ0J1WG9Z0gFkQVVfeXFMUGRIUUtGdU9hRmRpeE9fazZiTU9SNUU3N24yeHRwdkJ6ajZvZlVOd3VpWE5JdzlXTXViRG5OdVlvaXpNaEYyQ2VaeDlWMmVuT0s4eWtxRjh4Uld4RnExY2tZQ2pTdQ?oc=5",
     "date": "Fri, 14 Aug 2026 04:48:22 GMT",
     "summary": "",
-    "source": "뉴스1"
+    "source": "news1.kr"
    },
    {
     "title": "‘노사 상생 모범’ 포항 기업 포웰, ‘노사문화 우수기업’ 선정…근로감독 3년 면제",
@@ -247,7 +247,7 @@
     "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE9MMUVCXzk2QU1Eb3RuWEFzSjluUWJvR014bUtacVlvR1ZISlF5NVVlV1JFTHRxb1Q5MlVNaTdZeTJlR2tfQ25mcklnU1FsQ1ZNa01OZ2pOQ0RwSWxiajA4N2Y5MUpIeVEwQ2VzemZlbkh1UQ?oc=5",
     "date": "Fri, 14 Aug 2026 02:19:33 GMT",
     "summary": "",
-    "source": "energy-news.co.kr"
+    "source": "에너지신문"
    },
    {
     "title": "부산신용보증재단, 고용노동부 ‘노사문화 우수기업’ 선정",
@@ -255,6 +255,13 @@
     "date": "Fri, 14 Aug 2026 02:08:44 GMT",
     "summary": "",
     "source": "내외경제TV"
+   },
+   {
+    "title": "\"사용자·교섭단체 애매하면 '시장'은 망가지고 '국민'만 궁핍\"",
+    "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5EUWpEc182cWxBTzZWMF9QWUU0anVSS3dIMDcxN3pLNm1hUGhhemRnQUdqeVUxQUFaTWF6Q0dvS1o0WEgwbldkRl9jZ1BMMUlqdC1tb0cybFRMS1dx?oc=5",
+    "date": "Fri, 14 Aug 2026 02:03:34 GMT",
+    "summary": "",
+    "source": "supple.kr"
    },
    {
     "title": "카자흐스탄 '고용허가제' 송출국 추가 지정…18개국으로 확대",
@@ -338,7 +345,7 @@
     "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5FNm16LUpnUFg5QVNnQ1hzT3RKTXg5OGtMQ1ZVTGR1dTI5MDlOXy1VQ3Z1LWlXQm93WEdYZjlyWFVWcTMwemRIRnJBY2toZ0lUVHlVd1JKSDdZamZNZ2NHcUhtWUtrWndtZWZwdGFGdVlOUQ?oc=5",
     "date": "Thu, 13 Aug 2026 15:12:00 GMT",
     "summary": "",
-    "source": "헬스포커스뉴스"
+    "source": "healthfocus.co.kr"
    },
    {
     "title": "[8월 13일 인사종합] 보건복지부, 고용노동부, 한국원자력의학원 외",
@@ -346,16 +353,16 @@
     "date": "Thu, 13 Aug 2026 14:22:34 GMT",
     "summary": "",
     "source": "핀포인트뉴스"
-   },
-   {
-    "title": "김영훈 고용노동부 장관, 김포공항 지상조업 현장 불시점검…“폭염안전 5대 기본수칙 철저 이행”",
-    "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1WM29sTW50LXNEaTlPdDA5NmdhQXdqNkw0WTRDQ0pTenZvWWJFajZfQnVJUGpGRk1HN0dTYUU5ZEJYNy1EUUVXMjFCSnpFZnUzaEh1Qy1sZ0o5M3dEMEoybnBUazEzQQ?oc=5",
-    "date": "Thu, 13 Aug 2026 13:37:29 GMT",
-    "summary": "",
-    "source": "뉴뉴스"
    }
   ],
   "law": [
+   {
+    "title": "법무부, '수원지검 검사 집단퇴정' 관련 검사 2명 징계 청구",
+    "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5lZUhMVnNfa2s3YkZLb3l6eEZkUjJ2alE5enNaOUlsdW9HeFNWbzE2UURZdG5pUHVxNnc1Yk81ZkhGZEc1dk1CZ0JEVkFXbVNlTGxLNnZ6NkdpTmRlVldOWEpfclBpcFdS?oc=5",
+    "date": "Fri, 14 Aug 2026 13:40:39 GMT",
+    "summary": "",
+    "source": "강원신문"
+   },
    {
     "title": "정성호 법무장관, ‘수원지검 집단퇴정’ 검사 2명 ‘견책’ 징계 청구",
     "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5iV2xZTzlfNlN6cmUtNVk1M1FCMHBZdjBiQm9RRUpzYjJfbVkwWVRJdXhaUkl2a2tibi1sc2RRbUxTeU5zcTk1VXo1LWdXWWt3ejFHQktZZzZjenhzN0k0akpxbnlNblgwTGR30gFUQVVfeXFMTVV3VWtZN3U2MkxGeDBXc1pic3p5X3NWTmVpUUJ0Qi16V1UtSG84YXpCZkwza2cxTUJZOTlEV2JTYlBFbHdKOVFacnpRVnI3UjJhR3E0?oc=5",
@@ -427,6 +434,13 @@
     "source": "동아일보"
    },
    {
+    "title": "[연합뉴스 이 시각 헤드라인] - 18:00",
+    "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1OUThqV0tzdFZhTExLcDZFRkFSYWdpcG5CUXNXTnJzN3ZVc3lpdk9INUl1S1NaTUk5alEzX1BvN0t1ZkJXaC1LS1c0dlFIaTRLRDBpSlV1RlBjUW_SAWBBVV95cUxNWjN0a2FibEg0X3pmblNiaE9NUFdaUkhsVGdWcUtjZkpZWE81YS1EVE83OUt4XzJzaDZXdTBFbWpHdTJIa3l1d2FJY2lSbS00R0V0ZFpVQzVGY25WV3ZyaUY?oc=5",
+    "date": "Fri, 14 Aug 2026 09:00:00 GMT",
+    "summary": "",
+    "source": "연합뉴스"
+   },
+   {
     "title": "법무부, ‘이화영 재판 집단퇴정’ 수원지검 검사 2명 견책 징계 청구",
     "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1pYUdtelA3X1U3Mmh3UE5aa2cyTUpRUHdlQmwwYXVfZmd2Wi1OdEZDUEdqU201OExBT3J1eGRzNElOdXVPZGpuLTRFU1JLMEdfWGdpMlJIdzdFVjg?oc=5",
     "date": "Fri, 14 Aug 2026 08:53:00 GMT",
@@ -446,6 +460,13 @@
     "date": "Fri, 14 Aug 2026 08:51:00 GMT",
     "summary": "",
     "source": "경향신문"
+   },
+   {
+    "title": "[사회]법무부, '수원지검 집단 퇴정 사건' 검사 2명 징계 청구",
+    "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBqX3lJbkwzdkhPV29laG9SSXJaLTYyX05DUFhBdnoyYjJnaXlodW9WV0xqbk43UTFZVkhJLVBTUFRIdVMwRENLam9XMGY4N09tQ09QTG1iMVBTaE00WTdmcVlESDhqdURNY0xKNl94Zw?oc=5",
+    "date": "Fri, 14 Aug 2026 08:44:00 GMT",
+    "summary": "",
+    "source": "YTN"
    },
    {
     "title": "정성호, 이화영 ‘연어 술파티’ 위증 재판 집단 퇴정 검사 징계 청구",
@@ -476,18 +497,11 @@
     "source": "네이트"
    },
    {
-    "title": "정성호 법무장관, '이화영 재판 집단퇴정' 수원지검 검사들 징계 청구",
+    "title": "정성호 법무장관, '이화영 재판 집단퇴정' 수원지검 검사 2명 징계 청구",
     "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFA3TUdEeWthWVMzMVlyQl8xX295cFpSalZxSWl5UmVPc21pQzJIdThqSkg0enM1YzZlbFZpZC0tMlpOZDhLLV9lTFNNRmRTMzRWMHliSnBLU1Z0bVJM?oc=5",
     "date": "Fri, 14 Aug 2026 08:27:00 GMT",
     "summary": "",
     "source": "뉴스핌"
-   },
-   {
-    "title": "[속보]법무부, 집단퇴정한 수원지검 검사 2명 징계 청구…2명은 경고",
-    "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1oa25hMUxDeVdQMl9ybTJ4SjBDV0tYSjl6U3ZzOXVxWG43dEhxaTJTQWdXRUxTTk5iblN3QzBQWWVZNFh2RW0tQ2JWdkNWLWZFMnJz?oc=5",
-    "date": "Fri, 14 Aug 2026 08:27:00 GMT",
-    "summary": "",
-    "source": "네이트"
    },
    {
     "title": "법무부, '이화영 재판 집단퇴정' 수원지검 검사 징계 청구",
@@ -516,23 +530,16 @@
     "date": "Fri, 14 Aug 2026 08:18:21 GMT",
     "summary": "",
     "source": "MBC 뉴스"
-   },
-   {
-    "title": "대검 '징계 불가' 뒤집은 법무부…'집단퇴정' 검사 2명 징계",
-    "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE0yY3BWOWdYNW1ERmhXc2RYOEZnOVg4eVAycHBUUkhTV1RWUFRjMWZYXzMyRUU4MDRaUUI1WmdmWWJqODBxU1Ixcmk3ak9xdUpXdlFxY3d1eGthNndpLS1ZWg?oc=5",
-    "date": "Fri, 14 Aug 2026 08:18:00 GMT",
-    "summary": "",
-    "source": "네이트"
-   },
-   {
-    "title": "정성호 법무부 장관, `이화영 재판 퇴정` 수원지검 검사 2명 징계 청구",
-    "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQZVpVbFZSRklaalcwM3pzc0VYRkNkVmZKMUFxanJDUXQ4R3E0SW13S3dvOWkwRmo2ZkZOczI0Y3RqSDd5cFItOF9USS1PLWVDbUdGVS1oSlJSSkx2VVA1aDNTVUl3UFlYNHpxMTVlUUlNSjMyelk1WkFDanZwcUpjZ08zOXR0WlJ6Wkx2eEpR?oc=5",
-    "date": "Fri, 14 Aug 2026 08:17:00 GMT",
-    "summary": "",
-    "source": "국제신문"
    }
   ],
   "fund": [
+   {
+    "title": "관세청, '관세 성실신고 확인제도' 도입 추진",
+    "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9ISEM1R1U0OHVqbjVncmhrdzl6MENvb3Q4UXVkNUNhRFJkTENZY1p4aGQxYm0yS25iTWJVM1h3MXhTNHZKdHljOWtBNEQ4YU9jNlI0Qzk1cEg5SE54ZVkzT0QyRGM4Z1BMWWREcQ?oc=5",
+    "date": "Fri, 14 Aug 2026 13:29:50 GMT",
+    "summary": "",
+    "source": "행정신문"
+   },
    {
     "title": "금융위 “청년에 비아파트 구입 추가 기회 제공”",
     "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE44eXJjdC1EenZiRlJDaTRCd2hvU3RXdDctbnI0RmJuSzRLZktaLVZTWVBkTURKVlQ4YjI3S055VzJ1OEh6S0l4VGdYbEFmdms?oc=5",
@@ -616,13 +623,6 @@
     "date": "Fri, 14 Aug 2026 09:05:00 GMT",
     "summary": "",
     "source": "네이트"
-   },
-   {
-    "title": "관세청, '관세 성실신고 확인제도' 도입 추진",
-    "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE5zanRINzZCbHhYRWR0cnhLNE02a2lpVm94cXBLSzlkV1dQbTNFRVRMbktnRkdsQ1FZT1owbThSUHBGeDJ6SDR1LU5vM0s?oc=5",
-    "date": "Fri, 14 Aug 2026 09:04:00 GMT",
-    "summary": "",
-    "source": "시사일보"
    },
    {
     "title": "“청년에 빌라 떠넘기기” 비판에… 해명 나선 금융위",
@@ -723,6 +723,13 @@
     "date": "Fri, 14 Aug 2026 09:25:12 GMT",
     "summary": "",
     "source": "지디넷코리아"
+   },
+   {
+    "title": "강원 경제 이끄는 중소기업 한자리에… ‘제28회 강원중소기업인대회’ 열려",
+    "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBJbGhwMGM2R0FzS2Fhdmc1U19DYTJ0bkMtdWM1XzBNUkIwYnlfU3ZiSEYtenhMRHdtTDRXeUR0VUx1T3BjN3ZMX1lPSnlSaWRhaXdwNGFyVHEwNXhxRWx5V0RVS3VQeWtpblE?oc=5",
+    "date": "Fri, 14 Aug 2026 08:49:49 GMT",
+    "summary": "",
+    "source": "강릉넷TV"
    },
    {
     "title": "레티널, 중기부 글로벌 팁스 선정…4년간 50억원 지원",
@@ -844,18 +851,18 @@
     "source": "와우테일"
    },
    {
-    "title": "공지사항",
-    "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFB0S3RrbmdLa1Y4Zlk1LVh3SlRNZXdOc2RPZ00xMHJoVV82eWMxLUl5clp6VnpKQTJVNzFZMk9yX0hHeG5DaklIQWJnRFpmeFozRUJsWXd0ZjEweC1STnFvNTM4ZWg5dC1zWXQxUG9UR0xHRnRCM1owbw?oc=5",
-    "date": "Fri, 14 Aug 2026 04:10:24 GMT",
-    "summary": "",
-    "source": "세종특별자치시청"
-   },
-   {
     "title": "창업부터 가업승계까지...중소기업 절세 비법 한 권에",
     "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBQc1RoNldtYy1WdURGUklscG03cUdNRk53MUtCenV1cHFySFFiYUtMS3hFWVJtYkFwYUhVSURCWnliSklhZFVzMndaVTJqMjR5NVdzbGFDYUlWdVplb0xIbXNUeUU?oc=5",
     "date": "Fri, 14 Aug 2026 03:14:02 GMT",
     "summary": "",
     "source": "택스워치"
+   },
+   {
+    "title": "더 넓어진 도전의 문, 더 든든해진 창업의 시작 - 카드/한컷 | 멀티미디어",
+    "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPejZoVmNkWUdBWDBObnNzVnRxSzdfYWREeWs5YUlTZ2otUUdhRmJJekV3M044NHBNVkF4RXd2NDVITTlHdFdMLS1NOFh0bXdmREpvcU9KcXdWcGQ1NVFjU2pGNWxEVEZPMzRXWERuNzh5ZE41RHZ0RjVlUkRxQ2FZMHBzRnVkWWFkRVBz?oc=5",
+    "date": "Fri, 14 Aug 2026 02:35:00 GMT",
+    "summary": "",
+    "source": "대한민국 정책브리핑"
    },
    {
     "title": "연기금·민간, 1조 ‘LP성장펀드’ 띄운다",
@@ -877,13 +884,6 @@
     "date": "Fri, 14 Aug 2026 01:38:24 GMT",
     "summary": "",
     "source": "한국세정신문"
-   },
-   {
-    "title": "인천공항서 'K-브랜드 팝업' 운영…200개 中企 제품 선봬",
-    "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1iQmtXZUFMRTZDbmFTdDFGN0lmaHg3TlROUEFhcDQzM0dVeGdwXzZ4ZGdDVDZLbkZ1ZWVpZlEtdmExQ2VlaGlPeV9nd1g5NktzNzI4?oc=5",
-    "date": "Fri, 14 Aug 2026 01:34:00 GMT",
-    "summary": "",
-    "source": "네이트"
    }
   ],
   "money": [
@@ -899,7 +899,7 @@
     "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5xYmFZUnBhQ2pEN0o1NHlvQ0NNQ1NyMS1QdXlMX2x2UjZseUNwMndBWGVkR0FHOTZMb2FmMkprTjJ6bGxWMmRRLVF4dGlKRXJmanc?oc=5",
     "date": "Mon, 03 Aug 2026 01:26:54 GMT",
     "summary": "",
-    "source": "브런치"
+    "source": "brunch.co.kr"
    },
    {
     "title": "부산시, '2026 스타소상공인' 10곳 선정…성장지원금 2천만원·판로 확대 지원",
@@ -913,7 +913,14 @@
     "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5ybU0wQmN0clh3OGk1bW9wWTNGVnAxbk5lVWthT0xRalUzV2txRVlxTlhnZGluMTM1Sm50M0UtWDhoak8tWmYyb19MVTB4MEpyUVhmVERLZWlrUktGaFdtbFI4Y1Q?oc=5",
     "date": "Fri, 17 Jul 2026 07:00:00 GMT",
     "summary": "",
-    "source": "뉴스1"
+    "source": "news1.kr"
+   },
+   {
+    "title": "2026년 소상공인 정책자금 7월 13일 접수 시작, 신청 전 꼭 확인해야 할 5가지",
+    "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE4wZWM5di1GbVhMOXF3UnZCc1lET2VQTk1OSzRRRWRrNHNCUzBJYlpTWjV3Y2tMdzV1N3l3XzQydmFOd3lLTUtWMFNSSjlsblBwM2dJUnJrQUxmeGVhdnA4TTVMQ0dJb2_SAWtBVV95cUxQcUszMXNJZHpQaDB6UlZkLWxZNU5acjJyM3h4cV9BX0dNUjFENmhpaHhsOHdBb2N0VE1HYi1DNGRwUUFRTzBlUnZ5UzVUWjhRekFNeVU2S293bFF5X01tR1N3WkFLQndPNERVOA?oc=5",
+    "date": "Sat, 04 Jul 2026 07:00:00 GMT",
+    "summary": "",
+    "source": "창원특례신문"
    },
    {
     "title": "희망리턴패키지로 재기하는 법? 점포 철거비부터 재창업 지원까지 | KB의 생각",
@@ -962,7 +969,7 @@
     "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9uaVdtU0hGSVlacmg3QUluMXd6VVVkV1dScWJ5QklwMWNxdG9BaXJfNG0yYmN0UG5vQmd6bFBYaVNBT3lZdHo0LUlBMDhUd0ZXUWRz?oc=5",
     "date": "Mon, 04 May 2026 03:57:08 GMT",
     "summary": "",
-    "source": "브런치"
+    "source": "brunch.co.kr"
    },
    {
     "title": "2026년 전쟁 추경, 소상공인 최대 1000만원 지원…10월 신청 안 하면 못 받는다",
@@ -972,18 +979,11 @@
     "source": "창원특례신문"
    },
    {
-    "title": "소상공인 추경지원금 500만원 진짜 기준 총정리",
-    "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFBVRlh1dWhBV2xRQm5wYzc2OFRLOURQcVpmakpWb3dOcjdfMG5EeFdEVXE2M2twM0ZpaFFLd3BYQ1VwcGRySTdsSmw2MA?oc=5",
-    "date": "Wed, 22 Apr 2026 11:12:24 GMT",
-    "summary": "",
-    "source": "브런치"
-   },
-   {
     "title": "소상공인 지원금 신청 방법 5분 컷",
     "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBYM1NLUGlZZGxFRVFwSE90bU8yN0NSYndnMXc4WG1TTzFUZkNiM09TYlF6ZUw5RDZWOE03dXB3RkdSMVEwSmRpVUUxdmN1WUk?oc=5",
     "date": "Tue, 14 Apr 2026 04:59:51 GMT",
     "summary": "",
-    "source": "브런치"
+    "source": "brunch.co.kr"
    },
    {
     "title": "“지원금 사칭 피싱 주의보”…소진공, 300만 소상공인 긴급 안내",
@@ -1004,28 +1004,28 @@
     "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE0zVUc2MVJzNDFsX05vcHhoWTZNLTluR2FyWUZrb0JVNk5pWVZJQ2w5MkJ3T290MWM5RXpzRXZfWXVTdW5HaE1OMHF5OXFMWjgyeEE?oc=5",
     "date": "Tue, 07 Apr 2026 07:00:00 GMT",
     "summary": "",
-    "source": "브런치"
+    "source": "brunch.co.kr"
    },
    {
     "title": "전쟁추경 소상공인 지원금 신청방법 긴급경영안정자금 대출",
     "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9ZNnd3SUFhYnFsdjBFTElNMjNnQTdXWUljcDl5TktXT0NMSS05Q3hHbHR6aWNzamROSkZUMmpqTWJ5bXlBWWRaUTVZWmJkM3hnWkFB?oc=5",
     "date": "Mon, 06 Apr 2026 23:26:37 GMT",
     "summary": "",
-    "source": "브런치"
+    "source": "brunch.co.kr"
    },
    {
     "title": "전쟁 추경 소상공인 지원금 신청 방법, 대출 신청 방법",
     "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9NVmxEWGlRQnI3aFlCOF9PS2IyUGpNOXJidUNYNk5XQllTd1M1bWRJbTZoN0twYUhKSTdpMnBoRVF1ZlhKaFVUcHJ5c18wSXZBS1BF?oc=5",
     "date": "Mon, 06 Apr 2026 07:27:58 GMT",
     "summary": "",
-    "source": "브런치"
+    "source": "brunch.co.kr"
    },
    {
     "title": "2026 민생지원금 소상공인 지원금 전쟁추경 신청 방법",
     "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBhYWI0N09nWUE1elJ2eF9pLW5HWVJCSWRpMmdVb1NMNW1JNnpnLWNqdXh5N0JNc0tiRmVpQklCMmctbndQZUlLYzROd1FOb2xaTUFj?oc=5",
     "date": "Thu, 02 Apr 2026 23:36:09 GMT",
     "summary": "",
-    "source": "브런치"
+    "source": "brunch.co.kr"
    },
    {
     "title": "중기부 추경 1.9조 편성...‘수출·소상공인·창업·AI 전환’ 지원",
@@ -1056,11 +1056,11 @@
     "source": "에너지경제신문"
    },
    {
-    "title": "속초시, 소상공인 생애 첫 창업지원금 대상 모집",
-    "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBRUGJoT2Q1ZnZnSmVzWnA5SzZYQ09wU3pCdmpjNXhfdDZQQVFPdTVTRThvLTZBeEZRT1BleElKV0pjc2F0Ui1jVkE2NHdZLXJJX2RGZTFFUFFCcjBWRDZCM2hNdjg?oc=5",
+    "title": "속초시, 생애 첫 창업 소상공인에 200만 원 지원",
+    "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9ucVNucWh5MGpsS3dndjhLSlpBTlczUFh4TUNSLVV4QWZYYkc1ZEFHQ1Vpcl9UOUhtNWRTOXo1SUlhaWxCQWw3eDFUYm9oY0pBYjVydw?oc=5",
     "date": "Tue, 10 Mar 2026 07:00:00 GMT",
     "summary": "",
-    "source": "G1방송"
+    "source": "news1.kr"
    }
   ],
   "guide": [
@@ -1097,7 +1097,7 @@
     "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE0zSjRFdnZSNEk3V1JkbEo0VmVWRThwRkllZFhKVV9HQmx4LVNXVkQzaWpzNnJrcUJtelFaczVuVDF5Wm1zSTgyYkJxWUJSbXpoZDkxYWtMUnlkZWJoZ2F0QnR3a0RzT0l5MTJKWXZIQlFldw?oc=5",
     "date": "Wed, 05 Aug 2026 07:00:00 GMT",
     "summary": "",
-    "source": "sukbakmagazine.com"
+    "source": "숙박매거진"
    },
    {
     "title": "대전지방세무사회, 회원사무소 직원 직무교육 실시 – 부가세 신고 핵심실무",
@@ -1153,7 +1153,7 @@
     "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE12NVl0OWJYS181NWdZRDlaMS1ObVdEZFBhV1ZMVGlSZzJ3TThodVA2ajcwdzJXMkNqc1J0WWtmYXkyRzRIRlZzYnQ4THQzU3kybjNkWGM0OVFRSDJTZVVLT3JpRFVMWUYy?oc=5",
     "date": "Mon, 27 Jul 2026 07:00:00 GMT",
     "summary": "",
-    "source": "조세일보"
+    "source": "joseilbo.com"
    },
    {
     "title": "장사는 안 되는데 부가세는 왜 이렇게 많이 나오지?",
@@ -1184,6 +1184,13 @@
     "source": "브릿지경제"
    },
    {
+    "title": "안덕수 서울청장, 부가세 신고·체납관리단 현장 점검",
+    "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE4wcHNJSHJwaVRFRGMzMjhCM3VyMlVZeEc0aGhnUm5UeDNMeVkzdW80NE9KbXFaYW9ITFhmRWYzOEZXV3ZkY0IzSExteWZKVjg1ZXpETVliLXlfSkZQWkRN?oc=5",
+    "date": "Fri, 24 Jul 2026 07:00:00 GMT",
+    "summary": "",
+    "source": "joseilbo.com"
+   },
+   {
     "title": "심욱기 대전지방국세청장, 부가세 신고 현장 점검…\"납세자 불편 없게 지원\"",
     "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5IUXladTN3R3hhZ1RPZ19xaVFCbkptaVFpRk1TSERlNkkyMm04bElTUVItaHI5TFhtR3I2X2xBaHZhdnZWX3k3QTJmQ0VaVFRYbE1R?oc=5",
     "date": "Fri, 24 Jul 2026 01:21:00 GMT",
@@ -1195,7 +1202,7 @@
     "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFAyTjRtMXROc3oyWFowcTVuWkVxRU1JcWRIRUJYUVdYNVBibzVJYmVVOXIyVnQzZDlHQ1Q4UUdpRmRCNlN6TVRBVGZ3MGpVWjhHTkJPMTNjbUlPc0Q4R2RB?oc=5",
     "date": "Fri, 24 Jul 2026 01:20:32 GMT",
     "summary": "",
-    "source": "조세일보"
+    "source": "joseilbo.com"
    },
    {
     "title": "안덕수 서울국세청장, 부가세 신고현장·체납관리단 운영 점검",
@@ -1231,13 +1238,6 @@
     "date": "Thu, 23 Jul 2026 07:00:00 GMT",
     "summary": "",
     "source": "팍스경제TV"
-   },
-   {
-    "title": "심욱기 대전국세청장, 부가세 신고현장 점검…고환율 피해 납세자 등 세정지원",
-    "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE5TQTc0dElxZWc1bUdMendURTFJX0RIVG9ZU19VMjVfZTBUa2xQdzA0QmQxSExSY3BIcDdXRElka0V1SHd2Y2FkTnlFbw?oc=5",
-    "date": "Thu, 23 Jul 2026 07:00:00 GMT",
-    "summary": "",
-    "source": "v.daum.net"
    }
   ]
  }
