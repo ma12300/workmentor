@@ -2,6 +2,15 @@
  {
   "date": "2026-08-15",
   "kind": "market",
+  "edition": "아침판",
+  "title": "8월 15일 (토) 투자 브리핑 · 아침판",
+  "file": "briefings/2026-08-15-market-아침판.pdf",
+  "top": "소비 둔화에 뉴욕증시 주춤…다우·S&P500·나스닥 일제히 하락 - 핀포인트뉴스",
+  "count": 3
+ },
+ {
+  "date": "2026-08-15",
+  "kind": "market",
   "edition": "자정판",
   "title": "8월 15일 (토) 투자 브리핑 · 자정판",
   "file": "briefings/2026-08-15-market-자정판.pdf",
