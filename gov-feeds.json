@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-15T22:28:57.775Z",
+ "updatedAt": "2026-08-15T22:50:38.856Z",
  "groups": {
   "tax": [
    {
@@ -161,7 +161,7 @@
     "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE56RkZpUGFBTlhYVmlaR3d5bUtGYkZJUlpHUGtUVndaeDNpVm1CTW0xd2o4aHozLTZtMktadGhWZzNCMC1xa3Vxbk1oU3h5TzU3V1ZsZkpLdVYxY21iQ0Rra1hNXzNnQTNUbkgyMGQwRGk3dVRPcXfSAWZBVV95cUxPTTNWVTVudk9BOUdkd0NJdVc5cVJaVXFpbWc1aXhRRC1EcEdqeGhQaGFmMTRTNmVmT1ZvRUNEbkN1M2dYakNYOG1hWll4NHpMcVIzSWxBUm5Gbk5sZk5qcHJBN2Fkemc?oc=5",
     "date": "Thu, 13 Aug 2026 15:30:00 GMT",
     "summary": "",
-    "source": "donga.com"
+    "source": "동아일보"
    },
    {
     "title": "국세청, KB국민은행 특별 세무조사 - 조선비즈",
@@ -198,7 +198,7 @@
     "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5FNlFkQTlvNjhJOFN5R0Vwd3JvVFEwejlIUk9ubjdicDBXQk00MVBNQ3JZZEp3bXhiR18xejZvWnRzTlZZam0wdDRXNFBSdUl1Qy1aNHlnTkV3NGkzdC1jRlVXTEZtUQ?oc=5",
     "date": "Sat, 15 Aug 2026 12:04:35 GMT",
     "summary": "",
-    "source": "뉴뉴스"
+    "source": "nnewss.com"
    },
    {
     "title": "내 발로 나가도 실업급여 100만원? 조기 퇴사 부추길라",
@@ -497,13 +497,6 @@
     "source": "강원신문"
    },
    {
-    "title": "법무부 의정부교도소, 교정협의회 교화분과 주최 희망나눔콘서트 개최",
-    "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBwQzhrMlVlbWVsZ1M0Ry02SDFfZ2JzUHJQWTE5SXFlYkJYdkJydUhnWTdWNnFROFJQaWF3dnZ4MU1CWlRwWXBEWjgxaEk5Szg?oc=5",
-    "date": "Fri, 14 Aug 2026 13:29:31 GMT",
-    "summary": "",
-    "source": "포천신문"
-   },
-   {
     "title": "박상용 \"법무부 감찰위원 추가 임명에 청와대 개입 의심 … 사실이면 국정농단\"",
     "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5aMmU1WG1QMGpsb3RHZlI4WVRTMXEyWUxmUDRDYWp1b2laVmMxeURjck92WUZnR3ozZFRMakVMM0pqYnBVekdWUVNqV3BxN25Kc1ZtTFBSV0JlT1ZwSTdoNkp1S3lzUFRMQ05wUmx2V29sREptSDNkTDFZa9IBgAFBVV95cUxOY2tLbmY5UDVXX0kxNHNxbXFSTVBtUjFsU3FLVTQtbzluQWZlWVU0dW9vTEpPeEdWZEZoNFd6WkQ4YTB5enZ5UWpuOFdoMHFRNV9ybWNGTlhUeDRfUm0yVDJ5R0NPdlRHMXBJNFBsSEVpZ1ZIeFM3VnVmdW1pQ1pGag?oc=5",
     "date": "Fri, 14 Aug 2026 10:26:44 GMT",
@@ -530,6 +523,13 @@
     "date": "Fri, 14 Aug 2026 08:51:00 GMT",
     "summary": "",
     "source": "경향신문"
+   },
+   {
+    "title": "법무부, '수원지검 집단 퇴정 사건' 검사 2명 징계 청구",
+    "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5xZUs5eXUycXBxUUY2dHFkaEZkZ2ZSUS1aazdrOVg5SHJNZzlJaDU1NW5TTDk3cG45SHlCQmplRkkyU1N1ZGFNZGlaQVlnRDFib1N5Qm02S2lvbDFTV0E?oc=5",
+    "date": "Fri, 14 Aug 2026 08:44:00 GMT",
+    "summary": "",
+    "source": "YTN"
    }
   ],
   "fund": [
@@ -618,6 +618,13 @@
     "source": "데일리안"
    },
    {
+    "title": "금융위 “아파트 잔금대출, 은행이 사업성 평가해 집행” - 조선비즈",
+    "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPakhtVlFLNTZoNkFpR0h0UWloanhRa1RoYjFqQzYzMG4yLW1vakRMc3BydWRWdEQ0NlRXZ1FwQWhlcDJ6ZTFocVg5aHdmUk43d3piUW9rbnBvWnRFeldXOEJHdGdpaFRIaW1URF9rV3VLRENVMFIzRlhBYmJTdEFEaNIBlAFBVV95cUxNaC00aHhKRnNkSTJrbXl0bmZWT2RRSVpENE90QnZaTXZKY3V1ZURoU1J1MGdaR1FfS0pUeWhFaFVOZFFYYUt5UjRhalIyWGtvbC1JeTM5Sk9uUVFxV2ZRWndLSmV3aUlSdTlRQUwyYl9LcHU2UDZZZnlJRjRoaEc1emVkazI4S19IWVlubTFPYUNtY1Q3?oc=5",
+    "date": "Fri, 14 Aug 2026 09:20:00 GMT",
+    "summary": "",
+    "source": "Chosunbiz"
+   },
+   {
     "title": "“청년에 빌라 떠넘기기” 비판에… 해명 나선 금융위",
     "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBNYkVaWXhYbmczYUc1bEpQbmMzQVJVODk1T1NZX2lqVGItckZXVGJRQXZVVmhfbTZNX3VOa25vTlZoTWt1MFlCbWZicGRUSi12ZkNXVUtn?oc=5",
     "date": "Fri, 14 Aug 2026 09:03:54 GMT",
@@ -636,7 +643,7 @@
     "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBuLU1KdkVCWEE5N19kOEJVYW40WmM5bl9weW1EZkNuQllrVEFac0otSktMc3VNSXphMXh5X0JqNjZCRDdZWURVSWI5bHJVZFh5MWxEODJ5cXZPQWN3azhNU0l3VEZYckVfY2xWSFFfOG9SajQy?oc=5",
     "date": "Fri, 14 Aug 2026 08:48:36 GMT",
     "summary": "",
-    "source": "dnews.co.kr"
+    "source": "대한경제"
    },
    {
     "title": "\"'청년은 빌라만 사라?' 역풍…금융위, 하루 만에 진화\"",
@@ -699,14 +706,7 @@
     "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5vRFJrSldFdU9ZcVZqWTUyZDlPUHlSczAxRlFxdy1MYjVPN1d0RXJSUkswd0VIZ3pldEZMcnlaODJxNnZQT3Z3YlpyNjFleUNNZktZb0JNX1hCMDBScTFWMU40MnVKcGJiWWZWdTRUaGxZRnpVRFHSAWZBVV95cUxQSnptUHJHczdHSGR2Z05PbThJdUUxdHZrZEY3dHhwY09sVjlscnRKa1dfSGNUTTg3X3dMamlpLUlTektROGFYR241RGY4VXpOZE81Um1vX0FqR05XeDNadm1FSEZiMHc?oc=5",
     "date": "Fri, 14 Aug 2026 07:50:00 GMT",
     "summary": "",
-    "source": "donga.com"
-   },
-   {
-    "title": "'청년은 빌라에만 거주?' 비판 일자…금융위 \"아파트 구입 지원 그대로\" 해명",
-    "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5pUS1vSUZQYzZ4WmluWGRCTzJBVksyTmhaN3pRYkRtWTRPSnFFMmxtVER0ZUVpM1RTUDcwTWlTY1pXdzNWM1djU3V4WU1uaThNMmhiRHAwUjhFQlZnRFpqQ9IBeEFVX3lxTE1iXzhTWTZWZGdqbmVqWjk2RmJobVJvM0JHS1JRZGlveUJRSzgtWURaQVRYTkFqUjlNX2xQTl9pTDlfV0YtUG5nUlkwc2tOLTNic0NzWWRlaDlaRmJaYjU3V0xSdFBjakRWdVF5aXlmNGtoR2RXZXJyMA?oc=5",
-    "date": "Fri, 14 Aug 2026 07:20:33 GMT",
-    "summary": "",
-    "source": "뉴시스"
+    "source": "동아일보"
    }
   ],
   "biz": [
@@ -753,11 +753,18 @@
     "source": "전자신문"
    },
    {
+    "title": "레티널, 중기부 글로벌 팁스 R&D 사업 선정",
+    "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1BVGV1cHJmODZCZ3dSRGRmVGhqX05fNjhrU3lHU3d3OWlGMGpTNzBSMTg3dWJUMEVCVTdMVThDQkdWNG5VYUplNWVGUHdGeXFnLVh1dnJDSmVHY3FqNHJ6N2ZSNWs?oc=5",
+    "date": "Fri, 14 Aug 2026 04:25:07 GMT",
+    "summary": "",
+    "source": "베타뉴스"
+   },
+   {
     "title": "더 넓어진 도전의 문, 더 든든해진 창업의 시작 - 카드/한컷 | 멀티미디어",
     "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPejZoVmNkWUdBWDBObnNzVnRxSzdfYWREeWs5YUlTZ2otUUdhRmJJekV3M044NHBNVkF4RXd2NDVITTlHdFdMLS1NOFh0bXdmREpvcU9KcXdWcGQ1NVFjU2pGNWxEVEZPMzRXWERuNzh5ZE41RHZ0RjVlUkRxQ2FZMHBzRnVkWWFkRVBz?oc=5",
     "date": "Fri, 14 Aug 2026 02:35:00 GMT",
     "summary": "",
-    "source": "korea.kr"
+    "source": "대한민국 정책브리핑"
    },
    {
     "title": "인천공항서 우수 중소기업 K-브랜드 팝업스토어 개막",
@@ -834,7 +841,7 @@
     "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5qWE9ERWlFWHdUSWRJaHFjalhHeHVtbXB3T1RfcU9GQVBYVDFjdGtUcUtucmVmQm4yeThNZ2VKNlVlVjJVQ3ZJRWhmbnB2UzNlSEIybmZPb2xWYUhMblJCWTFJR2Q1Y2ZQRW1GTA?oc=5",
     "date": "Thu, 13 Aug 2026 09:05:15 GMT",
     "summary": "",
-    "source": "korea.kr"
+    "source": "대한민국 정책브리핑"
    },
    {
     "title": "[금융권 풍향계] 수출입은행, 첫 벤처투자조합 투자 나선다 外",
@@ -862,7 +869,7 @@
     "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE4xeHlBZ1N3N1lhb3hWalVKNzZSSGVnbEpmSVF5MklITTFWYmU3UjYzc3FvRmFleExzNE14LWpuMGFtQUdUMzhVdkRFVkxFcUh2bXdWYTJwcG0ycTVXTHVrbEpvNHg?oc=5",
     "date": "Thu, 13 Aug 2026 07:44:01 GMT",
     "summary": "",
-    "source": "sentv.co.kr"
+    "source": "서울경제TV"
    },
    {
     "title": "중기부, LP성장펀드 출범…민간 벤처자금 1조 조성",
@@ -877,13 +884,6 @@
     "date": "Thu, 13 Aug 2026 07:08:32 GMT",
     "summary": "",
     "source": "매일경제 마켓"
-   },
-   {
-    "title": "두레시닝, 중소벤처기업부 도메인 특화 AI 사업 선정…‘에너세이프’ 개발 참여",
-    "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE1ES0hNcC1LY0dJZEhPSHNQUDZobi1xSFJRaE5hY0EwWmRmS0IwYWR6amZVMTZqdE45aGhGcUw0bjVURllWaG82NXd2SQ?oc=5",
-    "date": "Thu, 13 Aug 2026 06:22:41 GMT",
-    "summary": "",
-    "source": "v.daum.net"
    }
   ],
   "money": [
