@@ -2,6 +2,15 @@
  {
   "date": "2026-08-17",
   "kind": "market",
+  "edition": "아침판",
+  "title": "8월 17일 (월) 투자 브리핑 · 아침판",
+  "file": "briefings/2026-08-17-market-아침판.pdf",
+  "top": "XRP 가격 전망: 2030년까지 10달러에 도달할 수 있을까? - TradingKey",
+  "count": 11
+ },
+ {
+  "date": "2026-08-17",
+  "kind": "market",
   "edition": "자정판",
   "title": "8월 17일 (월) 투자 브리핑 · 자정판",
   "file": "briefings/2026-08-17-market-자정판.pdf",
