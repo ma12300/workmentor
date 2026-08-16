@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-16T11:26:05.444Z",
+ "updatedAt": "2026-08-16T11:48:10.450Z",
  "groups": {
   "tax": [
    {
@@ -35,7 +35,7 @@
     "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9ITFlGX21PeVdxZjYtQ1pmZlhGQXpNckVVX2NiWGlpbG9DcHpESnFkWEpwUWJJdk8wdnE4WWxQU3ludlB0T0dmNndyd00yVTh2MkM1V3hKdDktM1k5U2lOTg?oc=5",
     "date": "Sat, 15 Aug 2026 02:36:03 GMT",
     "summary": "",
-    "source": "아시아경제"
+    "source": "asiae.co.kr"
    },
    {
     "title": "[개업] 김학선 전 광주국세청장, 내달 1일 세무회계 선&선 개업소연",
@@ -150,13 +150,6 @@
     "source": "세정일보"
    },
    {
-    "title": "국세청 AI 세무조사 본격화…\"사후소명 아닌 사전증빙이 핵심\"",
-    "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBQOEVKNUFRUU5ONFVQdVV0WFJ4WmxLUldVWTlESldMaDBmUzRSUXFzMUlHcHNlVEZqRTlzYXltSWhfazQxNW4yajBGa0k5cGlhMzNOVl9ibVg1dGJTeWZlVWdTTkRVamk2T0E?oc=5",
-    "date": "Thu, 13 Aug 2026 23:00:00 GMT",
-    "summary": "",
-    "source": "조세일보"
-   },
-   {
     "title": "국세청, KB국민은행 탈세 혐의 포착 특별 세무조사",
     "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBSUHdmc1RWN2NLWXQ4aFJRUlNOQk04eG5MMDR0b1pYMnB1UVRYRkdNUmRfck9oWHJVNDM0ZVpXdXpyRWFoZU54RDQ3ZmNncmc?oc=5",
     "date": "Thu, 13 Aug 2026 21:03:10 GMT",
@@ -175,7 +168,14 @@
     "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE56RkZpUGFBTlhYVmlaR3d5bUtGYkZJUlpHUGtUVndaeDNpVm1CTW0xd2o4aHozLTZtMktadGhWZzNCMC1xa3Vxbk1oU3h5TzU3V1ZsZkpLdVYxY21iQ0Rra1hNXzNnQTNUbkgyMGQwRGk3dVRPcXfSAWZBVV95cUxPTTNWVTVudk9BOUdkd0NJdVc5cVJaVXFpbWc1aXhRRC1EcEdqeGhQaGFmMTRTNmVmT1ZvRUNEbkN1M2dYakNYOG1hWll4NHpMcVIzSWxBUm5Gbk5sZk5qcHJBN2Fkemc?oc=5",
     "date": "Thu, 13 Aug 2026 15:30:00 GMT",
     "summary": "",
-    "source": "donga.com"
+    "source": "동아일보"
+   },
+   {
+    "title": "국세청, KB국민은행 특별 세무조사 - 조선비즈",
+    "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOSUhzeDRhRmRpT1RKeHFESzZQTU0yeURuaUZXTHZoQmNnTEd5ZHMzem9uLWZDU3NPNG5RbjNDNm0xcUttcEFyTTFTT0NPTUZZcjFLUkk1d1pRVXgtMTM1N25hZjNMR0IyTWMxeVlaWndPNXVhSHhadUlGY2JIT3NSZzN5bmtfQdIBmgFBVV95cUxQLU9lUWVZa2V6RkV1Y0FpMVNic1ZoOExSZ1FPZHBObEpZcVBuOTFncjlTSmR0Z2JQdVI5TGJPTnNYc0hDeW1vd3F5ajJIa1NsTW9tYnY2MlNMM19uQ1U3QWloVUJqMnZRTThBSlEzU1IwdlpRNWI0aHVwMW9FaDVBd0toVF9oTmluVVFycUJzWTdFVGR1X2VlV3FB?oc=5",
+    "date": "Thu, 13 Aug 2026 08:21:00 GMT",
+    "summary": "",
+    "source": "Chosunbiz"
    }
   ],
   "labor": [
@@ -247,7 +247,7 @@
     "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9hSDZWNnY4Mm02NlJhWUlWR2Nia1FOcmtoNy0yNnZDejkwYnZZTi13bGxhV1ljYjJQOExSUnBDdHE4eWRvYW9aTHBnaWMwalpqTEE3eG1RTlFzdw?oc=5",
     "date": "Fri, 14 Aug 2026 03:19:00 GMT",
     "summary": "",
-    "source": "kbmaeil.com"
+    "source": "경북매일"
    },
    {
     "title": "고용노동부 창원지청, 건설현장 산재·온열질환 예방 점검",
@@ -296,7 +296,7 @@
     "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBJWG5XTG5JdklDaENMd1AzTEdvVFBHbUJKckhmMUdsYnY1dm9USEFCa09aRUpVWGE1TWdaNktsMlk1RUF5TFcwQTJBTlN4OFdzOXZGeE9DN19SdG85Z0dpVw?oc=5",
     "date": "Fri, 14 Aug 2026 00:35:07 GMT",
     "summary": "",
-    "source": "아시아경제"
+    "source": "asiae.co.kr"
    },
    {
     "title": "[노동뉴스] 병원 ‘태움·괴롭힘’ 손본다…고위험 사업장 근로감독 연계",
@@ -338,7 +338,7 @@
     "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5FNm16LUpnUFg5QVNnQ1hzT3RKTXg5OGtMQ1ZVTGR1dTI5MDlOXy1VQ3Z1LWlXQm93WEdYZjlyWFVWcTMwemRIRnJBY2toZ0lUVHlVd1JKSDdZamZNZ2NHcUhtWUtrWndtZWZwdGFGdVlOUQ?oc=5",
     "date": "Thu, 13 Aug 2026 15:12:00 GMT",
     "summary": "",
-    "source": "헬스포커스뉴스"
+    "source": "healthfocus.co.kr"
    },
    {
     "title": "[8월 13일 인사종합] 보건복지부, 고용노동부, 한국원자력의학원 외",
@@ -375,7 +375,7 @@
     "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE43VmQ5UTVlZWlmY2pxLXIzMGZ6Zlg4VWp3dWxWMHBEZk1mR2JFdzhrNE90a3FudldJbGxBYWJlQm5GdzUtbWNmWUYwU0Ztblp4UW1jOVdn?oc=5",
     "date": "Sun, 16 Aug 2026 03:54:20 GMT",
     "summary": "",
-    "source": "뉴스21 통신"
+    "source": "news21tongsin.co.kr"
    },
    {
     "title": "친일재산 환수 다시 시동 건다…16년 만에 조사위 재가동",
@@ -473,7 +473,7 @@
     "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE8wTGlqT0ZQZ1E5clZObTBLVFNHc3ZMUVRaRXBQN1p1TzhZaHN1T1BXdzY3aVQyRXF0dFMtQ0hRSWVVcmJUYnYyNnZBT3VYQ1ROU0I1RDNWejhsaEpfMEpLcWRPalRyZ1E?oc=5",
     "date": "Sat, 15 Aug 2026 00:00:00 GMT",
     "summary": "",
-    "source": "자본시장뉴스"
+    "source": "jabon.co.kr"
    },
    {
     "title": "법무부 일자리 우수기업 ‘100호’ 탄생… 한국법무보호복지공단, 인증식 개최(100th 'Job-Creating Company' Certified by Ministry of Justice)",
@@ -608,7 +608,7 @@
     "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE13TE4wd2ExOVpRXzB5TjFGalVPVHY4ZkhNVFNEWTNrVWcxWG16amNzS1lpQTZJXzcwbUU4ZjZDS3V6OHprazM2dA?oc=5",
     "date": "Sat, 15 Aug 2026 11:26:00 GMT",
     "summary": "",
-    "source": "소비자를 위한 신문"
+    "source": "consumertimes.kr"
    },
    {
     "title": "\"청년은 빌라 살라는 거냐\" 비판에 진화 나선 금융위",
@@ -636,7 +636,7 @@
     "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE01NEptNzZCbThENndnZ0pjMk5jdHBDOWJhVHBFeXpYZ0Q3SExpWFdObU1MMnVoVnhJS1BfV1lWcGU2a0lTWVcxaExjbVREbTJoOE1zaW1wWm1UV3BudWJ2Mk5ZbVdGQ0k?oc=5",
     "date": "Fri, 14 Aug 2026 11:49:00 GMT",
     "summary": "",
-    "source": "연합뉴스TV"
+    "source": "yonhapnewstv.co.kr"
    },
    {
     "title": "금융위원장 “가계대출 총량조정 투기수요 자극신호로 읽혀선 안돼”",
@@ -685,7 +685,7 @@
     "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBNYkVaWXhYbmczYUc1bEpQbmMzQVJVODk1T1NZX2lqVGItckZXVGJRQXZVVmhfbTZNX3VOa25vTlZoTWt1MFlCbWZicGRUSi12ZkNXVUtn?oc=5",
     "date": "Fri, 14 Aug 2026 09:03:54 GMT",
     "summary": "",
-    "source": "joongang.co.kr"
+    "source": "중앙일보"
    },
    {
     "title": "“청년 빌라로 내몬 것 아니다”…금융위, ‘4억 비아파트’ 논란 진화",
@@ -844,6 +844,13 @@
     "source": "서울파이낸스"
    },
    {
+    "title": "정부·민간, 1조원 벤처펀드 조성.. 'LP 성장펀드' 출범",
+    "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1FOUxlclNaS2pyX0t1UzJUZkRoZlMzU1oyaWVGLUMyaVBZUjZSX0RKRkFjdkp6cnhDRjlhMUpVWjdwQnMxaDJ6dXJhV2cxbEtFaXRRanJ4Tmh0aENFLUw5Y3lfcVduYWp1eXpr?oc=5",
+    "date": "Thu, 13 Aug 2026 14:42:00 GMT",
+    "summary": "",
+    "source": "열린정책뉴스"
+   },
+   {
     "title": "\"벤처투자 손쉽게\"...중기부, 1조 규모 'LP성장펀드' 결성",
     "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9QUElkaU4xNW0tRkZqZHdMa2VnZ2xPWTBGbXdMU3hDZlpGMUw5eW1vMWRNdUU3NDRjQzhDb1NFaGZ0U3VqNElNNGZwOEdLWlpQWXBMdFhB?oc=5",
     "date": "Thu, 13 Aug 2026 14:38:49 GMT",
@@ -877,13 +884,6 @@
     "date": "Thu, 13 Aug 2026 11:41:30 GMT",
     "summary": "",
     "source": "전자신문"
-   },
-   {
-    "title": "중기부·한국벤처투자, 1조 원 규모 ‘LP성장펀드’ 공식 출범",
-    "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBfVUNWWFczamRIdXJvbXlkczh2WVVBN3lEWWtFejd2TnlzVl92NmZoZ2tXNk15MGJHN3ZZWWdhMWNxSnpRVmhlOWNrT3FxM0JmaDVUTXZabHppak9TWWpJVm9pdVVockE?oc=5",
-    "date": "Thu, 13 Aug 2026 10:40:40 GMT",
-    "summary": "",
-    "source": "중소벤처기업신문"
    }
   ],
   "money": [
@@ -893,6 +893,13 @@
     "date": "Tue, 04 Aug 2026 07:00:00 GMT",
     "summary": "",
     "source": "부산일보"
+   },
+   {
+    "title": "부산시, '2026 스타소상공인' 10곳 선정…성장지원금 2천만원·판로 확대 지원",
+    "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE56UVJHcG5waEJOVkszOTA4b1BBUUJ3MFhsWC1GSzhtd05ITEQzT0RJLWQxcmdrZVZndTh6T2oteU1LNlY2dHRiN0NoS0FtRkg2UG81UjFQNjZFQXNqQ2ZFY2hWbw?oc=5",
+    "date": "Wed, 29 Jul 2026 22:29:03 GMT",
+    "summary": "",
+    "source": "nsenior.co.kr"
    },
    {
     "title": "2026년 소상공인 정책자금 7월 13일 접수 시작, 신청 전 꼭 확인해야 할 5가지",
@@ -1054,13 +1061,6 @@
     "date": "Tue, 10 Mar 2026 07:00:00 GMT",
     "summary": "",
     "source": "뉴스1"
-   },
-   {
-    "title": "소상공인24홈페이지 이용 방법|신청절차 한눈에",
-    "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBHT3V3Z3ctejYzdmFrQWJoTXlvaUdSYWl3UjVhRnRrVGQ3SExDUnJuRGMtTWNoVkpGSkhncXZDOHBkUFVPc0NTYTlGUWlOT1BCaEE?oc=5",
-    "date": "Sat, 28 Feb 2026 08:00:00 GMT",
-    "summary": "",
-    "source": "브런치"
    }
   ],
   "guide": [
@@ -1104,7 +1104,7 @@
     "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE0zSjRFdnZSNEk3V1JkbEo0VmVWRThwRkllZFhKVV9HQmx4LVNXVkQzaWpzNnJrcUJtelFaczVuVDF5Wm1zSTgyYkJxWUJSbXpoZDkxYWtMUnlkZWJoZ2F0QnR3a0RzT0l5MTJKWXZIQlFldw?oc=5",
     "date": "Wed, 05 Aug 2026 07:00:00 GMT",
     "summary": "",
-    "source": "sukbakmagazine.com"
+    "source": "숙박매거진"
    },
    {
     "title": "오상훈 부산국세청장, 소상공인 부가세 세정지원 당부",
