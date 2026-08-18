@@ -1,7 +1,21 @@
 {
- "updatedAt": "2026-08-18T07:06:13.150Z",
+ "updatedAt": "2026-08-18T07:55:42.305Z",
  "groups": {
   "tax": [
+   {
+    "title": "거제·통영 중소기업에 세제 지원…국세청의 폭우 피해 대처는?",
+    "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBCMDFQX3Qxb2pnallScDhmTUt5eVZPQkg0V1pYNE03QlE1aDUzd2E2cUZ4NndYMThUM2NHZWM1NDlzcHppT0Z0Q2taZndCYXZkczNoQ1g5RmRYZXhqLU1nMGNPVTJwbkJs?oc=5",
+    "date": "Tue, 18 Aug 2026 07:34:19 GMT",
+    "summary": "",
+    "source": "공감신문"
+   },
+   {
+    "title": "국세청, 거제·통영 중소기업 세금 납부 기간 연장",
+    "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBMLVR4eFBPenkxcEZHTHNVd2NneGdRUDRERjQ0S1d5T3U3X3lHX0Q0NVV6cDdPLWhqTmZITzBvTGwxSGpqT3A1NnhERzRRbWV4X0FhYnBWYWhTd19pTlluMg?oc=5",
+    "date": "Tue, 18 Aug 2026 07:32:00 GMT",
+    "summary": "",
+    "source": "네이트"
+   },
    {
     "title": "가상자산 과세 관련, 국세청 사칭 해킹메일에 주의하세요! - 전체 | 카드/한컷 | 멀티미디어",
     "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNT0RlYnRCb29rb2xQNW55Sy1BVW1qcXhfWnRFOWRfZXNaY1hITzJ5Z0hXcVg2c3ZoZGpnR0FyTmhJLW5uVU5Zd3lNbzlteFFvWVBvanN4ZVMwN1lHWm1yODJSdEg1RXZrTV8tc0NQN0VfZDRZeTA5QXhWTllhRUpqS0Z2R2p6ODFRR0RF?oc=5",
@@ -108,6 +122,13 @@
     "source": "한국일보"
    },
    {
+    "title": "국세청, '호우 피해' 거제·통영 중소기업 세금 납부 2개월 연장",
+    "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5ybVJGNVlCQ1dqUHhYelR6VXdKZnhQOUNCMTZDQldIeGR0bUE3VkhMd3lpU1MzTE5NV3QyaGpEOGZyREUzLUtnUDRxcTNWSkE?oc=5",
+    "date": "Tue, 18 Aug 2026 04:55:07 GMT",
+    "summary": "",
+    "source": "v.daum.net"
+   },
+   {
     "title": "거제·통영 '호우 피해 중소기업' 세정지원…국세청, '법인세 중간예납' 기한 직권연장",
     "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1NcGV4LTBOclJUazlrTURtUDVpYlRSUjJocldrY1RiTHJiMHB3bVhPekxjUTBNd1hHZC1xakV1X1hEUnJuZTdPaW5od0gxR1dNMF9V?oc=5",
     "date": "Tue, 18 Aug 2026 04:55:00 GMT",
@@ -120,13 +141,6 @@
     "date": "Tue, 18 Aug 2026 04:54:31 GMT",
     "summary": "",
     "source": "녹색경제신문"
-   },
-   {
-    "title": "국세청, '호우 피해' 거제·통영 중소기업 세금 납부 2개월 연장",
-    "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1ES25oam9tdkxEUXZiMlhIRWFtV0VDXzlKVzE5c1RHQ19aX3l0Z2pBMS1PX1FSTXVuRVR2RkhFNzJ5LWstZFRoYlFlNTA3VGJMUHpndlE4V3ZJellrRUVOQUx4RWdBU2VnQW1tLWZVVThBVjJT0gF0QVVfeXFMTURLbmhqb212TERRdmIyWEhFYW1XRUNfOUpXMTlzVEdDX1pfeXRnakExLU9fUVJNdW5FVHZGSEU3Mnktay1kVGhiUWU1MDdUYkxQemd2UThXdkl6WWtFRU5BTHhFZ0FTZWdBbW0tZlVVOEFWMlM?oc=5",
-    "date": "Tue, 18 Aug 2026 04:48:28 GMT",
-    "summary": "",
-    "source": "MBC 뉴스"
    },
    {
     "title": "국세청 ‘극한호우’ 거제·통영 중기 세금 납부기간 두 달 연장",
@@ -162,36 +176,78 @@
     "date": "Tue, 18 Aug 2026 03:49:13 GMT",
     "summary": "",
     "source": "한국세정신문"
-   },
-   {
-    "title": "국세청, 남부지방 호우 피해 중소기업 법인세 납부 연기 지원",
-    "url": "https://news.google.com/rss/articles/CBMilwJBVV95cUxNcDcwS1NDRzVJVnpoak9Da3ctb0l3eC10LUtMcmRkZnZzX3FUMzU5WE5hWHhaT0YwVDdRckxPZ3FERnIyQXVURjI3NGIyLUlLVkYtV09PSGFrQ2JaUEZ3YWExZnFMaDNFempTc1djdlQtM09RVjg0Q2RvUi1yN2hHS1VsOUVVTEFKUEJXcDJzb3JfUno5Y3BzWWtkYTlrNlB5ZEp6OTlHWDE4TFZKb1Etek9CN09hNjF3dExGTl9QbkEtOE9jYlJCZDVrc0NOVEpENlVib3ZGUnAtUUgzNEl6NDNhY21Ec0VGd3EwbkFRVmxUMDVnZzRCeGJyaDl5Qkdadk43dmVIZVdUOFBreGdJVC1OTXJoNk0?oc=5",
-    "date": "Tue, 18 Aug 2026 03:02:00 GMT",
-    "summary": "",
-    "source": "데일리안"
-   },
-   {
-    "title": "국세청, 폭우 피해 중소기업에 세금 납부 유예…“복구 집중 지원”",
-    "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE8wOEtUbnNKVzBnYkMwaGlyZVhMbHB5SG5wdzB2MERKZTZqVVNrbThsaTFxQUlFVkFXaTBrMms4UXlZQzc3VWlMV2F2ZWdXN25EOVNweGNzUU1MT3Zoa1djeGtTUVF4VDRZVTU4ZEVIaHN0akhT?oc=5",
-    "date": "Tue, 18 Aug 2026 03:00:14 GMT",
-    "summary": "",
-    "source": "조세일보"
    }
   ],
   "labor": [
    {
-    "title": "노동부, 플랫폼 노동자 권리보호 국제기준 마련…제도 정비 착수",
-    "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE4xdkhGVWFpVnhuSUVmUktPRXBRM05qRkZsY0FqWV9XWmwzUTliV2FtMm1PYm1rb1JXdldNYkRZcC1ZZjdDbUlIT3NTR3E0UjVEaUhj?oc=5",
-    "date": "Tue, 18 Aug 2026 07:00:00 GMT",
+    "title": "HD현대중공업 끼임 사고…고용노동부, 강력한 현장 감독 시행",
+    "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE92WUVyTl9vak1vSnpMTFk4WlJ6VlcxSmJvVU1JUFlNUGd6eVA0eXJwb25kdmhYZ2RsZFB4TTlUQjdmQVJlV2FyMDRFSkRVRDhqaFcwM0pQWmlKOFV4VEptbWFRam9ERXN4?oc=5",
+    "date": "Tue, 18 Aug 2026 07:38:14 GMT",
     "summary": "",
-    "source": "데일리안"
+    "source": "공감신문"
    },
    {
-    "title": "노동부, 플랫폼 노동자 권리보호 국제기준 마련…제도 정비 착수",
-    "url": "https://news.google.com/rss/articles/CBMiowJBVV95cUxQNU1xeWEzTXNpdEU5dGxfLW82YklFbTdSeFFPYjZJTTk0MmFRdVN2RklzS1FTbGUxc1hXdjg2d214S0REbHJ0d1NhU3g3XzNGTWI1cXJLeGVqMFVUc0wxZTZuTVJQMzFWd01xWFpsRXNTNzVuVnVOQ19URWpsZlJ4Z1ZGMnZ6ZGZKc3FSLTJiWFFEdUZpNVAxWVNrY2FXUkJ0ZnM3UUtkM2VObWhKMHljQk9HRlYzRm5kWnFCak9PcWZJTVFQdXZDXzRTRDlrYXVVSjFKRFpraE5zVG0xX3BXeV9EZlowT2tTZkRGV2RFVTBHRENzQnF1YUo2bUozN0I1dmhiSEp5bkVFUTR6ZFhVbkdkdjJOLVk5aEVVOXcyUktwdlk?oc=5",
+    "title": "노동부, 불합리한 고용관행 근절…공공부문 비정규직 집중 감독",
+    "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1nMTl4TE9iZEF0bUhsV25YVi0yeVZndFU5WC1LOGdmMjVPSmtIZmlHSFlEN2NCblJxNUtTOEV2UWJCOER0X2kzZ1hLSWw1ZndoUUVOZ1JseVJnSjh2cFdURkJMUXZHdVZk?oc=5",
+    "date": "Tue, 18 Aug 2026 07:35:35 GMT",
+    "summary": "",
+    "source": "동양뉴스"
+   },
+   {
+    "title": "‘364일 계약’ 등 비정규직 관행 손본다…노동부, 공공부문 200곳 집중감독",
+    "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9aVmhxUVhiQ0lVSE5DWVBwUTl5MU4yY294Sl9RSk5MWU16TzFtRFNpQ2lUSG9xcF9rTWN2SmEtSko3N0F6WUtrNjdDR25WOER2V0s2U1liYTYwWno2eWVmOU4yRjdUNVlpcl80?oc=5",
+    "date": "Tue, 18 Aug 2026 07:32:00 GMT",
+    "summary": "",
+    "source": "서울뉴스통신"
+   },
+   {
+    "title": "공공부문 비정규직 ‘쪼개기 계약’ 집중감독…200곳 대상",
+    "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9TSlptUVBpdkpqdDJiWEthYzd1QUJKUTIxQ2FqRUhXV1JWQUhIRF9GVUo1VzRsWHNJWDhQT3lyclN0cGR5TWV3RTh2WVNhYTY4dGhiWmR0cldqYkpRdnFrdWN1djBHVVVmb1lEZVBLdw?oc=5",
+    "date": "Tue, 18 Aug 2026 07:24:12 GMT",
+    "summary": "",
+    "source": "기호일보"
+   },
+   {
+    "title": "현대중공업, 일주일 새 끼임사망 2건…노동부 근로감독 착수",
+    "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9UNjRzZEtlNkdnMDhXNURXMFdrZFA1RE9LUWgxd2NQWW1tRjA1NFYtbUdEVG1OdDA2RmNENGVCUW52clFjbDJZYXJ4bFFGWDVVY2ZQU1hUZFFtSnBjdzlTUS1OR2ZPX01YMVQ4LUxGN1g?oc=5",
+    "date": "Tue, 18 Aug 2026 07:22:26 GMT",
+    "summary": "",
+    "source": "산경일보"
+   },
+   {
+    "title": "군산조선소 끼임 사망사고 후 노동부, 現重 62명 투입 고강도 감독",
+    "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1ybEpvWnVGMUVYQnpqWXpXUllDN25WMzJyTkpLNUF6cWJucU9LeWNjbzBJVDUwSDc4SzFqUkhJc0JRd2t3ZUE4SzJ3clNRT0w5eFJ2d0VEQTVKdGh1YlYzQ01MRzNudnNXajJwVHA4bw?oc=5",
+    "date": "Tue, 18 Aug 2026 07:19:50 GMT",
+    "summary": "",
+    "source": "투데이 군산"
+   },
+   {
+    "title": "노동부, '플랫폼 노동자 보호' ILO 협약 후속 논의",
+    "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1DLVdfOGZPeWdudTVRS25mUUduYUl1WVBZVk9fRnBRRGtKT1c0M3JxVFg1SHRURklkS2dXRTNxUnV5NDd2MEdibnpMdWo4Vi1jRnBkUDlMWE9sTWR5THpqctIBeEFVX3lxTE1PMGttNlBZYTFKb0xXSWViUEtOR09HM2FJZ2xNR0RYNDJFSWJmRVhCWmZ1TF9DUi1OaWcxclZ6eVo5NXlxUl84Nkpya0szT25MQ1h6S1oxMU5wc21yajJhTFpKT214V241QnYtZWFUZ0tyd1FNcFpCSQ?oc=5",
+    "date": "Tue, 18 Aug 2026 07:10:55 GMT",
+    "summary": "",
+    "source": "뉴시스"
+   },
+   {
+    "title": "일주일 새 ‘끼임’ 사망사고 2번…노동부, HD현대중 근로감독 착수",
+    "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFA4R1hHRjFqOEIzZnpXMl93dE05T3lRaGtZTlQzQmoyV3Aza1lneGtkNTdwNlp1SlcwVERjVzNucEw1MFk2cVlUYU9PQkFjWXRWOEZrV0lMdjlGLUp3RFpYa2JJQi0?oc=5",
+    "date": "Tue, 18 Aug 2026 07:05:00 GMT",
+    "summary": "",
+    "source": "한겨레"
+   },
+   {
+    "title": "노동부, ILO 플랫폼노동 협약 후속 논의…\"법·제도 지속 개선해야\"",
+    "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5xelJ0VUlabXhNQ3psN2x5YzljNlhkS0dRWWhmWTl6ME1wc2xYdE9UZ3FYVDB5d2h1Zlh1NVZYX0hIek5fcGE2X1lGd1dZcGNuN2hDOEdZdWFyeUJ2dkRabQ?oc=5",
+    "date": "Tue, 18 Aug 2026 07:01:00 GMT",
+    "summary": "",
+    "source": "네이트"
+   },
+   {
+    "title": "노동부, ILO 플랫폼노동 협약 후속 논의…법·제도 지속 개선해야",
+    "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFAwQm5qT2x0aWVGSXQ5ZFJ5Qm9WSlpVRTA5SmtLamR3Y2QzLVppd05DeXNzR2RBWlJzVE55YzY4bTAyQXJqd3c4eFBjRnlrTnduODJRN000MGxXZ9IBWEFVX3lxTFAzYlZjRjcyRksyaHk0U21HTURQQ1FQTXlzeWNCTkdYMU1tcnVHWkhqYmc5ZDVxV3ZWZ21MN3RUZHBxZkszUmY4Vi1mNjMzNFNPNjNtU0k3WjI?oc=5",
     "date": "Tue, 18 Aug 2026 07:00:00 GMT",
     "summary": "",
-    "source": "데일리안"
+    "source": "아주경제"
    },
    {
     "title": "\"일터기본법 제정해 플랫폼 노동자 보호 기반 마련해야\"",
@@ -201,8 +257,29 @@
     "source": "뉴스핌"
    },
    {
+    "title": "AI·플랫폼 시대, 고용 보호 해법은…노동부, ILO 협약 토론회",
+    "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5HUnJDLUpFU0R6cnkwVWVvMUZ0T2pFazE2RVJGamRUUEpSYXN4SmlmT3BUbzRJZzFDemJNYXpQQmdRZmYtS0IteE5oUTZ1OXpNS2dV?oc=5",
+    "date": "Tue, 18 Aug 2026 07:00:00 GMT",
+    "summary": "",
+    "source": "네이트"
+   },
+   {
+    "title": "노동부, 플랫폼 노동자 권리보호 국제기준 마련…제도 정비 착수",
+    "url": "https://news.google.com/rss/articles/CBMiowJBVV95cUxQNU1xeWEzTXNpdEU5dGxfLW82YklFbTdSeFFPYjZJTTk0MmFRdVN2RklzS1FTbGUxc1hXdjg2d214S0REbHJ0d1NhU3g3XzNGTWI1cXJLeGVqMFVUc0wxZTZuTVJQMzFWd01xWFpsRXNTNzVuVnVOQ19URWpsZlJ4Z1ZGMnZ6ZGZKc3FSLTJiWFFEdUZpNVAxWVNrY2FXUkJ0ZnM3UUtkM2VObWhKMHljQk9HRlYzRm5kWnFCak9PcWZJTVFQdXZDXzRTRDlrYXVVSjFKRFpraE5zVG0xX3BXeV9EZlowT2tTZkRGV2RFVTBHRENzQnF1YUo2bUozN0I1dmhiSEp5bkVFUTR6ZFhVbkdkdjJOLVk5aEVVOXcyUktwdlk?oc=5",
+    "date": "Tue, 18 Aug 2026 07:00:00 GMT",
+    "summary": "",
+    "source": "데일리안"
+   },
+   {
+    "title": "ILO 플랫폼 협약, 국내 입법화 방향은?…노동부 직접 토론회",
+    "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1zUEtZc0tfOWItcDhDZUpWNVNHTjFqV3JkUWVVXzhqWXZiTUFuZldHV1hON19OYnJCT2dHSmI5S1I2QVN6NmxTNWlzTVN0VUh4U1E?oc=5",
+    "date": "Tue, 18 Aug 2026 07:00:00 GMT",
+    "summary": "",
+    "source": "노컷뉴스"
+   },
+   {
     "title": "노동부, 7월 잇단 끼임 사망 사고 발생한 HD현대중공업 고강도 감독 착수",
-    "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBfTjBPVldqQVA2R0F1TmdqMlhQMVIyUTc2V1lQN3VCNUVXbWJOWDdCeFRNY2J4VHRFbWNvWUh0a3A3RTFSbUJaR2d0TGI4bkZZQ0ZkZmt0Y3BVai1hMldHSQ?oc=5",
+    "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE00aHlFeWdOcUhoaURLSEFxQ0g0M3VVME8zQTlOdWVWaE5jaEVFQks2Y2phV3ZfSkxueGgwM0RRLWNDZFZzWkl3Ti1QOV9GREdCTWRn?oc=5",
     "date": "Tue, 18 Aug 2026 06:58:00 GMT",
     "summary": "",
     "source": "네이트"
@@ -243,13 +320,6 @@
     "source": "포쓰저널"
    },
    {
-    "title": "노동부, HD현대重 고강도 감독 착수…대규모 감독반 투입",
-    "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1TWG8yR3kwbm5XZS15LTBfaEt3VE1wU3BMSW1sdWF4X2FNZ0U1Z2ZOTFE3U1ctVlJFb2ZSTFVkSVpKejNtNWFacUZ4VTBsYjJDU3IwN0tyd0tfeHpLTWNMcld6MA?oc=5",
-    "date": "Tue, 18 Aug 2026 06:20:34 GMT",
-    "summary": "",
-    "source": "매일일보"
-   },
-   {
     "title": "고용노동부, HD현대중공업 특별감독급 조사 착수...잇따른 협력업체 끼임 사망사고 겨냥",
     "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBrMGZCaEQwdW9nT1ZqTk9VS0xTbFkzOHBrSWtHUWZ5QUVCTjZXZW9JSHRKV3BGSm1yRDdXOWxXVGVPX1BRSDEyZUs3em1uNXEyNm92eVFQd3pfc2VvZnc?oc=5",
     "date": "Tue, 18 Aug 2026 06:18:00 GMT",
@@ -278,84 +348,91 @@
     "source": "아주경제"
    },
    {
-    "title": "끼임 사망 잇따라…노동부, HD현대중공업 고강도 감독 착수",
-    "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9LdTlmVWkzdXV1TFh6ZmNtZVFtZmhPNGlGS0kyMW4zQVpJRGxPTjdDNDd0b2Z1cHYzU2ZyRElJV0tEbVZfQmltSnBEYk00TmNpSjhCRF9RR1lkcTBSRHdodA?oc=5",
-    "date": "Tue, 18 Aug 2026 05:54:44 GMT",
-    "summary": "",
-    "source": "아시아경제"
-   },
-   {
     "title": "파주 2분기 실업급여 372억 … 전년 동기 대비 소폭 감소",
     "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE8yVnlCdWhsaVRsRVFCR2lEcUZqVzBkLUpOeS1zNm1pd2VnQkduMkc1SndaVHpFaDhOdHRQeHZ6Z0lzc09lM3Q0Wk9PczJGTWlnMXhFTkNUbDRpSHIyT2JlbDN1WTlzVl9BZ2c?oc=5",
     "date": "Tue, 18 Aug 2026 05:33:38 GMT",
     "summary": "",
     "source": "파주타임스"
-   },
-   {
-    "title": "일주일 새 노동자 2명 숨진 HD현대중공업…노동부, 고강도 감독 착수",
-    "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5meFdncXpfSEo3aG1UTEU3SlFQeUlYRE5kRUZJbE14OXdZUFYyZ2wzbU1tOGhsTGNRTGxLelZMTHVzUGFVdC1NWFExRXNCZmhUbHhEeUM1Q2laNjN3Mi1qSkhmUkNXVW42QlZUbVZn?oc=5",
-    "date": "Tue, 18 Aug 2026 05:25:37 GMT",
-    "summary": "",
-    "source": "아시아투데이"
-   },
-   {
-    "title": "고용노동부, HD 현대중공업 본사·공장 중대재해 감독 돌입",
-    "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFB3Mm8xR1F6ZjBCam5sa1F1VUFvR2hsel9BWVdQeU9qbmxXTDJFVklXV3BLOHBFVk5ITnRBYWJYem5jUlZRNFBOS0psbjQzQ2ZOX0E5TWJybHBZOEI1aWl6ZzJuZ0hKNnExQTB1VWhn?oc=5",
-    "date": "Tue, 18 Aug 2026 05:19:39 GMT",
-    "summary": "",
-    "source": "gukjenews.com"
-   },
-   {
-    "title": "공동근로복지기금 탈퇴 시 3주 내 행정청 보고 의무화",
-    "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9sa25tN2VwbE5KSEVfX0ZuTi1CNkp2Y1dGUENLSTlwTGVvOHJTU2FPTDlGcVVWSlJUYmFjZGlEcE9BLS1kZW9rWFNPbFpCVFpTRFlFai1qSXBxNmVZUFRlN1dPcWdXcmZocDJlVjdNUzNNLWNq?oc=5",
-    "date": "Tue, 18 Aug 2026 05:18:45 GMT",
-    "summary": "",
-    "source": "대한경제"
-   },
-   {
-    "title": "공동근로복지기금 탈퇴하면 3주 내 보고…근로자 복지 공백 막는다",
-    "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE45Ql9kc0V2dm1Da3Npdi02YXJ0Q0VOcTlBeHJZRjhwWk1teTM5aHM1ck0tSWYtdXlGR20wc3hYbUV3ajVfT3VSdlJZRS16TTJtaTUtcjhvdHhkdGFSSDU4N0tHRzRubUVxRWNETmhB?oc=5",
-    "date": "Tue, 18 Aug 2026 05:17:36 GMT",
-    "summary": "",
-    "source": "아시아투데이"
-   },
-   {
-    "title": "\"1주일 끼임 사망사고 2건\"…노동부, HD현대重 고강도 감독 착수",
-    "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9tSmhIZHVhTTB0eXVLMWItZXg4MW4tcVdva3JITVVOWWRETWxhTklNZThiRkJoLWx3MUgta0FJY1RVdHpFTFd3RkprRmc2ZlFkZkRKRGdpOHVrODZJSjdTY19yZHQ?oc=5",
-    "date": "Tue, 18 Aug 2026 05:16:50 GMT",
-    "summary": "",
-    "source": "매일일보"
-   },
-   {
-    "title": "HD현대중공업 일주일 새 끼임 사망사고 2건… 노동부 고강도 감독",
-    "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE8zcmIwWmRpQWJBNUk0bGVrSnplU3k3dkd4c0xtcHFBQnF1eXNTRlZXSl9aelZfZmVMYnhCa094Z01iYUpsVXlHYUd1MnEzeWF0LU94UFhMOVFwdjBtVWVqX2lJbWozOTNlOWJsaTZHUkU?oc=5",
-    "date": "Tue, 18 Aug 2026 05:16:13 GMT",
-    "summary": "",
-    "source": "안전신문"
-   },
-   {
-    "title": "노동부, '잇단 끼임 사망' HD현대중공업 고강도 감독 착수",
-    "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1ZSWQ0SjBydHlyVzE3bDBwUGFIbkIxdUdyMHloYjFiYktsWFBTMnlkQmpkbDg4dXRSa3VYZHpnd2pRd1VYT2JKT3Eyd2g2aGhuQ25OSHN6WExOTmPSAWBBVV95cUxPV1p6cGNqWkxIVEdiQW56MV9XZzhTLWZ2VG1wd3JGVEVxb0s3M0lQVEZucDVQTVlMeThvYjFhT0lHYVJPOUpvT1V5enctbFpJZGI3aU1XS0JBR0xGQV8zVnk?oc=5",
-    "date": "Tue, 18 Aug 2026 05:13:07 GMT",
-    "summary": "",
-    "source": "연합뉴스"
-   },
-   {
-    "title": "‘364일 쪼개기 계약’ 잡는다…공공부문 200곳 비정규직 집중감독",
-    "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1pWEUxQXE3NzNCNUxPNHJESFZleFJyWTFNdnpCNFJ4b2VyTE5aZTRONUUweTN4VWpuSnpfRjdRbXdYcUQyMWRiUjRxb1BDbXlXOHV4WGFZTXVyTkFsMms5TGNNTmJscFg4NzYzeDBn?oc=5",
-    "date": "Tue, 18 Aug 2026 05:11:21 GMT",
-    "summary": "",
-    "source": "아시아투데이"
-   },
-   {
-    "title": "근로복지기금 탈퇴 사업주, 3주 안에 보고 ‘의무’…복지 공백 최소화",
-    "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE50T2gySC1xMFl5ZXpTWFhVbW9jTVFlOFFKbHpBcDdYRHF5VVhDQ203ZmNkYXlqQTByb3doQkVud0wyTlFmYWw2Nm5iYXFWV1I1X3Bkd0NjbnhlcGtTYWNzMmtJSDA?oc=5",
-    "date": "Tue, 18 Aug 2026 05:06:00 GMT",
-    "summary": "",
-    "source": "한겨레"
    }
   ],
   "law": [
+   {
+    "title": "정성호 법무부 장관, 사직서 제출… 1년여 검찰개혁 주도 후 자리 내려놔",
+    "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9ldHNFQkFIeXcxUUc2VXJqMFpKSG11MktYN21SX3RfN1hDRWVnZktDNWZUUVoxNlNYX1pDZy1nck1wTXpHZkp1b01oVllILVJNVFJreU1EN2taLTdHT0pqZnBwdVdDNmZBbkE?oc=5",
+    "date": "Tue, 18 Aug 2026 07:40:19 GMT",
+    "summary": "",
+    "source": "sisaworld.kr"
+   },
+   {
+    "title": "법무부와 검찰 '수장 공백'…정성호 장관 사직서 제출",
+    "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5xeTRELWRjVGF3MTY5bTd6OGx0UGM5WFcyalkxM0hkSzM2dUxSU0VIekw3YmRHN0d6ZVZyT3ltMksyaHVyRTRqaWRtUnctc0xxUTZsWE5EYjEzSEpNTlo4Y2llZ3ZNc1RwNmUwbHFIVmw?oc=5",
+    "date": "Tue, 18 Aug 2026 07:39:49 GMT",
+    "summary": "",
+    "source": "코리아리포트"
+   },
+   {
+    "title": "법무부 장관 사퇴 … 정성호의 검찰개혁 성과와 여운",
+    "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE42VVdSbHpzdW5qUmZsZHhqeUc2Y3RPV2laTWN4NldFVElZaHNCZ3kzemxnMUlGN0luNGRqUFViWFhQUENYdjVwS3NrbzJCd3VJR25hbi1USFBLVUoxVXkwZUZ4TXVKTUMw?oc=5",
+    "date": "Tue, 18 Aug 2026 07:35:02 GMT",
+    "summary": "",
+    "source": "공감신문"
+   },
+   {
+    "title": "“새 술은 새 부대에” 정성호 법무부 장관 사직서 제출",
+    "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9sWXBnN2pUNTlqWVJZREdTaWR0dHJMOUgtY2UyQ1pJdGhYcERDMER2MkgtLVlYVndyRVR0MmI5RlF2MXlObW5xa2ZLQkVSTHlvOXZvNXdIZHJZOW5OOXc?oc=5",
+    "date": "Tue, 18 Aug 2026 07:27:00 GMT",
+    "summary": "",
+    "source": "주간경향"
+   },
+   {
+    "title": "정성호 법무부장관 사직서 제출... 과거에도 \"새 술은 새 부대에\"",
+    "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9YWFEweVd4VnNGZWpDV3kzYUM2U3RmQWt1M05nVUhuUXJBYUVzOVZpNFlVcm5oUHRxMDJaMlUySnBQMnBubGFJaE5HUHlleXh3WGljTVZ5M0loR0U1aVFPeHhsaGN0TFdvUjgzVTR6dmR4dnMzVmI0?oc=5",
+    "date": "Tue, 18 Aug 2026 07:18:00 GMT",
+    "summary": "",
+    "source": "OhmyNews"
+   },
+   {
+    "title": "정성호 법무부장관 사직서 제출",
+    "url": "https://news.google.com/rss/articles/CBMiREFVX3lxTE1sdGg3TVF5WDNSUThvMGdQRkpIZTRNSTFYZld2WmFtY1ZXQjg1TnlsQ0RFYzRJLUpMMGJZbjhyQ3U4cnJz?oc=5",
+    "date": "Tue, 18 Aug 2026 07:09:00 GMT",
+    "summary": "",
+    "source": "newszoom.kr"
+   },
+   {
+    "title": "李대통령 ‘잘 버티시라’ 했지만… 정성호 법무 장관, 사직서 제출",
+    "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxORjJhRDBFN1BETTVrRFU3ZWpOU05USV9QQWlIM04zWXVwck5pbG11cmdCd2lYUUNGZWN1WUVJbHI1TXNPRGozSTN1aTVydHlSTXpSTVdMQzIzMVE2NENpSnZDdTJZczlGNlhqTjJ1ZHo0VU9nTVFwRDhxZVRWY0NlRnNjRk5EZlU?oc=5",
+    "date": "Tue, 18 Aug 2026 07:08:00 GMT",
+    "summary": "",
+    "source": "조선일보"
+   },
+   {
+    "title": "\"건강 악화\" 정성호 법무 장관, 검찰개혁 입법 마무리되자 '사의'",
+    "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFB6N1JLVDVhaE9EbXVHQmVZbVFhVmYyX2lBLXFlMmlBSVc2V3BQZk81NEZHR1RSajFNbEh4cmJ6RG52OFgwSDZKbkJ6TElTOVNFNzFkTnRmLTVhUEZxaEpZSERNQ2ZZRE1yT05xcFRLZ0o?oc=5",
+    "date": "Tue, 18 Aug 2026 07:06:35 GMT",
+    "summary": "",
+    "source": "신아일보"
+   },
+   {
+    "title": "정성호 법무부 장관 사직서 제출…검찰개혁 마무리 등 배경 거론",
+    "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE0zSFFuSzdTYUgwcDNObFJxdkJCXzRmSVZVTTRrd0N4RGxfdEZlRnAybzg5MGVYN01TMkRCSTdBTmtzU21kR3cyamN0eC1LR1RhcHFZ?oc=5",
+    "date": "Tue, 18 Aug 2026 07:04:00 GMT",
+    "summary": "",
+    "source": "네이트"
+   },
+   {
+    "title": "정성호 법무부 장관 사직서 제출...검찰개혁 마무리 등 배경 거론",
+    "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE14dFB2TUFDb015UXQ4OFZ5dTA0S0RRajNUWmdtNVp1bkExWXlsT2hwVjItR0ZrMFV3Rnk5cTZ3WHE1WWU3WVdWSW4tVlJiU0xGZnZOTEY5eGpLZTNlcGc?oc=5",
+    "date": "Tue, 18 Aug 2026 06:56:00 GMT",
+    "summary": "",
+    "source": "YTN"
+   },
+   {
+    "title": "한화, KAI 15% 다음 수는…공정위 넘어 '수은 지분' 확보가 핵심",
+    "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE94MGdnUnRuOVpxTjFLUzZnVFpmRURHRE1XcnJmbklZT2Q2aFhrbTMwVU5SWmhiUmRjeTQ2c1ZqX2ZXbTZTaUQ0b3FKc3BUWW82?oc=5",
+    "date": "Tue, 18 Aug 2026 06:50:00 GMT",
+    "summary": "",
+    "source": "topdaily.kr"
+   },
    {
     "title": "정성호 법무부 장관, 사직서 제출",
     "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE45ak90LU1JUENKTV9QUFdaRmZ1NUVKdGt6eDloczM5R3dnZjB4bUJyWXh3YlZjdlhaamltZGd6WHNTNWNQcC1OWnhYT2U4RjMxV2pOWDRRWXBEcmRVcWtrTA?oc=5",
@@ -371,18 +448,11 @@
     "source": "더리포트"
    },
    {
-    "title": "정성호 법무부 장관 사직서 제출…취임 1년여 만에",
-    "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1kRjY3ejJCeGNnaURTQk11ZjdFdk4xdkR3MXc3NkIxVUJvV2V5NUdkVHRaUV9DaVlFbTdOdndmTm14MVFDb0hzLUxaMnZ1eUZQaUJoUnVEb1RrYnVqWEpGZg?oc=5",
-    "date": "Tue, 18 Aug 2026 06:38:00 GMT",
+    "title": "정성호 법무장관 사직서 제출…검찰청 폐지 이끌고 1년여만 퇴장(종합2보)",
+    "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE8zSGNZelhEbDJFLUpFYnpVZ1dUZ3pCcW1GX1QxTmwwekJXUXhBMXVPYUU5S19XbjFHNlpNMDl1MHU0NkphbF9RUkw4YWdyN3c?oc=5",
+    "date": "Tue, 18 Aug 2026 06:37:48 GMT",
     "summary": "",
-    "source": "네이트"
-   },
-   {
-    "title": "정성호 법무장관 사직서 제출…검찰청 폐지 이끌고 1년여만 퇴장(종합)",
-    "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE93T1NzXzlHWXcxck1WNWtpLXJyb3JIaDBPTG9jNEtYRnlDUWpwYVJvZUNYYnlPdEFZRVotSExDT0ltR29KYzY1eDFvaUhhY05qblE4X2lWMkpqV1k?oc=5",
-    "date": "Tue, 18 Aug 2026 06:36:20 GMT",
-    "summary": "",
-    "source": "연합뉴스"
+    "source": "v.daum.net"
    },
    {
     "title": "정성호 법무장관, 사직서 제출…\"검찰개혁 주요 입법 마무리\"",
@@ -397,6 +467,20 @@
     "date": "Tue, 18 Aug 2026 06:33:44 GMT",
     "summary": "",
     "source": "아주경제"
+   },
+   {
+    "title": "정성호 법무부 장관 사직서 제출…취임 1년여 만에",
+    "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1mdmJIV0FvN2pQUDJjVmpxLURfWmVKaV9QdzZFLXI3c1ZDRi1fRlN3Q2RUOUx5ak1XcnVnUTVGWFB6VFdLQ01DTlBIRzFSb1AtNFlhcGhn0gFQQVVfeXFMT1VjLXViam1JZHdYaE00ZDA0ODJjcUhMd3d4b3JLRE9GSDVsejAxZmZtUUtNWDItV1Nha3BYTmNzY1V4VEZRdi1DalIzekZqcDc?oc=5",
+    "date": "Tue, 18 Aug 2026 06:33:40 GMT",
+    "summary": "",
+    "source": "더팩트"
+   },
+   {
+    "title": "정성호 법무장관 사직서 제출…\"검찰개혁 입법 마무리·건강 문제\"",
+    "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5LQWRLNjg3TmlFMHFNdlV6cEo3OXlzRm8tc0djMFc3N3YySl9iTWdKMnJUY2dtUjE5UmlWemRDZk5BV25jMGxVWEtPX3N0dUV3MEZ1ekplcE9VRTRiZjdUblMwNTJsNFNGVnVV?oc=5",
+    "date": "Tue, 18 Aug 2026 06:32:07 GMT",
+    "summary": "",
+    "source": "일간투데이"
    },
    {
     "title": "정성호 법무부 장관, 오늘 오후 사직서 제출",
@@ -438,107 +522,44 @@
     "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE05SnBNSDlWTU9JYmlPY0ZYbldRelFlRkRUS0pnUmp5c01jX3lCVEkzdXhEVlhSUHhTRGRpMFpJaVNCdjhYOGdJNGNRNlZ3ODhqTm1rTTZoY0Z5MEg5UmJUcHdRRjdFLWJlLWUxWg?oc=5",
     "date": "Tue, 18 Aug 2026 06:15:32 GMT",
     "summary": "",
-    "source": "스마트비즈"
+    "source": "smartbizn.com"
    },
    {
     "title": "정성호 법무부 장관, 사직서 제출… “검찰개혁 마무리”",
     "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE13ekdEcjl0U3FHT2w4ZXl6em1OX1pWbkFDQWRDck03QXlyT01VU1BRUHd2eDVicG9wWU5UN3lBMzM2V0RLTEJMN0RZX0R3QUJCbWo0Q0FfWjJLVy1lOXZQWmllUjVoNWt2WWc?oc=5",
     "date": "Tue, 18 Aug 2026 06:15:09 GMT",
     "summary": "",
-    "source": "newscj.com"
-   },
-   {
-    "title": "정성호 법무부 장관, 사직서 제출 - 머니투데이",
-    "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBlZ25ib1E2YXJzTVh4eC1PSXhidDRwaW5ic3JIajVJYXh0ZVdTRzFNR3pDc2NYYUJjT05Ea2ZfODJzV0xQWGcyOFJsRDdvR1IwYm03RTJhdWt0N2J5Tjhzb0M0WHp0ODRKOXI00gFwQVVfeXFMUHlLYnJtZ09XX1Q2aWRuOU5YTngyclZMdmVYUWxsN0lEVVVad0VrNy00YmJzVFJlZWFSTXBnUTVYeURDSmdPZzRXbmFCRFJobTNZVTBxeGhWOEUwTTI0WUl1TmJ2cm1mREZrTWhpVGJHRQ?oc=5",
-    "date": "Tue, 18 Aug 2026 06:14:52 GMT",
-    "summary": "",
-    "source": "mt.co.kr"
-   },
-   {
-    "title": "정성호 법무부 장관, 靑에 사직서…\"건강 악화, 검찰개혁 입법 마무리\"",
-    "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBIMS14UDVwdUxZZDlrcFI0eEJkenNIVWhrWkw3ZjRCMXVPdE1mdzlLaVBnX1pBeVpPMlFHVGVQUDYtQW9mTVZXblpjak1QRVZHZUJaU0hGenlwWGczaHIxVdIBeEFVX3lxTFBpc21xOW1yRHJleG5uUVVIRUhLMWdNN3ZDZE5TazJwNnJuNjF2V2t6VWc0eldXdGhnaDlaeTYwSUZhUURhNkQ3TjliQlcxUmdYbFNfT3hOZGpHYzZnclFrNlRrRFRhOVVGUlI5OFVPWWhqaU5tNjkwSw?oc=5",
-    "date": "Tue, 18 Aug 2026 06:12:18 GMT",
-    "summary": "",
-    "source": "뉴시스"
-   },
-   {
-    "title": "정성호 법무부 장관 사직서 제출…\"검찰개혁 입법 마무리, 새 리더십 필요\"",
-    "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE50cTdUUkYtU3BETGlDMW5kWEJrT21xR3hCWi1IY3ItX0J3dHRQLXRNaXdTRG5MUF9GelJRcVNHMUV6NlVjQ0gxUF9UcmNaU2FPd0dj?oc=5",
-    "date": "Tue, 18 Aug 2026 06:11:00 GMT",
-    "summary": "",
-    "source": "네이트"
-   },
-   {
-    "title": "[속보]정성호 법무부 장관 사직서 제출",
-    "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE0tUlFtSEp1Z1RUcXZLLXY3QVZLTTZBcEJMQ21tZ3NrYnFEdFNrWnQ3ZkVwS3JtZFNCOEdzSUlvbGFxQ0RtMFZPaGRudjR3NTh6X19BQVlSd2xOY2IxRkxYYQ?oc=5",
-    "date": "Tue, 18 Aug 2026 06:10:12 GMT",
-    "summary": "",
-    "source": "KBC광주방송"
-   },
-   {
-    "title": "정성호 법무부 장관 사직서 제출…“검찰개혁 마무리”",
-    "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE93aU5VZ2hFRDJuQWFub0ZfVGh1T0R3ZXdqZExSRjktRjZ1eDhnM0tjdHV5dXNZYkFRWTJ4Z1RXVWlqVmd0aDNTemJ2aWY3RnVpLU9vemVoX041SVpwSFVtVTV1N0N3cE1ENWRPNTRB?oc=5",
-    "date": "Tue, 18 Aug 2026 06:09:03 GMT",
-    "summary": "",
-    "source": "아시아투데이"
-   },
-   {
-    "title": "정성호 법무부 장관, 사직서 제출...검찰청 폐지 D-45(종합)",
-    "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE82TGxOT0hGRGtPUHQzTDZ4VFdJcUdzV05OMUJVdlZlN0xNX1NkYUN6X1hrS01RUXFwaUVyaEktb0VjZm5acFZRcXh0RG5peG5wbEE1ZWVLQjdwUQ?oc=5",
-    "date": "Tue, 18 Aug 2026 06:08:51 GMT",
-    "summary": "",
-    "source": "파이낸셜뉴스"
-   },
-   {
-    "title": "정성호 법무부 장관, 사직서 제출…\"검찰개혁 입법 마무리\" 이유",
-    "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBQMjhXQjVoT01YX3dTRG5YNndMcVBrUlhzV3FjYXBkUnhzUUJFWXVhcndmWjQ1emZaekhfUjlheWFaZTJjSk5wQVNzbnVBUDZLelBLMlBUSS0xUEdPS25fTlBRbHFwNWpNSE9FMXBxOA?oc=5",
-    "date": "Tue, 18 Aug 2026 06:08:04 GMT",
-    "summary": "",
-    "source": "뉴스웍스"
-   },
-   {
-    "title": "[속보]“새 형사사법 체계는 새 리더십 아래서 완성되는 것이 바람직\"…정성호 법무부 장관 사직서 제출",
-    "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5XaUd2ejJMdktEOWRVSlJwZGp3R3Q4SkNuMlZSendXNjBHak8xdExCdG5saXpqNjctUmZDeER6RUFycFV0dm5pRlZFYmxVSmJkYmNFZlVEcHhGR1U?oc=5",
-    "date": "Tue, 18 Aug 2026 06:07:08 GMT",
-    "summary": "",
-    "source": "강원일보"
-   },
-   {
-    "title": "정성호 법무부 장관, 사직서 제출…\"검찰개혁 입법 마무리\"",
-    "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBvTTRZOFRWa3RXMk93cEpGMTNmVk85VjZrNkVVdFpCa1A3TFF2bjE3TEV3QlNObVpxMkcteFJIUE9CU2VGNm1NQlhUY012cWZSWXNkUW40Mnh2VElp?oc=5",
-    "date": "Tue, 18 Aug 2026 06:06:00 GMT",
-    "summary": "",
-    "source": "뉴스핌"
-   },
-   {
-    "title": "정성호 법무부 장관, 사직서 제출...\"새 형사사법체계엔 새 리더십 필요\"",
-    "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE0xR3liSTc1ZDE2dTZsX0EwQU9MSTd3Q1FJQ083NDZwMm5UdVExZUpNb0NSWDY1TGVWVkpaMVgybG1UclgwR0UtakhYNnR0ZS1zLU8xam9jVU1hZWRVdlZGS3FsenJ0NktfR1NB?oc=5",
-    "date": "Tue, 18 Aug 2026 06:04:05 GMT",
-    "summary": "",
-    "source": "news.bbsi.co.kr"
-   },
-   {
-    "title": "정성호 법무부 장관, 사직서 제출…“검찰개혁 입법 마무리”",
-    "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBhMDU4LVctRmlualVjTVU4ZktHT2t2TnJBQ2IzZVlncXlqZHJfQ1pfUWtJNTFCNlNDOWZ5Yi1wcG1iZzJza3NiMHQ1bS1XY0ltTTZMZ2J3aFdUUGpKcFlyY2dMbUx0RmFWcU85V21n?oc=5",
-    "date": "Tue, 18 Aug 2026 06:03:32 GMT",
-    "summary": "",
-    "source": "서울이코노미뉴스"
-   },
-   {
-    "title": "정성호 법무장관 사직서 제출…이대통령 이번엔 수리할까",
-    "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFA5WWxLSC1EaVBkcW1pTkNodU8tMlQxSHhCdE1jMEhsR3M1cWtKa2FsbDRTaTN2ZzFqQkZRVUxZM1ZESHU4TzBNb1MxcHMwUFZ1ZW1kZ2d2dzJ1aGFlaW52N2FDcmtiTFRINTJn0gFuQVVfeXFMTndzSnRUTFk2Q2dxX0Z1cHlYRnBvY0YwRXFNb05Eb3dpMzNxRUNGRlBicl9Lc0JnSU51UWZUT2RUU1NQOURxeXNWZGJfU0Y0djlMbktvVXBONDVUanUtTkIyN1FIYlRnRE9OaFRHU0E?oc=5",
-    "date": "Tue, 18 Aug 2026 06:03:00 GMT",
-    "summary": "",
-    "source": "weekly.chosun.com"
+    "source": "천지일보"
    }
   ],
   "fund": [
    {
-    "title": "\"규제영향평가 했다\"던 금융위···국조실은 \"실시 안 했다\"",
-    "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1vbFphcTlHLVVEMElsM0phTVVZMFQ4R2k2NzcxXzRocXpudkUxSHoyaE0tUm43ZWtUSXJieFp4RkZ3WHY2NkNkOEcxV3JzU01laE13?oc=5",
-    "date": "Tue, 18 Aug 2026 06:50:00 GMT",
+    "title": "송언석 “금융위, 레버리지 ETF 규제영향평가 거쳤다 말해”…국조실은 “안했다”",
+    "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBjeFBMa3pGbld6NFJBOXdJTEt3ejB3cVdFbkxSeUxlVG1WSUxZUWRuRjZ4blozcExOT1dORzZwZXEtQjhtNUUtV3RPMW04bDFwRHc?oc=5",
+    "date": "Tue, 18 Aug 2026 07:47:00 GMT",
     "summary": "",
-    "source": "네이트"
+    "source": "더나은미래"
+   },
+   {
+    "title": "2차 공공기관 이전 발표 임박···'세종行' 가닥에 금융위·금감원 노조 반발",
+    "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1WZjRiRU1vbVMySGcwVmtiLW0zSVdDencyTXRjOF9ha28yeThIZUdLY2RpZDF6anBJVGY5RFphZmxfUHpZOW1pb0JVdDJXZ1dVRE40dmNtVE9yR0RaYU9tZEh5ckR5dmFpX3c?oc=5",
+    "date": "Tue, 18 Aug 2026 07:20:37 GMT",
+    "summary": "",
+    "source": "서울파이낸스"
+   },
+   {
+    "title": "\"규제영향평가 했다\"던 금융위···국조실은 \"실시 안 했다\"",
+    "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9YRkJFMjFOaElJcVQ5MjhzXzNtcEhxZkFCUGJpWmFLcUhocHMxX09ZN1NUMHNxQ2xoeXFGbFgzLXBNLTdpU3dsbUhsV01uVVAyTC1qQVFmdS1jR0dfLWJhOTVWQ3VKQjc0RjVzZw?oc=5",
+    "date": "Tue, 18 Aug 2026 06:49:24 GMT",
+    "summary": "",
+    "source": "smartbizn.com"
+   },
+   {
+    "title": "관세청, “수출입의 첫 단추, 품목분류 최강자를 찾습니다”",
+    "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1Odk85OWFabzZoakVNVnNfUC1KQ0p4dWZrNktUQ05ET2kxY1V0LUNBOTlvNm1kUzllQWpwbWVnemk0aXlDZFJFUHdLOE1SeS11Mmp0aXh5eTVvME1iSUNqMnhfd1llLUR1RUlqSmRR?oc=5",
+    "date": "Tue, 18 Aug 2026 06:43:44 GMT",
+    "summary": "",
+    "source": "전국매일신문"
    },
    {
     "title": "포용금융도 임원 책임…금융위, CIFO 제도화 속도",
@@ -573,7 +594,7 @@
     "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE94ek5HRlFLS09UZ2lmUWZlWHNNMnlhSTVzS1JLWFg1VzZhM0k0WUJSZFUxUmszS09CQ3dHQklMdTNyMWtQSHE4d1hnVXhNMXZHbEtHUm1nakVIczJhVDRVclczOGVfOUpGSHM4?oc=5",
     "date": "Tue, 18 Aug 2026 05:02:45 GMT",
     "summary": "",
-    "source": "news.bbsi.co.kr"
+    "source": "BBS불교방송"
    },
    {
     "title": "관세평가분류원, ‘제27회 품목분류 경진대회’ 개최",
@@ -602,13 +623,6 @@
     "date": "Tue, 18 Aug 2026 02:01:00 GMT",
     "summary": "",
     "source": "데일리안"
-   },
-   {
-    "title": "관세청 관세평가분류원, 9월 16일 '제27회 품목분류 경진대회' 개최",
-    "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE0tSUstaVNBMW1kMXpMZjFHeG9MWFQ2UlFudDFGTWRTTjFZakU5eE5hMTBFQzZ2djF5TkJXd3JlNTltZlRSbGQ4UllB?oc=5",
-    "date": "Tue, 18 Aug 2026 02:00:00 GMT",
-    "summary": "",
-    "source": "문화매일신문"
    },
    {
     "title": "지방行 임박한 금융위·금감원 … 핵심인력 '엑소더스' 빨간불",
@@ -693,36 +707,64 @@
     "date": "Tue, 18 Aug 2026 00:57:00 GMT",
     "summary": "",
     "source": "이투데이"
-   },
+   }
+  ],
+  "biz": [
    {
-    "title": "금융위 \"레버리지 ETF 국조실 평가받았다\"…국조실 \"아니야\"",
-    "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1BTW90VlhrTXJMMC0xSUQ2ODVST1RwYnBWWjIwZjh2MTN1RWpFOGx4dnE4aWNBSXhjMnBESURPcHUxZ3RJU3dNTkJRbmRzN3h3YTZR?oc=5",
-    "date": "Tue, 18 Aug 2026 00:54:00 GMT",
+    "title": "반도체·바이오까지…6대 분야 초격차 스타트업 한자리 모인 이유",
+    "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFA1a1RTRjYzT3BuY0VpbVNJTkVhUmNBS1NuckpRaFQtV2FOQWdnVlhKSWtHdF9MRWFic19FeWhPcG1FeVljTGZncXBLUE02UGtPX29j?oc=5",
+    "date": "Tue, 18 Aug 2026 07:45:00 GMT",
     "summary": "",
     "source": "네이트"
    },
    {
-    "title": "금융위 “국무조정실 규제영향평가 거쳤다더니...국조실, “평가 안 했다”",
-    "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1Gdkl2RFItZVEwRkVCakQ1Q1YxUEdKa25CSzZrb0JjNHVHY3FvYW9TclIwamxjd2szSmpfN25WbEx6Y0YtOHVMdVhJMGRxY3ZGWEtZWHEwUU1iMGxvajBCVmJwSWRNNHlPV1E?oc=5",
-    "date": "Tue, 18 Aug 2026 00:50:28 GMT",
+    "title": "중소기업 AI 혁신…스마트서비스 사업으로 175개 기업 지원",
+    "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1RVWtfZGNnT2FibGVLQ2lqdWJwZHhSX1NOQ2hNbFprTzQ2eEFSVEVTWlozT0ZnVmxGWV9vRmt3cDdYSDBFOVZJSGhLRmhVSUVGUmQ2b2tYa0RMX0xRaXVqOWtzOW9qRXNn?oc=5",
+    "date": "Tue, 18 Aug 2026 07:33:59 GMT",
     "summary": "",
-    "source": "intn.co.kr"
-   }
-  ],
-  "biz": [
+    "source": "공감신문"
+   },
+   {
+    "title": "중기부, 서비스 업종 중소기업에 AI.디지털화 지원",
+    "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBqaExQV0Utd0NIRVVmWi0zVVBTbzhOTkF4Tm5CYjVTdlZIRHRfU19mOVlrQktTcllsYlVKcENWdk1JWl9yVTFjT0JpVlk2R0paMVREOWp0aFZYMi13ZjNVS3lwQjVzNExTQzBJ?oc=5",
+    "date": "Tue, 18 Aug 2026 07:23:11 GMT",
+    "summary": "",
+    "source": "BBS불교방송"
+   },
+   {
+    "title": "중기부, 경남 수해 전통시장 복구 총력…'원스톱 지원센터' 가동",
+    "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQbmNCZ3dLWWJVcldkOG95d1h6QWhtR2hPU0tQVE54ZlNpUFR4RjVRRXFVS0hSWVFNN3FLUHZzQ1pHZ0lrSFZYVnI0eWVjWVpnQlVSYWk4M19tc2Z1WDF5c3gtRmh5VXlRZUVPX2lKU09RN05kNndvZW55cTR6alhsbEt0Wk50TC1mWlE?oc=5",
+    "date": "Tue, 18 Aug 2026 07:21:31 GMT",
+    "summary": "",
+    "source": "정책브리핑"
+   },
+   {
+    "title": "“글로벌 유니콘으로 성장”…전북중기청, 도내 스타트업 베트남 진출 도와",
+    "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFB0a3M0aXNVczdoQ25EWnk0TVhpaEx3dHl1U1pEei1DdW9HRGpZSll4TEpmMzFERFNjbGRmN1d5RklqOUt6TnpKS2tUWWdranhEejZwRi1oRHZ3bjRuczMwVnZpemY2dw?oc=5",
+    "date": "Tue, 18 Aug 2026 07:20:37 GMT",
+    "summary": "",
+    "source": "전민일보"
+   },
+   {
+    "title": "벤처투자의 새로운 성장 기반, 'LP성장펀드' 출범",
+    "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQcG5qTWRHQXhoMnJjejhYaGs1NnBPNldnLVYzc2h2ZFpqUjVRVmRaU3lzTUliOGhrZ2MtNF9oM2pUTnA2SEcyQmJJbG84UnNvOG1udVYwRmh1RTY1R3Vxa0ZTUlN3ODNTeTN3Szlydnd6SERwWldqLXNrV1ZWUkhXQ0dfOVJ3blVGTUJn?oc=5",
+    "date": "Tue, 18 Aug 2026 07:11:19 GMT",
+    "summary": "",
+    "source": "정책브리핑"
+   },
+   {
+    "title": "중진공, 중소기업 해외 물류 부담 낮춘다…최대 3000만 원 지원",
+    "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE41NlZvdFVRa1dLUEk4V3JNbENUU3NPdFUyd2tUYlVTUVNMd1hST3ltcXpHSzktQ2dZY3hoTVNDZ3BCd2FvLVhHRU0zMnVGekxKMzJ5T0hHYVZoSHF2cG9pQmRCUV8?oc=5",
+    "date": "Tue, 18 Aug 2026 07:11:01 GMT",
+    "summary": "",
+    "source": "서울경제TV"
+   },
    {
     "title": "물류 IT 기업 트레드링스, 중기부 '스케일업 팁스' 선정",
     "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5kaVpGbVgtaVB2U1I1SzRFdm9IRkE5TklSZ3padjcyeFphQ1pNSTI2Qy1BWmUtTFRJNkVxeGE1QXA2VEpQTEZfTzRXZFZoWlNCZEx0Y094bjktNnBrNkJ6dmxPa0tkeTB10gFrQVVfeXFMUDgwMDhwRGVaQV84VUxIWC1lOWRmQjJfQTZoeUowYW9qTjZzQ1Z5QVpXR1dPNkdxb1oyUmpUQWtac1kzdU5tNUttZ01EOVZHb3NxNnNSdW05ZElmOE1EMUg5cUROTTZ4NWZ0LWs?oc=5",
     "date": "Tue, 18 Aug 2026 07:00:02 GMT",
     "summary": "",
     "source": "SR타임스"
-   },
-   {
-    "title": "반도체·바이오까지…6대 분야 초격차 스타트업 한자리 모인 이유",
-    "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBSeVdyeHFOVXlBZ0pfYm8zQ1lPWFdtSlFEWXlKMlBhVDd3dTc3RndncXFRbkVjd0o1MlNLZG04Vzk5bkVxTnR5UXZZRktIREVIOUotWmh3NTdJcUpPSkFtS1dNd016N1BjX3pjeA?oc=5",
-    "date": "Tue, 18 Aug 2026 06:55:06 GMT",
-    "summary": "",
-    "source": "유니콘팩토리"
    },
    {
     "title": "중기부, 스마트서비스 175개사 선정…최대 1억원 지원",
@@ -792,7 +834,7 @@
     "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBjT0xJVzJwNU5NejJxWGpydS13aFNfdWhHNFphODN2cjhpZ0dRaW9UbWpGa0RUaGNqM2xOUkhqWVBzeFpkbmROQVQ5WDFscVVUM3AxYTlwNEtFczBkS1dTckI3aFprd190RlA4?oc=5",
     "date": "Tue, 18 Aug 2026 06:03:51 GMT",
     "summary": "",
-    "source": "hitnews.co.kr"
+    "source": "히트뉴스"
    },
    {
     "title": "K컬렉션 LA서 흥행…中企 제품 북미시장 공략 청신호",
@@ -842,48 +884,6 @@
     "date": "Tue, 18 Aug 2026 05:05:40 GMT",
     "summary": "",
     "source": "v.daum.net"
-   },
-   {
-    "title": "중기부, 거제·통영 수해시장 현장 점검…전기·가스 복구 10일로 단축",
-    "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFAzX2QxNTV0SmVzTE9Ib01LVExPWlVSZUYzTE5pNjBKMmFlYm5qc1FneWYxOWVDUWRITjdDQzhuN1VnTUVydWFaV1E2Tm9PUQ?oc=5",
-    "date": "Tue, 18 Aug 2026 05:03:53 GMT",
-    "summary": "",
-    "source": "전자신문"
-   },
-   {
-    "title": "중기부, '호우 피해' 경남 전통시장에 원스톱 지원",
-    "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9CSW1DanNWblNOZ2E2X2lyd0JNMzRadGxENlVpZjlqSGdfU19zbER1Q1RHTHVQMnhZaWdxSGdqeHlHTFg5TEROTUhrRzA4OW5EdnFpbm9GWXE2UQ?oc=5",
-    "date": "Tue, 18 Aug 2026 05:01:51 GMT",
-    "summary": "",
-    "source": "파이낸셜뉴스"
-   },
-   {
-    "title": "중기부, 경남 수해 전통시장에 정책자금·전기·가스 복구 지원",
-    "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE8wZFFBdDVNMlgyeGtZUlNoSGFsei1FVjhWbkF2c3R3YXJWT2RhUmtrVk9NVjBjenh0aGt1emlVajVTeU53dm9oeVdYakR6VVNGb3c?oc=5",
-    "date": "Tue, 18 Aug 2026 05:00:48 GMT",
-    "summary": "",
-    "source": "서울경제"
-   },
-   {
-    "title": "중소 서비스업도 'AI 전환' 속도…중기부, 최대 1억원 지원",
-    "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1FX1B2UmZWSXNPVnBWalVDeE9KcXB0NFBta01NbldtaHZrblNBeDhSNW9DRW1Gd2pRWDhmVjZVOVZST0dGWkp1TnFzclYzd3NiMmNn?oc=5",
-    "date": "Tue, 18 Aug 2026 04:55:00 GMT",
-    "summary": "",
-    "source": "네이트"
-   },
-   {
-    "title": "중기부, 집중호우 피해 경남 전통시장 복구 총력 지원나서",
-    "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5aSDBnNXlDUmhNUTFPdTZMMlpGMHVpYWRSNGVvR1F0X2dwaTRiTk9UUVdvOWxZeFo0SlFseFFZckNXSzFDV3F6VndsN0UwdlVsaHB2M0VFZmEzSmdRTXVFMQ?oc=5",
-    "date": "Tue, 18 Aug 2026 04:52:57 GMT",
-    "summary": "",
-    "source": "메트로신문"
-   },
-   {
-    "title": "중소벤처기업부, 수해 피해 및 복구 상황 점검",
-    "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1rNTk2ZmZRRHA2R0VQTlVGX1NKR0lkYzFwSmY4Yi1BV3FsMnVzN196aXA0UEFfMV9zcEg0YnNZd2d1MG5EUVFUTWVHQTNPWWM1OC1yR19fTVc2cVhsNFd5UA?oc=5",
-    "date": "Tue, 18 Aug 2026 04:50:00 GMT",
-    "summary": "",
-    "source": "네이트"
    }
   ],
   "money": [
@@ -1107,6 +1107,13 @@
     "source": "파이낸셜리뷰"
    },
    {
+    "title": "외국인 숙박 부가세 환급, 2027년 6월 종료",
+    "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE0zSjRFdnZSNEk3V1JkbEo0VmVWRThwRkllZFhKVV9HQmx4LVNXVkQzaWpzNnJrcUJtelFaczVuVDF5Wm1zSTgyYkJxWUJSbXpoZDkxYWtMUnlkZWJoZ2F0QnR3a0RzT0l5MTJKWXZIQlFldw?oc=5",
+    "date": "Wed, 05 Aug 2026 07:00:00 GMT",
+    "summary": "",
+    "source": "숙박매거진"
+   },
+   {
     "title": "오상훈 부산국세청장, 소상공인 부가세 세정지원 당부",
     "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1tME9zV3RfbG05dTFzVGRGZVlHa1p1TTB5N1VFa05JVHJwQ04zV3czaWxuLUN4UG1rNDZZTG1fa3hBdWpxaGhwMHdNRW5uSTNSRVJnN29NZ2ZpS2cxcWU4WFE4OA?oc=5",
     "date": "Wed, 29 Jul 2026 00:39:47 GMT",
@@ -1163,11 +1170,11 @@
     "source": "중소기업뉴스"
    },
    {
-    "title": "etaxkorea",
-    "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBObk1PUVUwV3BoSW1ZYU1MV2U5SXBiNkZrZ0cyT09HT0ctMm4tZHhtVGNpSTJNaG5LUENvdzYyMjRtMVVDM0RwR0d3NVlwZTZYSVFPWVphblVGQWVCdjNoUQ?oc=5",
+    "title": "오상훈 부산청장, 부가가치세 신고 현장 방문",
+    "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE42QkdRSWdsenRjUkhENTF4ZnU3ajFKUDlRWldCekF4TUxaR0lYUV9aQ2U3MUQydmJhTFNVMzFlb1dnR0dDYjQ4VHVXcDN3VGdUNFow?oc=5",
     "date": "Mon, 27 Jul 2026 07:00:00 GMT",
     "summary": "",
-    "source": "조세금융신문"
+    "source": "네이트"
    },
    {
     "title": "안덕수 서울국세청장, 부가세 신고 현장 출동…“어려운 사업자 적극 돕겠다”",
@@ -1182,6 +1189,13 @@
     "date": "Fri, 24 Jul 2026 07:00:00 GMT",
     "summary": "",
     "source": "조세일보"
+   },
+   {
+    "title": "심욱기 대전지방국세청장, 부가세 신고 현장 점검…\"납세자 불편 없게 지원\"",
+    "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5IUXladTN3R3hhZ1RPZ19xaVFCbkptaVFpRk1TSERlNkkyMm04bElTUVItaHI5TFhtR3I2X2xBaHZhdnZWX3k3QTJmQ0VaVFRYbE1R?oc=5",
+    "date": "Fri, 24 Jul 2026 01:21:00 GMT",
+    "summary": "",
+    "source": "네이트"
    },
    {
     "title": "심욱기 대전지방국세청장, 부가세 신고 현장 점검…“납세자 불편 없게 지원”",
@@ -1224,20 +1238,6 @@
     "date": "Thu, 23 Jul 2026 07:00:00 GMT",
     "summary": "",
     "source": "팍스경제TV"
-   },
-   {
-    "title": "심욱기 대전국세청장, 부가세 신고현장 점검…고환율 피해 납세자 등 세정지원",
-    "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE5TQTc0dElxZWc1bUdMendURTFJX0RIVG9ZU19VMjVfZTBUa2xQdzA0QmQxSExSY3BIcDdXRElka0V1SHd2Y2FkTnlFbw?oc=5",
-    "date": "Thu, 23 Jul 2026 07:00:00 GMT",
-    "summary": "",
-    "source": "v.daum.net"
-   },
-   {
-    "title": "부가세 신고 27일 마감…전문가 \"공제 누락·가산세 주의\"",
-    "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1zM0xlXzFiMkphb2gyT01FejlVMTREM01oU21kREVqb0JQZU5rdHRRN09vdTVDYmZBbVpMbzlrclY0MTZ4NFFOaS1jek95SmNtTFZCMFlB?oc=5",
-    "date": "Wed, 22 Jul 2026 07:00:00 GMT",
-    "summary": "",
-    "source": "뉴스1"
    }
   ]
  }
