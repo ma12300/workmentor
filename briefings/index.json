@@ -2,6 +2,15 @@
  {
   "date": "2026-08-18",
   "kind": "market",
+  "edition": "자정판",
+  "title": "8월 18일 (화) 투자 브리핑 · 자정판",
+  "file": "briefings/2026-08-18-market-자정판.pdf",
+  "top": "[미장 브리핑] 뉴욕증시, 다우 하락... S&P 500 약세 - 센머니",
+  "count": 13
+ },
+ {
+  "date": "2026-08-18",
+  "kind": "market",
   "edition": "저녁판",
   "title": "8월 18일 (화) 투자 브리핑 · 저녁판",
   "file": "briefings/2026-08-18-market-저녁판.pdf",
