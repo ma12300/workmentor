@@ -1,6 +1,15 @@
 [
  {
   "date": "2026-08-19",
+  "kind": "market",
+  "edition": "아침판",
+  "title": "8월 19일 (수) 투자 브리핑 · 아침판",
+  "file": "briefings/2026-08-19-market-아침판.pdf",
+  "top": "채권금리 급등 기술주 ‘휘청’…나스닥 1.33% 하락 - thefairnews.co.kr",
+  "count": 10
+ },
+ {
+  "date": "2026-08-19",
   "title": "8월 19일 (수) 아침 브리핑",
   "file": "briefings/2026-08-19.pdf",
   "top": "거제·통영 폭우 피해기업 세정지원 나선 부산지방국세청",
