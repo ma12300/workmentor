@@ -1,7 +1,14 @@
 {
- "updatedAt": "2026-08-19T22:35:06.390Z",
+ "updatedAt": "2026-08-19T23:02:26.394Z",
  "groups": {
   "tax": [
+   {
+    "title": "[예규‧판례] 심판원 ‘서울국세청 늑장검증에 내부소통 부재’…‘해명자료 제출요구’ 또 과세취소",
+    "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE43MHpFRWhuOElBMGhJZTlzLVZTV1RVazZyOGdaVERhXzdZeV90X3RSczRHM2JOa0x3MjlFcFRERHowdHVlbloyZEdoNTNTVjZzR1lrbUs3MTZRYUQ2YTQ1Tg?oc=5",
+    "date": "Wed, 19 Aug 2026 22:45:17 GMT",
+    "summary": "",
+    "source": "tfmedia.co.kr"
+   },
    {
     "title": "[세리포트] 국세청 서기관 이상 '호남' 줄고 '서울' 늘었다…'영남'은 그대로",
     "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5fb1BpcXZZSDVvc1VoanAyZjg5c2FBdWtaNUhoallVM3lLVmQ2SndJbnduU1A1M0hLbzBIdWQ4UTk5VzFWbzQzVy1uclkwSHdBS3ZTVmgwU0tsUFo1cjZrbWJ1bjFzZE8zYnhtbQ?oc=5",
@@ -35,14 +42,14 @@
     "url": "https://news.google.com/rss/articles/CBMiQEFVX3lxTE1MQ3pLRHdvZkF1anhBcmV1TEpfUWpiSVVXUTRFZFQ1bFdsSHp0OFlBVDBmbHpsVHJfSG10XzZpUFg?oc=5",
     "date": "Wed, 19 Aug 2026 09:28:00 GMT",
     "summary": "",
-    "source": "온투데이"
+    "source": "ontoday.kr"
    },
    {
     "title": "佛국세청 해킹범들, 교육부도 해킹 주장…\"수백만 학생정보 탈취\"",
     "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5fU0VYNVhYaE9jYWppX1FkSzN4d3BWbFJyejlqb3gzUmEyTDE2d2tuckR5RlV0emtwMnhDVmJiR0MxdEVzU2ZFZkRqNU5mRW1sbElJ0gFYQVVfeXFMTnF0eDBNa3pMdnd4WFEyYzloVk1FX1JJVWM5bzRuT2xqRHFpQnE2akYxVDFFMVpfS1I3ZU1WcW1NbElxZjhJOVlkWXhPVk80ZnpsaEI4RWNtVw?oc=5",
     "date": "Wed, 19 Aug 2026 09:26:08 GMT",
     "summary": "",
-    "source": "news1.kr"
+    "source": "뉴스1"
    },
    {
     "title": "메가팩토리 약사 탈세 논란... 국세청 고발로 번진 파문",
@@ -168,23 +175,30 @@
     "url": "https://news.google.com/rss/articles/CBMiQEFVX3lxTE9odHJXbFlvcWs4ZmpRNlQ0bEs0Z0NoX0VESlptcmp3bmJhcjhyYWVEUzIxbVJpbmJGbk1BM1dCM0M?oc=5",
     "date": "Wed, 19 Aug 2026 01:11:00 GMT",
     "summary": "",
-    "source": "온투데이"
-   },
-   {
-    "title": "부산국세청, 호우피해지역 납세자 세정 지원나서",
-    "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE0xWGM3VTEyWTdGMV9mN0ZtLV82MWVWMHBveTdNQm1jNG1HYTRDYUdiRHlQd2V4dHJBZm8zZFpSNjdOQ1FEd1lwM1ZLanBDN0NMZ0hLYnVucGFZcVVpNFBnMkpmbw?oc=5",
-    "date": "Wed, 19 Aug 2026 01:05:10 GMT",
-    "summary": "",
-    "source": "tfmedia.co.kr"
+    "source": "ontoday.kr"
    }
   ],
   "labor": [
    {
-    "title": "관악구 '2026 전국 지방자치단체 일자리대상' 고용노동부장관상 수상",
-    "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE4zRm9MZE9JNmFfUEFsbUhwSVRZd21qVVRPYlNHZFJwYWV5cklXalEtV0I0VExJNGJjdjJXU2lBM294Z2E0eTlwYVF4Mjl4SUNILTJsWUxYcUZOb0lObVcyLQ?oc=5",
-    "date": "Wed, 19 Aug 2026 22:31:00 GMT",
+    "title": "세종형 일자리 모델 전국 우수상",
+    "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE94Z0RSN3ZYaGprZHhaN1NqRmNQVE0tOWJ6aUxSM3BJUmFlOG96MTFqVlNaQnU3ZV9CTDZzd2tsMWUtSGNNRHc0cWNCSGFfTjE4UFpQU0hySUpTRlR5WExfZklYMUhPeTlrTE9NQmRCNA?oc=5",
+    "date": "Wed, 19 Aug 2026 22:53:33 GMT",
     "summary": "",
-    "source": "네이트"
+    "source": "충청일보"
+   },
+   {
+    "title": "관악구 ‘2026 전국 지방자치단체 일자리대상’ 고용노동부장관상 수상",
+    "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5nek9ic0FIT2R2N3JIRmJFZUVFT1pVODMtc0pYTjdqVHAyeVNwXy1remdwRkJWdm5GSzRuaDR1dXdfazlic1ZHdXNCVzdpMk9EODdNT2tB?oc=5",
+    "date": "Wed, 19 Aug 2026 22:30:35 GMT",
+    "summary": "",
+    "source": "헤럴드경제"
+   },
+   {
+    "title": "세종시, 전국 지방자치단체 일자리대상 우수상…맞춤형 인재 235명 고용 성과",
+    "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE1Ocks2NVM0YVdZX2ZuWWs3Zkw5U1Q0dzVrajBSWmJJc3h0YTA0Q0M5SHBjd1FPZVRSQWRweDY0S3RuSU9VTEE?oc=5",
+    "date": "Wed, 19 Aug 2026 22:24:06 GMT",
+    "summary": "",
+    "source": "뉴스충청인"
    },
    {
     "title": "화성특례시, 일자리정책 또 통했다…2년 연속 ‘최우수’",
@@ -195,10 +209,10 @@
    },
    {
     "title": "화성특례시, 고용노동부 주관 ‘일자리대상’ 2년 연속 최우수상.6년 연속 수상 쾌거",
-    "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE11cmZqOFJaazdMWnk4WHdMS3RUalF3WVkwXzlTMFBnLTNSNE1SNFBEakNJNWJON1hBZ08tSWtJVWZ1OXlHemJ1VW93LUtwY2dsNmdaVFJXMDRBc2JRRXhSNU96em9TT1BsanNlTVk1MA?oc=5",
+    "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5mLTN4cnhIRlZUT24zUVBxVGh1bXRycTROejNlQW5xWi11NGVibHNzQ2x6RTFzeWpCblpBSW9oQ18wZG1IYlNLRDJMRWg1eExvd1NTMmctamJiOEF5Z09ZVW1PT01SMnZ3ZHlpY29B?oc=5",
     "date": "Wed, 19 Aug 2026 21:39:55 GMT",
     "summary": "",
-    "source": "뉴스파이어"
+    "source": "서프라이즈뉴스"
    },
    {
     "title": "침수된 한화오션 이주노동자 기숙사 “노동부 특별점검 필요”",
@@ -236,6 +250,13 @@
     "source": "청주일보"
    },
    {
+    "title": "도산사업장 임금 체불 노동자 보호 강화…대지급금 범위·상한액 확대",
+    "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPSzluajJUZ3dJekF6OUR2M1JwTnZxampERmowS1ozSHpvNV9uWkI1eDVRLVBtYWZVLWwyR0IwaTVpSm9SMVd4NWZpX0tHZVJuMmZOQVhkMEQ2VGZSZDU0MFJOME16Mjh3c3JSNGZxSy0tZzBlWVRmMDBTdFBYQU11TE0ycU5aT3VnYXhReQ?oc=5",
+    "date": "Wed, 19 Aug 2026 15:47:27 GMT",
+    "summary": "",
+    "source": "대한민국 정책브리핑"
+   },
+   {
     "title": "‘춘천 Station C ’고용노동부 일자리대상 장관상",
     "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBFWFMwY2JnVEN5ZG1zVF9BX01yNXozUE9PNGZmNHl4NTh2T01YUWgxUkdzVFZxVHd1TE11YjNKa3ZmeF8xMEZrMHdkZm9DaUNMeHEyd0hzYUZEZmNRa01oVDFIVkJLWnc?oc=5",
     "date": "Wed, 19 Aug 2026 15:02:02 GMT",
@@ -268,21 +289,14 @@
     "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1sSFBvcWFVR1JMUHFjUWxGN2o1S2hJWDlreEFtanBwbm1QZHFCUFQ5UW92dG4zSFpLQnN0YmNwUmVoZGduejJTV3hOaTdxcmlfOTh5N19xWW52QU1tRTBKa2RoeEx2OEdCR1ZTemJtWdIBc0FVX3lxTE5hLXJIU0VucEhDRU9jeGN4VFlmdENMUGVHSlh3V3Izb1prMTVhUEl5Q0N1VnhvVDBZQUNXUlhuY1pzWkQzSTFiaV8xSl9TOElCV3Fjdld3Wi1HTkFzOFN1cjhNa21DOWE4RzlXU1FMbTc5TW8?oc=5",
     "date": "Wed, 19 Aug 2026 10:12:13 GMT",
     "summary": "",
-    "source": "safetimes.co.kr"
+    "source": "세이프타임즈"
    },
    {
-    "title": "고용노동부'2026 전국 지방정부 일자리대상' 시상식 개최",
-    "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1NcHVwSk5oT1ZRSlZpaUVNYk82T0JRZlltVlhTQ3JubVZlcGlvTklHa2g0TXRpYk9GMHVCQUt5UGVUaUtYYmdRbkFUT2EyS0lFWnBadldjNTFmTjdnbmNBNU05UXZzelZQ?oc=5",
-    "date": "Wed, 19 Aug 2026 09:49:19 GMT",
+    "title": "고용노동부, '2026 전국 지방정부 일자리대상' 시상식 개최",
+    "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE5DV3M1bThqTHNJLWhCcDdUX1hBeG1qU2x3UmUtc3N1NG4waHR0LUNLM3lpNm1KMW5Bd2Ftd2stNXJRQnh6OGc?oc=5",
+    "date": "Wed, 19 Aug 2026 09:49:00 GMT",
     "summary": "",
-    "source": "매일타임즈"
-   },
-   {
-    "title": "고용노동부, 땀 흘려 일한 노동의 가치가 보호받도록, 체불 노동자 안전망이 촘촘해집니다",
-    "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1ybUR6ZzJhWEF5Y3I2ZWdzUEVmZFhVdUppRWxRamtaU2pKc0E4Z2VrQjMtRHRUNXdCU0FreWRMRjBqZTg5TmJCSEtNZlNHdlFGaVR4WkNvZWRkMEpScjUxZjJTMUJTc3ZJT1N2Qw?oc=5",
-    "date": "Wed, 19 Aug 2026 09:47:09 GMT",
-    "summary": "",
-    "source": "저널25방송"
+    "source": "케이에스피뉴스"
    },
    {
     "title": "춘천시 일자리 사업 분야 전국 1위 수상..‘창업도시’ 전략 호평",
@@ -290,6 +304,13 @@
     "date": "Wed, 19 Aug 2026 09:47:08 GMT",
     "summary": "",
     "source": "헤럴드경제"
+   },
+   {
+    "title": "고용노동부, 땀 흘려 일한 노동의 가치가 보호받도록, 체불 노동자 안전망이 촘촘해집니다",
+    "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE1pYVQ2RmFlOGZnejRyQmsxUGFDYnlUdDlNdHNJMFdzV2VqRkw3UFdxVXowT1Jtb29QcXVRY24wZHItOUdEd3c?oc=5",
+    "date": "Wed, 19 Aug 2026 09:47:00 GMT",
+    "summary": "",
+    "source": "케이에스피뉴스"
    },
    {
     "title": "충북도, '지방자치단체 일자리 평가' 노동부 장관상",
@@ -332,27 +353,6 @@
     "date": "Wed, 19 Aug 2026 08:17:53 GMT",
     "summary": "",
     "source": "머니투데이"
-   },
-   {
-    "title": "제주도, '제주더큰내일센터 운영 사업' 고용노동부 장관상 수상 - 보도자료 | 기사",
-    "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5tTDBDUXc2T3NVcnd5Q0RFRHlPT3B3Z2FQSEdXaG9lRlZmVHBYUUNTVTVOX3k0bVFBdGZUYmZXT0NnWXp1djJrOU5sbXB4YzMyWlVBYlduRnpIWkoxcDNJ?oc=5",
-    "date": "Wed, 19 Aug 2026 08:06:32 GMT",
-    "summary": "",
-    "source": "더팩트"
-   },
-   {
-    "title": "노동장관 \"주52시간 예외 논의에 노동자 참여해야\"",
-    "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBrcTNlYTVWV1NObU9yVW5yNU14SjVWTWI5V09sTDdVTW44R3dqOVBIRGJLQVdXRFA0U3ZoTzA4Nm93TTVLX3U0T245SDRzRGxBRGpYa3pPWDhLQQ?oc=5",
-    "date": "Wed, 19 Aug 2026 08:02:15 GMT",
-    "summary": "",
-    "source": "파이낸셜뉴스"
-   },
-   {
-    "title": "[포토] 의원들의 질의 답하는 김영훈 고용노동부 장관",
-    "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1NRVI2aThzeU5xMEVhTVQtRTRZVzVzUHoxVVNsTlhJX1Z3MHA5cDFhQ29oX1pKQWVva3NMMnZYa2RETmlsZ3l0Z0xVekZJUUZQUURXNHI1azFYa0t2SnNja1RQRExjUVVUQXlXekdrN2EzSE9tdGdJeGlLc9IBgAFBVV95cUxOQmc5TXpUeWxrRzZCQXI2QkdGZUxBdHNTTWtsVEc4dFFvOHByb2E1a0Jub29tQmFYb0diYWxERHNQeWp5TEQyZGRQQmJXYjFhNWRUZ056QVdRNldhWDBsbHVrcmJnNXZUSHM2cEpCbG0tTG9nVDV6bTdRUlkyVGk0dQ?oc=5",
-    "date": "Wed, 19 Aug 2026 07:59:05 GMT",
-    "summary": "",
-    "source": "뉴데일리"
    }
   ],
   "law": [
@@ -417,7 +417,7 @@
     "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1VcVhoVzNGSVEzcnNEYmtXampLMHl6YWU3b2k4bGpDeFJYWnk0d2hSZkNQVHJmWFZjdVpXbmkyekRkVGR0ckxjZFExRzR6dHVlX0pVWVFMbDFnbmhQMmM5Yg?oc=5",
     "date": "Wed, 19 Aug 2026 07:23:11 GMT",
     "summary": "",
-    "source": "아시아경제"
+    "source": "asiae.co.kr"
    },
    {
     "title": "[인사] 공정거래위원회",
@@ -438,7 +438,7 @@
     "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1lQ2FodW9Fb1JndmNnMXZCMGdyUmJzTlZNTmRleC1odFVtTi1Pak9wVHo4NEM4QnR5MEZJLUFPdXp4Qk9UcEE4TkV5dnJubWt0ak1GVdIBWkFVX3lxTE1IYzFCaHk3dkh4ak1PY3ZaOEF2eFlEV0R4cEFnZVVkRG5BcURkVlNyLXNFaDc0Q05sTGY5Z3ZWVU1qVm0zOG5UZEZDYVNmX09ROWZyZEhsUTFndw?oc=5",
     "date": "Wed, 19 Aug 2026 06:54:11 GMT",
     "summary": "",
-    "source": "news1.kr"
+    "source": "뉴스1"
    },
    {
     "title": "동명대, 법무부 ‘이민자 조기적응프로그램 바텀업 공모사업’ 선정",
@@ -452,7 +452,7 @@
     "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1lNjdZb2ZZaU1tdWk3MnI1V1Uyb2VralJzdEwxeHJPaWxfZ3g5T2lIcEw1U0lYd2w1WVVWWk4xUVB2OEVTdUxNVVI4WGxEWXJVUWM5dE5MalNBdGtZM1E5Rw?oc=5",
     "date": "Wed, 19 Aug 2026 06:39:38 GMT",
     "summary": "",
-    "source": "아시아경제"
+    "source": "asiae.co.kr"
    },
    {
     "title": "정성호 법무부장관 사직서제출…“검찰개혁 주요입법 마무리, 새 리더십 아래 완성 바람직”",
@@ -473,14 +473,14 @@
     "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5YdEt2Q2w0ZmplQk9fNVNOTzdCQ0RtZWJ3eUF1VzVYOHhNWFowbFhwXzBOLUhBck9aVjlPRHdpRnlRdXJ5TU9LMTByYURDZnc5RUpTQw?oc=5",
     "date": "Wed, 19 Aug 2026 05:34:00 GMT",
     "summary": "",
-    "source": "이투데이"
+    "source": "etoday.co.kr"
    },
    {
     "title": "공정위, 제24회 모의 공정위 경연대회 결과 발표",
     "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBibmV1OXlfRnM3RERXLVN5R2h0b2dic1BSVEVIZTV4MU02WHJ6YkY0dHZZNGhTaXZuSUFNeXJLOEtNaTh6dHRKWW94YkpvQTJMTEZrWFpIWHVKQURNcUlrVE5JajEybllJUHczakI5WQ?oc=5",
     "date": "Wed, 19 Aug 2026 05:25:32 GMT",
     "summary": "",
-    "source": "뉴스파노라마"
+    "source": "newspanorama.kr"
    },
    {
     "title": "법무부 수장 공백 가시화에... 개정 형소법 보완입법 더 밀리나",
@@ -552,7 +552,7 @@
     "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE53dWhPa0VSTU5ZZmdCOXFxS0J5WEw4SEtaNEtUcjlNa3VReVRXWlEtM0U3Y1AwMmlDZGdYeC1fN1QtWnJ0em5HZl9IN1JCaDRfODY5NkRCbmZ3MEt2LVE0eUZn0gFnQVVfeXFMTUY5eUxHY3dJam15U0ZVTmp4V0RFWXNiVVBiRTVFZldpZjlVMGpxeGVNVUI5eGQ4d0U1dU9UUWVET3oxdi0xNHJGYlZhamJLWDZ2U19qcUhBX2dsUEo1SEhSM1dROG9PVQ?oc=5",
     "date": "Wed, 19 Aug 2026 21:40:00 GMT",
     "summary": "",
-    "source": "news1.kr"
+    "source": "뉴스1"
    },
    {
     "title": "[현장] 참여사 확대·플랫폼 진화···이억원 금융위원장 \"내년엔 지방에서도 개최\" [2026 금융권 공동채용박람회]",
@@ -685,7 +685,7 @@
     "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFBOcmxQSVdpS1lUcXhYMktmWWFEdko5aHR0d3UzTkpDaTV2b2lhWE1FZ1ZZUjhUeHpTUjRta05NQTFIUlk3NXh1Q0Rjbw?oc=5",
     "date": "Wed, 19 Aug 2026 06:59:10 GMT",
     "summary": "",
-    "source": "news1.kr"
+    "source": "뉴스1"
    },
    {
     "title": "관세청, ‘26년 을지연습’ 일환…공항입국장 폭발물 발견대비 ‘대응역량 강화 훈련’ 실시",
@@ -710,6 +710,13 @@
    }
   ],
   "biz": [
+   {
+    "title": "디플리, 영국 진출…현지 기업과 독점 판매 계약 체결",
+    "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5OREQwTi1DeVlaMElVYklQTmFuU0xjemYxYUVNQkdxbmZDMnZHb2tBbWZMWmpnRU5uRTduWkVpVW9SYkZaUS1LWUhsRGhuZGc?oc=5",
+    "date": "Wed, 19 Aug 2026 22:40:27 GMT",
+    "summary": "",
+    "source": "와우테일"
+   },
    {
     "title": "‘상생’이라더니 대형마트만 양보?…새벽배송 규제 완화 딜레마",
     "url": "https://news.google.com/rss/articles/CBMiuAJBVV95cUxPQ0hhcW81aWRmM1Z2ODE5amgzS2U3VHNsWFlYZS1PdnU0NWx3NWlWWnhTZVVybG1MT1pHckg4TE43NndwSF92M1ZReGNfUzRmNVVHQ29qaGtHLUEzaGV2a0JMUHd1WHptbmVjUGRJQ1RtRGVYbk5vYndRczV3T3BkeTd2enNYakVzUXZtT2NyWGxfTXlCVlpiQ0JfcGZCa1YxVHZ1a1hyUjhjR1BaSWZRamFCWUdSekdZRzU5OVNpTVFUendqZjI5UERFSDBVT25yX1dnS0h2NFQxSmZFU0E3MC1nM0RiV3dGTW5VaE54SlhYVmRoOVdIQU1LRWRRNVlSN3pJUC16NVBjeElGa2tkTVVwby1wQnJpYzdDSDlkMVhjQmdWU1gySTF2VHNVcDFHTV9lTGJVY1c?oc=5",
@@ -754,10 +761,10 @@
    },
    {
     "title": "중소벤처기업부, 2026년 상반기 벤처투자 8.9조원 '역대 최대'실적 경신",
-    "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE10UHQxaTZRS3c3QUQ2TGJrNDIzTHJNYzI3OF9LWGdGd3QtY2UxMDBaZWxrNkkzcDJfQmF4MGRyMEpRUmdMcXpZ?oc=5",
+    "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE15c0JMSjM3LXNDYWNBbkRrMzhTQTZCb1NyMUhjbjdZNEk1TjhzRXhpQnMwZzEzQjNNb08yU3NsdTRXYzR5Qnc?oc=5",
     "date": "Wed, 19 Aug 2026 09:44:00 GMT",
     "summary": "",
-    "source": "정필"
+    "source": "케이에스피뉴스"
    },
    {
     "title": "중소벤처기업부'올해의 상생기업대상'국민투표에 1만 4천여 명 참여",
@@ -792,7 +799,7 @@
     "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1jVUZSZG53U2ZTQTJmSW50XzJJY1Fobk5ZN21uX1J4dHltTy1iSmlWb1V0VjAyUXNOZkpDMWRhUFZPN1lNSFJMZFRheExiWEFtM1E?oc=5",
     "date": "Wed, 19 Aug 2026 08:44:38 GMT",
     "summary": "",
-    "source": "서울경제"
+    "source": "sedaily.com"
    },
    {
     "title": "중소기업 스마트서비스, AI 혁신을 시작합니다 - 전체 | 카드/한컷 | 멀티미디어",
@@ -828,13 +835,6 @@
     "date": "Wed, 19 Aug 2026 06:44:43 GMT",
     "summary": "",
     "source": "v.daum.net"
-   },
-   {
-    "title": "중기부, 내일부터 모두의창업 2차 모집…1만명 선발",
-    "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE4xdXl2eko2ejROem01VmtCM3k3bzVZQU1VRHRTRUlYOG5BS3RXWE1EdEQyZ2c3a0R3X0IzRVdzVzJzR0h6T01xVm9UYmtUM1RZMXdNRUZzUnotd9IBWEFVX3lxTE4welRpNDNMeFdTaEFaV0ZMS0ZJTEZnWU5hVmZMMzNZYzdlMzlfRFNFY1FYTDB1emJXTmxEUVJkcklYa0ZFdVc0dVhSV29GV2FGYUJnNVFuTUk?oc=5",
-    "date": "Wed, 19 Aug 2026 06:44:37 GMT",
-    "summary": "",
-    "source": "아주경제"
    },
    {
     "title": "AI 돌풍에 벤처투자 8조 9천억…상반기 역대 최대 기록",
@@ -927,7 +927,7 @@
     "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBpMzdHWlY5QV9PU1JSdGMwVU1QTTU5d0YybmZWU3kyX2t2OEpfQnhGbXcyazZ2QzRPNENhRHBHNUF6TXdfWlFMbXZrdU9WZERmeEdJNEFwQWROZVlpYjhMLUlyekdmUQ?oc=5",
     "date": "Wed, 24 Jun 2026 07:00:00 GMT",
     "summary": "",
-    "source": "KB Think"
+    "source": "kbthink.com"
    },
    {
     "title": "소상공인 AI 지원사업 4000만원 신청 조건, 7월 3일 전 확인해야 할 5가지",
@@ -1198,6 +1198,13 @@
     "source": "intn.co.kr"
    },
    {
+    "title": "심욱기 대전국세청장, 부가세 신고현장 점검…고환율 피해 납세자 등 세정지원",
+    "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5tdEJ3LXlyZ1ZpSGR2c3FyZUp1blFsSFJ5Znd3MWFVWkpORnBIMHlyM0puSElIeVJTN2hGdTdoYjFZbHVGS1BMVEdWMGlnS0ZzSGRDTW5pejVEcEwydGRDaVlVdktWQ1dUOWE0REN0RdIBc0FVX3lxTE5uRVVSTVBOcTlTN2ZXTGFYSzZZbjJQeTZVckpodUpLNmFUU2w0QkY1SHZlbDBYYUFKa1VOcFVCcVZOT1NIX0xiUFlXTUxGYkotaGtLN1hGRWM4cmxsV3k4Uk0xVjJkbzFlbjJRU01lbVRkSmM?oc=5",
+    "date": "Thu, 23 Jul 2026 08:31:00 GMT",
+    "summary": "",
+    "source": "대전일보"
+   },
+   {
     "title": "심욱기 대전국세청장, 부가세 신고현장 점검…“납세자 눈높이 맞춤 지원” 당부",
     "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBDZkpxQ00tTFpFSU4xRWVzTVpidzFoVlROSjU2Z1ZuRU1iRFBlRmxwQ01qXzBTSmxKeWN1UmVLckRCUVY0c0FSeDN0SWh3OUlwdHFEYjZwOGRFbnRHLTNyWlBxRXRONUdQOGJXcw?oc=5",
     "date": "Thu, 23 Jul 2026 08:07:52 GMT",
@@ -1231,13 +1238,6 @@
     "date": "Tue, 21 Jul 2026 07:00:00 GMT",
     "summary": "",
     "source": "v.daum.net"
-   },
-   {
-    "title": "세무플랫폼 첫 백기…\"무료 부가세 신고\" 광고 내렸다",
-    "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1IbEI3ZnBKcWdXcEIzTkJwZ010VnNUYXFRMEJQVVZQdko3UmxLVEZFenlNcTRpcC1xQ1RQX0lkaTNSTlNoMkFnUU1Jd0dsMWxJc295TVRiTE5IVldLZmVVbUdIUk8?oc=5",
-    "date": "Mon, 20 Jul 2026 07:00:00 GMT",
-    "summary": "",
-    "source": "택스워치"
    }
   ]
  }
