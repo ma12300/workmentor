@@ -2,6 +2,15 @@
  {
   "date": "2026-08-19",
   "kind": "market",
+  "edition": "자정판",
+  "title": "8월 19일 (수) 투자 브리핑 · 자정판",
+  "file": "briefings/2026-08-19-market-자정판.pdf",
+  "top": "나스닥·반도체주 무너졌는데...짐 크레이머 \"지금이 살 때\" - 코인리더스",
+  "count": 17
+ },
+ {
+  "date": "2026-08-19",
+  "kind": "market",
   "edition": "저녁판",
   "title": "8월 19일 (수) 투자 브리핑 · 저녁판",
   "file": "briefings/2026-08-19-market-저녁판.pdf",
