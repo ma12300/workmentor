@@ -1,6 +1,15 @@
 [
  {
   "date": "2026-08-21",
+  "kind": "market",
+  "edition": "아침판",
+  "title": "8월 21일 (금) 투자 브리핑 · 아침판",
+  "file": "briefings/2026-08-21-market-아침판.pdf",
+  "top": "미 국채금리 다시 4.7% 뉴욕증시 흔들…다우 1.3% S&P500 0.9% 하락 - thefairnews.co.kr",
+  "count": 4
+ },
+ {
+  "date": "2026-08-21",
   "title": "8월 21일 (금) 아침 브리핑",
   "file": "briefings/2026-08-21.pdf",
   "top": "금융위, 남부 수해 피해 가계·중소기업에 긴급 금융지원",
