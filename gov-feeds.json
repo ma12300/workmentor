@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-20T13:13:13.269Z",
+ "updatedAt": "2026-08-20T14:01:12.948Z",
  "groups": {
   "tax": [
    {
@@ -53,7 +53,7 @@
    },
    {
     "title": "[세무관서장 회의] 인천국세청 “국세외수입 통합징수, 책임감 있게 추진”",
-    "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1ucG5DSXh0RDdRdUVDaWN0LW8wM2RVeWh4TGV6bEZDZEZESnJVRm9lMUVJZVBpZWdDZ1BXRVFtRUphWnRsb1pDejZfWm9oR0w5Y19DV3VDY0NHYjN5YnpSaFhjRUw3QQ?oc=5",
+    "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5CQXNFNGRGZkg5NXJ0WHI1aUlwN0ExR2ZKRkk4d1JXX2xwQllCYUxPY0hlcEZUY3cxYjEtRDY4WUVMdUJfWTk2bUZpNGlOOHFFR3g5Vnh1d3d0MEI1Sl8tNk9uRQ?oc=5",
     "date": "Thu, 20 Aug 2026 09:41:39 GMT",
     "summary": "",
     "source": "조세금융신문"
@@ -180,6 +180,55 @@
   ],
   "labor": [
    {
+    "title": "“사업주 착오로 취업 기간 연장이 안됐어요”… 외국인근로자 구제하고 ‘제도개선’도 요청",
+    "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFA2ZE9NYnR2YzNpb1prWEJkdmxtR09qb3lOTTRzTTQ0c3RJNjM4Q3NPR0JUZnNJald5NXZnZUd2VGpuRE41RHdWRi1hWE8zX3BpUUUtaDZHZU1FRW5Qa3R5cDRfSVdKREE?oc=5",
+    "date": "Thu, 20 Aug 2026 13:57:47 GMT",
+    "summary": "",
+    "source": "dhns.co.kr"
+   },
+   {
+    "title": "인천 연수구, 고용노동부 2026 전국 일자리대상 우수상 수상 > 뉴스",
+    "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBoRmltX3JSS2Y3dERmNWRlcUpPRHgxTHQ4UlhLbXR5S1pONE50UkZFMENKZzZ2N1FDUzh3cWdfVC1EWk1qZDFyVnlFa0J5T3J0T2RGRHdnTEthZkM3TlF1MEg2cjdpbkFUVklVVUlTc2o?oc=5",
+    "date": "Thu, 20 Aug 2026 13:45:00 GMT",
+    "summary": "",
+    "source": "더코리아"
+   },
+   {
+    "title": "고용노동부, “30년 만의 102개 고용센터 혁신” 전 국민 평생 일자리 토털케어 ｢국가 고용서비스 혁신방안｣ 발표",
+    "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5abThnT2RyRk5iWmhRUjRYREpjWjZEdDZZSjA5WEpBRktLYUNoT1d6el9PeDM0UUVGT0x6MVhtQnZNYmcxMDZpTHVoV0dWLTlBRkltOG1WekFBVlBXbzM1Uw?oc=5",
+    "date": "Thu, 20 Aug 2026 13:30:07 GMT",
+    "summary": "",
+    "source": "한국글로벌뉴스"
+   },
+   {
+    "title": "고용노동부, 고용위기 선제대응지역 여수시 1년 연장, 당진시 신규 지정!",
+    "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1XdWZTXzA4ajVLU3hxc3B6R0FWdnpoRXRqa2g0TU91ek5lb042UlhtQjNNNjJDNWFNa1FTZnltd1V4bU9XTkpFUlZRLUxqQkh2RFRLRlhId19hN3dYZDV5bw?oc=5",
+    "date": "Thu, 20 Aug 2026 13:30:03 GMT",
+    "summary": "",
+    "source": "한국글로벌뉴스"
+   },
+   {
+    "title": "울산 남구, 전국 지방자치단체 일자리대상 ‘우수상’",
+    "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1Ja2h0M0hhdWhOTVU5Z1h3OVdrWVgtQ2taS3Z5enVGTF9CTUY4WkV3UWlSZ3RLd1hFZmh5Tm8xUVZsQkM3Q3EtLTVoSkRHMnFwbmhQbllwdGZMRE54ampQSUxKQ29rdkNvTHZWSjFlbjQ?oc=5",
+    "date": "Thu, 20 Aug 2026 13:20:03 GMT",
+    "summary": "",
+    "source": "프레스뉴스"
+   },
+   {
+    "title": "보령시, 전국 지방자치단체 일자리대상 ‘2년 연속 고용노동부장관상 수상’ 쾌거",
+    "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBUVGlqYlcyM2x6OFVSeTctUjA1dDZLOFZHdEZIQlN1NVVaNk9fRWRGZTkyT2tmaVB4YXh2R3YyTXp6QWdieGQzdndmZ2g4bV9HTTRzYVBub1BsR3owVDVidGRxR1hiQ0JmczRmWmc3SVRmNms?oc=5",
+    "date": "Thu, 20 Aug 2026 13:12:54 GMT",
+    "summary": "",
+    "source": "동방일보"
+   },
+   {
+    "title": "대구 수성구, 고용노동부 지역생태계 활성화 사업 선정",
+    "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE80dXZKX0hEd0JvRmZMZWs1djBSeXBvMVl0cWxnZDR1R3R5S3FsYmc5Vjh0Tk1TbmwyMXVUeWRLSl95LXpCakhlRnQ0ckxhajVEc09ldFB4TU5PdVJ4YkJRMEpZN1Q?oc=5",
+    "date": "Thu, 20 Aug 2026 13:08:35 GMT",
+    "summary": "",
+    "source": "KNS뉴스통신"
+   },
+   {
     "title": "[칼럼] 국민이 직접 뽑은 ‘정책 소통 혁신’의 주인공, 고용노동부와 식품의약품안전처",
     "url": "https://news.google.com/rss/articles/CBMiREFVX3lxTFBTTkxHb1dFLUI5SWM5bkVmOUFNdVJBUkE5WGI0ay1hNzRzWmt2OGU3b3pvbkJ2dmhHeXh6dWtRNXhqQUxG?oc=5",
     "date": "Thu, 20 Aug 2026 12:45:00 GMT",
@@ -215,13 +264,6 @@
     "source": "공뉴스"
    },
    {
-    "title": "수성구, 고용노동부 지역생태계 활성화 사업 선정 사회적경제조직과 손잡고 통합돌봄 넓힌다",
-    "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBKcHVnejk5M0lSWEdCem5DWUIxSmdadGY2bl9YYVJnLXZlSUtGMkJLY0g0amlQM29rNVZMSEZtUHdLX0ZkVDZLcUxDRUFBZGoxS3l1c04xM1FrUV9Rb1E?oc=5",
-    "date": "Thu, 20 Aug 2026 12:02:51 GMT",
-    "summary": "",
-    "source": "시사뉴스"
-   },
-   {
     "title": "노동부, 여수시 고용위기 선제대응지역 1년 연장",
     "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE51d3VUQURIYXZfRU9ubHNwRzlRemdfNEZ5QU84R0YzY2ZHdElPcUt5UUJEbGZPS1FUQ211aWRlakhHSUt4bU5NVFl1ZTZrVWFUWnVOelNMSmhVcTZRUTU5Q2NqODJPNHJadkE?oc=5",
     "date": "Thu, 20 Aug 2026 11:03:44 GMT",
@@ -236,11 +278,11 @@
     "source": "철강금속신문"
    },
    {
-    "title": "김해시, 전국 지자체 일자리대상 ‘우수상’…5년 연속 결실",
-    "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBRc3dLdGtIelVHZ0k1a3hxX3hNSmpEemhZNUVlRFpkRTdCQVBLT3drQU1wcUliVzVaTnFycy1wRVR2eGFsZmhjb2hUb1FDRlk4UHd5M1Z5OEZCeDJkNnNpNzhHQzZ5NkNfMHc?oc=5",
-    "date": "Thu, 20 Aug 2026 09:57:18 GMT",
+    "title": "포항시, 전국 지방자치단체 일자리대상 2년 연속 특별상 수상 쾌거",
+    "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE4zeWZoOHRJODZsZ2FxRU9nSkRrWk5Gc245UUdGd2Z6NEdNMVpQblk5U3Q5bm85OXdCYXVJeXR5TjViQ0pqTnFITUtYVVlfWVBHbFpMTVctbXhtcGhrQWJyRmlGOXc?oc=5",
+    "date": "Thu, 20 Aug 2026 09:23:12 GMT",
     "summary": "",
-    "source": "경남도민일보"
+    "source": "서울경제TV"
    },
    {
     "title": "전국 102개 고용센터 '대혁신'…행정은 'AI가', 직원은 '취업상담' 전담",
@@ -292,13 +334,6 @@
     "source": "전국뉴스"
    },
    {
-    "title": "김제시, 『2026 전국 지방자치단체 일자리평가』 최우수상 수상",
-    "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE11V3RMQ1ByZ3BkV2MwRGJHYXpiS3RQWHg3SnJDVkJkcjlTc0kyR1BpeXlTbi1sMTRfVzdKX0xmRHdyMTJTckpKemVKUFZQbHFvMVVFNTN1MVY1YnZOT3gtbmhYTEcxNTUtdG4zTFN3?oc=5",
-    "date": "Thu, 20 Aug 2026 08:04:00 GMT",
-    "summary": "",
-    "source": "전라매일"
-   },
-   {
     "title": "노동부 고용센터, AI에 행정 맡기고 상담은 사람이",
     "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9CeWFoRDAxaDVCZnZEUmppcllmbGJwM1h6ZTc4Y21zVWNraFFreFVDcGYwRVZxMXFlUnNuMHVrNlJ0LUZzVzhnVkNvNEE1M2s?oc=5",
     "date": "Thu, 20 Aug 2026 08:02:44 GMT",
@@ -318,44 +353,16 @@
     "date": "Thu, 20 Aug 2026 08:00:00 GMT",
     "summary": "",
     "source": "세계일보"
-   },
-   {
-    "title": "완주군, 전국 지자체 일자리대상 우수상…민선8기 고용정책 성과 인정",
-    "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBSNGUtSC1JSElqaTZkWFN4ek9XYWZpM0Q2Y0xzM19LZm9LWXBscy1UbzFGNTM5V1BUTnRUbENoMDBHc1NUZUh2WnlnNFBFTU5sOGRvMk42MEJMU3Y1UlpoaHhTU0MyOXNUcVZn?oc=5",
-    "date": "Thu, 20 Aug 2026 07:58:26 GMT",
-    "summary": "",
-    "source": "NANOOM ENERGY"
-   },
-   {
-    "title": "포항시, 맞춤형 일자리 정책 빛났다...전국 지자체 일자리대상 2년 연속 수상",
-    "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBpZXg4MTNlM0NRTVVrc09PcmVvajJuRE16ekhxeGRmWlRtS3VBQ2p2WFRJWWxuY2d5ci1jR2l0eGwxSjJscm5OcXZXdFZLeTZQdElYbVBqbFZVdDlOU1NLa2VPZW8wQQ?oc=5",
-    "date": "Thu, 20 Aug 2026 07:51:54 GMT",
-    "summary": "",
-    "source": "이로운넷"
-   },
-   {
-    "title": "곡성군, 전국 지방자치단체 일자리대상 ‘공시제 부문’ 우수상",
-    "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1ZOVRhTHRBUzhRbmdTdHZ6MVZ0OWhVNFkxbnJNbmItX0d1UFZLMFYxWVFzLWhubGxsUUh6c1lzdTFHSV8xd2pwc0NHSWZqTklTSkZBN0R3?oc=5",
-    "date": "Thu, 20 Aug 2026 07:38:42 GMT",
-    "summary": "",
-    "source": "뉴스21 통신"
-   },
-   {
-    "title": "AI에 행정 맡기고 상담사는 구직자 만난다…고용센터 30년 만에 개편",
-    "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQN2VaNWx0SUloZUlyWlRCNmZyRVRJaWFOOEVJR2lEbFkzRFRSaEFBSHlJUndMZW9ySkh5aHNfYXlZSlVKbXQwNjNSVVpqdVV2RjNjSHJMMUxlaHoyc0pTUkFsVUtHelhQVEg4RWNHMTZRVXM4aUdsUUFhNElUN3oxM3NMa09vWjZrVmtxdHpFaGE5dGRCc0VpWkJadXoyQ1ZkaWtzdURrS0QtUdIBX0FVX3lxTFBSTkVuR0hobkwya01BMFl0ZEdZS3RjVXYyQVRXRXFBakhkeTE3WlJ4Y3E2aEMzVzZlZEh0Wk1RLXhBdWlrcVY2c21jdl9ITVNhamtBSkctUlZkS0NRcFB3?oc=5",
-    "date": "Thu, 20 Aug 2026 07:37:00 GMT",
-    "summary": "",
-    "source": "경향신문"
-   },
-   {
-    "title": "남구, 노동부 주관 ‘일자리 대상’ 특별상 수상",
-    "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBDN29VaTA4Q0xfLXNvbGtuRFhCdjlVOGxXSzZ1YkdjX3dUUmhSdjBfT3N0NFM0bDRRMTRaS3Y5QkNzenA1RUhCbzhVUzR5N3ZyOG01UDdoc3kyRlRVNzNuUTBFWnp1RDQ?oc=5",
-    "date": "Thu, 20 Aug 2026 07:31:04 GMT",
-    "summary": "",
-    "source": "팍스경제TV"
    }
   ],
   "law": [
+   {
+    "title": "석유화학 구조조정 '대산 1호' 조건부 승인…공정위, 롯데·HD현대에 가격·공급 규제",
+    "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5uUW1nd19xeE9idlJXUkZkM2lxSjZVbWpkN2tqbUM5ZWRHLTVVRV9SNXgzSnRGZ2RXSXVKMkRpZlRSSVVDaEx0Vzh5M2hqSjFLLWU0NHJrcEkwZWNuMUxv?oc=5",
+    "date": "Thu, 20 Aug 2026 13:37:56 GMT",
+    "summary": "",
+    "source": "kjtimes"
+   },
    {
     "title": "공정거래위원회, 공정거래법·하도급법 개정안 국회 본회의 통과",
     "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1VZTM0VjFSU3NYRC1KcEFtNHpxczJ0S2lVWXUxeDBTTXIwMVN4Xy1PV0Q2SGdSNmY0Ymw2ekNSLU9HWkxGcTlDMkRnSWJfOVNaSFFXR0hJbktZZjEtYUREVVBkT09OOEE?oc=5",
@@ -421,10 +428,10 @@
    },
    {
     "title": "불공정 손배소에 공정위 자료제출 의무화…공정거래법 통과",
-    "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE01S1YwTFNVU0toTFJvQ2pmdjN4Qk95M1RvdFV3Q0pYVEdFMndIQVFXWlY1d0c1SzE0c0JQVGV3NGpDTEp2cV9mYWpVcTRPLW1PV1lFVzdrUWhuUEFhblQ0MkFvaGZYSWVVTlZNWWYyX0ZvaENR?oc=5",
+    "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBSbzVxSnhvcTVnRUw5QjNMcF9pX3UwWEdrdl91MHlwc1d6Q3R6VnFzeldkTGFyeEE2VUJ3N01NdC1LOFJYNE9fVnhBSzNmUzdKbXJBRE43RlUzTWfSAWBBVV95cUxOZFVyWnd0M2ZnQ1dDYlhLcUZOSXo3cTNISkotNkI0VmRuNEY1X01abHo1M0JmTER6VnFjdmhnR1RxYWppSnRTcWlaUWtzcm5RWENRbExsVzN6bW0zbk9xNVM?oc=5",
     "date": "Thu, 20 Aug 2026 08:42:26 GMT",
     "summary": "",
-    "source": "연합뉴스 한민족센터"
+    "source": "연합뉴스"
    },
    {
     "title": "공정위, '대산 1호' 석유화학 사업재편 조건부 승인",
@@ -523,22 +530,29 @@
     "date": "Thu, 20 Aug 2026 07:34:46 GMT",
     "summary": "",
     "source": "세이프타임즈"
-   },
-   {
-    "title": "공정위, 롯데·HD현대 '대산 1호' 조건부 승인…5년간 가격·공급 제한 조건",
-    "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5JZl9oUXl0VWJpWkdid2xKV3hRa29tUUU5cm1jbkVHTVdJcW56V3M3SDdfSVE1V1FIR3RYbE9hVm0wbjFuYlJOdU5NNlZHTFhUdE5Rb1NMY05kdDVIenRlX0YtdE92OVk2Ympn?oc=5",
-    "date": "Thu, 20 Aug 2026 07:31:16 GMT",
-    "summary": "",
-    "source": "BBS불교방송"
    }
   ],
   "fund": [
+   {
+    "title": "25일 금융위 등 2차 공공기관 이전 발표?…국토부 \"시기·대상 모두 사실 아냐\"",
+    "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE4yRnYxTkxRUEJMWmtNVV95U3FVYjFWQ2gzeU8yeVBnOVNLZERwUTZzeU1PZDdsdmR0LTlvTnd1TDFndUtvZ3M4UWNYREwtSmRkYktITVAzVVVXTTNETm5feFFIanFOUzh3TG5iRjBUTkdNbjM0WDVheQ?oc=5",
+    "date": "Thu, 20 Aug 2026 13:29:00 GMT",
+    "summary": "",
+    "source": "네이트"
+   },
    {
     "title": "금융위원회, 정책대출 결혼페널티 해소",
     "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5rZWlsaDlOMDAzTHNfNkhhOWlMcmpjTEZBX3Y1bWhMQ2txLWctbV95V2R3b0pTUVhkYjhkRkg4NFlHOXBlc1hCdjU2OW5IMTFlSHUtVXpZVVpfS2c1YWhCVlZBU1A1TE9oQkhWNg?oc=5",
     "date": "Thu, 20 Aug 2026 12:22:48 GMT",
     "summary": "",
     "source": "행정신문"
+   },
+   {
+    "title": "금융위, 남부 수해 피해 가계·중소기업에 긴급 금융지원",
+    "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOdVlkN0d0S2JtelRFcGltdEZfdVB4eFBDaVJTbnVJV0Nydm13S1B5YjVUZWNUaG1YZHRYdFlVdzA5Yy1vZU1vbGlhdUplenFaNm9FZGo4WjdZVEcxakE2RHRCVi1fRU9nTTdGV0NqU1hSYXp4REI4bGNBMy14TG1wYTFtUEdISVVuTFE?oc=5",
+    "date": "Thu, 20 Aug 2026 12:11:15 GMT",
+    "summary": "",
+    "source": "대한민국 정책브리핑"
    },
    {
     "title": "관세청, 집중호우 피해 수출입기업에 신속한 관세행정 지원 실시",
@@ -625,13 +639,6 @@
     "source": "연합뉴스"
    },
    {
-    "title": "금융위, 남부 수해 피해 가계·중소기업에 긴급 금융지원",
-    "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNaTNZbXZMbTdKT0pVNWRPMUd4aUJHUUlJZmNZZ3VnZVd3SXR4am93VFNQaGkxekRyY0RBc001TFlZQjluQWxWLVJ5M25zRTRNdUFKdjZVNExacnpmcXhWUlBoYkhUNElPc1UwZklPYkwta1huSkhtUG4xd1BUYU51WDloOFh1M3JmN3c?oc=5",
-    "date": "Thu, 20 Aug 2026 09:25:24 GMT",
-    "summary": "",
-    "source": "대한민국 정책브리핑"
-   },
-   {
     "title": "\"수해 극복 돕는다\"…금융위, 대출 만기연장·보험금 조기 지급 총력",
     "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5UeDhhTzQ4dHU5ZEJ6NG9wVUxyM1MwRDVQWEw3WTBVS2tqck9YS0kzbWU3ZWFxYTRQX1VRWFVRRTJDVW02TGtzak9MeDRNZFItdnFz?oc=5",
     "date": "Thu, 20 Aug 2026 09:21:00 GMT",
@@ -700,16 +707,23 @@
     "date": "Thu, 20 Aug 2026 07:44:04 GMT",
     "summary": "",
     "source": "미디어펜"
-   },
-   {
-    "title": "금융위, 경남 수해 복구 지원…가계·중소기업 대출 만기연장·상환유예",
-    "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBxYm10QjVSZGsxYUk4cW1SS0xhcW4zV050ek5zSVVsQXFHNEo2QU9CbndYZXMwclBVeDcxM3ZSQnNUdE1xN1hmbi1VTFRmUWVubnI0RjVmQmZTa2U5cGlXYTdKOUJuRVlETE54TQ?oc=5",
-    "date": "Thu, 20 Aug 2026 07:36:14 GMT",
-    "summary": "",
-    "source": "메디컬투데이"
    }
   ],
   "biz": [
+   {
+    "title": "국민 1만명 창업시장으로 끌어들인다…‘모두의 창업’ 2배 확대",
+    "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5JRF84dnJLaDBPRTA3d1BpSkhZOGhET2htSnlqSVYwVXoxeDBOdjJsY0VWSVRYUTQ1c0JTdW1XZUd3QkczSVBya25reEtnZmFfSU8zLWoyRy1WV0tta0hIZFVPNkdFZzBkREU1VVJvaks?oc=5",
+    "date": "Thu, 20 Aug 2026 13:36:06 GMT",
+    "summary": "",
+    "source": "thedailyeconomy.kr"
+   },
+   {
+    "title": "중기부, 비대면진료의 성공적 안착과 국민 의약품 접근성 확대 본격 추진",
+    "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE5qeDR4UkRTZEMtT1UwUFM5eDBTVjhwZlR5X3pCcFFnaFpHMWM0RUJLV3BvZzlWN21CUDNIV3pHa2FXenNUTDFWZ09HZHg?oc=5",
+    "date": "Thu, 20 Aug 2026 13:13:00 GMT",
+    "summary": "",
+    "source": "시사일보"
+   },
    {
     "title": "‘모두의 창업’ 소셜벤처 리그 접수 마감… 신청 절반이 AI·돌봄 분야",
     "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE1zeE5kdk9BbDVsS1FHWGV1Mms4a09FcGwwbWtxTmY2NVhTR1k0X2JuSGkyUHUxaTFzMmpzck1QdDh3eFd2SHlESA?oc=5",
@@ -870,20 +884,6 @@
     "date": "Thu, 20 Aug 2026 07:36:01 GMT",
     "summary": "",
     "source": "뉴스후플러스"
-   },
-   {
-    "title": "중기부-기정원, 'AI 페스타' 참여기업 모집…부스 설치비 지원",
-    "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE01R3JIVXF1bVBHbldKa1MyX0U2cWV5ekRCMXMzcVNSTGwzcXB6UENpQUtld3NPWS11M1E1Tl9aeVpjdlp2c2tpUzk5Q1BPM0U?oc=5",
-    "date": "Thu, 20 Aug 2026 07:17:00 GMT",
-    "summary": "",
-    "source": "v.daum.net"
-   },
-   {
-    "title": "중기부-기정원, 'AI 페스타' 참여기업 모집…부스 설치비 지원",
-    "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBsWU5VQmRsa1cyVXBMX3lTOExVcjFoM1ZOUGJLLWt0d3RzT3BkUTh1NFZBbXhkejZyR0d0TUl1YTRZeWN2bExLUTVjcW9oTTZFRkJKbWl5eTU2RjRlTzBBUmlJcGQ?oc=5",
-    "date": "Thu, 20 Aug 2026 07:16:08 GMT",
-    "summary": "",
-    "source": "MTN 머니투데이방송"
    }
   ],
   "money": [
@@ -907,6 +907,13 @@
     "date": "Wed, 29 Jul 2026 22:29:03 GMT",
     "summary": "",
     "source": "nsenior.co.kr"
+   },
+   {
+    "title": "강북구, 혁신성장 청년 예비 소상공인 키운다",
+    "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE85dndQN2pORXV3RVlYS1FYVEVzUG1tNVpYWmtfWVBkU0pSMWFNRUkyUHFNd3hsQUxqemdNUkRpTEQ4VkwzTUtKNFdfSW00MTh1cXZ0ejNTTnJXM2N1bHZYc25fSHNRaG9JaHdpRUtXOA?oc=5",
+    "date": "Thu, 23 Jul 2026 23:29:00 GMT",
+    "summary": "",
+    "source": "동북일보"
    },
    {
     "title": "\"지원금도 '원클릭' 시대\"…中企·소상공인 지원도 서비스 경쟁",
@@ -1054,13 +1061,6 @@
     "date": "Sat, 21 Mar 2026 07:00:00 GMT",
     "summary": "",
     "source": "에너지경제신문"
-   },
-   {
-    "title": "소상공인 바우처 신청 및 사용 방법",
-    "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1aZ0Q4cEdTbWpQcnJySTA2ZDdjRjM2WnBHZ3pBbnUxZ19qOG0yaXc5RkRsSEdQMFFFWnBXRzdOSmRzVjlSbFVjYmVpeWZvUElTRFlia3FVTC1zVG1XbTBpc3oyVDQ?oc=5",
-    "date": "Fri, 13 Mar 2026 07:00:00 GMT",
-    "summary": "",
-    "source": "bntnews.co.kr"
    }
   ],
   "guide": [
