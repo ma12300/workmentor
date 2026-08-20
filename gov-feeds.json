@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-20T17:47:18.475Z",
+ "updatedAt": "2026-08-20T18:16:19.867Z",
  "groups": {
   "tax": [
    {
@@ -32,10 +32,10 @@
    },
    {
     "title": "국세청, 회사가 적자인데 법인세 내야 할까?",
-    "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFA4Sm45UWVJaXU3cTBac3ktdF9HTnNBS3U4bmV0ZFY1SmQtYjRKX0FPRFpXbzExWHJYVi00cE9aWjB0TEFQYnJoWFNNUW5HT1BaQjZqTThTRGlXVzVXd1d3UkZaNFYzV1ZobWpuQjRQcDJEZVFy?oc=5",
+    "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5oWS03TWYtZTRtWnJYd2wwU0phMkZ4cXRiQUhYRUl2RUZicUpXSlhpc3JyNjI5SC1PRDdoLXpVUEtHR1FSdWdVYS1nM09UOW5PZUVCMWhodVNvTi1ZV3dsc0NIZDlpa0s4Q25sTEZsRUY?oc=5",
     "date": "Thu, 20 Aug 2026 11:21:55 GMT",
     "summary": "",
-    "source": "경기종합뉴스"
+    "source": "더 데일리가드"
    },
    {
     "title": "“환급률 1위” 못 쓴다…세무사 광고에 칼 댄 국세청",
@@ -306,13 +306,6 @@
     "source": "BBS불교방송"
    },
    {
-    "title": "'석화 부진' 여수, 고용위기 선제대응지역 1년 연장…'철강' 당진 신규 지정",
-    "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1PNmxUM2FWSEVxN3lWcjZ1Nkw1RXpWb3lWQnlCaFpNZ2J4QU1HRm5pbHhTSlZxcm11dWotbjZSWnNkSkNQbzQ4QVYwR29xLVE?oc=5",
-    "date": "Thu, 20 Aug 2026 08:29:15 GMT",
-    "summary": "",
-    "source": "v.daum.net"
-   },
-   {
     "title": "대구 중구, 고용노동부 주관 ‘2026 전국 지방정부 일자리대상’ 최우수상 수상",
     "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFB1d0dGN3J0ZU9jdlprS1l2T2JpNnlRVEg4RDlmQ2dHMkFrQ0lULVZ5Z25oSGdkNWJGYmc4cUZJOURBTDd4dFRTUElvQzM4ZXBVSnNQNWh0T3AxMHl3UWFUVDg3Sy1MSl9B?oc=5",
     "date": "Thu, 20 Aug 2026 08:22:44 GMT",
@@ -353,6 +346,13 @@
     "date": "Thu, 20 Aug 2026 08:01:17 GMT",
     "summary": "",
     "source": "뉴시스"
+   },
+   {
+    "title": "수성구, 고용노동부 지역생태계 활성화 사업 선정…통합돌봄 서비스 확대",
+    "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE1yUzdLdldLS0V4djdsZXlpbHdHWVg5VzRhbEp3TE95emlmRW45Y2xYT0FraGNkQ25HTEJaek1LSzA5cS02eVNzYnEyYmVsNlFaZy11NkdxM3VRczhSNFBpTDVkQms0RjZKYzhpMTFKV1U5Zw?oc=5",
+    "date": "Thu, 20 Aug 2026 08:00:04 GMT",
+    "summary": "",
+    "source": "웹이코노미"
    }
   ],
   "law": [
@@ -556,6 +556,13 @@
    },
    {
     "title": "금융위원회, 정책대출 결혼페널티 해소",
+    "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9CSG5Kci1kazNXSmwtQUFfYnQ4VTc3WS16YkRLZ19vRGktOEJBRW1ORmpYcHowRnhybzNBa3c5RmdTOHExcTJhdjJWbTg2U3lTeWRyX1JOX3V0Mnp5bDVuOVFmMkZSUE5ycG5GRVpn?oc=5",
+    "date": "Thu, 20 Aug 2026 11:50:12 GMT",
+    "summary": "",
+    "source": "시민행정신문"
+   },
+   {
+    "title": "금융위원회, 정책대출 결혼페널티 해소",
     "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBjZ2ZrSXlKU3RGUTlVRFF4Wl92WjZVTkVsSnZPVVE4TWNuZ21ET1N1S2N1b3JodXNOby11eXFScUVBYlphbllFVzJvVWcxcF93VmlKSGJkc3ZBQVZnMjVhTmZUZ3hBQmtkdWc?oc=5",
     "date": "Thu, 20 Aug 2026 11:50:10 GMT",
     "summary": "",
@@ -563,10 +570,24 @@
    },
    {
     "title": "금융위원회, 정책대출 결혼페널티 해소",
+    "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9xT2NLekduWmxoNURQaGNpNkxadlhxZkJrMS1aN2J1LWtWdXR6ak5CdUV4MlVGRmEwMjNXMWdabV9ncW5iWDVJSXNnc1dQS2djM2NwMXhDSFAxd09QUWNTWUF3c0FtQQ?oc=5",
+    "date": "Thu, 20 Aug 2026 11:50:09 GMT",
+    "summary": "",
+    "source": "뉴미디어타임즈"
+   },
+   {
+    "title": "금융위원회, 정책대출 결혼페널티 해소",
     "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9uZ0p3YWRUaThFN0tHdDlIYkdibEVYODB1LW9aWk00a2RWV240bUF6QVdnVjlXZ2pxRmtoZlhYSEd2bGhwb0oxTk1INzhBbl85TmxFMUd4c182OTY0dWFNOXhvNA?oc=5",
     "date": "Thu, 20 Aug 2026 11:50:08 GMT",
     "summary": "",
     "source": "경남도민뉴스"
+   },
+   {
+    "title": "금융위원회, 정책대출 결혼페널티 해소",
+    "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE14UjNwSkh5QjVhYjhvdFlrT05GVHVBc0NxenZDX1l1d0hmQ241Y01Ha1hjT0JJTGpaREhVeGc3MU51YXlBeERCRFRId21rcndCTjVUTnNmVURBZXpqMzktS213?oc=5",
+    "date": "Thu, 20 Aug 2026 11:50:07 GMT",
+    "summary": "",
+    "source": "㈜한국탑뉴스"
    },
    {
     "title": "금융위원회, 정책대출 결혼페널티 해소",
@@ -602,13 +623,6 @@
     "date": "Thu, 20 Aug 2026 11:38:00 GMT",
     "summary": "",
     "source": "연합뉴스TV"
-   },
-   {
-    "title": "금융위원회, 정책대출 결혼페널티 해소",
-    "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9aLXo2WUozQlplZ2RVSXdDMkpiYTJ1NGluZnRRZnZFdUxvNndZZW00Vm9jLWFJd3RzZzVRdUVVY1dIZWhESnJKM2RLc0lJV25EckdtdUNqMTN5ckp5ZWEzZmpuMlZYaENraFh6blQ4NFJlcTlQ?oc=5",
-    "date": "Thu, 20 Aug 2026 11:22:49 GMT",
-    "summary": "",
-    "source": "경기종합뉴스"
    },
    {
     "title": "금융위원회, 정책대출 결혼페널티 해소",
@@ -681,13 +695,6 @@
     "source": "한국경제"
    },
    {
-    "title": "금융위 “수수료 안착부터”…보험판매전문사법, 당국 시계와 3년 어긋났다",
-    "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE0wcW82M1c3dzJBYkhRN0RjN0R3RGdXcE82QVZBNjRwbXpOUFVWaWdNMlVXMUtjQW5pcTFZZXdIMXh6VWpMVVZzVUoyUEwyYmVpSXRqVVlobEphdWFhY2VPUTRuUFNKckg50gFrQVVfeXFMUGd0VVl6OE85X0dlQTdHQUlUOUVHWGVqZ0Nid1YwRGxUWWR4bS1BTGRGOFhmV295NjJPU1NmQ0sxS2VNTEMzdlItenFCZXF2TVFlR29CQlN1eGt1X3FmLXVBS3MtMHpJanN5dDA?oc=5",
-    "date": "Thu, 20 Aug 2026 08:29:55 GMT",
-    "summary": "",
-    "source": "SR타임스"
-   },
-   {
     "title": "금융위, 초장기 기술투자펀드 운용사 선정 돌입",
     "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPNi1Oc2JuRk9pYXJFZHg2aUpoMEJtU3BsUEVBR3JDWTViRTJZZlpIY3ZiYmJTT285eUxrU2pxVFdReWsyYzVuXzVrYVN3cTc3THdQWHYzVWRDNWtNTUlxSjVoZmk4WndRZzVXUFJwa1J4d1JudkJkcVNFaXlOanlWQmtuLTI1ZTFxT3BV?oc=5",
     "date": "Thu, 20 Aug 2026 08:08:15 GMT",
@@ -698,13 +705,6 @@
     "title": "금융위, 수해 가계·중소기업에 대출 만기 연장 등 금융지원",
     "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5Ha2ZjNDJUUmZqX1RoT25OejMtUzdmeFRSUldfaFpZX1haV1RFSUd5NUlrb1AzalVKZTlfVjNrcnNic1ZDdHRPOXVvTC1kVmRQUXpQZNIBWEFVX3lxTFBQcVZ1RW1QWVNmb1hqMkQyX21lYUVMdU9xNkJaWUd2eFZEZTJSeWpWX0hIXzlRbUdIQk9IWndpa19PQ1lGOHllcVRhNVFyVDdsanpHOTRidkM?oc=5",
     "date": "Thu, 20 Aug 2026 07:49:10 GMT",
-    "summary": "",
-    "source": "미디어펜"
-   },
-   {
-    "title": "금융위, 최대 16년 초장기기술투자펀드 조성…8800억원 규모",
-    "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9Vd2lETUw4V2dEeDJ6UEl0eXFaa0VUYTFGOWplNnc0cDJJYXlwcFV2M2Y5Snk2RkRmSWlKMjhYUXZEV1IxM1RmU29WcWtnNjZDQkI1edIBWEFVX3lxTE8xelA3MklMZzNZaGJ3UTl4VUs1eWtkVHF3OHg5eGgxSDlrX0NXMnpDV1Joa1dERDg2djh3NTF6N0gxZk1ibjE4TmdCV2d0MXBQZVhvcmVvMFE?oc=5",
-    "date": "Thu, 20 Aug 2026 07:44:04 GMT",
     "summary": "",
     "source": "미디어펜"
    }
@@ -747,13 +747,6 @@
    },
    {
     "title": "중소벤처기업부, '지역성장펀드' 제1호 펀드, 전북에서 1,000억 원 규모로 출범",
-    "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE42REZObzlyLWF3eFNvTmxsZ213a05kYkg5U09teHJUYnpnUENQSHI3R0JKc2hGMlJYTVdYNHFocEdGY3ROOXNOVGpfelFUQmRWYm9zOWFSYUREQjlUbWV3a0JWNE5aNVRWUUI3eQ?oc=5",
-    "date": "Thu, 20 Aug 2026 12:00:50 GMT",
-    "summary": "",
-    "source": "climatepol.com"
-   },
-   {
-    "title": "중소벤처기업부, '지역성장펀드' 제1호 펀드, 전북에서 1,000억 원 규모로 출범",
     "url": "https://news.google.com/rss/articles/CBMiREFVX3lxTE9sd3o1LUxLclV1YTNjQnFyNGpDcmpBVVdqT3BFb3dDMzcwNVVTM0d1OC03NzA2cDFUdW1qWlc5NklsRlh4?oc=5",
     "date": "Thu, 20 Aug 2026 12:00:00 GMT",
     "summary": "",
@@ -772,13 +765,6 @@
     "date": "Thu, 20 Aug 2026 10:30:00 GMT",
     "summary": "",
     "source": "머니투데이"
-   },
-   {
-    "title": "충북도·청주시, '창업도시' 도약 시동…중기부 공모 도전장",
-    "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE8wTm9NMXRiQTk4RTdYY0Q2U2FNS2NVUTQ4VEFoVjFhQlU3RWNidlJXYzA3N3RhS0pURC1NM0FSTExaTzRlSXZfUEdjOW94RVZyVGhMc24yUThnaVhZdnM4Yg?oc=5",
-    "date": "Thu, 20 Aug 2026 10:07:00 GMT",
-    "summary": "",
-    "source": "네이트"
    },
    {
     "title": "‘모두의 창업’ 소셜벤처에 1788건 몰려…79세부터 14세까지 도전",
@@ -872,6 +858,13 @@
     "source": "연합뉴스"
    },
    {
+    "title": "중소벤처기업부, K-뷰티 수출거점에 경주·제주 선정",
+    "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1hZi1VY2lFMWZoV3lDYTBfNllwdWlFS1ZCSldEaXRFYmRZa1J5d2xRbERzWjBpNmhleUttbDl2SFIwNHZjbVlzZ0Qzd2k2VkFSbGFZekVRUEJFQmgyak9CS1pRNzIzd9IBa0FVX3lxTE51SjFpTUxuUlZGUXlfSW83elZDU2FYN3NKam1zeC14V01tZy1nYUw5MkZnSmo2MGV4S2h2S0laNDlxeXBKLTNrMHFxN3pQLWZHbzFvNm1wM1JidTNLcmxrRmtxcURnU3o4WFhZ?oc=5",
+    "date": "Thu, 20 Aug 2026 07:37:56 GMT",
+    "summary": "",
+    "source": "한국관세신문"
+   },
+   {
     "title": "중기부, 전북 지역성장펀드 출범…지역 스타트업 1800억원 투자 기반",
     "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1CQTJFOGFjUUFOT0FzalZNSk9DTUtFM2ZWekhjVWZNSXczbjBmTnVyNk9rSktYM3dnUmViOTFkMS1xc0dLVWREaTJhTXpkYlNUSlpPUkRrUWUzQm9EVkJ5YTFoa3dta3h6V0ZQSGNR?oc=5",
     "date": "Thu, 20 Aug 2026 07:36:01 GMT",
@@ -884,6 +877,13 @@
     "date": "Thu, 20 Aug 2026 07:17:00 GMT",
     "summary": "",
     "source": "v.daum.net"
+   },
+   {
+    "title": "중기부-기정원, 'AI 페스타' 참여기업 모집…부스 설치비 지원",
+    "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBsWU5VQmRsa1cyVXBMX3lTOExVcjFoM1ZOUGJLLWt0d3RzT3BkUTh1NFZBbXhkejZyR0d0TUl1YTRZeWN2bExLUTVjcW9oTTZFRkJKbWl5eTU2RjRlTzBBUmlJcGQ?oc=5",
+    "date": "Thu, 20 Aug 2026 07:16:08 GMT",
+    "summary": "",
+    "source": "MTN 머니투데이방송"
    }
   ],
   "money": [
@@ -907,6 +907,13 @@
     "date": "Wed, 29 Jul 2026 22:29:03 GMT",
     "summary": "",
     "source": "nsenior.co.kr"
+   },
+   {
+    "title": "강북구, 혁신성장 청년 예비 소상공인 키운다",
+    "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE85dndQN2pORXV3RVlYS1FYVEVzUG1tNVpYWmtfWVBkU0pSMWFNRUkyUHFNd3hsQUxqemdNUkRpTEQ4VkwzTUtKNFdfSW00MTh1cXZ0ejNTTnJXM2N1bHZYc25fSHNRaG9JaHdpRUtXOA?oc=5",
+    "date": "Thu, 23 Jul 2026 23:29:00 GMT",
+    "summary": "",
+    "source": "동북일보"
    },
    {
     "title": "\"지원금도 '원클릭' 시대\"…中企·소상공인 지원도 서비스 경쟁",
@@ -1054,13 +1061,6 @@
     "date": "Sat, 21 Mar 2026 07:00:00 GMT",
     "summary": "",
     "source": "에너지경제신문"
-   },
-   {
-    "title": "소상공인 바우처 신청 및 사용 방법",
-    "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1aZ0Q4cEdTbWpQcnJySTA2ZDdjRjM2WnBHZ3pBbnUxZ19qOG0yaXc5RkRsSEdQMFFFWnBXRzdOSmRzVjlSbFVjYmVpeWZvUElTRFlia3FVTC1zVG1XbTBpc3oyVDQ?oc=5",
-    "date": "Fri, 13 Mar 2026 07:00:00 GMT",
-    "summary": "",
-    "source": "bntnews.co.kr"
    }
   ],
   "guide": [
