@@ -1,14 +1,7 @@
 {
- "updatedAt": "2026-08-20T21:34:14.303Z",
+ "updatedAt": "2026-08-20T22:02:54.023Z",
  "groups": {
   "tax": [
-   {
-    "title": "[세무관서장 회의] 인천국세청 “국세외수입 통합징수, 책임감 있게 추진”",
-    "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5CQXNFNGRGZkg5NXJ0WHI1aUlwN0ExR2ZKRkk4d1JXX2xwQllCYUxPY0hlcEZUY3cxYjEtRDY4WUVMdUJfWTk2bUZpNGlOOHFFR3g5Vnh1d3d0MEI1Sl8tNk9uRQ?oc=5",
-    "date": "Thu, 20 Aug 2026 15:39:49 GMT",
-    "summary": "",
-    "source": "조세금융신문"
-   },
    {
     "title": "국세청, 세무사 과장·오인광고 금지기준 마련…‘국내 최고·환급률 1위’ 근거 없으면 금지",
     "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5ROHhaNVlTMUFJbzFUU0txa0lBYmEybGlPWFcweUM0ajVueENKT0owcWJQRHNTV3RIWVBrTGM3OFJ1TEYxcW42X0pXVnJDd2pOa1Y5U0VObU85Zw?oc=5",
@@ -50,6 +43,13 @@
     "date": "Thu, 20 Aug 2026 10:02:51 GMT",
     "summary": "",
     "source": "hidomin.com"
+   },
+   {
+    "title": "[세무관서장 회의] 인천국세청 “국세외수입 통합징수, 책임감 있게 추진”",
+    "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5CQXNFNGRGZkg5NXJ0WHI1aUlwN0ExR2ZKRkk4d1JXX2xwQllCYUxPY0hlcEZUY3cxYjEtRDY4WUVMdUJfWTk2bUZpNGlOOHFFR3g5Vnh1d3d0MEI1Sl8tNk9uRQ?oc=5",
+    "date": "Thu, 20 Aug 2026 09:43:55 GMT",
+    "summary": "",
+    "source": "조세금융신문"
    },
    {
     "title": "인천국세청, 하반기 세무관서장 회의…체납관리·세무조사 운영방안 논의",
@@ -180,6 +180,20 @@
   ],
   "labor": [
    {
+    "title": "포항시, '전국 지방자치단체 일자리대상' 2년 연속 특별상 수상",
+    "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE4tUWU0cGpVeVNoYno3Yno0U3VyZ0hHZi01LU8zUTUtZjN5NDcydWtBODVvcGhaT0l1bEJTWmNpT2w3VmRwbWxqM1Zab2tiN283Qnp4eG1uYmtHTkFGX2Iwb3UyVjRIUQ?oc=5",
+    "date": "Thu, 20 Aug 2026 21:55:29 GMT",
+    "summary": "",
+    "source": "포커스데일리"
+   },
+   {
+    "title": "권익위 \"사업주 실수로 취업기간 만료 외국인 재고용해야\"",
+    "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBtWHFuc0hPdnZpTzdLcEYxZjRoRnVzdHlhYU43b1IxLXZSbFRFSTdPOUVWc3diamhqaGpzUnZNMEs3STlTWUZjS1l6YXRpZUVYVnVN?oc=5",
+    "date": "Thu, 20 Aug 2026 21:33:00 GMT",
+    "summary": "",
+    "source": "네이트"
+   },
+   {
     "title": "고용노동부, 30년 만에 고용센터 개편 … 실업인정은 AI가, 사람은 상담에 집중",
     "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE00bUxaeWlhdmMzQjlmZXF6cFJhQ1QwVWhZd01JMTl6MjVnalN1OTY5RUwwLWdVbHBuLUpGWXNlcFB1TGdnVkdUeXcwenczVmFPVU9JSlB2d1J1WDZPazItamhwNXlnRXVHc19nZA?oc=5",
     "date": "Thu, 20 Aug 2026 15:00:22 GMT",
@@ -192,13 +206,6 @@
     "date": "Thu, 20 Aug 2026 14:27:00 GMT",
     "summary": "",
     "source": "더코리아"
-   },
-   {
-    "title": "포항시, 전국 지방자치단체 일자리대상 2년 연속 특별상 수상",
-    "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFByUlI4cGhVdmJPX19MUHlRa205VTVQQ2htdjBiX0N6SGtHWTRidUpQcXgtNlBsNGRyS3RSUDV2b1NFZlg1b2hUaWlfNERWaVN1UUgwRzZCZXVtbTl4N2N5Sm9lU29Xdng5WHEyV21kcjdSeHpUa2c?oc=5",
-    "date": "Thu, 20 Aug 2026 14:08:28 GMT",
-    "summary": "",
-    "source": "GBN 경북방송"
    },
    {
     "title": "인천 연수구, 고용노동부 2026 전국 일자리대상 우수상 수상 > 뉴스",
@@ -250,11 +257,11 @@
     "source": "뉴스밴드"
    },
    {
-    "title": "광주 북구, 노동부 전국 일자리 대상서 '우수 지자체'",
-    "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE83NS12clFncDNWMnU4ajNOVGw1NGtKaVdDT2JvMkUyd0Q4VUlqVnpMd0xsR3U4VFJDZHU4WXNCUk5DUVNubUI3MnRBeklGNDNLYkNtMnBZNFVVdGhaZFJnNVA0N21vNHhTQ0E?oc=5",
-    "date": "Thu, 20 Aug 2026 12:36:13 GMT",
+    "title": "\"아파도 말 못 해…손가락 끊어져도 공상 처리\" 하나머티리얼즈 노조 폭로",
+    "url": "https://news.google.com/rss/articles/CBMitAJBVV95cUxNTVlTUU82N0Z4Znl4czk3M1FfOVJvcm91eFlxdVhDcXI2SG5IaFlqZ0xZeDJKVXNZWmN0QXM3YVVPb3BmWEZQVUxUQlNBNXJRUFBTandGamFxWXBYTEExOVNtYXdieVdTeUZkU1Y2LUtwWV85LVpEaURnTmc4WTJGWGlLY05vQTdGVVFVMVhFc0ZzdUdsNGtCTGVucWhxSlhEb2duUzcyOFN5VEY1aWRlc1U2cjNEWW0wUThvSHhvRTlVUWN2RUlsOWZpWmk2SzcwUWVBd1VKWkVnbnZVbDR0UTFqRWFkUDhUcmNpMkdDd2h4N2lpSnBhVVgwNUl5R0FZdkRrTVRaYVdtU0J4Z0hVRlV2MFJMN2dnN2FWZzdwTnpMSGNIdlJaQi1LRHpzYzlZSmt1ag?oc=5",
+    "date": "Thu, 20 Aug 2026 12:30:47 GMT",
     "summary": "",
-    "source": "전남인뉴스"
+    "source": "뉴스필드"
    },
    {
     "title": "'석화 위기' 전남 여수 고용위기선제대응지역 1년 연장…'철강 부진' 충남 당진 신규 지정",
@@ -262,6 +269,13 @@
     "date": "Thu, 20 Aug 2026 12:15:10 GMT",
     "summary": "",
     "source": "v.daum.net"
+   },
+   {
+    "title": "‘역대 최고 고용지표’ 옥천군, 전국 일자리 평가서 특별상",
+    "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBlNnFwb0VQZFlVaTI5MTVBMlVRVEdqUDNvWkRTNi16Y2RYMUViU0tobExOeXM5SFZEWGliTWhjX2lkRXdCNElHRUFZQ1ZtVEIzVVFSQWVzbEYtaWNfQlRxbUJpdm1ZYnlnZTNncA?oc=5",
+    "date": "Thu, 20 Aug 2026 12:09:20 GMT",
+    "summary": "",
+    "source": "공뉴스"
    },
    {
     "title": "노동부, 여수시 고용위기 선제대응지역 1년 연장",
@@ -339,20 +353,6 @@
     "date": "Thu, 20 Aug 2026 08:00:00 GMT",
     "summary": "",
     "source": "세계일보"
-   },
-   {
-    "title": "포항시, 맞춤형 일자리 정책 빛났다...전국 지자체 일자리대상 2년 연속 수상",
-    "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBpZXg4MTNlM0NRTVVrc09PcmVvajJuRE16ekhxeGRmWlRtS3VBQ2p2WFRJWWxuY2d5ci1jR2l0eGwxSjJscm5OcXZXdFZLeTZQdElYbVBqbFZVdDlOU1NLa2VPZW8wQQ?oc=5",
-    "date": "Thu, 20 Aug 2026 07:51:54 GMT",
-    "summary": "",
-    "source": "이로운넷"
-   },
-   {
-    "title": "곡성군, 전국 지방자치단체 일자리대상 ‘공시제 부문’ 우수상",
-    "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1ZOVRhTHRBUzhRbmdTdHZ6MVZ0OWhVNFkxbnJNbmItX0d1UFZLMFYxWVFzLWhubGxsUUh6c1lzdTFHSV8xd2pwc0NHSWZqTklTSkZBN0R3?oc=5",
-    "date": "Thu, 20 Aug 2026 07:38:42 GMT",
-    "summary": "",
-    "source": "뉴스21 통신"
    }
   ],
   "law": [
@@ -711,6 +711,13 @@
   ],
   "biz": [
    {
+    "title": "‘지역성장펀드’ 제1호 펀드, 전북에서 1,000억 규모로 출범",
+    "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBtQ3VrYVlmV0I3OEZsR3VqVEh5d09yRHkxOUt6Z3N4c0M0eGxfYTlidEQ2X0lUN2dRZnpMd0lnelRBZ0huSHY2ZFVnd2NYRE9rdkptc3c1RDByVnNrR1NmSFZxQ1kxdlQ2Ym1VMGcyUQ?oc=5",
+    "date": "Thu, 20 Aug 2026 21:29:07 GMT",
+    "summary": "",
+    "source": "내외일보"
+   },
+   {
     "title": "경기중기청, 23일 '모두의 창업' 설명회…8개 보육기관 참여",
     "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOYWhEeGhpb2tWT2tVSkRpNHJ2MG9FVzY1UXJQamxnQmV2Unp1M2hGcmdabi1YY0FGTWdmMmozSzd3d2huaXBFeDhFalk2dWpaSWZCUVZOZnFEeTZTc0ZXVDFWNHlOa29JWUxGNTdwdFV3Zm1vUXlDRXItb09mRUtMcDBrZU9SY3RlMEZBbmxMcHZIblNCSVhTR2hFdTl0R1Y4bV9oUGNDbmFPYWV0c2dST3RtSEZhbVNESE1UMXd6c3ZrUklzRWNVM1VmM1RnSTBhUUFENU5oWQ?oc=5",
     "date": "Thu, 20 Aug 2026 19:00:00 GMT",
@@ -754,17 +761,17 @@
    },
    {
     "title": "중소벤처기업부, K-뷰티 글로벌 확산을 위한 국내 전초기지 구축",
-    "url": "https://news.google.com/rss/articles/CBMiREFVX3lxTE1IeE9hSG5hTE04TXlQcDFWa1NidUh1Rld2ck9sTGZLOExrVnlZOU91S3FKby1YU2hsWE5DWVlsb1l2UHJr?oc=5",
-    "date": "Thu, 20 Aug 2026 12:02:00 GMT",
+    "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5JUDdrVTRJMkpfNFdnRkp0WlV3MmE5eHh5LVBsS3hma1ZlZUx5U2RLYVZvbjlEUWtrMlR5T1RVOWpKWUpNNDhnamIxd2F0eTBqT1BKamU2OUJkRXlHcE1sczFudXg2RTg?oc=5",
+    "date": "Thu, 20 Aug 2026 12:02:38 GMT",
     "summary": "",
-    "source": "문화매일신문"
+    "source": "hkilbo.kr"
    },
    {
     "title": "중소벤처기업부, '지역성장펀드' 제1호 펀드, 전북에서 1,000억 원 규모로 출범",
-    "url": "https://news.google.com/rss/articles/CBMiREFVX3lxTE9sd3o1LUxLclV1YTNjQnFyNGpDcmpBVVdqT3BFb3dDMzcwNVVTM0d1OC03NzA2cDFUdW1qWlc5NklsRlh4?oc=5",
-    "date": "Thu, 20 Aug 2026 12:00:00 GMT",
+    "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5Zc3JQMnU1NFplNW1ucFRvWXhZRXJWakFxajY4dFU0dkVvUG12VnJiNnRlOTFGVC1Rd1o4bFBLdEVyeTI2VGZDbG42cm5jTFo4dlFjYkFuUWpiT3J5WHg3Vm9ZdmEwYzg?oc=5",
+    "date": "Thu, 20 Aug 2026 12:00:50 GMT",
     "summary": "",
-    "source": "문화매일신문"
+    "source": "hkilbo.kr"
    },
    {
     "title": "전북에 1000억원 벤처모펀드 출범…1800억원 자펀드로 키운다",
@@ -802,13 +809,6 @@
     "source": "지디넷코리아"
    },
    {
-    "title": "경주, ‘K-뷰티 수출거점’으로 뜬다…제주와 나란히 정부 지원",
-    "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1IbEJVS2pqZURSMWpRS0pIbDh3YTY5SENXblVQNzBxRXB1Y0NUN0ZfZm9oeDAyME4zYlp1VldEUlZXYWIzbGhxMnRlYV91U2VHODEyWGFWZWR3bW1ublFWcmxKY2gtVnMyUG5pZXFxNA?oc=5",
-    "date": "Thu, 20 Aug 2026 08:53:58 GMT",
-    "summary": "",
-    "source": "kyongbuk.co.kr"
-   },
-   {
     "title": "'모두의 창업' 사회혁신·소셜벤처 리그 1788건 신청",
     "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE4zdFVSbVJwUnVHNEMyTC1DSU1NWTVKdFZXdHZxbWNUV0hkRGx6VE9YdmRhWG1fMGJkNy0xY3M4MGxEVWpJTFVDdmxxd3N5MUxBaTZNSDRHOFJSejlfZEZZaNIBeEFVX3lxTE1pRkRlVnJvOXVJM213ak41VkRhOFZPSGNFLXE1YV9MZzdhMzJrejJ1WGpoWlZMOHlKUkluR01MZ1pIOEZkSi05UlN5UVFHa0hVYjlUYVRWMlZRNDdta1BBRThMMDBleFo0WUI4MVpkNHBiYy1oVFJYWg?oc=5",
     "date": "Thu, 20 Aug 2026 08:53:58 GMT",
@@ -844,20 +844,6 @@
     "source": "인천일보"
    },
    {
-    "title": "'모두의 창업 프로젝트' 1만명 모집…선발 규모 2배 확대",
-    "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBSVHAzMHVwWFlMdk95dTNUSFZLN2ZjZ2U5RTJKU183V210WlhiNU5kMGZZQWZCdkxBYURScnEzUXpHOWszSWM5YzBLNF90M1E?oc=5",
-    "date": "Thu, 20 Aug 2026 08:02:53 GMT",
-    "summary": "",
-    "source": "v.daum.net"
-   },
-   {
-    "title": "청주시, 충북도와 글로벌 창업거점 ‘창업도시’ 유치 총력",
-    "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9LdXRNdmEyVlIzeUw4a2p2ekZBTTU2TGh1aGVya2NwY0hyR2VyeWNQVDR4TUhaUEQtX3BwaDQyZEhWT1VRZnE1Z0dMYm12MGJvOTNvNy1CWG1CYUQwSUdSa3BOTHFmR0xPZ1BlTA?oc=5",
-    "date": "Thu, 20 Aug 2026 07:58:01 GMT",
-    "summary": "",
-    "source": "저널25방송"
-   },
-   {
     "title": "중소벤처기업부, K-뷰티 수출거점에 경주·제주 선정",
     "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1hZi1VY2lFMWZoV3lDYTBfNllwdWlFS1ZCSldEaXRFYmRZa1J5d2xRbERzWjBpNmhleUttbDl2SFIwNHZjbVlzZ0Qzd2k2VkFSbGFZekVRUEJFQmgyak9CS1pRNzIzd9IBa0FVX3lxTE51SjFpTUxuUlZGUXlfSW83elZDU2FYN3NKam1zeC14V01tZy1nYUw5MkZnSmo2MGV4S2h2S0laNDlxeXBKLTNrMHFxN3pQLWZHbzFvNm1wM1JidTNLcmxrRmtxcURnU3o4WFhZ?oc=5",
     "date": "Thu, 20 Aug 2026 07:37:56 GMT",
@@ -884,6 +870,20 @@
     "date": "Thu, 20 Aug 2026 07:16:08 GMT",
     "summary": "",
     "source": "MTN 머니투데이방송"
+   },
+   {
+    "title": "충북도 대한민국 대표 창업허브 도약 ‘시동’",
+    "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5IN1JFTUxON3NZRFp0QjlWVE1CUlEwME1IdHZuZWhRTFB2ZEY5YzlyY2ktSWRVUlYxaDM1OUFMdV9NR2ttWno5dXZGdVdaTk52em5zek5JbDFKVGxuWWYyZk5yaDgyckNDVGFV?oc=5",
+    "date": "Thu, 20 Aug 2026 06:47:18 GMT",
+    "summary": "",
+    "source": "동양일보"
+   },
+   {
+    "title": "'지역성장펀드' 제1호 전북서 출범…1000억 원 규모",
+    "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQTlVaZTdmUWNHdnFUbUdoTzhSRmw1alFINnNqUVhBWWlNSkFIZWJYb20tYmNsdVZWSEt4X3ltWGR2YVNiV3BuS2tjWHpZTm85MVg0alhodlpFWHJ5S1hjamZuZHdZZFBLYy1MbVk2UEMzQTROTmU5OF93a09pb1o4bzlQZ25VRmdEc1E?oc=5",
+    "date": "Thu, 20 Aug 2026 06:45:00 GMT",
+    "summary": "",
+    "source": "대한민국 정책브리핑"
    }
   ],
   "money": [
@@ -907,13 +907,6 @@
     "date": "Wed, 29 Jul 2026 22:29:03 GMT",
     "summary": "",
     "source": "nsenior.co.kr"
-   },
-   {
-    "title": "강북구, 혁신성장 청년 예비 소상공인 키운다",
-    "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE85dndQN2pORXV3RVlYS1FYVEVzUG1tNVpYWmtfWVBkU0pSMWFNRUkyUHFNd3hsQUxqemdNUkRpTEQ4VkwzTUtKNFdfSW00MTh1cXZ0ejNTTnJXM2N1bHZYc25fSHNRaG9JaHdpRUtXOA?oc=5",
-    "date": "Thu, 23 Jul 2026 23:29:00 GMT",
-    "summary": "",
-    "source": "동북일보"
    },
    {
     "title": "\"지원금도 '원클릭' 시대\"…中企·소상공인 지원도 서비스 경쟁",
@@ -1061,6 +1054,13 @@
     "date": "Sat, 21 Mar 2026 07:00:00 GMT",
     "summary": "",
     "source": "에너지경제신문"
+   },
+   {
+    "title": "소상공인 바우처 신청 및 사용 방법",
+    "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1aZ0Q4cEdTbWpQcnJySTA2ZDdjRjM2WnBHZ3pBbnUxZ19qOG0yaXc5RkRsSEdQMFFFWnBXRzdOSmRzVjlSbFVjYmVpeWZvUElTRFlia3FVTC1zVG1XbTBpc3oyVDQ?oc=5",
+    "date": "Fri, 13 Mar 2026 07:00:00 GMT",
+    "summary": "",
+    "source": "bntnews.co.kr"
    }
   ],
   "guide": [
@@ -1212,6 +1212,13 @@
     "source": "팍스경제TV"
    },
    {
+    "title": "김지훈 중부국세청장 현장소통 행보...부가세 현장과 체납관리단 방문",
+    "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1hVmRDeTFGcnB1dEpuY1RDdy1vcnhNNGxudUhudXotQTZoZTRsYUU2TkN3dkxjZkNFdG93bWo1Q1B6NF9OZmRJQkFFSS1SZkJFVVVDWnhYUTVHektaUTR6bQ?oc=5",
+    "date": "Wed, 22 Jul 2026 07:00:00 GMT",
+    "summary": "",
+    "source": "조세금융신문"
+   },
+   {
     "title": "양철호 광주국세청장, 부가세 신고·체납관리 직접 점검",
     "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE1KbXlXSVJ5V3RUMU9Xb01UcXNMaHlqY2xPakVlQ2hScExTNEpYc3dUUG1aS2JuV0dYa3NOMU1xdlRaQmszdEE?oc=5",
     "date": "Tue, 21 Jul 2026 07:00:00 GMT",
@@ -1231,13 +1238,6 @@
     "date": "Mon, 20 Jul 2026 07:00:00 GMT",
     "summary": "",
     "source": "서울신문"
-   },
-   {
-    "title": "쌤157, 부가세 신고 서비스 개시",
-    "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1DUkcxUHhVcGtLUTE4UGp3X0N2ZGwwNUIyZ1NWcmJMSkwwd2RzcC0zTjZYbHRLWU91allQU1RDQ3VuYnlCTmdfN0xxOTllNTlheUkzYlN0SEhlTW1F?oc=5",
-    "date": "Wed, 15 Jul 2026 07:00:00 GMT",
-    "summary": "",
-    "source": "뉴스핌"
    }
   ]
  }
