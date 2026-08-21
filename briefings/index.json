@@ -2,6 +2,15 @@
  {
   "date": "2026-08-22",
   "kind": "market",
+  "edition": "아침판",
+  "title": "8월 22일 (토) 투자 브리핑 · 아침판",
+  "file": "briefings/2026-08-22-market-아침판.pdf",
+  "top": "비트코인 8만달러 돌파할까…ETF 6억달러 유입에도 과열 경고 - 코인리더스",
+  "count": 12
+ },
+ {
+  "date": "2026-08-22",
+  "kind": "market",
   "edition": "자정판",
   "title": "8월 22일 (토) 투자 브리핑 · 자정판",
   "file": "briefings/2026-08-22-market-자정판.pdf",
