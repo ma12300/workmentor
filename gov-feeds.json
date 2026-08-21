@@ -1,7 +1,14 @@
 {
- "updatedAt": "2026-08-21T07:12:04.384Z",
+ "updatedAt": "2026-08-21T07:59:04.611Z",
  "groups": {
   "tax": [
+   {
+    "title": "세무사회 \"공정시장 위한 세무사 광고기준 고시 환영…국세청과 공조\"",
+    "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9Tb0J3bERISGtzd0JZVDBQckJ4X0xhMUQ1dzgwMzBNS09uUThtTWN2WERUNzVjaDZLeTcwWHIxZm1CamlSc0p0VlFDYnUwQUdSMDVYaDJfSUxmY0R3eVZwbEZ4LUhLWUZRWEY3Ml9TNG5EV1RPZ1VBQQ?oc=5",
+    "date": "Fri, 21 Aug 2026 07:17:00 GMT",
+    "summary": "",
+    "source": "네이트"
+   },
    {
     "title": "대전국세청, 부동산·주식 불공정 탈세 정조준…고액 체납자 추적 강화",
     "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9mRzlhQ0FQWEtoQXNYeE1rMEItVWgza1gxRzI5SWtpSUhuWkY3QmtVdnhfZzRmMjV4QXY5eTVvQS1iVXhtZ3dUZlJyQ1Y4QUFneXZ2LTc2LVkwaFh4SWZab2VSNVQtT292T3NB?oc=5",
@@ -108,7 +115,7 @@
     "source": "필드뉴스"
    },
    {
-    "title": "[세미콜론] “조사4국이 실력 발휘” 외쳤던 임광현…노태우 비자금 조사 나섰을까",
+    "title": "[세미콜론] 국세청 조사4국 '노태우 비자금 조사' 못하나? 안하나?",
     "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9jSDlGT2RyMHNDdjA1X3duXzdrT0EyUTFoRVFqQzJhS21KWUJBQkFqZDZ4Umt0eU1VelR3R0JxMGY2VGdVUXpZMXdFdk1mcXdFcXBtR2Z2OWN3MkpyZGFwcHgyMDZrWng3V0hhTQ?oc=5",
     "date": "Fri, 21 Aug 2026 03:42:39 GMT",
     "summary": "",
@@ -169,16 +176,23 @@
     "date": "Thu, 20 Aug 2026 23:24:26 GMT",
     "summary": "",
     "source": "세정일보"
-   },
-   {
-    "title": "인천국세청, 하반기 세무관서장 회의 개최...국세행정 방향 공유",
-    "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE52S2VYc3dwTldKdWI2aTJBRUZCNE9mY1hXcWpvVE9rX0RzdFV1aHpFUzVsSjZ5a2NzS3ZPYnFvWENCTjJEQXloTG9BSnB3a1JBZjYwYlNkSnJVWm1DSzBlQ0x2bVo0cFdZVHAwb3E2dw?oc=5",
-    "date": "Thu, 20 Aug 2026 22:24:00 GMT",
-    "summary": "",
-    "source": "중부일보"
    }
   ],
   "labor": [
+   {
+    "title": "삼성重 노조, 이주노동자 별도 취업규칙 문제 제기…노동부 근로감독 청원",
+    "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1zQXdpLTI0M3lZa0VtQUpqTUdtY2dzSl9RZ2Zjb1JtU1V1SC1tRGQ5U1hmemRvT0hwRFY4aHpMbkZkQWRrQW1yeTVvaE5jVDNCTDJZejREU2xVODVsbEtYcndjSjdOUHFCT056MnExeVU5cmPSAXdBVV95cUxQUzlsUmdIQWVBZXpQcWZGWGJ5emNPS2pFTFIxNkdISzFGZEQzNGZLZVZoZ2d0dVFJNWZxTVUtZWxGYzFoLVhVTFFMcVlzR1BUSlp1SWJPb1N0T245TWtBYUoxcXB1czVsSUt3V0c5eTRMSzFaLWNVQQ?oc=5",
+    "date": "Fri, 21 Aug 2026 07:32:58 GMT",
+    "summary": "",
+    "source": "핀포인트뉴스"
+   },
+   {
+    "title": "대전권 포괄임금 수당체불 적발률 최고…IT·R&D 다시 집중감독",
+    "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE4xampha184S0xWWEFmcVBjdDMwOVk5SV8taW5DUXRJT0lsYUZ6MlFiWTF0dUVtUGFhcmp2anp1czFKMjdVc1h6UnlwMzM?oc=5",
+    "date": "Fri, 21 Aug 2026 07:29:25 GMT",
+    "summary": "",
+    "source": "대전인터넷신문"
+   },
    {
     "title": "무안군, 2026년 전국 지방자치단체 일자리대상 우수상 수상",
     "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE8ySFhvZVVhQTZrRGlCWE1kNTJhaUJzaV9hbDFqWlE1aTY1cnJGT2EtNzNEYjVMc2lsZklsM1c4RERqUU1pdzJIMTJpUEl6dk1yWWR1QmxIRkF0cHdveXFSamxTVQ?oc=5",
@@ -209,10 +223,10 @@
    },
    {
     "title": "여수시 고용위기 선제대응지역 1년 연장에 시의회 \"필요조치\"",
-    "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE8zSlZMc0pTN2JCMkp6ZkRUUURwS1hFX0dyNXdEOWpLNWlHU0pBeGpJNzVvOEJRd09uSnJaSDF1UmZlLVA4NkJlYzkyYjV0ZzhhbnBhNWFMTDZoUHBaLUs5X9IBeEFVX3lxTFBhUnRqQVdMWkE3WXA4ZUVneGtMbkNvWUVCbU1qZXZsUWZsc1lGZTNUMzM0TkRhb2dfZkpYeGcxZW9Famg0eWxEVkMwSlJZclYzbldXOWNDRXNaMG1HQU1OVGV4aFN4QlpSdlQxa0tRRjYtdFRyTXRKcg?oc=5",
-    "date": "Fri, 21 Aug 2026 05:52:39 GMT",
+    "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5yZ1h5aFFuTlFLM1V2R1pqN1FvQUFhVnJLdGZWUmFVQzg3UmlyLUdfcHpoaWhVZ0NmbHRpY1pNdEtDWVhCeGp3VEZWVkpWVmx3SFhN?oc=5",
+    "date": "Fri, 21 Aug 2026 05:53:00 GMT",
     "summary": "",
-    "source": "뉴시스"
+    "source": "네이트"
    },
    {
     "title": "‘K노동복지회의소’ 첫발…노무제공자 퇴직공제·복지·권익보호 총괄한다",
@@ -234,6 +248,13 @@
     "date": "Fri, 21 Aug 2026 05:13:53 GMT",
     "summary": "",
     "source": "미디어생활"
+   },
+   {
+    "title": "여수시의회, 여수시 고용위기 선제대응지역 지정 연장 환영",
+    "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE8tMHl0dnpHQ29SamZzM0lpRm5lLWJpSXA3Nl9ONDJ0U3lxdy1RQVFwLXh1V05MSDZGR0dScXNYVTJRYWo3cjJEZ3JKcU8zY2Jya3Y3ZGd5ZERmbXpKdXlidkNFLTFtOXM?oc=5",
+    "date": "Fri, 21 Aug 2026 05:06:04 GMT",
+    "summary": "",
+    "source": "hkilbo.kr"
    },
    {
     "title": "일본 ‘월 100시간 초과근무’에 노동부 “법정 상한 완화 아니다” 반박",
@@ -328,37 +349,51 @@
    },
    {
     "title": "고용노동부, 모든 일하는 사람을 위한 공적 안전망 구축 담대한 첫걸음을 내딛다.",
-    "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1GOWpsSFUwRmc3S0JHd21TdDcyWjRINDgzcDhtRnVHS2J4dlJuWFpjOXVWU1ZnUmpsQzVITFAtS2ctdnQ3STFPWmlNRmEzMS0wcTFFNnF5MVVQMFlVbEFlUE5nRUNaT1Fp?oc=5",
+    "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5uY2hfV3VRcG1pUTJuWmxZM0I2UFAzem9fM2owNm5PeFp2WnNrSjJYblpBdExKc0FuWGs1RGtLcDFFSWxZSG1seXpVUDh6QVg1MTBPREtYOXRCdWdLWFhuSmdHeXA2U2g1S1N1aQ?oc=5",
     "date": "Fri, 21 Aug 2026 01:47:03 GMT",
     "summary": "",
-    "source": "매일타임즈"
-   },
-   {
-    "title": "포항시, 전국 지방자치단체 일자리대상 2년 연속 특별상··· ‘포항형 일자리’ 성과 입증",
-    "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9ENDVUcnRUeFRXUHh4V01QNzNjc1l6ZTNaelh6MWJKWm5zczJMM1NveHNGMC1KVmsyR0lqVUVWTll0ZXkwSjJ0aVRTbEVhaXVOak5Tekt5d1VFSDZNQnJ5TlJSTHBuN0pKYU9tc2hvU1RScTdzYlVqWXdn0gF_QVVfeXFMTkIySmk5Wk5zVVVnZzhpU1Zhak1JR0VWc3UzQnJza0lBcGFzQVJBcnhIaExDYWN1RV9xSVJkTDk1TWVVcDRwVWEwUGU4a1pLQ25VbnMxcGRURzBDSU9sNW5UWTRZRHlQM0dhT3hYQ2NFQXJLenpvRzA4SV9Zb3drYw?oc=5",
-    "date": "Fri, 21 Aug 2026 01:22:03 GMT",
-    "summary": "",
-    "source": "뉴데일리"
-   },
-   {
-    "title": "고용노동부, 대전·청주지역 지식서비스업체 대상 포괄임금 오남용 5차 릴레이 감독 실시",
-    "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5zbDRCWTNFeHFCQ0NzbGRCczh0ci11QW1CeXc1VWY4SWtmYVdjbHJSVGNEdlFxeURFczFfM19uVE9PZjIwUUtrWmlibXBRTlNEa2NPMHJHSzNMNTM4dHkyanBnQUpQZG8?oc=5",
-    "date": "Fri, 21 Aug 2026 01:14:47 GMT",
-    "summary": "",
-    "source": "hkilbo.kr"
-   },
-   {
-    "title": "'K-노동복지회의소'가 뭘까?…노동부, 구상 구체화 착수",
-    "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1BMTdXMTdFa1hZYmd0bndySnFINXRlaVgwYzFHRGpIcW1QYXJZNWxMX0dYc2NRZ2hZZzNLUkI1N0ltbzluSU5BSlpUUEUzeHc?oc=5",
-    "date": "Fri, 21 Aug 2026 01:09:02 GMT",
-    "summary": "",
-    "source": "v.daum.net"
+    "source": "climatepol.com"
    }
   ],
   "law": [
    {
+    "title": "법무부, 외국인 계절근로자 인권침해 위반사항 663건 적발",
+    "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1UazY5Z0NsaWVXbXJhWTQyc2k3YkdsRWE4cU1BYlpYRGJITDVuSjA1bS1PMGQyWWplVWhwVXZBUWpubHhzZUVrTlAwTHRMX2duZ3FxYi1BbmtiUWk3OERxdXRtV2lPUlBWMENCVVQ0cjlla3RQMElmRA?oc=5",
+    "date": "Fri, 21 Aug 2026 07:52:00 GMT",
+    "summary": "",
+    "source": "네이트"
+   },
+   {
+    "title": "법무부, 외국인 근로자 사업장 5곳 중 1곳서 임금 체불 등 문제 적발",
+    "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1hMjQ1RjJqSXREX1hFSGNaMTVLOGZoLVBrVlhWeWwzYjJWUFFlRm1VVUszbmZkb3BuOVcxOWhCZjUwRjdFbDdRUEpLdXhxQmYwenRj?oc=5",
+    "date": "Fri, 21 Aug 2026 07:49:00 GMT",
+    "summary": "",
+    "source": "네이트"
+   },
+   {
+    "title": "롯데케미칼·HD현대케미칼 대산 통합, 공정위 조건부 승인…LDPE·EVA 가격조치 부과",
+    "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9KTVVWZDVIU1dHdm04OFVoaVVnSDIwVkFSdUNGQlAtLUNxVzdkbGlKMkhqdVlCaHBYY1ZJaHBGQWNDY3d4MjBpSmRyOUNDMzByUEhXcGExZXNmYUVtUXdGR0lPbmFEY1Rs?oc=5",
+    "date": "Fri, 21 Aug 2026 07:41:00 GMT",
+    "summary": "",
+    "source": "데일리팝"
+   },
+   {
+    "title": "법무부 '북한 노력동원 규범의 이중구조: 헌법·노동법·부문법의 통합적 분석'",
+    "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBCb0gwR1U0eDB5WVNYNHhrN2trT3RxS2FxbUlhUWVURjdHTzNWUFRXUlN4OUJEWVY3cXFzbU9VTGFScmVwRGVuZzNuY0VyaDExRFR0aTZvZ3g0aFo0b25jS3pWWnNmVzZCdGtn?oc=5",
+    "date": "Fri, 21 Aug 2026 07:31:24 GMT",
+    "summary": "",
+    "source": "SPN 서울평양뉴스"
+   },
+   {
+    "title": "인사말하는 이진수 법무부 차관",
+    "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1ZZVB3REYxTzBULWdsdUJ5eXNWenNtM0hsU3ljc25JLWo1Rm83NmJvTVotUWlYQkMxcEVELW9ibEk3M2pkYWI5dEN6MjBzYm1kbkFNb1g3b2F3cnNjYkxTdmI5cDYtTnhvRGt1c0d3?oc=5",
+    "date": "Fri, 21 Aug 2026 07:11:06 GMT",
+    "summary": "",
+    "source": "gukjenews.com"
+   },
+   {
     "title": "법무부 전주청소년꿈키움센터, ‘관심 UP, 예방 UP’ 가정폭력· 성매매 예방교육 실시",
-    "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNNTB5djc3c0ZFS3pJeFFCYW1SQmNlWVpBZWZoV1laTGFteV84STJmVVdjSWtObTR2bmVHSTJia3FsdFRqQnl0dHhnVk5iOHBBLTh0R1JnWl9YbnZWWkJYMFdINHBCb3YtLU81dW9lenloeG9PNXJZWk9STU13eWJ1TU9RTHFZUTQ?oc=5",
+    "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE41aWtqM2hOVmh6cUE1RDZXTUlsSVVOZUwyNGZ4U2dldXlXOGhlN1JucllQSVg0bDFoM2Jla3VqNzQ0bFdsVkNYLW9XVDJzOEJxQ01ESnFPOXV3MGRxOHF2c3VLMGdHUnZwbFE?oc=5",
     "date": "Fri, 21 Aug 2026 06:36:00 GMT",
     "summary": "",
     "source": "전북도민일보"
@@ -495,41 +530,6 @@
     "date": "Fri, 21 Aug 2026 01:55:00 GMT",
     "summary": "",
     "source": "네이트"
-   },
-   {
-    "title": "인사말하는 이진수 법무부 차관",
-    "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBJSHVmSl9CRlVMeHg3d21EMWhjM1FWRjhnVzllTnNaSldSOEdzVzN3VTN1YkptdXRIRDFnN0tfM0FUVFc5d19ZUF8yZ0JnMU1nZkE5T0NUN3ZuVm9HS0ZSMQ?oc=5",
-    "date": "Fri, 21 Aug 2026 01:46:37 GMT",
-    "summary": "",
-    "source": "뉴시스"
-   },
-   {
-    "title": "'사직서 제출' 정성호 법무부 장관, 돌연 병가…국회 법사위 불참",
-    "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9YM0k1VDhacDNQM1NqTlBLTC1FZWJDVWNsZWhHdzJLbEJ6RWFELXVGNW42U3VxLU5NaXBKREZGcE1XN2hzdU9qZGFOX2JMcUF5TWpDVS0taFBzSmV5aGI0NEhvQUhZTWFYUmIyc0UzMjZNbGRCUjZKMg?oc=5",
-    "date": "Fri, 21 Aug 2026 01:29:00 GMT",
-    "summary": "",
-    "source": "네이트"
-   },
-   {
-    "title": "정성호 법무부 장관 오늘 병가 사용…국회 법사위 전체회의 불참 - 머니투데이",
-    "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5IQ0hEUU9ndUs4VER5TWNsc1UtS2JFaEZYZ0NLZTFzSVg1SkhyblAzRzVNMmFwcWphY1lnUHg2SkxSdDRhZ0xJb3pRWkJkT0lqSTZaZmloS3BQUTZZU2k2R2FoVG9FU2s4RWFJ0gFwQVVfeXFMTjNuT1NPUC1TYm43aWV3MWhReDNjZm9odm1NVlpLQTd3ZWxIVzJ0MFlFMHpTYkt3THkya1owU21DSDBwd1dPYUNORk5fZjIxb2ZiVmU1VUFLQUhOUGJ1NFA4a0R0ejQzcmgxd2VkT1BtMg?oc=5",
-    "date": "Fri, 21 Aug 2026 01:28:27 GMT",
-    "summary": "",
-    "source": "머니투데이"
-   },
-   {
-    "title": "법무부, 공군 조종사 구한 스리랑카 근로자에 체류 자격 부여",
-    "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBmeHJPNjhXSEF0NnNEQmZaVkJ6M0sxeG5TellyY3hHWk44bmN0X2F6MXI4Qk5mTDBvQnV3a2lfdkVmeDk1aURxaDhGSkNlc0FwaUJqNFRBZmZvREV6eTRoaw?oc=5",
-    "date": "Fri, 21 Aug 2026 01:15:03 GMT",
-    "summary": "",
-    "source": "아시아경제"
-   },
-   {
-    "title": "전투기 조종사 구한 스리랑카 근로자 2명, 장기 체류 자격 얻었다",
-    "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE0xVGtmSlpSNWNieTN4QjFvSHNkQVNBQUxlRmNLQTJXOWIxb3pwNktCeFZsUDlqYURXU0pJYzRSWUZwR2tiTE4tVU1wdHVWY0k5UE9QYldLZkY2Zw?oc=5",
-    "date": "Fri, 21 Aug 2026 01:06:31 GMT",
-    "summary": "",
-    "source": "한국경제"
    }
   ],
   "fund": [
@@ -590,9 +590,9 @@
     "source": "네이트"
    },
    {
-    "title": "[포토] 의견 나누는 구윤철 경제부총리-이억원 금융위원장",
-    "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1oUUpBakN0VXE4N3RjRVNLaXNPbHJRVzRLSlZhYkZKNUplM2Y3aXpGdHFvY0IwOGlHRWZMNXhCbHhZRVZJUzl4cXRQVkpMUDd0QmRNZzIyMngxOUpqeGlQYw?oc=5",
-    "date": "Thu, 20 Aug 2026 23:52:15 GMT",
+    "title": "[포토] 회의실 들어서는 구윤철 경제부총리-이억원 금융위원장-이찬진 금융감독원장",
+    "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBpa0tBMENfUExYVFhCbUJENTVlOVFQek5Sb055TTZLblNLd045a25MUmdHY3BEZXkxb1lvNFFrYzgzWEYwdko0NjJHZ2ZrQmswZmdNWnRCNlZoSGNXN25SZQ?oc=5",
+    "date": "Thu, 20 Aug 2026 23:51:41 GMT",
     "summary": "",
     "source": "아시아경제"
    },
