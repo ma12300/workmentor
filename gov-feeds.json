@@ -1,20 +1,20 @@
 {
- "updatedAt": "2026-08-21T11:56:35.292Z",
+ "updatedAt": "2026-08-21T13:00:52.434Z",
  "groups": {
   "tax": [
+   {
+    "title": "국세청, 무신사 특별세무조사…조만호 개인회사 '라펠' 들여다본다",
+    "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1VRmM5d3FTZ3hRc1VGZFRrTlI1Rm5HNEZ3aDlDcWdDS3JqU1lCNUV1ZTlzYkJ4MDV3NmlpYWN5UEMwQnRpM2FDVWphR1FydVZidGJYNmRkWHppd3BGUmdfVVltZzdOUnlfLWttb2VTb3lvWFRHTVZGSA?oc=5",
+    "date": "Fri, 21 Aug 2026 12:52:00 GMT",
+    "summary": "",
+    "source": "네이트"
+   },
    {
     "title": "정부 \"개인지갑 보관 가상자산도 과세 대상\"",
     "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBwYU5FSmpidzk2WXVtSEtJVkVleHJfS3dUMDVpZUkxNFpibWVQZWtYZVdGWjZjV0Y5d1lUeVFUV2x6SGRIX1Nkei05OFVkcUdVMUF1SkRadTM0MG1QX3dZQTE1T3lDM3hiS0lEMllJMkp5UQ?oc=5",
     "date": "Fri, 21 Aug 2026 11:34:05 GMT",
     "summary": "",
     "source": "디지털애셋"
-   },
-   {
-    "title": "세무사회, 국세청 '세무사광고기준' 고시 환영...“불법 세무대리 근절”",
-    "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFA4QWIyOUQyclN4VnRTekRMY3JYMEIwcVVDTUtqNkJ4WG5ReW9pb3BtaGlScXpxR3VScTZUZ0lvUlkzUUJiSjlpdU9OcC1uV3F2LTNtLWM2dFJJR2s4a1FKcXF2OGlJVTZhTUE?oc=5",
-    "date": "Fri, 21 Aug 2026 09:03:45 GMT",
-    "summary": "",
-    "source": "intn.co.kr"
    },
    {
     "title": "사상 최대 실적·IPO 추진 중인데…무신사, 국세청 특별세무조사",
@@ -66,14 +66,14 @@
     "source": "뉴스락"
    },
    {
-    "title": "대전지방국세청, “국민이 공감하는 공정하고 합리적인 세정” 펼칠 것",
-    "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1fWE9fOVpPeDgzVTVodmN3MVNmeHlReFJyaHkzTklOYXhRV1ZqUFAtOTBQNWJmN3NIZG5WUGh1czZKTUU2QzBQQmhsb2hXUTdUMVNOU3B3VzNyd0RHdkJybF9sRHBuOFhy?oc=5",
-    "date": "Fri, 21 Aug 2026 06:19:57 GMT",
+    "title": "대전국세청, “국민이 공감하는 공정하고 합리적인 세정” 펼칠 것",
+    "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5wNEVBZk5EWExCc3lBWXVTMlFZa3BtcGpTbDJCMTBrWnFsbTgzdld1a21HU0ZURTgxcUpKXzAxc3UzTUZiS0Z1Z25aRkN4ZV9IZmVLMXo3NlFQbUllYUwyYVZWT2hDYTF0RXc?oc=5",
+    "date": "Fri, 21 Aug 2026 06:17:53 GMT",
     "summary": "",
-    "source": "뉴스밴드"
+    "source": "intn.co.kr"
    },
    {
-    "title": "국세청, 무신사 특별세무조사…\"무신사–조만호–특수관계법인 간 자금·주식거래 검증 가능성 커\"",
+    "title": "국세청, 무신사 특별세무조사…\"무신사–특수관계법인 간 자금·주식거래 검증 가능성 커\"",
     "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBidEhieHlEQWRDSHAwcEVMVFNwLXA2VWVLODNKdy1IQVJWcGJwS2FERkZPaUVJMXotb2EyOWpPM3pXbG5QT1FWNFZjcm5KWU4xYlB5b1MwbGNObW55Y0JwdUV0QlYySUtvLU5TMA?oc=5",
     "date": "Fri, 21 Aug 2026 06:12:46 GMT",
     "summary": "",
@@ -99,6 +99,13 @@
     "date": "Fri, 21 Aug 2026 05:33:20 GMT",
     "summary": "",
     "source": "중도일보"
+   },
+   {
+    "title": "세무사회, 국세청 「세무사광고기준」 고시 환영… “불법 세무대리 근절 개정 세무사법 완성”",
+    "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9kemJiTlRZYlZXYnp0MU5sSndjdVhtdktXSDhuUHRuRldtWEdvZkM2bVdqdmdpRjdXay0xcGVKWkR4OF9rV1ZYMTRzM0xHTjNKQ3lKS3BSQUx0ZC1EUDdjQkc3eFNlZUEtTXEwdUVR?oc=5",
+    "date": "Fri, 21 Aug 2026 05:30:37 GMT",
+    "summary": "",
+    "source": "세무사신문"
    },
    {
     "title": "대전국세청, 불공정 탈세 정조준…상습체납 추적 강화",
@@ -169,22 +176,36 @@
     "date": "Fri, 21 Aug 2026 01:28:31 GMT",
     "summary": "",
     "source": "intn.co.kr"
-   },
-   {
-    "title": "국세청 일반임기제공무원(5급, 납세자보호담당관) 경력경쟁채용시험 공고",
-    "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9fZG5IZmUzWEh5aFZVM0kyOHZtTHdTS0tRZTc3dkJyMy1rUk1RbzhfWTY4LTNycDFDdkNjTkY0WHlYNE9iRENwY1daY0V6dFpFY01xSW9zREw4SkRkQWNMek13?oc=5",
-    "date": "Fri, 21 Aug 2026 01:09:56 GMT",
-    "summary": "",
-    "source": "서울Pn"
    }
   ],
   "labor": [
+   {
+    "title": "특고·플랫폼 노동자도 퇴직공제 받나…노동부, ‘K-노동복지회의소’ 설계 착수",
+    "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9YTlprWER4RUt0T1JXSFlfZ3BlOHlrTTJOSVNyMmhLWi0yamFvYzVQemZ4dm8wVFUtT1hWOVg1UEU2Wkh3MFlabTlIaVFCU2dnSy1xbjdxbEphcFBsT2c?oc=5",
+    "date": "Fri, 21 Aug 2026 12:53:00 GMT",
+    "summary": "",
+    "source": "뉴스투데이"
+   },
+   {
+    "title": "서울 강동구, ‘2026 전국 지방자치단체 일자리대상’에서 고용노동부 장관상 수상",
+    "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE83dlhHUHYwd3R1TWQxOTdUdUxNRWI4WHpiWldFMURzMnBlaURlNHdaMWZrTVJZdUNOekllamYzYm5leXJzSkRSMVZKT2pHVFFNT2N4bmxrZkx0QQ?oc=5",
+    "date": "Fri, 21 Aug 2026 12:49:53 GMT",
+    "summary": "",
+    "source": "여성종합뉴스"
+   },
    {
     "title": "장흥군, 2026 전국 지방자치단체 일자리대상 특별상 수상",
     "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5QbXdwWlFGMkVqQVctYjI2OThPaXVzV1BBazl0bkt2SnZUdmN4Z3h1MFZFSkE5QkdCeUxtdk1mMWRlWUtnQXB3a1BVcjJhTjRyeEloQzJ2OHRZcjNEMjR3?oc=5",
     "date": "Fri, 21 Aug 2026 10:30:37 GMT",
     "summary": "",
     "source": "뉴스다"
+   },
+   {
+    "title": "당진시, 고용위기 선제대응지역 지정",
+    "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1VQXBWc1g0S2FobXdUYVVLM196QTNwd2s3VXRnV3pWRzNhRzY2ZEFpQXRmOTIweWpBY1Z5X0FST1BfclluRFBHS3N0MzE1UzIwZzBFUTJ4MXVYQ1ZlS0g1M2pzY2RmaDRzcXc?oc=5",
+    "date": "Fri, 21 Aug 2026 10:30:03 GMT",
+    "summary": "",
+    "source": "한국시사경제"
    },
    {
     "title": "장흥군, 고용부 ‘일자리대상’ 특별상… 맞춤형 정책 성과 인정",
@@ -206,13 +227,6 @@
     "date": "Fri, 21 Aug 2026 08:45:48 GMT",
     "summary": "",
     "source": "한국경제"
-   },
-   {
-    "title": "당진시, 고용위기 선제대응지역 지정",
-    "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5ubkJSNTktNUtqT2hRa3NRX25iOXhXYjdJUG1hSWl5WC1XV0tSVktkWWxFcDltMHVfQzAtc2RZYlNkM2luV2VUS21wV2dpT2RTV2JFNDBMdnZXUjR0cXR6bDJHb0FZOWlZ?oc=5",
-    "date": "Fri, 21 Aug 2026 08:31:58 GMT",
-    "summary": "",
-    "source": "충남인터넷뉴스"
    },
    {
     "title": "수원시청소년청년재단, 고용노동부 ‘일·생활 균형 캠페인’ 재인증 획득",
@@ -278,13 +292,6 @@
     "source": "v.daum.net"
    },
    {
-    "title": "여수시 고용위기 선제대응지역 1년 연장에 시의회 \"필요조치\"",
-    "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5yZ1h5aFFuTlFLM1V2R1pqN1FvQUFhVnJLdGZWUmFVQzg3UmlyLUdfcHpoaWhVZ0NmbHRpY1pNdEtDWVhCeGp3VEZWVkpWVmx3SFhN?oc=5",
-    "date": "Fri, 21 Aug 2026 05:53:00 GMT",
-    "summary": "",
-    "source": "네이트"
-   },
-   {
     "title": "‘K노동복지회의소’ 첫발…노무제공자 퇴직공제·복지·권익보호 총괄한다",
     "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE0wVzNjU1pTX0RQVFRvSkNrUFpuaFY0alZ1a2FmT3RwMFdvZjExV2RXNEd5eFN4RVBqbG05YWd6YWhjYmdfZ0NWN2RyWUxDdktGMDM3OE9xLXVRWmRBSU1JdXNHd0w?oc=5",
     "date": "Fri, 21 Aug 2026 05:50:00 GMT",
@@ -334,18 +341,11 @@
     "source": "아시아투데이"
    },
    {
-    "title": "고용노동부, 여수 '고용위기 선제대응지역' 연장 결정",
-    "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE44Z3ZoekljNUp5a1hJRFBXTXpqQXlfbzhKQWtmMjhENXJoN2NZalF1dmNoVzkzRGVaRk5STWxRUi1EUFE3Qkl3NUstN19JTS1MUEpB?oc=5",
-    "date": "Fri, 21 Aug 2026 02:28:00 GMT",
+    "title": "고용노동부, 여수 '고용위기 선제대응지역' 연장 결정 - 보도자료 | 기사",
+    "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBtREtEQWR3ZmJRTnZTN2NqcGpxTTZUNVZET28wN2p1b2N1VVFldlpiS0ZHVFRZdERnNnJsNG5PZGVRRjJ1MlAxNnZwSVg5Y2J3VmVVdjMwWHgxVVRXT1ZZ?oc=5",
+    "date": "Fri, 21 Aug 2026 02:26:56 GMT",
     "summary": "",
-    "source": "네이트"
-   },
-   {
-    "title": "노동복지회의소 구축 논의 첫발…비정형 노동자 위한 안전매트 조성",
-    "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFAyWFFrdzZUUF9xOGZtb3BPYWZPdGIyZnZOUGoyUzRWZkVVVlo3YlYzOEpPRHY1OXk5RU1LU2xBT1dBV3pCX0dQX29uTFowdkhqanQ4SzQ3SWpBLVF5?oc=5",
-    "date": "Fri, 21 Aug 2026 02:22:00 GMT",
-    "summary": "",
-    "source": "뉴스핌"
+    "source": "더팩트"
    },
    {
     "title": "노동복지회의소 준비 작업반 출범…기능·조직·재원·거버넌스 등 논의",
@@ -356,6 +356,13 @@
    }
   ],
   "law": [
+   {
+    "title": "윤석열 ‘18억 영치금’ 아직도 조치 안한 법무부…박은정 “심각성 전혀 몰라”",
+    "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE85MWhiR3N0T2pXY3RzTzZIOGxhNERId0xONGNBN1FHeU1nb3RlU3VoamJUbkR0ckthUnNTSWd3OEZZazNnMGlrMFpOdTMtTGlLdkpGN1hwdDZtSm1EVWIwcm1ZQldIMnJkRUZZSkxOd0I?oc=5",
+    "date": "Fri, 21 Aug 2026 12:11:00 GMT",
+    "summary": "",
+    "source": "미디어오늘"
+   },
    {
     "title": "법무부 전주청소년꿈키움센터, 가정폭력· 성매매 폭력예방교육",
     "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9tb05IS3JaelBQZmY3eU55cWgxSEpMUzllcGNpZ3cxSjVIOTBqTzhZWmNILW1LeVU1Um1mQTVaYWNONGZCLWlGVUFhNnNqRVd6R1Z5cFFPRU5kZGhIMjBlZ0ljSTB1MlVlMTk2TFJ5c29qSWJPYndEb21B?oc=5",
@@ -477,7 +484,7 @@
    },
    {
     "title": "'안전' 얘기하다 법무부 장관 시절 떠올린 추미애…\"실천 의지가 중요\"",
-    "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE02Znd0QV9OZW5wcUZWQ0hrbVZ6aFFRVjYtMFJ5RlRlb2JWNFA4V0xjakN6UnVwZzN2RGNZQlpiX2tKQjJIMHRqQkhvRzl5VjZvb3d4b003VEF0cVhYNVZpWg?oc=5",
+    "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE80MDYySnJvWWxfV2MtUTVvUmNLRTEtdHBZVFhKRnphbjh2dEUtajBNZ204d0dKWUdRTmpSRl9RX3JLc1RsOTFqRXQ5RHoxZHJleUd3?oc=5",
     "date": "Fri, 21 Aug 2026 04:49:00 GMT",
     "summary": "",
     "source": "네이트"
@@ -511,13 +518,6 @@
     "source": "연합뉴스"
    },
    {
-    "title": "업무보고하는 이진수 법무부 차관 [포토]",
-    "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5wUmhlQ1Z6TzhDV05PdU1aY01QT1M5X1RZWmJ0eW1jbnlMbTZtaXpYSllweC1tNlVBaFVaT3BpeGtMOEQ5Vkc3UHNyeEFYWDg5U3hz?oc=5",
-    "date": "Fri, 21 Aug 2026 03:33:00 GMT",
-    "summary": "",
-    "source": "네이트"
-   },
-   {
     "title": "답변하는 이진수 법무부 차관",
     "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE40ZmtENGh2YlZVT0NQeU9Bd3ZaNlUzMnRVbW9NTW9ycWlBSm1WQzBqYmdpWks5MEc3MnZZVlE3eHRkbWFKbEs1WGlqbG9abnd0MnpV?oc=5",
     "date": "Fri, 21 Aug 2026 03:32:00 GMT",
@@ -533,6 +533,13 @@
    }
   ],
   "fund": [
+   {
+    "title": "금융위원회, 100% 신종피싱 사기입니다",
+    "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9PckdhcUlRTkhiVFJhdVl6Ukk5QXVtWGo4ZzZ4WTlzeXg1czdjQWtuQ3NmZDhYdmx5MkVFcVBQSUZ0Y1oyb3ZsQ1NUd2dJTUV4UUR3ZHZabG52cnRPZXltcXdqNlNNZ3VXU2NTOQ?oc=5",
+    "date": "Fri, 21 Aug 2026 12:04:44 GMT",
+    "summary": "",
+    "source": "행정신문"
+   },
    {
     "title": "금융위원회, 100% 신종피싱 사기입니다",
     "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9XdGVvX3Y0N2xHTTVtVnY5X3hING5ibkotOGZfUmZJMjhtTHVETFJNcTBwU0dFdk1vUWM3UWFUbWNCQl94a3lhWk1icHJSbUZCa1ZMYXowcnZXS3hhT0tLeEY1S2NJOXdONXo5N2p3?oc=5",
@@ -556,15 +563,15 @@
    },
    {
     "title": "금융위원회, 100% 신종피싱 사기입니다",
-    "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9zS1NfUUlBN0RlbjBzdzlseW55M3YyaFp3MFNzVlAzeDhjajk5RFdxVHBnZTFab2dFVFFnYnQ2MlhzY2dfWDhjVzhQVUVoTGFkSG14emM3V0R1bVdfQzFCRFB1VGl3Z09semh2eXo5MWE?oc=5",
-    "date": "Fri, 21 Aug 2026 10:30:16 GMT",
-    "summary": "",
-    "source": "프레스뉴스"
-   },
-   {
-    "title": "금융위원회, 100% 신종피싱 사기입니다",
     "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1VdVpLMlFILTluN2NfRWwwZDV1bTNJT2lZRzk2eVdSVC01VDJfazZPcXVaRTQwcXpuaGNlVmduU2hJbVViRC1zYXQxM1o0VWdKRk1wNjZSb2hYNThqS1dOQg?oc=5",
     "date": "Fri, 21 Aug 2026 10:30:07 GMT",
+    "summary": "",
+    "source": "한국글로벌뉴스"
+   },
+   {
+    "title": "금융위원회, 투기적 목적의 비거주 1주택자, 전세대출 신규취급·만기연장 제한",
+    "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9XQUR5bmZYUXBIVXNISi1mMUpLNVJQXzB6LXAyVThENjJKd25Vb0xuc0FRVE5nSk5sRkFQWjRmaWJSQnlIYjdlNU5nZ1Q4OWktNnIwYU1LVWRoYzdOR3V1VQ?oc=5",
+    "date": "Fri, 21 Aug 2026 10:30:06 GMT",
     "summary": "",
     "source": "한국글로벌뉴스"
    },
@@ -590,13 +597,6 @@
     "source": "경기종합뉴스"
    },
    {
-    "title": "금융위원회, 투기적 목적의 비거주 1주택자, 전세대출 신규취급·만기연장 제한",
-    "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9JM3QwZXJWb2IyUzU0OFlJcW5TVWljTHpjWkdYTWpiVm9IaEhXenBrMTVLb0diOW54MUM3R3FhcUFWajVRVmpISDd4M0NjRFFOYlA1OE9mRGRoWEt1bFRjOVJKVTc1YUMyeElTUnlpTHI5S1Bm?oc=5",
-    "date": "Fri, 21 Aug 2026 08:28:43 GMT",
-    "summary": "",
-    "source": "경기종합뉴스"
-   },
-   {
     "title": "금융위 \"분쟁조정위원장 변경 등은 정해진 바 없어\"",
     "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5sOERvcXROTVh3cERRVFA2bmI3aU95VElZenpnb0lJWlBMQTY2MGU3OVhFR2ctTzNEMWg1WEMtQWNpb3h3QWFJaDdkZFczQ1N3dHpBT0dfRWpBb2JBWGhrVHVpSU1Bc1ZUVDRyT2tQRQ?oc=5",
     "date": "Fri, 21 Aug 2026 06:35:15 GMT",
@@ -604,7 +604,7 @@
     "source": "대한민국 정책브리핑"
    },
    {
-    "title": "\"수출 절반이 반도체\"… 8월 중순 수출 552억달러의 '명암'",
+    "title": "8월 중순 수출 552억달러 '호조'…절반이 반도체였다",
     "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5BRzJUUFhhZmRkWHI4a2Faa0IzcmRqOGhyc2FhSmVwcXFiTFF2b0RUUHM3SFJhVl9qaUZmYzVLakZPZ2RSdk9NNnZCdGxtLXg2MkRXRTJfWndtWFIzRXgzejRMRQ?oc=5",
     "date": "Fri, 21 Aug 2026 06:10:36 GMT",
     "summary": "",
@@ -681,6 +681,13 @@
     "source": "물류신문"
    },
    {
+    "title": "금융위원회, 정책대출 결혼페널티 해소",
+    "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBfeXZDbmxONVZmMFdxLWxnNl9qOGlIcTItWTBNSk1jTDEyUjh0THJWRGNHRDNfeHFtRWZKbUNNTHFSOGszbmdRZmhsOUt0ZjM5X0ljTng2R1h6aU5nMVE?oc=5",
+    "date": "Thu, 20 Aug 2026 11:50:07 GMT",
+    "summary": "",
+    "source": "불탑뉴스"
+   },
+   {
     "title": "금융위, 수해 가계·중소기업에 대출 만기연장·상환유예",
     "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1kdHBVckluRUcyakxENlBUMjZRMGFVVEJyc2owMDc3WDY2cjZQQVpDWm9YNzlXN21KbGJ4enBoTWgxUjFHaUdEYV83OGF1ZE40WU9Na2pxWGdBVTZTcmxNRHRZXzI3d2c?oc=5",
     "date": "Thu, 20 Aug 2026 11:38:00 GMT",
@@ -700,16 +707,16 @@
     "date": "Thu, 20 Aug 2026 11:22:00 GMT",
     "summary": "",
     "source": "newszoom.kr"
-   },
-   {
-    "title": "금융위원회, 정책대출 결혼페널티 해소",
-    "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE52LXpGbC1yanRUVzBHUW9pZ2hKTF9uNlU1ZzZmWUZqLUZuNWNlNmFaUG9JRU9ZR2dDaXdBSkJoWno2LTJobUlaUGJUdlA?oc=5",
-    "date": "Thu, 20 Aug 2026 11:22:00 GMT",
-    "summary": "",
-    "source": "시사일보"
    }
   ],
   "biz": [
+   {
+    "title": "손한국 중기청장, 경남 혁신창업가 \"도전기회 상승했다\"",
+    "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9tUXl4M2xfdjR2MFl2OHhrTE9qSnYtaXFkd2o2RVZxemdVNEtUOHJwcEhRc0JiaEZQSzZQUVl5R2ltWGJTWWI4djRYX3FONzBnVXlLY1NmSlFLQS1jRW12ckk2UmRQZDBwSTBFMw?oc=5",
+    "date": "Fri, 21 Aug 2026 12:22:48 GMT",
+    "summary": "",
+    "source": "한스경제"
+   },
    {
     "title": "경기도약 \"중기부·국조실 약 배송 확대 행정 독주\"",
     "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5zUDJ3MmRTYmZIQUxfR3Z5anduYzd3NUFLVEdFaWVReVNoU3hDOU5iVnZ0bjhsN3lTTVo4SDZjY3dMT2tySWVFcjFySXFaRDFMbHBNQnFB?oc=5",
@@ -877,13 +884,6 @@
     "date": "Fri, 21 Aug 2026 01:39:00 GMT",
     "summary": "",
     "source": "IT비즈뉴스"
-   },
-   {
-    "title": "경주·제주 K-뷰티 수출거점 육성…중기부, 개발·마케팅·수출 지원",
-    "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBiZmVHMjZkei1GdkdiWkw5ckRZMEhKa1hNS0QyV2FKbHgxSVdlQnAzdUNWNkk0Y01xSTZvWWFIQlQwOHFVS05rcU1BbmpLZUdhaTRsTUZjR3YzMlZfTGE1NTZ0Z0hueHBsc2lnbg?oc=5",
-    "date": "Fri, 21 Aug 2026 00:29:30 GMT",
-    "summary": "",
-    "source": "축제뉴스"
    }
   ],
   "money": [
