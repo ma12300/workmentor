@@ -2,6 +2,15 @@
  {
   "date": "2026-08-21",
   "kind": "market",
+  "edition": "저녁판",
+  "title": "8월 21일 (금) 투자 브리핑 · 저녁판",
+  "file": "briefings/2026-08-21-market-저녁판.pdf",
+  "top": "[미장 브리핑] 뉴욕증시, 다우존스 하락... S&P 500 약세 - 센머니",
+  "count": 27
+ },
+ {
+  "date": "2026-08-21",
+  "kind": "market",
   "edition": "아침판",
   "title": "8월 21일 (금) 투자 브리핑 · 아침판",
   "file": "briefings/2026-08-21-market-아침판.pdf",
