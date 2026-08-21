@@ -1,14 +1,7 @@
 {
- "updatedAt": "2026-08-21T17:13:02.585Z",
+ "updatedAt": "2026-08-21T17:47:29.533Z",
  "groups": {
   "tax": [
-   {
-    "title": "정부 \"개인지갑 보관 가상자산도 과세 대상\"",
-    "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBwYU5FSmpidzk2WXVtSEtJVkVleHJfS3dUMDVpZUkxNFpibWVQZWtYZVdGWjZjV0Y5d1lUeVFUV2x6SGRIX1Nkei05OFVkcUdVMUF1SkRadTM0MG1QX3dZQTE1T3lDM3hiS0lEMllJMkp5UQ?oc=5",
-    "date": "Fri, 21 Aug 2026 14:33:53 GMT",
-    "summary": "",
-    "source": "디지털애셋"
-   },
    {
     "title": "국세청, 무신사 특별세무조사…조만호 개인회사 ‘라펠’ 들여다본다 - 조선비즈",
     "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNMFZxak91SkdxV1FBMkQ0dzdHR0VMWjh3V3FYVG56cF9iWU8weTlTbFhCXy1ZRmtpM1lhc205QWlNU3c5UWxwMlFpMU5aazdXYkY5V1FNelRFd2x1NzRxZ0xVWF9VVEVZcXh6SjdnaU1iZG9yRlpxZGFhQ0VLU0NZZFJMQlhWZTZ1UFRYbGlNZzYwZUHSAacBQVVfeXFMT202anBDNHdCNHVsU1lZLWV1VUhZR3I1Q2JQdXRJcDVEWW03eDBLUzBEUHpidGhlREF6RmJBdHBEWENpZlBQbUpuSjl3cU9PUEFwdTJDZ21jUG5IaUxPMjJMaHMxRTNqdlpRUFNZc093czd2SGdhZllKaEVTV2JNNFlDQlhNZ2ZqNlRtdUpTSFJCT2JTSzRodU4zQktUR2xpQWNJZm9qc3c?oc=5",
@@ -176,6 +169,13 @@
     "date": "Fri, 21 Aug 2026 01:28:31 GMT",
     "summary": "",
     "source": "intn.co.kr"
+   },
+   {
+    "title": "인천지방국세청, 하반기 세정 방향 점검…탈세·체납엔 \"끝까지 추적\"",
+    "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9oTmFzWWJkSmtEVjJlSFNxelRhT0RneUxxOURzZGJGbWJDQWNta1VmcXM3R2hSMHpVNGZIeFNSZ0FIa3dkeGhTcHdkSzBxVnFaSkJJ?oc=5",
+    "date": "Fri, 21 Aug 2026 00:54:00 GMT",
+    "summary": "",
+    "source": "네이트"
    }
   ],
   "labor": [
@@ -549,6 +549,13 @@
    },
    {
     "title": "금융위원회, 100% 신종피싱 사기입니다",
+    "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9XdGVvX3Y0N2xHTTVtVnY5X3hING5ibkotOGZfUmZJMjhtTHVETFJNcTBwU0dFdk1vUWM3UWFUbWNCQl94a3lhWk1icHJSbUZCa1ZMYXowcnZXS3hhT0tLeEY1S2NJOXdONXo5N2p3?oc=5",
+    "date": "Fri, 21 Aug 2026 10:30:54 GMT",
+    "summary": "",
+    "source": "시민행정신문"
+   },
+   {
+    "title": "금융위원회, 100% 신종피싱 사기입니다",
     "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5oRTJFN0Y5QVJfSmQ0V1ZZRUQ1V0FrQm5ualhKVzdsdEtmSjdRNmxpNUVEeEh0ZEZDaENGb3VoMENNTFBLbmtENlFiSVU3eldUNjJVdUwzWWlFR0JrN0E0OTR4Rk9FdVNMckE?oc=5",
     "date": "Fri, 21 Aug 2026 10:30:45 GMT",
     "summary": "",
@@ -560,6 +567,13 @@
     "date": "Fri, 21 Aug 2026 10:30:40 GMT",
     "summary": "",
     "source": "한국시사경제"
+   },
+   {
+    "title": "금융위원회, 100% 신종피싱 사기입니다",
+    "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9IMEVZMGZ0TDI4SG5nN3BGNU84UlpUbUp3clA1bDFVUmI1eFo5T2xVZ2d5cEtRR2FhSHRHU0dhRUpzY21VSUtQdmV2a1lFVnRhZ2R4TUQ3N2RGeVE2aFFYNGdsbDRkb0dmYlE?oc=5",
+    "date": "Fri, 21 Aug 2026 10:30:32 GMT",
+    "summary": "",
+    "source": "인사이드피플"
    },
    {
     "title": "금융위원회, 100% 신종피싱 사기입니다",
@@ -584,17 +598,17 @@
    },
    {
     "title": "금융위원회, 100% 신종피싱 사기입니다",
+    "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBnUmJVb1F0UVU4WG5UemtZZE8xNHlkcFpWZ0NIZGVSN3Vfek9xdlFXNWUyRWZnQTlzZU1KS2dKb2g2b1NsUXJYVVc4MEdDXzZDcTR4N1Y1Mmo3QWxDMHgwMGp3?oc=5",
+    "date": "Fri, 21 Aug 2026 10:30:16 GMT",
+    "summary": "",
+    "source": "timess.co.kr"
+   },
+   {
+    "title": "금융위원회, 100% 신종피싱 사기입니다",
     "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1VdVpLMlFILTluN2NfRWwwZDV1bTNJT2lZRzk2eVdSVC01VDJfazZPcXVaRTQwcXpuaGNlVmduU2hJbVViRC1zYXQxM1o0VWdKRk1wNjZSb2hYNThqS1dOQg?oc=5",
     "date": "Fri, 21 Aug 2026 10:30:07 GMT",
     "summary": "",
     "source": "한국글로벌뉴스"
-   },
-   {
-    "title": "금융위원회, 100% 신종피싱 사기입니다",
-    "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9wcHZBbjg1WG5MN2pRY3owZjVzaHJySXJPbTRCbm9LekxfT0k5VjhsOG1yZ3NwZ1JKMjFvUlktbDdMNVdRaWp6M0tPSkFUOWIzd2xBYkdGVWdUYi0yLVJF?oc=5",
-    "date": "Fri, 21 Aug 2026 10:30:06 GMT",
-    "summary": "",
-    "source": "뉴스투게더"
    },
    {
     "title": "\"금융위, 시장 원격조정 불가능…지방이전 땐 위기대응력 약화\"",
@@ -693,23 +707,16 @@
     "date": "Thu, 20 Aug 2026 13:28:06 GMT",
     "summary": "",
     "source": "아시아투데이"
-   },
-   {
-    "title": "관세청, 집중호우 피해 수출입기업에 신속한 관세행정 지원 실시",
-    "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9LWTFOVlhxdEZqcEZHMWYwRmNwTFktUEp0dXFfV0txMkVKVm9uc19ZS2pjX1ZlZ3d1d0R4NDc4SjkxZGs0S0pTWTVfb1pDOXcwSEwxb2J6d2Q0cGg2SHo0S2pEZ291czVWc2ZB?oc=5",
-    "date": "Thu, 20 Aug 2026 11:55:32 GMT",
-    "summary": "",
-    "source": "물류신문"
-   },
-   {
-    "title": "금융위원회, 정책대출 결혼페널티 해소",
-    "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBfeXZDbmxONVZmMFdxLWxnNl9qOGlIcTItWTBNSk1jTDEyUjh0THJWRGNHRDNfeHFtRWZKbUNNTHFSOGszbmdRZmhsOUt0ZjM5X0ljTng2R1h6aU5nMVE?oc=5",
-    "date": "Thu, 20 Aug 2026 11:50:07 GMT",
-    "summary": "",
-    "source": "불탑뉴스"
    }
   ],
   "biz": [
+   {
+    "title": "역대 최대 8.9조 벤처투자, AI·반도체·로봇에 쏠린 자금이 바꾸는 한국 스타트업 지형",
+    "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE13djJIOHAtUjBra0ZTdi1GMW5DOW96SGZKT1VLSl83WV9adk1acHU4NE4zcVdxRjVfeFBKbjBjNEtHRXV4S3VfSDY3M1pyal9NQ1E?oc=5",
+    "date": "Fri, 21 Aug 2026 17:07:29 GMT",
+    "summary": "",
+    "source": "유스연합"
+   },
    {
     "title": "손한국 중기청장, 경남 혁신창업가 \"도전기회 상승했다\"",
     "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9tUXl4M2xfdjR2MFl2OHhrTE9qSnYtaXFkd2o2RVZxemdVNEtUOHJwcEhRc0JiaEZQSzZQUVl5R2ltWGJTWWI4djRYX3FONzBnVXlLY1NmSlFLQS1jRW12ckk2UmRQZDBwSTBFMw?oc=5",
@@ -744,13 +751,6 @@
     "date": "Fri, 21 Aug 2026 08:43:00 GMT",
     "summary": "",
     "source": "SBS Biz"
-   },
-   {
-    "title": "K-뷰티 글로벌 확산 위한 국내 전초기지 구축…경주·제주 수출거점 육성",
-    "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1kQnQ3S0hTQlpDOW5Wc0hRSm5Nc2JILWhpTGlUTXpVZnkyMkRyVG5NTHROYVZWR2ZYbVpVQVlsY3BnX3pla0N6Z1l5OHQtenZSeU9aZWxaZHF5VFFoUDVmeEJFV3BWdzcxbGNVNnNn0gFyQVVfeXFMTUNNQkQ3XzZzUmZnWWY5RVpFckRZNjRYY3dDX2RLcmo4em9KaGs5YzVqc3ZMZVZsZXVzREtOVG84QjNWeXNTME9LVVhMQzVVMXJ0VlppWUxLeHVjQW4tWU5DSjJfc3JWeEhhWmlobW5BOTVB?oc=5",
-    "date": "Fri, 21 Aug 2026 08:39:39 GMT",
-    "summary": "",
-    "source": "잡포스트"
    },
    {
     "title": "“상세페이지부터 로고까지”…한유원, 소상공인 판로 지원",
@@ -1191,13 +1191,6 @@
     "source": "intn.co.kr"
    },
    {
-    "title": "심욱기 대전국세청장, 부가세 신고현장 점검…“납세자 눈높이 맞춤 지원” 당부",
-    "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBDZkpxQ00tTFpFSU4xRWVzTVpidzFoVlROSjU2Z1ZuRU1iRFBlRmxwQ01qXzBTSmxKeWN1UmVLckRCUVY0c0FSeDN0SWh3OUlwdHFEYjZwOGRFbnRHLTNyWlBxRXRONUdQOGJXcw?oc=5",
-    "date": "Thu, 23 Jul 2026 08:07:52 GMT",
-    "summary": "",
-    "source": "세정일보"
-   },
-   {
     "title": "박종희 인천국세청장, 7월 부가세 신고센터 현장 방문",
     "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9tTWFzaFZoazc2NEZnUzV6ZWltQ1lOTkdqV1N3NklZbk5TcXQ3TGtrNUZJeERFQ21fZnZOTm5ta1NrMHBoNGItUzQ2RUFYQ19KelV4LU5mZDBMcHBQWWRIeGhYTQ?oc=5",
     "date": "Tue, 21 Jul 2026 07:00:00 GMT",
@@ -1238,6 +1231,13 @@
     "date": "Mon, 13 Jul 2026 07:00:00 GMT",
     "summary": "",
     "source": "전자신문"
+   },
+   {
+    "title": "[#금융톡톡] 하나은행 Fast-Fit 송금 출시·국민은행 부가세 신고 지원·우리은행 펀드 모으기 서비스·카카오뱅크 대출 계산기 이벤트",
+    "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBzQm13eXRhbWRuaVFITk9va3lrTkpQc0owQnF6YVdiaE0wQWx1aXF5QU5xUVoyQTJJSDYzUU5NZ0N0akhLaDd4aFU4TzJHMFBMd0dUVWJOV2JSUHRJWGdHcmJia3RZSVRtR1pheWVlUdIBc0FVX3lxTE5RanFJOEtoNFdMVi1sU1VVQlZvdWt0S3Y4VXZvYVhHQzhIZU9wSGliRVFwa2dhTW5fOG1TNVFmQWJMZ1BFRk9hd3JQX1ptS2xqQ2FRWFZkenYwZGl2ZS1oT3p4STBNWTFLbm5vMjRrNFlBclk?oc=5",
+    "date": "Mon, 13 Jul 2026 07:00:00 GMT",
+    "summary": "",
+    "source": "뉴스웍스"
    }
   ]
  }
