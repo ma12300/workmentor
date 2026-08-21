@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-21T21:53:28.930Z",
+ "updatedAt": "2026-08-21T22:31:24.524Z",
  "groups": {
   "tax": [
    {
@@ -201,13 +201,6 @@
     "source": "여성종합뉴스"
    },
    {
-    "title": "장흥군, 고용부 ‘일자리대상’ 특별상… 맞춤형 정책 성과 인정",
-    "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBLekpManhOeFdsSGdIX2NJeGZUZENFanJoRlVoN2FsVDJzS252NDJlaEhKeWt0N1Q1SE8zdHRwd2JZZ0tXQ2JVeldVSFRNWTBndUd5cUNwNUVRcjI4bUlXNEZOaFpPOTFWRlE?oc=5",
-    "date": "Fri, 21 Aug 2026 09:58:54 GMT",
-    "summary": "",
-    "source": "천지일보"
-   },
-   {
     "title": "수원시청소년청년재단, 고용노동부 ‘일·생활 균형 캠페인’ 재인증",
     "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5tUUJQb2VxYW5fNUItRnRhUWJmMUhiVkJyNFNHZjBFdHBrWVhKNmR5d2JkVEpfbjlvcU9fTzZMcXRqMGN1RmFPZE1IUDRMaWRXMktNbVlLbm4yejdCcjl2S3lNR2tfRm5JX0VEZ09sdlRJQQ?oc=5",
     "date": "Fri, 21 Aug 2026 09:27:56 GMT",
@@ -353,15 +346,36 @@
     "date": "Fri, 21 Aug 2026 01:22:03 GMT",
     "summary": "",
     "source": "뉴데일리 대구경북"
+   },
+   {
+    "title": "배달 기사도 퇴직금 받을 수 있게… 노동부, K-노동복지회의소 준비 작업반 출범 - 조선비즈",
+    "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQVXZpWkFJOEk4VTdOZEZ5UUIwbnc4blQxSEVHX2p4WVQ2dm5NVU0yOEoxbXgxaVRZTW9hdVItZHA5cXpHSTIwTHM4NkhHNVJCeW1JejlSUDcza2tJYkJyVEE3U0xldHZrZ21XRWZUaVBKV3ZDSlBQNTJBQmhoV0lObGhRenRDd9IBmgFBVV95cUxNc2Uwa0VhNTIxVDZVQkhna05zRFNyTXNFV1BIV2lSbEk3U2tfLWh1NExzOE9WQW15UUc3WGJ2TlJCWmh5bHZFTjlvQzYzakx3Y0Z1M05uX3hyc1pDbVFjSmFZeTEyczFsNi00NzNHcGQ2THgyQ21ETzdHSjlfSGlMOXYxdC1jUEpxVXRIbUlSR2VIVTZJeTVvTzNn?oc=5",
+    "date": "Fri, 21 Aug 2026 01:07:30 GMT",
+    "summary": "",
+    "source": "Chosunbiz"
    }
   ],
   "law": [
    {
+    "title": "틱톡, 아동 정보 보호 위반 소송 5500억 합의금으로 마무리",
+    "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9yY0VCQzRodVhoVFBIcTBDdXFWSkhOcTNzUUdBcE4xd3JXci15VVlVU2w1ZEpKQkpIQnNvWmtlS3QzV2NTalp4aG9KbFFPZm1NTWhxa2RzM1gyWnVlb2hBWNIBeEFVX3lxTE1lVkJiRk5KSmx5aWRxd296ckRqVU5XXzJtYTU3SjZIVkVYRmY0RUFMai1MYkM5aVY4Tk1qQzhBXzZubGFOTnRNLWZaQUJ1WGtEOU5ybU4tUG42Y0c2MzBWSEJsNHY4VEpaZG13Sl9BNDNMTmgxckh5Yg?oc=5",
+    "date": "Fri, 21 Aug 2026 22:08:19 GMT",
+    "summary": "",
+    "source": "뉴시스"
+   },
+   {
+    "title": "\"본인 소신 관철 못 해\"… 정성호 참모들의 탄식",
+    "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1XdmVOX3lnMHNTNXlNWXF2d1Y1RXZ1aU05cWR2QVQwci1hSnBVeVVyUk93VzUyZDdyalJvX2Rsa21IUl9Hb1FaVXVab1pfTUFkQjRYcl93MzBTRWZ1V3F2NVcxaFhTOGRxd1E?oc=5",
+    "date": "Fri, 21 Aug 2026 22:00:00 GMT",
+    "summary": "",
+    "source": "주간조선"
+   },
+   {
     "title": "틱톡, 美아동개인정보 위반 소송서 사상 최대 4억불 지급 합의",
-    "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE8xWVM3WnlFeXVGWHFqVkNoZnR3Yk1BSkNiNkF2MGEwdC1YbEJQN0k3MHNJa19OWEJuUXl4QnVDTTdfc25TQjNsb3JrT3IyUFNpcVVxMm1QRXdwam_SAWBBVV95cUxNYkJSdjhBYjh1WTA0clRCeVVwNUEydDFhNnRJMDctMjItcTlpLXJJV3A1dGxQWEdHSFZlV2VwSXhlcXpOYmFjNXlHcHFmM0FsMDhfU20zMnhwRHFzVktXOXE?oc=5",
+    "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE50UFdtVURLSHpRZmJkVFdndHdYOHkzbFEzNkN3VHl2ZU11OS14QUZOWUFic1VnenhiaEtBbTFKVzBqandhUkNYRExQRHpuUjQ5VHc?oc=5",
     "date": "Fri, 21 Aug 2026 21:12:47 GMT",
     "summary": "",
-    "source": "연합뉴스"
+    "source": "매일경제 마켓"
    },
    {
     "title": "美법무부, 틱톡 '아동 개인정보 소송' 4억달러에 합의",
@@ -435,10 +449,10 @@
    },
    {
     "title": "법무부, 외국인 계절근로 실태점검…603개 사업장서 663건 적발",
-    "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE15dnBGMGdSY0NpY2l4SzZSNnYyT0dRRzdtN2YyWi1zYUM1SEFiZ3lCU3FaaW1xUmNSbjl4ckhKbXlTXzlYdXNoanM3bGUxMmV2dWJuZWhmNVdXbnZZSmdMN9IBeEFVX3lxTE5HdEwzOEgzdEUxdDdoWkhBU21zbWoyajZaZnliV2RPbDVtalNKYVNVRTFXaHVYZlBmbTZqaWhYVE1Vb2FFTnpuU25QeW93X2hBYkFtT04zQVpoOVRhNl9aNDBDZ29acnpYQVNNaUt4YWdTVXlTSTRKSQ?oc=5",
-    "date": "Fri, 21 Aug 2026 08:09:37 GMT",
+    "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE83UHFEbTZlQVFSaXFjMEVmWHQ2NXlmYkpSTkZhRjhoVzJqSDdlMk9Wa2pmeEw0aXNQYW1kZlA4Zmlrd3YwX3Q2WXNNMlFPdG9IT1FF?oc=5",
+    "date": "Fri, 21 Aug 2026 08:10:00 GMT",
     "summary": "",
-    "source": "뉴시스"
+    "source": "네이트"
    },
    {
     "title": "법무부, 외국인 계절근로자 인권침해 위반사항 663건 적발",
@@ -516,20 +530,6 @@
     "date": "Fri, 21 Aug 2026 04:32:49 GMT",
     "summary": "",
     "source": "뉴데일리"
-   },
-   {
-    "title": "여야, 법무부 장관 법사위 불출석 두고 공방",
-    "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBEc3M2UmtYa3d6NFJ6ck50azN2b0lsU000NW9Va2RQZGg5bVhzcGhmVWd6TU9QWHAwY0pjWmk1LTNKOGlDV2pWSlYxZ0R5OHMxSDR2ckpnQ1BVbEkxbU5lSDd5WDlwZjdGaHc?oc=5",
-    "date": "Fri, 21 Aug 2026 04:26:45 GMT",
-    "summary": "",
-    "source": "월요신문"
-   },
-   {
-    "title": "여야, 법사위 업무보고서 '법무부 장관 불출석' 놓고 공방",
-    "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1oTkprZFRtUGJJYm5JNTFYVVhkdUl1LXBMczY4emgtMkxOVDQxdmN2M3piVU5NTWdkUGpBbGxJN3JqWDNMdmVtVDRqVVhUMmd5RW0xZmh1RlZpTEU1MVJfWNIBYEFVX3lxTE1oTkprZFRtUGJJYm5JNTFYVVhkdUl1LXBMczY4emgtMkxOVDQxdmN2M3piVU5NTWdkUGpBbGxJN3JqWDNMdmVtVDRqVVhUMmd5RW0xZmh1RlZpTEU1MVJfWA?oc=5",
-    "date": "Fri, 21 Aug 2026 03:38:47 GMT",
-    "summary": "",
-    "source": "연합뉴스"
    }
   ],
   "fund": [
@@ -553,13 +553,6 @@
     "date": "Fri, 21 Aug 2026 12:04:44 GMT",
     "summary": "",
     "source": "행정신문"
-   },
-   {
-    "title": "금융위원회, 100% 신종피싱 사기입니다",
-    "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9XdGVvX3Y0N2xHTTVtVnY5X3hING5ibkotOGZfUmZJMjhtTHVETFJNcTBwU0dFdk1vUWM3UWFUbWNCQl94a3lhWk1icHJSbUZCa1ZMYXowcnZXS3hhT0tLeEY1S2NJOXdONXo5N2p3?oc=5",
-    "date": "Fri, 21 Aug 2026 10:30:54 GMT",
-    "summary": "",
-    "source": "시민행정신문"
    },
    {
     "title": "금융위원회, 100% 신종피싱 사기입니다",
@@ -588,6 +581,13 @@
     "date": "Fri, 21 Aug 2026 10:30:23 GMT",
     "summary": "",
     "source": "신경북뉴스"
+   },
+   {
+    "title": "금융위원회, 100% 신종피싱 사기입니다",
+    "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBnUmJVb1F0UVU4WG5UemtZZE8xNHlkcFpWZ0NIZGVSN3Vfek9xdlFXNWUyRWZnQTlzZU1KS2dKb2g2b1NsUXJYVVc4MEdDXzZDcTR4N1Y1Mmo3QWxDMHgwMGp3?oc=5",
+    "date": "Fri, 21 Aug 2026 10:30:16 GMT",
+    "summary": "",
+    "source": "timess.co.kr"
    },
    {
     "title": "금융위원회, 100% 신종피싱 사기입니다",
@@ -802,6 +802,13 @@
     "source": "뉴시스"
    },
    {
+    "title": "2026년 하반기 중소벤처기업부의 정책방향!",
+    "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBIVWt6QUt6cVZsb19MTTJNeV9SRkR6XzRPbUlQbWgyWjBPekpDbjNTNDMyZVRkdENGWFNCcFlNbmh2WUFYZlQydDd4U29NdE5aQWxBM3dzSjBsZEpTaDE0X2UxRnE?oc=5",
+    "date": "Fri, 21 Aug 2026 03:47:18 GMT",
+    "summary": "",
+    "source": "대한민국 정책브리핑"
+   },
+   {
     "title": "충북 청주시, 충북도와 글로벌 창업거점 ‘창업도시’ 유치 총력",
     "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFB0aGFfUVp6cURpQWRvbUNGLUR4c1EwaDNWS1VmRk1HTDlZcGFqcFFocGk2Y01GZU4wS1h4QlRaTklKWmxCdHY4cXAyWk5Zdy1wSS1aZU9WamRLbUduWnY0T1ZwMXZ3enlkSnc?oc=5",
     "date": "Fri, 21 Aug 2026 03:42:02 GMT",
@@ -877,13 +884,6 @@
     "date": "Thu, 20 Aug 2026 23:40:25 GMT",
     "summary": "",
     "source": "연합뉴스"
-   },
-   {
-    "title": "'지역성장펀드' 제1호 전북서 출범…1000억 원 규모",
-    "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9NV2haX3JqTlA3anVIRzNOemtpZDZXdUUxMmhCXzF6U0dFT0FHSlpwLWM0ZFVXSFFYejVPRkhUTkRjTzVHMmd5UEFySEZOS3JWS0IwbDFFcDFxNHpmdTM4WXVyaUlWYkp2WDYxQQ?oc=5",
-    "date": "Thu, 20 Aug 2026 22:30:18 GMT",
-    "summary": "",
-    "source": "대한민국 정책브리핑"
    }
   ],
   "money": [
@@ -1114,18 +1114,18 @@
     "source": "조세금융신문"
    },
    {
+    "title": "오상훈 부산지방국세청장, 부가세 신고 현장 찾아 직원 격려",
+    "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBhVzNXc1pOLWhWc3o5MThBU0hTZzVMOVpsQk5OX1lKcVpMcU9zTWp6THpKemhmejl1UmV5bmZhY0VnUjk4MnpsWG9kVEV1X2c0eGZfWktsN1NFSjBiaVlyREJWaG8?oc=5",
+    "date": "Tue, 28 Jul 2026 07:00:00 GMT",
+    "summary": "",
+    "source": "한국세정신문"
+   },
+   {
     "title": "오상훈 부산지방국세청장, 부가가치세 신고 현장 방문",
     "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE82aDNhV1FkT0dSd3JxNEhHeEZDdzlUZXhFV0lRcV9mVXlFWGdQcEVrbVBGdEVWaGNPQTFSVkVNTUszd2xJNmlkT2VTcFBJQTRMcmFkTXF2MkNKREc1bHBycmh4dUtfWV9RUUE?oc=5",
     "date": "Tue, 28 Jul 2026 07:00:00 GMT",
     "summary": "",
     "source": "intn.co.kr"
-   },
-   {
-    "title": "오상훈 부산국세청장, 부산진세무서 ‘부가가치세 신고 현장’ 방문",
-    "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1vVUNNckMtRUpXT1FLX2VjUTdZVE5TYTNSY1NETV82NjA1Tjl4bHJxYl83YTd0U3dwNXRuMkZYTWNIYUJSUktTTnhTZFh4QWE3TlcxVTRwazhjTEJHVjBQVlJGaXJ5elkwMzRBYw?oc=5",
-    "date": "Mon, 27 Jul 2026 08:49:51 GMT",
-    "summary": "",
-    "source": "세정일보"
    },
    {
     "title": "[포토] 오늘 부가세 신고 마감…한산한 세무서 신고 현장",
