@@ -1,20 +1,20 @@
 {
- "updatedAt": "2026-08-21T13:52:01.007Z",
+ "updatedAt": "2026-08-21T14:41:58.192Z",
  "groups": {
   "tax": [
+   {
+    "title": "정부 \"개인지갑 보관 가상자산도 과세 대상\"",
+    "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBwYU5FSmpidzk2WXVtSEtJVkVleHJfS3dUMDVpZUkxNFpibWVQZWtYZVdGWjZjV0Y5d1lUeVFUV2x6SGRIX1Nkei05OFVkcUdVMUF1SkRadTM0MG1QX3dZQTE1T3lDM3hiS0lEMllJMkp5UQ?oc=5",
+    "date": "Fri, 21 Aug 2026 14:33:53 GMT",
+    "summary": "",
+    "source": "디지털애셋"
+   },
    {
     "title": "국세청, 무신사 특별세무조사…조만호 개인회사 ‘라펠’ 들여다본다 - 조선비즈",
     "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNMFZxak91SkdxV1FBMkQ0dzdHR0VMWjh3V3FYVG56cF9iWU8weTlTbFhCXy1ZRmtpM1lhc205QWlNU3c5UWxwMlFpMU5aazdXYkY5V1FNelRFd2x1NzRxZ0xVWF9VVEVZcXh6SjdnaU1iZG9yRlpxZGFhQ0VLU0NZZFJMQlhWZTZ1UFRYbGlNZzYwZUHSAacBQVVfeXFMT202anBDNHdCNHVsU1lZLWV1VUhZR3I1Q2JQdXRJcDVEWW03eDBLUzBEUHpidGhlREF6RmJBdHBEWENpZlBQbUpuSjl3cU9PUEFwdTJDZ21jUG5IaUxPMjJMaHMxRTNqdlpRUFNZc093czd2SGdhZllKaEVTV2JNNFlDQlhNZ2ZqNlRtdUpTSFJCT2JTSzRodU4zQktUR2xpQWNJZm9qc3c?oc=5",
     "date": "Fri, 21 Aug 2026 12:51:00 GMT",
     "summary": "",
     "source": "Chosunbiz"
-   },
-   {
-    "title": "정부 \"개인지갑 보관 가상자산도 과세 대상\"",
-    "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBwYU5FSmpidzk2WXVtSEtJVkVleHJfS3dUMDVpZUkxNFpibWVQZWtYZVdGWjZjV0Y5d1lUeVFUV2x6SGRIX1Nkei05OFVkcUdVMUF1SkRadTM0MG1QX3dZQTE1T3lDM3hiS0lEMllJMkp5UQ?oc=5",
-    "date": "Fri, 21 Aug 2026 11:34:05 GMT",
-    "summary": "",
-    "source": "디지털애셋"
    },
    {
     "title": "사상 최대 실적·IPO 추진 중인데…무신사, 국세청 특별세무조사",
@@ -229,13 +229,6 @@
     "source": "한국경제"
    },
    {
-    "title": "수원시청소년청년재단, 고용노동부 ‘일·생활 균형 캠페인’ 재인증 획득",
-    "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1VcV9IOUFvcE4xWFB6eUVQcTR4UndOMnJUTnZKN1p3TkRJd09seUQtdER5X1I0RklzdEkyY3RSOTJSVE1nNC1oTFowQkdFV3NURnFjbHhOWmdCdFU?oc=5",
-    "date": "Fri, 21 Aug 2026 08:30:18 GMT",
-    "summary": "",
-    "source": "비전21뉴스"
-   },
-   {
     "title": "[단독] 노동부 감독받던 강남 치과서 2명 사망…김현기 강남구청장 취임 뒤에도 늑장 점검 논란",
     "url": "https://news.google.com/rss/articles/CBMitAJBVV95cUxQaUxSa1pvZmpYbVlUTU10WlUwXzVKNjlZVVJWSnZPc0lDeUJKUUplRGUtNlJyLUhXUHEzZC1OaWt5eWlwQm5qS3RjMFBaTHc0Z0RNQmo1RWtsYzlnQUJFcTZRNm1WR1VwQWlmeEtxSUJtbDVZRXlBT3p2REc0WU5TaEdwNHAwOVk4NXp3MHhsT1NZdWFGTVFZUWZBOU1MUllPODM5X2tDaEJlcXE1QU5VanZBUFVVMHlKSFNHZmlRQTE0cHUtLU52X3NISGtQY0U3SjVxTVBRRmJxLVZSRmlzdmtQSElfam1YRVdvWGdKWmtEazNjQUdNODhkdTVRempTMHIteHl2RlBGOU81bU90UGw4RHVDOHUzUjM2ajdQSzZBSml6Q2lHNFU0bTF1YVlxQ3o1cw?oc=5",
     "date": "Fri, 21 Aug 2026 08:30:08 GMT",
@@ -348,11 +341,18 @@
     "source": "더팩트"
    },
    {
-    "title": "노동복지회의소 준비 작업반 출범…기능·조직·재원·거버넌스 등 논의",
-    "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBWYkJoc0xobXJvZ2ZaSjVSWERGSklhUi0wLVVxT0dKUkwtcjVJTHhLel82c29JUGtXanR3c2gtQ3Z4LThiSkhNSjJqWUotTmM5S0RfUG1FSUE5QQ?oc=5",
-    "date": "Fri, 21 Aug 2026 02:15:18 GMT",
+    "title": "노동복지회의소 구축 논의 첫발…비정형 노동자 위한 안전매트 조성",
+    "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFAyWFFrdzZUUF9xOGZtb3BPYWZPdGIyZnZOUGoyUzRWZkVVVlo3YlYzOEpPRHY1OXk5RU1LU2xBT1dBV3pCX0dQX29uTFowdkhqanQ4SzQ3SWpBLVF5?oc=5",
+    "date": "Fri, 21 Aug 2026 02:22:00 GMT",
     "summary": "",
-    "source": "파이낸셜뉴스"
+    "source": "뉴스핌"
+   },
+   {
+    "title": "“지방 가느니 이직”…노동부 산하 6곳 직원 ‘술렁’",
+    "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBNdHNMXzVJNmlYVDdPeHZWZU9BVDNVMWhTcnU3WkxuTlhUTzRLRmU5aEZFSXNuZXhoZlJMRkxVT0lhdXZRYVFOWldnTFB0LTQ?oc=5",
+    "date": "Fri, 21 Aug 2026 02:14:10 GMT",
+    "summary": "",
+    "source": "v.daum.net"
    }
   ],
   "law": [
@@ -383,13 +383,6 @@
     "date": "Fri, 21 Aug 2026 08:42:52 GMT",
     "summary": "",
     "source": "edaily.co.kr"
-   },
-   {
-    "title": "[단독]檢 ‘마지막 인사’ 평검사부터…간부 인사는 미정",
-    "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE45RUtWck5CN0RnYjdhMmdfeUZITG8wLXhmMUpFeXpoMEliWVNDbXRSZEtaRjBRdzAza21HcThYYUxteklacFU0NURpVTgzTEgzV2NneVJFdkI4MUpESTk1YVJ2OVFydmc2cFMxYU1YWndWZ2RsaGpwOF9rQQ?oc=5",
-    "date": "Fri, 21 Aug 2026 08:11:00 GMT",
-    "summary": "",
-    "source": "이데일리TV"
    },
    {
     "title": "법무부, 외국인 계절근로 실태점검…603개 사업장서 663건 적발",
@@ -484,10 +477,10 @@
    },
    {
     "title": "여야, 법사위 회의에서 법무부 장관 불출석 놓고 공방",
-    "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9JVDJWd0xuR1NRa08xMUFINEs4czkxOWhUWmpOR0tURU1aNzV2TVQxSXlsTi1mUGhBSEU5NDFRdWR1RFdMNzZrRHZnZkczSkU?oc=5",
-    "date": "Fri, 21 Aug 2026 05:25:10 GMT",
+    "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1qd0VoZTRpWHh5T2VYZVFTWHFYajd4WDBKYmlib0tsWTk4N0I5S00yRUhZTDBDbEhlbE9WRUJZOHJJUUJlbzdSc1dsaGZZTktRMTh6SlUwX19GRklPaHBXUldSY19OMVpmRTdwaTdVT0RsOGt2WTVOetIBeEFVX3lxTE1qd0VoZTRpWHh5T2VYZVFTWHFYajd4WDBKYmlib0tsWTk4N0I5S00yRUhZTDBDbEhlbE9WRUJZOHJJUUJlbzdSc1dsaGZZTktRMTh6SlUwX19GRklPaHBXUldSY19OMVpmRTdwaTdVT0RsOGt2WTVOeg?oc=5",
+    "date": "Fri, 21 Aug 2026 05:19:50 GMT",
     "summary": "",
-    "source": "v.daum.net"
+    "source": "MBC 뉴스"
    },
    {
     "title": "여야, 법무부 장관 국회 불출석 놓고 공방",
@@ -525,9 +518,16 @@
     "source": "네이트"
    },
    {
-    "title": "업무보고하는 이진수 법무부 차관 [포토]",
-    "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5wUmhlQ1Z6TzhDV05PdU1aY01QT1M5X1RZWmJ0eW1jbnlMbTZtaXpYSllweC1tNlVBaFVaT3BpeGtMOEQ5Vkc3UHNyeEFYWDg5U3hz?oc=5",
-    "date": "Fri, 21 Aug 2026 03:33:00 GMT",
+    "title": "여야, 법사위 업무보고서 '법무부 장관 불출석' 놓고 공방",
+    "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1oTkprZFRtUGJJYm5JNTFYVVhkdUl1LXBMczY4emgtMkxOVDQxdmN2M3piVU5NTWdkUGpBbGxJN3JqWDNMdmVtVDRqVVhUMmd5RW0xZmh1RlZpTEU1MVJfWNIBYEFVX3lxTE1oTkprZFRtUGJJYm5JNTFYVVhkdUl1LXBMczY4emgtMkxOVDQxdmN2M3piVU5NTWdkUGpBbGxJN3JqWDNMdmVtVDRqVVhUMmd5RW0xZmh1RlZpTEU1MVJfWA?oc=5",
+    "date": "Fri, 21 Aug 2026 03:38:47 GMT",
+    "summary": "",
+    "source": "연합뉴스"
+   },
+   {
+    "title": "답변하는 이진수 법무부 차관",
+    "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE40ZmtENGh2YlZVT0NQeU9Bd3ZaNlUzMnRVbW9NTW9ycWlBSm1WQzBqYmdpWks5MEc3MnZZVlE3eHRkbWFKbEs1WGlqbG9abnd0MnpV?oc=5",
+    "date": "Fri, 21 Aug 2026 03:32:00 GMT",
     "summary": "",
     "source": "네이트"
    }
@@ -1198,23 +1198,9 @@
     "source": "세정일보"
    },
    {
-    "title": "심욱기 대전국세청장, 부가세 신고 현장 직접 챙긴다",
-    "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE11QUR4UGJfNVJIYmIyX0ZWaEZuUU51VmVfUVZ3c3JoNmdEUXdiMTFMY09MWkdrQkoyUU8zXy1vbjFUTEZQSUh3cWZWVkZGTWd6c1lYQzZ3c3VKMkx5REdHTFdFZEJrMUE?oc=5",
-    "date": "Thu, 23 Jul 2026 07:00:00 GMT",
-    "summary": "",
-    "source": "팍스경제TV"
-   },
-   {
-    "title": "양철호 광주국세청장, 부가세 신고·체납관리 직접 점검",
-    "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE1KbXlXSVJ5V3RUMU9Xb01UcXNMaHlqY2xPakVlQ2hScExTNEpYc3dUUG1aS2JuV0dYa3NOMU1xdlRaQmszdEE?oc=5",
-    "date": "Tue, 21 Jul 2026 07:00:00 GMT",
-    "summary": "",
-    "source": "v.daum.net"
-   },
-   {
     "title": "박종희 인천국세청장, 7월 부가세 신고센터 현장 방문",
     "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9tTWFzaFZoazc2NEZnUzV6ZWltQ1lOTkdqV1N3NklZbk5TcXQ3TGtrNUZJeERFQ21fZnZOTm5ta1NrMHBoNGItUzQ2RUFYQ19KelV4LU5mZDBMcHBQWWRIeGhYTQ?oc=5",
-    "date": "Tue, 21 Jul 2026 00:36:24 GMT",
+    "date": "Tue, 21 Jul 2026 07:00:00 GMT",
     "summary": "",
     "source": "조세금융신문"
    },
@@ -1233,11 +1219,25 @@
     "source": "서울신문"
    },
    {
-    "title": "쌤157, 개인사업자 대상 부가세 셀프 신고 서비스 개시",
-    "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1ZUHFzVXhPc3lENWFXa2VsU3ZFNUFpdHVNNmJtWTdKMGhFUFRkQUQyVEdBQk0zNjVsMXlMLThJby12MjhCM2tBZkJEUXQtdTBjSS1iUGYyVGRmcEtOLVNhal9Fc1U?oc=5",
+    "title": "쌤157, 부가세 신고 서비스 개시",
+    "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1DUkcxUHhVcGtLUTE4UGp3X0N2ZGwwNUIyZ1NWcmJMSkwwd2RzcC0zTjZYbHRLWU91allQU1RDQ3VuYnlCTmdfN0xxOTllNTlheUkzYlN0SEhlTW1F?oc=5",
     "date": "Wed, 15 Jul 2026 07:00:00 GMT",
     "summary": "",
-    "source": "서울경제TV"
+    "source": "뉴스핌"
+   },
+   {
+    "title": "이달 부가세 확정신고시 유의사항 3가지",
+    "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5WNDdZYUNMRkp0VTRSUFlRZmJLVzJtaHNBMWg3R05qOE1UcEphdk0yc092WVhCRk9oYnQ0azB2bm43SzZxZXB4MVVfUk9RazBVYWRrRFE4NXJUbnA0ZlBMbkpncnc?oc=5",
+    "date": "Tue, 14 Jul 2026 07:00:00 GMT",
+    "summary": "",
+    "source": "한국세정신문"
+   },
+   {
+    "title": "KB국민은행, 스타기업뱅킹서 '부가세 셀프신고' 서비스 개시",
+    "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE4wcDF5U1BuaXRlcW1pNmJ1WmhzMUJlX1d0dzZZQm10cEp0UnJQc0pXS19vRzBKLWlndXZncnh6Tmw1VjZULU1EdkJlZnpQUQ?oc=5",
+    "date": "Mon, 13 Jul 2026 07:00:00 GMT",
+    "summary": "",
+    "source": "전자신문"
    }
   ]
  }
