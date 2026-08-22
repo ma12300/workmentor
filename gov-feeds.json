@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-22T12:51:49.382Z",
+ "updatedAt": "2026-08-22T13:36:59.031Z",
  "groups": {
   "tax": [
    {
@@ -222,25 +222,11 @@
     "source": "뉴스파노라마"
    },
    {
-    "title": "수원시청소년청년재단, 고용노동부 ‘일·생활 균형 캠페인’ 재인증 획득",
-    "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1VcV9IOUFvcE4xWFB6eUVQcTR4UndOMnJUTnZKN1p3TkRJd09seUQtdER5X1I0RklzdEkyY3RSOTJSVE1nNC1oTFowQkdFV3NURnFjbHhOWmdCdFU?oc=5",
-    "date": "Fri, 21 Aug 2026 08:30:18 GMT",
-    "summary": "",
-    "source": "비전21뉴스"
-   },
-   {
     "title": "대전권 포괄임금 수당체불 적발률 최고…IT·R&D 다시 집중감독",
     "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE4xampha184S0xWWEFmcVBjdDMwOVk5SV8taW5DUXRJT0lsYUZ6MlFiWTF0dUVtUGFhcmp2anp1czFKMjdVc1h6UnlwMzM?oc=5",
     "date": "Fri, 21 Aug 2026 07:29:25 GMT",
     "summary": "",
     "source": "대전인터넷신문"
-   },
-   {
-    "title": "‘K노동복지회의소’ 첫발…노무제공자 퇴직공제·복지·권익보호 총괄한다",
-    "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE0wVzNjU1pTX0RQVFRvSkNrUFpuaFY0alZ1a2FmT3RwMFdvZjExV2RXNEd5eFN4RVBqbG05YWd6YWhjYmdfZ0NWN2RyWUxDdktGMDM3OE9xLXVRWmRBSU1JdXNHd0w?oc=5",
-    "date": "Fri, 21 Aug 2026 05:50:00 GMT",
-    "summary": "",
-    "source": "한겨레"
    },
    {
     "title": "고용노동부, 대전·청주 지식서비스업체 대상 ‘포괄임금 오남용 5차 감독’ 착수",
@@ -348,17 +334,38 @@
     "source": "전국매일신문"
    },
    {
-    "title": "대구 수성구, 고용노동부 '지역생태계 활성화 사업' 선정",
-    "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE13TGVQZURDemFGenFzSFhua0tjUFdTeW04SG1HaGlLYmgxeUFReXFBeWVQQUpGNFFieGQxYzFhN3RNMkVlS2h1ekRJRWszT0tXaWRmSnJuYWMzZW9JNUhtYVQwQ1hMZw?oc=5",
-    "date": "Thu, 20 Aug 2026 21:51:46 GMT",
+    "title": "고용노동부, 30년 만에 고용센터 개편 … 실업인정은 AI가, 사람은 상담에 집중",
+    "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE00bUxaeWlhdmMzQjlmZXF6cFJhQ1QwVWhZd01JMTl6MjVnalN1OTY5RUwwLWdVbHBuLUpGWXNlcFB1TGdnVkdUeXcwenczVmFPVU9JSlB2d1J1WDZPazItamhwNXlnRXVHc19nZA?oc=5",
+    "date": "Thu, 20 Aug 2026 15:00:22 GMT",
     "summary": "",
-    "source": "포커스데일리"
+    "source": "워크투데이"
+   },
+   {
+    "title": "인천 연수구, 고용노동부 2026 전국 일자리대상 우수상 수상 > 뉴스",
+    "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBoRmltX3JSS2Y3dERmNWRlcUpPRHgxTHQ4UlhLbXR5S1pONE50UkZFMENKZzZ2N1FDUzh3cWdfVC1EWk1qZDFyVnlFa0J5T3J0T2RGRHdnTEthZkM3TlF1MEg2cjdpbkFUVklVVUlTc2o?oc=5",
+    "date": "Thu, 20 Aug 2026 13:45:00 GMT",
+    "summary": "",
+    "source": "더코리아"
+   },
+   {
+    "title": "고용노동부, “30년 만의 102개 고용센터 혁신” 전 국민 평생 일자리 토털케어 ｢국가 고용서비스 혁신방안｣ 발표",
+    "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFA4TElTR2VjNTYyaTlJYm9sZ1FIa0h0MnQ0NDNwUTRqX0swT1RzeFFfck55dVVaZzRoT0RZMVlyN2lQX1NvLWlxcWVidjhDQzV3amhrLUY3WDdGbjA1REZR?oc=5",
+    "date": "Thu, 20 Aug 2026 13:30:06 GMT",
+    "summary": "",
+    "source": "한국사회적경제신문"
    }
   ],
   "law": [
    {
+    "title": "경상국립대 법학부, 공정거래위원회 경연대회 입상",
+    "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9kSzZaOWtuVkxIZlVBRkI2TzNsSWZSS0JrQWVlVVo3UnNDVHhtSzgzSDVDSXctMkxCcjNlNmpkY1Q2NHVld3dQMkxBUzJvVUJkOFlVN3VSTGxsX1UtZEJXakdQZ0ZKRXQyVjNJ?oc=5",
+    "date": "Sat, 22 Aug 2026 13:25:10 GMT",
+    "summary": "",
+    "source": "경남일보"
+   },
+   {
     "title": "'친일 논란' 하영, SBS '승산' 하차 압박 →증조부 2700평 땅 \"삼대가 떵떵…국가 환수해야\"[MD이슈]",
-    "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBYV2RRV1V0d0xyRmF3MV94WFZxekU4NE5VOUZKY29ScUVzQ1BSZU14QWZBYzNvYUU3NXVCbS1FZFZEUWdHeE4xZmtrN19xVF9vMHQxUGxrTFBZQXV4S2RnYWo0ZnBnZw?oc=5",
+    "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE4wcXhlYUFTdjdpQnhPemZGRXllMDhCbHV2REstYUhFZExZRGdEOUVCWGVzdVlYdUVZaE1KVDM2Umo3cW05SnBaWTM0Z2FMX1ZjeXl4UkFTYkxGTDFZQnVhYw?oc=5",
     "date": "Sat, 22 Aug 2026 12:00:07 GMT",
     "summary": "",
     "source": "마이데일리"
@@ -509,13 +516,6 @@
     "date": "Fri, 21 Aug 2026 04:32:49 GMT",
     "summary": "",
     "source": "뉴데일리"
-   },
-   {
-    "title": "여야, 법사위 업무보고서 '법무부 장관 불출석' 놓고 공방",
-    "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9KNjRybTRLT0NQT1RHZVlOT3Z3MTdsQVlyY1lRWU1XeTBJLVIzaEVoTGg1QkNiNUtnSEU5d0NKS3hMcHVCZnYyeVNfNDVCa21TQzVTTA?oc=5",
-    "date": "Fri, 21 Aug 2026 03:40:52 GMT",
-    "summary": "",
-    "source": "v.daum.net"
    },
    {
     "title": "여야, 법사위 업무보고서 '법무부 장관 불출석' 놓고 공방",
@@ -718,13 +718,6 @@
     "source": "시사저널"
    },
    {
-    "title": "전북, 전국 유일 지방정부 연계형 '모두의 창업' 가동",
-    "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE82RUlhdHRkc01qSEpFbzJrTnRIMi05eFdSYXhpdDFWQWxQNFNDU2gyelBheDFLckw4OGlFeElGcHMtYWl3VzFNYjhhUF9uSE5TalJuYXAxNktMLXpYSEhuUlVORTJPTUwxTHZwYg?oc=5",
-    "date": "Fri, 21 Aug 2026 22:02:00 GMT",
-    "summary": "",
-    "source": "localm.kr"
-   },
-   {
     "title": "손한국 중기청장, 경남 혁신창업가 \"도전기회 상승했다\"",
     "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9tUXl4M2xfdjR2MFl2OHhrTE9qSnYtaXFkd2o2RVZxemdVNEtUOHJwcEhRc0JiaEZQSzZQUVl5R2ltWGJTWWI4djRYX3FONzBnVXlLY1NmSlFLQS1jRW12ckk2UmRQZDBwSTBFMw?oc=5",
     "date": "Fri, 21 Aug 2026 12:22:48 GMT",
@@ -884,6 +877,13 @@
     "date": "Thu, 20 Aug 2026 12:02:00 GMT",
     "summary": "",
     "source": "문화매일신문"
+   },
+   {
+    "title": "중소벤처기업부, '지역성장펀드' 제1호 펀드, 전북에서 1,000억 원 규모로 출범",
+    "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE4tSmNKVDJ2SWpHY2ZWTmdLS2tyekVfbmVYZkhabnFkMGVhd3FfNy1ReUEyeGI2MWFxMjB5NF9ZV1pGZ2xORlNwMXd3TlgxeE15YUxRTGZVS3NDdGk2bkNOakQzMUFPQ00tUGJr0gFvQVVfeXFMTlBqYUZuX3VqaWFSMUNtQkl2elcxNEJpX0p0dWFPclRnWENiUHNBemdSUHF1QW5PaEl4azQ4M2tQdURlLVZpRGw4NHJvdnY2Y1NMOWE1cG9sejY4Smp3NHp4TmRqLUlLNVUyQ01vazc0?oc=5",
+    "date": "Thu, 20 Aug 2026 12:00:50 GMT",
+    "summary": "",
+    "source": "장애인문화복지신문"
    }
   ],
   "money": [
@@ -1121,6 +1121,13 @@
     "source": "조세금융신문"
    },
    {
+    "title": "오상훈 부산지방국세청장, 부가세 신고 현장 찾아 직원 격려",
+    "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBhVzNXc1pOLWhWc3o5MThBU0hTZzVMOVpsQk5OX1lKcVpMcU9zTWp6THpKemhmejl1UmV5bmZhY0VnUjk4MnpsWG9kVEV1X2c0eGZfWktsN1NFSjBiaVlyREJWaG8?oc=5",
+    "date": "Tue, 28 Jul 2026 07:00:00 GMT",
+    "summary": "",
+    "source": "한국세정신문"
+   },
+   {
     "title": "오상훈 부산지방국세청장, 부가가치세 신고 현장 방문",
     "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE82aDNhV1FkT0dSd3JxNEhHeEZDdzlUZXhFV0lRcV9mVXlFWGdQcEVrbVBGdEVWaGNPQTFSVkVNTUszd2xJNmlkT2VTcFBJQTRMcmFkTXF2MkNKREc1bHBycmh4dUtfWV9RUUE?oc=5",
     "date": "Tue, 28 Jul 2026 07:00:00 GMT",
@@ -1177,18 +1184,18 @@
     "source": "intn.co.kr"
    },
    {
+    "title": "박종희 인천청장, 부가세 신고 현장점검 \"세정지원 세심하게\"",
+    "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5hTlkxUHdZOE1uX3MzcXdSZHBnelB4QUtBWVp5dlNOOXMxNjRHRVNWSC1RVnd2c0diUWV1VkRWNG9wSVJlRDdUSHhvSU1KWWljeU9Jb0JYZlZNQ3d3Rzg0akIwSWQ?oc=5",
+    "date": "Tue, 21 Jul 2026 07:00:00 GMT",
+    "summary": "",
+    "source": "한국세정신문"
+   },
+   {
     "title": "박종희 인천국세청장, 7월 부가세 신고센터 현장 방문",
     "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9tTWFzaFZoazc2NEZnUzV6ZWltQ1lOTkdqV1N3NklZbk5TcXQ3TGtrNUZJeERFQ21fZnZOTm5ta1NrMHBoNGItUzQ2RUFYQ19KelV4LU5mZDBMcHBQWWRIeGhYTQ?oc=5",
     "date": "Tue, 21 Jul 2026 07:00:00 GMT",
     "summary": "",
     "source": "조세금융신문"
-   },
-   {
-    "title": "양철호 광주국세청장, 부가세 신고·체납관리 직접 점검",
-    "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5kQW1rZFpGUkkzYnVKOUxNTXlKWS1FaC1GcUpXZklnSUJVR1VyY25EejFid3dVQ0VGemZQYk0zaUJIN1BMMXNfUlVrUXBaaV91X29pTzZ0REl2N2w0VmRoYw?oc=5",
-    "date": "Tue, 21 Jul 2026 07:00:00 GMT",
-    "summary": "",
-    "source": "아시아경제"
    },
    {
     "title": "개인·법인사업자 27일까지 부가세 신고·납부해야",
@@ -1231,13 +1238,6 @@
     "date": "Wed, 15 Jul 2026 07:00:00 GMT",
     "summary": "",
     "source": "뉴스핌"
-   },
-   {
-    "title": "이달 부가세 확정신고시 유의사항 3가지",
-    "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5WNDdZYUNMRkp0VTRSUFlRZmJLVzJtaHNBMWg3R05qOE1UcEphdk0yc092WVhCRk9oYnQ0azB2bm43SzZxZXB4MVVfUk9RazBVYWRrRFE4NXJUbnA0ZlBMbkpncnc?oc=5",
-    "date": "Tue, 14 Jul 2026 07:00:00 GMT",
-    "summary": "",
-    "source": "한국세정신문"
    }
   ]
  }
