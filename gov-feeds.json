@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-22T14:52:03.978Z",
+ "updatedAt": "2026-08-22T15:27:29.047Z",
  "groups": {
   "tax": [
    {
@@ -15,13 +15,6 @@
     "date": "Fri, 21 Aug 2026 21:00:13 GMT",
     "summary": "",
     "source": "v.daum.net"
-   },
-   {
-    "title": "국세청은 \"기업, 가계 및 개인 사업가를 위한 지원\"이라는 제목의 라이브 스트리밍 시리즈를 시작합니다.",
-    "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPb3gwampmbFJORDRuY1Q4YXpOR25uRkdsNFItT2Q2Y2JZa3VhT2JnMzd5bUpWZ1dsNjI3NWthZjh2ZjZQLTE5ZDJfc3NXa1U0cjRuNFJfeEMzZVJfUTV0X3Rxb1VrMTV3NDFkZ3pqLUYxREF6dW9lb3oya2tHcjR1b2dMWkdxbnhKVXA4X05uVW1Ec3pQRXVLOGk0cUhpaktiblNvaUhjY2hwcWNpWEI3YlhB?oc=5",
-    "date": "Fri, 21 Aug 2026 17:40:02 GMT",
-    "summary": "",
-    "source": "Vietnam.vn"
    },
    {
     "title": "국세청 조사4국, 무신사 특별세무조사 - 조선비즈",
@@ -50,6 +43,13 @@
     "date": "Fri, 21 Aug 2026 08:10:48 GMT",
     "summary": "",
     "source": "디트NEWS24"
+   },
+   {
+    "title": "대전국세청, 부동산·주식 불공정 탈세 정조준…고액 체납자 추적 강화",
+    "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9mRzlhQ0FQWEtoQXNYeE1rMEItVWgza1gxRzI5SWtpSUhuWkY3QmtVdnhfZzRmMjV4QXY5eTVvQS1iVXhtZ3dUZlJyQ1Y4QUFneXZ2LTc2LVkwaFh4SWZab2VSNVQtT292T3NB?oc=5",
+    "date": "Fri, 21 Aug 2026 06:57:40 GMT",
+    "summary": "",
+    "source": "충청시사신문"
    },
    {
     "title": "국세청 조사4국, 무신사 특별세무조사…대표 개인회사 '라펠' 거래 들여다보나",
@@ -215,6 +215,13 @@
     "source": "대한민국 정책브리핑"
    },
    {
+    "title": "서울 강동구, ‘2026 전국 지방자치단체 일자리대상’에서 고용노동부 장관상 수상",
+    "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE83dlhHUHYwd3R1TWQxOTdUdUxNRWI4WHpiWldFMURzMnBlaURlNHdaMWZrTVJZdUNOekllamYzYm5leXJzSkRSMVZKT2pHVFFNT2N4bmxrZkx0QQ?oc=5",
+    "date": "Fri, 21 Aug 2026 12:49:53 GMT",
+    "summary": "",
+    "source": "여성종합뉴스"
+   },
+   {
     "title": "수원시청소년청년재단, 고용노동부 ‘일·생활 균형 캠페인’ 재인증 획득",
     "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9BbkIzM2FVMEdNSHhLZnI4eXc5T09vNy13LUZyZ3lZakhWLXV1NWNzOUJmU0hTY3ZkSnJ3Z0UwY1l2d0pleVhXSXJ3MHJvanVxamNWTmU0Zm9MNmo4ZFJ5VHU0dnp1dVVQc0FEck5xSQ?oc=5",
     "date": "Fri, 21 Aug 2026 11:59:13 GMT",
@@ -334,13 +341,6 @@
     "source": "전국매일신문"
    },
    {
-    "title": "대구 수성구, 고용노동부 '지역생태계 활성화 사업' 선정",
-    "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE13TGVQZURDemFGenFzSFhua0tjUFdTeW04SG1HaGlLYmgxeUFReXFBeWVQQUpGNFFieGQxYzFhN3RNMkVlS2h1ekRJRWszT0tXaWRmSnJuYWMzZW9JNUhtYVQwQ1hMZw?oc=5",
-    "date": "Thu, 20 Aug 2026 21:51:46 GMT",
-    "summary": "",
-    "source": "포커스데일리"
-   },
-   {
     "title": "고용노동부, 30년 만에 고용센터 개편 … 실업인정은 AI가, 사람은 상담에 집중",
     "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE00bUxaeWlhdmMzQjlmZXF6cFJhQ1QwVWhZd01JMTl6MjVnalN1OTY5RUwwLWdVbHBuLUpGWXNlcFB1TGdnVkdUeXcwenczVmFPVU9JSlB2d1J1WDZPazItamhwNXlnRXVHc19nZA?oc=5",
     "date": "Thu, 20 Aug 2026 15:00:22 GMT",
@@ -357,11 +357,11 @@
   ],
   "law": [
    {
-    "title": "경상국립대 법학부, 공정거래위원회 경연대회 입상",
-    "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9kSzZaOWtuVkxIZlVBRkI2TzNsSWZSS0JrQWVlVVo3UnNDVHhtSzgzSDVDSXctMkxCcjNlNmpkY1Q2NHVld3dQMkxBUzJvVUJkOFlVN3VSTGxsX1UtZEJXakdQZ0ZKRXQyVjNJ?oc=5",
-    "date": "Sat, 22 Aug 2026 13:25:10 GMT",
+    "title": "법무부, 외국인 계절근로자 인권·근로보호를 위한 실태점검 결과 발표",
+    "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1DRmtPb0JRU1lNcl9LZTNyTHhOMzRMSThfS0hlZm56WF9zQS15TjE4eWNIczZnaTF2Z1FIVnFyVFc2RTVVMFYyM2RfNlBLN0hLTm9pWjI3U0VGenltQ0RPSlFrdkhObWVtUDJj?oc=5",
+    "date": "Sat, 22 Aug 2026 14:47:03 GMT",
     "summary": "",
-    "source": "경남일보"
+    "source": "뉴스데일리"
    },
    {
     "title": "'친일 논란' 하영, SBS '승산' 하차 압박 →증조부 2700평 땅 \"삼대가 떵떵…국가 환수해야\"[MD이슈]",
@@ -378,18 +378,18 @@
     "source": "서울경제"
    },
    {
-    "title": "법무부, 외국인 계절근로자 인권침해 실태점검 결과 총 663건 지적…24개 시·군·구 603개 사업장",
-    "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1HcmNTLU9vTERPeklQMlpTRkQ5NVpoNWExYVBZVjN4dDBOSWRQZUhzbkZlSzVYT09oaVNSNUdzd1FDZnlIN216T3JMTUVwS3dQTW1OTFVtNHhZcVBJRnlXZGFBZkM2NWZtVmpkQ3BOcVc5SEFRMU8zV29n?oc=5",
-    "date": "Sat, 22 Aug 2026 03:41:55 GMT",
-    "summary": "",
-    "source": "로이슈"
-   },
-   {
     "title": "공정위, 가맹사업법 시행령 재검토 시사… 가맹점주 협상력 강화되나",
     "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBDNDQ1alZlRWEyaEItV0k2MTBTeFdlSkh4M3A4TjFDYnFFeEIwalhMRHJoVHhXVFJONVBReFBXZEFhNG5fZGc3SjBHQzlEOGpiY0JZT0VQdDVDNWluczh5bDRMSXVRaks0cFBvZQ?oc=5",
     "date": "Sat, 22 Aug 2026 03:30:00 GMT",
     "summary": "",
     "source": "이코노미톡뉴스"
+   },
+   {
+    "title": "경상국립대 법학부, 공정거래위원회 경연대회 입상",
+    "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9kSzZaOWtuVkxIZlVBRkI2TzNsSWZSS0JrQWVlVVo3UnNDVHhtSzgzSDVDSXctMkxCcjNlNmpkY1Q2NHVld3dQMkxBUzJvVUJkOFlVN3VSTGxsX1UtZEJXakdQZ0ZKRXQyVjNJ?oc=5",
+    "date": "Sat, 22 Aug 2026 02:16:24 GMT",
+    "summary": "",
+    "source": "경남일보"
    },
    {
     "title": "박은정 \"하영 증조부, 친일재산으로 대지주 축적\"…법무부에 환수 촉구",
@@ -470,13 +470,6 @@
    },
    {
     "title": "법무부, 외국인 계절근로자 인권침해 위반사항 663건 적발",
-    "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1yR0pfS1dlZ3Q4TW9pMGpuOEFXeXIxTEplNmdjSl9nclFtcEhzSkNjZkpRVVFyTktBMnhnLXVtSTlvRC1YamZaWVVPcDdzZmdsdUVmSw?oc=5",
-    "date": "Fri, 21 Aug 2026 07:52:51 GMT",
-    "summary": "",
-    "source": "v.daum.net"
-   },
-   {
-    "title": "법무부, 외국인 계절근로자 인권침해 위반사항 663건 적발",
     "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1GX3NDT01wX1YyMU5kV0pWaWhOTGFITkNYMWFEN2pfYW5jRF9ZeHBuZE1IRmJUbnpmRG5JdlBpZDZMM3ZvQTlzenRHcGFkNkRLdy1uUWtZR2hpSVnSAWBBVV95cUxQSGpudmlBRlpkN2ttMXZFTWVYRlA4am95cW5kV3ZfT2hqbko5VE1HX0g3V0RGX1NkUV93dlpWaXJibko1Vkt4XzVpVjFBdXdlcEdSQUsxNFN6TDhzR2pXR2U?oc=5",
     "date": "Fri, 21 Aug 2026 07:51:34 GMT",
     "summary": "",
@@ -497,11 +490,11 @@
     "source": "SPN 서울평양뉴스"
    },
    {
-    "title": "검찰개혁하면 끝? 법무부가 챙겨야 할 일들 [세상에 이런 법이]",
-    "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE0zV3ZaSVVvSXFnUHp6b1FaQWpEUjFDQm9RZEpCekNLLW41aXNhQ1FldkhhSnlGQWhNV0xFN2N6TThwbi1hY09hNzVLbm1PUU14Rzh2a3FUTVBsQkVQV2FtYlFieWR4bV9mUVE?oc=5",
-    "date": "Fri, 21 Aug 2026 05:32:48 GMT",
+    "title": "여야, 법사위 업무보고서 '법무부 장관 불출석' 놓고 공방... 대법원장 출석 의결도",
+    "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE0tTWE1cDFORC1ORWw0TnhuWTF2VmlaUzdCWGExR2dRMWd4YUtGQWkwbm9IeWdjQUtwN3VPMkZBRmhaVGR6RVlpak00eVRPLWp3QURkQTRzNndzSkZ1VnQyYVJZdC03UV9ac2tBbVp3OUR0UGplNjlvaUl3?oc=5",
+    "date": "Fri, 21 Aug 2026 06:25:26 GMT",
     "summary": "",
-    "source": "시사IN"
+    "source": "로이슈"
    },
    {
     "title": "여야, 법사위 회의에서 법무부 장관 불출석 놓고 공방",
@@ -530,6 +523,13 @@
     "date": "Fri, 21 Aug 2026 04:32:49 GMT",
     "summary": "",
     "source": "뉴데일리"
+   },
+   {
+    "title": "여야, 법사위 업무보고서 '법무부 장관 불출석' 놓고 공방",
+    "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1oTkprZFRtUGJJYm5JNTFYVVhkdUl1LXBMczY4emgtMkxOVDQxdmN2M3piVU5NTWdkUGpBbGxJN3JqWDNMdmVtVDRqVVhUMmd5RW0xZmh1RlZpTEU1MVJfWNIBYEFVX3lxTE1oTkprZFRtUGJJYm5JNTFYVVhkdUl1LXBMczY4emgtMkxOVDQxdmN2M3piVU5NTWdkUGpBbGxJN3JqWDNMdmVtVDRqVVhUMmd5RW0xZmh1RlZpTEU1MVJfWA?oc=5",
+    "date": "Fri, 21 Aug 2026 03:38:47 GMT",
+    "summary": "",
+    "source": "연합뉴스"
    }
   ],
   "fund": [
@@ -574,6 +574,13 @@
     "date": "Fri, 21 Aug 2026 13:25:48 GMT",
     "summary": "",
     "source": "뉴시스"
+   },
+   {
+    "title": "금융위원회, 100% 신종피싱 사기입니다",
+    "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9XdGVvX3Y0N2xHTTVtVnY5X3hING5ibkotOGZfUmZJMjhtTHVETFJNcTBwU0dFdk1vUWM3UWFUbWNCQl94a3lhWk1icHJSbUZCa1ZMYXowcnZXS3hhT0tLeEY1S2NJOXdONXo5N2p3?oc=5",
+    "date": "Fri, 21 Aug 2026 10:30:54 GMT",
+    "summary": "",
+    "source": "시민행정신문"
    },
    {
     "title": "금융위원회, 100% 신종피싱 사기입니다",
@@ -700,13 +707,6 @@
     "date": "Thu, 20 Aug 2026 11:22:00 GMT",
     "summary": "",
     "source": "newszoom.kr"
-   },
-   {
-    "title": "금융위원회, 정책대출 결혼페널티 해소",
-    "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE52LXpGbC1yanRUVzBHUW9pZ2hKTF9uNlU1ZzZmWUZqLUZuNWNlNmFaUG9JRU9ZR2dDaXdBSkJoWno2LTJobUlaUGJUdlA?oc=5",
-    "date": "Thu, 20 Aug 2026 11:22:00 GMT",
-    "summary": "",
-    "source": "시사일보"
    }
   ],
   "biz": [
@@ -916,11 +916,11 @@
     "source": "동북일보"
    },
    {
-    "title": "강북구, 혁신성장 청년 예비 소상공인 키운다… 업체당 최대 2,000만원 지원",
-    "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1MSlRVVDJSNXQ4blQ5ZlZHdmJIcVVSNEVaZmEzZ0ttUko4ZUF1UUxHMG8zZDAtVU84RzBXRWQxZ3JkS2dnc3NTUDVLSlZtcWJ0ZkxVNHoyWXM1N3dRNGtGRdIBWEFVX3lxTE5id1pueHZaQVRoN19PQWJZX3lMS0dwR1pMSGNQVjJRSi1QOFltMUc4bHF6R1NBZ0p1UVJWZnRoWEtNWVhjV2Y5aWx1UGtZNmVaWl9MRmtJLUg?oc=5",
+    "title": "강북구, 혁신성장 청년 예비 소상공인 키운다… 업체당 최대 2000만원 지원",
+    "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE04amotMEpOaDFBMkFrLUFUalo2OXNNUTVQSGsyZkJKM2EteV9GM3ViMGxRWjVvejdQaDN4bzBTRHVZTkl2eUlKQ3gyVmJ2dlJyWjVaaldRcW9veHktUXVTcklvUko?oc=5",
     "date": "Wed, 22 Jul 2026 07:00:00 GMT",
     "summary": "",
-    "source": "로컬세계"
+    "source": "매일일보"
    },
    {
     "title": "[연재⑬] 소상공인 10명 중 9명이 놓치는 '정책 자금'의 비밀",
@@ -975,13 +975,6 @@
     "title": "중소벤처기업부, 창업지원 200만원 지급…5천명 선발... 대상자 지금 확인",
     "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFA2enlFNTV2UE5Td19FQzBSVXNObFRPelJvamIwMWhSLUZhMmRKaThhamk0bmQxT1dvUmtOd2xtdTJwdEFLR2k5dlJZNlVmRFZYazVSSk5fandya3U1MExTVF9oNmlnc1XSAWtBVV95cUxOb0FhaFVUSnZhRHZfeWVPM1BLYURId3Vlcnh3VGJUN3U1czk2T181eUhEaUZxT3oyaGtmSjVoZmVmNHBGdC1POER1RUR2RmpPYnF3aEtqdUtrWDB1VU9GbWpDd1RYMFVkSEsxOA?oc=5",
     "date": "Sat, 23 May 2026 07:00:00 GMT",
-    "summary": "",
-    "source": "창원특례신문"
-   },
-   {
-    "title": "소상공인 지원금 최대 3억 원…6월 8일 전 신청 안 하면 제외",
-    "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5Fb29OMkVhUVAyaG1IdWt2SF9TSHp0UVNlRndMQlJveEc0NGZGb1d6aTEzRTlkSG5tSGNCdzdYSXE1RnByMF9oMkk3WktjTERNSU1mbnhtVnc5MTdpV2RmeS1pMG1McDjSAWtBVV95cUxNbWxzMnEzdHQ4NlVYenhZVWVwYy1FTWxkS2NiMUpnU2F4Wlg2bXRndlBQYjV0XzZQUm9lLTlneWhFVlVFVmJBcXA3bE5yZUVoMklsc3lES3pyWnBQUURVbmk4RGRHSjFXNHZ4QQ?oc=5",
-    "date": "Tue, 19 May 2026 07:00:00 GMT",
     "summary": "",
     "source": "창원특례신문"
    },
@@ -1061,6 +1054,13 @@
     "date": "Thu, 02 Apr 2026 23:36:09 GMT",
     "summary": "",
     "source": "브런치"
+   },
+   {
+    "title": "[단독] ‘모두의 창업’ 올해 2~3번 더… 전쟁 추경에 1550억 챙겼다",
+    "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQa0xLZE43bW1PbzVjMWN6b05EQlFvcndjbGx0Wm5IZXgtVjRmdS1JSnE5SG9EUUVjaWNCdXhJSHJ0eko3Q2hqWk5odUpzUkJVN1ExU3lVLUszMGk3eHNyTTVpZzhYczlVZC1lVlpacWpLLVp5TDZ2RXNSczhxb2NYRDZlNm9EWHpt?oc=5",
+    "date": "Tue, 31 Mar 2026 07:00:00 GMT",
+    "summary": "",
+    "source": "조선일보"
    }
   ],
   "guide": [
