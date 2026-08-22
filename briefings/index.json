@@ -2,6 +2,15 @@
  {
   "date": "2026-08-22",
   "kind": "market",
+  "edition": "자정판",
+  "title": "8월 22일 (토) 투자 브리핑 · 자정판",
+  "file": "briefings/2026-08-22-market-자정판.pdf",
+  "top": "다우 1% 올랐는데 美반도체 주간 5%↓…월요일 ‘173만원 하이닉스’ 버틸까 - 녹색경제신문",
+  "count": 7
+ },
+ {
+  "date": "2026-08-22",
+  "kind": "market",
   "edition": "저녁판",
   "title": "8월 22일 (토) 투자 브리핑 · 저녁판",
   "file": "briefings/2026-08-22-market-저녁판.pdf",
