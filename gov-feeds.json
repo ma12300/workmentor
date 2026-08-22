@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-22T21:27:54.279Z",
+ "updatedAt": "2026-08-22T21:48:45.020Z",
  "groups": {
   "tax": [
    {
@@ -222,6 +222,13 @@
     "source": "전남인터넷신문"
    },
    {
+    "title": "[고용노동부] 폴리텍 디지털·저탄소 인력 양성 속도 낸다",
+    "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxOdGpDNHkxMlZTd1ZLZEd0SXhMQTdiamozbEtOakRlOU15bmhObS0ya1RRRW1HOF9aWUJQVXBwSUZCejBtQ1hrT01WZnJLXzJKSS1UaXpjOW51Q0xSTzNzeEoxVjVEdFBnMGtGRlFrRm5WTTZYSWZjRWd0Tl9sd3ZsOFFTNGFPVWY4d0I1TkN3RnZzTHgtMm5ITUdQZ2YwVW5WY001RFBBQ1dsVTI1c05FcmlkanFHcFpUNURNSVQ0QmE4NzhLSWliMFBwczZaVm5wbVpHR3YwS05ibnhsbTdCLUlGQWVpSnc?oc=5",
+    "date": "Fri, 21 Aug 2026 22:24:39 GMT",
+    "summary": "",
+    "source": "국가기후위기대응위원회"
+   },
+   {
     "title": "(설명) 머니투데이, \"일도 집도 다 잃을라...할 말을 잃다\" 기사 관련",
     "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1oaXlMdmlTREJSdTBZODJSQlBKQlpDaHpxcGltRHNOTjlfN09fazJFTTdxblliellXUHdxVF9INmVvSGFvWXowV2NEZjM3bTJCUEFLUU9GVElSRzFvQ2k2WHFIbkVkVmNXckdkeVJpZw?oc=5",
     "date": "Fri, 21 Aug 2026 21:52:10 GMT",
@@ -311,13 +318,6 @@
     "date": "Fri, 21 Aug 2026 00:54:04 GMT",
     "summary": "",
     "source": "LG헬로비전"
-   },
-   {
-    "title": "포항시, 지방자치단체 일자리대상 장관상…고용정책 성과 인정",
-    "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE93b0x3bFExR3J3X2VTNHRLMXFQSHpqVjlpeXlBcEZaOHBfWnJtXy1MQ0FtYURPOG5YZkZtSzBteWZEZTJYdGFpVHVBTlpNZHZsSTA0czFEOWpuMVU1QjQ1Wg?oc=5",
-    "date": "Fri, 21 Aug 2026 00:34:48 GMT",
-    "summary": "",
-    "source": "메트로신문"
    },
    {
     "title": "관악구, ‘지자체 일자리대상’ 2개 부문서 노동부 장관상",
@@ -1121,13 +1121,6 @@
     "source": "조세금융신문"
    },
    {
-    "title": "오상훈 부산지방국세청장, 부가세 신고 현장 찾아 직원 격려",
-    "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBhVzNXc1pOLWhWc3o5MThBU0hTZzVMOVpsQk5OX1lKcVpMcU9zTWp6THpKemhmejl1UmV5bmZhY0VnUjk4MnpsWG9kVEV1X2c0eGZfWktsN1NFSjBiaVlyREJWaG8?oc=5",
-    "date": "Tue, 28 Jul 2026 07:00:00 GMT",
-    "summary": "",
-    "source": "한국세정신문"
-   },
-   {
     "title": "오상훈 부산지방국세청장, 부가가치세 신고 현장 방문",
     "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE82aDNhV1FkT0dSd3JxNEhHeEZDdzlUZXhFV0lRcV9mVXlFWGdQcEVrbVBGdEVWaGNPQTFSVkVNTUszd2xJNmlkT2VTcFBJQTRMcmFkTXF2MkNKREc1bHBycmh4dUtfWV9RUUE?oc=5",
     "date": "Tue, 28 Jul 2026 07:00:00 GMT",
@@ -1184,20 +1177,6 @@
     "source": "팍스경제TV"
    },
    {
-    "title": "부가세 신고 27일 마감…전문가 \"공제 누락·가산세 주의\"",
-    "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1zM0xlXzFiMkphb2gyT01FejlVMTREM01oU21kREVqb0JQZU5rdHRRN09vdTVDYmZBbVpMbzlrclY0MTZ4NFFOaS1jek95SmNtTFZCMFlB?oc=5",
-    "date": "Wed, 22 Jul 2026 07:00:00 GMT",
-    "summary": "",
-    "source": "뉴스1"
-   },
-   {
-    "title": "김지훈 중부청장, ’26년 1기 확정 부가세 신고현장과 체납관리단 방문·현장소통",
-    "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5rNk9QYWtMd2QwQ0xxVUotNTQteFB6ZFJNODdkWWI5dWlrYlJUcG1TLUFkQWt2NkZNemIyLTRBWUJEazFjUUIxMloyVnZ1NnVRMlNzU2NIbkZJajVaSDBTNWlwc0Qtdm16Mnc?oc=5",
-    "date": "Wed, 22 Jul 2026 02:14:51 GMT",
-    "summary": "",
-    "source": "intn.co.kr"
-   },
-   {
     "title": "박종희 인천청장, 부가세 신고 현장점검 \"세정지원 세심하게\"",
     "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5hTlkxUHdZOE1uX3MzcXdSZHBnelB4QUtBWVp5dlNOOXMxNjRHRVNWSC1RVnd2c0diUWV1VkRWNG9wSVJlRDdUSHhvSU1KWWljeU9Jb0JYZlZNQ3d3Rzg0akIwSWQ?oc=5",
     "date": "Tue, 21 Jul 2026 07:00:00 GMT",
@@ -1210,13 +1189,6 @@
     "date": "Tue, 21 Jul 2026 07:00:00 GMT",
     "summary": "",
     "source": "조세금융신문"
-   },
-   {
-    "title": "양철호 광주국세청장, 부가세 신고·체납관리 직접 점검",
-    "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5kQW1rZFpGUkkzYnVKOUxNTXlKWS1FaC1GcUpXZklnSUJVR1VyY25EejFid3dVQ0VGemZQYk0zaUJIN1BMMXNfUlVrUXBaaV91X29pTzZ0REl2N2w0VmRoYw?oc=5",
-    "date": "Tue, 21 Jul 2026 07:00:00 GMT",
-    "summary": "",
-    "source": "아시아경제"
    },
    {
     "title": "개인·법인사업자 27일까지 부가세 신고·납부해야",
@@ -1238,6 +1210,34 @@
     "date": "Mon, 20 Jul 2026 07:00:00 GMT",
     "summary": "",
     "source": "서울신문"
+   },
+   {
+    "title": "7월 부가세 신고･납부 회계처리",
+    "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE8yOTd2Q19pQXlSTTBZaGZoUWZ0ZHBrdHZ5bjNHMDNVTUhIOWZMZkRyWWF3LVppYVJGVWx4YWJOakdUdEFTM1BGVlNDdUhqTVJ4aWR5amZjbm4wbXM0UDlybHYxT0tvUDZF?oc=5",
+    "date": "Fri, 17 Jul 2026 07:00:00 GMT",
+    "summary": "",
+    "source": "한국아파트신문"
+   },
+   {
+    "title": "쌤157, 개인사업자 대상 부가세 셀프 신고 서비스 개시",
+    "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1ZUHFzVXhPc3lENWFXa2VsU3ZFNUFpdHVNNmJtWTdKMGhFUFRkQUQyVEdBQk0zNjVsMXlMLThJby12MjhCM2tBZkJEUXQtdTBjSS1iUGYyVGRmcEtOLVNhal9Fc1U?oc=5",
+    "date": "Wed, 15 Jul 2026 07:00:00 GMT",
+    "summary": "",
+    "source": "서울경제TV"
+   },
+   {
+    "title": "쌤157, 부가세 신고 서비스 개시",
+    "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1DUkcxUHhVcGtLUTE4UGp3X0N2ZGwwNUIyZ1NWcmJMSkwwd2RzcC0zTjZYbHRLWU91allQU1RDQ3VuYnlCTmdfN0xxOTllNTlheUkzYlN0SEhlTW1F?oc=5",
+    "date": "Wed, 15 Jul 2026 07:00:00 GMT",
+    "summary": "",
+    "source": "뉴스핌"
+   },
+   {
+    "title": "이달 부가세 확정신고시 유의사항 3가지",
+    "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5WNDdZYUNMRkp0VTRSUFlRZmJLVzJtaHNBMWg3R05qOE1UcEphdk0yc092WVhCRk9oYnQ0azB2bm43SzZxZXB4MVVfUk9RazBVYWRrRFE4NXJUbnA0ZlBMbkpncnc?oc=5",
+    "date": "Tue, 14 Jul 2026 07:00:00 GMT",
+    "summary": "",
+    "source": "한국세정신문"
    }
   ]
  }
