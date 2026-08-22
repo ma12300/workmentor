@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-22T08:02:12.873Z",
+ "updatedAt": "2026-08-22T08:41:29.253Z",
  "groups": {
   "tax": [
    {
@@ -29,13 +29,6 @@
     "date": "Fri, 21 Aug 2026 12:51:00 GMT",
     "summary": "",
     "source": "Chosunbiz"
-   },
-   {
-    "title": "세무사회, 국세청 '세무사광고기준' 고시 환영...“불법 세무대리 근절”",
-    "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFA4QWIyOUQyclN4VnRTekRMY3JYMEIwcVVDTUtqNkJ4WG5ReW9pb3BtaGlScXpxR3VScTZUZ0lvUlkzUUJiSjlpdU9OcC1uV3F2LTNtLWM2dFJJR2s4a1FKcXF2OGlJVTZhTUE?oc=5",
-    "date": "Fri, 21 Aug 2026 09:03:45 GMT",
-    "summary": "",
-    "source": "intn.co.kr"
    },
    {
     "title": "사상 최대 실적·IPO 추진 중인데…무신사, 국세청 특별세무조사",
@@ -99,6 +92,13 @@
     "date": "Fri, 21 Aug 2026 05:33:39 GMT",
     "summary": "",
     "source": "v.daum.net"
+   },
+   {
+    "title": "세무사회, 국세청 「세무사광고기준」 고시 환영… “불법 세무대리 근절 개정 세무사법 완성”",
+    "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9kemJiTlRZYlZXYnp0MU5sSndjdVhtdktXSDhuUHRuRldtWEdvZkM2bVdqdmdpRjdXay0xcGVKWkR4OF9rV1ZYMTRzM0xHTjNKQ3lKS3BSQUx0ZC1EUDdjQkc3eFNlZUEtTXEwdUVR?oc=5",
+    "date": "Fri, 21 Aug 2026 05:30:37 GMT",
+    "summary": "",
+    "source": "세무사신문"
    },
    {
     "title": "대전국세청, 불공정 탈세 정조준…상습체납 추적 강화",
@@ -180,6 +180,13 @@
   ],
   "labor": [
    {
+    "title": "‘산재 레드존’ 된 당진…노동부, 주말까지 불시점검 나섰다",
+    "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5SMURpdFVIV2xFc2psSDhEY3Z6WnlfMGZFX0FoQmlRMHJpTDVOSmRNNnQwR21BYkJ5MGVpU2I4NG9faEZYT1pvRXRfSEhsb2FFLVdKR2dKcXhnVHp4M1NHb3JaS25ZRnFLaC10LWNR?oc=5",
+    "date": "Sat, 22 Aug 2026 08:10:10 GMT",
+    "summary": "",
+    "source": "뉴스홈(newshome)"
+   },
+   {
     "title": "여수 고용위기 선제대응지역 1년 연장… 여수시의회 “환영”",
     "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFB1WU5iblFWS2xNb20xZXVxR2d1dkQ3bGJjUVBBM1F4UlEyR2pHZGg1TGxmeVRrV1BvaHRhZ0p6SExnZXdHUlp6N0FCTF9BMkN6Y0tiZWlaRm1DbXZCdjlLUzlTbWswZ2NYS3cwTWJBbmJ0dw?oc=5",
     "date": "Sat, 22 Aug 2026 07:29:00 GMT",
@@ -229,18 +236,18 @@
     "source": "뉴스파노라마"
    },
    {
-    "title": "장흥군, 고용부 ‘일자리대상’ 특별상… 맞춤형 정책 성과 인정",
-    "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBLekpManhOeFdsSGdIX2NJeGZUZENFanJoRlVoN2FsVDJzS252NDJlaEhKeWt0N1Q1SE8zdHRwd2JZZ0tXQ2JVeldVSFRNWTBndUd5cUNwNUVRcjI4bUlXNEZOaFpPOTFWRlE?oc=5",
-    "date": "Fri, 21 Aug 2026 09:58:54 GMT",
-    "summary": "",
-    "source": "천지일보"
-   },
-   {
     "title": "수원시청소년청년재단, 고용노동부 ‘일·생활 균형 캠페인’ 재인증 획득",
     "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1VcV9IOUFvcE4xWFB6eUVQcTR4UndOMnJUTnZKN1p3TkRJd09seUQtdER5X1I0RklzdEkyY3RSOTJSVE1nNC1oTFowQkdFV3NURnFjbHhOWmdCdFU?oc=5",
     "date": "Fri, 21 Aug 2026 08:30:18 GMT",
     "summary": "",
     "source": "비전21뉴스"
+   },
+   {
+    "title": "대전권 포괄임금 수당체불 적발률 최고…IT·R&D 다시 집중감독",
+    "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE4xampha184S0xWWEFmcVBjdDMwOVk5SV8taW5DUXRJT0lsYUZ6MlFiWTF0dUVtUGFhcmp2anp1czFKMjdVc1h6UnlwMzM?oc=5",
+    "date": "Fri, 21 Aug 2026 07:29:25 GMT",
+    "summary": "",
+    "source": "대전인터넷신문"
    },
    {
     "title": "김대권 수성구청장, 고용노동부 전략사업 2차 공모 선정...국비 2450만원 확보",
@@ -250,25 +257,11 @@
     "source": "gukjenews.com"
    },
    {
-    "title": "노동부, 대전·청주 ‘공짜노동’ 다시 캔다",
-    "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBzN3dhd0hwMmltMnQ3S3JDc25aLVl6ZmczWVgzeDhrbXU5YTAydkRsV3hNbVpIbm45X3hqQWU4bHM5N2ZNX0JERzNXdWhWZXZPWHY3Y0xCdUZ1Q3JGVnRBWVI2SUNNbjR2dGZZZ0ZB?oc=5",
-    "date": "Fri, 21 Aug 2026 04:47:26 GMT",
-    "summary": "",
-    "source": "cctoday.co.kr"
-   },
-   {
     "title": "고용노동부, 대전·청주 지식서비스업체 대상 ‘포괄임금 오남용 5차 감독’ 착수",
     "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5KdFZUMzRKdnd2UFROWllpWFpWLXRiNmJJNWsyM1Q2aERfTDZjWFdZdUV1a2NGZXJxYkhRVXhMVW5XZ2gyWV9nZzhPMTQyb3BiYkxiY3pURWI2QQ?oc=5",
     "date": "Fri, 21 Aug 2026 03:31:06 GMT",
     "summary": "",
     "source": "서남투데이"
-   },
-   {
-    "title": "고용노동부, 여수 '고용위기 선제대응지역' 연장 결정",
-    "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE44Z3ZoekljNUp5a1hJRFBXTXpqQXlfbzhKQWtmMjhENXJoN2NZalF1dmNoVzkzRGVaRk5STWxRUi1EUFE3Qkl3NUstN19JTS1MUEpB?oc=5",
-    "date": "Fri, 21 Aug 2026 02:28:00 GMT",
-    "summary": "",
-    "source": "네이트"
    },
    {
     "title": "고용노동부, 여수 '고용위기 선제대응지역' 연장 결정 - 보도자료 | 기사",
@@ -353,6 +346,13 @@
     "date": "Thu, 20 Aug 2026 23:58:52 GMT",
     "summary": "",
     "source": "전국매일신문"
+   },
+   {
+    "title": "고용노동부, 30년 만에 고용센터 개편 … 실업인정은 AI가, 사람은 상담에 집중",
+    "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE00bUxaeWlhdmMzQjlmZXF6cFJhQ1QwVWhZd01JMTl6MjVnalN1OTY5RUwwLWdVbHBuLUpGWXNlcFB1TGdnVkdUeXcwenczVmFPVU9JSlB2d1J1WDZPazItamhwNXlnRXVHc19nZA?oc=5",
+    "date": "Thu, 20 Aug 2026 15:00:22 GMT",
+    "summary": "",
+    "source": "워크투데이"
    }
   ],
   "law": [
@@ -611,20 +611,6 @@
     "source": "한국글로벌뉴스"
    },
    {
-    "title": "“금융위, 시장 원격조정 불가능…지방이전 땐 위기대응력 약화”",
-    "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9nMkZmSVI1S1VnMkpRRm02aGhYRVctQTJsOG9QY3IyMGNtdWVETlNJSm9ScTVCVVVPUTh0S01OczdjbGJJZ2FadmVzaHBzU2x3dWc?oc=5",
-    "date": "Fri, 21 Aug 2026 08:47:21 GMT",
-    "summary": "",
-    "source": "서울경제"
-   },
-   {
-    "title": "금융위원회, 투기적 목적의 비거주 1주택자, 전세대출 신규취급·만기연장 제한",
-    "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTFBTb0oxemRkTll1QTQ0d3EzNkxTU25SOVFScWw1dlNPeTN2cUt5eUluN1d1Ri1BaUdhaTNhOFZtZXIydmVhcnc?oc=5",
-    "date": "Fri, 21 Aug 2026 08:28:00 GMT",
-    "summary": "",
-    "source": "케이에스피뉴스"
-   },
-   {
     "title": "금융위 \"국민성장펀드의 특정 기업 자금지원 정해진 바 없어\"",
     "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9aUGF5Y181a0YyQ3hhYkJRdTV2NUlYQWtxSFRPY0Z4elY5cWE3MmxuUWk2ZFRlYjlXdXVyNjRwS05TdHY3Nll4WWU1WWJFYVFnTVRjYU9kcG9vbFpzdXpOeks3dkl2eDR6Ylo1YkxNbw?oc=5",
     "date": "Fri, 21 Aug 2026 08:20:40 GMT",
@@ -707,6 +693,20 @@
     "date": "Thu, 20 Aug 2026 11:22:49 GMT",
     "summary": "",
     "source": "경기종합뉴스"
+   },
+   {
+    "title": "금융위원회, 정책대출 결혼페널티 해소",
+    "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1WbnJFVTlZSTRNcmlfVmhRc0lsWTlBRVNrTTRCZ0FVVHNrdVZkSUw5SW5ydktqUnZjQ2FXaVNIZlZpUk9WeW1NNGJFZ0FJQXVQcy04X1F5OEFkQUlOb2hiUWV1Q1JNcUNTS29MaA?oc=5",
+    "date": "Thu, 20 Aug 2026 11:22:49 GMT",
+    "summary": "",
+    "source": "서울포커스"
+   },
+   {
+    "title": "금융위원회, 정책대출 결혼페널티 해소",
+    "url": "https://news.google.com/rss/articles/CBMiREFVX3lxTE1NR1dscVhMcU5NQmdRcEdSYWRDQnYwN1U2RFl1RTI3WlBFNDlQWTBjSW9lZVRnTElwZ05wSlA4ZUQtVkVE?oc=5",
+    "date": "Thu, 20 Aug 2026 11:22:00 GMT",
+    "summary": "",
+    "source": "newszoom.kr"
    }
   ],
   "biz": [
