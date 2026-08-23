@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-23T18:40:15.681Z",
+ "updatedAt": "2026-08-23T19:05:41.368Z",
  "groups": {
   "tax": [
    {
@@ -143,6 +143,13 @@
     "source": "대전일보"
    },
    {
+    "title": "\"회삿돈으로 한강뷰 살고 있었네\"…국세청에 딱 걸린 '황제사택'",
+    "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE0xaHMydmJYX1JRaERBczN2NngtY2F0cVh2cUdEWHpneEw1bHNGcVRSUUtWQm1xSGZ6VWMzUElDOG5JT3p4RnNCdWlfdGdnTnlwdlZB?oc=5",
+    "date": "Sun, 23 Aug 2026 03:23:00 GMT",
+    "summary": "",
+    "source": "네이트"
+   },
+   {
     "title": "“회삿돈으로 한강뷰를?”…고가 법인주택 42%는 ‘황제사택’",
     "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5UaDRkUlR1ZVdEQ21SUHVQMTZ2WkFvZ0ZRMEJERlhEV052MGdfbVpaSFhpV0dmdkV5SzlleHBpRk1QOW1HeExBU01ydXNPeVM3YklqN0N3?oc=5",
     "date": "Sun, 23 Aug 2026 03:22:29 GMT",
@@ -169,13 +176,6 @@
     "date": "Sun, 23 Aug 2026 02:57:45 GMT",
     "summary": "",
     "source": "뉴스에듀신문"
-   },
-   {
-    "title": "임광현 국세청장 \"고가 법인주택 42%가 황제사택…탈세혐의 기업 엄정 조사\"",
-    "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9mV1ZvSVZRcUpCUTZEcGxnSTJpZTMxU01hYjYwS1FReVFQLVZiTWE2NXRFXzJZS09yNGNZQi1MTTh6ck5LcDc4WnkxNHE1TVp6VEF1aFlFYzVoc25kcXRjSjRVVmQ?oc=5",
-    "date": "Sun, 23 Aug 2026 02:56:38 GMT",
-    "summary": "",
-    "source": "한국세정신문"
    }
   ],
   "labor": [
@@ -512,17 +512,17 @@
    },
    {
     "title": "법무부, 외국인 계절근로 현장 전수 점검…603개 사업장 위반 적발, 제도 개선 본격화",
-    "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE9tQm9MOHpvVXlmNmk2clUtQzZYaExwRmFjck16NENIQURiTFNWTlZMX1FOMXp3QWl0T3FBQ3FwZFJLdWZ5MmpOMg?oc=5",
-    "date": "Sat, 22 Aug 2026 20:58:59 GMT",
+    "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE8wS3RuQlFJTnNNZ1JyUEQtNEJjSlZUSmJZODlZWl81Q0dtMUtYMUZZOXp2VEpPQ19ZUTNYU0x3NUlaWG9mdUd6MXlR?oc=5",
+    "date": "Sat, 22 Aug 2026 21:41:06 GMT",
     "summary": "",
-    "source": "얼리어답터뉴스"
+    "source": "뉴스N연합"
    },
    {
-    "title": "공정위, 가맹사업법 시행령 재검토 시사… 가맹점주 협상력 강화되나",
-    "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBDNDQ1alZlRWEyaEItV0k2MTBTeFdlSkh4M3A4TjFDYnFFeEIwalhMRHJoVHhXVFJONVBReFBXZEFhNG5fZGc3SjBHQzlEOGpiY0JZT0VQdDVDNWluczh5bDRMSXVRaks0cFBvZQ?oc=5",
-    "date": "Sat, 22 Aug 2026 03:30:00 GMT",
+    "title": "법무부, 외국인 계절근로자 인권침해 실태점검 결과 총 663건 지적…24개 시·군·구 603개 사업장",
+    "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1HcmNTLU9vTERPeklQMlpTRkQ5NVpoNWExYVBZVjN4dDBOSWRQZUhzbkZlSzVYT09oaVNSNUdzd1FDZnlIN216T3JMTUVwS3dQTW1OTFVtNHhZcVBJRnlXZGFBZkM2NWZtVmpkQ3BOcVc5SEFRMU8zV29n?oc=5",
+    "date": "Sat, 22 Aug 2026 03:41:55 GMT",
     "summary": "",
-    "source": "이코노미톡뉴스"
+    "source": "로이슈"
    },
    {
     "title": "경상국립대 법학부, 공정거래위원회 경연대회 입상",
@@ -654,10 +654,10 @@
    },
    {
     "title": "금융위까지 지방으로?…공공기관 2차 이전 '초읽기'",
-    "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE10OUMwSmJYVFJDeUE4WHpOenVZekFrTFhxMVZWNWxabzJXWDFCTmhxX3dZYnlYY2E2QzVrMm5JMWQ3SjJENlUxOEZCbmpvcW16UWFr0gFYQVVfeXFMTkI0VHRXQ2JCQ19kcXdFVG5CMmphdndjUElfVHByR1BTVFFVRXBpQUV0MVNJU21Wckd0V3ZJUGpYOXVzLW9pc2sxQmtkQ25ya2luOFlJWGxCaQ?oc=5",
-    "date": "Sun, 23 Aug 2026 00:32:00 GMT",
+    "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBhaXV5cmg3MHVQTmdtYkNPTXNxbGtzUGVTdnAwZlVnYWdJOC1tbzJLb0hFV1RrYkJiT2xXekh1R3VDYlhMN3B5M0NobDJ1U1k?oc=5",
+    "date": "Sun, 23 Aug 2026 00:36:02 GMT",
     "summary": "",
-    "source": "SBS Biz"
+    "source": "v.daum.net"
    },
    {
     "title": "금융위 이전 이르면 25일 국무회의 심의..불붙는 공공기관 2차 이전",
