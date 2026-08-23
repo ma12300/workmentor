@@ -2,6 +2,15 @@
  {
   "date": "2026-08-23",
   "kind": "market",
+  "edition": "저녁판",
+  "title": "8월 23일 (일) 투자 브리핑 · 저녁판",
+  "file": "briefings/2026-08-23-market-저녁판.pdf",
+  "top": "테슬라 뺀 'M6' ETF…미래에셋, 美서 출시 - 네이트",
+  "count": 9
+ },
+ {
+  "date": "2026-08-23",
+  "kind": "market",
   "edition": "아침판",
   "title": "8월 23일 (일) 투자 브리핑 · 아침판",
   "file": "briefings/2026-08-23-market-아침판.pdf",
