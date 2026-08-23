@@ -1,12 +1,10 @@
 [
  {
   "date": "2026-08-24",
-  "kind": "market",
-  "edition": "아침판",
-  "title": "8월 24일 (월) 투자 브리핑 · 아침판",
-  "file": "briefings/2026-08-24-market-아침판.pdf",
-  "top": "[마켓IN브리핑]ETF 16억달러유입···비트코인 상승 - 한스경제",
-  "count": 22
+  "title": "8월 24일 (월) 아침 브리핑",
+  "file": "briefings/2026-08-24.pdf",
+  "top": "‘내년부터 노무제공자에 육아수당 지원’",
+  "count": 28
  },
  {
   "date": "2026-08-23",
@@ -501,31 +499,6 @@
   "title": "8월 6일 (목) 아침 브리핑",
   "file": "briefings/2026-08-06.pdf",
   "top": "[DailyRecipe] 최대 2억…오픈이노베이션 참여 기업이라면 신청하세요",
-  "count": 28
- },
- {
-  "date": "2026-08-05",
-  "kind": "market",
-  "edition": "저녁판",
-  "title": "8월 5일 (수) 투자 브리핑 · 저녁판",
-  "file": "briefings/2026-08-05-market-저녁판.pdf",
-  "top": "다우·S&P 500, AI로 나란히 최고치 경신...인공지능 거품 붕괴는 시간문제? - coinreaders.com",
-  "count": 29
- },
- {
-  "date": "2026-08-05",
-  "kind": "market",
-  "edition": "아침판",
-  "title": "8월 5일 (수) 투자 브리핑 · 아침판",
-  "file": "briefings/2026-08-05-market-아침판.pdf",
-  "top": "[뉴욕증시] 호르무즈 협상 기대에 '랠리'…다우·S&P500 최고치 경신 - 신아일보",
-  "count": 10
- },
- {
-  "date": "2026-08-05",
-  "title": "8월 5일 (수) 아침 브리핑",
-  "file": "briefings/2026-08-05.pdf",
-  "top": "자발적 이직 청년도 실업급여 지원된다… 노동부, 청년 지원·정년연장 추진",
   "count": 28
  }
 ]
