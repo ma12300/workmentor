@@ -1,7 +1,14 @@
 {
- "updatedAt": "2026-08-23T22:29:16.310Z",
+ "updatedAt": "2026-08-23T22:50:55.818Z",
  "groups": {
   "tax": [
+   {
+    "title": "국세청, 법인 고가주택 이어 ‘일반주택’도 점검…특수관계인에 저가 제공 ‘타깃’",
+    "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1hZk1CTUxQa0JQemlVR0praVQ0V1o3YVBfamNQUl9NNzBOb3Bsc0xQeGk5Xzd4ODl0cUJoVllJenl5bUZlWTN2SF92cG5qWm8tYWMxUGc1VTNzcWx2M050REFmREJhdDlvME1zSA?oc=5",
+    "date": "Sun, 23 Aug 2026 22:48:06 GMT",
+    "summary": "",
+    "source": "세정일보"
+   },
    {
     "title": "'최고가 법인주택 200억 넘어'...국세청, 고가 법인주택 42% 사적 사용 적발",
     "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFAzTGdETWhYTHcyNDJ5VnF6UEMxYVNaV29ZaTM0NTRENlRkTUJtV0c2REowYlRpWWVlUjMweHI4WGY4dVZxRlEtdWNHQ1NwQmhDMUxqSTlHSjBMRVJTUFJGY2xLd0hpYmNy?oc=5",
@@ -36,6 +43,13 @@
     "date": "Sun, 23 Aug 2026 12:30:00 GMT",
     "summary": "",
     "source": "한스경제"
+   },
+   {
+    "title": "한강뷰 노른자에 '무상거주 꼼수'…황제 법인주택 이렇게 많았다",
+    "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5vb1lGRTNqblVOS0ppYldRX2pfNEV4dVp4QWszc1NOcFlYamRfc3g4dmZpVUxESXJCNktoeTVuel9aNWhYSW5PR3ZyQmdUUnNpM3FtUlBJSDZOa2NNMGU3d1NkR21Hd0NCRjhfV2FpTGVSVEdXS1ZoWg?oc=5",
+    "date": "Sun, 23 Aug 2026 11:54:00 GMT",
+    "summary": "",
+    "source": "네이트"
    },
    {
     "title": "“고가 법인주택 42%, ‘황제사택’..200억 넘는 경우도 있어”..임광현 국세청장, X서 국세청 조사 결과 밝혀",
@@ -162,20 +176,6 @@
     "date": "Sun, 23 Aug 2026 03:23:00 GMT",
     "summary": "",
     "source": "네이트"
-   },
-   {
-    "title": "“회삿돈으로 한강뷰를?”…고가 법인주택 42%는 ‘황제사택’",
-    "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5UaDRkUlR1ZVdEQ21SUHVQMTZ2WkFvZ0ZRMEJERlhEV052MGdfbVpaSFhpV0dmdkV5SzlleHBpRk1QOW1HeExBU01ydXNPeVM3YklqN0N3?oc=5",
-    "date": "Sun, 23 Aug 2026 03:22:29 GMT",
-    "summary": "",
-    "source": "중앙일보"
-   },
-   {
-    "title": "고가 법인주택의 사적 이용 실태… 국세청, 대대적 세무조사 착수",
-    "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE55U1Z0NHV3LVl6NmdfNnAwSlRDMEg2QjdfT2FfNDJYRmNCM1hFSXc2VHhkb3REMW5abHlEVVEtV1hib2FJWmEtREtKVXpwcWxfRG9ObGNDY01fMXRjRXM3WFZLQWxlMGYt?oc=5",
-    "date": "Sun, 23 Aug 2026 03:12:21 GMT",
-    "summary": "",
-    "source": "공감신문"
    }
   ],
   "labor": [
@@ -272,17 +272,17 @@
    },
    {
     "title": "개정 형사소송법 시행 대비...고용노동부, 노동감독관 수사역량 획기적 제고",
-    "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5abDFGR1NSUzFhMDZySnNZVXRINzN5OHRfa2tYTjlRdmliLXJaQ2FNenkyNFJGSnl2YWQwN2xVT3ByMkZ3aEhyM2JCQjZJanI5aXl3WDc1a0lhQ1VmUFZ0Z3dNWkdRb1k?oc=5",
-    "date": "Sun, 23 Aug 2026 10:00:47 GMT",
+    "url": "https://news.google.com/rss/articles/CBMiREFVX3lxTE5ueDRxSWRIcl9YV1hqSElaSkVpQlRjbzhkS1hXaE1uOUFjTjZnbVZoczQ0RUwxQlBwdFdhSE1nYmNLWm9F?oc=5",
+    "date": "Sun, 23 Aug 2026 10:00:00 GMT",
     "summary": "",
-    "source": "hkilbo.kr"
+    "source": "케이에스피뉴스"
    },
    {
     "title": "달서구, ‘전국 지방자치단체 일자리대상’ 9년 연속 수상",
-    "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE5CLU96ZV91bjFlY3RLUkNBRjN4SXRDeFlYaXFNX3VPd09LRHlSMnhOMk03OGVpT3EzMEhpT0RCOC1Zc2tQSk0tVUlXcG4?oc=5",
+    "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTFBpOHRic3h1NEp5V0NfS19mYXNXMkdydUpCQTF2b2UzNW55ZW1OUFo1cUozcGhqV2tHMFloQXNWd0doOXZhTDZB?oc=5",
     "date": "Sun, 23 Aug 2026 09:36:00 GMT",
     "summary": "",
-    "source": "시사일보"
+    "source": "정필"
    },
    {
     "title": "충남 당진시, 고용위기 선제대응지역 지정",
@@ -357,18 +357,18 @@
   ],
   "law": [
    {
+    "title": "법무부, 심리치료과 신설 10년... 교정 심리치료 새 도약 모색",
+    "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5HR01BNGNySllMSUJJNEx2WXUwVmtKcmtuUWxWWTdCRlpyQ3dxREdzeU5GemV5elBiZDNwa2pyZ2V1WWhja01pd1gwQ2p1eGlHMDQ3Y2ZnQTVYSnlYaFAwOVRzZ3JoQWFs?oc=5",
+    "date": "Sun, 23 Aug 2026 22:30:11 GMT",
+    "summary": "",
+    "source": "수도권지역뉴스"
+   },
+   {
     "title": "틱톡, 美 법무부와 합의…미성년자 보호 소홀로 5552억 원 지급 [KDF World]",
     "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBYV3UwM1doTFJHckl6Uk9DcllYREl5eUVZdlkzZnBwR09YaUREbV9Vak9fd21udS0yWGpjMjdJUnJBeWJ3UTc2WWxTdkF2WnJtNEtMTlNSYlpRbTd0cmhSWjh2YXpoTk1xOEE?oc=5",
     "date": "Sun, 23 Aug 2026 22:24:56 GMT",
     "summary": "",
     "source": "한국면세뉴스"
-   },
-   {
-    "title": "법무부, 심리치료과 신설 10년... 교정 심리치료 새 도약 모색",
-    "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBxWFNjdUl3RjY1ZDNtMWlWQ1R0TFJIUW1yTjg3QVAxa2F5cVhEQk1DLV94azhlakh0R2c2Uy1US1JoTXNSam9aY3BMVmUtb0JjSkl2OFhod2NXQnZpM3J5bTZhbWNHTFJ3TElZ?oc=5",
-    "date": "Sun, 23 Aug 2026 13:27:20 GMT",
-    "summary": "",
-    "source": "충청메시지"
    },
    {
     "title": "TikTok, 美 법무부에 4억 달러 지급 합의",
@@ -916,6 +916,13 @@
     "source": "동북일보"
    },
    {
+    "title": "강북구, 혁신성장 청년 예비 소상공인 키운다… 업체당 최대 2000만원 지원",
+    "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE04amotMEpOaDFBMkFrLUFUalo2OXNNUTVQSGsyZkJKM2EteV9GM3ViMGxRWjVvejdQaDN4bzBTRHVZTkl2eUlKQ3gyVmJ2dlJyWjVaaldRcW9veHktUXVTcklvUko?oc=5",
+    "date": "Wed, 22 Jul 2026 07:00:00 GMT",
+    "summary": "",
+    "source": "매일일보"
+   },
+   {
     "title": "[연재⑬] 소상공인 10명 중 9명이 놓치는 '정책 자금'의 비밀",
     "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9fTVJtWmR2Rkp4dWV3SzZFb0w5X2hWUndpSktHTFpvVTk1dUx3cWJPeFE4SU13b21iODFueE5vY2MxTmtEOXZUbDYxTHl4S0UxSzlnOHpKTTE?oc=5",
     "date": "Sun, 19 Jul 2026 00:44:00 GMT",
@@ -956,13 +963,6 @@
     "date": "Tue, 02 Jun 2026 07:00:00 GMT",
     "summary": "",
     "source": "얼리어답터뉴스"
-   },
-   {
-    "title": "더좋은 자금연구소 김보석 대표, 소상공인·중소기업 맞춤 정부 정책자금·지원금 컨설팅 전문 서비스 운영",
-    "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE96c2xVUmFRRUd0NEZWaV80QTNMMWl2MWhPV05tOWdpa0xkZ0lOYWVjU04xbkVpX3ZTS05MdzZNVDFuS1RWTHBoc1IzcHNGQl9tWERjOFln?oc=5",
-    "date": "Sun, 31 May 2026 07:00:00 GMT",
-    "summary": "",
-    "source": "대한청년일보"
    },
    {
     "title": "정부 지원 창업학교 졸업생, 3년 만에 30% 넘게 폐업",
@@ -1049,18 +1049,18 @@
     "source": "브런치"
    },
    {
-    "title": "'40만 원 지원·250개 업체 선착순 모집'…시, 소상공인 창업 초기 인허가 비용 지원",
-    "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE15X29WRU9ZNVU1RHBtMEZPSU9PZkdIUTd6VlNCUV9CRnBQX1RzLVZDRjRrOXktRUNsNkdFNFp4NVl4cUNXRDExalZFdlFlYnVPV0hiS3RlVnhqUEdIM2JxVTQ0SGRYeTVBamgycmF5ONIBc0FVX3lxTE4wU2cyaGY5eXY3dHNtRTF3SFpzby10TGc5akZ3OVA4Qy1HQzM3US01aFhwV2YzMTNWSkpydTV2SE8zOUs0Qk9saGQwakxOS1dIWU5ka3RmUkJJUzU0R2ptOHQ4TzViSkFKWWhZaEZHeTlmLW8?oc=5",
-    "date": "Wed, 25 Mar 2026 07:00:00 GMT",
+    "title": "2026 민생지원금 소상공인 지원금 전쟁추경 신청 방법",
+    "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBhYWI0N09nWUE1elJ2eF9pLW5HWVJCSWRpMmdVb1NMNW1JNnpnLWNqdXh5N0JNc0tiRmVpQklCMmctbndQZUlLYzROd1FOb2xaTUFj?oc=5",
+    "date": "Thu, 02 Apr 2026 23:36:09 GMT",
     "summary": "",
-    "source": "남동뉴스"
+    "source": "브런치"
    },
    {
-    "title": "인천신용보증재단, 소상공인 창업 초기 인허가 비용 지원",
-    "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5FcDNzenI2U0ctTWxnVFlQYzNPa0NxOUg2X2s1aXphUzBJd1ZtSTdnRFR2Vm12MWNIckp0MTZIQWtycElhOTBHOUg3MU4xSlRtdExubW8yQnd4SDAyXzBTNlFITmhSSzVDeWhXSw?oc=5",
-    "date": "Tue, 24 Mar 2026 07:00:00 GMT",
+    "title": "[단독] ‘모두의 창업’ 올해 2~3번 더… 전쟁 추경에 1550억 챙겼다",
+    "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQa0xLZE43bW1PbzVjMWN6b05EQlFvcndjbGx0Wm5IZXgtVjRmdS1JSnE5SG9EUUVjaWNCdXhJSHJ0eko3Q2hqWk5odUpzUkJVN1ExU3lVLUszMGk3eHNyTTVpZzhYczlVZC1lVlpacWpLLVp5TDZ2RXNSczhxb2NYRDZlNm9EWHpt?oc=5",
+    "date": "Tue, 31 Mar 2026 07:00:00 GMT",
     "summary": "",
-    "source": "incheonin.com"
+    "source": "조선일보"
    }
   ],
   "guide": [
@@ -1114,20 +1114,6 @@
     "source": "파이낸셜리뷰"
    },
    {
-    "title": "증여세, 법인세·부가세 신고 전에 증빙을 맞춰두는 법",
-    "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE02ZDRTdDRPWG1UTTVuUUp3Ni1faUFKOFNlbF9PS1hWLUg4Ny1iU1doTTdPdUVrei1RUE9sdjV6Y1Z6TWNvTXJSMHhudTQ?oc=5",
-    "date": "Mon, 03 Aug 2026 18:09:47 GMT",
-    "summary": "",
-    "source": "브런치"
-   },
-   {
-    "title": "부가세 환급금 조회 방법, 환급 시기까지 확인하세요",
-    "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBFRHpSdG56U0FVR1pzekhvM2JlbWxsT2tndU5TdEw4Tm13NGpWTzdaQlZLWTktRk1LSTYwZkFHcHhicUV4eWNmdDBFTkF3MkRjYXp3?oc=5",
-    "date": "Sat, 01 Aug 2026 07:00:00 GMT",
-    "summary": "",
-    "source": "브런치"
-   },
-   {
     "title": "오상훈 부산국세청장, 소상공인 부가세 세정지원 당부",
     "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1tME9zV3RfbG05dTFzVGRGZVlHa1p1TTB5N1VFa05JVHJwQ04zV3czaWxuLUN4UG1rNDZZTG1fa3hBdWpxaGhwMHdNRW5uSTNSRVJnN29NZ2ZpS2cxcWU4WFE4OA?oc=5",
     "date": "Wed, 29 Jul 2026 07:00:00 GMT",
@@ -1175,6 +1161,13 @@
     "date": "Mon, 27 Jul 2026 07:00:00 GMT",
     "summary": "",
     "source": "시사매거진"
+   },
+   {
+    "title": "동작세무서 찾은 안덕수 서울청장 \"부가세 신고 편안하게 할 수 있게 지원\"",
+    "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBNaUgzVkNVeDljSWlYU3NKUkNKY1NWN3B5ZERVVFdqVW50ZmlWVk5zbUNsMkNfOUFHR0N0TmI1T0hhZkRsWWNOQXhrdlA1a294c2szV0tJa3BpcDhlR2F2cWp2Ui0?oc=5",
+    "date": "Fri, 24 Jul 2026 07:00:00 GMT",
+    "summary": "",
+    "source": "한국세정신문"
    },
    {
     "title": "심욱기 대전지방국세청장, 부가세 신고 현장 점검…“납세자 불편 없게 지원”",
@@ -1238,6 +1231,13 @@
     "date": "Wed, 22 Jul 2026 07:00:00 GMT",
     "summary": "",
     "source": "조세금융신문"
+   },
+   {
+    "title": "김지훈 중부청장, ’26년 1기 확정 부가세 신고현장과 체납관리단 방문·현장소통",
+    "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5rNk9QYWtMd2QwQ0xxVUotNTQteFB6ZFJNODdkWWI5dWlrYlJUcG1TLUFkQWt2NkZNemIyLTRBWUJEazFjUUIxMloyVnZ1NnVRMlNzU2NIbkZJajVaSDBTNWlwc0Qtdm16Mnc?oc=5",
+    "date": "Wed, 22 Jul 2026 02:14:51 GMT",
+    "summary": "",
+    "source": "intn.co.kr"
    }
   ]
  }
