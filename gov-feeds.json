@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-24T21:35:50.746Z",
+ "updatedAt": "2026-08-24T22:02:52.060Z",
  "groups": {
   "tax": [
    {
@@ -180,11 +180,11 @@
   ],
   "labor": [
    {
-    "title": "‘전국기능경기대회’ 인천서 개막",
-    "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9lbWJuMTBSYkQ1V1FtdFVBMWU2U2RCY0hDQnloSWN4a2pxVlFZN3oxck5kOW5vYTlfSjJSZkpvT3FwQnRoM3lmX0ZwOGdGejdKYWlXR2FZcWV2SjUyZFpjX0NZa0NDT0pCQ3J1NkR5eTM?oc=5",
-    "date": "Mon, 24 Aug 2026 21:30:03 GMT",
+    "title": "'전국기능경기대회' 인천서 개막",
+    "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBnQllBWTh2eVNNQVBWOW1UeXh4OWF4RWlybnFxSFZHbHVtdEFnYXY4elNral9fWVdWbG9Pam9JNXdXdEJkbXVIcGU4eGxLb1RXRFR0ZjJiSm1BeGNEWVN2UXMyZVZvZDFNR3NvYWhLdkpfNHAtQ2lRcQ?oc=5",
+    "date": "Mon, 24 Aug 2026 21:33:00 GMT",
     "summary": "",
-    "source": "매일노동뉴스"
+    "source": "네이트"
    },
    {
     "title": "고용노동부, 기술의 가치, 미래의 꿈을 잇다",
@@ -213,13 +213,6 @@
     "date": "Mon, 24 Aug 2026 08:44:30 GMT",
     "summary": "",
     "source": "프레시안"
-   },
-   {
-    "title": "부산시, ‘전국 지자체 일자리대상’ 4년 연속 수상",
-    "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE96cFR6VzEzOFBQOGtHODRMQld4UmQ0NE9nVUNJNHFyMTlXdlVUYlJCeHhRVlluNGVWM3pmaDZ1RmhWc3ZSYTFfYjIycURGamV2MlBBU1JQdTlnZXdyc1ZoRE5DVmZnT1dXNlHSAW5BVV95cUxPWThSVTZPaWRCNEdaaktTWjY0MXRZYWZLM2tWb0ZFSlY1TDgyVTNCWnFEa25yUGxNbDZlUkhCdjBUTE9mRGlXUFBSZ2tkdGNtcTNNM0JPMXpGckw0XzhHenZ5cWI3RjY4REJIYnRrdw?oc=5",
-    "date": "Mon, 24 Aug 2026 08:39:00 GMT",
-    "summary": "",
-    "source": "iusm.co.kr"
    },
    {
     "title": "새벽배송부터 병원까지…노동부, 야간노동자 건강보호 대책 추진 - 머니투데이",
@@ -353,15 +346,36 @@
     "date": "Mon, 24 Aug 2026 01:47:49 GMT",
     "summary": "",
     "source": "서남투데이"
+   },
+   {
+    "title": "'철강도시' 당진, 고용위기 선제대응지역 지정",
+    "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE03NXpkNWZVb2JiQTdBdjJSNEVKTGhJQ2pUUXNVTl91bDZwMTctTHBhcjEtNFlqRWJnU3NyWmxwbEFOOGtzZjRQQVdEV3BUX2l3Z0xV?oc=5",
+    "date": "Mon, 24 Aug 2026 01:44:00 GMT",
+    "summary": "",
+    "source": "네이트"
    }
   ],
   "law": [
    {
     "title": "'광주출입국 비위 신고 은폐 의혹' 법무부, 1주일 넘게 침묵",
-    "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5ZNE1rR21qOFhrakJaMm9qTmpmaUhGZ1A3UE8taGpBNENDV2ozN0M4RG9EbWJ6RDc2MlJxQ0ZUNTd6cE5MSWdvZEM5OHcyTFhvSGt1WWljbjJtcEozczZfWA?oc=5",
+    "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE51Qy1iTTJPbXVxM2c1RmxjckVkMWl5aWhfUzhiTDNCcmVPb1c4MUpBcDNuaW94clVJNFZzUTZaZjQzVTE4UXZOaWVHVmhOcFdETVpKaFI4UE5WMW9JaHRj0gFkQVVfeXFMTlpiX3F5S3NKc2hVY1VjQWdEQ3FQNzhqMTJVU2ZNNmlUNERlUDM4Y0dUclExQWhjbmxIeTNIXzZWWVY4NTBPdnRob0kzWktobEJ4aVNuR3Y4M3hhOGZHZ1VrZ0FQcw?oc=5",
     "date": "Mon, 24 Aug 2026 21:30:00 GMT",
     "summary": "",
-    "source": "네이트"
+    "source": "뉴스1"
+   },
+   {
+    "title": "정성호 사표 수리…개각 시계 빨라지나, ‘순차 개각’ 가능성도",
+    "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE81bmtjZ2NYREQzSTgydnVQYlhEUUJrM2gtZWJJMjA1WWNkczB3Tlg3RU83azRlT1FRWW03UWp0RnVRQ3ZFU29uSUdBUVAwSE55NHlVek5mQW13UTA3cm1Odk42VTFKT3hoLXRBdDRrNUppMUXSAXdBVV95cUxQLVQ0WS1FeHU3WXFxNW9iMFBOanJwU2lKRmx2VVhPazRLMG5jLUx0VUdzcHZNSmcwY256Z2hxS0lvQzNOUGRLWGtsSXF4WW9Pd0c2STlINldUR0NyZUFGc19BUlE3eDREbHNXSTdTcEVlUnYwLTRETQ?oc=5",
+    "date": "Mon, 24 Aug 2026 21:29:43 GMT",
+    "summary": "",
+    "source": "뉴스프리존"
+   },
+   {
+    "title": "‘연 5천 버는 캐디’ 현금만 고수하던 2兆 캐디피 시장 바뀐다...공정위 표준약관 개정 주목 - 조선비즈",
+    "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOcXVzUUZZSVpIX0tKNVJaMXg0REsyN1A4NS1pUFZlODNZdTBCckFraUF4NGVOclNRZ2NtcjJvWDlHNXk0VDJ3c0h1RkRKamM3aXZIVHFGaTFHc0FCV0xHeXJQeF81SlB0YmRZSVpMTGk2a2Y5d3NiOUoxV2V2N3pqcFJkTWZWTkEzaXZTSDl2bU_SAaQBQVVfeXFMTUtyRTFjYlNaYnNSYlRGU0lOOVJHQTlKNFlvQ0JPZldZOWhlRG55dW1zVVJWX2VpR2dOMVRxb2djUFNhaGF1allidW52UmxtcVI3UktzeXNLaERVNkRRYVhveG51Um9NT2ZVTTZiTl94cFVXMVNFa0xzbXRzVlJENE9GN1JEMnU1T2pDMG5tM3Nia2UxZDhYaUFrRm1JeXR3Tzdlb0U?oc=5",
+    "date": "Mon, 24 Aug 2026 21:00:00 GMT",
+    "summary": "",
+    "source": "Chosunbiz"
    },
    {
     "title": "공정위 과징금 결정액 2.5조 돌파…국고채 등 대형사건 남아",
@@ -390,6 +404,13 @@
     "date": "Mon, 24 Aug 2026 16:01:28 GMT",
     "summary": "",
     "source": "서울Pn"
+   },
+   {
+    "title": "[인사] 법무부 외",
+    "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQc3dzRnFkV1V1T0xpQlVPejRHdUhhX2psa056VFY0R3VsdkxXR0NxeVFfejc5cjNoYmJqR1ZtcjRCd0dHLUpXYWNmSmpqdWl0YTBtNlkxalh2LUg5WFh3UjhIeWYxbVNUUW5FWXN5ejR4bHM5RS1BaDltZk9jUi1JaWFFYWVFR281Ui1UeEkxY3c1Q00?oc=5",
+    "date": "Mon, 24 Aug 2026 15:43:00 GMT",
+    "summary": "",
+    "source": "조선일보"
    },
    {
     "title": "정성호 결국 퇴장…검찰청 폐지 39일 앞 법무부 ‘대행체제’",
@@ -509,27 +530,6 @@
     "date": "Mon, 24 Aug 2026 09:39:22 GMT",
     "summary": "",
     "source": "디스커버리뉴스(DISCOVERYNEWS)"
-   },
-   {
-    "title": "'사의 수리' 법무부 청사 나서는 정성호 장관",
-    "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE9QWXk5anFTNmUzNGZzbUxyVE5ucktWZjF6QUVWQmdBcGhuRHpybmItQ2M4VTI2MF9rd0FWa3JMSzNOQnc4UTNsczEwUQ?oc=5",
-    "date": "Mon, 24 Aug 2026 09:36:00 GMT",
-    "summary": "",
-    "source": "뉴스1"
-   },
-   {
-    "title": "법무부 청사 나서는 정성호 장관",
-    "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE9ST21FT0hUb3ZzT2R0d3djS1VLZU1VTWtxeEJiWUtyRmhGTEJRX0QzRlM1cGFLalNOM1NJNHVYT09GdE1ZbW9sRUQ1MA?oc=5",
-    "date": "Mon, 24 Aug 2026 09:34:39 GMT",
-    "summary": "",
-    "source": "뉴스1"
-   },
-   {
-    "title": "사표 수리된 정성호 \"합수본근거·특사경 지휘권, 국회서 논의해야\"",
-    "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5hak5Bb1lnUFFzeFFYZFhmNXRQdTktOU5STS1lYUhWSUNzeVVWV3NYalRDbThfUm5YSGVIc2hXOVEzMjlVVWRGY183c1RYbEpNelVQb1NrVDBYWnfSAWBBVV95cUxOQzF0NXBZWVA1Z3BITkFiV3UxU0UxQm4zZ3NZdU0zN1JISXI1Z0pNdGkxNXVudVNTUDNxRWhEMHVkaFMxV19yYmtXV0s0YlR5cy1DbXJJWV8tWnF6RUUwbXg?oc=5",
-    "date": "Mon, 24 Aug 2026 09:34:07 GMT",
-    "summary": "",
-    "source": "연합뉴스"
    }
   ],
   "fund": [
@@ -746,13 +746,6 @@
     "source": "코스인코리아닷컴"
    },
    {
-    "title": "[인사] 중소벤처기업부 과장급 전보(8.24일자)",
-    "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5zY2hMZE5yN1Z3elREcm85QnZsdUZwYjM2dl8tQkV3OS1NNDItUUhTenpVUllrZGRIUTRsbVpYak56UWZWU3ZqZHZlRnNlYUVjd3NReExYTHFlN3lTVWRvYw?oc=5",
-    "date": "Mon, 24 Aug 2026 11:28:15 GMT",
-    "summary": "",
-    "source": "코스인코리아닷컴"
-   },
-   {
     "title": "이재명 대통령, 정성호 법무 장관 사의 수리...사직서 제출 엿새 만에",
     "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9UZUp5bzZ5Q1FNeVVzS2g0dEI3Ri1KVjZ3U09DamNKZ3EwLTJzSVRsemhVTTIyQm50ODZ2bzZxZlkzNVNjSUplcGZuZHEwVXkydWFOVGxMZFdtel9BcHV0UQ?oc=5",
     "date": "Mon, 24 Aug 2026 08:58:48 GMT",
@@ -884,6 +877,13 @@
     "date": "Mon, 24 Aug 2026 05:09:00 GMT",
     "summary": "",
     "source": "네이트"
+   },
+   {
+    "title": "에이투지, 중기부 글로벌팁스 선정...무인 자율주행 패키지 구축",
+    "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFBIX0xaRDdaUHpIb2FVQjE3QmNJem9memZMOUwtYk9BcmIwYzBRM2VLRXlJcmdhSHRVU01Ua3BFejM5Z2tSXzFTM2Nqdw?oc=5",
+    "date": "Mon, 24 Aug 2026 05:08:08 GMT",
+    "summary": "",
+    "source": "아이뉴스24"
    }
   ],
   "money": [
@@ -949,13 +949,6 @@
     "date": "Thu, 18 Jun 2026 07:00:00 GMT",
     "summary": "",
     "source": "창원특례신문"
-   },
-   {
-    "title": "더좋은 자금연구소 김보석 대표, 소상공인·중소기업 맞춤 정부 정책자금·지원금 컨설팅 전문 서비스 운영",
-    "url": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE1hN3Z1MkF3VmFKekJjcEVjeTAzVXBFX2xaWTUzbkRLYzdBa3pkU1NxSlNNWE4zUWs4QlJUWW1YREY3QQ?oc=5",
-    "date": "Tue, 02 Jun 2026 07:00:00 GMT",
-    "summary": "",
-    "source": "얼리어답터뉴스"
    },
    {
     "title": "더좋은 자금연구소 김보석 대표, 소상공인·중소기업 맞춤 정부 정책자금·지원금 컨설팅 전문 서비스 운영",
@@ -1061,6 +1054,13 @@
     "date": "Tue, 31 Mar 2026 07:00:00 GMT",
     "summary": "",
     "source": "조선일보"
+   },
+   {
+    "title": "인천신용보증재단, 소상공인 창업 초기 인허가 비용 지원",
+    "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5FcDNzenI2U0ctTWxnVFlQYzNPa0NxOUg2X2s1aXphUzBJd1ZtSTdnRFR2Vm12MWNIckp0MTZIQWtycElhOTBHOUg3MU4xSlRtdExubW8yQnd4SDAyXzBTNlFITmhSSzVDeWhXSw?oc=5",
+    "date": "Tue, 24 Mar 2026 07:00:00 GMT",
+    "summary": "",
+    "source": "incheonin.com"
    }
   ],
   "guide": [
