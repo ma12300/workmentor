@@ -2,6 +2,15 @@
  {
   "date": "2026-08-25",
   "kind": "market",
+  "edition": "아침판",
+  "title": "8월 25일 (화) 투자 브리핑 · 아침판",
+  "file": "briefings/2026-08-25-market-아침판.pdf",
+  "top": "미국증시 '혼조'...반도체주 급락 속 나스닥·S&P500 '하락' - 초이스경제",
+  "count": 16
+ },
+ {
+  "date": "2026-08-25",
+  "kind": "market",
   "edition": "자정판",
   "title": "8월 25일 (화) 투자 브리핑 · 자정판",
   "file": "briefings/2026-08-25-market-자정판.pdf",
