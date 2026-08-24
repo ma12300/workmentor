@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-24T13:15:21.472Z",
+ "updatedAt": "2026-08-24T14:05:38.850Z",
  "groups": {
   "tax": [
    {
@@ -129,13 +129,6 @@
     "source": "v.daum.net"
    },
    {
-    "title": "거제·통영 특별재난지역, 세금 '최대 2년' 유예…국세청 신속 지원 : 경제",
-    "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE1JN1RFTVpXRlJQc0pqV0xLa29xd250TnNJdFZRa0trOUR0NTFTOWxEZUIzUVdRcjdnRVJEcU9uOWdpZHVnX3M1M3Vn?oc=5",
-    "date": "Mon, 24 Aug 2026 03:12:00 GMT",
-    "summary": "",
-    "source": "재경일보"
-   },
-   {
     "title": "6월까지 AI 국세행정 로드맵 짠다더니…국세청 지지부진 왜?",
     "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9XWVk3bFd2TmNoT3lYbzlpbnRCNER2SmlqLWp1Z3VtMS1yeF9YTTcxZkg0OUJVVmtBTXlFcTNnVmhoXy1ZSzRiY1FNWVVkblk?oc=5",
     "date": "Mon, 24 Aug 2026 03:09:16 GMT",
@@ -176,15 +169,22 @@
     "date": "Mon, 24 Aug 2026 03:00:04 GMT",
     "summary": "",
     "source": "edaily.co.kr"
+   },
+   {
+    "title": "국세청, 거제·통영 납세자 최장 2년까지 세금 신고·납부 연장",
+    "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE53eG1DQ2pXMXlDcmE1WlVUamRGajVIMW1ZQTkxYVdYWnRmOFNhTlhWRndkeU5KWEFaWFJlUG9FenA5RWRueFBUdGpTUUNhc1dfMWlVdl90VmpvZ0U1OGhGbDVsc1E?oc=5",
+    "date": "Mon, 24 Aug 2026 03:00:00 GMT",
+    "summary": "",
+    "source": "한국세정신문"
    }
   ],
   "labor": [
    {
     "title": "고용노동부, 기술의 가치, 미래의 꿈을 잇다",
-    "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9oLUVjQVFvQlY3QnFWLWctSnJxb3FsSEtXc2pNSkFoMzMtaUNzQ1MxeTkyMFdnWjJtemY4M1ZhbDBzaldTdWVXWFZrc2VwaGNVMEY1cWJLVWVzbTdySk9rdHdnTDR0NjA?oc=5",
+    "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5qMC1XNEYxRmd0S0ZpcURwTUFMY280NzdjRFc3WElqS2tDT1RfNDcwZGtOVGxycDVLX1dRUG9QZ0drdDI3REIyVG5NM1ctb0lnRHBuVVR3VFpSTWZodWtTb29RN2dVNjhp?oc=5",
     "date": "Mon, 24 Aug 2026 10:38:40 GMT",
     "summary": "",
-    "source": "hkilbo.kr"
+    "source": "매일타임즈"
    },
    {
     "title": "노봉법 ‘쟁의 범위’ 놓고 딜레마 빠진 노동부",
@@ -250,6 +250,13 @@
     "source": "아시아투데이"
    },
    {
+    "title": "동작구, 전국 지방자치단체 일자리 대상 ‘우수상’ 수상",
+    "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFA1VmhtRUM2NVdGNFUzS3ZXS25qM21MOER3WFFfbV9JMzJ2Y1B6ZDNqcjBqakhLWHZERFh1VGFaODdaaWR5bF9VMmtyTVczRnZjc0U3cjZNZmJxbVVpa2hvdElIOU0tNjBFdU5r?oc=5",
+    "date": "Mon, 24 Aug 2026 06:07:22 GMT",
+    "summary": "",
+    "source": "시정일보"
+   },
+   {
     "title": "광주광역본부·광주지방고용노동청, 중국 국적 외국인 노동자 대상 안전보건교육 실시",
     "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1GZkxQUnJvNEJvaThwUkFHdHB0ZDNhcDVBXzZmVERXaHJrWERlb2gtcF85XzdIS1hycldWTXhKUXVsc3pzeDAzWnQ0a1o0TjhOTnVTSkluRjRQMjNXek1Kd0ZPUjhnWF81QmdR?oc=5",
     "date": "Mon, 24 Aug 2026 06:06:30 GMT",
@@ -296,7 +303,7 @@
     "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBNdmVGTEtoa0hjR1RRVkdLWVhhaTdYcTdVRzZqUTVpUElmNzhmTnBFUTRDck4zdXFHNHpNN05wcjZwamJUdF96V0pYb2NXWEpjR2FNSGpjcFBmdkdDVmVSOXZCRFQ?oc=5",
     "date": "Mon, 24 Aug 2026 05:06:31 GMT",
     "summary": "",
-    "source": "충청탑뉴스"
+    "source": "ctnews.kr"
    },
    {
     "title": "\"야간노동자 보호 방안 마련해야\"…노사정, 간담회 개최",
@@ -346,22 +353,29 @@
     "date": "Mon, 24 Aug 2026 03:49:00 GMT",
     "summary": "",
     "source": "네이트"
-   },
-   {
-    "title": "해운대구, 고용노동부 주관 '전국 지자체 일자리대상' 최우수 수상",
-    "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5CTjl3NEJVUlg3SHF5LXh0TWlEMHg0RVYtVUEzclpWRTZpeVZIa0YzX0IyWEs3LUp1OFZPbkhKQmxUZmgyNm1yYkdoRF80UDhON19OODJyZVlLaXNqSExLM0tiVHY4UTRBbUFJ0gFvQVVfeXFMTXJEWEpiZFFwUjVtM3RpbWJURjBDQXVKd3padnd0UWE0N3FuQVA1ZFJCUjR0elB1YzhoZElpdEd6ejJ3UkFrRFRTQVQwVnNhQ3RTaHFNbkFWRkFSRjVYeDBid2FXZ0tvdWUwbTUtaEhR?oc=5",
-    "date": "Mon, 24 Aug 2026 02:13:59 GMT",
-    "summary": "",
-    "source": "펜앤마이크"
    }
   ],
   "law": [
+   {
+    "title": "떠나는 정성호 “대법원, 대통령 임명권 존중해 대법관 문제 해결해야”",
+    "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE1xamNjTnFtSDdkcUI1d0dIYWc0Y3V2NzRNcDFxN3FNTFBrV0M1ZllpUTNCMDFjQ1ZSWXZISzVpbnZKd3QzVEU1a0xqWm4zVlg5Z0FyUFE0QVFBLVp6Y3NWMWlVWEZUaUhVazQ4RGptQUJ5dw?oc=5",
+    "date": "Mon, 24 Aug 2026 13:17:00 GMT",
+    "summary": "",
+    "source": "한겨레"
+   },
    {
     "title": "[365 인물전망대] 8월 24일-정성호 전 법무부 장관",
     "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBkUWVXMk5EMEZ0TmFoYjBKbHRsSnNGVmx2b2NyeWVLV1VIV0lTeUtkdzRaUjlKdmhxcXlwcWppQVJURGljUVFBek9jSkxpUUtvRlN6U1V3R2tHY0hiWG5jRzRweTlsMExlUXZrNA?oc=5",
     "date": "Mon, 24 Aug 2026 12:36:53 GMT",
     "summary": "",
     "source": "sideview.co.kr"
+   },
+   {
+    "title": "이 대통령, 정성호 사의 수용 왜?…공소청·중수청 출범 앞 법무부 조직 안정화",
+    "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE05RVZFeE1yVTI1TFFEOExuUDhIV3BVTy1SVGhzaDI1Vkh4MDZpM0REM040TV9OY1piOExlNk1lY1E0T1VrNjZPVkRwNzBOQjVFVG9hakJOX01memJnaERpNHNxRWZhSlNYUnJrV3NiVDEyN282?oc=5",
+    "date": "Mon, 24 Aug 2026 12:14:00 GMT",
+    "summary": "",
+    "source": "한겨레"
    },
    {
     "title": "법무부 떠나는 정성호 합수본 근거 등 국회서 논의해야",
@@ -383,20 +397,6 @@
     "date": "Mon, 24 Aug 2026 11:20:00 GMT",
     "summary": "",
     "source": "Chosunbiz"
-   },
-   {
-    "title": "이 대통령, 정성호 사의 수용 왜?…공소청·중수청 출범 앞 법무부 조직 안정화",
-    "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE05RVZFeE1yVTI1TFFEOExuUDhIV3BVTy1SVGhzaDI1Vkh4MDZpM0REM040TV9OY1piOExlNk1lY1E0T1VrNjZPVkRwNzBOQjVFVG9hakJOX01memJnaERpNHNxRWZhSlNYUnJrV3NiVDEyN282?oc=5",
-    "date": "Mon, 24 Aug 2026 11:14:00 GMT",
-    "summary": "",
-    "source": "한겨레"
-   },
-   {
-    "title": "떠나는 정성호 “대법원, 대통령 임명권 존중해 대법관 문제 해결해야”",
-    "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE1xamNjTnFtSDdkcUI1d0dIYWc0Y3V2NzRNcDFxN3FNTFBrV0M1ZllpUTNCMDFjQ1ZSWXZISzVpbnZKd3QzVEU1a0xqWm4zVlg5Z0FyUFE0QVFBLVp6Y3NWMWlVWEZUaUhVazQ4RGptQUJ5dw?oc=5",
-    "date": "Mon, 24 Aug 2026 11:12:00 GMT",
-    "summary": "",
-    "source": "한겨레"
    },
    {
     "title": "마지막 퇴근길 오른 정성호… “국회서 법무부 신뢰 회복 도울 것”",
@@ -442,7 +442,7 @@
    },
    {
     "title": "법무부, 주한미군 수용자 구금시설 최저기준 58년만 개정",
-    "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1BMmM3Wi1nd1ozYVNVVEExNDhacEhPeE83R0huM0lVcUVleTE0d3ZSVzdMbUh2a0lIclV2RUdaTU93N1FSd2poZjNhY1BBZTdYRnVfRkg4VXlfMEnSAWBBVV95cUxQZGd3Y00yMkhxbGktSFVxenVDTU0tWlFINzU5V1FXVEFReFVtb2s3TmRWT2tBcVNFaVFrNDV4NG9FTVJDYUpjT2dKa0hldFhCVmcwSVJvS0hQTUhSaHc2TGM?oc=5",
+    "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBkZ3djTTIySHFsaS1IVXF6dUNNTS1aUUg3NTlXUVdUQVF4VW1vazdOZFZPa0FxU0VpUWs0NXg0b0VNUkNhSmNPZ0prSGV0WEJWZzBJUm9LSFBNSFJodzZMY9IBYEFVX3lxTFBkZ3djTTIySHFsaS1IVXF6dUNNTS1aUUg3NTlXUVdUQVF4VW1vazdOZFZPa0FxU0VpUWs0NXg0b0VNUkNhSmNPZ0prSGV0WEJWZzBJUm9LSFBNSFJodzZMYw?oc=5",
     "date": "Mon, 24 Aug 2026 09:58:17 GMT",
     "summary": "",
     "source": "연합뉴스"
@@ -548,11 +548,11 @@
     "source": "한국방송뉴스"
    },
    {
-    "title": "관세청, 더 안전하게 지키고, 더 편하게 누리는 국민 맞춤형 통관의 시작",
-    "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTFBlbUZ6dG9YNFNrdWRGZ3FPRXI4QWFXZFVUVE1JWXBlbG4tRDFrNF9yS2hQc0l1RWJCNlRqSU8tVzNxN0VRX3c?oc=5",
-    "date": "Mon, 24 Aug 2026 10:37:00 GMT",
+    "title": "더 안전하게 지키고, 더 편하게 누리는 국민 맞춤형 통관의 시작",
+    "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5DMTdsSXgyYmdHeDNGSTA5Q2tQRVdQZkVkV0JzRGJfeEN4dlJ3SmpMU05HcFFYaXA2M2NzRktWUHR2eklkTzBpQW1lMEdWajBHMlV6cDRETXBqbzRXZWVmZHdB?oc=5",
+    "date": "Mon, 24 Aug 2026 11:10:00 GMT",
     "summary": "",
-    "source": "케이에스피뉴스"
+    "source": "서울Pn"
    },
    {
     "title": "금융위원장 \"이주비대출 LTV 산정 기준은 조합원 분양가\"",
@@ -668,7 +668,7 @@
    },
    {
     "title": "금융위·금감원 지방이전설에…이억원 \"아직 확정된 건 없다\"",
-    "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBBMDdfb2E1V3d5dTR2N1Q2ODBjcnc4RnI5OHRqM29ZUmhfc3RFZms3dkZkZVk2OWozNHR0emp6VkYyWElMNUFPOUhEZG9qYjdxcVF0S0E4N2VnaFFfZWlhSg?oc=5",
+    "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5Edmw0M1VmSk90MF9VdHBRczBkVkNCNXdyQ3hocl8wa1F2ZWFFc3ozOFVTZDk0WW8zSW1manFpUTlNQlZrUk4xZ1daM1FOOFU5NzNv?oc=5",
     "date": "Mon, 24 Aug 2026 07:55:00 GMT",
     "summary": "",
     "source": "네이트"
@@ -696,10 +696,10 @@
    },
    {
     "title": "수개월 끌던 '두 가지 숙제'…금융위, 다음달 결론낼 듯 [금융당국 백브리핑]",
-    "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBtUFh1ZXRLdjRyRXJkeXctX3BGUnJIemdnQ0E5VWhsS0MxY1AxLXBRSk1aWHRWekt1b3o3d1dpd3BabHpManNhTW1Mb20zWndPa2NJdVZjTHkzQQ?oc=5",
-    "date": "Mon, 24 Aug 2026 07:40:50 GMT",
+    "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE15bWQ1cFUza0I4TVc5bkpZS0Q4S3RnYnB3TDhWSmdIbTRFMVdoLXo2OWV6QTJxWTJIRHotVThwZ19CdkFQRE5CdXlQenZObEtzSHo0?oc=5",
+    "date": "Mon, 24 Aug 2026 07:41:00 GMT",
     "summary": "",
-    "source": "한국경제"
+    "source": "네이트"
    },
    {
     "title": "\"해외직구 때 통관부호 도용 차단\"…정부 `일회용 인증번호` 도입",
