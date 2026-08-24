@@ -1,7 +1,14 @@
 {
- "updatedAt": "2026-08-24T20:04:00.041Z",
+ "updatedAt": "2026-08-24T20:50:20.255Z",
  "groups": {
   "tax": [
+   {
+    "title": "[경제 단신] 네이버,경찰청·국세청 사칭 메일 주의보 외",
+    "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE81OUNsQTJPbHFtTW55NVFtanVYMXc4RUJVWUFWYmJhMFlEdEVmSGNQaFZKQldLTGdMaGhibXRqUkx4dDJEMGxBMnVablVQcHJZTVZXMElTdzR0cEQyRm9HV3ZfdkV2ZVllY3VR0gFUQVVfeXFMTW5XQkhsaDBINzZnWWJmbG56ajMwb1hPeG1YblNFTVpZX0V0VURyT2Z5eXFRZ3FuQlNYN3g4UUtEdFcwM25ZT19tQ1M3LVA2azZNTVgt?oc=5",
+    "date": "Mon, 24 Aug 2026 20:00:00 GMT",
+    "summary": "",
+    "source": "세계일보"
+   },
    {
     "title": "[단독] 국세청, 국세외수입 수납률 4년째↓… 상반기도 0.8% 그쳐",
     "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5JRDE2T2dDel90cU5KVWlGd3llaU1vekNodGlHLVRDRDdfUzlOYkViemNNbUNjbUVtVjBLanF2V3BocTI0T1ZkU09acXhLV3c?oc=5",
@@ -150,11 +157,11 @@
     "source": "네이트"
    },
    {
-    "title": "국세청, 거제·통영 호우 피해 납세자 세정지원…납부기한 최대 2년 연장",
-    "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5haWNab1EtT0kxbFJoell6S254Nm5BZUY4enItOXBiOVhLbzNTZENMeVBHWC1fYTFKdUZ3QmhYQm13T2JjaGZ4RUFQRVhtMTRnLU1Z?oc=5",
-    "date": "Mon, 24 Aug 2026 03:01:00 GMT",
+    "title": "국세청, 거제·통영 특별재난지역 세금 납부기한 최대 2년 연장",
+    "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFBkejdlLXRaZ296OVlCZzI3MTdUM1lNYUEyNEVZa2RPbHZ2TlBRYk02TGlfYzl4TkRDLU9VTkw5WUw3TkV6U21zaEUxcw?oc=5",
+    "date": "Mon, 24 Aug 2026 03:01:59 GMT",
     "summary": "",
-    "source": "네이트"
+    "source": "v.daum.net"
    },
    {
     "title": "국세청, 거제·통영 특별재난지역 납부기한 연장 등 세정지원",
@@ -169,13 +176,6 @@
     "date": "Mon, 24 Aug 2026 03:00:12 GMT",
     "summary": "",
     "source": "세정일보"
-   },
-   {
-    "title": "국세청, 거제·통영 납세자 최장 2년까지 세금 신고·납부 연장",
-    "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE53eG1DQ2pXMXlDcmE1WlVUamRGajVIMW1ZQTkxYVdYWnRmOFNhTlhWRndkeU5KWEFaWFJlUG9FenA5RWRueFBUdGpTUUNhc1dfMWlVdl90VmpvZ0U1OGhGbDVsc1E?oc=5",
-    "date": "Mon, 24 Aug 2026 03:00:00 GMT",
-    "summary": "",
-    "source": "한국세정신문"
    }
   ],
   "labor": [
@@ -213,13 +213,6 @@
     "date": "Mon, 24 Aug 2026 08:44:30 GMT",
     "summary": "",
     "source": "프레시안"
-   },
-   {
-    "title": "칠곡군, 전국 지방자치단체 일자리대상 ‘우수상’ 수상",
-    "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE81dzJTQUltRkFMRTJZcm9MdDVEMUhBYXZLM3cwM2oxSHFFMDJVVWQwVVdpSm93NnhpR1dHV2tYYkNNbW9IWlV2RUtYQXBoeEM3SzVzbDdhaE5yemZrdzEtYUhETDJDOUp3UUE?oc=5",
-    "date": "Mon, 24 Aug 2026 07:52:09 GMT",
-    "summary": "",
-    "source": "hidomin.com"
    },
    {
     "title": "새벽배송부터 병원까지…노동부, 야간노동자 건강보호 대책 추진 - 머니투데이",
@@ -289,7 +282,7 @@
     "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBNdmVGTEtoa0hjR1RRVkdLWVhhaTdYcTdVRzZqUTVpUElmNzhmTnBFUTRDck4zdXFHNHpNN05wcjZwamJUdF96V0pYb2NXWEpjR2FNSGpjcFBmdkdDVmVSOXZCRFQ?oc=5",
     "date": "Mon, 24 Aug 2026 05:06:31 GMT",
     "summary": "",
-    "source": "충청탑뉴스"
+    "source": "ctnews.kr"
    },
    {
     "title": "\"야간노동자 보호 방안 마련해야\"…노사정, 간담회 개최",
@@ -353,16 +346,16 @@
     "date": "Mon, 24 Aug 2026 01:47:49 GMT",
     "summary": "",
     "source": "서남투데이"
+   },
+   {
+    "title": "'철강도시' 당진, 고용위기 선제대응지역 지정",
+    "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE03NXpkNWZVb2JiQTdBdjJSNEVKTGhJQ2pUUXNVTl91bDZwMTctTHBhcjEtNFlqRWJnU3NyWmxwbEFOOGtzZjRQQVdEV3BUX2l3Z0xV?oc=5",
+    "date": "Mon, 24 Aug 2026 01:44:00 GMT",
+    "summary": "",
+    "source": "네이트"
    }
   ],
   "law": [
-   {
-    "title": "[설명] 한국경제(8.23.) \"공정위 자료 요구에 멈춘 M&A '늦장심사'가 기업들 속 태운다\" 기사 관련",
-    "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5KTzl5OHZuZGxaZE93UEtvVHJabGRYbmpEQ2JiQ3BjSHdUV3YxOHVaNFJEb2NCa1owSFJJZDgwaWhNYWpwam1SWF9JRXhEanJsdmxud3I3QU5tUmdHckhlSFExbjF4Qzhxa2Z6cVJvZw?oc=5",
-    "date": "Mon, 24 Aug 2026 17:15:00 GMT",
-    "summary": "",
-    "source": "대한민국 정책브리핑"
-   },
    {
     "title": "법무부, 심리치료과 신설 10년... 교정 심리치료 새 도약 모색",
     "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9sQTVmX0ktZzNDWTM3N2o0SEV0Z2owM3I1QWotV1NZMk5Jd2EwMzdJSU5lVENYX1RQSTJvSTJ0Q0ZyV3FuSW9XSDJRNlcxRlJkOUhnLWdmbXBsbDFHcTBOOC1R?oc=5",
@@ -390,13 +383,6 @@
     "date": "Mon, 24 Aug 2026 14:20:38 GMT",
     "summary": "",
     "source": "sisaworld.kr"
-   },
-   {
-    "title": "정성호 \"검사·수사관 수 대폭 줄여야 된다? 전혀 모르고 하는 얘기\"",
-    "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9mWGduT0lydloxMkljd3FTcFhkOFRBTnBnSjQzRXRUNEVGNVBvLWlKU08xRDhNLVNrMUZqeDB1SGxKb1NZVHpQT05ETUdVcHNfaEdpVWR5ekY2dHdERndyNV93?oc=5",
-    "date": "Mon, 24 Aug 2026 14:19:55 GMT",
-    "summary": "",
-    "source": "매일신문"
    },
    {
     "title": "떠나는 정성호 “대법원, 대통령 임명권 존중해 대법관 문제 해결해야”",
@@ -530,6 +516,20 @@
     "date": "Mon, 24 Aug 2026 09:34:07 GMT",
     "summary": "",
     "source": "연합뉴스"
+   },
+   {
+    "title": "정성호 법무장관 마지막 퇴근길…\"국회로 돌아가 법무부 도울 것\" - 머니투데이",
+    "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5Gem41SW5EU0UyVzMzZGtnVVNwaDlBQ2J0RF9YMUNiTk5ZM2VMZ2ZkaVFnV3R3YnpPdlZVTzNVMWljeXRINnFHejdPN01jNEkzMTNYSTV1NjBFQVc5TkZ5V3FLdHpjb0pGRnF3WElnTmRRamh6Y09tQdIBfkFVX3lxTE9oaXljV2lYNjVpNlllNUpEcHU4V0tUakNpd2FDZW9nVXc5dk5MdTBxSUtHX3YyQ0RIcmM0T3BJTFR5amk2bEZlc0FFQkJNaUdYSWhRU1dyNVlBQXpIZVFhLTJBUm1pWkVWTFdpZm96cWlKUF9ZSDNwazRPaGd6UQ?oc=5",
+    "date": "Mon, 24 Aug 2026 09:28:23 GMT",
+    "summary": "",
+    "source": "머니투데이"
+   },
+   {
+    "title": "사직서 수리 입장 밝히는 정성호 법무부 장관",
+    "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5pSkd0cFNQUmJGdGszTXNVQ01QXzVkWVJJNlFRb2VrdGFkZjZCQnlnMHJ5NEp0M0hYZ2RHZllhQS0yWDlzYVVzb0VNekFlM2dRTm5sZW9CRGN0azVGQlZGTmFXS1BTQQ?oc=5",
+    "date": "Mon, 24 Aug 2026 09:27:43 GMT",
+    "summary": "",
+    "source": "뉴시스"
    }
   ],
   "fund": [
@@ -711,6 +711,13 @@
   ],
   "biz": [
    {
+    "title": "무늬만 창업기획자…36%는 \"작년이후 투자 0건\"",
+    "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1TNW9EMVU2c2dYSE5MbFk0YVVOXy1ONzI4aGE3Y19iNWNQYzFwcG9BRF9NWDV5Sm5ySDQwWnd5OWloYkJHT2ltU1MzSTRacGV3UUhsR01XVUdaVDk0STN0MdIBeEFVX3lxTE1tLWg0THZMVTBza1BwUlluZmlzaDJ6WkdKTnI1V3phc0M2ckkwUFBQc2pWcUF5YWVwa0RiTW5ET19GdWljRHdHTmgxdTVTSGZsV1BsdDV4eDNiNy1FWTRRY2d0bUphUGhYS3hBaTF5TkpJVlk1Qm11TQ?oc=5",
+    "date": "Mon, 24 Aug 2026 20:02:00 GMT",
+    "summary": "",
+    "source": "뉴시스"
+   },
+   {
     "title": "[이철민의 마켓 나우] 가업승계 세제개편, 아쉬운 사모펀드 배제",
     "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1WR2NweXhPZ095cWZZT1NWREJaZGVhaHNxazhCSXp6SmtDMlNuYXdzWFUyOS1GLXRlbkRuUVgzR0hNZjgycjhHalBuUXl0SVEtZ2RpOXRiaDdWWXd4ZEk0bjJ3?oc=5",
     "date": "Mon, 24 Aug 2026 15:04:00 GMT",
@@ -877,13 +884,6 @@
     "date": "Mon, 24 Aug 2026 05:09:00 GMT",
     "summary": "",
     "source": "네이트"
-   },
-   {
-    "title": "에이투지, 중기부 글로벌팁스 선정...무인 자율주행 패키지 구축",
-    "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFBIX0xaRDdaUHpIb2FVQjE3QmNJem9memZMOUwtYk9BcmIwYzBRM2VLRXlJcmdhSHRVU01Ua3BFejM5Z2tSXzFTM2Nqdw?oc=5",
-    "date": "Mon, 24 Aug 2026 05:08:08 GMT",
-    "summary": "",
-    "source": "아이뉴스24"
    }
   ],
   "money": [
@@ -1156,6 +1156,13 @@
     "source": "시사매거진"
    },
    {
+    "title": "etaxkorea",
+    "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBObk1PUVUwV3BoSW1ZYU1MV2U5SXBiNkZrZ0cyT09HT0ctMm4tZHhtVGNpSTJNaG5LUENvdzYyMjRtMVVDM0RwR0d3NVlwZTZYSVFPWVphblVGQWVCdjNoUQ?oc=5",
+    "date": "Mon, 27 Jul 2026 07:00:00 GMT",
+    "summary": "",
+    "source": "조세금융신문"
+   },
+   {
     "title": "동작세무서 찾은 안덕수 서울청장 \"부가세 신고 편안하게 할 수 있게 지원\"",
     "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBNaUgzVkNVeDljSWlYU3NKUkNKY1NWN3B5ZERVVFdqVW50ZmlWVk5zbUNsMkNfOUFHR0N0TmI1T0hhZkRsWWNOQXhrdlA1a294c2szV0tJa3BpcDhlR2F2cWp2Ui0?oc=5",
     "date": "Fri, 24 Jul 2026 07:00:00 GMT",
@@ -1231,13 +1238,6 @@
     "date": "Wed, 22 Jul 2026 02:14:51 GMT",
     "summary": "",
     "source": "intn.co.kr"
-   },
-   {
-    "title": "박종희 인천청장, 부가세 신고 현장점검 \"세정지원 세심하게\"",
-    "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5hTlkxUHdZOE1uX3MzcXdSZHBnelB4QUtBWVp5dlNOOXMxNjRHRVNWSC1RVnd2c0diUWV1VkRWNG9wSVJlRDdUSHhvSU1KWWljeU9Jb0JYZlZNQ3d3Rzg0akIwSWQ?oc=5",
-    "date": "Tue, 21 Jul 2026 07:00:00 GMT",
-    "summary": "",
-    "source": "한국세정신문"
    }
   ]
  }
