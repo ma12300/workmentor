@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-24T22:02:52.060Z",
+ "updatedAt": "2026-08-24T22:38:17.568Z",
  "groups": {
   "tax": [
    {
@@ -71,6 +71,13 @@
     "date": "Mon, 24 Aug 2026 07:00:00 GMT",
     "summary": "",
     "source": "뉴스후플러스"
+   },
+   {
+    "title": "국세청, 거제·통영 특별재난지역 세금 납부기한 최대 2년 연장",
+    "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBXX2FCay1EV00tU3VFMldMaXNrSTVyY1FOQllDQzduamhydkt0UlhaU2FGZlpXSE5PWVlmdGdObC10WVM3TWdsTHN0MzFGUzZTdXhYRVk2YkI4dkZIUTQ2X0ptZm1NaGIxcGNFZW9n?oc=5",
+    "date": "Mon, 24 Aug 2026 06:25:29 GMT",
+    "summary": "",
+    "source": "세무사신문"
    },
    {
     "title": "[세미콜론] 국세청의 ‘난제’ 명퇴제…한 명이 버티자 두 명이 ‘대기’ 상태",
@@ -150,13 +157,6 @@
     "source": "v.daum.net"
    },
    {
-    "title": "국세청, 거제·통영 특별재난지역 세금 납부기한 최대 2년 연장",
-    "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFBkejdlLXRaZ296OVlCZzI3MTdUM1lNYUEyNEVZa2RPbHZ2TlBRYk02TGlfYzl4TkRDLU9VTkw5WUw3TkV6U21zaEUxcw?oc=5",
-    "date": "Mon, 24 Aug 2026 03:01:59 GMT",
-    "summary": "",
-    "source": "v.daum.net"
-   },
-   {
     "title": "국세청, 거제·통영 특별재난지역 납부기한 연장 등 세정지원",
     "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1pLWlXcG8yYVV5OG56NkszZFFZQkdFSUNYbEhzdmtoak1sUGVfcVFpNGlXbEtpVUJDMEFxY0NTNmtfck91QjJjd0FyRUV1VEVsLXpFSDVWeGFyLTVRNWhHcklyZ0s4VzFvb2hkT3RnZ0U?oc=5",
     "date": "Mon, 24 Aug 2026 03:00:25 GMT",
@@ -180,11 +180,11 @@
   ],
   "labor": [
    {
-    "title": "'전국기능경기대회' 인천서 개막",
-    "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBnQllBWTh2eVNNQVBWOW1UeXh4OWF4RWlybnFxSFZHbHVtdEFnYXY4elNral9fWVdWbG9Pam9JNXdXdEJkbXVIcGU4eGxLb1RXRFR0ZjJiSm1BeGNEWVN2UXMyZVZvZDFNR3NvYWhLdkpfNHAtQ2lRcQ?oc=5",
-    "date": "Mon, 24 Aug 2026 21:33:00 GMT",
+    "title": "‘전국기능경기대회’ 인천서 개막",
+    "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9lbWJuMTBSYkQ1V1FtdFVBMWU2U2RCY0hDQnloSWN4a2pxVlFZN3oxck5kOW5vYTlfSjJSZkpvT3FwQnRoM3lmX0ZwOGdGejdKYWlXR2FZcWV2SjUyZFpjX0NZa0NDT0pCQ3J1NkR5eTM?oc=5",
+    "date": "Mon, 24 Aug 2026 21:30:03 GMT",
     "summary": "",
-    "source": "네이트"
+    "source": "매일노동뉴스"
    },
    {
     "title": "고용노동부, 기술의 가치, 미래의 꿈을 잇다",
@@ -206,13 +206,6 @@
     "date": "Mon, 24 Aug 2026 09:30:58 GMT",
     "summary": "",
     "source": "이로운넷"
-   },
-   {
-    "title": "인천서 제61회 전국기능경기대회 개막…전국 기술인 1677명 경쟁",
-    "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5SYW1wRWVHVnY3QnJxbDJGOUx3MnZWc25PVnlwa2Zha1pSQVVyeDI2M0E0YVJKSVpZRDRmaDBnaXZTV1FTVFhkc0UxSF9KOFBFU2tBVkg0TWxYRW9rb3RjMExHckhucVk0Rl93?oc=5",
-    "date": "Mon, 24 Aug 2026 08:44:30 GMT",
-    "summary": "",
-    "source": "프레시안"
    },
    {
     "title": "새벽배송부터 병원까지…노동부, 야간노동자 건강보호 대책 추진 - 머니투데이",
@@ -282,7 +275,7 @@
     "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBNdmVGTEtoa0hjR1RRVkdLWVhhaTdYcTdVRzZqUTVpUElmNzhmTnBFUTRDck4zdXFHNHpNN05wcjZwamJUdF96V0pYb2NXWEpjR2FNSGpjcFBmdkdDVmVSOXZCRFQ?oc=5",
     "date": "Mon, 24 Aug 2026 05:06:31 GMT",
     "summary": "",
-    "source": "ctnews.kr"
+    "source": "충청탑뉴스"
    },
    {
     "title": "\"야간노동자 보호 방안 마련해야\"…노사정, 간담회 개최",
@@ -353,6 +346,13 @@
     "date": "Mon, 24 Aug 2026 01:44:00 GMT",
     "summary": "",
     "source": "네이트"
+   },
+   {
+    "title": "당진시 철강근로자 등 3,516명에 50만원…고용위기 선제대응지역 지정",
+    "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9YQy1TcjRvRXhFUEtadk9lQldKcElzbFl6UHdJb3QxTzl3emJHREgzb3pOUE55YVMtWnpoa3c5T2VVSTFhalFRcWV2c1JvYnVpcXBwTmViN0lhX1R4R0tIR25PSnk3NDY0dGNheg?oc=5",
+    "date": "Mon, 24 Aug 2026 01:28:44 GMT",
+    "summary": "",
+    "source": "NANOOM ENERGY"
    }
   ],
   "law": [
@@ -373,7 +373,7 @@
    {
     "title": "‘연 5천 버는 캐디’ 현금만 고수하던 2兆 캐디피 시장 바뀐다...공정위 표준약관 개정 주목 - 조선비즈",
     "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOcXVzUUZZSVpIX0tKNVJaMXg0REsyN1A4NS1pUFZlODNZdTBCckFraUF4NGVOclNRZ2NtcjJvWDlHNXk0VDJ3c0h1RkRKamM3aXZIVHFGaTFHc0FCV0xHeXJQeF81SlB0YmRZSVpMTGk2a2Y5d3NiOUoxV2V2N3pqcFJkTWZWTkEzaXZTSDl2bU_SAaQBQVVfeXFMTUtyRTFjYlNaYnNSYlRGU0lOOVJHQTlKNFlvQ0JPZldZOWhlRG55dW1zVVJWX2VpR2dOMVRxb2djUFNhaGF1allidW52UmxtcVI3UktzeXNLaERVNkRRYVhveG51Um9NT2ZVTTZiTl94cFVXMVNFa0xzbXRzVlJENE9GN1JEMnU1T2pDMG5tM3Nia2UxZDhYaUFrRm1JeXR3Tzdlb0U?oc=5",
-    "date": "Mon, 24 Aug 2026 21:00:00 GMT",
+    "date": "Mon, 24 Aug 2026 21:07:07 GMT",
     "summary": "",
     "source": "Chosunbiz"
    },
@@ -519,8 +519,8 @@
    },
    {
     "title": "취재진 질문에 답하는 정성호 법무부 장관",
-    "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE14LXU0T0VVcTgwcUY1WjNSVFI1NHRtdUM3ZFZ4YVd1NzdEaUJiMFkxVkVmSUNYMHUwdnF6V0duTlZ5REQ5aVUwOXJZZw?oc=5",
-    "date": "Mon, 24 Aug 2026 09:40:27 GMT",
+    "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE9Gam5FeDhjeU1aaTBWb21sRjZha2t2a0hGUXVpUk1BeEZsZGhqY0l3OTd0dU9PT0VPOC1KdjBuazdBTnpZWUZiaGtoVQ?oc=5",
+    "date": "Mon, 24 Aug 2026 09:40:31 GMT",
     "summary": "",
     "source": "뉴스1"
    },
@@ -746,6 +746,13 @@
     "source": "코스인코리아닷컴"
    },
    {
+    "title": "[인사] 중소벤처기업부 과장급 전보(8.24일자)",
+    "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5zY2hMZE5yN1Z3elREcm85QnZsdUZwYjM2dl8tQkV3OS1NNDItUUhTenpVUllrZGRIUTRsbVpYak56UWZWU3ZqZHZlRnNlYUVjd3NReExYTHFlN3lTVWRvYw?oc=5",
+    "date": "Mon, 24 Aug 2026 11:28:15 GMT",
+    "summary": "",
+    "source": "코스인코리아닷컴"
+   },
+   {
     "title": "이재명 대통령, 정성호 법무 장관 사의 수리...사직서 제출 엿새 만에",
     "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9UZUp5bzZ5Q1FNeVVzS2g0dEI3Ri1KVjZ3U09DamNKZ3EwLTJzSVRsemhVTTIyQm50ODZ2bzZxZlkzNVNjSUplcGZuZHEwVXkydWFOVGxMZFdtel9BcHV0UQ?oc=5",
     "date": "Mon, 24 Aug 2026 08:58:48 GMT",
@@ -877,13 +884,6 @@
     "date": "Mon, 24 Aug 2026 05:09:00 GMT",
     "summary": "",
     "source": "네이트"
-   },
-   {
-    "title": "에이투지, 중기부 글로벌팁스 선정...무인 자율주행 패키지 구축",
-    "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFBIX0xaRDdaUHpIb2FVQjE3QmNJem9memZMOUwtYk9BcmIwYzBRM2VLRXlJcmdhSHRVU01Ua3BFejM5Z2tSXzFTM2Nqdw?oc=5",
-    "date": "Mon, 24 Aug 2026 05:08:08 GMT",
-    "summary": "",
-    "source": "아이뉴스24"
    }
   ],
   "money": [
