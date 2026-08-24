@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-24T19:35:25.091Z",
+ "updatedAt": "2026-08-24T20:04:00.041Z",
  "groups": {
   "tax": [
    {
@@ -289,7 +289,7 @@
     "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBNdmVGTEtoa0hjR1RRVkdLWVhhaTdYcTdVRzZqUTVpUElmNzhmTnBFUTRDck4zdXFHNHpNN05wcjZwamJUdF96V0pYb2NXWEpjR2FNSGpjcFBmdkdDVmVSOXZCRFQ?oc=5",
     "date": "Mon, 24 Aug 2026 05:06:31 GMT",
     "summary": "",
-    "source": "ctnews.kr"
+    "source": "충청탑뉴스"
    },
    {
     "title": "\"야간노동자 보호 방안 마련해야\"…노사정, 간담회 개최",
@@ -356,6 +356,13 @@
    }
   ],
   "law": [
+   {
+    "title": "[설명] 한국경제(8.23.) \"공정위 자료 요구에 멈춘 M&A '늦장심사'가 기업들 속 태운다\" 기사 관련",
+    "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5KTzl5OHZuZGxaZE93UEtvVHJabGRYbmpEQ2JiQ3BjSHdUV3YxOHVaNFJEb2NCa1owSFJJZDgwaWhNYWpwam1SWF9JRXhEanJsdmxud3I3QU5tUmdHckhlSFExbjF4Qzhxa2Z6cVJvZw?oc=5",
+    "date": "Mon, 24 Aug 2026 17:15:00 GMT",
+    "summary": "",
+    "source": "대한민국 정책브리핑"
+   },
    {
     "title": "법무부, 심리치료과 신설 10년... 교정 심리치료 새 도약 모색",
     "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9sQTVmX0ktZzNDWTM3N2o0SEV0Z2owM3I1QWotV1NZMk5Jd2EwMzdJSU5lVENYX1RQSTJvSTJ0Q0ZyV3FuSW9XSDJRNlcxRlJkOUhnLWdmbXBsbDFHcTBOOC1R?oc=5",
@@ -523,13 +530,6 @@
     "date": "Mon, 24 Aug 2026 09:34:07 GMT",
     "summary": "",
     "source": "연합뉴스"
-   },
-   {
-    "title": "정성호 법무장관 마지막 퇴근길…\"국회로 돌아가 법무부 도울 것\" - 머니투데이",
-    "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5Gem41SW5EU0UyVzMzZGtnVVNwaDlBQ2J0RF9YMUNiTk5ZM2VMZ2ZkaVFnV3R3YnpPdlZVTzNVMWljeXRINnFHejdPN01jNEkzMTNYSTV1NjBFQVc5TkZ5V3FLdHpjb0pGRnF3WElnTmRRamh6Y09tQdIBfkFVX3lxTE9oaXljV2lYNjVpNlllNUpEcHU4V0tUakNpd2FDZW9nVXc5dk5MdTBxSUtHX3YyQ0RIcmM0T3BJTFR5amk2bEZlc0FFQkJNaUdYSWhRU1dyNVlBQXpIZVFhLTJBUm1pWkVWTFdpZm96cWlKUF9ZSDNwazRPaGd6UQ?oc=5",
-    "date": "Mon, 24 Aug 2026 09:28:23 GMT",
-    "summary": "",
-    "source": "머니투데이"
    }
   ],
   "fund": [
@@ -696,10 +696,10 @@
    },
    {
     "title": "수개월 끌던 '두 가지 숙제'…금융위, 다음달 결론낼 듯 [금융당국 백브리핑]",
-    "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE15bWQ1cFUza0I4TVc5bkpZS0Q4S3RnYnB3TDhWSmdIbTRFMVdoLXo2OWV6QTJxWTJIRHotVThwZ19CdkFQRE5CdXlQenZObEtzSHo0?oc=5",
-    "date": "Mon, 24 Aug 2026 07:41:00 GMT",
+    "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBtUFh1ZXRLdjRyRXJkeXctX3BGUnJIemdnQ0E5VWhsS0MxY1AxLXBRSk1aWHRWekt1b3o3d1dpd3BabHpManNhTW1Mb20zWndPa2NJdVZjTHkzQQ?oc=5",
+    "date": "Mon, 24 Aug 2026 07:40:50 GMT",
     "summary": "",
-    "source": "네이트"
+    "source": "한국경제"
    },
    {
     "title": "이억원 금융위원장 \"올해 안에 디지털자산법 마련\"",
@@ -823,13 +823,6 @@
     "source": "뉴스핌"
    },
    {
-    "title": "오늘의 인사-국무조정실·국무총리비서실 외",
-    "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5CSW14ODRQSGRmRDJ3WlBtdW1UTC1iUDdlYXZBY1ZzTkpOUU5JbjN1M21aMFcxSV9LSnpPSWljZ0xSekZKVG9SclFSNVpybWhXaU9Ma3FjajAxZ9IBX0FVX3lxTE1wQThIVXllejhYck5vdF9xbjltMV83YUJwWjVzQ1RvV2hmN2JfUC1NZTFHOUtvb2JxREZscmhBU19rcEd2NTBTVy1UYWF0R0ljNWE4NHlkNlBmVHJBQ3RJ?oc=5",
-    "date": "Mon, 24 Aug 2026 06:35:00 GMT",
-    "summary": "",
-    "source": "경향신문"
-   },
-   {
     "title": "‘불황 극복을 위한 소상공인 대응방안’ 주제로 정책포럼",
     "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1zLTVjMGdOVlRIeVlXNFNjR0kxQjRYc05TZGcxSUdZMGRjX3RLOU9NZXNweXlTVUN2X2pqX1gtMjNCYmNuZnZWYUJzWGswZDdqSm01ejRIVkdWdnZuTGNWNkl4VTFYakVmZ0hJ?oc=5",
     "date": "Mon, 24 Aug 2026 06:23:16 GMT",
@@ -884,6 +877,13 @@
     "date": "Mon, 24 Aug 2026 05:09:00 GMT",
     "summary": "",
     "source": "네이트"
+   },
+   {
+    "title": "에이투지, 중기부 글로벌팁스 선정...무인 자율주행 패키지 구축",
+    "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFBIX0xaRDdaUHpIb2FVQjE3QmNJem9memZMOUwtYk9BcmIwYzBRM2VLRXlJcmdhSHRVU01Ua3BFejM5Z2tSXzFTM2Nqdw?oc=5",
+    "date": "Mon, 24 Aug 2026 05:08:08 GMT",
+    "summary": "",
+    "source": "아이뉴스24"
    }
   ],
   "money": [
@@ -896,7 +896,7 @@
    },
    {
     "title": "부산시, 스타소상공인 10개사 선정…성장지원금 등 지원",
-    "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE8wWmxYX2VwVW92alBzMk12ZS11bS1rN3BxT1d4WVhkUW10RFFWMUFWcUFHNkwzblZIRmtFZTBYZ2d1X0pDQk5YcDQ0LXJYUEFFRUFCZ1ZNNW9GSlV4RUJfNNIBeEFVX3lxTFBRVTBHaTV4ZlZ5NlBJNnJMS2RwOWhRTnphSHphZlE3bGw1UmoyM3FLZHR4aXpLaDRobmh1d2lmQUhRbFdDSE1KdUZRLXRNMVBxdGtnS3dNWkNsZ1BxUXpGRHhLdXlibXEtUUNDZFh0MU50cTgzdk5fUA?oc=5",
+    "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBRVTBHaTV4ZlZ5NlBJNnJMS2RwOWhRTnphSHphZlE3bGw1UmoyM3FLZHR4aXpLaDRobmh1d2lmQUhRbFdDSE1KdUZRLXRNMVBxdGtnS3dNWkNsZ1BxUXpGRHhLdXlibXEtUUNDZFh0MU50cTgzdk5fUNIBeEFVX3lxTFBRVTBHaTV4ZlZ5NlBJNnJMS2RwOWhRTnphSHphZlE3bGw1UmoyM3FLZHR4aXpLaDRobmh1d2lmQUhRbFdDSE1KdUZRLXRNMVBxdGtnS3dNWkNsZ1BxUXpGRHhLdXlibXEtUUNDZFh0MU50cTgzdk5fUA?oc=5",
     "date": "Thu, 30 Jul 2026 07:00:00 GMT",
     "summary": "",
     "source": "뉴시스"
@@ -907,6 +907,13 @@
     "date": "Thu, 23 Jul 2026 23:29:00 GMT",
     "summary": "",
     "source": "동북일보"
+   },
+   {
+    "title": "강북구, 혁신성장 청년 예비 소상공인 키운다… 업체당 최대 2,000만원 지원",
+    "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9PMTV0RExFX05NRDhoWGlQOHRmUVhjYXZ2bl9ZRXExWUdRZEJjdURpRGt4a3RFbDM5eXpQUk9ZcEEzak1XZUxDanZLeXgwdkVvb3VOeWlpekEzMlU3dVFfZWstNzFESlZ4U0RONw?oc=5",
+    "date": "Wed, 22 Jul 2026 07:00:00 GMT",
+    "summary": "",
+    "source": "서울포커스"
    },
    {
     "title": "강북구, 혁신성장 청년 예비 소상공인 키운다… 업체당 최대 2,000만원 지원",
@@ -1028,6 +1035,13 @@
     "source": "농민신문"
    },
    {
+    "title": "소상공인 노린 정책자금 피싱 주의…소진공, 피해 선제 차단 나서",
+    "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9zYTNYUjFLejY0WTR5b0ZQa2ZYVDRrWkd2TkdFZ0hzRDNmM2R6YjJwWGNXM1E4NUZuamprRTRZVEVNWXoxWGpUTFYtblliUkNpRFVhdTBFWmpXLUpVNHlzbUlmX3I5Q0U?oc=5",
+    "date": "Fri, 10 Apr 2026 07:00:00 GMT",
+    "summary": "",
+    "source": "시사캐스트"
+   },
+   {
     "title": "소상공인24 지원금 정책자금 신청",
     "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE0zVUc2MVJzNDFsX05vcHhoWTZNLTluR2FyWUZrb0JVNk5pWVZJQ2w5MkJ3T290MWM5RXpzRXZfWXVTdW5HaE1OMHF5OXFMWjgyeEE?oc=5",
     "date": "Tue, 07 Apr 2026 07:00:00 GMT",
@@ -1042,25 +1056,11 @@
     "source": "브런치"
    },
    {
-    "title": "전쟁 추경 소상공인 지원금 신청 방법, 대출 신청 방법",
-    "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9NVmxEWGlRQnI3aFlCOF9PS2IyUGpNOXJidUNYNk5XQllTd1M1bWRJbTZoN0twYUhKSTdpMnBoRVF1ZlhKaFVUcHJ5c18wSXZBS1BF?oc=5",
-    "date": "Mon, 06 Apr 2026 07:27:58 GMT",
-    "summary": "",
-    "source": "브런치"
-   },
-   {
     "title": "[단독] ‘모두의 창업’ 올해 2~3번 더… 전쟁 추경에 1550억 챙겼다",
     "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQa0xLZE43bW1PbzVjMWN6b05EQlFvcndjbGx0Wm5IZXgtVjRmdS1JSnE5SG9EUUVjaWNCdXhJSHJ0eko3Q2hqWk5odUpzUkJVN1ExU3lVLUszMGk3eHNyTTVpZzhYczlVZC1lVlpacWpLLVp5TDZ2RXNSczhxb2NYRDZlNm9EWHpt?oc=5",
     "date": "Tue, 31 Mar 2026 07:00:00 GMT",
     "summary": "",
     "source": "조선일보"
-   },
-   {
-    "title": "'40만 원 지원·250개 업체 선착순 모집'…시, 소상공인 창업 초기 인허가 비용 지원",
-    "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE15X29WRU9ZNVU1RHBtMEZPSU9PZkdIUTd6VlNCUV9CRnBQX1RzLVZDRjRrOXktRUNsNkdFNFp4NVl4cUNXRDExalZFdlFlYnVPV0hiS3RlVnhqUEdIM2JxVTQ0SGRYeTVBamgycmF5ONIBc0FVX3lxTE4wU2cyaGY5eXY3dHNtRTF3SFpzby10TGc5akZ3OVA4Qy1HQzM3US01aFhwV2YzMTNWSkpydTV2SE8zOUs0Qk9saGQwakxOS1dIWU5ka3RmUkJJUzU0R2ptOHQ4TzViSkFKWWhZaEZHeTlmLW8?oc=5",
-    "date": "Wed, 25 Mar 2026 07:00:00 GMT",
-    "summary": "",
-    "source": "남동뉴스"
    }
   ],
   "guide": [
@@ -1156,13 +1156,6 @@
     "source": "시사매거진"
    },
    {
-    "title": "etaxkorea",
-    "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBObk1PUVUwV3BoSW1ZYU1MV2U5SXBiNkZrZ0cyT09HT0ctMm4tZHhtVGNpSTJNaG5LUENvdzYyMjRtMVVDM0RwR0d3NVlwZTZYSVFPWVphblVGQWVCdjNoUQ?oc=5",
-    "date": "Mon, 27 Jul 2026 07:00:00 GMT",
-    "summary": "",
-    "source": "조세금융신문"
-   },
-   {
     "title": "동작세무서 찾은 안덕수 서울청장 \"부가세 신고 편안하게 할 수 있게 지원\"",
     "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBNaUgzVkNVeDljSWlYU3NKUkNKY1NWN3B5ZERVVFdqVW50ZmlWVk5zbUNsMkNfOUFHR0N0TmI1T0hhZkRsWWNOQXhrdlA1a294c2szV0tJa3BpcDhlR2F2cWp2Ui0?oc=5",
     "date": "Fri, 24 Jul 2026 07:00:00 GMT",
@@ -1238,6 +1231,13 @@
     "date": "Wed, 22 Jul 2026 02:14:51 GMT",
     "summary": "",
     "source": "intn.co.kr"
+   },
+   {
+    "title": "박종희 인천청장, 부가세 신고 현장점검 \"세정지원 세심하게\"",
+    "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5hTlkxUHdZOE1uX3MzcXdSZHBnelB4QUtBWVp5dlNOOXMxNjRHRVNWSC1RVnd2c0diUWV1VkRWNG9wSVJlRDdUSHhvSU1KWWljeU9Jb0JYZlZNQ3d3Rzg0akIwSWQ?oc=5",
+    "date": "Tue, 21 Jul 2026 07:00:00 GMT",
+    "summary": "",
+    "source": "한국세정신문"
    }
   ]
  }
