@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-24T17:17:53.443Z",
+ "updatedAt": "2026-08-24T17:51:32.477Z",
  "groups": {
   "tax": [
    {
@@ -181,10 +181,10 @@
   "labor": [
    {
     "title": "고용노동부, 기술의 가치, 미래의 꿈을 잇다",
-    "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9oLUVjQVFvQlY3QnFWLWctSnJxb3FsSEtXc2pNSkFoMzMtaUNzQ1MxeTkyMFdnWjJtemY4M1ZhbDBzaldTdWVXWFZrc2VwaGNVMEY1cWJLVWVzbTdySk9rdHdnTDR0NjA?oc=5",
-    "date": "Mon, 24 Aug 2026 10:38:40 GMT",
+    "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE56dVpZSDZRM0VTaXBfSi0ya0tjX1JnY19Nd09FemJlYkJ1U1VOSndVbzZZc21uR2k0dnZKTmFKRV9fNE5FU0NELW5DSTM?oc=5",
+    "date": "Mon, 24 Aug 2026 10:38:00 GMT",
     "summary": "",
-    "source": "hkilbo.kr"
+    "source": "시사일보"
    },
    {
     "title": "노봉법 ‘쟁의 범위’ 놓고 딜레마 빠진 노동부",
@@ -213,6 +213,13 @@
     "date": "Mon, 24 Aug 2026 08:44:30 GMT",
     "summary": "",
     "source": "프레시안"
+   },
+   {
+    "title": "부산시, ‘전국 지자체 일자리대상’ 4년 연속 수상",
+    "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE96cFR6VzEzOFBQOGtHODRMQld4UmQ0NE9nVUNJNHFyMTlXdlVUYlJCeHhRVlluNGVWM3pmaDZ1RmhWc3ZSYTFfYjIycURGamV2MlBBU1JQdTlnZXdyc1ZoRE5DVmZnT1dXNlHSAW5BVV95cUxPWThSVTZPaWRCNEdaaktTWjY0MXRZYWZLM2tWb0ZFSlY1TDgyVTNCWnFEa25yUGxNbDZlUkhCdjBUTE9mRGlXUFBSZ2tkdGNtcTNNM0JPMXpGckw0XzhHenZ5cWI3RjY4REJIYnRrdw?oc=5",
+    "date": "Mon, 24 Aug 2026 08:39:00 GMT",
+    "summary": "",
+    "source": "iusm.co.kr"
    },
    {
     "title": "칠곡군, 전국 지방자치단체 일자리대상 ‘우수상’ 수상",
@@ -248,13 +255,6 @@
     "date": "Mon, 24 Aug 2026 07:00:00 GMT",
     "summary": "",
     "source": "매일경제 마켓"
-   },
-   {
-    "title": "제61회 전국기능경기대회 인천서 개최",
-    "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9zaTZVUmdNWXlyd0ZJTjhKbUhjME10RC1QMnhodHY1aENpdk9TOGQ4LVVYXzZWbFZqWE9KT1A5Q1p4c1kwd0txTlVJX0Q3RmdLN0RzUUVSNzNnT2x6aXJoRXg4OVhqeEZtLWVMWA?oc=5",
-    "date": "Mon, 24 Aug 2026 07:00:00 GMT",
-    "summary": "",
-    "source": "노동일보"
    },
    {
     "title": "“밤에 일하면 더 위험하다”…노동부, 야간노동 건강보호 대책 마련",
@@ -357,6 +357,13 @@
   ],
   "law": [
    {
+    "title": "[설명] 한국경제(8.23.) \"공정위 자료 요구에 멈춘 M&A '늦장심사'가 기업들 속 태운다\" 기사 관련",
+    "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5KTzl5OHZuZGxaZE93UEtvVHJabGRYbmpEQ2JiQ3BjSHdUV3YxOHVaNFJEb2NCa1owSFJJZDgwaWhNYWpwam1SWF9JRXhEanJsdmxud3I3QU5tUmdHckhlSFExbjF4Qzhxa2Z6cVJvZw?oc=5",
+    "date": "Mon, 24 Aug 2026 17:15:00 GMT",
+    "summary": "",
+    "source": "대한민국 정책브리핑"
+   },
+   {
     "title": "법무부, 심리치료과 신설 10년... 교정 심리치료 새 도약 모색",
     "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9sQTVmX0ktZzNDWTM3N2o0SEV0Z2owM3I1QWotV1NZMk5Jd2EwMzdJSU5lVENYX1RQSTJvSTJ0Q0ZyV3FuSW9XSDJRNlcxRlJkOUhnLWdmbXBsbDFHcTBOOC1R?oc=5",
     "date": "Mon, 24 Aug 2026 16:01:30 GMT",
@@ -421,17 +428,10 @@
    },
    {
     "title": "법무부 떠나는 정성호 “형소법 개정 부족한 부분, 국회서 논의”",
-    "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5yS0kyVld1dXBRVXJBN3VoR1ljbC1McDdvVUFZTGM4VWticEg3Q2p4Y3ZGVTNIM0pJRkpiLXBsajdhX0J5U3VQT0E1aXZvbl9wbnhfUWlOb3N1UGY2WjRKNVVOV0xpRWttbzIwODhn0gFyQVVfeXFMTmNKd2V5ajFuOUpsYTFLWVlWb25BRnplX1pCUDJHamhNdWVKZHFBbjJJV3ZtNDFqbmVpQWNvLUs5UnpzdktYcFRLS0VEc3QtbGptZzVyOEdiMzFFNDZkOGtlV1NxQjFiaFFhLTJNMTlBMnNn?oc=5",
+    "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5jSndleWoxbjlKbGExS1lZVm9uQUZ6ZV9aQlAyR2poTXVlSmRxQW4ySVd2bTQxam5laUFjby1LOVJ6c3ZLWHBUS0tFRHN0LWxqbWc1cjhHYjMxRTQ2ZDhrZVdTcUIxYmhRYS0yTTE5QTJzZ9IBckFVX3lxTE5jSndleWoxbjlKbGExS1lZVm9uQUZ6ZV9aQlAyR2poTXVlSmRxQW4ySVd2bTQxam5laUFjby1LOVJ6c3ZLWHBUS0tFRHN0LWxqbWc1cjhHYjMxRTQ2ZDhrZVdTcUIxYmhRYS0yTTE5QTJzZw?oc=5",
     "date": "Mon, 24 Aug 2026 11:22:12 GMT",
     "summary": "",
     "source": "법률신문"
-   },
-   {
-    "title": "정성호 “형사소송법 고민에 수면장애… 공소청 검사 많이 필요” - 조선비즈",
-    "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNZ1A1eHRvckkxQThlVGt2TXFpdjJZbFhVc3JOaVJrMl91dnVwXzVVQjJoZFNBRUozalIzcDhCMVI3eXhXblBmUk9YMFhtdUNvd01oamlVT015UE9oSThyWnpLMVZjRktvU1RKX2ktemJ4c2F0OGoySUpXdVdjUWF0VWdmZ9IBlwFBVV95cUxQY2JYTHRsbEhNYUZpM2dTY3UyWmV2ZTcyMHRZSzRjSWdfd2g1OHlHdk50TDlxLUNjZzEzdl9rcXBLLUczWTlRaE1Da25LU3ZpaWprcE14ODdEOTU3R0tMZzNoTGo4ZV9KSXhnZGlCVjhNd0prVWxKekxsM1hyZl83WTc2SHdjS3pueWhSVnduN2pYcHBRd2Jz?oc=5",
-    "date": "Mon, 24 Aug 2026 11:20:00 GMT",
-    "summary": "",
-    "source": "Chosunbiz"
    },
    {
     "title": "마지막 퇴근길 오른 정성호… “국회서 법무부 신뢰 회복 도울 것”",
@@ -533,6 +533,13 @@
    }
   ],
   "fund": [
+   {
+    "title": "이억원 금융위원장 \"잔금대출 기준 분양가·감정가, 은행 자율적 판단\"",
+    "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFA0cVVaU05vSGpsYV9iZE1wOHV5d1pRa09EMjM0RHYzeVN3WlRaV2FkZzNVdU11UGx4UUZ0S1V6cTBIWjl3YVFIUHlQajNoX1FnQ0pIOTdmb0ZjWGN4S1lINWtPTQ?oc=5",
+    "date": "Mon, 24 Aug 2026 17:43:50 GMT",
+    "summary": "",
+    "source": "조세금융신문"
+   },
    {
     "title": "이억원 금융위원장, 멀쩡한 기업 '도매금 동전주' 위험 손질 시사",
     "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBKbGRWS3c4dmVPSFNZNktxMGQzeVl3Tmk3TEpUTE1jM0tnMVVqV3FaZnhvelp6cjduc05ObW1yV3lBejNXcmlDZFN3YTFSeDlTMHp5TFdjNjh1WC1vaklkLWdQNXExSnlnekNQbVR1RGI4UTBM?oc=5",
@@ -700,13 +707,6 @@
     "date": "Mon, 24 Aug 2026 06:59:00 GMT",
     "summary": "",
     "source": "국제신문"
-   },
-   {
-    "title": "이억원 금융위원장 \"디지털자산기본법 준비 마쳐···입법 협의 속도낼 것\"",
-    "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1PLVJMZ0YtMlM2RnRtMld1TVFlcGI3d0JadTJqZlNFWU03QnhINXpyWkg4MmxHM2JCbmw1NzlJWFJvNlkxWmFua3ZiMVQ2Y01lelpMelRFWVhZaFlheE45ZVh3M1hRXzYwbmc?oc=5",
-    "date": "Mon, 24 Aug 2026 06:42:59 GMT",
-    "summary": "",
-    "source": "뉴스웨이"
    }
   ],
   "biz": [
@@ -737,13 +737,6 @@
     "date": "Mon, 24 Aug 2026 11:28:15 GMT",
     "summary": "",
     "source": "코스인코리아닷컴"
-   },
-   {
-    "title": "제주창조경제혁신센터, ‘혁신 소상공인 AI 활용지원 사업’ 매칭데이 성료",
-    "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE1kSDZkT1VzaHJwUUhIWS01bWFJVU5JY3gyRWZuS0JGdng3UjdsSWF2WmxvaVV6Y295VzhLc2lwMmN3aVp1U3ZN?oc=5",
-    "date": "Mon, 24 Aug 2026 10:49:00 GMT",
-    "summary": "",
-    "source": "정필"
    },
    {
     "title": "이재명 대통령, 정성호 법무 장관 사의 수리...사직서 제출 엿새 만에",
@@ -884,6 +877,13 @@
     "date": "Mon, 24 Aug 2026 05:25:41 GMT",
     "summary": "",
     "source": "팍스경제TV"
+   },
+   {
+    "title": "무신사, 중기부·코스맥스와 '신진 K뷰티' 판로 넓힌다…참여 브랜드 거래액 790%↑",
+    "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE95aG0xcnltcXJvTG1Obkg5dEdTa0RVOExNMU9VU3BWTDV2bTQ4SkdwYnNWaUlWako1dE4zSFJfeDFjV0ljRnBfcW9MbVFFanBadnJDaWxHS2FyNXczeWw4b3psTzBldmxfcG5J?oc=5",
+    "date": "Mon, 24 Aug 2026 05:11:02 GMT",
+    "summary": "",
+    "source": "뉴스저널리즘"
    }
   ],
   "money": [
@@ -1093,13 +1093,6 @@
     "source": "경제시그널"
    },
    {
-    "title": "2026 부가세 수정신고 경정청구 기한후 신고 방법 안내",
-    "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNdTNiN3E1LVdiT2lBcFVaY2xURjl6eDV5REptZ09lV1RkMnZwZldhbWI4U2FVSURnYWJvQzN3OXZ2dU1QM09SdGNsWlhRLURzQ212S0JVZW9KRjgxb3JCX0FISEJiWHZNeS1tV1NXMlRSYWl0Y0xoNnptTFZ5dnNMLWJ5a2x5NG8?oc=5",
-    "date": "Sat, 15 Aug 2026 06:52:00 GMT",
-    "summary": "",
-    "source": "네이버 프리미엄콘텐츠"
-   },
-   {
     "title": "쌤157 “7월 부가세 신고, 40대 이상 76.8%”",
     "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE0ydVRzeEZWY2xmd1NsSlFrRXpUZW50WG9yYXhOMkJDV2Z0bWJDMmhNWl9kNHpvcFkwZVNfakx6U3ZJVWRDa2x4SEpTdmM0aUlJRklrNk1rOHRVRHktVU91V045UWJKS2oycER30gFvQVVfeXFMTXR6UzJnNkhIeW1DOHF1UlZuRjlEdEd5REppSzFUSG5LX3NjY1F6WlBnVV9GeW9jc3ZoTUE1d0pXZC1iaUp6RVRwZVNUSGVxT1ZCSldrcGlqSjY3Rklnb0JXb3VtdU92RDF6MGhaMlFZ?oc=5",
     "date": "Tue, 11 Aug 2026 02:32:39 GMT",
@@ -1161,13 +1154,6 @@
     "date": "Mon, 27 Jul 2026 07:00:00 GMT",
     "summary": "",
     "source": "시사매거진"
-   },
-   {
-    "title": "etaxkorea",
-    "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBObk1PUVUwV3BoSW1ZYU1MV2U5SXBiNkZrZ0cyT09HT0ctMm4tZHhtVGNpSTJNaG5LUENvdzYyMjRtMVVDM0RwR0d3NVlwZTZYSVFPWVphblVGQWVCdjNoUQ?oc=5",
-    "date": "Mon, 27 Jul 2026 07:00:00 GMT",
-    "summary": "",
-    "source": "조세금융신문"
    },
    {
     "title": "동작세무서 찾은 안덕수 서울청장 \"부가세 신고 편안하게 할 수 있게 지원\"",
@@ -1238,6 +1224,20 @@
     "date": "Wed, 22 Jul 2026 07:00:00 GMT",
     "summary": "",
     "source": "조세금융신문"
+   },
+   {
+    "title": "김지훈 중부청장, ’26년 1기 확정 부가세 신고현장과 체납관리단 방문·현장소통",
+    "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5rNk9QYWtMd2QwQ0xxVUotNTQteFB6ZFJNODdkWWI5dWlrYlJUcG1TLUFkQWt2NkZNemIyLTRBWUJEazFjUUIxMloyVnZ1NnVRMlNzU2NIbkZJajVaSDBTNWlwc0Qtdm16Mnc?oc=5",
+    "date": "Wed, 22 Jul 2026 02:14:51 GMT",
+    "summary": "",
+    "source": "intn.co.kr"
+   },
+   {
+    "title": "박종희 인천청장, 부가세 신고 현장점검 \"세정지원 세심하게\"",
+    "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5hTlkxUHdZOE1uX3MzcXdSZHBnelB4QUtBWVp5dlNOOXMxNjRHRVNWSC1RVnd2c0diUWV1VkRWNG9wSVJlRDdUSHhvSU1KWWljeU9Jb0JYZlZNQ3d3Rzg0akIwSWQ?oc=5",
+    "date": "Tue, 21 Jul 2026 07:00:00 GMT",
+    "summary": "",
+    "source": "한국세정신문"
    }
   ]
  }
