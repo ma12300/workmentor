@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-25T16:49:41.141Z",
+ "updatedAt": "2026-08-25T17:36:53.807Z",
  "groups": {
   "tax": [
    {
@@ -64,13 +64,6 @@
     "date": "Tue, 25 Aug 2026 11:40:39 GMT",
     "summary": "",
     "source": "데일리한국"
-   },
-   {
-    "title": "국세청, 법인 보유 고가주택 등 사적사용 제1차 50개 업체 세무조사 실시",
-    "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9FdWxQaXI3OHBRSHZyTVI2RHdwV2t4dmxIZmJkQlRPWEhxUzkyUWNWRHpfSWlEbHNRYmNveWt4VFFiSTlsZUNhek5qU3Q3MDUyRUE1YlZZZVRrSGk0dkZOR0F6VHZWa3kyX3dKcUJ5Ulg?oc=5",
-    "date": "Tue, 25 Aug 2026 11:10:04 GMT",
-    "summary": "",
-    "source": "프레스뉴스"
    },
    {
     "title": "국세청, 소노그룹 세무조사…250억 유엔빌리지 ‘황제사택’ 의혹",
@@ -176,6 +169,13 @@
     "date": "Tue, 25 Aug 2026 08:15:02 GMT",
     "summary": "",
     "source": "ebn.co.kr"
+   },
+   {
+    "title": "국세청, ‘황제사택’ 대기업 5곳 세무조사…총 탈루혐의 1.9조원",
+    "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5wa21mdDZiVFN6TGRWaGMwelYxOV9fWVVYTDdkU2h4YzBZYWhOcjRoRnNVRmNDbW0yOTk1NngyVVdDOVVIc2w0WWN2RHdpeVgxMEo2MmpDbmpzbS1KekZuY1lSS3NMeDNKYWNhZFhn?oc=5",
+    "date": "Tue, 25 Aug 2026 08:13:09 GMT",
+    "summary": "",
+    "source": "이지경제"
    }
   ],
   "labor": [
@@ -357,6 +357,20 @@
   ],
   "law": [
    {
+    "title": "[설명] 이데일리(8.25.) \"위법 맞지만 과징금 산정 부실...공정위, 돌려준 과징금 1070억 넘었다\" 기사 관련",
+    "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5MUGJleFoyaVZqajFZa2lrU190X0NRMnUxakFSU0l0a2lqelRKSXpYcjR3SFBxbHBVeUpPb3NkeElSdFJscEtGd1doOG9XRjBPUWRIYjZlamdFdGxaRk11eFRJZTlRUUxMMGFrZDNrMA?oc=5",
+    "date": "Tue, 25 Aug 2026 16:48:05 GMT",
+    "summary": "",
+    "source": "대한민국 정책브리핑"
+   },
+   {
+    "title": "쿠팡, 공정위 현장조사 거부‥초유의 빈손 철수",
+    "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5FTGJrQkM4aVpvNFVJLVdPWURaVk1wVlNvSXI0RFZ5VlRKRVZTajVKeWUzbDdwZlotSDhOU3lHb3FZVXRxSFRXS05ObGtHcWM?oc=5",
+    "date": "Tue, 25 Aug 2026 16:28:07 GMT",
+    "summary": "",
+    "source": "v.daum.net"
+   },
+   {
     "title": "쿠팡 반발로 공정위 '빈손' 철수…역대 처음",
     "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1zSm5FUjd2UzVseHh1ME04a2ltNTl3N2RCQUpyM0ZvRkFuT3M0TWR6dnBoLUZZLUkzZzRPMWJ5TVYxUzZqZndrWXA5alJiNUxIWmZN?oc=5",
     "date": "Tue, 25 Aug 2026 15:58:00 GMT",
@@ -390,6 +404,13 @@
     "date": "Tue, 25 Aug 2026 13:52:19 GMT",
     "summary": "",
     "source": "쿠키뉴스"
+   },
+   {
+    "title": "“7일 전 통지했어야”…쿠팡, 공정위 현장조사 거부하고 소송",
+    "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFB2SldxTVRkNGhZSHpFVXRuRU5YZC1pRE9GRDgzUDg1LTJEOXVkNGxlMG1sVUVpVHlmdURvWkJadU4yOFN0VHY2MzBtTkcySUtlLXI2cw?oc=5",
+    "date": "Tue, 25 Aug 2026 13:48:22 GMT",
+    "summary": "",
+    "source": "매일경제"
    },
    {
     "title": "쿠팡 거부에 공정위 현장조사 철수...초유의 사태",
@@ -509,27 +530,6 @@
     "date": "Tue, 25 Aug 2026 09:31:00 GMT",
     "summary": "",
     "source": "연합인포맥스"
-   },
-   {
-    "title": "쿠팡, 공정위에 현장조사 취소소송 \"조사 대상자 권익 보장해야\"(종합)",
-    "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFA1MmFHZ0pzZzJpZExwOUlLMi1VUmplOTFCR2tHODV2cjNNekxIR2R1a21ROTRnVlhOd3k3cnEwT0o5ZmNobXJMazNydVQ4MUw3TVoya2hFUTFqMGdXMGtF0gFkQVVfeXFMUFlNVm5oSG56cGpJb3RLVzlKak1LUzdFZTFDakxKQzJzODRNYVN1c3dyV2tTWEp0bHJqZWJsdW93Yk1UdFFDOEozaXU2QlFJSlFXWl9pelo4QmhjQkJFYU1ZaU8wag?oc=5",
-    "date": "Tue, 25 Aug 2026 09:27:03 GMT",
-    "summary": "",
-    "source": "뉴스1"
-   },
-   {
-    "title": "쿠팡 조사 거부에 공정위 ‘빈손 철수’…역대 처음",
-    "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9RX043NFFlUVFySkZZWXl3YmVrVnpQS25VT1dsZ0lndWNyZFRDM3poV3E4S0Y2VE1MU3gtZldGSjBHZEZHa19SeE5wN0RjZjJRM1RqWXBua3Nia2FxUTExaHRuZGszRGZCY1pIZzI2YUlOR296cVHSAWZBVV95cUxPXzBfVVY4elVuMThUTURQX2IxaFcyYVdabUJXUVlpVVhyNDVZVS04SVJkX0JPYWI2U1haSkdHNTl6czU1aWpHcThDekdWRHFyOHB0VmotWlk1ZWROOGFPUmpDcXdRQkE?oc=5",
-    "date": "Tue, 25 Aug 2026 09:21:00 GMT",
-    "summary": "",
-    "source": "동아일보"
-   },
-   {
-    "title": "“적법한 절차 어겨”…쿠팡, 공정위 현장조사에 법적 대응",
-    "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE16emZITTZ0RlRYUjY4NFBOVFJrQm9Xel96S3MtZUsyU2xOeWF0c1BuZXhUUGFXRWE2Y3MyMDhwWURXZ3pYQjhLVFQ1YmtkR2ZCZ2c?oc=5",
-    "date": "Tue, 25 Aug 2026 09:20:07 GMT",
-    "summary": "",
-    "source": "서울경제"
    }
   ],
   "fund": [
@@ -718,6 +718,13 @@
     "source": "누리일보"
    },
    {
+    "title": "공영홈쇼핑, 추석 앞두고 모바일 주문 10% 할인 혜택",
+    "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5IdUpCOHhJbXRMR2ZZU2FadWpGYkxBNUVzMVFPUnVVTDNhSmhiNGJuTWsxSFdHajNlRTVHVmRjMXNTOE9Mb3A3TldvUnJhWlpuXzJ3cmRIRUN6ZHozSE9QbXVMallUM1R2VjgzWjNDdWlRUVBJ?oc=5",
+    "date": "Tue, 25 Aug 2026 10:59:11 GMT",
+    "summary": "",
+    "source": "부산일보"
+   },
+   {
     "title": "중소기업 우수 제품, 추석 명절선물로 딱!",
     "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9TekdiaElzcHJvSV9MQXVDLU9ZUzRqN3J3cmZQQ1Z1N2lkSEdMdV8zZ0FDdkVXSUZ2dkZVYnY2Q3NxS0FBcThHMDNGcDZsUUtmR21BN0U3OUxraVRqOV9XOEtxeE56ZzBTN0E?oc=5",
     "date": "Tue, 25 Aug 2026 10:28:00 GMT",
@@ -730,6 +737,13 @@
     "date": "Tue, 25 Aug 2026 10:21:29 GMT",
     "summary": "",
     "source": "디지털데일리"
+   },
+   {
+    "title": "정부 “홈플러스 어떻게 되든 지원”…융자 조건 ‘파격 완화’ 검토",
+    "url": "https://news.google.com/rss/articles/CBMiowJBVV95cUxOY2VvVDJuaVIyMGFJMXVTSi1CclU0aUZuV1dBcl9yZHlrMU01aHFXMXVpb3pmV3NBZXJETnh0X09EcUhEZHB2ZV9YVU9CVUd0LWw2Tk1OSlJPS1lETV9fUkhsVGE0aGtIdW9DbmtuUWtmb3lORmNILVlXWGhXRDJOQ1hBQ0lOX2V6RDMzUmhQVGVpM25keG1FYWxsSXFEQnNnSmxoTFkyaVdxNVZZZlZWUS1uSHhrZl9XRkNxU094V2FFRWJmbXd1aGVmamdBRU9jV19jVHRtVFJQZHJPLXhpbTl5Y3JWZ0R0QktXUDBxbUJjby1HekFTZ2U0SlBQa3FTRjU4dGRFN1MwWE0zaW1KUG5VX3BmQ1hWWkZxQnNicnFvbUk?oc=5",
+    "date": "Tue, 25 Aug 2026 09:51:00 GMT",
+    "summary": "",
+    "source": "데일리안"
    },
    {
     "title": "정부 지원에도 '자금난'…홈플러스 소상공인 \"핀셋지원\" 호소",
@@ -786,6 +800,13 @@
     "date": "Tue, 25 Aug 2026 08:54:51 GMT",
     "summary": "",
     "source": "뉴시스"
+   },
+   {
+    "title": "중기부, 홈플러스 협력·입점업체들과 경영 정상화 논의",
+    "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE91eVFRcndMaXUtRU9CZEpaWmI1R1ZoeG5DZmdNRHdpb2RoNzkyNDJFc1FyUGZYc2JWN0JwN0NyeVlJMmszMlhrdTNCMDdOMWxFT3E1YjBONUY1UdIBVEFVX3lxTFB1TEJVZWlERDRNdFl6ODE5U0F4S0NSMkJrTl9EbjRXNC1JUWZBX3RmUGpxRFVuZE0wMHZtVFJqc202Y19XVW5UbEdRQU9iLUdaalNOYw?oc=5",
+    "date": "Tue, 25 Aug 2026 08:49:13 GMT",
+    "summary": "",
+    "source": "더팩트"
    },
    {
     "title": "중기부·엔비디아 인정받은 핑바, 글로벌 협업 전략으로 북미 시장 ‘겨냥’",
@@ -863,27 +884,6 @@
     "date": "Tue, 25 Aug 2026 07:17:25 GMT",
     "summary": "",
     "source": "아주경제"
-   },
-   {
-    "title": "중기부, 동종업종 재창업 인정 앞당긴다...3년→1년 단축",
-    "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1hcDlKSGNicnEtcUk2UV9rb0hQQ29ZUEdVcVpZQTJaUUMzYzVlVm1JWTBEMXE4aDlJNWQ0U1I1bmRkUzBYVE1qUWlXbzhxUHhSSWlTLXdFaXFhTE40RFFIWmFiZUk?oc=5",
-    "date": "Tue, 25 Aug 2026 07:15:07 GMT",
-    "summary": "",
-    "source": "ppss.kr"
-   },
-   {
-    "title": "인사말 하는 이병권 중기부 차",
-    "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5JcFNrOVZwaGdkMUJCblFfaEs0SHVueEFBbFVwWlE4VUZaN1ItVzdmVWZkMzV5ckVNY3F4Y1NIOGU3RDRGNHdLRFJyT1J1YWZEdXVQNEowVmRmaHREOTZtajI5LWh5ZVdmS0pUNzl2X0luQVlHZ1p2UQ?oc=5",
-    "date": "Tue, 25 Aug 2026 07:05:00 GMT",
-    "summary": "",
-    "source": "네이트"
-   },
-   {
-    "title": "중기부, ‘홈플러스 협력·입점업체 간담회’",
-    "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE1mMVg0b05zZUxFU2hmNllrRS13QWQwMTl4bklyY3VKUU1tQjI1YUx2MzF3TGY0Ull2ZUtQTVNlallRTktuUk1uUnZEcw?oc=5",
-    "date": "Tue, 25 Aug 2026 07:04:11 GMT",
-    "summary": "",
-    "source": "뉴스1"
    }
   ],
   "money": [
@@ -1107,11 +1107,11 @@
     "source": "intn.co.kr"
    },
    {
-    "title": "개정 세무사법, 효과 발휘…플랫폼, 잇달아 '오인광고' 자진 시정",
-    "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9ZRm83c1B6TDhiY3pSdEtSTkR1RXRvZGIySmNLRzFDTWdNcEh1YS05c0J6d2V0SmtEN1lxcGdyelVTd01VeDU5VG5OVmlmRkRJZlplOV9rYzAycnRRQ3RmZlB3?oc=5",
-    "date": "Mon, 27 Jul 2026 07:00:00 GMT",
+    "title": "부가세 예정신고 25일까지…'과·면세 매출 구분' 잊지마세요",
+    "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE82VWlyZjFVeXdKOXV5RVBzZFQ0NmpmQk1lWjVFaE1ZcDlaQmcyVF9tUWx4ZDhqUHJKZ2RQNGJGVjg3cFh6NGp0ak9mWHkxOFFKdXBYb3ZFMTdVelZ2MWdOTFlXWUFEWlQzWTY2YQ?oc=5",
+    "date": "Sat, 25 Jul 2026 07:00:00 GMT",
     "summary": "",
-    "source": "한국세정신문"
+    "source": "약사공론"
    },
    {
     "title": "동작세무서 찾은 안덕수 서울청장 \"부가세 신고 편안하게 할 수 있게 지원\"",
