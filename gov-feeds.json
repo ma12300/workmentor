@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-08-25T19:38:53.783Z",
+ "updatedAt": "2026-08-25T20:03:32.956Z",
  "groups": {
   "tax": [
    {
@@ -81,10 +81,10 @@
    },
    {
     "title": "국세청, 법인 보유 고가주택 등 사적사용 제1차 50개 업체 세무조사 실시",
-    "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1vYzY0R2NvU0tPSVdneWxvTlhCaVh5Zlk3UWV5T1ZEbHc2bmlxRVRlaWJsUlRNQ3ZSR00wZWE0ZTJxN0lCcEE4bXotMkpPT0dDZ0NnMHRJNDNFZHZCRTg2OXhwMHo1WE0?oc=5",
-    "date": "Tue, 25 Aug 2026 10:53:10 GMT",
+    "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTFBXOG9DdzV2Nm5md0RNQzVreG9nUU95ZE1sbkMxNWlNMFFvcnJmc0Q5TnlTSlVVaUVjZW5CM1JlWW5FYW9sRE1N?oc=5",
+    "date": "Tue, 25 Aug 2026 10:53:00 GMT",
     "summary": "",
-    "source": "hkilbo.kr"
+    "source": "정필"
    },
    {
     "title": "200억대 주택 사서 사주일가 거주…소노그룹 세무조사(종합)",
@@ -257,13 +257,6 @@
     "source": "충청타임즈"
    },
    {
-    "title": "고용부, 지역 중심 ‘전 생애 노동교육’ 추진… 간호사 괴롭힘 등 예방",
-    "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE94R1ROTnhObmtHSWVxYmtqZTJXR2JOei1WanJSa3djRy1QMC16SWxaajF1VzZJaEZtWklFbXlIaklsUXlqNk5fRnc1YmhYM0N5NmNqOVl1dGJ6QUVEdlNKU0xvRTZVVjhRUEJIZjF3?oc=5",
-    "date": "Tue, 25 Aug 2026 04:07:57 GMT",
-    "summary": "",
-    "source": "간호사신문"
-   },
-   {
     "title": "지역이 주도하는 ‘전 생애 노동교육’ 추진… 9개 지역 협의체 가동",
     "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFA0ZnVvZVN0aEowRHgySXhSOFpVTFQzUXBreHo3aFh3M3NrOFZfY1VCNTRsd2xaV3BpQWxvS2t5Rm52RVl1bklTNk5xX0tfZGo0R0M2bEFnOURRdw?oc=5",
     "date": "Tue, 25 Aug 2026 03:23:00 GMT",
@@ -353,6 +346,13 @@
     "date": "Tue, 25 Aug 2026 01:00:00 GMT",
     "summary": "",
     "source": "뉴시스"
+   },
+   {
+    "title": "일터 괴롭힘 없게 노동교육 지역단위서 실시…내년 전국 확대",
+    "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9GUE4zXzdNVHJpengwa0NKZHgxQktwMU5pTFVtRXBSSU1PblFJWGRNY2kwb2R2bDl5QTE5SXRmaWsxNVRZTzFrV3M1YTEtcUl5SWZvczFnOUFjLWRwYzNZbDlVdG9lZEtZekdzbk1n?oc=5",
+    "date": "Tue, 25 Aug 2026 00:21:34 GMT",
+    "summary": "",
+    "source": "세무사신문"
    }
   ],
   "law": [
@@ -413,18 +413,11 @@
     "source": "매일경제"
    },
    {
-    "title": "‘납품업체 갑질’ 현장조사 거부한 쿠팡…공정위, 사상 초유의 철수",
-    "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE93Wm9IZW91R04xM3lnTVBIQ0lQMXNNc1M1eUNWLXFJS2lYMmgwdGhPcnBfUVZrSFJjTV9hQU1EQlQtNGRTWGdwZHpDOHZ2RFgyVHNRcENta0M3dVdYcHhMOHNLTDFoYy1XMHFQci00RTFYQQ?oc=5",
-    "date": "Tue, 25 Aug 2026 13:07:00 GMT",
-    "summary": "",
-    "source": "한겨레"
-   },
-   {
     "title": "쿠팡, 공정위 현장조사 거부 논란…\"대규모유통업법상 처음\"(종합)",
-    "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9GWDZhTkl2SHRfNmJLbmZac3FjUnRYeE4xdGJNNDgwelZubXNsbXZVemNJYkVJOUZxeGtYMGZ2NFdWVlExMEZhblJHanJNVXc?oc=5",
-    "date": "Tue, 25 Aug 2026 12:51:56 GMT",
+    "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1GSnRNMms1cU9wMG8zcFJEYjBnSnRHWkgwRjRPS1FhUWFKWXhxTGxob0VNRFV1RGZEWmpVRWlXUXA0WFZQYWV1SVpCbTlUTU5ZdTdtZFBhSEhmSUhQMFdDSlVTTkhSdmcyWWVZTlVkTHZaMmlz?oc=5",
+    "date": "Tue, 25 Aug 2026 12:50:22 GMT",
     "summary": "",
-    "source": "v.daum.net"
+    "source": "연합뉴스 한민족센터"
    },
    {
     "title": "법무부 청소년범죄예방 시흥지구, ‘협동·배려·존중’ 청소년 농구대회",
@@ -490,18 +483,18 @@
     "source": "영남경제"
    },
    {
+    "title": "‘납품업체 갑질’ 현장조사 거부한 쿠팡…공정위, 사상 초유의 철수",
+    "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE93Wm9IZW91R04xM3lnTVBIQ0lQMXNNc1M1eUNWLXFJS2lYMmgwdGhPcnBfUVZrSFJjTV9hQU1EQlQtNGRTWGdwZHpDOHZ2RFgyVHNRcENta0M3dVdYcHhMOHNLTDFoYy1XMHFQci00RTFYQQ?oc=5",
+    "date": "Tue, 25 Aug 2026 09:57:00 GMT",
+    "summary": "",
+    "source": "한겨레"
+   },
+   {
     "title": "공정위 ‘할인비용 전가 의혹’ 쿠팡 조사 불발…절차 놓고 공방",
     "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1rWGdjWldFa0QxMFo2bWhKR2ZWWVQ0Ty1wekFHUlNNU0ZLaGp1MUhGaDFqUnBBOHpTMmdBWGs2amJXYk5TQVJDVHhsdW5JWVhFZXlqamVYRVpQeDNzemo3X3BVdmg?oc=5",
     "date": "Tue, 25 Aug 2026 09:41:00 GMT",
     "summary": "",
     "source": "서울경제TV"
-   },
-   {
-    "title": "공정위, ‘장례식장 표준약관’ 개정… 화환 임의 처분 금지·음식물 반입 기준 명확화",
-    "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE1qMmNNNGJnLWV0TUttX0hOd0VQM2trcXROLTJPR0FNSk55Zk9ZdVYyeDJKYXctdFVqRmwydTFtMFl3VUpQNWhIR2IwbEFaYktXb2VBQmJheTd2bERZMTl3VVJQU0ROd2xaYUI1Y2hDZjQyQQ?oc=5",
-    "date": "Tue, 25 Aug 2026 09:37:14 GMT",
-    "summary": "",
-    "source": "디스커버리뉴스(DISCOVERYNEWS)"
    },
    {
     "title": "쿠팡, 공정위 현장조사 첫 취소소송...\"사전통지 절차 위반\" - 머니투데이",
@@ -530,6 +523,13 @@
     "date": "Tue, 25 Aug 2026 09:31:00 GMT",
     "summary": "",
     "source": "연합인포맥스"
+   },
+   {
+    "title": "쿠팡, 공정위에 현장조사 취소소송 \"조사 대상자 권익 보장해야\"(종합)",
+    "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFA1MmFHZ0pzZzJpZExwOUlLMi1VUmplOTFCR2tHODV2cjNNekxIR2R1a21ROTRnVlhOd3k3cnEwT0o5ZmNobXJMazNydVQ4MUw3TVoya2hFUTFqMGdXMGtF0gFkQVVfeXFMUFlNVm5oSG56cGpJb3RLVzlKak1LUzdFZTFDakxKQzJzODRNYVN1c3dyV2tTWEp0bHJqZWJsdW93Yk1UdFFDOEozaXU2QlFJSlFXWl9pelo4QmhjQkJFYU1ZaU8wag?oc=5",
+    "date": "Tue, 25 Aug 2026 09:27:03 GMT",
+    "summary": "",
+    "source": "뉴스1"
    }
   ],
   "fund": [
@@ -712,10 +712,10 @@
   "biz": [
    {
     "title": "벤처투자 상반기 9조 원 회복, 구인 사업주가 먼저 챙겨야 할 비용·리스크 점검법",
-    "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE4yQWFpRTl4aF9DUVc0SjlteEEyTmR4OXBGTkFxTU13UDNsM3Y5Mm9DY253a2QyaGIzOTgzUUlORS1YSW5JZ3lrVk0tUDZES0hHQUE?oc=5",
-    "date": "Tue, 25 Aug 2026 18:51:46 GMT",
+    "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTFBKWWc5d0xhQTlXUDZVM3lIZHhtM09xSHRkZk9RcXJYMjF0WUxpVGk5dGJHaHhOdlRfTnQ5ZHdRbms5cGhxb2UwSXp3?oc=5",
+    "date": "Tue, 25 Aug 2026 18:55:08 GMT",
     "summary": "",
-    "source": "유스연합"
+    "source": "뉴스N연합"
    },
    {
     "title": "중소벤처기업부, 홈플러스 협력·입점업체 경영안정 지원에 나선다.",
@@ -1100,11 +1100,11 @@
     "source": "조세금융신문"
    },
    {
-    "title": "개정 세무사법, 효과 발휘…플랫폼, 잇달아 '오인광고' 자진 시정",
-    "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBUT2o4VG41RFN6SEpRVkxpZ3RPdjRCVnJ1ZGlEMkh6LS0yenJkbmlsYUNVUnByTnJwZmtaOUZPOHJORG9YYnpPamFQcUlJdGxUMEhSU01XTDdaQ3R4YUxySmVaM2o?oc=5",
-    "date": "Mon, 27 Jul 2026 07:00:00 GMT",
+    "title": "오상훈 부산지방국세청장, 부가가치세 신고 현장 방문",
+    "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE82aDNhV1FkT0dSd3JxNEhHeEZDdzlUZXhFV0lRcV9mVXlFWGdQcEVrbVBGdEVWaGNPQTFSVkVNTUszd2xJNmlkT2VTcFBJQTRMcmFkTXF2MkNKREc1bHBycmh4dUtfWV9RUUE?oc=5",
+    "date": "Tue, 28 Jul 2026 07:00:00 GMT",
     "summary": "",
-    "source": "한국세정신문"
+    "source": "intn.co.kr"
    },
    {
     "title": "부가세 예정신고 25일까지…'과·면세 매출 구분' 잊지마세요",
@@ -1170,13 +1170,6 @@
     "source": "조세금융신문"
    },
    {
-    "title": "김지훈 중부지방국세청장 \"체납관리분야 직원 애로사항 즉시 해소\"",
-    "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1Lc2FaeEItaU14aFg4eGZlbDN1WnVZNDNuaklubHo0U1Y3UFFISDh1UWhWck9LWnlGaWNpNnFRa0lhYXBva1c0VjdXUTBqMG9nMUhPX2VWbmo0Sjh3b0V6RXI4RTM?oc=5",
-    "date": "Wed, 22 Jul 2026 07:00:00 GMT",
-    "summary": "",
-    "source": "한국세정신문"
-   },
-   {
     "title": "김지훈 중부청장, ’26년 1기 확정 부가세 신고현장과 체납관리단 방문·현장소통",
     "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5rNk9QYWtMd2QwQ0xxVUotNTQteFB6ZFJNODdkWWI5dWlrYlJUcG1TLUFkQWt2NkZNemIyLTRBWUJEazFjUUIxMloyVnZ1NnVRMlNzU2NIbkZJajVaSDBTNWlwc0Qtdm16Mnc?oc=5",
     "date": "Wed, 22 Jul 2026 02:14:51 GMT",
@@ -1238,6 +1231,13 @@
     "date": "Wed, 15 Jul 2026 07:00:00 GMT",
     "summary": "",
     "source": "서울경제TV"
+   },
+   {
+    "title": "이달 부가세 확정신고시 유의사항 3가지",
+    "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5WNDdZYUNMRkp0VTRSUFlRZmJLVzJtaHNBMWg3R05qOE1UcEphdk0yc092WVhCRk9oYnQ0azB2bm43SzZxZXB4MVVfUk9RazBVYWRrRFE4NXJUbnA0ZlBMbkpncnc?oc=5",
+    "date": "Tue, 14 Jul 2026 07:00:00 GMT",
+    "summary": "",
+    "source": "한국세정신문"
    }
   ]
  }
