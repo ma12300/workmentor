@@ -2,6 +2,15 @@
  {
   "date": "2026-08-26",
   "kind": "market",
+  "edition": "아침판",
+  "title": "8월 26일 (수) 투자 브리핑 · 아침판",
+  "file": "briefings/2026-08-26-market-아침판.pdf",
+  "top": "솔라나 현물 ETF 5거래일 연속 자금 유입…올해 최대 3350만달러 몰렸다 - 블록미디어",
+  "count": 15
+ },
+ {
+  "date": "2026-08-26",
+  "kind": "market",
   "edition": "자정판",
   "title": "8월 26일 (수) 투자 브리핑 · 자정판",
   "file": "briefings/2026-08-26-market-자정판.pdf",
