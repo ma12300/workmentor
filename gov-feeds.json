@@ -1,20 +1,20 @@
 {
- "updatedAt": "2026-08-25T16:02:20.138Z",
+ "updatedAt": "2026-08-25T16:49:41.141Z",
  "groups": {
   "tax": [
+   {
+    "title": "200억 사택에 자녀 유학비까지…국세청, ‘법인 돈 사유화’ 50곳 정조준",
+    "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBUbDE2emJ5SXp0SlIzWDZpYW93bXJ4Z1JjeUNxQkFqeU1hYmx5eDRacXVzTElOWWRMWEplRkdOUFFwQjg3eV9ha0NUUTlWMUR6MVpnNkUybmg3ZTdINFZ0RjlWcmI?oc=5",
+    "date": "Tue, 25 Aug 2026 16:19:22 GMT",
+    "summary": "",
+    "source": "지이코노미"
+   },
    {
     "title": "국세청, 소노그룹 세무조사, 250억 유엔빌리지 주택 사주일가 사적 사용 의혹",
     "url": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE9BOTRDdkFuYVBOZnRvYWQ1Y2lJVUtVdm9TNVphVGxyWUFiajRva0lFeDZJVEpiX3I1YW4xM2hHdW1Kdw?oc=5",
     "date": "Tue, 25 Aug 2026 15:07:42 GMT",
     "summary": "",
     "source": "남다른디테일"
-   },
-   {
-    "title": "'회장님 사택은 200억 별장은 100억'...국세청 세무조사로 바닥부터 '탈탈 턴다'",
-    "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9XaFNmLTh6V21XMG9fdFBOa0JyeTliS2pvMWRtMDlibDROa19ENnFaalhRakZDb1VJVTFQREIwMXB4WkxRaTYzVzF1S3NtMTJ6bmZRbmpSR2xmZjdvTDNEUjFDaFZUNjQ1?oc=5",
-    "date": "Tue, 25 Aug 2026 15:00:00 GMT",
-    "summary": "",
-    "source": "CBC뉴스"
    },
    {
     "title": "국세청, ‘황제사택’ 정조준…1조9천억 탈루 혐의 포착해 대대적 세무조사 착수",
@@ -357,6 +357,13 @@
   ],
   "law": [
    {
+    "title": "쿠팡 반발로 공정위 '빈손' 철수…역대 처음",
+    "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1zSm5FUjd2UzVseHh1ME04a2ltNTl3N2RCQUpyM0ZvRkFuT3M0TWR6dnBoLUZZLUkzZzRPMWJ5TVYxUzZqZndrWXA5alJiNUxIWmZN?oc=5",
+    "date": "Tue, 25 Aug 2026 15:58:00 GMT",
+    "summary": "",
+    "source": "네이트"
+   },
+   {
     "title": "법무부 강릉지구위원회 플로깅 활동",
     "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFByVFRLQldOX2tGOWxnbFUzWnluMHZ5OGVtdXFyek1aYWhIVFpYdnd5TWFtSDZES0RGbFFidWpUZ1BEb0kwS1FCcmg3TVkyRDY1REZ0N2ZKUXNlZmx5X0Z4RXFlZG5XMUk?oc=5",
     "date": "Tue, 25 Aug 2026 15:02:01 GMT",
@@ -523,13 +530,6 @@
     "date": "Tue, 25 Aug 2026 09:20:07 GMT",
     "summary": "",
     "source": "서울경제"
-   },
-   {
-    "title": "법무부 전주청소년꿈키움센터, ‘차 한 잔에 담긴 예절과 배려’ 대안교육 실시",
-    "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9wOE1sc09IeUpEZHUxalptLVBxV1p2M3h4c20wdmJyV01HazBqRGtyRGFTWUJnOUhNeVpKZjB4SUxVWTdzNFZSQnJMVE9Fb1hIN0k1WHU0WFFNOWRKTUkzakFXb1JHcXA1NFE?oc=5",
-    "date": "Tue, 25 Aug 2026 09:12:26 GMT",
-    "summary": "",
-    "source": "전북도민일보"
    }
   ],
   "fund": [
@@ -732,13 +732,6 @@
     "source": "디지털데일리"
    },
    {
-    "title": "정부 “홈플러스 어떻게 되든 지원”…융자 조건 ‘파격 완화’ 검토",
-    "url": "https://news.google.com/rss/articles/CBMiowJBVV95cUxOY2VvVDJuaVIyMGFJMXVTSi1CclU0aUZuV1dBcl9yZHlrMU01aHFXMXVpb3pmV3NBZXJETnh0X09EcUhEZHB2ZV9YVU9CVUd0LWw2Tk1OSlJPS1lETV9fUkhsVGE0aGtIdW9DbmtuUWtmb3lORmNILVlXWGhXRDJOQ1hBQ0lOX2V6RDMzUmhQVGVpM25keG1FYWxsSXFEQnNnSmxoTFkyaVdxNVZZZlZWUS1uSHhrZl9XRkNxU094V2FFRWJmbXd1aGVmamdBRU9jV19jVHRtVFJQZHJPLXhpbTl5Y3JWZ0R0QktXUDBxbUJjby1HekFTZ2U0SlBQa3FTRjU4dGRFN1MwWE0zaW1KUG5VX3BmQ1hWWkZxQnNicnFvbUk?oc=5",
-    "date": "Tue, 25 Aug 2026 09:51:00 GMT",
-    "summary": "",
-    "source": "데일리안"
-   },
-   {
     "title": "정부 지원에도 '자금난'…홈플러스 소상공인 \"핀셋지원\" 호소",
     "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE02bnFHeUh0Y2d6QUkyb3J4NEI0M3Y1dC10di1FMUNKUmFaRm1FRDNrMklheEVOSmhxTk1MT1lnMTg4d2dyTTBvSFpodjlFQlk?oc=5",
     "date": "Tue, 25 Aug 2026 09:45:04 GMT",
@@ -884,6 +877,13 @@
     "date": "Tue, 25 Aug 2026 07:05:00 GMT",
     "summary": "",
     "source": "네이트"
+   },
+   {
+    "title": "중기부, ‘홈플러스 협력·입점업체 간담회’",
+    "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE1mMVg0b05zZUxFU2hmNllrRS13QWQwMTl4bklyY3VKUU1tQjI1YUx2MzF3TGY0Ull2ZUtQTVNlallRTktuUk1uUnZEcw?oc=5",
+    "date": "Tue, 25 Aug 2026 07:04:11 GMT",
+    "summary": "",
+    "source": "뉴스1"
    }
   ],
   "money": [
@@ -1100,18 +1100,18 @@
     "source": "조세금융신문"
    },
    {
+    "title": "오상훈 부산지방국세청장, 부가가치세 신고 현장 방문",
+    "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE82aDNhV1FkT0dSd3JxNEhHeEZDdzlUZXhFV0lRcV9mVXlFWGdQcEVrbVBGdEVWaGNPQTFSVkVNTUszd2xJNmlkT2VTcFBJQTRMcmFkTXF2MkNKREc1bHBycmh4dUtfWV9RUUE?oc=5",
+    "date": "Tue, 28 Jul 2026 07:00:00 GMT",
+    "summary": "",
+    "source": "intn.co.kr"
+   },
+   {
     "title": "개정 세무사법, 효과 발휘…플랫폼, 잇달아 '오인광고' 자진 시정",
-    "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBUT2o4VG41RFN6SEpRVkxpZ3RPdjRCVnJ1ZGlEMkh6LS0yenJkbmlsYUNVUnByTnJwZmtaOUZPOHJORG9YYnpPamFQcUlJdGxUMEhSU01XTDdaQ3R4YUxySmVaM2o?oc=5",
+    "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9ZRm83c1B6TDhiY3pSdEtSTkR1RXRvZGIySmNLRzFDTWdNcEh1YS05c0J6d2V0SmtEN1lxcGdyelVTd01VeDU5VG5OVmlmRkRJZlplOV9rYzAycnRRQ3RmZlB3?oc=5",
     "date": "Mon, 27 Jul 2026 07:00:00 GMT",
     "summary": "",
     "source": "한국세정신문"
-   },
-   {
-    "title": "부가세 예정신고 25일까지…'과·면세 매출 구분' 잊지마세요",
-    "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE82VWlyZjFVeXdKOXV5RVBzZFQ0NmpmQk1lWjVFaE1ZcDlaQmcyVF9tUWx4ZDhqUHJKZ2RQNGJGVjg3cFh6NGp0ak9mWHkxOFFKdXBYb3ZFMTdVelZ2MWdOTFlXWUFEWlQzWTY2YQ?oc=5",
-    "date": "Sat, 25 Jul 2026 07:00:00 GMT",
-    "summary": "",
-    "source": "약사공론"
    },
    {
     "title": "동작세무서 찾은 안덕수 서울청장 \"부가세 신고 편안하게 할 수 있게 지원\"",
