@@ -2,6 +2,15 @@
  {
   "date": "2026-08-27",
   "kind": "market",
+  "edition": "아침판",
+  "title": "8월 27일 (목) 투자 브리핑 · 아침판",
+  "file": "briefings/2026-08-27-market-아침판.pdf",
+  "top": "금·비트코인 ETF에 5일간 70억달러 유입…美 재정 우려에 '희소자산' 동반 매수 - 블루밍비트",
+  "count": 20
+ },
+ {
+  "date": "2026-08-27",
+  "kind": "market",
   "edition": "자정판",
   "title": "8월 27일 (목) 투자 브리핑 · 자정판",
   "file": "briefings/2026-08-27-market-자정판.pdf",
