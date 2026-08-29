@@ -2,6 +2,15 @@
  {
   "date": "2026-08-29",
   "kind": "market",
+  "edition": "자정판",
+  "title": "8월 29일 (토) 투자 브리핑 · 자정판",
+  "file": "briefings/2026-08-29-market-자정판.pdf",
+  "top": "국내 증시 조정에 투자자금 파킹형·커버드콜 ETF로 이동 - 피플투데이",
+  "count": 8
+ },
+ {
+  "date": "2026-08-29",
+  "kind": "market",
   "edition": "저녁판",
   "title": "8월 29일 (토) 투자 브리핑 · 저녁판",
   "file": "briefings/2026-08-29-market-저녁판.pdf",
