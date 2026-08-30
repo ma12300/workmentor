@@ -2,6 +2,15 @@
  {
   "date": "2026-08-30",
   "kind": "market",
+  "edition": "아침판",
+  "title": "8월 30일 (일) 투자 브리핑 · 아침판",
+  "file": "briefings/2026-08-30-market-아침판.pdf",
+  "top": "AI가 위성 1만기 제어 가능할까...머스크의 승부수 [김기혁의 테슬라월드] - 서울경제",
+  "count": 7
+ },
+ {
+  "date": "2026-08-30",
+  "kind": "market",
   "edition": "자정판",
   "title": "8월 30일 (일) 투자 브리핑 · 자정판",
   "file": "briefings/2026-08-30-market-자정판.pdf",
