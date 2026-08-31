@@ -2,6 +2,15 @@
  {
   "date": "2026-08-31",
   "kind": "market",
+  "edition": "아침판",
+  "title": "8월 31일 (월) 투자 브리핑 · 아침판",
+  "file": "briefings/2026-08-31-market-아침판.pdf",
+  "top": "조정장에 갈 곳 잃은 자금…파킹·커버드콜 ETF에 2.6조 몰려 [코주부] - 서울경제",
+  "count": 10
+ },
+ {
+  "date": "2026-08-31",
+  "kind": "market",
   "edition": "자정판",
   "title": "8월 31일 (월) 투자 브리핑 · 자정판",
   "file": "briefings/2026-08-31-market-자정판.pdf",
