@@ -2,6 +2,15 @@
  {
   "date": "2026-09-01",
   "kind": "market",
+  "edition": "아침판",
+  "title": "9월 1일 (화) 투자 브리핑 · 아침판",
+  "file": "briefings/2026-09-01-market-아침판.pdf",
+  "top": "원·달러 환율, 13개월 만에 1360원대…올들어 원화 가치 5% 껑충 - edaily.co.kr",
+  "count": 5
+ },
+ {
+  "date": "2026-09-01",
+  "kind": "market",
   "edition": "자정판",
   "title": "9월 1일 (화) 투자 브리핑 · 자정판",
   "file": "briefings/2026-09-01-market-자정판.pdf",
