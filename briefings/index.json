@@ -1,6 +1,15 @@
 [
  {
   "date": "2026-09-01",
+  "kind": "market",
+  "edition": "아침판",
+  "title": "9월 1일 (화) 투자 브리핑 · 아침판",
+  "file": "briefings/2026-09-01-market-아침판.pdf",
+  "top": "원달러 환율 1360원대 후반…달러 약세와 유가 상승 맞서 - vegannews.co.kr",
+  "count": 8
+ },
+ {
+  "date": "2026-09-01",
   "title": "9월 1일 (화) 아침 브리핑",
   "file": "briefings/2026-09-01.pdf",
   "top": "중기부, AI 전환 우수 中企 10곳 선정…기술개발 지원사업 우대",
