@@ -2,6 +2,15 @@
  {
   "date": "2026-09-01",
   "kind": "market",
+  "edition": "자정판",
+  "title": "9월 1일 (화) 투자 브리핑 · 자정판",
+  "file": "briefings/2026-09-01-market-자정판.pdf",
+  "top": "9월 美 증시 '연중 최악 성적' 반복될까…물가·금리에 달렸다 - 머니투데이 - 머니투데이",
+  "count": 15
+ },
+ {
+  "date": "2026-09-01",
+  "kind": "market",
   "edition": "아침판",
   "title": "9월 1일 (화) 투자 브리핑 · 아침판",
   "file": "briefings/2026-09-01-market-아침판.pdf",
