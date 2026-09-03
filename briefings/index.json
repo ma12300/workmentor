@@ -2,6 +2,15 @@
  {
   "date": "2026-09-03",
   "kind": "market",
+  "edition": "아침판",
+  "title": "9월 3일 (목) 투자 브리핑 · 아침판",
+  "file": "briefings/2026-09-03-market-아침판.pdf",
+  "top": "[EBN 데이터센터] 미국 증시, 기술주 강세 속 일제히 상승 마감...다우 53061.95·S&P500 7666.60 - ebn.co.kr",
+  "count": 12
+ },
+ {
+  "date": "2026-09-03",
+  "kind": "market",
   "edition": "자정판",
   "title": "9월 3일 (목) 투자 브리핑 · 자정판",
   "file": "briefings/2026-09-03-market-자정판.pdf",
