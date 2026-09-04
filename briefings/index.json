@@ -1,6 +1,15 @@
 [
  {
   "date": "2026-09-04",
+  "kind": "market",
+  "edition": "아침판",
+  "title": "9월 4일 (금) 투자 브리핑 · 아침판",
+  "file": "briefings/2026-09-04-market-아침판.pdf",
+  "top": "뉴욕증시 상승 출발…S&P500 0.5%·다우 0.7% 상승 - thefairnews.co.kr",
+  "count": 10
+ },
+ {
+  "date": "2026-09-04",
   "title": "9월 4일 (금) 아침 브리핑",
   "file": "briefings/2026-09-04.pdf",
   "top": "“이소영, 중기부 핵심 법안 대표발의 0건…소상공인 지원도 없어”",
