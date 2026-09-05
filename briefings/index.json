@@ -2,6 +2,15 @@
  {
   "date": "2026-09-05",
   "kind": "market",
+  "edition": "아침판",
+  "title": "9월 5일 (토) 투자 브리핑 · 아침판",
+  "file": "briefings/2026-09-05-market-아침판.pdf",
+  "top": "[서울데이터랩]미국 증시 혼조 마감…반도체 강세에도 다우·S＆P500·나스닥 종합 하락 - 네이트",
+  "count": 8
+ },
+ {
+  "date": "2026-09-05",
+  "kind": "market",
   "edition": "자정판",
   "title": "9월 5일 (토) 투자 브리핑 · 자정판",
   "file": "briefings/2026-09-05-market-자정판.pdf",
