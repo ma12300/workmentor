@@ -2,6 +2,15 @@
  {
   "date": "2026-09-06",
   "kind": "market",
+  "edition": "아침판",
+  "title": "9월 6일 (일) 투자 브리핑 · 아침판",
+  "file": "briefings/2026-09-06-market-아침판.pdf",
+  "top": "테슬라 사이버캡, 美 ‘자기인증’ 틈새로 규제 정면돌파하나 - 글로벌이코노믹",
+  "count": 12
+ },
+ {
+  "date": "2026-09-06",
+  "kind": "market",
   "edition": "자정판",
   "title": "9월 6일 (일) 투자 브리핑 · 자정판",
   "file": "briefings/2026-09-06-market-자정판.pdf",
