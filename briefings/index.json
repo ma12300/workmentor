@@ -2,6 +2,15 @@
  {
   "date": "2026-09-05",
   "kind": "market",
+  "edition": "저녁판",
+  "title": "9월 5일 (토) 투자 브리핑 · 저녁판",
+  "file": "briefings/2026-09-05-market-저녁판.pdf",
+  "top": "리플(XRP) 가격 조정에도 ETF 자금은 역주행 9거래일 연속 순유입 - CBC뉴스",
+  "count": 12
+ },
+ {
+  "date": "2026-09-05",
+  "kind": "market",
   "edition": "아침판",
   "title": "9월 5일 (토) 투자 브리핑 · 아침판",
   "file": "briefings/2026-09-05-market-아침판.pdf",
