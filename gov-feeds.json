@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-09-06T21:24:25.382Z",
+ "updatedAt": "2026-09-06T23:02:50.612Z",
  "groups": {
   "tax": [
    {
@@ -63,7 +63,7 @@
     "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9LRGVpMlJPQy1jOWdjN2xfMEhNcHZoX19EalhQNkMzNWJaU3JFRVF1ZWtlamloUXY2cE9LRFZ0MmNZTTRHVmhoNmpwX0NNN2xIQnJOQV8wdFlBX01YWnpUdzRnYm10bi1heFHSAWxBVV95cUxOUXdzdnhLdmZzemx1QzNKSDNWMGFDZzZKRE50TlBLdVdwQWVTN2lvdTZiOENNTDBrcFVhdk9BbWVpNHl0UWtNYkJmMFlmLWpCb2VmTmxKaGxyNlFTbkFVTW9hdHdDMGNZblhvM1I?oc=5",
     "date": "Sun, 06 Sep 2026 05:34:15 GMT",
     "summary": "",
-    "source": "fieldnews.kr"
+    "source": "필드뉴스"
    },
    {
     "title": "‘집중호우 피해 특별재난지역’ 통영 전역으로 국세청 세정 지원 확대",
@@ -175,10 +175,17 @@
     "url": "https://news.google.com/rss/articles/CBMiQEFVX3lxTE9yMm5tczVXYWFGblBBeVF1UDUxdlhBSXNCY0p5b2xsLWtOY19lQVpvSGozdEM2NFZwanlrOHVDbWU?oc=5",
     "date": "Sat, 05 Sep 2026 03:55:00 GMT",
     "summary": "",
-    "source": "ontoday.kr"
+    "source": "온투데이"
    }
   ],
   "labor": [
+   {
+    "title": "고용노동부 '추석대비 체불' 전수조사",
+    "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1RbjJ3MHpfZVJjUHZRMENuNkVhc2VLMEFVOTBvLW9FTkFRRDRlTGQtVEp1VDZRSFNCZDdwZ3VYSWRXNS1nTmFfOXVuM3F0aThmLW1pQg?oc=5",
+    "date": "Sun, 06 Sep 2026 22:48:00 GMT",
+    "summary": "",
+    "source": "knn.co.kr"
+   },
    {
     "title": "고용노동청 여수지청, 사회취약계층 임금 반복 체불 혐의 사업주 체포",
     "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1RMUZTaUFucTh6M01tNUtOS0ZMM3lsX1FlN0pCUzJpZGkwUEVGWnB2Mm51RWpqUGtQYXQtQlFXZDdnZVF6eXFXbTF0WlpOVm8?oc=5",
@@ -192,6 +199,13 @@
     "date": "Sun, 06 Sep 2026 12:35:56 GMT",
     "summary": "",
     "source": "노컷뉴스"
+   },
+   {
+    "title": "메가특구 ‘주52시간 예외’ 기준안, 산업부 1억-노동부 1.4억",
+    "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5MVkNSQUNYYkpOREdxUmlBNVFkSTBHZDlhcVpiUWttM0N6V0daR2NicjRFa1NodlBOdGQ3NFlyZ3UzZnEtVm1vX2xITE5zbEE1TUppZF95Qm9wbXNSRFNneFlfRGZUbFhfMHc?oc=5",
+    "date": "Sun, 06 Sep 2026 10:26:00 GMT",
+    "summary": "",
+    "source": "hani.co.kr"
    },
    {
     "title": "'고소득 전문직 근로시간 규제 제외' 소득기준, 산업부 9천-노동부 1억4천",
@@ -247,12 +261,19 @@
     "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPMndIRGZxSHg0ZktpVk1NYWdSNXE3bUlHbmc3bGMzSUJ2SU9hcEdZOEszbG80YUlFVUFBOVg4NDNGeVdHVk0yZ2dBdWs0cEtwM2g2X28tYm1oZkt0ZTJKLVhaa3MzY2FlVUFveDI0cGE5WHdNZmpnZ290dkZuMC1NZDF2N2tSM3prSWpsTE16Zw?oc=5",
     "date": "Sun, 06 Sep 2026 07:34:24 GMT",
     "summary": "",
-    "source": "blog.naver.com"
+    "source": "Naver Blog"
    },
    {
     "title": "고용노동부 강원지청 고위험 사업장 점검…추석 전 체불임금 청산 총력",
     "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1uNlhrSm44VzF3YUxCRW03ZGRqeHhZeG55NzU4bG9SYlEzQTVNTnhzR25ELXBENVlGMnViSFZtYlp1LUw4b2FvbFJnd0QtTjQ?oc=5",
     "date": "Sun, 06 Sep 2026 06:34:43 GMT",
+    "summary": "",
+    "source": "v.daum.net"
+   },
+   {
+    "title": "고용노동부 강원지청 고위험 사업장 점검…추석 전 체불임금 청산 총력",
+    "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9tbnE2U0hRY3I1cTd1TDlCdDZrbmQ2T3BDeW5qRE9Ta1JfRXhzUmV2Ql9rTHp2cE00QTlGdEtFRnNuSFozWDIza0k3c1Jhdms3eUlmUw?oc=5",
+    "date": "Sun, 06 Sep 2026 06:34:00 GMT",
     "summary": "",
     "source": "v.daum.net"
    },
@@ -268,7 +289,7 @@
     "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5UVmlOUHdGTHJNdklrVXdfQ1pkenJWUGJmR3lyY29hVGxDR0FVTFZtMzFDdkpLMkNpbE9xWHUtSjVkQzhjbURZTFNTZkpTNkpaRlNBTVpyR1U3NFU?oc=5",
     "date": "Sun, 06 Sep 2026 04:30:49 GMT",
     "summary": "",
-    "source": "kwnews.co.kr"
+    "source": "강원일보"
    },
    {
     "title": "국토부·노동부, 건설 추락사고 예방 공모전 내달 13일까지 접수",
@@ -276,13 +297,6 @@
     "date": "Sun, 06 Sep 2026 04:29:49 GMT",
     "summary": "",
     "source": "v.daum.net"
-   },
-   {
-    "title": "국토부·노동부, 건설 추락사고 예방 공모전 내달 13일까지 접수",
-    "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1FaE45N1UxUV9pclYxSEwtdWg3Qm1DeG5ueHluVjFHSElCZlZBSXo2b0xMVk95TFBTcnpqWEtaWnJVVE42MWV6b3pmcmRoa0w0TmlGMkU1R2g5Mk1Rd2x4UkFyNGZlaWdlVGo1R2NpelNGeUFhNzVmOA?oc=5",
-    "date": "Sun, 06 Sep 2026 04:28:00 GMT",
-    "summary": "",
-    "source": "네이트"
    },
    {
     "title": "국토부·노동부, 건설 추락사고 예방 공모전 내달 13일까지 접수",
@@ -310,7 +324,7 @@
     "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBCRFQ2VkRVQm5Sd00xWkQyVng3dXdGNTJjMTdWRFlZZFpyajhzSFU2ckExMlFmUXEzQXE2UWNYLUV2RkhNcF9RelFTU1h0NjdQTkxJTFJkaWx3dEdSY1JFaXVySDZabW5YNVpjaQ?oc=5",
     "date": "Sun, 06 Sep 2026 03:06:40 GMT",
     "summary": "",
-    "source": "저널25방송"
+    "source": "journal25.com"
    },
    {
     "title": "고용노동부 서산지청, 추석 맞이 '임금체불 집중 청산 지도' 가동",
@@ -339,23 +353,23 @@
     "date": "Sun, 06 Sep 2026 02:00:00 GMT",
     "summary": "",
     "source": "news.bbsi.co.kr"
-   },
-   {
-    "title": "추락사고 막을 국민 아이디어 찾는다…콘텐츠 공모전 개최",
-    "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE83akpudmdqeDlFUzZVUGZ2c0VxcWRtTk5CZnpPLXd6V0c3OG5yN08zc0FRNDFQeXRDY0k4WFRBczdhVTlTUVV4VUo1Q1VyOE5VN2NXQkVkMG54UUFKTEhxatIBeEFVX3lxTE5VNHNrZ25kYkZaMGUyLURLTmNGMVRvS2JXaFNZcVhoRWNETUFBZzNmSEhKOG8xNmd3TlhETTROWDlYa2IwX3htcnpaUS1KQ0hSLUljWVVvMEp6Xy1PamtCM1lTLUdQdjFwX2RxUHJMaW00bUZ6ZVUzMg?oc=5",
-    "date": "Sun, 06 Sep 2026 02:00:00 GMT",
-    "summary": "",
-    "source": "뉴시스"
-   },
-   {
-    "title": "건설 추락사고 예방 콘텐츠 공모전 개최…국민 누구나 참여",
-    "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1qbXFhYV9GN1o5RV9SZnZFeDNna3pibGRrU25uNFVRdldIMkt4aVE5MjljRDY1NDNCTVV1RFltaTdGS09YNTlZRXgyQWhVTTNJNWxCZ3dhZmNIZEZXMFVrYdIBeEFVX3lxTE9RYXJPbWVtY1NDQUF4TFFpTU41V3BWT09hdjJEcUpSYW05RDBhVVlGa1h5X3VYU1JIRTl2d0xiTU5qTGRETER1NDQxaHJONGtxeFA1NUF2MGhNalpmQXNtY1FhdU9OUDRSeTJJZ3A4d1JpWHBIMXdPTQ?oc=5",
-    "date": "Sun, 06 Sep 2026 02:00:00 GMT",
-    "summary": "",
-    "source": "뉴시스"
    }
   ],
   "law": [
+   {
+    "title": "한동훈 \"대한민국 역사상 전과자 법무부 장관 0명…음주운전자 김승원 되면 기록 깨져\"",
+    "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFA4M00tN1laTWJuMUkwSnVCNllTbWgyS3FnSlBoN3ktakJsRGNuVlcta001T3E2QV9HLWF3RU1ySFRiQ25TYTFPY3pqbEtua1pRcFpBZ0V3N3hjekVBNVoxOG53?oc=5",
+    "date": "Sun, 06 Sep 2026 22:27:52 GMT",
+    "summary": "",
+    "source": "매일신문"
+   },
+   {
+    "title": "법무부 \"검사 줄일 때 아냐…최소 281명 증원 필요\"",
+    "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFByaWNPeEhiZWpQVUwtN1NBY2xKSWNDbHdWQkVHRzY1YjRzZDZrRVQ0Xy1pRF9wU25xVmlYWjUxMU9BVDV3MWxBdkQ1UlVHejlkbzlN?oc=5",
+    "date": "Sun, 06 Sep 2026 20:56:00 GMT",
+    "summary": "",
+    "source": "네이트"
+   },
    {
     "title": "법무부 \"검사 줄일 때 아냐…최소 281명 증원 필요\"",
     "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBqdzdNcHNza3VNY21wMFc1UDc2RUxQNDM1V0ZsNDk3NjBZUkNnbnFNZE9OaV9vQjBCdlV2Zkg1UklGVVRNQ2ZzR3BCeUpjcXhDOFUtWEEyVlVDU3RkbGdNazdXbTMzRjg?oc=5",
@@ -375,14 +389,7 @@
     "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE1CVFFkdFR5cnlvRklENHpDdk9UWXB4U2ZmbFpZSHVBTW9BQ191aHhIcmVuOWdNZHVPdk5jUnhfVVVlamVUbUo1SmUtVmNvNHJPcnRtejRJZzA0SDh6YXNTd01JQmpVVWhuYWx1ZzFnTGE4Zw?oc=5",
     "date": "Sun, 06 Sep 2026 20:00:00 GMT",
     "summary": "",
-    "source": "한겨레"
-   },
-   {
-    "title": "[중앙시평] GSGG 법무부 장관 후보자, 청문회에 세워야 한다",
-    "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBXZzU2T3VYZVgtc2lTNlYweWxXdWJQa1M3eGpxRHZlc0JrM2gyREJyUjZfVmFVUENKek5pT1piaE9kZnZ2TmlVb2xObXpQVks2TEk0?oc=5",
-    "date": "Sun, 06 Sep 2026 15:23:07 GMT",
-    "summary": "",
-    "source": "네이트"
+    "source": "hani.co.kr"
    },
    {
     "title": "[중앙시평] GSGG 법무부 장관 후보자, 청문회에 세워야 한다",
@@ -396,7 +403,14 @@
     "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1nSkR1ZWVzR1ZodTdIS09XMHlaRUtRUmFXdFNDZTg0SmxBZmM0dTlQT0lvY1FjTFNrbzJDekc5YTNOb2tWSk8zVGwzR0pTSGN6cENpZzYxVmEycHpEeGk0MFVKN1l3U0Z2ZE5Z?oc=5",
     "date": "Sun, 06 Sep 2026 13:27:45 GMT",
     "summary": "",
-    "source": "snakorea.com"
+    "source": "서울뉴스통신"
+   },
+   {
+    "title": "[단독] 김승원 지역구서 아내는 ‘미인가 불법 학교’ 운영",
+    "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPZkNRTG9hLW9iZTBEMUJ2d09OSkpEckFFRGtPaHk1QWJiR2F3OHliMnQzcDRTSHFBYXhBM0g0dEFxd3MzQTdhZzQ2WldKZDZ5OVhXNTBSTG9QZUNiTzZCaHFmVmFVSDcwc3FPRy0taDBCQ2pTdVVqSm0yRkpXLUNpaWk2NVQ3Wnc?oc=5",
+    "date": "Sun, 06 Sep 2026 13:18:36 GMT",
+    "summary": "",
+    "source": "조선일보"
    },
    {
     "title": "법무부 \"검사 줄일 때 아냐…최소 281명 증원 필요\"",
@@ -413,6 +427,13 @@
     "source": "경남매일"
    },
    {
+    "title": "국민의힘, 김승원 법무부 장관 후보자 의혹 제기하며 지명 철회 촉구",
+    "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBVS253RkVFU3ZUWUFycWs3NFByZUpzdklXdlE2OTVSa1g3RV9rZW83aUlONmpyRGN4ZVRqZVJvR3haeU03Q2t3OHBtQWtpY2NpUjNmaDkySXMzWGVoc3liSkw3OVRsaGlTTDFITWVFWjd5ZEE?oc=5",
+    "date": "Sun, 06 Sep 2026 12:27:33 GMT",
+    "summary": "",
+    "source": "스페셜타임스"
+   },
+   {
     "title": "법무부 \"검사 줄일 때 아냐…최소 281명 증원 필요\"",
     "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1COHF3NWlFa2J6dThLVWxKU0F0ckhnZDB1OGR6d0ZhaE4zZzlYX3JRWHAwbkJkRkVxeGgxdjFJeEs0dVZBY0k0Vld6OWs1ei1LSUVFTG85WXZjZHBPTzI1U9IBeEFVX3lxTFA0U3lCWkFVMHFiT0txQzBabUhoWHFsUTBCWDVLdnVndFhjYV9xQkN4clQ5NWM0RFE5amJhVFU2R2I1RnByMTg0eWVNWEJvQ1lEa2NMUFFkZjlSbnRWb0ZENkk1U1NjSzNVblhVTGFoQjI1NVJuTVdxRQ?oc=5",
     "date": "Sun, 06 Sep 2026 12:24:48 GMT",
@@ -425,6 +446,13 @@
     "date": "Sun, 06 Sep 2026 12:24:09 GMT",
     "summary": "",
     "source": "IPDaily"
+   },
+   {
+    "title": "법무부 \"1검사 1재판부 배정해야…공소청 2300명 감원, 공소유지 한계\"",
+    "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBHQzBsOXBmTVA2TnpHX2xDVXlIOE43MzBfVUFOYlViQ3ZfNFdHTEowVmVING9QNzZITDhoMWNPbWZUYllHWE1IcmhldmtLTF9Hcl9hX0hVY3RWX2VPS1dpZjM2WmXSAWpBVV95cUxNbm1qbEZQZmNMclFyeklsTnk1RnNaSTJNSzFmYXhQTnNtcW8wX25rdW94V2VsbWh0cXlVZVNYTHlSRVJYMjNCV0NMVENmRjdDS0FrbHdEYTAxN3l5bS01cnNpdjU1dWVTQ0lB?oc=5",
+    "date": "Sun, 06 Sep 2026 12:00:09 GMT",
+    "summary": "",
+    "source": "뉴스1"
    },
    {
     "title": "법무부 \"검사 줄일 때 아니다…최소 281명 증원 필요\"",
@@ -448,18 +476,11 @@
     "source": "머니투데이"
    },
    {
-    "title": "법무부 \"1검사 1재판부 배정해야…공소청 2300명 감원, 공소유지 한계\"",
-    "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5PQTFWa3ExWGhnRHJXN1JFcEhFT1dYLVpsNWttblNVUm9CUHNwMHg2R3pvZ21oT2VJZ3JrV1JnODRndTFjSlUwaTlnTmFCdlk?oc=5",
-    "date": "Sun, 06 Sep 2026 10:59:39 GMT",
-    "summary": "",
-    "source": "v.daum.net"
-   },
-   {
     "title": "법무부 출입국·외국인정책본부, 폭력 피해 등 외국인의 체류민원 사각지대 해소",
     "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBJVjMwVnM4X1duN3g4NTY2SVVRVThKWTFYY1NiZFgwRjNldEs1OTJnMi1JQ25YMW5hX043UDhQN1BWQlMzaDZKNVExa0JpNW9vdi1XOGd4S0N0YkV2bFFsZTc4enZ2eFdXTFVF?oc=5",
     "date": "Sun, 06 Sep 2026 10:33:01 GMT",
     "summary": "",
-    "source": "뉴스데일리"
+    "source": "newsdaily.kr"
    },
    {
     "title": "김현정 의원 “MBK, 김승원 법무부 장관 후보자 흔들기 중단해야”",
@@ -476,13 +497,6 @@
     "source": "연합뉴스TV"
    },
    {
-    "title": "법무부 \"공소청 검사 3분의 1 줄이면 국민 피해…최소 281명 늘려야\"",
-    "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1SOFdtSDVJaEI4akNxeURmR0hfSkpNbFNxYlVSMmZRcnM2WDNibnY5eU5oM3pNbXlnRU5xcVJ2aFhwMmttNnhRV05HcXZ2WmhmcXVB?oc=5",
-    "date": "Sun, 06 Sep 2026 10:04:00 GMT",
-    "summary": "",
-    "source": "네이트"
-   },
-   {
     "title": "김승원, 법무부 장관 문턱 넘을까…‘의혹’보다 ‘사실’로 검증해야",
     "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBFVW9CazZDdkhiTXFzTmJ3M1VNbHc0X0J0X0o4ZEY5QWhXcnBNcGZwVDJ6bUt1WThQWHhJcldlV1QtUHk1cEgzbDk3YV9ZbWpLTmxrdVp5TTV5YlRlVGo0ajE1empDdw?oc=5",
     "date": "Sun, 06 Sep 2026 09:13:09 GMT",
@@ -494,14 +508,7 @@
     "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9QZGRVWWphSlhuUnhKNFI0WGVQeUVUY3ppUHhZeEEteExtdU9BVnlOamEwNWFxUXRiYmU1WnJoQWNwcEdIbktvN0pyc2hwTGNiNlJlaFYzbmltTzM0VlhSQTJvMmZ6SEkwN0Vj?oc=5",
     "date": "Sun, 06 Sep 2026 09:09:17 GMT",
     "summary": "",
-    "source": "뉴스데일리"
-   },
-   {
-    "title": "\"퇴직 3개월도 안 됐는데\"…러브콜 쏟아지는 이들 정체",
-    "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9QYzk0Rk9NYm11NlZWTXkycUdHTjVjaXRPNlNjekZBOHotSDVCYUM3R0VRMTVMLU5sLVJrNzA4bHk1SjUzNXg5dEhqb2ZzYjZlY0NDVW9EajFGdw?oc=5",
-    "date": "Sun, 06 Sep 2026 09:03:22 GMT",
-    "summary": "",
-    "source": "한국경제"
+    "source": "newsdaily.kr"
    },
    {
     "title": "김현정 “MBK, 김승원 법무부장관 후보자 임명 저지 의혹...사실이면 즉각 중단해야”",
@@ -515,7 +522,7 @@
     "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE50Q2NRVUk5eFptdEMwTlEzSHgyaE1ZNzlQeDJXaTlncXR3WW55LVlIMHJRNGNUS0pHaGxaX3NRT0NtMTFNb0lRcnhWRGwzZktsRXNROEpFZkVZWUdUclJXNWg1M0FSa1UzMThz?oc=5",
     "date": "Sun, 06 Sep 2026 08:05:22 GMT",
     "summary": "",
-    "source": "snakorea.com"
+    "source": "서울뉴스통신"
    },
    {
     "title": "김승원 법무부 장관 후보, 식약처 청탁 해명 논란…“사실과 달라” 정황 드러나",
@@ -523,16 +530,16 @@
     "date": "Sun, 06 Sep 2026 07:27:19 GMT",
     "summary": "",
     "source": "newfilenews.com"
-   },
-   {
-    "title": "서민위, ‘신약 청탁 의혹’ 김승원 법무부장관 후보자 고발",
-    "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE04Q3YyeVYtMlo0Mk1BVDZIbXE2MEdfNnhEcHJYSkRyUy1tLVNReC1KNGRSWFBuTlo3QnpXQ1VIbjFqWnQ3RzBOSHcwdlNfemZiV0tWMG5zSmNTajlWczYtcjBmWEVPSlozeWJrNGdB?oc=5",
-    "date": "Sun, 06 Sep 2026 02:29:54 GMT",
-    "summary": "",
-    "source": "아시아투데이"
    }
   ],
   "fund": [
+   {
+    "title": "국경의 ‘비밀 병기’… 1cm 마약도 냄새로 잡아낸다",
+    "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9GNW4yUkFTZEt1LWs2ZlNldnZ1V3J5VC1ydXRyNzdBRTFMTDVZWURkMmN1aE5FV0xkRFJFN2dRQWVjaHF3SHZUZmpmNG9vbGxLaHgtRHJXajkxdlBMMXfSAWNBVV95cUxPeGpwM0ZMUElQaGdRWGFaYzBBdFJZdVpTVkFQeXFZdjVJOHFuY1FaS0V1TFFyX0d4Vkt4QTlIWGJkUkhKSU14TDE0VXZEVzJYMDE4ZXdxeWw3WGtoZlNBYW9IOHM?oc=5",
+    "date": "Sun, 06 Sep 2026 22:00:00 GMT",
+    "summary": "",
+    "source": "스포츠경향"
+   },
    {
     "title": "\"일이 손에 안 잡힌다\"…지방 이전·인사설에 뒤숭숭한 금융위",
     "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE56Qi1Hck1zWjhsUUE0X3p2MURwbDlfd1RzTld1dW0xb094NW02UExGQkF1ZzZxc1R2bncyVGI2VnFZSEJ5a3VfOXhnTzJCeTkzSllj?oc=5",
@@ -566,7 +573,7 @@
     "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBOREhVenBMTGlBRGNNcy13WGhPcUcyLV80VUNsU084aU53d250M0VvNW1HNmZFMlppb3VtUlk0TkRsSG5oWkdTaE1BOFYtZlFUWW9ncWtseHJkdDg?oc=5",
     "date": "Sun, 06 Sep 2026 06:51:08 GMT",
     "summary": "",
-    "source": "kwnews.co.kr"
+    "source": "강원일보"
    },
    {
     "title": "강원도, 금융위·서민금융진흥원·신용회복위·신한은행과 지역 밀착형 복합지원 업무협약",
@@ -594,7 +601,7 @@
     "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1kNkJ1MGdialJmd195TUZqYURXZkxmWHZsQXlOT0YxeE11aFRjZnFqN0JVVHZ0YkpGSGZ4TVVia0N6R1pka1cySkxBRFdoTEo0?oc=5",
     "date": "Sat, 05 Sep 2026 11:36:30 GMT",
     "summary": "",
-    "source": "블루밍비트"
+    "source": "bloomingbit.io"
    },
    {
     "title": "이번주 국내 주요 금융일정(9.7~9.11)",
@@ -622,7 +629,7 @@
     "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5jTVRuNlgyQzBxT2gyOVNZRlVFTnExNnBJUGNLVF92X0Z2allnd0ZtOXFvZFU3Tl9vUVNiUDFhOUM3TTBHaWhfU1dlMnozU3doQW00dlZNWmRCY2xnRGctVlhHRkpoQjJjQThqUmtrNWhLLVE?oc=5",
     "date": "Sat, 05 Sep 2026 00:56:21 GMT",
     "summary": "",
-    "source": "dongbangilbo.co.kr"
+    "source": "동방일보"
    },
    {
     "title": "[STO 정책분석 ⑤] 금융위, 발행인 계좌관리기관 요건 제시…자기자본 40억·전문인력 4명",
@@ -643,21 +650,21 @@
     "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1XWlNYbGZRcEJuTjhoRkwzVHR5bnZfMVp6bFhwc3FBSk0yZWF0THpraklhZUpGRDFqUkl4Mk51MWtGLXFkSklfTGpvOWNyMklpSTN6RlpuWEE3X05ZaW0wTW1ueHZRbmt2TXZTUDJoTTc?oc=5",
     "date": "Fri, 04 Sep 2026 23:05:01 GMT",
     "summary": "",
-    "source": "news.einfomax.co.kr"
+    "source": "연합인포맥스"
    },
    {
     "title": "[다음주 한국은행 및 금융위·금감원 일정]",
     "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9XbDdYRnoxVzViZ1ZRSU1samkwV1lwNFVmRUkxRk9idVVTVzc5TzJiQ1FySGQyYWRjUWlQTTRYRml1dmhMS3VGdVFXNFRVckc0a0d5ZUhGb3UtSEFVeUQzNkFSUmE4T3Zoel9VVDdsdGbSAXRBVV95cUxQTHV3WVNwQUJrSTlOZUhfbG9PQmlRME4ydHNIdm5fcGdPMDdxYzg0VEJyZlUxZEVfMDdiZGNpaXJMclV1VThKbjA5ZUJFaGZkbFRwZkh1RnpITU9ObENQTnd1bE5ZMkFLeWk5bG9tRXZ1OHZYeg?oc=5",
     "date": "Fri, 04 Sep 2026 23:00:14 GMT",
     "summary": "",
-    "source": "news.einfomax.co.kr"
+    "source": "연합인포맥스"
    },
    {
     "title": "'토큰증권' 내년 2월 법적 인정…금융위 3단계 로드맵 발표",
     "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5jckt1dzFVQ1dLd1N5bjI0cFV2OTRqeEdnYkR4VFJhczdvWWdQWnJ2N2UxZ0hfdjc5UmtiZnNNWVhBSTFBYTdYZ2hxeFhwQWJMVlZMRF90UE1oVVdMcmtHN0lKc1hfcmVNX0xwQWVaYw?oc=5",
     "date": "Fri, 04 Sep 2026 11:11:00 GMT",
     "summary": "",
-    "source": "leadeconomy.co.kr"
+    "source": "리드경제"
    },
    {
     "title": "[환경부(공동)] 환경부-금융위원회, 탄소중립 이끌 녹색금융 전문인력 양성 본격화",
@@ -700,22 +707,36 @@
     "date": "Fri, 04 Sep 2026 07:00:32 GMT",
     "summary": "",
     "source": "시사캐스트"
-   },
-   {
-    "title": "박수영 의원 “산은·금융위·금감원 부산 이전, 정부 ‘5대 원칙’에 가장 부합…더 이상 머뭇거릴 이유 없다”",
-    "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE0zSWJ4a0d1MkxXYlQzdkhwY1RGQjJnajRRTUZ6ajNhZXhFVnIteG9UMUdoQ2dTNWU2UWVCc09wYTc4M1ItVERSZU5MNGRmdTlFSDgtMndIdHNFaWtaaTVaMEFjaFk4R29q?oc=5",
-    "date": "Fri, 04 Sep 2026 06:36:32 GMT",
-    "summary": "",
-    "source": "복지TV부울경방송"
    }
   ],
   "biz": [
+   {
+    "title": "강릉시 중소벤처기업부 강원영동사무소, ‘상생동행 릴레이’ 동참",
+    "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE5OTG9hUXJYbEV2eGx6SjRmeG1BRExEaUhyNXJ4dDRBYV8zRjJkbTlyNFJuSk84N01YOVZhMklILW5zSENtMkRfMkxR?oc=5",
+    "date": "Sun, 06 Sep 2026 22:37:00 GMT",
+    "summary": "",
+    "source": "mediatoday.asia"
+   },
+   {
+    "title": "\"이소영 후보자 母, 딸 부부에 전세금 2억 빌리며 증여세 미납\"",
+    "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9Wbk9xMVVGeEdjd1c5eFZSX1RZX3BVWTRyVkc0Qko5cUhUYjJmZ2JsNmNMaUVFUlFfSVlFM0Y3T256RlJDQzc2MTJJcDNkQVd2QUpfbUczUk5OZw?oc=5",
+    "date": "Sun, 06 Sep 2026 22:14:20 GMT",
+    "summary": "",
+    "source": "한국경제"
+   },
    {
     "title": "중기부, APEC 20개국에 'AI 3대 강국' 전략 알렸다",
     "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9LTG0tal9ZR3RMRkpFSlBpclVEbDhCUmsxVmE3eGU2eVFNeW9MYjBSZVAwNDlKdEVrMmkzWm9nSE0xUHlyR1lrRkpLcWRFclozbkNocS14YXpEaEZIOUw1U3NUdlBwSGh3RV80Vg?oc=5",
     "date": "Sun, 06 Sep 2026 11:47:13 GMT",
     "summary": "",
     "source": "중소기업신문"
+   },
+   {
+    "title": "제주 바이오기업, AI 입고 생산성 높인다",
+    "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE96QldGNkptRUJ2WWw2Y3Q3RUJsbVdxZG9PeWNZY0kwbDM2R04zTklYNjJXNTMtVDAxdXNoM3d1eGtwNUtpOE9pY3BQSkY2RnUyanZiUUVSVHA5NDFrb1NXU21ERUh0b0R0OTY3aA?oc=5",
+    "date": "Sun, 06 Sep 2026 08:44:56 GMT",
+    "summary": "",
+    "source": "뉴스N제주"
    },
    {
     "title": "중기부, 중소기업 'AI 인재' 발굴한다… 카이스트 연계 500명 양성",
@@ -730,13 +751,6 @@
     "date": "Sun, 06 Sep 2026 08:33:00 GMT",
     "summary": "",
     "source": "커넥트이천"
-   },
-   {
-    "title": "전문성 논란 뚫은 이소영…‘예산·조직개편·노동금융’ 3대 시험대",
-    "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5Xd2VCNzFCalVPUmlqdG9zUFdOZkpac1ZKcXNTOUFxazBYWFZ4QXhXWDREdC1XMmMxbDgzLXpJUlMxWVVVQ3EtQl9QTmdMc3RETU1HMEtYbVpiS3RITk5kX1RGSmJNU2dfQnhWRHVB?oc=5",
-    "date": "Sun, 06 Sep 2026 05:14:15 GMT",
-    "summary": "",
-    "source": "아시아투데이"
    },
    {
     "title": "중기부, ‘모두의 창업’ 2라운드 진출자 1,100명 선정",
@@ -760,11 +774,11 @@
     "source": "커넥트이천"
    },
    {
-    "title": "경남 10명 중 3.5명 ‘중소기업 종사자’",
-    "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1sMnkxaWVKT2tPZnBlaGFyWk1UZy13Z3Y4azNaLXhlT21wcnpsQ1MtZW1OLU5HWFJOLUZlV2ItV2RTM1BWLWx2bjVJSjdXNFRNTmp4eWM2WlBQWjdDdi1aSXkzZGxCQXk5QXc?oc=5",
-    "date": "Sun, 06 Sep 2026 02:50:06 GMT",
+    "title": "스마트공장부터 GPU·공공데이터까지…중기부, APEC에 ‘중소기업 AI 전환’ 청사진",
+    "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBUVUdUUVRSYkRyNEtJSnAxWXQ1X19lQUowNEF6R2Z0UWVOUUNRM3QyYkZkcGI2bDFHRGR3VTJDZ0NZZFVDZWVNQWptY3ZNcXM?oc=5",
+    "date": "Sun, 06 Sep 2026 03:23:30 GMT",
     "summary": "",
-    "source": "경남도민일보"
+    "source": "벤처스퀘어"
    },
    {
     "title": "중소벤처기업부 소상공인 건강검진 캐시워크 돈 버는 퀴즈, 정답은?",
@@ -786,13 +800,6 @@
     "date": "Sat, 05 Sep 2026 12:31:00 GMT",
     "summary": "",
     "source": "더글로벌기빙뉴스"
-   },
-   {
-    "title": "정부, 청년창업가·소상공인 등 2000개사 해외진출 지원…중소기업 수출 2030년 1800억 달러 목표",
-    "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5jU3JhODB4OGtSVm51b1R4MjRwUDA4bVh1dk90dEdISTNobUhYWWxBQnhXTjV5blBaYjJJYmdKMDNtQWMyU01jd1dLUWtiSnRMell4QWtmMmxPUWc3TVE4?oc=5",
-    "date": "Sat, 05 Sep 2026 08:55:07 GMT",
-    "summary": "",
-    "source": "헬로티"
    },
    {
     "title": "삼성전자-중소벤처기업부, 중소기업 신기술 개발 위해 300억원 지원",
@@ -830,13 +837,6 @@
     "source": "대한민국 정책브리핑"
    },
    {
-    "title": "중기부, 제32차 APEC 중소기업 장관회의에서 K-중소·스타트업 AI 혁신 전략 로드맵 제시",
-    "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9iUnBUSU9pTEN5ZC1Od3NUQUVpTi1QSFlPTXMzTVN0U2dDZ2dBQWtIOC13TDhzdHhXMnpPbm9ZMU1iYXhLaHpIN2d1b0d5dEJCYzRRY1huV29UdlVlS21UTWVubGJHZw?oc=5",
-    "date": "Fri, 04 Sep 2026 12:08:44 GMT",
-    "summary": "",
-    "source": "코리아플러스"
-   },
-   {
     "title": "전문성 논란에…이소영 \"중기부 예산 이해도 높아\"",
     "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE0zMWFxMnptSVlIZENQVzhjSm1TYnQ0MVhQWEZFMzVieHUwcWJ5MlE5WmJTV0VmRHlqSjMxWWJyU3o0ZTdjV1NCZTZhZ0hJOHM?oc=5",
     "date": "Fri, 04 Sep 2026 11:48:00 GMT",
@@ -858,6 +858,13 @@
     "source": "연합뉴스TV"
    },
    {
+    "title": "중기부, 제조AI 인재 1600명 키운다…지방 中企 취업 청년 지원도 확대",
+    "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBEdVNnMHYzamZJZDZhc0tiOVBZT0NVUlBwVDlmNWJBLXJqZnFsRmRDREdjbVpwVlBuS2cwWE5fRGd1MW9mZktrdGdNa3EtTk5RbENF?oc=5",
+    "date": "Fri, 04 Sep 2026 11:36:00 GMT",
+    "summary": "",
+    "source": "네이트"
+   },
+   {
     "title": "중기부, 제32차 APEC 중소기업 장관회의에서 ‘K-중소·스타트업 AI 혁신 전략’ 로드맵 제시",
     "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1VSlFuLWpsR2lWV2FYVk5tYUdjYTBhV21LdEZvWnJpV0ZoUmFnVk1vcE9FcUZLZElSaFhLZ2ttVGV0SXA1RVE3U292eWxvTVNOMkMxcmZsMVhJX00yN2ZWVjQ1Z3BES01QSnc?oc=5",
     "date": "Fri, 04 Sep 2026 11:28:38 GMT",
@@ -877,13 +884,6 @@
     "date": "Fri, 04 Sep 2026 10:04:55 GMT",
     "summary": "",
     "source": "Chosunbiz"
-   },
-   {
-    "title": "중기부, APEC 중기 장관회의서 '4대 AI 핵심 정책' 공유",
-    "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE83SVE2N3hWNlpBdGRPZjVacmZDR0JuR0huYUJIdllaV0I0VTlabzlTU3N1MVBmbDctSU1fV2E2ZmwwOGh5bnBZb0luUlFlLWc?oc=5",
-    "date": "Fri, 04 Sep 2026 10:02:41 GMT",
-    "summary": "",
-    "source": "v.daum.net"
    }
   ],
   "money": [
