@@ -2,6 +2,15 @@
  {
   "date": "2026-09-08",
   "kind": "market",
+  "edition": "아침판",
+  "title": "9월 8일 (화) 투자 브리핑 · 아침판",
+  "file": "briefings/2026-09-08-market-아침판.pdf",
+  "top": "환율 1350원대…서학개미, 美 3배 레버리지에 베팅한 이유 - 한양경제",
+  "count": 10
+ },
+ {
+  "date": "2026-09-08",
+  "kind": "market",
   "edition": "자정판",
   "title": "9월 8일 (화) 투자 브리핑 · 자정판",
   "file": "briefings/2026-09-08-market-자정판.pdf",
