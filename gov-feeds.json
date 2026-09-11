@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-09-11T19:45:20.959Z",
+ "updatedAt": "2026-09-11T21:59:46.213Z",
  "groups": {
   "tax": [
    {
@@ -49,7 +49,7 @@
     "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5yR1g1Vk10S3JiRFFfMHd2QUJYNng5cGJzYnFwZ1JmWVA4ajloMmlndnhFWHFwY0RSUHd1cFQtYkVDMWlLdHdWcmtDUTlxLXJabmxNTEJGOHp5T1l3Qmx2a19hVGdPSDhzUi12NlBaUQ?oc=5",
     "date": "Fri, 11 Sep 2026 10:22:02 GMT",
     "summary": "",
-    "source": "daehanilbo.co.kr"
+    "source": "대한일보"
    },
    {
     "title": "[인사] 국세청",
@@ -184,7 +184,7 @@
     "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBNNVhxbG1LNndZUG5DbFN0NFM5VWZ2ZGwycmpfZkIySm5JUl85Y2FyVFAteFJrOE9yeGxEWkZUYVVzVTNTQWFvOWZyU1Y5MzdGeUlvQnZfX1hNVlNZVnh2OUdUSVBFN1Fvb1RjTg?oc=5",
     "date": "Fri, 11 Sep 2026 13:57:32 GMT",
     "summary": "",
-    "source": "gametoc.co.kr"
+    "source": "게임톡"
    },
    {
     "title": "‘직원 51% 여성’ 삼성바이오에피스, 고용노동부 우수 일자리 기업 선정",
@@ -226,7 +226,7 @@
     "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBKcWhyRkF5c3lJdGVWRE9ZYnFMRVk0YWhoaTdNWWtfMGIyWTl3RVlDM1BSTDA5Uko4UDRWbU5MU09OLWJRTlpDYjY3eTlCeWtsTFJwcmRkYVpQdXRhMjVvVkExTE50MUtnazZaYnRVc0lrRk01?oc=5",
     "date": "Fri, 11 Sep 2026 11:50:32 GMT",
     "summary": "",
-    "source": "globalnewsagency.kr"
+    "source": "글로벌뉴스통신GNA"
    },
    {
     "title": "강원랜드, ‘직무능력은행 활용 우수사례 공모전’ 고용노동부 장관상 수상",
@@ -357,11 +357,18 @@
   ],
   "law": [
    {
+    "title": "美 법무부 ‘외국인 테러리스트 추방 법원’ 통해 첫 명령…법원 설립 30년만",
+    "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9tTkFrOGF5XzJkcER0Wm00MWllakpNaE1kSXZzRVdtSHljVnBYU2JoTmlTODZfLWo0NjFQYlJkVndyVXNYREVCTFZKU0RzQ2JoNk5tLWJKZFM0Z3dGblFZQdIBeEFVX3lxTE5NaUpIU1cwZ1hmdVM4czlhenE0cGpRT2NCRUxvNDBCdjkxZENBRVhsS1Azc2tOakpxRFpSdFhsQXljVV9DbkVqQ08zbTJNTmR5U2hJWkV1bk1LVFJmanVuZ2tXUk9CTERId2NnWlNKVHlMamFPQmx0ZA?oc=5",
+    "date": "Fri, 11 Sep 2026 21:06:19 GMT",
+    "summary": "",
+    "source": "newsis.com"
+   },
+   {
     "title": "김승원 법무부 장관 후보자, 인사청문회 나흘 전 처남상 - 머니투데이",
     "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBRN2tOZ0JheWdNcXZiWDlRSE94RFRGT0RKNDI1bTBQOTk1ZEROcFJmZi1aWU9CVGhIZE1sMGZfT1I5MGFDZE5FOXVKUnl5aEtiZ0xnZm84QVktYW51bnJlRkk1eWFIdHpTaDZB0gFwQVVfeXFMTVBfVHcyb2xKMWZXV0RZb0tnZE5nN0J5VVZfVFdPaFhxTkpNMnNQbF9FOHFjek5iekNtbEZEbkxEeWR5ODE5cjl5QVkycU5CNmVxd2J0RmdZTHZiSEtZY0lDRm1GY0Nnemh1ZklRNkJmYg?oc=5",
     "date": "Fri, 11 Sep 2026 13:37:47 GMT",
     "summary": "",
-    "source": "mt.co.kr"
+    "source": "머니투데이"
    },
    {
     "title": "김승원 법무부 장관 후보자, 청문회 나흘 전 처남상",
@@ -392,13 +399,6 @@
     "source": "대전일보"
    },
    {
-    "title": "김승원, 딸·아들 위장 전입... ‘분당 학군’ 보내려 꼼수",
-    "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOTjdsSTR0Q2RPWVNOQ2IycGczd281dFdkcXhDRE5LSlA0MXZVLWRvNXZBN1ZPWV9wYWdCMHhqY0Y0ekxvQl9yc2RnM0lCeUVOZF82QldkVDlONU5YNHZrajRoUWxORjdTdnJNVnVZS0p1dXpqRGhxOVhpTmxCbjhPZ2ZaaTE1QQ?oc=5",
-    "date": "Fri, 11 Sep 2026 11:56:00 GMT",
-    "summary": "",
-    "source": "chosun.com"
-   },
-   {
     "title": "“교정·이민 혁신으로 법무행정 균형발전 이뤄야”",
     "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBXaGF6cDBTUnRoeXFBQTNLVS1oMWZIaVBPeE9mWDFab1dzblpJZnFhMk9SdFhKbzROTm45TXJtUnpxRWp5ZHpQTUFxQ3VyaDVra0RUQ0p3UEtmSVNjNkN2YUlJc1U4THZCOUJMOVBR0gFyQVVfeXFMTzJTT2NZd2EyanNBV3FqWEt6VjV4c0hybzJGSlNTc2ROMkkwcDZBLW8zeVNqWE51c1NNRXRUQkVDZHZYLXVLekhrNDNBNFk3d3d0MHM3Ym11XzF2U01hVHpGSzNhSmU1bmFOVjhVUU11WnFB?oc=5",
     "date": "Fri, 11 Sep 2026 11:41:08 GMT",
@@ -408,7 +408,7 @@
    {
     "title": "\"법무부 온다고 해도 집 사겠단 사람 없어요\" 전세가만 '쑥'",
     "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBvQTItZ04xQkloQ2VRRUpqcE9MYnVXeVQ3RkUtLUp1d0RveU5kdjVzWnlnSzc2aW5NS1V1SU5wVFAyMVJjSGxCRnRVSXE2T2M?oc=5",
-    "date": "Fri, 11 Sep 2026 11:03:00 GMT",
+    "date": "Fri, 11 Sep 2026 11:03:51 GMT",
     "summary": "",
     "source": "v.daum.net"
    },
@@ -438,7 +438,7 @@
     "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBDWnpwdGxMSVRFR0JQT0RUb3VCZ1dMbnhLaHpfclVPTm5xQllOSzZaTDQyUzBHcWtySlJzNDFKcW9YVVVqdlBfa0pnQXVrcmM0UzVEWlR2cEJyc0dXbEw4b9IBeEFVX3lxTFBmd2dfU3hhZTlOYU1fV3NIX1lxaTB5WEhIR3VlY2RxSTFWNF9laThicS0ydXdLN21jQnNyNWhNSDQ3VmNtdmN3R2lmeGxxNEdLczFtOW05a3Bnelp0aWpCdUQ4RE5ybl83QlNwSjNCZU1vLWJ0TWZQaA?oc=5",
     "date": "Fri, 11 Sep 2026 09:09:17 GMT",
     "summary": "",
-    "source": "뉴시스"
+    "source": "newsis.com"
    },
    {
     "title": "김승원 법무부 장관 후보자 “민주·안전·민생 중심 법무행정 추진”",
@@ -452,7 +452,7 @@
     "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5XNll1NFVkSGo2cFhNT0ZJbDdRc3ZsUDkzZllqUDUtc05zV0tIb2NhcTJ0NXJ4WVNTelh3WWx0akhMYzZsVm0wRlU1QXdVX3VoV3ZhSVd3SUNXaU9sNldEeG11WFE2NkJ5ZTlLZEVjejN1bnN3V3BOSNIBeEFVX3lxTE5XNll1NFVkSGo2cFhNT0ZJbDdRc3ZsUDkzZllqUDUtc05zV0tIb2NhcTJ0NXJ4WVNTelh3WWx0akhMYzZsVm0wRlU1QXdVX3VoV3ZhSVd3SUNXaU9sNldEeG11WFE2NkJ5ZTlLZEVjejN1bnN3V3BOSA?oc=5",
     "date": "Fri, 11 Sep 2026 09:00:00 GMT",
     "summary": "",
-    "source": "뉴시스"
+    "source": "newsis.com"
    },
    {
     "title": "테더 \"美 법무부 국제 사기조직 단속 지원…법무부가 공식 확인\"",
@@ -476,13 +476,6 @@
     "source": "v.daum.net"
    },
    {
-    "title": "[아유경제_기자수첩] ‘청탁 의혹’에 ‘음주운전 전과자’가 법무부 장관?… 국민 우롱도 정도껏 해야",
-    "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1UNnZUTnJKSjZRRDh1ZEpCN3N6RUV2dHdTT3JBbVlJWjRDNUl3SHBZaUhtWHRKTzJUTG9aaUNBVDZjbmFtMzhBeXVBLXpBUkRCM3Rtd3NZSHdJbVNxakc1WXZiVmdLcGFM?oc=5",
-    "date": "Fri, 11 Sep 2026 08:47:40 GMT",
-    "summary": "",
-    "source": "areyou.co.kr"
-   },
-   {
     "title": "[단독] 토스 \"네이버가 부당하게 토스만 포스 연동 배제‥공정위에 신고\"",
     "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9qdktmUG91bGphcGV1c2p5WTBtQnhBZEFwSUsyUmsyVUpGMG00SUl2eVZ6VWJObDFYcG5pYVF5R3VFSmRzcEVJdnFXVEM4Y29tQVJVb3hEX3gtU2dWbGJCWDdYXzV4NkJLUWo4MWxTWUVvZzY30gF0QVVfeXFMUG4zeTR1M2NtczZMNUFhUVhGU1ZOMmxUdGVRQ0ZpQml1aVEtdk5GaHV4NER4SjJnY0IwMmZDY1dEOHBBNVM1M0FQdThQamdReE1yOTh6NjVScFJBNVBtX3ZiMlppeW43SzIzSHlhNWtsZEtjODM?oc=5",
     "date": "Fri, 11 Sep 2026 08:42:07 GMT",
@@ -494,7 +487,7 @@
     "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE1TYXFzZjU1blNQQWd1dmxNSDRUTlFUSEpNek5pdW1CREhlUGhaZ3dqLUhxeU16RlM2bXJPTTFlRkZZdXBLOE9zUy1hQWRwTkpzc1hGZ3ZjWVZHLXdNMjl1X2JIaFpLclpqQ29TN0VhV2lNZ9IBdkFVX3lxTE1velFLdnJZZ0wyLWI2dGwxOHJYeGk5cHRHelhsQ3hVblU0N050OFpsUlVJTWVDUUVsSGZhbnBxR1lRdGtESHZOS2VYUEVVSUV6aW1zd3VBdTAxV0lYejM4eE00YXNqcHZHWTRzMkVlMXVMVEU2dmc?oc=5",
     "date": "Fri, 11 Sep 2026 07:55:30 GMT",
     "summary": "",
-    "source": "시사저널e"
+    "source": "sisajournal-e.com"
    },
    {
     "title": "김승원 법무부 장관 후보 \"공소청 출범, 빈틈없이 준비\"",
@@ -508,7 +501,7 @@
     "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE45bTlMU3VFQ2FaX1hjT2FQcnVUZVp4VVRYQzhvYjcwQ0pSQkxFQllJYnJsbWpoY2J5SVpmZ2RBZWhwV0JoZXZGTUFqTHhiQ3k0ZDB3XzdwU1BfZGhqblludEFwajVDUkpQQmozVkNQazjSAXBBVV95cUxOOW05TFN1RUNhWl9YY09hUHJ1VGVaeFVUWEM4b2I3MENKUkJMRUJZSWJybG1qaGNieUlaZmdkQWVocFdCaGV2Rk1Bakx4YkN5NGQwd183cFNQX2Roam5ZbnRBcGo1Q1JKUEJqM1ZDUGs4?oc=5",
     "date": "Fri, 11 Sep 2026 07:09:02 GMT",
     "summary": "",
-    "source": "mt.co.kr"
+    "source": "머니투데이"
    },
    {
     "title": "법무부, ‘김승원 수사자료’ 한동훈에 유출 경위 확인 나서",
@@ -530,9 +523,37 @@
     "date": "Fri, 11 Sep 2026 06:38:13 GMT",
     "summary": "",
     "source": "BBS불교방송"
+   },
+   {
+    "title": "33년 만에 외국인 취업비자 체계 전면 개편 추진…무엇이 어떻게 달라지나?",
+    "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1zd0dLZm50bzRDdmVKbVBhc180SmdjSzk4VDFHZkV3V2Vlb0xSajhTWmt1OXNZV0tlVVJwRWNhc1F3VEQwZmFJSjg5elZIRWJBb2lDVU54T3pRSWZ3OG95RkF6dFNhdw?oc=5",
+    "date": "Fri, 11 Sep 2026 06:29:01 GMT",
+    "summary": "",
+    "source": "ekw.co.kr"
    }
   ],
   "fund": [
+   {
+    "title": "김포 풍무 약 2700가구, PF보증으로 6000억원 조달…정부 수도권 325개 사업장 밀착관리",
+    "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9ZZFZuejFUaGNZTnplX3lsM01NbGVwS3VVY1J1LVhoMGJ0WDJqczdtZ2F6MEtPdExodTQwZnZCMlpTQkFPdjFKTW5Pa3R2cWJVdzJvU2RPVm5JWVVHZUtwb2x0eVhPallRUXFxa1NUMmc?oc=5",
+    "date": "Fri, 11 Sep 2026 21:34:53 GMT",
+    "summary": "",
+    "source": "thedailyeconomy.kr"
+   },
+   {
+    "title": "다음주 금융당국 일정",
+    "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBESlBJQUE4b2dHQ043MGZibWVsalZaQ0JKLXNUVXRZNDZUTGcxZ2p1VVl4NlJjNmgzNFd5cGs0RF9SM0d0QWM0eTZMX1NQcVBJLWVNSllsWno0WmVfNmRESU5ScUJiMDJkcFQ0OUVQWlRvZmM?oc=5",
+    "date": "Fri, 11 Sep 2026 21:00:06 GMT",
+    "summary": "",
+    "source": "마켓인"
+   },
+   {
+    "title": "[판결] 신용정보 제3자에 무단 제공… 저축은행 과징금은 적법",
+    "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9hUVgtUlBOTFlYOEJ1Q24yaE4tWXFGZFRxS2dQaGVudnBpRFQtYlF5cXNBa0pKNUJrRTFyV0pTTGpiYmtQSURPd1FRNHZjM2hTM3NNSWMyTmtrdWNITmgtTC16dDQyMUpYd0R2TnVR0gFyQVVfeXFMUGkyUFdiNzRYRU9jSkZ1MGpUcmY5dDBTX0NuQWF5dHZvbjJISFJxZG9mdnFkLVhSOFNZUllPY2dHLTgwSnRYM0xYeHZ5ZFdpbDFId3J6bkJCczNPMlRJT0FNb0tPSk5xQ01SWTRBdHl4cmZB?oc=5",
+    "date": "Fri, 11 Sep 2026 20:00:00 GMT",
+    "summary": "",
+    "source": "법률신문"
+   },
    {
     "title": "금융위 \"국민성장펀드 심의기록 관리 충실, 의결사항도 상세 공개\"",
     "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5kcXhkSVcwd3FqOEtaUFQyeEFTb3IxWXJpRlNkamxYRFUzd0IxWEJpcTJJOXoxUGhLZmVucDhyS3FPS0tVVFc5emh0ck1QYmVDcUQ2VE1XbEt5SHMwa2VNeHVrVjB3NFI1aHFEUGRVSQ?oc=5",
@@ -608,7 +629,7 @@
     "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNRVM3NGtKQS1WWFJXUU0xWVFNSEVSNmdhT0Z1aENIZTRLZkEzUFBHeUhkWWpkWER2QmpWMzdHdEFTVWdlNkJXejktZXFUN0hFSVNRZnJGT1ZDTmFzNVExVlVYeTBZNWFRVzhBWG44T0VMRThiRWVndUhXUWVoUWU5MnQ4aHJaWXZLRU9fUkln?oc=5",
     "date": "Fri, 11 Sep 2026 07:00:00 GMT",
     "summary": "",
-    "source": "금융위원회"
+    "source": "fsc.go.kr"
    },
    {
     "title": "금융위, 보험사 계리가정·GA 관리 강화…K-ICS 연계도 추진",
@@ -643,7 +664,7 @@
     "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1lZzFoczFmSm8wSVBkQnVxd2liNExvRkpFWldRYnVVUWgzMF9sMWJ4d2tIdmQ1WjJIdUl5TlEwODU4TnhpbXl1NGtlaGc2ZE5PXzJ0TzNoUUVhYVNYSURQR0JB?oc=5",
     "date": "Fri, 11 Sep 2026 06:00:52 GMT",
     "summary": "",
-    "source": "서울Pn"
+    "source": "go.seoul.co.kr"
    },
    {
     "title": "보험사 내년부터 GA 불완전판매 발생하면 지급여력비율 불이익, 관리 책임 강화",
@@ -664,7 +685,7 @@
     "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9lRDNacDNqMGdDSzRHMng1Uy1Ea0RTUmV5SnpsR1UzUjlUNEptYW5kRHMwM2JMclRiOEZDLTgzTTdxN3duNHFlVFZyM1ZzU2tEdG02MmpZOUJaT2Z5ZENVTDNCUjQ3MkNCeTVlTTE2ekxVdXRJc3RRUlR6NNIBgAFBVV95cUxPcGt0cDdabzJINnVJZ2E2NUQzZTEtS0l2d2pyaU9PdnkyMl9yR2stOVd0eTRRYTV4eWZPUUhMdHFGbHNLc2lMWkFEM2JhRkVqTDJhRS11aE1ELWU0YlM3TnlmZi11V1k2dGJsMXZkTDJfUWdfVHpRVjFGV1JobzZrbQ?oc=5",
     "date": "Fri, 11 Sep 2026 02:57:44 GMT",
     "summary": "",
-    "source": "biz.newdaily.co.kr"
+    "source": "뉴데일리"
    },
    {
     "title": "법인보험대리점 운영위험 등급 매긴다…불완전판매 비율 등 기준",
@@ -672,20 +693,6 @@
     "date": "Fri, 11 Sep 2026 02:53:38 GMT",
     "summary": "",
     "source": "연합뉴스"
-   },
-   {
-    "title": "금융위, 5대 금융지주 ‘포용금융’ 시범평가…CIFO 역할 들여다본다",
-    "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1vc3hXZkVBVWJMay1FSjVaZ3hxMXZwRXZ0eTNnQjQ0WVhCbDhhT3lIU3JzVUYxYWpkWDVfUElEbk9JYkZEOG9CS1dmR3hiVDFiVDQzVng4bmVFX0RtSG9QdWxQMDZBZDdubnBaSA?oc=5",
-    "date": "Fri, 11 Sep 2026 02:51:57 GMT",
-    "summary": "",
-    "source": "ER 이코노믹리뷰"
-   },
-   {
-    "title": "듀레이션갭·GA 위험도 평가한다… 금융위, 보험 감독규정 개정 예고",
-    "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFAtY28tZlp5cHMwdWNPY0VKVEl2aUlrbThiQWpxWFVKbzNYczZvYXdJOExfOGpsQTNPdGFNeGpZcS1HZElGNzVaTnlOUWVqOXlMT3pLXzRaaTFNazlZOEtrT9IBeEFVX3lxTFA4b0FrWTh6ZWd3ZUFPNjJlYXRaQWpqbnh6eTV0OU1kVFZSYTlPSUlhN3dadzl6QjBKeUFIdWRzRkppNTA4OHZwR0x6R3N1cFoyMjdNclhRX21zTElJdjUxR2NLM25qNE9odUsxYlR1VlZDM1gxd25tQg?oc=5",
-    "date": "Fri, 11 Sep 2026 02:26:14 GMT",
-    "summary": "",
-    "source": "뉴시스"
    },
    {
     "title": "9월 1일~10일 수출 350억 달러…전년동기비 82.6% 증가",
@@ -700,13 +707,6 @@
     "date": "Fri, 11 Sep 2026 01:36:00 GMT",
     "summary": "",
     "source": "Chosunbiz"
-   },
-   {
-    "title": "금융위, IFRS17 계리가정 보고서 도입…계리감독 선진화",
-    "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFA0RS13TnN6c1RXLUtZYmF6Qm5aQ1JydDZDV1FEd2ZsZTREY1dkOW80OC1yZXdHNWYxVHBXTFpYZkZUc2xoVENfOWtEZkh5UQ?oc=5",
-    "date": "Fri, 11 Sep 2026 01:28:00 GMT",
-    "summary": "",
-    "source": "전자신문"
    }
   ],
   "biz": [
@@ -737,6 +737,13 @@
     "date": "Fri, 11 Sep 2026 10:47:50 GMT",
     "summary": "",
     "source": "이뉴스투데이"
+   },
+   {
+    "title": "중기부 \"악의적 별점테러 개선…무기대등의 원칙 지켜야\"",
+    "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1lVFJpVUYwNUxoczkxQ0JvT3pZMFZZMDlwSHRZLWktX0ZjWFJSY0tMZFV5Q1pkcUdMN1lVQjZwNFdCQklQUFA2ZU9hcWtHYnZQaW1Zek5CSFY3STR40gFiQVVfeXFMUDJTWFBEVXIyNnlCUVdENEQ0bFRHM3hqVzdPOUluVmpoRERhZlBSZmxVWjVUS2RNSmVoQU9zM2hWeFVMQ3RxeTM5WEVfdmtkS2dwQXlSejVWZTlRRVgyMDF1a0E?oc=5",
+    "date": "Fri, 11 Sep 2026 10:34:05 GMT",
+    "summary": "",
+    "source": "뉴스1"
    },
    {
     "title": "윤한홍 의원 “이소영 후보자 기후솔루션과 역할분담 의혹” 제기…“비합리적 억측”",
@@ -774,32 +781,11 @@
     "source": "v.daum.net"
    },
    {
-    "title": "중기부, '도전의 IR 프로젝트' 추진…혁신 창업가-투자사 연결",
-    "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5IMXZyUkI3WGFZeTFRVkhLV296WjVuajE3bGVwVHFuVmZqd0d5NmdRYkJUZVgzeDRJcHI1TDlNQkNSNlFaVVVEanFNY2JGT0p2ZFd3?oc=5",
-    "date": "Fri, 11 Sep 2026 07:42:00 GMT",
-    "summary": "",
-    "source": "네이트"
-   },
-   {
-    "title": "중기부, ’도전의 IR 프로젝트’ 추진…혁신 창업가-투자사 연결",
-    "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1WY3VJdjBuQnhUcktsbklSQS0tSTI3TXNudDRSVnZPZUZRRlFqWmhUUVVqQVVuZG0zTU03UVdxZFloUzdVdzhtR3FVajVYdFBsYTRpY0RwR1RrSzB3N3Azd1IwT1NPckk?oc=5",
-    "date": "Fri, 11 Sep 2026 07:41:00 GMT",
-    "summary": "",
-    "source": "연합뉴스TV"
-   },
-   {
     "title": "서원대, 중소벤처기업부 창업도약패키지 성과평가 3년 연속 ‘최우수’등급 획득",
     "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE93eFRzckJGeEhhaFRIQVNNOExScDlTTXZpUjAzd1lyc0NWTldMVGxRQnJuZTdkVl80cDZYYUs1Y3RkekVMVllUYXBtZTIzNEMtT2NXLVZTb2hCQktJbGVCbFVfbi1DZ9IBaEFVX3lxTE5CZ0RRUnJIam1sSFR6Q1RhOWUzWDJ2amh5WEtEZzFLN1BCNGY0QzMxVEk3RlYxcHN4VVRVNTVRd3RLOGJoNGlRS2ZJUzlRTkJERVdCdGVLZkphdjZIYl9JckRiNWdpNzVQ?oc=5",
     "date": "Fri, 11 Sep 2026 07:32:34 GMT",
     "summary": "",
     "source": "usline.kr"
-   },
-   {
-    "title": "중기부, ‘도전의 IR 프로젝트’ 추진…혁신 창업가 첫 투자유치 지원",
-    "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5xRUppNVJ1MUltM3dRUEFVUnRaWlNFVVJuYklvSHNSWTlwTzJLVlFyUENoQVRMVy1VQ3lfRFRjZEh4TTlHRFJBeWtUME5uNjNBVjJWU1dOUndDQk1CNVZaS0p6THBEYWFpSjNFTw?oc=5",
-    "date": "Fri, 11 Sep 2026 06:39:00 GMT",
-    "summary": "",
-    "source": "IT비즈뉴스"
    },
    {
     "title": "\"허위 리뷰·별점 테러에 소상공인 피해\"…중기부, 플랫폼과 개선 논의",
@@ -820,7 +806,7 @@
     "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE51ZTJ4Y0lBZUtQNGtuSGpQU2ZBcDlkTW1PNDl0R19RVGRXYk9Rb1FDc3g2WjBHdjgxWWpjTW1BU1pPaHk5TlFtLURYdTQtLUFhcEU1QWFsUU1xd9IBVEFVX3lxTE5WcnRiTnI0aS0yOXNrZzRpYlh4N2JzQ29mMElfWmswc1BGWk1JNFpkN1k4Y2RhdXNXNDBVZ2dWQWk2LU9PUFJJVEU3VUZIVzBHbEpxdA?oc=5",
     "date": "Fri, 11 Sep 2026 06:17:59 GMT",
     "summary": "",
-    "source": "news.tf.co.kr"
+    "source": "더팩트"
    },
    {
     "title": "“혁신 아이디어와 투자자의 만남” 중기부, ‘도전의 IR 프로젝트’ 추진",
@@ -835,6 +821,20 @@
     "date": "Fri, 11 Sep 2026 06:09:48 GMT",
     "summary": "",
     "source": "뉴스1"
+   },
+   {
+    "title": "중기부, 별점·리뷰 소상공인 피해 청취 간담회 개최",
+    "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1yQ1hoQUNiLXI3bGp3UmVNa1RnTGtqdy15RzFzQnZhSy1kMFFxOHBCWWpLN1BscjZMbTVKR1MxSUJLQkhqaVdWWm4ySXN6Y0FKdnFmOV9nZ2RBa21HREV0bUNReHowMGtEWWEzME1SRDU?oc=5",
+    "date": "Fri, 11 Sep 2026 05:41:53 GMT",
+    "summary": "",
+    "source": "숙박매거진"
+   },
+   {
+    "title": "생애 첫 투자유치 돕는다…'도전의 IR 프로젝트' 추진",
+    "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9NeGJXUFl5VV9icGNhQW5UdklpVDhZMENHNzhXZmxRQ3U4dVVFN1BUMnozR0tXOEFoWlFtT05FeEFrTHB4aUVkdVlUUWtPVTByZzFpUnBfOGtaR1FWdmZJRnI4amZfUjByQnUxQg?oc=5",
+    "date": "Fri, 11 Sep 2026 05:03:28 GMT",
+    "summary": "",
+    "source": "대한민국 정책브리핑"
    },
    {
     "title": "\"악성 리뷰에 매출 흔들\"…중기부, '별점 테러' 소상공인 보호 나서",
@@ -865,18 +865,11 @@
     "source": "네이트"
    },
    {
-    "title": "\"허위 리뷰·별점 테러에 소상공인 피해\"…중기부, 상생 간담회",
-    "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1CUTZMNWhPYVpKNGdVRDUyelNqVzFuTDB5WXRKa1NIYzZpaG4tUVl4Q3BRQ0x1SFEwal85SmFKdWlOdUxWaVQwTmtyWjdlN3ZtUmFsejEwMEZPa3PSAWBBVV95cUxPWk4tb0ZJUXozUXV0VjdTbmpsQjR0RDh1cDV4bGVRZFYxcjQ0dEs2RjJXbzR4T0ZDNDY3MGRKLWRFazBhS2ptLWNLYktDOE1mUlFTbXJvX0otTzZFbmRXZ0s?oc=5",
-    "date": "Fri, 11 Sep 2026 05:00:01 GMT",
-    "summary": "",
-    "source": "연합뉴스"
-   },
-   {
-    "title": "'서비스 안줘?','별점 테러'에 멍든 소상공인…중기부, 법률·분쟁 대응 지원 - 머니투데이",
-    "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBwcDBuVDBkd1RmdHFCY0dLM3NySGVic2kySDRobmQ3OXBOS1llWng2WnplaVZTYmJHeXpsYlhGREYyeWRzWE8xTkRDd1lPcDBLZDEteEdSQVQ1ZjVJaWJ4RWM4ZHk3THJvbGpF0gFwQVVfeXFMTjhJRnRvVzV1Slk5RzZMM3RyemdndEx1eDVkdi1jQzRUODVybXpLazIxVm52ZTBNUkdUc2txTjNiQ1NkaDZJc3hnM0l2ZGFiQUxaNFhFem5XYjNmTU5wNTdxalB5OGQ2TnpMUG85dHY0OQ?oc=5",
+    "title": "“악성 리뷰, 평점 깎아먹어”…중기부, 플랫폼 리뷰 간담회",
+    "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBfd3locF9pLW92R1FLUlY0aVZGZ1h4NmlPb0haTzl5QThZVlRhSGd2dEdiZ2pfaWg3aVJoRVlJdXpzSzAwVkl1d1pqWkVSNmdFemfSAVNBVV95cUxNOTRuSDFFT1gxMnBBdGEwa3JuT1B0OFlHc051WGNnYnpBRm5lSmJValllQlZFMjIxQjFoSlNTbFpYTHhHR0IxY29fVUxESUNfZ1RYQQ?oc=5",
     "date": "Fri, 11 Sep 2026 05:00:00 GMT",
     "summary": "",
-    "source": "mt.co.kr"
+    "source": "서울경제"
    },
    {
     "title": "'서비스 안줘?','별점 테러'에 멍든 소상공인…중기부, 법률·분쟁 대응 지원",
@@ -884,6 +877,13 @@
     "date": "Fri, 11 Sep 2026 05:00:00 GMT",
     "summary": "",
     "source": "네이트"
+   },
+   {
+    "title": "전북대, 중소기업-연구인력 매칭 '지역산업 성장 잇는다'",
+    "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5yRUJyV1c5c1FJRGppQ1NzdEhCZVpKRHZSNG1lZ1otVkhCM0ZYNmg3LXhsSG5fX3Q4MUh2OHFocjV1aDhad3VNdmVYRnRqZw?oc=5",
+    "date": "Fri, 11 Sep 2026 04:57:36 GMT",
+    "summary": "",
+    "source": "전자신문"
    }
   ],
   "money": [
@@ -948,7 +948,7 @@
     "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1GdThHeEI1UUliNDA4dVNBWE1QWF9PWHVzXzN0UFFUNkZSOWo3Q2JQRmF5ZXVRSjdWbXFsdzR0Ri04N3A5dDhyNERnTWo3Qnl5NDF1Y29ZS1pvWUNmTHpLMkNMMFNRMjJPMDdHX3UySmFfMElD?oc=5",
     "date": "Tue, 04 Aug 2026 07:00:00 GMT",
     "summary": "",
-    "source": "busan.com"
+    "source": "부산일보"
    },
    {
     "title": "\"소상공인 정책자금, 희망인가 희망고문인가\"",
@@ -990,7 +990,7 @@
     "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOSklIWmR5T1phR3hvUzFsYWV3ZHE2RDdTMHZBMFd0NFJPTzBCejd3WlJaWW5hMlhYaEp0RWRKSVF4alhjYUZ1al9Oc2VPdC1wc1FxdEVqRkFLOVdYTjZkYUVUNlJjazRyanZobGF1WUVDZms4MXp6eE5sWlMxN3drM3JRS3JBMDdP?oc=5",
     "date": "Wed, 27 May 2026 07:00:00 GMT",
     "summary": "",
-    "source": "chosun.com"
+    "source": "조선일보"
    },
    {
     "title": "중소벤처기업부, 창업지원 200만원 지급…5천명 선발... 대상자 지금 확인",
@@ -1011,7 +1011,7 @@
     "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE0tRTRwWXg3ZGNYR0FVUTJDaXdaVlJoOGgtZDZEamlKMG02aHR3MjRGSXBLaFE2aHNnREs2Z3FlYkFXX1pnOTh4eHNsWjZUNHRaU0t4N1JWb3FiQ2Y3TF9EV0l0RjR0b1pxTFZB?oc=5",
     "date": "Mon, 18 May 2026 07:00:00 GMT",
     "summary": "",
-    "source": "ngetnews.com"
+    "source": "뉴스저널리즘"
    },
    {
     "title": "소상공인 AI 지원금 2026년 정부지원사업 4천만원",
@@ -1039,7 +1039,7 @@
     "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE56akRUS1JqSlBzQktaR0ZlaHBTQ3ZkWHBTMG9PY190bExrdG8xVXZTdG5KcVNjcnVUN25tOE1GVzh0V3B3ejdpX2RoV1l2UFlYTDlpb0RWYXoyRi1OLUpQUDlCNmxGLXd30gFsQVVfeXFMTkV4MnRPeHItaUk5STgtTExTTDE2TlU5clczNUhpSXhxelNmeW5yZE5DNFBzV3hvcWVZZFhuQ3BuQUNOQldfVklDMVRFbnFMRDBMblMyb3V6Zm5YSkZIMTVVNDllbktiQVdhZy1J?oc=5",
     "date": "Fri, 10 Apr 2026 07:00:00 GMT",
     "summary": "",
-    "source": "sbiztoday.kr"
+    "source": "중소기업투데이"
    },
    {
     "title": "추경 앞두고 피싱 기승…소상공인 300만명 ‘비상’",
@@ -1076,7 +1076,7 @@
     "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1Bb0ZkQklSVWI4YnB3c0ZvcmVEUi1aOTBMTmlrNjlrc0Utd21tc2V0bFdXTHlBLWd4a2NqZzJncHd6Sm85NmIwVmY5NnJEUzBuUFd3UWV1TTNZVjVMZXRvd19MM2FaYUk3bHp3TWhxRGN3OUXSAXdBVV95cUxQYUZKcndhWlBzSk41MThiWUk2Y21pQTIzTjlZTnIyZVhFV2dSbkVDMUhHQk1wOWR6Z1M1Y3pMWlB2Q3FOTEhXamtCck9qSWRPWXliNE5ZQUR2NUZyZEttZEFvNTF5eGQ2TVFSVldncEtxbTdqNzh3MA?oc=5",
     "date": "Thu, 10 Sep 2026 02:23:25 GMT",
     "summary": "",
-    "source": "뉴스프리존"
+    "source": "newsfreezone.co.kr"
    },
    {
     "title": "'호우 피해' 통영 전역, 법인세·부가세 신고·납부 최대 2년 연장",
@@ -1216,7 +1216,7 @@
     "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1wTzdOUXVzemRtVXV0ODRMdTZuLTJ6WXU1dFQxTnUwc3hPdlFpTFNIVHJPMl9IVGRYLWNzNWw5UXFDSzV5RVFqZGc2UTItVnhndWVkckt2SUFZc2dBNEJSNkpJbVZpbmx4?oc=5",
     "date": "Mon, 20 Jul 2026 07:00:00 GMT",
     "summary": "",
-    "source": "대한건설기계신문"
+    "source": "news.kcea.or.kr"
    },
    {
     "title": "세무플랫폼 첫 백기…\"무료 부가세 신고\" 광고 내렸다",
@@ -1237,7 +1237,7 @@
     "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE8yOTd2Q19pQXlSTTBZaGZoUWZ0ZHBrdHZ5bjNHMDNVTUhIOWZMZkRyWWF3LVppYVJGVWx4YWJOakdUdEFTM1BGVlNDdUhqTVJ4aWR5amZjbm4wbXM0UDlybHYxT0tvUDZF?oc=5",
     "date": "Fri, 17 Jul 2026 07:00:00 GMT",
     "summary": "",
-    "source": "hapt.co.kr"
+    "source": "한국아파트신문"
    }
   ]
  }
