@@ -2,6 +2,15 @@
  {
   "date": "2026-09-11",
   "kind": "market",
+  "edition": "자정판",
+  "title": "9월 11일 (금) 투자 브리핑 · 자정판",
+  "file": "briefings/2026-09-11-market-자정판.pdf",
+  "top": "비트코인 ETF 울고 알트코인 ETF 웃고…엇갈린 자금 흐름 - 아시아투데이",
+  "count": 18
+ },
+ {
+  "date": "2026-09-11",
+  "kind": "market",
   "edition": "아침판",
   "title": "9월 11일 (금) 투자 브리핑 · 아침판",
   "file": "briefings/2026-09-11-market-아침판.pdf",
