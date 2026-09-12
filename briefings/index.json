@@ -2,6 +2,15 @@
  {
   "date": "2026-09-12",
   "kind": "market",
+  "edition": "아침판",
+  "title": "9월 12일 (토) 투자 브리핑 · 아침판",
+  "file": "briefings/2026-09-12-market-아침판.pdf",
+  "top": "박스권 증시에 ‘파킹형 ETF’로 뭉칫돈…일주일 새 1.5조 유입 - 서울경제TV",
+  "count": 6
+ },
+ {
+  "date": "2026-09-12",
+  "kind": "market",
   "edition": "자정판",
   "title": "9월 12일 (토) 투자 브리핑 · 자정판",
   "file": "briefings/2026-09-12-market-자정판.pdf",
