@@ -2,6 +2,15 @@
  {
   "date": "2026-09-13",
   "kind": "market",
+  "edition": "아침판",
+  "title": "9월 13일 (일) 투자 브리핑 · 아침판",
+  "file": "briefings/2026-09-13-market-아침판.pdf",
+  "top": "美 비트코인 현물 ETF, 4거래일 연속 순유출…이더리움은 2.16억달러 유입 - 블루밍비트",
+  "count": 5
+ },
+ {
+  "date": "2026-09-13",
+  "kind": "market",
   "edition": "자정판",
   "title": "9월 13일 (일) 투자 브리핑 · 자정판",
   "file": "briefings/2026-09-13-market-자정판.pdf",
