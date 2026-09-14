@@ -2,6 +2,15 @@
  {
   "date": "2026-09-14",
   "kind": "market",
+  "edition": "아침판",
+  "title": "9월 14일 (월) 투자 브리핑 · 아침판",
+  "file": "briefings/2026-09-14-market-아침판.pdf",
+  "top": "주간 테슬라 뉴스: 민주당 의원 자율주행 조사 촉구, 사이버캡 생산 확대 외 - Benzinga",
+  "count": 10
+ },
+ {
+  "date": "2026-09-14",
+  "kind": "market",
   "edition": "자정판",
   "title": "9월 14일 (월) 투자 브리핑 · 자정판",
   "file": "briefings/2026-09-14-market-자정판.pdf",
