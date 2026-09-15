@@ -2,6 +2,15 @@
  {
   "date": "2026-09-15",
   "kind": "market",
+  "edition": "자정판",
+  "title": "9월 15일 (화) 투자 브리핑 · 자정판",
+  "file": "briefings/2026-09-15-market-자정판.pdf",
+  "top": "뉴욕증시, AI속도조절론에 기술주 급락 마…나스닥 0.56%↓ - 증권일보",
+  "count": 22
+ },
+ {
+  "date": "2026-09-15",
+  "kind": "market",
   "edition": "아침판",
   "title": "9월 15일 (화) 투자 브리핑 · 아침판",
   "file": "briefings/2026-09-15-market-아침판.pdf",
