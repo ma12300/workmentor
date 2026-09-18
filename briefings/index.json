@@ -2,6 +2,15 @@
  {
   "date": "2026-09-18",
   "kind": "market",
+  "edition": "아침판",
+  "title": "9월 18일 (금) 투자 브리핑 · 아침판",
+  "file": "briefings/2026-09-18-market-아침판.pdf",
+  "top": "나스닥 다우지수 반등 성공...기술주 오르고 국제유가↓ - gukjenews.com",
+  "count": 14
+ },
+ {
+  "date": "2026-09-18",
+  "kind": "market",
   "edition": "자정판",
   "title": "9월 18일 (금) 투자 브리핑 · 자정판",
   "file": "briefings/2026-09-18-market-자정판.pdf",
