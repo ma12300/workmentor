@@ -2,6 +2,15 @@
  {
   "date": "2026-09-19",
   "kind": "market",
+  "edition": "자정판",
+  "title": "9월 19일 (토) 투자 브리핑 · 자정판",
+  "file": "briefings/2026-09-19-market-자정판.pdf",
+  "top": "[속보]뉴욕증시, 기술주 힘에 나스닥 상승…다우는 홀로 약세 - CBC뉴스",
+  "count": 11
+ },
+ {
+  "date": "2026-09-19",
+  "kind": "market",
   "edition": "아침판",
   "title": "9월 19일 (토) 투자 브리핑 · 아침판",
   "file": "briefings/2026-09-19-market-아침판.pdf",
