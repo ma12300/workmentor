@@ -2,6 +2,15 @@
  {
   "date": "2026-09-20",
   "kind": "market",
+  "edition": "자정판",
+  "title": "9월 20일 (일) 투자 브리핑 · 자정판",
+  "file": "briefings/2026-09-20-market-자정판.pdf",
+  "top": "비트코인, ETF 자금 유입 재개로 8만 달러 선 유지 - Investing.com 한국어",
+  "count": 7
+ },
+ {
+  "date": "2026-09-20",
+  "kind": "market",
   "edition": "아침판",
   "title": "9월 20일 (일) 투자 브리핑 · 아침판",
   "file": "briefings/2026-09-20-market-아침판.pdf",
