@@ -2,6 +2,15 @@
  {
   "date": "2026-09-20",
   "kind": "market",
+  "edition": "아침판",
+  "title": "9월 20일 (일) 투자 브리핑 · 아침판",
+  "file": "briefings/2026-09-20-market-아침판.pdf",
+  "top": "뉴욕증시 혼조 마감(다우 0.18%↓, S&P500 0.17%↑, 나스닥 0.39%↑)… 필라델피아 반도체지수 2.78% 급등 - CBC뉴스",
+  "count": 7
+ },
+ {
+  "date": "2026-09-20",
+  "kind": "market",
   "edition": "자정판",
   "title": "9월 20일 (일) 투자 브리핑 · 자정판",
   "file": "briefings/2026-09-20-market-자정판.pdf",
