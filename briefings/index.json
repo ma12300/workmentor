@@ -2,6 +2,15 @@
  {
   "date": "2026-09-22",
   "kind": "market",
+  "edition": "아침판",
+  "title": "9월 22일 (화) 투자 브리핑 · 아침판",
+  "file": "briefings/2026-09-22-market-아침판.pdf",
+  "top": "AI 낙관론에 기술주 랠리…나스닥 사상 최고 [뉴욕증시 브리핑] - 한국경제",
+  "count": 18
+ },
+ {
+  "date": "2026-09-22",
+  "kind": "market",
   "edition": "자정판",
   "title": "9월 22일 (화) 투자 브리핑 · 자정판",
   "file": "briefings/2026-09-22-market-자정판.pdf",
