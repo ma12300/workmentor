@@ -2,6 +2,15 @@
  {
   "date": "2026-09-23",
   "kind": "market",
+  "edition": "아침판",
+  "title": "9월 23일 (수) 투자 브리핑 · 아침판",
+  "file": "briefings/2026-09-23-market-아침판.pdf",
+  "top": "[속보] 뉴욕증시, AI 논쟁 속 나스닥 또 사상 최고…다우·S&P500은 주춤 - CBC뉴스",
+  "count": 12
+ },
+ {
+  "date": "2026-09-23",
+  "kind": "market",
   "edition": "자정판",
   "title": "9월 23일 (수) 투자 브리핑 · 자정판",
   "file": "briefings/2026-09-23-market-자정판.pdf",
