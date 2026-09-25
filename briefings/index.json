@@ -2,6 +2,15 @@
  {
   "date": "2026-09-25",
   "kind": "market",
+  "edition": "아침판",
+  "title": "9월 25일 (금) 투자 브리핑 · 아침판",
+  "file": "briefings/2026-09-25-market-아침판.pdf",
+  "top": "다우 0.18%·나스닥 0.13% 하락 출발…SK하이닉스 1.43%↓ - 토큰포스트",
+  "count": 13
+ },
+ {
+  "date": "2026-09-25",
+  "kind": "market",
   "edition": "자정판",
   "title": "9월 25일 (금) 투자 브리핑 · 자정판",
   "file": "briefings/2026-09-25-market-자정판.pdf",
