@@ -2,6 +2,15 @@
  {
   "date": "2026-09-26",
   "kind": "market",
+  "edition": "자정판",
+  "title": "9월 26일 (토) 투자 브리핑 · 자정판",
+  "file": "briefings/2026-09-26-market-자정판.pdf",
+  "top": "[뉴욕증시24일] 기술주 하락세에 나스닥·S&P500↓ - 미주조선일보",
+  "count": 11
+ },
+ {
+  "date": "2026-09-26",
+  "kind": "market",
   "edition": "아침판",
   "title": "9월 26일 (토) 투자 브리핑 · 아침판",
   "file": "briefings/2026-09-26-market-아침판.pdf",
