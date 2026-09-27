@@ -1,21 +1,10 @@
 [
  {
   "date": "2026-09-27",
-  "kind": "market",
-  "edition": "아침판",
-  "title": "9월 27일 (일) 투자 브리핑 · 아침판",
-  "file": "briefings/2026-09-27-market-아침판.pdf",
-  "top": "머스크 ‘테라팹’ 시동…160조원 AI칩 공장에 K소부장 촉각 : 네이버 블로그 - Naver Blog",
-  "count": 7
- },
- {
-  "date": "2026-09-27",
-  "kind": "market",
-  "edition": "자정판",
-  "title": "9월 27일 (일) 투자 브리핑 · 자정판",
-  "file": "briefings/2026-09-27-market-자정판.pdf",
-  "top": "다우 0.31% 상승 출발…나스닥·S&P500도 오름세 - tokenpost.kr",
-  "count": 23
+  "title": "9월 27일 (일) 아침 브리핑",
+  "file": "briefings/2026-09-27.pdf",
+  "top": "중소벤처기업부, 지원사업 부정수급 60%가 바우처…관리 사각지대 드러나",
+  "count": 28
  },
  {
   "date": "2026-09-26",
@@ -507,30 +496,5 @@
   "file": "briefings/2026-09-06-market-아침판.pdf",
   "top": "환율 1300원대로 내려앉자…기업 달러 매집 러시 - 조선비즈 - Chosunbiz",
   "count": 4
- },
- {
-  "date": "2026-09-06",
-  "title": "9월 6일 (일) 아침 브리핑",
-  "file": "briefings/2026-09-06.pdf",
-  "top": "고용부 내년 예산 39조 원…국가 미래 세대 청년 일자리 지원·AI 전환 대응 총력전",
-  "count": 28
- },
- {
-  "date": "2026-09-05",
-  "kind": "market",
-  "edition": "저녁판",
-  "title": "9월 5일 (토) 투자 브리핑 · 저녁판",
-  "file": "briefings/2026-09-05-market-저녁판.pdf",
-  "top": "리플(XRP) 가격 조정에도 ETF 자금은 역주행 9거래일 연속 순유입 - CBC뉴스",
-  "count": 12
- },
- {
-  "date": "2026-09-05",
-  "kind": "market",
-  "edition": "아침판",
-  "title": "9월 5일 (토) 투자 브리핑 · 아침판",
-  "file": "briefings/2026-09-05-market-아침판.pdf",
-  "top": "고금리 우려에 美 단기국채 ETF로 자금 이동…한주간 1000억 몰려 - 서울경제TV",
-  "count": 2
  }
 ]
