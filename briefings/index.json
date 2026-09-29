@@ -1,21 +1,10 @@
 [
  {
   "date": "2026-09-29",
-  "kind": "market",
-  "edition": "아침판",
-  "title": "9월 29일 (화) 투자 브리핑 · 아침판",
-  "file": "briefings/2026-09-29-market-아침판.pdf",
-  "top": "스페이스X(SPCX), 2분기 매출 92% 폭발...2027년이면 테슬라(TSLA) 역전? - 코인리더스",
-  "count": 3
- },
- {
-  "date": "2026-09-29",
-  "kind": "market",
-  "edition": "자정판",
-  "title": "9월 29일 (화) 투자 브리핑 · 자정판",
-  "file": "briefings/2026-09-29-market-자정판.pdf",
-  "top": "비트코인 ETF, 주간 23억9천만 달러 유입…가상자산 펀드 전반으로 수요 확산 - Yellow.com",
-  "count": 30
+  "title": "9월 29일 (화) 아침 브리핑",
+  "file": "briefings/2026-09-29.pdf",
+  "top": "국민연금 지원 직역별 제각각…월평균 지원액 최대 3.4배 격차",
+  "count": 28
  },
  {
   "date": "2026-09-28",
@@ -505,23 +494,5 @@
   "file": "briefings/2026-09-08.pdf",
   "top": "중기부, 'K-소비재' 혁신기업 188곳 선정...수출바우처·해외인증 우대",
   "count": 28
- },
- {
-  "date": "2026-09-07",
-  "kind": "market",
-  "edition": "자정판",
-  "title": "9월 7일 (월) 투자 브리핑 · 자정판",
-  "file": "briefings/2026-09-07-market-자정판.pdf",
-  "top": "블랙록의 IBIT, 비트코인 ETF 자금 유입 ‘랠리’ 주도 - Benzinga",
-  "count": 19
- },
- {
-  "date": "2026-09-07",
-  "kind": "market",
-  "edition": "아침판",
-  "title": "9월 7일 (월) 투자 브리핑 · 아침판",
-  "file": "briefings/2026-09-07-market-아침판.pdf",
-  "top": "[코인뉴스] 비트코인 8만 달러 사수…ETF는 '사자' - 네이트",
-  "count": 6
  }
 ]
