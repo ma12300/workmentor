@@ -2,6 +2,15 @@
  {
   "date": "2026-10-03",
   "kind": "market",
+  "edition": "아침판",
+  "title": "10월 3일 (토) 투자 브리핑 · 아침판",
+  "file": "briefings/2026-10-03-market-아침판.pdf",
+  "top": "뉴욕증시, 고용 둔화에 기술주 강세…나스닥 1.19%↑[뉴욕마감] - MTN 머니투데이방송",
+  "count": 10
+ },
+ {
+  "date": "2026-10-03",
+  "kind": "market",
   "edition": "자정판",
   "title": "10월 3일 (토) 투자 브리핑 · 자정판",
   "file": "briefings/2026-10-03-market-자정판.pdf",
