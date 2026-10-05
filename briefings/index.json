@@ -2,6 +2,15 @@
  {
   "date": "2026-10-05",
   "kind": "market",
+  "edition": "아침판",
+  "title": "10월 5일 (월) 투자 브리핑 · 아침판",
+  "file": "briefings/2026-10-05-market-아침판.pdf",
+  "top": "주간 테슬라 뉴스: 옵티머스 양산 위한 메모리 축소, 로드스터 공개 연기 외 - Benzinga",
+  "count": 8
+ },
+ {
+  "date": "2026-10-05",
+  "kind": "market",
   "edition": "자정판",
   "title": "10월 5일 (월) 투자 브리핑 · 자정판",
   "file": "briefings/2026-10-05-market-자정판.pdf",
