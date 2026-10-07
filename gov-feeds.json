@@ -1,190 +1,281 @@
 {
- "updatedAt": "2026-10-07T06:23:34.745Z",
+ "updatedAt": "2026-10-07T13:46:30.493Z",
  "groups": {
   "tax": [
    {
-    "title": "부산 기장군, 국세청에 '금정세무서 기장지서' 설치 요청",
-    "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1tR1JnMGlJTE1RLTdMOHFyd0hBQ0hQaXpBMUp4QW43dmJ3bW5jd0hQNjJrWkRrOWY1eDh1dlFxYzdNNjAzRHpqa256cTV0YmJRV1V2bkFlLXI4UQ?oc=5",
-    "date": "Wed, 07 Oct 2026 06:19:25 GMT",
-    "summary": "",
-    "source": "파이낸셜뉴스"
-   },
-   {
-    "title": "거제 지역 호우·홈플러스 피해 중소기업, 부가세 납부 두 달 연장된다",
-    "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9TajF2d2JRMFo2Q1psa1ZvTGgzbjhaQl9kMjdicll0cnVCTU8wTDJpX0dxdmtEZDdycV90eXJDMFhFTjNFeUdzUHc4cXpJelFkT1pVemRlblc2WnhoR2FpMDJBcDhIeVZXZXc1Z3l3?oc=5",
-    "date": "Wed, 07 Oct 2026 06:15:12 GMT",
-    "summary": "",
-    "source": "거제신문"
-   },
-   {
-    "title": "'세무서 가는데 30㎞'…기장군, 국세청에 '기장지서' 설치 요청",
-    "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE43cy03X1YtUXgyZWRhRWRVSE9GNTlvX0ZoOUtENkNSWElrSlJ2dEtKVDhBUVdQbUh3Qzk2eVB5OU5NWmRfd0hPQnFOVy1UeHhDUEpMaXVyUG5sQlnSAWBBVV95cUxOaUY2NXV5VUhScEtVTzgxdGdqYkRWaGRvNjhVSXZBTmVJUEU2M29UUmRGVGVmWjZsc1pWMl9NZ3p4enRrb0pYbGRXWHhtZTdjMXpsV2FCZ2xVMmZWbmF4c1U?oc=5",
-    "date": "Wed, 07 Oct 2026 06:05:31 GMT",
-    "summary": "",
-    "source": "연합뉴스"
-   },
-   {
-    "title": "李 대통령, ‘선박왕’ 4000억 세금 체납 납부 소식에 “국민주권정부 국세청의 개가\"",
-    "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5BNmJ0bzg1b2FtbVhmQlEwWUw3S1ByZ082bWZaSlh3WFMwNHRIdm51RHZneG9lOXIycURjaWo5NjZtcXlrcVh6T05nQUtSNm5NWUpxVTdMT2ppVkl0WnhNcF9adjZHY0E4Szc4?oc=5",
-    "date": "Wed, 07 Oct 2026 05:58:24 GMT",
-    "summary": "",
-    "source": "www.ksdaily.co.kr"
-   },
-   {
-    "title": "채소가게 한 곳서 온누리상품권 122억 결제…이소영 “국세청과 조사”",
-    "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE11bzlMOGIwemEwX05PYllXZHY2T2MwbURuYWRQNUoyOWVHamR4bVA5cmtWTVZxX1JFUTBBUk9JNWtJcGVSbXgwVm9hMGl6ZENVcEdUcXVR?oc=5",
-    "date": "Wed, 07 Oct 2026 05:31:12 GMT",
-    "summary": "",
-    "source": "헤럴드경제"
-   },
-   {
-    "title": "[2026국감]광주 협동조합 온누리 122억 결제…이소영 \"국세청과 조사\"",
-    "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE16cWNWR1R1XzhiRWx3S2VuaUJpYjFaMXlsRU0xd0pmYWpwdWNST2tkNC1EVzFndkViUFVVUGtSZk9lNEUzTlNBWWVETlB4VTQ?oc=5",
-    "date": "Wed, 07 Oct 2026 05:30:30 GMT",
-    "summary": "",
-    "source": "Daum"
-   },
-   {
-    "title": "개인 체납 1위 ‘선박왕’, 4000억원 납부한다",
-    "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE8xcEl4OXhWLXNpRm1mR0RONDVqU0swaEZyZTBseThlOExla1lCbXlOM0RVTUY1RmNpWGpIUUdnaWtNWVRWR015S3VKNXJSems?oc=5",
-    "date": "Wed, 07 Oct 2026 05:26:43 GMT",
-    "summary": "",
-    "source": "Daum"
-   },
-   {
-    "title": "[기장군 브리핑#] 국세청에 '금정세무서 기장지서' 설치 공식 요청…급증하는 국세 행정수요 대응 外",
-    "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFB0cGtGTGdWcXZaY2cweDFKX2p1Z09oY0RnVGJXQ2w5QnNaWlM1MXpNRXc2VFVDWTJiZEkwb1J2dDhLT1FtUTZMWXZxc2dCXzZXS1FiZzZuaXBULVIxR3J6X1RSa00?oc=5",
-    "date": "Wed, 07 Oct 2026 05:26:18 GMT",
-    "summary": "",
-    "source": "베타뉴스"
-   },
-   {
-    "title": "'선박왕' 권혁, 15년 만에 체납세금 3938억 완납 의사…1000억 우선 납부(종합)",
-    "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE8yVEFpT2xrdFVSRjczWjZ4Mkt0eUFtMTZVemtKLWlYN1RJVzJ0R1NtcnJ4bDdrb2tyVFFCWFFCNkVfY19LOW03RU1BOXZzS3V0NndkR0JkN1VGZFJBVUc3Vg?oc=5",
-    "date": "Wed, 07 Oct 2026 05:22:34 GMT",
-    "summary": "",
-    "source": "뉴시스"
-   },
-   {
-    "title": "기장군, 금정세무서 기장지서 설치 국세청에 공식 요청",
-    "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1yWWppbnNfbVFlOXZTZ2ZXTk54VVctREktMTFtZmR0MjFMcmJKbkZ4N0ZUcC1xeEtUMExlQklMUXJ6bGFQeVJJZGxvcHRabVd0Rm5yeGdJMnpXNGx0NDdja1BqaVM?oc=5",
-    "date": "Wed, 07 Oct 2026 05:22:33 GMT",
-    "summary": "",
-    "source": "중도일보"
-   },
-   {
-    "title": "李대통령, '선박왕' 4천억 세금체납 납부 소식에 \"국세청의 개가\"",
-    "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9Id0pnUkJlUXBEQkFJX3VaMWgtOEY3Y0x1OFlqOTNDVmRsOXdfRENkZHZJUW5NaTRQMEJFNmdxSmlZX1g2NGhfQUFna09QdGNCT1o1NUxUaFZPaEE?oc=5",
-    "date": "Wed, 07 Oct 2026 05:07:47 GMT",
-    "summary": "",
-    "source": "뉴스1"
-   },
-   {
-    "title": "부산 기장군, 국세청에 금정세무서 기장지서 설치 공식 요청",
-    "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFAtcEdfeEFzQzR2Umg1RWtfbjlreUlHdFFSaFptU2pDNVJZRU5LUjdVMXNiemZzcjF4SWJYSmFGVU41SFRYdWFVSWRYdTVRM1JscTZfZ0JhRkZ6VDEtaGJsTktKOG41cHV5YzlZb3lFOUZ6Rl9ENlRfVnl3?oc=5",
-    "date": "Wed, 07 Oct 2026 05:01:51 GMT",
-    "summary": "",
-    "source": "로이슈"
-   },
-   {
-    "title": "‘체납왕’ 권혁, 15년 만에 3938억 완납키로…1천억 현금 납부",
+    "title": "‘체납왕’ 권혁, 15년 만에 3938억 완납한다…1천억 현금 납부",
     "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE43azlabWgzek5zRFROZ1BhQ0pVQVE1UWFjQnpyR01kdGh6dmtYZUNwbVJ3ZElabFBHVEhDbkdnU1hmX0lfLWUxN3Q2XzBMODM3VWs3cW9iMGl0MndCVkNYSW9CVXhrajRxVUUzTVdQNU9kZw?oc=5",
-    "date": "Wed, 07 Oct 2026 05:01:00 GMT",
+    "date": "Wed, 07 Oct 2026 13:16:00 GMT",
     "summary": "",
     "source": "한겨레"
    },
    {
-    "title": "세금 3938억 안 낸 ‘선박왕’…15년 만에 백기, 완납한다",
-    "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5KSmpUOG1zSzh1bEJrem5BQ0tWSEo4dzZRdkFiMlRKUTNmeGJNSUZ5WDA5VWlpU1VwZ1VyenAwLTRIR2R3T1FKTEZicm1jV0JmOVBfTXRNbFZaemdWc3FZOTFNSEYwZE9JUlHSAW5BVV95cUxOdDNXc09aalN1WEZHVnA5V3otVlpOZzNIbGkyVmJsZlo2cEUxRGFpcWsyaWN4QnYwcldJci1XRWVSZlZoQldUa1dScmFwVEZiVFhSTkxva1RTLVBiaGc1NGZSWVNQeXBlNFdfMGUtZw?oc=5",
-    "date": "Wed, 07 Oct 2026 05:00:00 GMT",
+    "title": "“꺼져라” 멱살 잡던 체납왕에 4천억 받아낸다…李 “포상해야겠죠?”",
+    "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOZWhaZ1ZDbm4yZzQycFdPcHRZSHAya1BEamtMTDExVlpYYldNbnlqTE0zUkpOZ2FsRmp0bzJDeDBGTXhPc2x0QlZMTVBTYkNIWHRIQTl6MVJTckw4V2E3cC1JSG5tUGhRRkkyOWFpaC1MRUtaWkstMVlaZkdsenY2cA?oc=5",
+    "date": "Wed, 07 Oct 2026 12:33:21 GMT",
     "summary": "",
-    "source": "주간조선"
+    "source": "이데일리"
    },
    {
-    "title": "`선박왕` 권혁 회장, 15년 만에 총체납액 3938억 완납하기로",
-    "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNVGlZdG83NGNvTFpiRjlEOHI3UTJIS3BndlVSVFpEcUJjbGJFRHVoUEtxUFozYzN2alJHMTNDWWlPemF4YVJhdk14UU9IYl91OWdDa210VG5qbE9NNUIxYWRYVU02VmRobWlrTVhxU1ZjTWlLWmNIY3RRa3hSQnJkR1dRVUxicG1vRmJVbElR?oc=5",
-    "date": "Wed, 07 Oct 2026 04:51:00 GMT",
+    "title": "국세청, ‘선박왕’ 권혁 회장 체납액 3천938억 원 징수 추진…1천억 원 우선 납부",
+    "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBIQzVDWWRhQk04RVBjUDB3dlJkNGM2SVBuUnAxcjE2QTlZQ3dicEJZM3N4T1NqWHFDb2t2MlZKVGRGNE5LbFVNcGxZT2xwT1IzVTA1Z1pBSVM0Ry1IT1Y5MGlNS1BFbmZwcGtLb0MwMA?oc=5",
+    "date": "Wed, 07 Oct 2026 12:29:42 GMT",
     "summary": "",
-    "source": "국제신문"
+    "source": "여성종합뉴스"
    },
    {
-    "title": "선박왕 권혁, 체납액 3938억원 완납 합의",
-    "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5vSEk3NXF0UmxiUFI5aWs4ZEZFbnRMTEFFRVRSVjRWVHBBcDFmMzV3UGQ2NUhTZG53YV92N3hfdjJTdTZqUF8zU1dLaUpBMlM3VGtmeXFfNkRaZk1RSE1RYUFEQWJISmY2R0lZcnV3?oc=5",
-    "date": "Wed, 07 Oct 2026 04:43:52 GMT",
+    "title": "기장군, 국세청에 '금정세무서 기장지서' 설치 요청",
+    "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9sZnlseHhGZ0lZVTZXMWc1Zmx3RS01VnItUjhZbkkyNWp4MXJYQk9GbXZaS080N0JvaFAxX3RQeE05Mm1RRXdMdC0xNWF6SGFEUXNUVF81RXd3bGd1aGd2b0VUbw?oc=5",
+    "date": "Wed, 07 Oct 2026 11:35:03 GMT",
     "summary": "",
-    "source": "더리포트"
+    "source": "국토일보"
    },
    {
-    "title": "‘선박왕’ 권혁, 3938억원 체납 15년 만에 완납 나선다…현금 1000억원 우선 납부",
-    "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE0xWTZZTThZb3VuM3N6Q0NwcjRRNmtlQjJtdWJWZ2hwVDlfbmtMaS03ek02VkNnVG4wS1JGSG5SUmpEQnlYOWY0bFM3V3FHQnVnMm9PV0VMT2FlTmdCR2VHVlBSbU5oLUVEbEhR?oc=5",
-    "date": "Wed, 07 Oct 2026 04:42:00 GMT",
+    "title": "국세청 “‘체납 1위’ 권혁, 15년 만에 4천억 원 완납하기로”",
+    "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBEeHR5a1V2SmcwU2tBcjZzRms0RTQ1ZDJya0RFaWhYT1lBSno4Sl9oLXJxUGZpV3QwUnpveGQ3Z0JINDFNT0VPOTRSc1A0aU4yUk1Nd05uVkc2MGc?oc=5",
+    "date": "Wed, 07 Oct 2026 10:12:00 GMT",
     "summary": "",
-    "source": "해사신문"
+    "source": "KBS 뉴스"
    },
    {
-    "title": "[속보]'개인 체납 1위' 권혁, 체납 세금 4,000억 납부키로…국세청 역사상 '최대'",
-    "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5XYXlJMGo0emRUOFdTMENpaGdFS1lKNmNHWG5LYk95dlJLTnlUMGVvU3BYZ3ppNmdMUkxYTzdaUDRZeVZRWThCc2UxT3Mxc29DMnJXdmpHZ09HN2Qxd2FaRkJR?oc=5",
-    "date": "Wed, 07 Oct 2026 04:38:00 GMT",
+    "title": "4천억원 체납 ’선박왕’ 권혁, 국세청에 결국 백기",
+    "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1mcV9aRFdLX0k0T25xZlpXemZtUUNYZ0MzUHFzT3VSZlIwQ3JsOTE3U2FVZ2t6SjJKT0F2Z3Z0RXZmM0U0Wko5R29JM05wcDV5ZlYtdXREdldXNVhJU2dwNDE2VzdkZ1U?oc=5",
+    "date": "Wed, 07 Oct 2026 10:05:00 GMT",
     "summary": "",
-    "source": "이코노미스트"
+    "source": "연합뉴스TV"
    },
    {
-    "title": "김재웅 전 서울지방국세청장, '화영세무법인' 설립 \"새출발\"",
-    "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9rUzFaVTNIak1QZ19jWFh6VUpFSHdNSHRIVzZGVlpUellMdGs0OWZhc3Rra05oRnVEenJ5ZGhJTlU2dGhJYkQ0R1c4YlJtSHVjSkJPNTZVVTZheVFhLUdIUzRCMFJhM3NzZXc?oc=5",
-    "date": "Wed, 07 Oct 2026 04:34:40 GMT",
+    "title": "이소영 “온누리 상품권 부정유통 조사… 국세청과 협조” [2026 국정감사]",
+    "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5RbkRTZnJyOVdScE5XZXQxbnFvaE5wdlotWUJKQlAzcHduXzZvNndPNGdRSnVTaHNZS1QxNzlyZTNYZDFla19UZlJueVBmOXBfN1ZtRFRaRGs4X2psbXRpU0FOZDlqZ0ZLT0VR0gFUQVVfeXFMUGg2TFByYmRNMnJ6a1RXZENxbTVCYjZWeUZJdHlzMURUZ1U0MDI4eWpic3pqem82WWE1ckVxTGFHdnI0elk3NEFMTTFEcVJ4bWFNOEJi?oc=5",
+    "date": "Wed, 07 Oct 2026 10:05:00 GMT",
     "summary": "",
-    "source": "Daily NTN"
+    "source": "세계일보"
    },
    {
-    "title": "‘선박왕’ 권혁, 15년 만에 4000억원 납부한다… 국세청, 해외 공조 결실",
-    "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9VS1RDTEw5S2pSblZyUFVHRW1zYV95Q0dIVE1helE0REZGclBIWGU2bmhieXZUT2lrOGlIS3N0dGVSMFAtMTJIOWVyWU4ybVE?oc=5",
-    "date": "Wed, 07 Oct 2026 04:34:33 GMT",
+    "title": "스리랑카가 주목한 K-세정…콜롬보시의회 연수단, 중부지방국세청 방문",
+    "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFAxQzVjSTdmV0Q4ZHNWdUFLVFJ2SnBndGJlWWV5QUlRRzk2UkowU2JKVzh4SnR4VWZObHJGUEhIdjBsRFdSOGR1NEd1TDFONjd2MGRudWZrcE80OFk?oc=5",
+    "date": "Wed, 07 Oct 2026 09:18:43 GMT",
     "summary": "",
-    "source": "Daum"
+    "source": "경기일보"
    },
    {
-    "title": "고액체납자 권혁 회장, 15년 묵은 체납 3938억원 완납한다…납부액 역대 최대",
-    "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9uVkdfZ0FBSGxRek1XS1psOWlENUxNSEZfeTdPaXI1QnZUMHBVZllkd2tLNEVJckRkbW1ZcEx5WWRTUGQ5LXBmSWRibGwtQQ?oc=5",
-    "date": "Wed, 07 Oct 2026 04:22:55 GMT",
+    "title": "선박왕, 15년 만에 ‘체납 완납’ 선언",
+    "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5mRTY0TDF4V0EydTV1ZGprUGhEekpyVGVVcklzbFdidTl4TEVXcFotRDU3b183em5FeE1DUEVkR3FKTXB2SUh4WW1WUVphaEowLUQ0dUJXdUthVkRua0ttWWgtaWNwVU4x?oc=5",
+    "date": "Wed, 07 Oct 2026 09:17:33 GMT",
     "summary": "",
-    "source": "전자신문"
+    "source": "경남도민신문"
    },
    {
-    "title": "국세청, 개인 체납 1위 ‘선박왕’ 권혁 회장 4천억원 완납 약속받았다",
-    "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9KOE1DZEdneVBqdXpPX2RfelNzeXdidjNmbzFTNkdYQ3dQUERpT1BlZDczMTRjTmE3MkZPNVk4SDZYNEcwR19NSVdKeFZ1b2c?oc=5",
-    "date": "Wed, 07 Oct 2026 04:20:16 GMT",
+    "title": "중부지방국세청, 스리랑카 콜롬보 시의회 연수단에 ‘K-전자세정’ 공유",
+    "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE91RENpbEdpWGpCa1FQNEhkRmhoWVhWZWZaVUNXMUgtTTUyWUlDZU5Qa2M3LWFacmlnNDRfUXAwY2cxVFM1dEtycnU1dzdsOTg1STdRN2JRandBYnBhVHR2b0pGZnljVnppN1picTZn?oc=5",
+    "date": "Wed, 07 Oct 2026 09:13:00 GMT",
     "summary": "",
-    "source": "Daum"
+    "source": "중부일보"
    },
    {
-    "title": "15년간 3938억 체납 '선박왕' 잡은 국세청의 비결",
-    "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5QLWVXbGxqSHFGT0YtaW42bk00YkhkOFZWaXVJeXJEaUR1LVJ1d2N5U3Z6bEN6a2pzc0M2bV9UQ2EzZ2l0a3hKSi1KS2VCVTQ?oc=5",
-    "date": "Wed, 07 Oct 2026 03:52:57 GMT",
+    "title": "부산 기장군, 국세청에 '금정세무서 기장지서' 설치 요청",
+    "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1lQi02WGdFZjI5d05Sc3lIMG1MRy1jN2JtbG5UY1R6S25ZQ3c1UlI3c3llYUlrTDJ3MGgwNmhKcjJlZGVZUWo5XzJONmdwazhVMnIyNV9ndHJ6cmJMWEMwUzRIUjhBV0JVYm5r?oc=5",
+    "date": "Wed, 07 Oct 2026 08:57:50 GMT",
     "summary": "",
-    "source": "Daum"
+    "source": "CNB뉴스"
    },
    {
-    "title": "[개업] 김재웅 전 서울국세청장, ‘화영 세무법인’ 대표 세무사로 새출발",
-    "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9vaDh2NWpGcWlLZTFXVzIxU0oybGVUaUVmX0hlX3lBemdoZ1hWbUxISlFZbkRqR2RuLW9fUVBTRTl5WHFwaExtNTBNaUxyaXh0RC0wbjE2TVBSamU5eDdncHdyNWd4LWZVU2FVXw?oc=5",
-    "date": "Wed, 07 Oct 2026 03:46:01 GMT",
+    "title": "수천 억 체납한 선박왕...국세청 \"반드시 받는다\" 마침내 들려온 소식 [자막뉴스]",
+    "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1XVnRrcU9XN081Q25oWWY5RlJFcDh1eEtlYkJmb0x4TmdyWTM0Mm0waF9ZZUJQYTVGNnVweWNpdlRHdTItSnhqaW1QUTJjLVdLS1c2ZHZzeUJGWEMyMmc?oc=5",
+    "date": "Wed, 07 Oct 2026 08:43:00 GMT",
+    "summary": "",
+    "source": "YTN"
+   },
+   {
+    "title": "15년 만에 체납액 4000억 납부…국세청에 백기든 ‘선박왕’",
+    "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5iZk42VUdoeU1uQ2RqTHUzaWJrWlVrVlhWYkpmMThtZ3VhQ1BlelUxNExCeV8tN3poeDVnaUZ1aUNRempibHhuYXhnZzRvR1Y2RHfSAVNBVV95cUxNLXF6Rm5tTl9SbF9fMklxUlFuZDZlTFJvQjhva00ya1pib3A1RUhSZ0UyaVozMnEzTGtjQjRQcExmTzRFVHJtX2hTbVZVRlZpRTJnVQ?oc=5",
+    "date": "Wed, 07 Oct 2026 08:39:08 GMT",
+    "summary": "",
+    "source": "서울경제"
+   },
+   {
+    "title": "'선박왕' 권혁 시도상선 회장 체납 세금 4천억 납부키로, 개인기준 사상 최대",
+    "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFB0RzVIVlJ2RGFqQkRZMDNhZGNUWS1CTmFVcnNRWmhPbjBiS3FSV2FWazRzV2ZZeFk5TUFDdWtFbVJoMFEyUVE4Qzd3bm0zNDlOOVlWdGloUXQ0Q2RpZHFVQ2ZkY3U2SlFxYjRvUW9Eamp4RVU?oc=5",
+    "date": "Wed, 07 Oct 2026 08:22:46 GMT",
+    "summary": "",
+    "source": "비즈니스포스트"
+   },
+   {
+    "title": "스리랑카가 주목한 'K-세정'…콜롬보 시의회 연수단, 중부지방국세청 방문",
+    "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE15Yzh1ak5wcWRlZHl5WHFIN1JQRW1PR0ZGa0NHVEVha002MEY1SDBkdnM3dGJmRVU4NDB3QnhPSDZoWE15bVlVcE1qWEhHMGFTdlNmMl9NdW0xYmxJN2I4?oc=5",
+    "date": "Wed, 07 Oct 2026 08:21:44 GMT",
+    "summary": "",
+    "source": "조세일보"
+   },
+   {
+    "title": "중부국세청, 스리랑카 연수단에 홈택스 전자신고 시연",
+    "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1uQ2w3QzNxQ0xPS3htTnZiU3RQWS0ycm1vaFZHallNSzk0cHFHNDY3dExGUzJlNmI2bVJrWmZ1SG9Belh1S3ZQYURvXzF5OTFVelhBR2RTd2pjWWxEQ0xuQm1yWFFQUDZMQmhpSw?oc=5",
+    "date": "Wed, 07 Oct 2026 08:18:59 GMT",
     "summary": "",
     "source": "세정일보"
    },
    {
+    "title": "신장식, 농식품부 ‘산란계 때려잡기’ 회의 영상 공개…“국세청 동원에 정책자금 차단까지”",
+    "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1HQmhpLTdjZTBYdVN2QWhlT3kwY3FQOUhEbU9ZdWI2ZzZ3b1VLN056c2FiektmZmN6TjlSVnB4RFB0REpMcl81UWNheS1HVmgwOGVHN1NjcEpkNGMtaGkzYUMtUnZPRUZ0U0hLaDZB?oc=5",
+    "date": "Wed, 07 Oct 2026 08:06:20 GMT",
+    "summary": "",
+    "source": "팜인사이트"
+   },
+   {
+    "title": "스리랑카가 주목한 K-세정...콜롬보 시의회 연수단 중부국세청 방문",
+    "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE03V3FvTzQwSUkwSFNhWUhuTHAtVXZPUkhqZG9SOE1pbzIxTWM4alotZzVmUjNwQWV3T1ZTRE1ONFg5S2JTYm54VXdHSmZ4aV96WTNJV1BYb0xZZ3hldTM0ZndNb3J4Zmplc0E?oc=5",
+    "date": "Wed, 07 Oct 2026 07:57:36 GMT",
+    "summary": "",
+    "source": "Daily NTN"
+   },
+   {
+    "title": "[스틸컷] 임광현 청장 \"국세청 역사에 남을 사건 소개합니다\"[전문]",
+    "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBsRndDSHBSWUZvVVh2VmtPNy1KS05yOE5lOEJ1OVJLcFNDVnNWMkIxZUVrODhhOS0xZEFQeVc4MVB6TE1TZjFfbFhQY2JqMm53R2RuQ1paWDh6eGE2RHh2ZXdVWU9sR1ZpU1lnQmpR?oc=5",
+    "date": "Wed, 07 Oct 2026 07:56:39 GMT",
+    "summary": "",
+    "source": "데일리브리프"
+   },
+   {
     "title": "고액 체납 1위 ‘선박왕’ 15년 만에 밀린 세금 4000억 완납하기로 - 조선비즈",
     "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOb0s1b25xUUd1U05KMmgxN2NPQW5hTk5qNkZ3bi1KQ2o2bDZUUHR0UTZvMnlrT1NrcnpMY1J6dUdqWXpwZ3h0cnhQYXNLbFh0ZjNIOE1YRm5lZXF5ZjN6RDkza2NmYTBtYXRJX3pscml1TjJoeGtCdUtqR2xPQnRYZDBZTDRiZ9IBmgFBVV95cUxNUmxqSm83VWR0MnlIU3pTVlJjZnhfeHAyNkRnWFlzYkdyZFM3NC1TdkRlc1poM09IOXN5cEY2YzhOcFJfS1UycWd6ZXhEZVJMd3djWWNEeEg4ZDROY00tbVZiXzhfM25kb1F2OF9RQkxkOE96SE0zbDZvaHBEM2s2Ny1RNFhzQm1sV2lVM3pTeTFqdDZwNElrR1ZR?oc=5",
-    "date": "Wed, 07 Oct 2026 03:26:00 GMT",
+    "date": "Wed, 07 Oct 2026 07:48:00 GMT",
     "summary": "",
     "source": "Chosunbiz"
+   },
+   {
+    "title": "‘체납 1위’ 권혁, 4천억원 낸다...국세청에 백기 든 이유가",
+    "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBGcDRBNC1wenh4c2lybWcwcmJjRlo2RHBLWGRaWDlvdVpua0tGTEgtOGZOaHNmc1oxaUQzb2lEYWJMd19LSkl0RXl2UkVncVM2dzJvVg?oc=5",
+    "date": "Wed, 07 Oct 2026 07:46:00 GMT",
+    "summary": "",
+    "source": "JTBC"
+   },
+   {
+    "title": "국세청 대체 어떻게 했길래...‘선박왕’ 권혁, 체납세금 4000억원 낸다",
+    "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBrSFYtdkhBdFZlMExnM2NzYVQ4SjhQaWZuaGlLaC03NW5xV09SQjhNOXpZX1g2a0N5OGtTb1pfZWVUaWJ5aWpLbkpUUFRlWEpGY0haVVJ3?oc=5",
+    "date": "Wed, 07 Oct 2026 07:39:42 GMT",
+    "summary": "",
+    "source": "매일경제"
+   },
+   {
+    "title": "\"끝까지 추적\" 국세청 압박에…'선박왕' 권혁, 15년 버틴 체납액 4,000억 낸다",
+    "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1zRVJZWk9nVUVCaF9XRGRQV1FSaUVLSU5sU25Bald4U3JsOE5WSFFWWnZlNnNmRjFtVjI0Q2ppRnIwcVFvTHJyMFJ5R3E2UGRDYnI2UTlFYTBIVkd6WjU2ZQ?oc=5",
+    "date": "Wed, 07 Oct 2026 07:30:02 GMT",
+    "summary": "",
+    "source": "KBC광주방송"
+   },
+   {
+    "title": "시도상선 권혁, 15년 만에 3938억 완납키로",
+    "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9ydHFLZzBqcHkzaGRlZ1A2VjVRd19jSF9vNklkMEdhUEpJZlRFZElnUjJ5YmQ1VUJBVzM5MzZuZ3pJNGlWMW5mV0t6ZEZ4d3pPXzcwMWtYaWg4aHdtOXJUcQ?oc=5",
+    "date": "Wed, 07 Oct 2026 07:27:29 GMT",
+    "summary": "",
+    "source": "해양통신"
+   },
+   {
+    "title": "“4000억 세금 결국 다 낸다”…15년 버틴 '선박왕' 백기 든 이유",
+    "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFA5Y3VOMFViLWs5dDBfZmk2WTFPWFQxb21zUEdrQTQtbEE1ZFlpdExmQm1SZ3pOVUZJbmhBWmswaUhsYUp6MVRCOVA5MlhDT1U4SzF0YldFRjNnQQ?oc=5",
+    "date": "Wed, 07 Oct 2026 07:26:29 GMT",
+    "summary": "",
+    "source": "한국경제"
    }
   ],
   "labor": [
    {
-    "title": "박지혜 의원, 노동자 외면하는 지방고용노동청",
-    "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFA2MmxuUDZ2VGx4b2pabzJxc09ZWWh2VGZiUnhEcmI2ZnYyY1U2VmdzclF2RnZTZThiZTF6N3haczVPS09jR3FlRS1mOWkyRHhhYVE1azRxUFVVZUo0bnlRdC1NYUludnpK?oc=5",
-    "date": "Wed, 07 Oct 2026 06:20:16 GMT",
+    "title": "고용노동부, 안산 산단지역 불법파견 감독 결과 발표",
+    "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1TNnF4bkZ4cTZzcVRLVTdWeTRWeXhvTzM1SWF0YVBkUnpEWTkxNWNUd3RSaDd4LV9XbHNXcUYzVWFoRVY3dHAwbjhobWNOLXlaVTBWSDRYWVg0ZWkzYUE?oc=5",
+    "date": "Wed, 07 Oct 2026 10:30:07 GMT",
     "summary": "",
-    "source": "뉴스피크"
+    "source": "아시아통신"
+   },
+   {
+    "title": "박지혜 의원, 고용노동부 자료확인",
+    "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5Lc3pnSlJWRGNsRmxxQ2pUd1dtc085QU9ncGllVHNCY1BhMUlDYk9BUjhySDdEY1hQR0NpSk9jUloyWE9XYXJnQ254M2hzakFiZ2VOanVpV3NSeWJDQTNMOXo3YUI3WFVsY1FMSGZ3?oc=5",
+    "date": "Wed, 07 Oct 2026 09:24:00 GMT",
+    "summary": "",
+    "source": "현대일보"
+   },
+   {
+    "title": "노동부, 안산 산단 136명 불법 파견 적발···직접 고용 조치",
+    "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5Oc3ZDbXk4UlVFUXktREQtZEtlX3I3RDdOQUU0N2V2UHVSc21pRVNJRXctN056TG1ScjBlbzBiLXBsV1dBQjlvMk5XNE95bE9LOHJiRXlQQW1jc015aGFxRDYzZ2UzWXhBSU5vbTV3?oc=5",
+    "date": "Wed, 07 Oct 2026 09:00:12 GMT",
+    "summary": "",
+    "source": "참여와혁신"
+   },
+   {
+    "title": "김영훈 노동 장관 “산재사망 2400명에 실형 0.1%…검찰개혁 절감”",
+    "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBjRldZWnQtYW50MWg3SlJzdGtNMV9QTFVnQXFCQTY4OGtiejhfSFQwVW9fNVB1VHdvMzVTbkN0a1pxR3V5dVd2T1lWeEMxTnJXWS11alcwZ1FORElMcWJlMkpHSVhhd9IBU0FVX3lxTE54cUtHNmNpUjJ1N1cxMXJOT2Vpb3BfME94SUNtanoxczcxeTlnLXgwcGJOQlZOMXUyUGxaTDJURkRpaHBIX3VOVnVGTGltMDNVaVVv?oc=5",
+    "date": "Wed, 07 Oct 2026 08:51:58 GMT",
+    "summary": "",
+    "source": "서울경제"
+   },
+   {
+    "title": "한국통합물류협회-서울고용복지+센터, 물류 청년 취업지원 MOU 체결",
+    "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFAtMURZSnJwRzBQN0xXN0ZPMmpfYWFxTlg1SHZDTEJaa3BwUWxkS09EM2FjakNLbUZRZHBWNWJobGZSQ054bG9wQjJpX2IyRHdLVFJZR2Rwd2lzZVAtOWVB?oc=5",
+    "date": "Wed, 07 Oct 2026 08:29:14 GMT",
+    "summary": "",
+    "source": "헬로티"
+   },
+   {
+    "title": "제주-고용노동부, 산업 안전 합동 점검",
+    "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE84WnBJN2FJdkp0SjRLOTlSNnBjVW5BQWNQX1FEZV9CTVNmbWk4Sk1OeHdfNy1Ud29GdndYVmlnOUNTaHczUEt6UHhaNS0?oc=5",
+    "date": "Wed, 07 Oct 2026 08:27:07 GMT",
+    "summary": "",
+    "source": "아이뉴스24"
+   },
+   {
+    "title": "노동부, 안산산단 지역 불법파견 감독결과 발표…18개소 적발",
+    "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9vVzhwdWJGWXpLY3JNdldKWFQxUS1aSlJlT2dMTXIteUYwT3V3MjhGc1hVWXBMU0lwa1dYbVBTck93MDlKR0c3LS1Ud3dhRTBSY0JpYUFjZ3ZZNW5pekZyd3B4MWtrVE9NcHdOc2pRcw?oc=5",
+    "date": "Wed, 07 Oct 2026 08:13:22 GMT",
+    "summary": "",
+    "source": "기호일보"
+   },
+   {
+    "title": "노동부 불시점검 나흘 뒤 끼임 사망…노조 \"종합감독해야\"",
+    "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1MWWphY1IyWEM5M0c4VV8xRy1YX0hzRGFjYmQyTUFQd3NyV1FCNXpfTUlfejdaWkRxdXFjZE03WlhYTmQteXBlQ2hIT3ktRjJKM0hQck10czNuR2ZqS0Vj?oc=5",
+    "date": "Wed, 07 Oct 2026 07:49:58 GMT",
+    "summary": "",
+    "source": "뉴스1"
+   },
+   {
+    "title": "제주도-고용노동부, 노동 취약분야 합동점검 추진",
+    "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFA1WXlpa0RuZmtELVdNWWNXYTF3WjRsd2JZa2dHY3FRTTlneHRkcDdjNHNxdUh3MnQ2MlVQd2JSWG1kTHlFcHNxdDJFTFlBaXNyT0N4OEhqWk81SUlITWtwYTZDbTR6YS1VckdqODZR?oc=5",
+    "date": "Wed, 07 Oct 2026 07:39:39 GMT",
+    "summary": "",
+    "source": "지금제주"
+   },
+   {
+    "title": "오늘의 인사-고용노동부 외",
+    "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5zSloyQWZUbjlQRzdMdy1MaVpieFVPVGJvbXg0dFlqRm5OMFpQMGRIUUk0MnA2cjFMbFNUWmEzMXU5YTVnc2Z4LU1NeTlWSGplSWZiS0MtT0QzQdIBX0FVX3lxTFBab2tjcE94bFFsMG05SzE4S1lydk9NbFFIX01ldFlhSHgyRWhfLTRIM2RGQ3VVREw0MXRaZmdLbGRDVTcxeHdHdEFqRXl6bXRrYVcyOEduUWphZjZEdEJJ?oc=5",
+    "date": "Wed, 07 Oct 2026 07:07:00 GMT",
+    "summary": "",
+    "source": "경향신문"
+   },
+   {
+    "title": "고용노동부 군산지청, 추락사고 예방 집중점검 돌입",
+    "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE1JeHdxWTUtZDZxYi1LNEgzSkVid05JZzdlTmtid1NFeEpmb2RUZk1IbTEzMVMwOXE0UnFTcU1FUG9YY3dwTktlaWhkcGs?oc=5",
+    "date": "Wed, 07 Oct 2026 06:40:42 GMT",
+    "summary": "",
+    "source": "아이뉴스24"
+   },
+   {
+    "title": "현대차 주요 협력사 현대성우캐스팅, 노동부 점검 나흘 뒤 하청노동자 사망…노조 \"외주화가 죽였다\"",
+    "url": "https://news.google.com/rss/articles/CBMivwJBVV95cUxOakxSRlJtTDVfbUI5N1hLeEluTDFMV0ZCLVliNVVJZm8tdHhrYU92OVcxWVBFRTRzZUlKTGQwRlpXRW9IVVpBdThTd0Q0Y2JVZ3oyamNsVFNDRWxWWGlwRFpwbXdWT3FvamllSjBDOFZTS1RZdmxwdVJBelZsZi1Cc2haQkZmY2VUR3NRRzhPN1UwLVBtaEYzVnN6R3NmZTJJWlhtRUt3MEluNXdhZnpmR3U2RjFaWXQ5ak1Mb0NiRkdISGZ5a0RYLXhITmdYdWw4YUFzYzNYR0FBRVpyNUZYOWRNSnNYNkhNQVJpalM0c1NsSDQ4a3QwVUthMTdWQ2taUjV1QnhmT1BzSnh5R2pUejZCWmhndHB3OTlGS0d6dnZuNWQtTko1YkN5MERoMEFnNVFMQkljeFlhWWd6T2k4?oc=5",
+    "date": "Wed, 07 Oct 2026 06:26:55 GMT",
+    "summary": "",
+    "source": "뉴스필드"
+   },
+   {
+    "title": "제주도·노동부, 노동관계법 취약 사업장 점검",
+    "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5ab2JsS3BrSlVTSmJ4S0tORjlMOG1TTkk4TTRBSFdXUUJRenROdnNYTHZWY0RBNWZMdTEtZHBtTDdzQmI5U1hLd3Z2Sl9hVk1aOUdPMHpaVVltYlBwOXVscXhEUHFseGpWWGdDLQ?oc=5",
+    "date": "Wed, 07 Oct 2026 06:25:00 GMT",
+    "summary": "",
+    "source": "삼다일보"
+   },
+   {
+    "title": "'중대재해'로 숨진 노동자 2,689명...현대차·한화·포스코 '최다', 대구경북 306명 희생",
+    "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9MZDB5ZFh2SFZ4X3hLaHF0cDRkU3VWR3ZnbzA4a3dOU3BOT19SVkdsWDNjYUZPa05naTl4QVlfTzF5MWJJMEQ1VkwwbmlXbEt5S00yVHZwOXR6WUxxMDJ1SmRwTzk?oc=5",
+    "date": "Wed, 07 Oct 2026 06:12:15 GMT",
+    "summary": "",
+    "source": "평화뉴스"
    },
    {
     "title": "금속노조 \"충주 킬른 설비 사망사고, 위험의 외주화 여전\"",
@@ -209,17 +300,24 @@
    },
    {
     "title": "고용노동부, 10월 낭만 가득 가을축제·행사",
-    "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9iR09rM3R1c0N5Y3hfUldodUNKWktkOUZfbXk0RjVRUjFGOUN5dk5Gb1RsYXRiM0pxRm81cXdvMnNuU3RQZ0kyT3B5SC0xRDNna1hJYU9TQkMxWVlmQ1ow?oc=5",
-    "date": "Wed, 07 Oct 2026 04:30:32 GMT",
+    "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9uY1RKbDlqUy1NaWNwZ2R4S2ZLWDZER1pWUDZMSGZtbmwyVHQ0UGNfbkd5NDhOWlFoUGRvRFBuRE9EYUFTa085SXdvNW1xNmE3YkptOUMyNWp2czhMaXM0WVF3?oc=5",
+    "date": "Wed, 07 Oct 2026 04:30:22 GMT",
     "summary": "",
-    "source": "누리일보"
+    "source": "https://www.timess.co.kr/"
    },
    {
     "title": "고용노동부, 10월 낭만 가득 가을축제·행사",
-    "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1QN3ZjNXZMYzZVQ1N4MUl3YW1ZZVk5cVpkekZzMERyVUszclNLeEhRU1NTbmVRX3dfeVhZRXdiNm52Zy1KTmEtOTFic19KeE13eWI3ODhYNzdnVEkxd05N?oc=5",
+    "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBJTS1jM3JKMEFPY24wOW1fOEpzaXc2cnM5cDFrTWg3YmNYbU5qdzJ5THZDeEtwMTl4SVFQdmtOVlpXZnp0TjJtaU8yenZnc1JBWTZiOHJmX2dBcE0wcEduWQ?oc=5",
     "date": "Wed, 07 Oct 2026 04:30:07 GMT",
     "summary": "",
-    "source": "한국사회적경제신문"
+    "source": "한국글로벌뉴스"
+   },
+   {
+    "title": "고용노동부, 10월 낭만 가득 가을축제·행사",
+    "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5Cc19kei16a3hON2Z3WHhTLXV3RmZHM3RIb0w5NHB0VXQxYVpkUjJVd1pCYzB0UzR1Nl93S0JycHZtbDJNcXlQa1BfLTlGLUJFTFpmR2wxZmdTUWE1U3Iw?oc=5",
+    "date": "Wed, 07 Oct 2026 04:30:07 GMT",
+    "summary": "",
+    "source": "뉴스투게더"
    },
    {
     "title": "한국고용노동교육원, '고용노동교육 2.0' 기반 부산 노동교육 협력 강화",
@@ -255,635 +353,537 @@
     "date": "Wed, 07 Oct 2026 03:00:35 GMT",
     "summary": "",
     "source": "연합뉴스"
-   },
-   {
-    "title": "노동부, 확정판결 재해조사보고서 117건 추가 공개",
-    "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE82eGFOd2V3TGVlTVYwblFldXV5a3pZTE5WVm9EZDhfa2QyTDRwWC00QW05VEttRmUyb2FPaXBpSFJFMWJxT1FXR2hwdXBYVnJYbXc?oc=5",
-    "date": "Wed, 07 Oct 2026 03:00:35 GMT",
-    "summary": "",
-    "source": "매일경제 마켓"
-   },
-   {
-    "title": "중대재해 사례 한눈에 본다…노동부, 재해조사보고서 117건 추가 공개",
-    "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBCVnBTMHIxNW12LUFUaHJSblA0bTluWEtHTV9XcmtaTlRYUm8xbmwxSk54b3JpQXE4TzZLdFNZcHpndVBpa1BVbE8yX0FMaVNsZmdyNXR4Z205R1JIaGxqelQzQkJIa3hYdlBnQ9IBcEFVX3lxTE54ZmtzM1otRWMxei1nVnBoRjltUm16c1cxQUp4Z0dmWVc5ZVpyWEhZaXpxVXJ5TnRuX19HSkh4dHZjbXY3MXZnNFZ3NGdiUlFHdGRJY2w3WHo1VG5WY3U0UWVEeVRFV2FBNi1lUS1vNS0?oc=5",
-    "date": "Wed, 07 Oct 2026 03:00:00 GMT",
-    "summary": "",
-    "source": "전기신문"
-   },
-   {
-    "title": "노동부, 판결 확정된 사건 재해조사보고서 117건 추가 공개",
-    "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFAxNElsZjVZYm9XMDlwVTJzSTd2cF9wZXRDUDFYcnVxM2NJazUzYkNHdEtjMDl2TERKNUM5VjN5aVlKT3NzU0JsWWZIVzk3OUtENGdZLUlIdjg0bkps?oc=5",
-    "date": "Wed, 07 Oct 2026 03:00:00 GMT",
-    "summary": "",
-    "source": "뉴스핌"
-   },
-   {
-    "title": "노동부, 중대재해 보고서 117건 추가 공개…재판 중 사건도 공개 추진",
-    "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5JSlVWdjRUU1BEWDcxUktkTHR0VUFMRkh3SW01cjdLaC14djZGOXFNX3J0d2RNeFM4QmhkcDY1YkFRREs5Z2RNWS04T3o2NkZrZ3E5dG12LUNLNFdpSW1QMWdzSQ?oc=5",
-    "date": "Wed, 07 Oct 2026 03:00:00 GMT",
-    "summary": "",
-    "source": "뉴스1"
-   },
-   {
-    "title": "중대재해 보고서 117건 추가 공개…기소·재판 중 사건까지 확대 - 머니투데이",
-    "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE84eXA2T2QtT21JM2NjY1BfWU9oai1ZMFF5SjJkVmgzcU5SMWtZNkxuYnozamk0NFNvMERMU3NlTlBmYzNSXzU0MHFNZEtlUGNVYmxtQ1BmYjZ5N2lRNk5KVHlJMVBvTWNlLVdv0gFwQVVfeXFMUGlQSFRwbmQ1Vl9vV29HUWZ2TXdDaWstM1hsbWNQQW9xVkMxeDRtdVhDUzJfcm1YWDl1bjNvMFVaQXVPb0JCcnF5b29CNWJEZFhEejJOaUlTUkEyazJiYVBrSkktOUhGaUkwQWlzdFR2Ug?oc=5",
-    "date": "Wed, 07 Oct 2026 03:00:00 GMT",
-    "summary": "",
-    "source": "머니투데이"
-   },
-   {
-    "title": "재해조사보고서 117건 추가 공개…재판 중에도 공개 추진",
-    "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBTYklLUFhWa1JrTHVYOGdnVFdOWXNJc1NGcnVJd1VOVmUtMm8tUkItcDVNcl9NNEk4azcyZHI5Sk5DdlZWamk4TFhCbzVRZ0J2NUNscUtYSE4wVzdMUHJVZdIBeEFVX3lxTE1rMTdMTjNYVUNERXRyZEJDSjlsNnk4YmE5Uk9vQUxpVzdBcTlHSUdUbnBUWm5LcTFFdkxicVVvOTQyTWtldGNsSVIyZzNvamJFbTR3T2NsTGx1MmFoMUZzblJwVDNnWDAxNk1QSkVxYXY1UjNfZ2RrXw?oc=5",
-    "date": "Wed, 07 Oct 2026 03:00:00 GMT",
-    "summary": "",
-    "source": "뉴시스"
-   },
-   {
-    "title": "중대재해 원인·예방대책 117건 추가 공개…재판 중 사건도 단계적 공개",
-    "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1qTTRtMlk3bUFvS1Zod0hiNGYzdm9KTU9Qd3haemNwckdibmpKd3NNdW50eEFXMnhNLUU0eHJMX0NuZGs1Y0pfbWotemZpaUd0WW51c0ZB?oc=5",
-    "date": "Wed, 07 Oct 2026 03:00:00 GMT",
-    "summary": "",
-    "source": "헤럴드경제"
-   },
-   {
-    "title": "“같은 사고 막자”…중대재해 재해조사보고서 117건 추가 공개",
-    "url": "https://news.google.com/rss/articles/CBMirgJBVV95cUxQQ09VMUdySTd1MHBDSGpOWmN3UFRPQnNzTkVQbkdtVDRDb0VCd3p1UHBJTmxXSzNKcDNHWjZ6T1VmbE4yOUxfVi1RVDFBMGNCSDlLalBBeTBQcW1SNlcwb3B4VmNycHFhN0MwNHVDWEtIZkltdmdhT2Qtc3hyRlVrOHM4R3ZKVEJGZWMyZXNMMDdXRGppOFdfX3BUSURielhlQmpzaVNqVkZMSEJWVl81WUk3aXBWckV3WDBUZjE3RDFoQ2NvNkJGYV9rQ1g5WW44d0stbFdXcGJmMUFPVkJYeXYwN0VwaXVjNGZQODh0RDNOaElrZ2xSV3hfRWRCbXpPeG9iVGd6QUNxaVBJUm9acEw4UFNHS3drUGtoUENKUkZTaDcxMXYzWUczUlZqUQ?oc=5",
-    "date": "Wed, 07 Oct 2026 03:00:00 GMT",
-    "summary": "",
-    "source": "데일리안"
-   },
-   {
-    "title": "안산 산단 '무허가 불법파견' 무더기 적발⋯노동부, 136명 직접고용 지시",
-    "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9vdWV1M3QxZ1ZUdjZ3RDA5bHFyclFRTXhFd085M2plZkIwU1dsZmxSY1ItenlBdHRzQnJ1UmJEbHA3aEVlN0VyWVZqLXdwYTNGTmY0ak8tMTJ6SzJlYnBpYWtxang1WGFfX3VHVkJtVXVJbUQ4?oc=5",
-    "date": "Wed, 07 Oct 2026 03:00:00 GMT",
-    "summary": "",
-    "source": "이투데이"
-   },
-   {
-    "title": "고용노동부 창원지청, 진해신항 건설현장서 추락사고 예방 캠페인",
-    "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5na0pJZ0NZX0xNeWJ6bDhTYlpfdFM3MWYzOGNhcXRvUTlxNEpfSFg4MXNaRGp4NDJ4dVJpd1l2Smw3SnRTdVJBYm83eWNHaDdEZmc3RXhrOEJ2RFdBTDNWYkF4N1Jpb0tNX1E?oc=5",
-    "date": "Wed, 07 Oct 2026 02:38:56 GMT",
-    "summary": "",
-    "source": "경남도민일보"
-   },
-   {
-    "title": "불법 파견한 뒤 연차수당까지 떼먹어...안산 산단 136명 불법파견 무더기 적발",
-    "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE44dTN1TC1lZXhzMHpvMHh6UjNEMlFxY2FOOGpadnVxSEE1M1pIMG94ZjFHc19ERE9UVTFOZ2hES0JYajNRRUZYZ0RaUm1tVkxSY3dveQ?oc=5",
-    "date": "Wed, 07 Oct 2026 02:25:00 GMT",
-    "summary": "",
-    "source": "JTBC"
-   },
-   {
-    "title": "김영훈 \"중대재해 처벌, 여전히 솜방망이\"…경제 제재 강화·수사 공백 차단",
-    "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9WemdZNE9obXQyV3NINDducTRidnY1WU1NQUktWFdSRDBmeGY5WkhCdFhZTllPSWVoWDNtU0RKVG1TZ0poNHNFWTFMQ2l0a0Rzem1SWVctQ0tLSWRJT1ZBbDBxaw?oc=5",
-    "date": "Wed, 07 Oct 2026 02:24:09 GMT",
-    "summary": "",
-    "source": "뉴스1"
-   },
-   {
-    "title": "[인사] 고용노동부",
-    "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBEa3ZQeFpEaE5XbEdMV2w3NjFKS0t2S1lyOXJ5UjBzd3FnRkkwNktMYVB2cV8xbDJKUkh4SDBZX2hTdkdfTkN1Z3RXYnBCOUE1T0dRRkUyM0hEODF0dW9YTmZqQm1fU0d3VFlZNEZJQ3VVbTjSAXdBVV95cUxPdXp4VzBGZHBiSkdJRVU2cjVvdEJZN0gwT2NpNjNxVTc5UFZRRjc0dEZlaHBwWlIzb0RTTlVLaXhkVkRnRVNLcDl1c2RzSkFGODlrYW5lNmJyWHpVcE5mdElHQ0lBX1RUZVdzdVRwVjdWbFBwenJIVQ?oc=5",
-    "date": "Wed, 07 Oct 2026 02:22:32 GMT",
-    "summary": "",
-    "source": "핀포인트뉴스"
-   },
-   {
-    "title": "[인사] 고용노동부 외 10월 7일자",
-    "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1fSmkxT2NjN0cydzE1c3NOeTBDN0Nnb1hLUG9jNnhBQzlkQWdWSjhEVkgzVXBkVHlBdGxKRndGdUkyRmVGWklVX3FyREh4czNrMnhCWnQzLV91MlFjMTdIb2RlckIyTFl1VkhjeHZR?oc=5",
-    "date": "Wed, 07 Oct 2026 02:13:00 GMT",
-    "summary": "",
-    "source": "알파경제"
    }
   ],
   "law": [
    {
-    "title": "공정위, SK에너지·HD현대오일뱅크 '44조원 가격 짬짜미' 심사 착수",
-    "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBXS2luUWFxYnhKb3ZUNEo3dF91YkkyZnBrVUVPdFE5VzR2QlNPdGRkSXpnejYtc2Q4cFZrSm1LNHhOTlRYZTIzWWNQRVN5YnhEVHR4bGRVdE9SeUlQVExaSGZUQ18?oc=5",
-    "date": "Wed, 07 Oct 2026 06:04:15 GMT",
-    "summary": "",
-    "source": "법률방송뉴스"
-   },
-   {
-    "title": "아사히·기린 등 日맥주 4사 ‘가격 담합’ 의혹…日공정위, 전격 압수수색",
-    "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE95TGs2ZndOa2s5NEk1NWJqLVBTX1hKNWtEU2RWdkt3b2JLR0hxMW1SYlQzN0tiVW82RXMxbmhIMm94TElOYVNKQldtR0FCOXVDX1hDakQwUlpkRDNMZ0NuNzhn?oc=5",
-    "date": "Wed, 07 Oct 2026 05:50:00 GMT",
-    "summary": "",
-    "source": "미주중앙일보"
-   },
-   {
-    "title": "SK에너지·현대오일뱅크, 44조원대 유류 담합 혐의…공정위 심의 착수",
-    "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1MWkRrc1h5b2NhVVdCWU5iOGdIUkYzUFZpNWQtdHFFMmMtQ0F1Rk4tSDZoSFg4SE8wTU9KLTAxV3lGVnJiT3g1NzAyVWtjREZmWV9tTlFiNUFwemdZLTFqWkl5THkwNzA?oc=5",
-    "date": "Wed, 07 Oct 2026 05:46:55 GMT",
-    "summary": "",
-    "source": "서울STV뉴스"
-   },
-   {
-    "title": "SK에너지·HD현대오일뱅크, 전쟁 틈타 44조대 담합 의혹…공정위 심판대",
-    "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1ZU2V6czdRNkMxb002MzdDUUJ6TWg1MUotVmJzZUYwOWxqMUVGQl9GMExnTjRnYjNDd2hCamY0WmlkRUlXU1BwdndvaWR6UHJoMVdPWE56WnduWEU?oc=5",
-    "date": "Wed, 07 Oct 2026 05:46:29 GMT",
-    "summary": "",
-    "source": "경기일보"
-   },
-   {
-    "title": "공정위, 전쟁 틈타 44조원대 유가 담합한 SK에너지·HD현대오일뱅크 제재 본격 착수",
-    "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5UVGV1MU0zRk02MVFSNHR3VVlFOEhQT3Q5VWt0X1NieDFXMVIzTTZnMXZpUndxVlZWLUNzdkRiQTZYb2M0WFlEcjRzNDhkd0lVUXA0Zy1ZNWRhLWcxUjdTUnRLbjJuT2E5Z1ZmQw?oc=5",
-    "date": "Wed, 07 Oct 2026 05:45:38 GMT",
-    "summary": "",
-    "source": "생생비즈플러스"
-   },
-   {
-    "title": "[단독] 쿠팡, 공정위 상대 또 집행정지 신청",
-    "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE0wYk9oTFNmampuanpWN2RqRkxmOXdwNlZrV3U3QmhFUzhzdkxyN3Vjak5yMENQM25zRUsxaVBqQ1pyNXNpWjg4WXpjbmxUY3NLSmpRR2ZWR1NtZ2hCMEl6T2I4dTNVUng0N2M3Z0930gFyQVVfeXFMTUoyQmw3d0Fmc1EwTFA0ZGpkSVJIN0pza2FTb1BUMzFHSGFZdGctWXlRRkNuVVNNQXg5QlNMLVdkTC1HWnl0VzFaUlZKeEI4blFPWnlkSDU1R29yTzBZRGJJcGRlSWRJQlpXX0o0SHI2ODlB?oc=5",
-    "date": "Wed, 07 Oct 2026 05:37:47 GMT",
-    "summary": "",
-    "source": "법률신문"
-   },
-   {
-    "title": "일본 맥주 4대 기업, 가격 인상 담합했나…일본 공정위 압수수색",
-    "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBNeVVwSm8zSWkwN1IzWjhJMWVLRlllcXlxRnhwd2pDWXRMYlJVZl9BZGR2ckIwRkhLMjh1MDRrN1hzMTlDSjZud2tuSlFHT1E?oc=5",
-    "date": "Wed, 07 Oct 2026 05:22:43 GMT",
-    "summary": "",
-    "source": "Daum"
-   },
-   {
-    "title": "SK에너지·HD현대오일뱅크, 석유제품 가격 담합 의혹 … 공정위 심의 착수",
-    "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBISXpTSjZ4Qmo5X0F5TUVlLUVRcEFBMFpGSjdDVmd6SEp0aE1xNUhJblFkYnJWcDkyV294VVd0QnlOdnV4VENReUs5eHlNWHVTajVsMkFTUXJEQjlHUXN3WnVib1NfN3FPdDZsVQ?oc=5",
-    "date": "Wed, 07 Oct 2026 05:10:50 GMT",
-    "summary": "",
-    "source": "워크투데이"
-   },
-   {
-    "title": "SK에너지·현대오일 4년간 기름값 담합…공정위 심의 착수",
-    "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5fLWlOQmRpbmY3SEFQNU00c293ZzhPT3JCNVFYOElOUExIVTE5eUFSX2QtcjRTRWs0d3VadE82SG4wbGNDRW42aWNfWDFSVV8xWlpjOElFUFRJdDk3M1BEUjJnRm1yalhjTV9xZlZ4cG4?oc=5",
-    "date": "Wed, 07 Oct 2026 05:10:00 GMT",
-    "summary": "",
-    "source": "리드경제"
-   },
-   {
-    "title": "맥줏값 담합했나…日 공정위, 아사히·기린·산토리·삿포로 압수수색",
-    "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBhQW91Q3lGeThpS2dSak5ETERLOEFfTGRXdFJKLW45M21yYk15VXNMRWJZZVpUb2lEZVM0OE5pU1ExVEphbTJyMmpmVW1MMWgyRVNmOXQ0NXlQVGVKSWlvVg?oc=5",
-    "date": "Wed, 07 Oct 2026 05:08:09 GMT",
-    "summary": "",
-    "source": "아시아경제"
-   },
-   {
-    "title": "공정위, ‘가격 담합’ SK에너지·현대오일뱅크 제재 착수",
-    "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE8wNjF4QUhaQkd3MDFFSEloRjRncU5GOC1EYTZDOVgycHhNNlViZDZ2RXNfcGNES2FRdldYLVk0RXFXdVFXMm40SnZ0bzREYUgy?oc=5",
-    "date": "Wed, 07 Oct 2026 05:07:14 GMT",
-    "summary": "",
-    "source": "문화일보"
-   },
-   {
-    "title": "[단독] 조두순 전자장치 훼손, 6일간 경찰과 법무부는 몰랐다",
-    "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQTmsxZi1qcV9TQ0pBX0FmTVNsTnZ5STViUm01QWowVEJ3YXp2WXdWdmRkLWNIaWJKR3pvWTFrdjdES0dUSlRSVnhUcGx2VFJQTF82TGpMcGRxNWpoTkotU0V6eFlMT2ZEMjREODg2SWQzek5QSHU4bTJqVEZ3bVk5aE8wdE1QQQ?oc=5",
-    "date": "Wed, 07 Oct 2026 05:03:48 GMT",
-    "summary": "",
-    "source": "조선일보"
-   },
-   {
-    "title": "SK에너지·현대오일뱅크, 44조대 기름값 담합 혐의…공정위 심의 착수",
-    "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1ObXNpWTBfeUlYVS05NWlQNlRjX3VhbFBIcnZwWmhJMHUzdXpaMmFackJYek9mRlg0ZDY3cGlGYm1tTW05TE0yUWxCS0I2MWVkNUM4WVdxd1ZpR0hoQ29nb1J1X21BV2V1N0ZINXJVNWY?oc=5",
-    "date": "Wed, 07 Oct 2026 04:53:31 GMT",
-    "summary": "",
-    "source": "신아일보"
-   },
-   {
-    "title": "공정위, SK에너지·현대오일뱅크 '44조 석유류 담합' 제재 착수",
-    "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1PRnZDbzRER08xejhuMWhLRnZ0bU9yY3lwdWtqT2syMlQyem8zNFFuek14WEdXSEFCQXlyYmVqYWk5OThjUkpEUjNPUENDazFkUXFOYVNvNV90ZHhTdWktNw?oc=5",
-    "date": "Wed, 07 Oct 2026 04:38:58 GMT",
-    "summary": "",
-    "source": "메트로신문"
-   },
-   {
-    "title": "법무부, 수확철 일손 부족 농가에 사회봉사 대상자 집중 배치 나서",
-    "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9LVXN0cFA4d1c5X0tBdlRod1ZNZjhLSlpiWl8tWDJpblVkSDZOeXpvOVpMRk5ON1RUWTB4eE1Wc1BqOEhtbWQ1Si1nQU9HdDdHb2NabjdEcEtuZjFKR0FlZ3Q2Q29ULVpqWGVqMw?oc=5",
-    "date": "Wed, 07 Oct 2026 04:37:26 GMT",
-    "summary": "",
-    "source": "호남타임즈"
-   },
-   {
-    "title": "우석대 진천캠, 법무부 ‘사회통합프로그램 지역학습관’ 지정",
-    "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5DZExiZlNXa3ZCTTUxZnZSSFRFQlRhLXZuamVMbjFqV211NWEzTGxlUUdHQm16Q1RVYUQ0X3A3SHo3UlVtRkpDejV3TGZybU5QdHBmVVduY2VrOUhCM2J4R0xaejcyQkFSU0NIZnAyMTY?oc=5",
-    "date": "Wed, 07 Oct 2026 04:34:10 GMT",
-    "summary": "",
-    "source": "충청일보"
-   },
-   {
-    "title": "SK에너지·현대오일뱅크 '기름값 담합'…공정위, 과징금 제재 추진",
-    "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9va0s3d1lSQzZ4ZEdBUUdoNFJiajFfWERnUzhnc0dLYy1EYkZvRlhLU3MwTmxMZE9ESzFKcnB4YmNZUzl5Qi1OU2NFcG91Y2gzQjVSMUJrSVZqZmto?oc=5",
-    "date": "Wed, 07 Oct 2026 04:32:00 GMT",
-    "summary": "",
-    "source": "뉴스핌"
-   },
-   {
-    "title": "공정위, 다크패턴 방지 가이드라인 배포…취소·탈퇴 방해 기준 제시",
-    "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBGeHI1UnVUUmI1cTZoQVVIUUxmUzU0TFAtM1ZHMFNJdWZSM0ZvTUdLcmJaQWdDNzFybjN2NHRoeVExUDU1bHV2UGdjanR1R1VnczBMS2JjX09BYm16WTVldA?oc=5",
-    "date": "Wed, 07 Oct 2026 04:30:41 GMT",
-    "summary": "",
-    "source": "NSP통신"
-   },
-   {
-    "title": "유학생 35만명 시대…한국어 4급이면 재정증빙 면제 추진",
-    "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOdmJ0Rm5ib29tY0dwTUN5XzV4NktVZDc5VHFDSmVMWkRscGRaNVdySjUtR1JSTFUxZ043QkstMWZXZWxoTTNFNXhjWGhtNTZMX292S1VzTWViLUdTZ0VNU2I5QUV5NGN5azV1Q2YxUnhYS1daZ2tHb2dSaUF0UmtYVA?oc=5",
-    "date": "Wed, 07 Oct 2026 04:21:59 GMT",
-    "summary": "",
-    "source": "이데일리"
-   },
-   {
-    "title": "법무부, 외국인 유학생 40만 시대 대비… ‘비자제도 개선 5대 핵심 전략’ 추진",
-    "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9vSXhKVEJEcmJ5Y01uZ1MyTkxacmgwM1NDd2c5SzdsSl9YQU0zYXM3ek9aOWxBZEJMSnptZWVZTjhEY041V0h4STE1MzI4MGI2NVhMcmRUTG1XWlRjbmRteGt3WjNXTDQ4QXVV?oc=5",
-    "date": "Wed, 07 Oct 2026 04:19:34 GMT",
-    "summary": "",
-    "source": "서울뉴스통신"
-   },
-   {
-    "title": "44.1조원 규모 유가담합···SK에너지·현대오일뱅크 공정위 심의",
-    "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5XandmY0NWYXlrdE5YRVRVRGlpN1o1RnBwS2VRRjVrTUcyNVEyd3dtMXN6NEtibFFoNUxQU2ROR2tRRkNXVGtfQ2Q0c1VUMVlrUzNKX2x4V2NmTXZwTUtvcURJMFUtdFM1WlB6ZXNR?oc=5",
-    "date": "Wed, 07 Oct 2026 03:25:00 GMT",
-    "summary": "",
-    "source": "더리포트"
-   },
-   {
-    "title": "정유사 2곳 유가정보 교환·가격 담합 의혹…공정위 심의 개시",
-    "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE9QQlVQWWVtLW55d2FGYUlST3llbkI5MTBOSU1RdjVmTTg0WF9aRkMxZm01NlMybTBTZFlrRy1WVkQ3MUFYckJYbC11ZmVGS1pFX3FtM2ozU3ZFZmpMaGMzWTFYSVdiVnZzRGs4UU0wNGh2dw?oc=5",
-    "date": "Wed, 07 Oct 2026 03:21:08 GMT",
-    "summary": "",
-    "source": "스페셜타임스"
-   },
-   {
-    "title": "교정시설 공모 후보지 3곳 압축",
-    "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5TNUctUzhYdHBTQmFpbHI4TmN0SnhXZ0RmQTBndnFaMGVxcWFBNlZRem5FUEowVVk2dHRoVWduTHo3XzNjZnlEU2MxcUgwbGZmSXVmbWZCaTJBNUlBN1VleHZFSDM1cHFH?oc=5",
-    "date": "Wed, 07 Oct 2026 03:15:00 GMT",
-    "summary": "",
-    "source": "충청타임즈"
-   },
-   {
-    "title": "SK에너지·현대오일뱅크, 가격 담합 의혹의 진실은? 공정위 조사 착수",
-    "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5LdlVLbjY4T0dSV3EteFlieWVMOGlWd2p3OTFpRE11eDJ2dkFhdWw4dU1xQjVPV01uamVhRVN2bVBwRmxHMnhjVExRZVFnakJJS1U4c1pTUE1PYURGWWdfcnViM21LYWtT?oc=5",
-    "date": "Wed, 07 Oct 2026 03:09:47 GMT",
-    "summary": "",
-    "source": "공감신문"
-   },
-   {
-    "title": "법무부, 외국인 유학생 비자 개편…한국어 우수자 재정능력 입증 면제",
-    "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5PZ2pabXRiZmduRV9SYmU3RVpjY0J2ak5ZRzdvc2U2STZLM3IyZ09vTTUtbW4xcXUydTlwTFhZZUJkRllkdmxpOTZ3R0htT2Z1UWxyR19IME9vZ9IBWEFVX3lxTE1MT0JkYTJyOVlZbFBobXNqcHFfblBLRmZMQWtkWkxXNTJ1UDBodGlqWmVCanhtTG9XNXowWkdwX0RkT0dPRFVITjNrU1hmYS0tMFhXd1hJN24?oc=5",
-    "date": "Wed, 07 Oct 2026 03:07:52 GMT",
-    "summary": "",
-    "source": "아주경제"
-   }
-  ],
-  "fund": [
-   {
-    "title": "[동정] 박헌 관세청 차장, 목포해양대 예비 해기사 대상 특강…‘관세청 역할론’ 전파",
-    "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFA3OGVKczBsc1BIOFJ2TzRUV2R6OFVtRzYxR0VHTDlYTzNCN0M2RGdWQmE3SVlMZGxrWHBCcU02d0lMOHVPbDA5V2RRcWtaUU5VcFV3V1NuVFB6WFVsdkMzLVlPYlpMOFpRRWtMbA?oc=5",
-    "date": "Wed, 07 Oct 2026 06:17:36 GMT",
-    "summary": "",
-    "source": "세정일보"
-   },
-   {
-    "title": "[2026 국감]이소영 “코스닥 상폐, 시총 단일기준 부당…금융위원장과 토론해서라도 의견 반영”",
-    "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9USWRocWY1N0FRU3ltdXdVUFVpQnNldmhGVlp0MzlvUmVpcUduRU8xcU9OZlFuQ0FhRWwwbHExNWk4Q25sZFoxX2R1c1hMZw?oc=5",
-    "date": "Wed, 07 Oct 2026 05:52:28 GMT",
-    "summary": "",
-    "source": "전자신문"
-   },
-   {
-    "title": "“차가운 아침 금융위 앞에 선 600명의 회계사…자본시장에 필요한 만큼만 선발하라",
-    "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBjT1hvaklsTGxBWGhMY0ZpTnNuRWt0UmdBOGRtaUdqSG1MQzdnN1V6czUyY2VQQzZKN2I0TmNGNk85X1RxREFhYmhEdktkTGV6TDJSX1doVzVITXhzNFpZdGZXRjZoSU9PUEE?oc=5",
-    "date": "Wed, 07 Oct 2026 05:51:36 GMT",
-    "summary": "",
-    "source": "Daily NTN"
-   },
-   {
-    "title": "[상암동에서] 레버리지 책임론 '주어'는 금융위…이제 '왜'를 답할 차례",
-    "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE4wOVpWOHNCSjZfRU5lQUdzYm9rc3NrWjdFclIzaFNPXzdYT1VOaUhvSm5STnpZYzdYTF9XT3BrbUVKZmtfd1JSV2tHWUdyN0x0S0JXQmpkV1hnOWFLaEdZNUFfT3Y?oc=5",
-    "date": "Wed, 07 Oct 2026 04:49:32 GMT",
-    "summary": "",
-    "source": "서울경제TV"
-   },
-   {
-    "title": "청년회계사들 금융위 앞 집결…'회계사 선발인원 정상화' 촉구",
-    "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5XQlVucVJXN0NGQUpxd2dFTWtkZnlyMWVIMFZmMmpBcDBkcmN6N0RPWkdSeGlYV25OUlA1aUVYN19xUUFFV1hEZFNfVG1DMGd1OXV0Q3NYQW5IbkFySDlmalh5Sm1LaldyQ3ZXTnk4MA?oc=5",
-    "date": "Wed, 07 Oct 2026 04:42:49 GMT",
-    "summary": "",
-    "source": "조세일보"
-   },
-   {
-    "title": "8일 금융위 국감 인카금융서비스 최병채 대표 출석 GA 업계 파장 예의주시",
-    "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1DTG5OOHJIZktBSUUtb1BaM2VnbzRkT2tqX3pfRy1HSTYxeWNDbGJkaGdFZ0l2VzVNdEJmM2hFeHI3S0FBWmozLXFkYXJzbS1rMDBmTXZ5bzh1NlJ6X2E0WTRLR0l3bXFfcmN2VDk0NA?oc=5",
-    "date": "Wed, 07 Oct 2026 04:36:50 GMT",
-    "summary": "",
-    "source": "보험저널"
-   },
-   {
-    "title": "관세청, 수출입 안전관리 우수업체 공인증서 수여",
-    "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9oREUtY1pQaFFBRmkwSFdZcXQ3UUM2d0lIMktsYTlOSDVkaW9USkxwYWNnT0ZDNWsxcE9oOTB1RDlLdktmNzVIMDNhT1djR0JEVDNTWTBR?oc=5",
-    "date": "Wed, 07 Oct 2026 04:11:57 GMT",
-    "summary": "",
-    "source": "헤럴드경제"
-   },
-   {
-    "title": "청년공인회계사들 \"자본시장에 필요한 만큼만 선발하라\"",
-    "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5Ub3E5Z1ZTNzFTdXptLUxIQm1yeGcxM241LUVFNW9tU3R2cTRaWFc4OVFWUzh4OENGcnhnUkNXT0pvaVRJREQyU255ZTYxU09GYWN4cFpRN0QyTWZSYnN3bFNuZEI?oc=5",
-    "date": "Wed, 07 Oct 2026 02:36:58 GMT",
-    "summary": "",
-    "source": "한국세정신문"
-   },
-   {
-    "title": "금융위, 금융권 해킹에 AI 보안용 망분리 완화 2차 선정 미뤄",
-    "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE90UlRoblJGQXJ2Q1FkMFJRbnNlbGVqVmRETG5NZzFXOThHbkczVG5JMFQ1QzJuSjlkTlNydWNreHFpUFFPR2VDbHJFTFlZazAxZnZmakdOeFhycDF3bkpmblk3d3I5UVhnS3pHQkNNaU_SAXRBVV95cUxQZkx3TkxsbHRuLVN5czg1MTM0R2JscnhGT09BSjhQN3E5dDRYNGFCUlg4WXoyN2lrSDBKbEpPdFpnOG1LY2FJSTFxei1ETVR0OWZsbWJiSVYzRVVSRHNWMm1XNlhqSzdsNk1jUFBxMWVyZW0wXw?oc=5",
-    "date": "Wed, 07 Oct 2026 02:18:21 GMT",
-    "summary": "",
-    "source": "주간한국"
-   },
-   {
-    "title": "'보안 우려 탓에'...금융위, 망분리 완화 2차 선정 연기",
-    "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9TaHAxVThKNXZCZXVmb1o3WGR3WkVZWF9tZFVkcWlGLVA3UE1ZMWZWYnJ1TEdNa1dkcUN5UUFSSzlyYWFKelI0UFNlY1ltTzdiX3EzbV9lcjZITklMWm5rZWpaWW0xYUx3clp5N0d3UkVHajBj?oc=5",
-    "date": "Wed, 07 Oct 2026 01:58:00 GMT",
-    "summary": "",
-    "source": "파이낸셜포스트"
-   },
-   {
-    "title": "여야 요구에도 ‘요지부동’ 금융위… 루센트블록 문제, 국감서 풀릴까",
-    "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOazkwRWdxbk9xMDZlVmkxTktjZXc4eVBzRFEyUnVSNUlaN3NIalJiS3pRUnZkZi12STcxWTdETXVvTGtJYTZsZHBmeXhpZEtDQjh2VEM2d3BwQzJuendPRF9RTmozZEIwdXZLb0NQVWRQTU9wODFrd0dGbUh1dGhvZU9TNA?oc=5",
-    "date": "Wed, 07 Oct 2026 01:51:00 GMT",
-    "summary": "",
-    "source": "조선일보"
-   },
-   {
-    "title": "커지는 해킹 위협… 금융위, 금융사 CISO 전담 체제 검토 - 조선비즈",
-    "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNNGRmb0k4d0prMmNWTGZnUDNnX1FXMG9HZUxVaFNmaTdSSmlKYTdjQzdZTDBOc0FSTzRJb200TXRURnk4akhJb1YwVzBfc2hVWHkyRUJDa2hmdHktenhjeEdoem9WY2FwelcxQTNwbUNGLUt6LUJ2NmdQVFlpdlRia9IBlAFBVV95cUxPaElRSlc4dmFRQUZ6TzMzWjRMLWZ2ZUc3dUlmdGloUFh3Vk54TTNNY0JKRi0tVXVuWGZYS052N21XcU9GVkVhaUdPRzY3aldMRFZWTXdBQWM0UHFVdk1yZUFyX05BaENfWFZSd3NtUFFGMnBkY0FZUURrUGQ4X3dLRnFXQ0JjMlRxdER6bVF0b2xGZzRM?oc=5",
-    "date": "Wed, 07 Oct 2026 01:20:00 GMT",
+    "title": "\"뇌에 전파 쏜다\" 조두순, 전자감독장치 훼손…법무부 보호관찰소는 6일 뒤 발견",
+    "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQbkRDaTEwNFZVb3ZoTHk1WjUzYlJsSGFpUlVqU1dHNWtwWlE4eFZhV2RvRjVadXkwcjY4cU5NUl9xT28tZVpfc0VMVWxsSUNIOXlNbkVmdFFhLXVQN0R3TkNqWFFEcEhvM2Zvc3V0b1hJeXNJZFFzU2NkYWprRUhQRXRnLWJyS2xzeGc?oc=5",
+    "date": "Wed, 07 Oct 2026 11:57:00 GMT",
     "summary": "",
     "source": "Chosunbiz"
    },
    {
-    "title": "관세청 감시정 노후화 심각…순찰 실적도 급감... 강민국 의원, 예산·운용 문제 지적",
-    "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5kNk16WkxkSFpZQmhGSy0wcmFON1VFUkhzeXA3YWZNeThtYXAzNlRqd2IwRVgxUzlab2o2U2Y4Sm5vcm41SjZPaEo0RDdhbk5mQWxaYjF0eFAtRnNVV1lQRFJJSWEzNVM0?oc=5",
-    "date": "Wed, 07 Oct 2026 01:10:13 GMT",
+    "title": "日 맥주 4사, 가격 담합 의혹… 공정위 강제 조사 착수",
+    "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBXSERuY055U3VGY1ljd1JBSm1xSWF2ZU9ka0tqRFVwRkZhNVNEWHlFMmtQMkZzR1laOHZCRG5uUHZPeHdWZ254R0kydWo4MVNvbTM4MFVtT3BSS0FZWGdWNUsyVDNpWU9TUXduLU9UVFDSAXRBVV95cUxQeUNKU2otS0lETzFPNWlZRlg2WmptT1VhblQwTUdEY0RVbFpYVzlqcWhFLWVQYS1QckVsV3htTEIwZ2Z6cEl2TndMZlhLNlJTdUxva25pNy0tbXI0N1pTaXh3LXZUMDB3RHVhcWdlSEFLUy1YWQ?oc=5",
+    "date": "Wed, 07 Oct 2026 11:47:26 GMT",
     "summary": "",
-    "source": "경남뉴스"
+    "source": "IT조선"
    },
    {
-    "title": "`책임 누구에게 묻나`…핵심 증인 빠진 레버리지 ETF 국감 `맹탕` 현실화",
-    "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5UaXRtUDRuTERzbW1jbGJVV091eGItZWNpNFNkbnU4UzQ0aWdwcGR0NGw3Q20wVW43OGRWTG9qUF9VRzZLbDFSdURvNlViUTV4NVdCWjN1RHdxRFFaY1kzTDZ3?oc=5",
-    "date": "Wed, 07 Oct 2026 01:04:55 GMT",
+    "title": "미국 법무부, 귀화자 40명 시민권 박탈 절차 개시",
+    "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1ZV1JoRnUxWjdPTUNsLVJuQU9YYlBONXhqY3dseEFjM0M3OGFnT1BWYno1MzYxc0RiaFlvM0pydnBlNjBUWXNiNzE0TjZkWlpYNGxCWXRsdXk1MmF5VFhFaURWWnFIa3R6Y1MzdUl3?oc=5",
+    "date": "Wed, 07 Oct 2026 11:42:07 GMT",
+    "summary": "",
+    "source": "OBS경인TV"
+   },
+   {
+    "title": "쿠팡, 공정위 ‘10년치 자료 요구’ 불복…집행정지 신청",
+    "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5sUm82RXA5c3FhUVhCOC1Oa3ZGYjZ5c3ZuSVJpSUtzZkhpUDB5R0NBQjBSdDQtZ1FvaXhEcmxCR3hzSGRLdjY2QUdSX3lydm9DTnfSAVNBVV95cUxPMWhwellmcXJ5c0RtQjVUOWs0QkpZQ2RHMlY0SXlKRnlHZUxDWDJBVGNiR3JsU1UyTU5yaWl6TWpmakZvZUo5RG5sTkdpNFhSTk04aw?oc=5",
+    "date": "Wed, 07 Oct 2026 11:38:46 GMT",
+    "summary": "",
+    "source": "서울경제"
+   },
+   {
+    "title": "\"내 뇌에 전파 쏜다\" 조두순, 전자장치 부쉈는데 법무부 6일이나 몰라",
+    "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFA0bzBXMTVqcW41YnZEODhpbFg2b01ITE5FeWNIYk5pekJtd1JadE0yZlhzdkxMQmFFblZhWG5xaUV0VFRlaHF1YXVxRUo1M3VwV1REdUdKVW1ZTjkzLTRHOVVB?oc=5",
+    "date": "Wed, 07 Oct 2026 11:04:15 GMT",
     "summary": "",
     "source": "매일신문"
    },
    {
-    "title": "관세청 감시정 10척 중 3척 내구연한 초과",
-    "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBjbC1ja1RJOEtlUkE0MjV3Umo3ZEJVcXV6QUFPVzF3STc0Y2pjZlZGa0NCZ0dCVklBR2R1MnpuWlhOdnRsQmgwMDdNOUNjV2FTdEhkcHVxcnh2d244dXNpSXkwc0tVS3pCU2c?oc=5",
-    "date": "Wed, 07 Oct 2026 00:44:42 GMT",
+    "title": "“뇌에 전파 쏜다” 조두순, 전자발찌 파손…법무부는 6일간 몰라",
+    "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE0xbzhnbWx3UVFlQ0FwazRGaFRBbDdDR1VUTkxLZUpCS3IxVEl2OHNjRmNVcUxkeVlsV1BWVkxySGlaWW1JdDJ1Yk1sSWJZQ1k4R1hqd3ZxU1ZOS0lJamtTcVRKbEN3LUllM1hGQVF0M2pnSG5f?oc=5",
+    "date": "Wed, 07 Oct 2026 10:21:28 GMT",
     "summary": "",
-    "source": "Daily NTN"
+    "source": "서울신문"
    },
    {
-    "title": "코인 해외 송금 내역, 앞으로 국세청·관세청에도 전달된다",
-    "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9PUFZwQld5T2ZHbDVjYkJfUmVPNWFUdFR2N1Y2bEJUREZqX1A3UHF6aUctZnFiOUIxNEFCZkROSG94dS1Pa0hTQnRQTkFZNy1EY3hEVzZ2WGVGTi01dDhj?oc=5",
-    "date": "Wed, 07 Oct 2026 00:26:38 GMT",
-    "summary": "",
-    "source": "조세일보"
-   },
-   {
-    "title": "정부 \"금융위가 레버리지 ETF 도입 최종 결정\"",
-    "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE4zSkxGQ0RMMXhNMW1iRUVJTTZYeDdJVmJNbGl0VG9NWXYzWkhIcUJqSTUzYXdtbUZ5bWV2MU5lWVhSbldRZ09fSjlKVXFQcWxHWGhIQ1hrYVpqOW13ZFBaRGhVbUZiM2lZSWFR?oc=5",
-    "date": "Wed, 07 Oct 2026 00:14:56 GMT",
-    "summary": "",
-    "source": "프레시안"
-   },
-   {
-    "title": "청년공인회계사회 \"금융위는 회계사 선발인원 정상화 하라\"",
-    "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1kWmV6UndTSzliQ1c0c1JCR05ucnZYS1pyT2l3VTB2Z244NDRKZ1hfVHR2cjRvSXVUZkVZTVFNOFZESlRlajBSckltX3pZVnVEdnNDMU13LWVkVVM1dnQ1ZQ?oc=5",
-    "date": "Tue, 06 Oct 2026 23:44:32 GMT",
+    "title": "쿠팡, 공정위 자료요구에 집행정지 신청…11월 심문",
+    "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5YdUZ1NVNMdG56cExUOThRLXpfYmt1bjNMQkNJMk1TWlJwOExHdjNrWmVpeGVWbnpWS1dMSUgwVlRSTDRNcHpNY2phNWk0dHI1TUVHTmRjWlpsR2pLclFUVNIBeEFVX3lxTFB2NUJlMWRMWDEyc2JiVzdLZi1PaW9tU0IyMXUxVU1zTWtibFBGVFB4U19vZkxtakRwVGl6NWV6TnFnM282aDlpS1NnTW0xcHhCX2x5ZkNmVDZCOWtKM1RsaWlNWVFxZU1vSkhLZElSZU96NmFCbkRXbg?oc=5",
+    "date": "Wed, 07 Oct 2026 10:20:38 GMT",
     "summary": "",
     "source": "뉴시스"
    },
    {
-    "title": "\"수요예측 실패가 만든 과잉회계사, 금융위는 각성하라\"",
-    "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5NbmVVU3FZNDgyWkNXQzI0VU9zVk5ibnlDanZtWTFobjNOMnNBZDFkeDVXc2M2OUd6U0R1bjQ4ZnNlNkdOVW1ObHVaVWpkX0ZNbWlCNTBtV0dhX09Mc0g0dg?oc=5",
-    "date": "Tue, 06 Oct 2026 23:44:32 GMT",
+    "title": "조두순 전자장치 파손 6일뒤 알게된 법무부…그런데, 이번이 처음 아니다?",
+    "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE13Rk56M0gxTXhpNXd3eHpmMjRxZE1lMTJYdTJPcVpqMGtRTVFLeGJWOThIazlzcE5PQS1ZbUYtc192bVhLdkhHc2dGbU9fNTJTMkZxdw?oc=5",
+    "date": "Wed, 07 Oct 2026 10:04:15 GMT",
     "summary": "",
-    "source": "뉴시스"
+    "source": "매일경제"
    },
    {
-    "title": "관세청 감시정 30척 중 8척 내구연한 초과…순찰 실적도 17% 감소",
-    "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBZanJQRXZhaHYxeWZtQjJUemFmWFRtWTNRSWpxMVlnVWdTUVFtOC1qOVoxS1lfbUNodERGMDFjREYtT2pJWEpNeklHT3pxWE9UbzVMcklsVWlMeUFhWjRuWEYxcw?oc=5",
-    "date": "Tue, 06 Oct 2026 23:21:57 GMT",
+    "title": "법무부, ‘아동 성범죄자’ 조두순 전자장치 훼손 6일 지나서야 발견…“뇌에 전파 쏴”",
+    "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE1JYWlXWkV5dF9QTk1LbHJnMjd3UVpySTFyVmdrSVM0alBlU3RXMGRZdzZLTFdwcW5Ra3FqekpqMGxqODFBLUc4OVdITl9GV2FsWEpWSmVUWndVU2FMR1FFZVNSdURPbzdOMUtRcFRNLXQtQQ?oc=5",
+    "date": "Wed, 07 Oct 2026 09:52:21 GMT",
     "summary": "",
-    "source": "쿠키뉴스"
+    "source": "TopStarNews"
    },
    {
-    "title": "해커는 AI로 뚫는데… 금융권 방어용 AI는 ‘망 분리’에 발묶여",
-    "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQakl0Vmh6cGtPMGI2aU4yeTRzZjhUOGZwbEFXRFA3cjdlRzJ3NzhJZk5sX2tHZFFEVmNSRW9ydVA0clNlQ0k2Um9NNE1FOUlHZGVpc3F4cjZsWTQ3R2tUeVp5c3U5cUJUMFBMa3lGWmhvMXM4aUEzWi1URXhlTHlwSHNJemx5LWVTZTl6MVp3?oc=5",
-    "date": "Tue, 06 Oct 2026 23:18:00 GMT",
+    "title": "[속보] 작년 대선날 재택 전자감독장치 부순 조두순…법무부 6일간 몰랐다",
+    "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1KcTlWb1dNeUtHLTJyUm1seV9aLW41eWtRSEFYTXJCM1lnYVFFWnRnR29HeXluUEdwWkZNdGhjV1FiSzg5RDItTUREXzc0Zw?oc=5",
+    "date": "Wed, 07 Oct 2026 09:46:54 GMT",
     "summary": "",
-    "source": "조선일보"
+    "source": "www.dt.co.kr"
    },
    {
-    "title": "기름값 뛰고 배는 낡고…관세청 해상 감시 ‘이중고’",
-    "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBuQkRrV2ZFa1JjcjZGY1I2MmxTcmhNVkxEVElRNEcyOW1fTERVM1lBR0ZRZFZJV05PMkRDeGo0TmR3aGZqa0dKSmtEQW9GUGs?oc=5",
-    "date": "Tue, 06 Oct 2026 22:36:56 GMT",
+    "title": "공정위, SK에너지·HD현대오일뱅크 담합 심의…관련 매출 44.1조",
+    "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5rS19YMDBBRV9qdlpqbjdjNTdBRDRNNHAtZkhzbFFaX1NRZU1IZjJuVVlnZzhjeTJ4QzZNYWFUZjhRVXlqT0dEVW5KRkRudEdadHMwX3p3Tzl4SlE3dERNTmtJX2U4ejFKN3UwNWZidw?oc=5",
+    "date": "Wed, 07 Oct 2026 09:28:28 GMT",
     "summary": "",
-    "source": "Daum"
+    "source": "시사포커스"
    },
    {
-    "title": "금융위, 합동대응단 ‘10여건’, 지금 어디까지 갔나…기소·환수 내역은?",
-    "url": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE02Mnl4UlI5Nmk2LThud1c2RExIUlV2Q085NlJKMVQzTTZDWmhjN19QNUhRa0ZUQmFtQkc5QlI0dGt4dw?oc=5",
-    "date": "Tue, 06 Oct 2026 20:40:00 GMT",
+    "title": "공정위, SK에너지·현대오일뱅크 '유가 담합' 제재 위한 심의 착수",
+    "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE96QVJzbVRtZ1ZJVUFZVWdpNTJ3YW5kc1ZlTXhrSjZtbWRFY3VKZVBuSFdZTkpVVzB2RjJhWUlLUHV3bVBPQnRaOUF0TXI0X2ZSbDU1ZFVMNi1RMkdBSnVkTHNyVQ?oc=5",
+    "date": "Wed, 07 Oct 2026 09:12:34 GMT",
     "summary": "",
-    "source": "브레이크뉴스"
+    "source": "조세금융신문"
    },
    {
-    "title": "이형일, 금융위 국내금융 기능 재경부 통합론에 \"더 지켜봐야\"",
-    "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBtV3VkWTR0eXZ4QS1OenNFVDdTWTFPY0tQMzVGZnc4X1VLRjgyek5BY3pyQndFZ29obW12V01pSTBrdmlfMktvX1BxZEhwUThxU29qUUV2RDZuSzllbnhHUdIBeEFVX3lxTE5BWlJlZWlUdGRMekdGR3JTUmxLTTgwUXNRQkJzNnBJWDBIU2dPR1RwMkJVaUdCcm90XzFkRHFOaUxHWEhyN25uRXNfeXhOU0tPbTRXZWpoek5QbUR2TG40MmlCcXJxQ3Z2UmNkd0NfQjlBZ29pdl9HbA?oc=5",
-    "date": "Tue, 06 Oct 2026 13:42:04 GMT",
+    "title": "쿠팡, 공정위 '10년치 자료요구'에 또 집행정지 신청",
+    "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE45ZEd5TU5CUG9tTXNCdTNlTDJ1bkJ5c1Z6Qkw5bmIyU1BDN3F5cUpPLThVd0k1cEpzZ3FfWDNtMlJrQnk0ODh6b20ySFpqMWR6RHc?oc=5",
+    "date": "Wed, 07 Oct 2026 09:11:35 GMT",
     "summary": "",
-    "source": "뉴시스"
+    "source": "매일경제 마켓"
    },
    {
-    "title": "1차 국민성장펀드 수익률 1.4%…금융위 “초기 수익률 큰 의미 없어”",
-    "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBPZjFLYXlDaGFLdmFuX0RaWV8tckxIZUgzN1V1WXlsdmVfRWZRYmF0Q0VSNzhiRUE4dXBCc0R2ampKbERpNVRkN0lybU5aelBPZUlxaWk2SVZMYVU?oc=5",
-    "date": "Tue, 06 Oct 2026 11:16:00 GMT",
+    "title": "공정위 현장조사 거부한 쿠팡…자료제출·보고 요구도 불복",
+    "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5QY1FKVjA4cnNMT0JPdE5FWFJqTWI5U2czLUo5MXM0Z2d2dDdJNzc0eXFfd3ZiSHJ0M3dUQ3luWmlYOVRNdEQzOFJuaVpabTd4SGlZTmhETlNmYmRYUU45N1EtdkZseFJrclIyMWdCUHRqZw?oc=5",
+    "date": "Wed, 07 Oct 2026 09:04:00 GMT",
     "summary": "",
-    "source": "KBS 뉴스"
-   }
-  ],
-  "biz": [
-   {
-    "title": "[2026 국감]16년 키운 청년창업사관학교 예산 ‘0원’…이소영 “명맥 유지 방법 찾겠다”",
-    "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5fSDluZGxQX2lmN2xCZ3ZIczFQSldUMFAxRTJLUmgxOXZ1dWoxaFVHREVrUjQ5YnZjWWtuUW5GZUhaZmFzekVwM3Jta0FuRU9pOE5seTdoUWtCdkt4bFUwOUR2NEE?oc=5",
-    "date": "Wed, 07 Oct 2026 06:03:32 GMT",
-    "summary": "",
-    "source": "매일일보"
+    "source": "한겨레"
    },
    {
-    "title": "[2026 국감]중기부, 코스닥 상폐 강화에 금융위와 ‘엇박자’…“시총만 보면 부당”",
-    "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBiYkUwUkMtMEpRek5QWXg2cS1uMWg4SjNyMWdKZ2Q5di1kdm1LODliTUhjNUxUUzJYbklYUDJkeHk4bl8zcjl1WVNZeEZQZlFMdGFuNllqQ0x4aFlwZjNCOEpleXA?oc=5",
-    "date": "Wed, 07 Oct 2026 06:00:01 GMT",
+    "title": "日 맥주 4사, 잇단 ‘동시 인상’…공정위도 장기간 주시",
+    "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5vS0JYeHhDOEN2YUpQVS1VWmZsZFRIRlF6MHJ5WEhEYjdMVm1HdEMtaXBrMUpBMFJqeE90U0xHUlM4NU5UTHFaVnJCVWNvNEFMTmdoUE9BOWh1UUoyQlFSWlM2N0tNM3ZORlpiTg?oc=5",
+    "date": "Wed, 07 Oct 2026 08:51:29 GMT",
     "summary": "",
-    "source": "매일일보"
+    "source": "재팬코리아데일리"
    },
    {
-    "title": "[이슈국감]“중기부 AX 19개 사업 중 3개 실집행률 30% 미만”",
-    "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBPV3hNQVZjNUxuMDBvMmFiQm92aUpqc0h2MDAzT2RBMWhyZ3lsYW01Um1POEoxVVBBZUdRRnpuaVkyamV6TFZjZmxyVWsxbDVtVVJrX3VnTmZJM3JDMlk1M216WDFYcEt2dEhjYdIBb0FVX3lxTFBJNWNpRVJJdVA4WE1YRDFfcEtNbUlVSGN2UU1PbVItdEp1d0REckl6WTRpUWZwcVg4a0xlb2xEaXlfeUloMWNmNDhpdDFoQTlITnJsYTNWcExVY1VqcFBEVlZfQ05kQXlCR3o1Yk9VSQ?oc=5",
-    "date": "Wed, 07 Oct 2026 05:52:02 GMT",
+    "title": "생닭값 37% 하락에도 치킨값 여전…공정위, ‘답합 의혹’ 현장조사",
+    "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFAtZWVWN0NETVc1RkpwVlZiVDJoX0xCVktsZDFIallsTjI1bmliX0VWbG94UWQxMHpOQnBfcnJNR1NseUxoNXZSZDlCM1NHT0sweWVja1UzRHFHdWtFcXMtVkQ5SE5Ub3FQMVpqeVMtMTc5UQ?oc=5",
+    "date": "Wed, 07 Oct 2026 08:45:00 GMT",
     "summary": "",
-    "source": "한스경제"
+    "source": "한겨레"
    },
    {
-    "title": "이소영 중기장관 \"'납품대금 연동제' 제재 약해…실효성 부족\"",
-    "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5iRWJfbFZQX0pfOU0xUV85R3lVR0JVZk5CbU9nZmI0dFI1UmxlWVJTQWxETlExVkFKSE1qdmlNei04cFJWeDllVURvZ2Joc3pkRE9oczRucUM0amvSAWBBVV95cUxNXzB5c2pYUkxhaEdIa0ZLQWdoM3RQTXAxQmROVDM5TGFqQ3Bha2hiYzdJYnZzSlNiYkVPbVU4SnEyVkFWT0hRNnF0MmdzWDA5Y2hhZFE4cmp1REt0Vm51cmU?oc=5",
-    "date": "Wed, 07 Oct 2026 05:51:28 GMT",
+    "title": "공정위 “SK·현대오일 44조 담합”…정유사 “이미 공개된 정보” 반발",
+    "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1IcFdtRnUzeUhjODlaM2t3alZvekZBcmk5bWxWRU1LNjhqYV8zdEhEN2tuV2FPemw2S2dzTnV2R3lTdjc2RnZ0bkJxcDdNTGVoX1h2VS1YMzZveWhKOTB1ajBn?oc=5",
+    "date": "Wed, 07 Oct 2026 08:16:00 GMT",
     "summary": "",
-    "source": "연합뉴스"
+    "source": "미주중앙일보"
    },
    {
-    "title": "'최연소 장관' 이소영 국감 데뷔 \"창업규제혁신위 신설\"",
-    "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE82SmljSDZOUWt0dVVUV2tIdVVvcE83cFNOWkUwQ0xLZmo2WkJYOS1xU0ljcmdDenZqSmxYcDJEaTRFY3MyYTVHdEJyNjhkSWVDQ042OVhSWEh5cm5id2c?oc=5",
-    "date": "Wed, 07 Oct 2026 05:48:06 GMT",
+    "title": "SK에너지·HD현대오일뱅크 4.6조 과징금 폭탄 맞나…공정위, 4년 유가담합 판단",
+    "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBtV1QxZU5xclpQaTd4QkpKb3l1MmtDNVV6SlRtVVQ0NTA0MGJhbnRCTlZZdm5GQ2gzbS1hamZKOV95X19WTy1qeWZ0ZXEwWjZiY05rMWRHbS1MQVNkTmRQdGRXTzdVZ2Vmd28tVnlR?oc=5",
+    "date": "Wed, 07 Oct 2026 07:54:39 GMT",
     "summary": "",
-    "source": "동행미디어 시대"
+    "source": "이지경제"
    },
    {
-    "title": "[단독] 中企 기술탈취 피해 늘었는데...신문고 접수하면 '한달 대기'",
-    "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNUVpxMmlQSjkzN2lYbl9xSHVJaWpQbmJMdG9lUmdfR1E2amhwV3R5VlNneXJSS3VWaXcwMVJBN2FiQ0d5TE9Yald0QXZXN2w1RnZqcndFMDBmX3NXbEFBU19qanBvUGlyWmphX2lkcUVBWkpkbjJsQVI1QjlNaGV3UA?oc=5",
-    "date": "Wed, 07 Oct 2026 05:37:21 GMT",
+    "title": "공정위, SK에너지·현대오일뱅크 '44조 원대 석유 담합' 제재 절차 착수",
+    "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1xWnFBWWZfVHpZdnRQVG5YdFlHU2RETnZ1dndMdDd3M1NRbWZCUXZIX2wwa0ZLeVNFQU8xSVpuQktoZDA4bUVGdVlkcUJKeFppdUpKbnhncUFVWlNQa19ZUGxzUEhRdmc1QkIw?oc=5",
+    "date": "Wed, 07 Oct 2026 07:33:43 GMT",
     "summary": "",
-    "source": "이데일리"
+    "source": "내외경제TV"
    },
    {
-    "title": "채소가게 한 곳서 온누리상품권 122억 결제…이소영 “국세청과 조사”",
-    "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE11bzlMOGIwemEwX05PYllXZHY2T2MwbURuYWRQNUoyOWVHamR4bVA5cmtWTVZxX1JFUTBBUk9JNWtJcGVSbXgwVm9hMGl6ZENVcEdUcXVR?oc=5",
-    "date": "Wed, 07 Oct 2026 05:31:12 GMT",
-    "summary": "",
-    "source": "헤럴드경제"
-   },
-   {
-    "title": "[2026국감]광주 협동조합 온누리 122억 결제…이소영 \"국세청과 조사\"",
-    "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9xRFNydDNROThucnZJUzRNbFVaYVlmYU9fU21sOTNYRnctLUlwck1qSk5fUnB0MlBPT1hNVUFTY0tJQlN0ek05QWhzV3lWTG1YVjRTdUlEV2NCUDM1aTBTYQ?oc=5",
-    "date": "Wed, 07 Oct 2026 05:28:42 GMT",
-    "summary": "",
-    "source": "아시아경제"
-   },
-   {
-    "title": "'원자력연 연구소기업' 서울프로폴리스, 중기부 '글로벌 강소기업' 선정",
-    "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1zMXMydFQ1Vjd4T1p1WjA3T01mb0x4a0YxX0RLbmR0cDVxc3FLSXdEOUpYbk85S1o1ZGhUOGh4MmdoU2JBMEZGVGlhYXBfRWc4MW90SU9HMWR2Z0RKcjl1Vk5xOGYwOVBfQk1vUw?oc=5",
-    "date": "Wed, 07 Oct 2026 05:22:49 GMT",
-    "summary": "",
-    "source": "충청뉴스"
-   },
-   {
-    "title": "중기장관 \"온라인 전통시장관 고가 전자제품 판매 제한 검토\"",
-    "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFB6cVZqWjc3TTFBa0UwWXBybWh6WXZ3cWpIUTN3d2U0X0o1YXUwWVJDc3JhVk53WllOZEFoQ29oUVl3SmlHNVZLLUExZU55V0x5c0tZV3hRdE9XZw?oc=5",
-    "date": "Wed, 07 Oct 2026 05:21:17 GMT",
-    "summary": "",
-    "source": "파이낸셜뉴스"
-   },
-   {
-    "title": "[2026 국감] 송재봉 \"납품대금연동제 시행 3년…현장 정착 위한 보완 시급\"",
-    "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBWaWNBNWx4SUhTSGt2SEpYWVgwMGk1OC1GY25IQmNEU0pkOFh1aEtESll1b1E5LWU4Z2ZOMWVQTjBiU1h6OEY2a2J4cTctTjVtaExxczcwaGQ0T25H?oc=5",
-    "date": "Wed, 07 Oct 2026 05:21:00 GMT",
-    "summary": "",
-    "source": "뉴스핌"
-   },
-   {
-    "title": "이소영 “청년창업사관학교 명맥 잇겠다”…창업벤처규제혁신위도 신설",
-    "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE55dEl6UW9HaE4zOGZCNzlzcWxsT1dfTTNIS3VGS2I1WWNJRTZQa0d2TlRmSUk1N2pIZVhIQ3h3SGxVUDE2RFoxbGNmTUFEazNJbFhBZWY5d09qeXFwUmJ0SA?oc=5",
-    "date": "Wed, 07 Oct 2026 05:20:46 GMT",
-    "summary": "",
-    "source": "뉴스토마토"
-   },
-   {
-    "title": "중소벤처기업부 2026년도 국정감사",
-    "url": "https://news.google.com/rss/articles/CBMiggJBVV95cUxNZ01mR2wzckJuN0kzMHBFS2VBV0xLY0o4TzZaM1kza0MwWlJPNGlPdUtvaUt6ZjVyZWF0cm1iYVBrbV9YMjNJYTRlaS02VHZXUFVDLTJfTlJrSGp3aWRlenRxT0k1NmgxS19XVGpOd096WVhYVHBmUUYxTWdmUXFqU0NOSDVXVFdEUnVYTWYzdDhtTlJJNEhFWnIxQ2pqcERtUFJwM25PYVdadm84dmhPR0tsNFVUc2tNaHlNLXAycEV2eUEwRjc4dGppOW9BakFnOGpsYnlHOGFiUjVNWVBGS3A3cjI0ZTlSb2lPU2lUcU1zeFRPcmdLbV9pam1reWNIRXc?oc=5",
-    "date": "Wed, 07 Oct 2026 05:18:00 GMT",
-    "summary": "",
-    "source": "데일리안"
-   },
-   {
-    "title": "중소벤처기업부 2026년도 국정감사",
-    "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9ZOTJKVGdXVDlVVF9PaFRKMXFXUS0xQkpZNVM5RktGTnR3YXFkemJlWkM2ZEdST0ZXODN6bzFaVTZSejA5dTFLQ2M5aUxOeHNtWjZfSUppWQ?oc=5",
-    "date": "Wed, 07 Oct 2026 05:18:00 GMT",
-    "summary": "",
-    "source": "데일리안"
-   },
-   {
-    "title": "중소벤처기업부 국감",
-    "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNcEgzMnVCSkp4TWlIcjctd2xFR1lfTEY1RGpzVGt0MDlDVmFRNHlGNVpJbTl3WG1GcWxrYmMtUjdCTlRuaFBMQ3NpNUk5UUsxLWVfQmljWGZ3QUhKdHhpYUphYXN0Z1JPQTVUZTdvald3N1BIQVRJUGpxN28tWU92d0lsSTRkNzRMSlYxS2tRTmtfZzBaWDd0d1VqbkpEOGU2Q29nRF84OU5ZMWdfUU40YXoxaXduRDBkOFZaU2twUjhjS0s3d09mNklZRQ?oc=5",
-    "date": "Wed, 07 Oct 2026 05:16:00 GMT",
-    "summary": "",
-    "source": "데일리안"
-   },
-   {
-    "title": "국감 출석한 이소영 중소벤처기업부 장관",
-    "url": "https://news.google.com/rss/articles/CBMiowJBVV95cUxQYk55alhGNWY5SjBKSWVabUFEblVQNGhSU1JWZE90b004ZjVBQXJnSkNNQUp4SWlHLUVzeDJtcFJBUzFlLWJtWlVESm9KQkQ5WW9iZlVKdWx5VkY3eTRQb0p3REthRUVkeU9CYUVKTzFIbXY1N1g5VVJheEZ2b3VQRjUwWFdCOEZyMVVuMW9lQVBYUW9LVkh5WjNRZ0NqY1ZKa2EyR3R0X1VHRUJLNHk1NE9tZHQyNnlUSDBUdFhHU1VtYzJHczFXNTcwdWpjaENvNzZDdWpXR1hWNkJXRlBkcTBWWlNPVlROamtTVkxvTUJ1WEN2VWhFa2dadW9tNk9SekJmdFhGWVpFLTdYSDl4aWtodUpCRk1fVWppVVd0U1RsLU0?oc=5",
-    "date": "Wed, 07 Oct 2026 05:15:00 GMT",
-    "summary": "",
-    "source": "데일리안"
-   },
-   {
-    "title": "중기부, `청창사` 살리고 `1200억 배달쿠폰` 손본다 [2026 국감]",
-    "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE4tRzh4OFYwVFpja3d2RVdQZzdwUjFPRHhBOHpJdDdxRFZkeWF1VlFMSFFBcHlwdjVSRDFoa3pLQng5VExmNTczY3JjOXRibzhjMjA4VF9EdmNORi0zVEJPOElzTno?oc=5",
-    "date": "Wed, 07 Oct 2026 05:10:38 GMT",
+    "title": "44조원대 석유제품 담합 의혹…공정위, SK에너지·현대오일뱅크 심의 착수",
+    "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE12b1llSVBpNXlOb2FiZzV0aWVTbGoxUHBjSkJBMEd1SWxUVnFHMG1DQVV4RUlNX0VxcFZPMGlCVHBSWF9EZmVDczFjOGZXVEd5cURSR2x5dm40NTFWakFMbGdMVVA?oc=5",
+    "date": "Wed, 07 Oct 2026 07:31:56 GMT",
     "summary": "",
     "source": "디지털데일리"
    },
    {
-    "title": "김원이 의원 “온누리상품권, 특정 가맹점 쏠림 심각…불법 거래 의혹도” - 조선비즈",
-    "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPcW95RUU2R0RzSURtUHRaTk9EM1VnUHhLYXJHWk9SZjhMRkRsZGtnMkptcHpzNUZWX0hFVk5TbHI0TVRpXy1TMmhfS0k2SnFITU5GeGpTQ0tLMjZsd1k3RlhKZFRvSWdmb0VjZk9QU0hrZGxtTnRDSkFKQ28zNVRhTW8yZ1U3SjFXNWxjbjhoOGXSAaQBQVVfeXFMTmo2ZDFpYjVDU2hMU05zc2p6X3FYeGxnRlRQOEFMbm9CRnRoQ3NIcGoyaWtQczdONnFLMldPV3dNWGdoWnBkY01TMGlIVlg1TC1jRndKUF9nQmRhZ3ZfTDBHLW9sZzhMdzZfOUUwQjZKaWhrTGl0NV9yaGVlWmNrTEtTdmdYT0Jnc1ZpSy1mNGN6TS02d3ltQjYwNkw4UzR6cGN1cWM?oc=5",
-    "date": "Wed, 07 Oct 2026 05:08:00 GMT",
+    "title": "조두순 전자감독장치 안테나 파손, 법무부 6일간 몰라",
+    "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFA4X0xTTmtmcFVWMmg0QVZGSmsyNEFUeWVBZUV5S2Fjcl9WX2ZKeGNQTkR2SUg3UjF5TTYyYkR2TmtNN2JBWWFFUXdfVFlwamNtd2l2MFpB?oc=5",
+    "date": "Wed, 07 Oct 2026 07:27:27 GMT",
+    "summary": "",
+    "source": "중앙일보"
+   },
+   {
+    "title": "\"SK에너지·HD현대오일 유가 담합\" 공정위, 심의 절차 개시",
+    "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1YcmFjUExvMVh5S1ROSUctWHp1T01paHdpLTRtWVVSZFlqc2VHdTRBOW9MSTU5YVZ5Z0NtRFVoQTBmYnNEbWxDcTB2bm1rTnczMzREbFNETzJUbUhFWnJDZWhYUVZqQQ?oc=5",
+    "date": "Wed, 07 Oct 2026 06:46:01 GMT",
+    "summary": "",
+    "source": "프라임경제"
+   },
+   {
+    "title": "공정위, SK에너지·현대오일뱅크에 과징금 의견…최종 심의 돌입",
+    "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1pTlVlLW95NG9kUDdLLXR3V1RZZ25PaEhCT1JEWVVFSVZ3VE9sTW4yME9oQ0hjUDJMRlBOaVBhS1hTU1A4WGN2cVBJdVhCc3JwU0VnOFN2RFlZVFJocEdVbnlqd0hmUm1qOFFEcUl3?oc=5",
+    "date": "Wed, 07 Oct 2026 06:45:49 GMT",
+    "summary": "",
+    "source": "뉴스후플러스"
+   },
+   {
+    "title": "공정위, 4년간 44조 유가 담합 SK에너지·현대오일뱅크 제재 착수",
+    "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5xb0lySnV6VXRiTXVYU0l5RUhfRGhiblVrVkJPQlN1S0tYNXpic19SRW41OUlLSXdxZE1DWEhaMnROM2xpeExJdWlKMFRsNExnU3fSAVNBVV95cUxONW5aVFhsZXN3MWgyNTU2SUdXNWdod0VLbUFTUTJfb2pxa0Nkd3d4VFZlazhFcE9XeHJOYVllR2g5V2VKbUtUNFM2UGtxNjJ2WFN0VQ?oc=5",
+    "date": "Wed, 07 Oct 2026 06:43:29 GMT",
+    "summary": "",
+    "source": "서울경제"
+   },
+   {
+    "title": "미국 법무부, 귀화자 40명 시민권 박탈 절차 개시",
+    "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFB1SFplYkJVdWUtVnc2MDdhNjRhdkxJZ1pOM2tGU05XZUV2QjJBWGlpR0V4VGU0MmNVcW8ydTdRZzZ4MjFrNWJDRk1JVFBGeHVhaEFIQy1oYVhZYUE?oc=5",
+    "date": "Wed, 07 Oct 2026 06:41:00 GMT",
+    "summary": "",
+    "source": "KBS 뉴스"
+   }
+  ],
+  "fund": [
+   {
+    "title": "금융위, 금양에 과징금 76억 부과…“회계처리기준 위반”",
+    "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBWaTRGZl9ncHJaNnNyVVJYa2tNLVZ1WU5uTG1iMjNfZzVOTFZPM19BamE2RHIyalNKMFdrcnZRbWh1amNza0JGUmxVdDg5NjdMTWdsSlpnQ3BwbE0?oc=5",
+    "date": "Wed, 07 Oct 2026 11:22:00 GMT",
+    "summary": "",
+    "source": "KBS 뉴스"
+   },
+   {
+    "title": "금융위, 금양에 76억 과징금…허위 매출 계상에 외부감사 방해 - 조선비즈",
+    "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOUHFaNk02czltaVRNQnBGdDF4M3ZQZmVEdVhLdWU1T1BUeDJCV3lsbkkxNWZKaW9tZjd1ZjNzMjNmYWVRTmpLTUlydExxb2pWWjBtdTVKZTE3UGg1azVoUTdFaUJLZXFxb1FWcmQyYVR6dUNTeDBvYy1vRlVDLXF5WTVGVXc2QTRp0gGcAUFVX3lxTE1pQTZKSHFmMzV0SlZ4VFBkU1NoMC03SjR5Q0I5MXJlVkpXUXgtZ3B6Z3ZxOHcwRTFDeFFGTGpScGZhX2dGUWhUd01EQV9mV0o4WElka0dnV3hoaEx5RVlCdEdKS2hkbkMxams2TkMzTU5pVDFKZnZHckFTaHJnVmtqc3F4RTlUeXBWQmtZOVZXd1l2MEVQMzZTcFFiYw?oc=5",
+    "date": "Wed, 07 Oct 2026 11:04:00 GMT",
     "summary": "",
     "source": "Chosunbiz"
    },
    {
-    "title": "[2026국감]이소영 중기부 장관 \"온라인 전통시장관, 품목 제한 방안 검토\"",
-    "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9pWGxnMUZrN1NiX0czbUxXWHRJbG1tdG9aU0FyTDZwNXdVYXNCQlpXbFRFZjNQSkpLNnZqcmJwbTZrYzVUdWI4S2wweDdtUHVVdXlrVURfR2wtYk1YX1NUMw?oc=5",
-    "date": "Wed, 07 Oct 2026 04:57:38 GMT",
+    "title": "중고거래도 신용카드로 결제한다…금융위, 혁신금융서비스 지정",
+    "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE0xWWgta0xhR1FsTWxnR1VjU2ZGaGhQWC1KUFAyams2b3BkLTV2TUZDdTJxTXpuV1pKTXN0cTlpdmdpWXhpOFJDYWJaN2RuRHVjTWZYUXotMFFXU01GRWI4cGtFUjE2X2RUNjNLQUozWFptbWhx?oc=5",
+    "date": "Wed, 07 Oct 2026 10:33:00 GMT",
+    "summary": "",
+    "source": "이투데이"
+   },
+   {
+    "title": "금융위원회, 탄소 감축을 넘어 신성장동력으로, 정부 1,000조원 투자로 K-GX 본격 가동",
+    "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBlY1RrbTFTcDFtczJpWE1KM2gzanBQNFh3d0lSTVhVRVpKWmtUcnAwdkY3d2NoOHNwSzBaRXREczcybVQzT3JVMUFQYTkxMTRMUG5COUlwV3FnTml1V051VXhxdWoxaF9ZdE9iLWhYNE8?oc=5",
+    "date": "Wed, 07 Oct 2026 10:30:05 GMT",
+    "summary": "",
+    "source": "프레스뉴스"
+   },
+   {
+    "title": "금융위원회, \"개인간 중고거래 신용카드 안전결제 서비스\" 등 혁신금융서비스 24건 신규 지정 의결",
+    "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFAxUTh2S1pjSy1JQ1IzNDZoZEJkNHhQVHBGT1JKaVl3UnVzeFIwbkZkWkQtNTZNZURxSkwzWG9FR0tDYlRpRTkwUF9GWUFCUlN0dTh6cDAxYXNYVW8?oc=5",
+    "date": "Wed, 07 Oct 2026 10:30:04 GMT",
+    "summary": "",
+    "source": "아시아통신"
+   },
+   {
+    "title": "금융위와 담판 짓나…이소영 장관 “루센트블록 탈락 문제”",
+    "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9lNXk0SFR6M3BDUkNYRDI1UTZPdU84alYxbVRtLWlHT3RwQWxLZlN4aWJYNHVGUTM4TDd0YnJxNDI1LUQ3QWQyZ0VSRXFWd2xkbWpjSmU0N2xzZ1ZFWTdyVVNJcnJiZnRRRkFKeW1tNU9HTjA?oc=5",
+    "date": "Wed, 07 Oct 2026 09:47:05 GMT",
+    "summary": "",
+    "source": "마켓인"
+   },
+   {
+    "title": "중고거래 신용카드 결제 허용, 금융위 혁신금융서비스 지정",
+    "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBFbkl1dk5KMXllZi1MSk92OTJPSEIyZ0Z0Q05kcFA5YkkzaDcwTWFVaEw5SE9BZWQ2WmJrdFhsdm1pMVJmYk81YW1waXItVnhncVA3VlFR?oc=5",
+    "date": "Wed, 07 Oct 2026 09:21:07 GMT",
+    "summary": "",
+    "source": "중앙일보"
+   },
+   {
+    "title": "금융위, 회계기준 위반 금양에 76억 과징금 부과",
+    "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFAzLWs4VldaXzgtcnV2dWVDMnFyVEVMRkxkUTZiSHhNS2dfWTJpcW14MVM5bGVFUl8xTTlMWlQ3T1FZRVFxNUtyUV8zQnZwWEFmVmxpZ1N4clNld9IBWEFVX3lxTE5rUWFsX3pSLXgxZTNKWEhYOXQ3NDR3aWtnbGtZNU5nV3NCSTF4RDlEbjBELVNYeGUxbXV0WnlwTmkxd19fVUhwLVZ0ZG8xNHktVk8yNEhtZHY?oc=5",
+    "date": "Wed, 07 Oct 2026 09:21:04 GMT",
+    "summary": "",
+    "source": "아주경제"
+   },
+   {
+    "title": "금융위, ‘분식회계 혐의’ 금양에 과징금 76억 원 철퇴",
+    "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9uWFJnaURoVmkzeWM4Ym1GVFBEV3NOeUU4aHQ2VkJKLXFvLWpoY3NJSEtQNXY1bHFnbnNoRGpMWUZjT0Z0QjZuajd5S240Z0lMbmfSAVNBVV95cUxQa1FOYmNORlFYa2swd3JkX3lOZ2tIeHpHQVJFVm1KcmlhR2xCZWFnZ0hEWERucmNmdHpkV0g2ZF9hNU1BVEZESUd1N1oyY1IyLUN2RQ?oc=5",
+    "date": "Wed, 07 Oct 2026 09:19:10 GMT",
+    "summary": "",
+    "source": "서울경제"
+   },
+   {
+    "title": "중고거래, 이제 네이버에서 카드로 한다… 금융위 '혁신서비스' 지정",
+    "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE0ydXRJZFhiYmY2LUJFalVpa0JwZTdzTU1GTUY3RTlDNVlJcV9lOERULWRhSEhMdDlYclRqbXBsTHBiWmlTbjVYRGV3QjQ2ZW5tTFZ4aDFna3Z0bWNRaVJ1dGV2aFJUZDZEbVNTNGdB0gFzQVVfeXFMUDA4aFJUbWFpZTJmWkRNb0FLczdjcVlrSnFDZC1hLWRKZXB1b3ZIeVpCREJ3SW5Nd0RCLTNDME1pWUpocU91eGNpcU1JdGwwYi14VnJHNWU5em40LU9RUU0xdFoyN0pINHhQQUFDay04ODIyVQ?oc=5",
+    "date": "Wed, 07 Oct 2026 09:18:00 GMT",
+    "summary": "",
+    "source": "한국일보"
+   },
+   {
+    "title": "금융위, '허위매출'로 실적 부풀린 금양에 과징금 76억 부과 - 머니투데이",
+    "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBlcGh0RHFOR1VhSG5Na1JmUlFGWEs3TjMtOXJzOU5YNEhMN3BlcTVpeUNJa0djQWNoSzk2Q2ZjbGx4M20wNmlSUVVsemV3WkUwak9uTUYwLUlabXlpQUNybUZDLTdyY0FMNGRfenVzYWY3X2F3NWfSAXtBVV95cUxQaUR3b0VQNFRqNEJJTEhKZTlIZUJBQk04b2Nsb096XzRfdUE0N1hYdEYySVVqRktEOUVUSG02NjZqaWlUNnlCZWE5VUxaWFEyeUEyQ0R3UHI4bHgwWUF0U1JQcWxFY0hjbDJBckE5N052Szh0RG84blNLUEE?oc=5",
+    "date": "Wed, 07 Oct 2026 09:14:52 GMT",
+    "summary": "",
+    "source": "머니투데이"
+   },
+   {
+    "title": "금융위, ‘금양’에 과징금 76억 부과…검찰 고발까지",
+    "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBxcTNDWUEtWXdDU01rRDlwNHBtcnZySF9zdm9nX1VXQzlZNTlpNlBEWnd5NGw3T2VDUFRub1A1RWNpbzRnQlB2Nnk2TkwxZWRuZTdmVGRRSXFBby1kam1uZWh4UW01TXlpai0ydA?oc=5",
+    "date": "Wed, 07 Oct 2026 09:09:17 GMT",
+    "summary": "",
+    "source": "세정일보"
+   },
+   {
+    "title": "중고거래도 신용카드로 결제한다…금융위, 혁신금융서비스 지정",
+    "url": "https://news.google.com/rss/articles/CBMirAJBVV95cUxOQVZyNm5xRU1tRnpKcHJkWjVsbnpIRGNOVFBvQVRoY3U3cUVOTUNVTERZZWRlQU81S3R5S040VVRIMXVUS0JQYUZYWEVFclNoLTdjWGVkZGZ2M1V4VnNFZWoyU3N5a1VBWFJaeEJYSnJLcEx3Z2Q2YmlDTGNSNnZIVjQ3ajdDSG5kbDBnc2xiSWt1UVBaN2Fvb01GOGtTcmZxdTFsakhEOFpFMXdNRTZmZlJ4bFBSaFZ4QmpQSk5BcTg4dDBaU3EyMDMtZEc5ZEZvU0d0Zjczb0stNllJZ0kwWXBhWUsxRmMwbE1LOFhwRndGNmNXLVhiQ21NNVZ1OU4zRzIwQW9obE9Rb1djbkt2N25SWktZWHY5OWUtNVhZWkdkMmNncXNmOG9nZ2o?oc=5",
+    "date": "Wed, 07 Oct 2026 09:09:00 GMT",
+    "summary": "",
+    "source": "데일리안"
+   },
+   {
+    "title": "금융위, 중고거래 카드결제·공동대출 등 혁신금융 24건 신규 지정",
+    "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE9Hclg1T0ZaYjlYdkV0cXBhNXZTbHU5a1pZd0VEd0JKOXpSQWRYYTdIMEFhRlhlVVREdVYxQ2gtRVZERnBSZGdvVmtZRQ?oc=5",
+    "date": "Wed, 07 Oct 2026 09:07:50 GMT",
+    "summary": "",
+    "source": "아이뉴스24"
+   },
+   {
+    "title": "금융위, '허위 세금계산서' 금양·대표이사 등에 과징금 91.5억 부과",
+    "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE51aUF0TmpremFPQ1lKZU9wNmZLV3EwNW5WTDhsc05oNHpZZW9pdndwcUJjX2VkejkyWFI5dk10aE1memRzMGNpb21NR1pUVUJyUVFQeGNwN3JoTzFJYWlFakJKTXVMZ2o3LTZBdXhB0gFzQVVfeXFMUGhZbVV5V1lQcFpNSzhoUXFFcl9xeUhyOXVaQ05xbHFhZW12Znd3OFcyMlBRSVNCNndILXRzYTJUQTJNaDU2SC1lbDJiTlFpQlhIeUFkTU9Cd2x0a3V6VjdxOGtqbHNLR0ZXSXh2SEhIcFRMRQ?oc=5",
+    "date": "Wed, 07 Oct 2026 09:07:00 GMT",
+    "summary": "",
+    "source": "한국일보"
+   },
+   {
+    "title": "중고 거래도 '신용카드 결제' 가능…금융위, 혁신금융서비스 24건 지정",
+    "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBQR0VfZnUwR0ZVUmoydlpsa19ZLXBHTTJmZGNVc1RCNVRvVHdzd2tsSXFzVkc4SDVteWFMeEhNcXhQcjYtYjg4a1d0TEMybDdHeGxBSmhLb3ptOTNxUDNObV9wNE4wYlRqa1E?oc=5",
+    "date": "Wed, 07 Oct 2026 09:06:12 GMT",
+    "summary": "",
+    "source": "청년일보"
+   },
+   {
+    "title": "네이버 중고거래도 신용카드로 … 금융위, 혁신금융서비스 24건 지정",
+    "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9kRmJSQ0ZhTFM5VHh5ZEZDOS01WEFnRzFWQWh5QlJYTG43NV9hczVMeDJCcC1pOGtHc2tVVHFYQmpYOUdxSmp2bEI4N2lSbUtqd0tsMV9DRG1lVjdwNzdwTC02bXBXZm1xNEFaNmZxY1o1UG1FWmRpNmxBd9IBgAFBVV95cUxNVV8yNUFleUQwLUk4cFVDUjRQMXpHcV9tR2R2NXFDNUJKZ2lpR3ZBZVNuanNrd2dIRmhHRW5SNUtMZWFEaV90eWNhNi1sUG1UN0lqR3QxUGtNZkp0WkNpNHg4UUQzYm5BMGNtMEhoLVBIWkMwWEE1XzN6MVdNX1cyXw?oc=5",
+    "date": "Wed, 07 Oct 2026 08:58:29 GMT",
+    "summary": "",
+    "source": "뉴데일리"
+   },
+   {
+    "title": "\"중고 거래도 신용카드로 결제하세요\"..금융위, 혁신서비스 24건 신규 지정",
+    "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBVZ1MzWjlMa0kzRWJ4Z2FONUVLWWF5VTZ5cXVIc0xFS1F5bFZoZG1PbUxKTy1rbkdpUGFDeUNCZERPYjhlYXJJUmhMNVJLZXZjT2JTWHhqODhaZw?oc=5",
+    "date": "Wed, 07 Oct 2026 08:56:45 GMT",
+    "summary": "",
+    "source": "파이낸셜뉴스"
+   },
+   {
+    "title": "금융위, 회계처리 기준 위반 금양에 76억3300만원 과징금",
+    "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBwcTZnOWp3ZEk3STRMY0xSX01jN0kxdVNKODV6cGZJa09xTFBidlFqelhKTklJREhKR0E2SlFhWjQ5Tlo3cjc1Zkt1STFmNGNyb2R4dl9pM01vMi1OajFXam1pTDZSZ0dT?oc=5",
+    "date": "Wed, 07 Oct 2026 08:54:22 GMT",
+    "summary": "",
+    "source": "중앙신문"
+   },
+   {
+    "title": "인카금융 최병채 대표 ‘독박’ 금융위 국감…GA 현안 초점",
+    "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE8wNnMwWUNUNFRLZGkyME95M3NjcGtrLUNJS3JzcTZyYU5Ub1pzT0FKbnJubGlxTnhuS3lyc3hjVlY0LXJmWlduZFhIOVVwb2NnWVFYZWpOWkgwUUdvRVZXYmxsc2pLaDc2QkE?oc=5",
+    "date": "Wed, 07 Oct 2026 08:41:02 GMT",
+    "summary": "",
+    "source": "더리브스"
+   },
+   {
+    "title": "개인 간 중고 거래도 신용카드로…혁신금융서비스 지정",
+    "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1QMF9ZRnMycEN3YUk5VFVGZzgyLWgzSEItRGFTVFk5MUpYaUJvWmQwVUM1Qm93WDNXdnRhcDdFWDNXSjcycUd6cm5Sa1NjN3V4WDQ1MUxEekt0ZVHSAWBBVV95cUxPeEpFY2J5UDRhN2NJSGFqZ2lsUEp6V1FoUGJEeUdrSEQ5OG5DYVNZSmo5VmZoNjVOWDc2aGM1NENQTjNCTUJ3TlRkVVZfZTNyT3pwVzZqQlJJa3dDdnU2emI?oc=5",
+    "date": "Wed, 07 Oct 2026 08:40:55 GMT",
+    "summary": "",
+    "source": "연합뉴스"
+   },
+   {
+    "title": "금융위, '회계처리기준 위반' 금양에 과징금 76억원",
+    "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBCZkpUZzR6MDU1TFpsb3YzajlvTUt0eW01Mk1WX1FZamlEb0w3UEY3dFdOWjBJQVJkbE12cThnT3pXbWc2WVl3UU1lM2IySEQ1U192b1NnWlNBX2d6UVdJY0d3?oc=5",
+    "date": "Wed, 07 Oct 2026 08:34:00 GMT",
     "summary": "",
     "source": "아시아경제"
    },
    {
-    "title": "이소영 장관 \"온라인 전통시장관 판매 품목 제한 검토하겠다\"",
-    "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE0wb3REWV96VmZWS2JZNnFwbkJvdnZHcTl2UGpYOHI3WjI1WGdXc3o0cmJiWXhqY2ZwbEIxVDV4QmhrOUx4Rzh0dTA0c0g3d2s?oc=5",
-    "date": "Wed, 07 Oct 2026 04:48:06 GMT",
+    "title": "매출 속이고 감사 방해에 허위자료 제출...(주)금양, 과징금 76억 과장금 부과",
+    "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE13ejh3aHBtN0dDZzlreXpwSm4zX2xZT1RBUmU5UTBoRlNDZkZXdHlCV1NXY2pKTTBaVmZmY183WVVIX011RTlsTVRMWl9uRk9kUWdMcU9oaHV2UUprUnZzQ3ZJMUJSNExFN3c?oc=5",
+    "date": "Wed, 07 Oct 2026 08:32:12 GMT",
     "summary": "",
-    "source": "Daum"
+    "source": "경북구미신문"
    },
    {
-    "title": "이소영 \"납품대금연동제 전면 검토…기술탈취 과징금 피해구제 개선\"(종합)",
-    "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBBci1XZ2RSRHRReFhKVXNCQjg4VmxYci1TWkE5Vk1UbU5PTmxnbnh3ODRvNjRHYklxRFBhbmc4VGlnSkYzZVotZWdqVm43Vzg?oc=5",
-    "date": "Wed, 07 Oct 2026 04:47:53 GMT",
+    "title": "[이슈] 예보, OK금융과 ‘예별손보 SPA’ 체결...금융위 승인만 남았다",
+    "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE0tX19WUEdwQU96T0V2T2xMdGo2R3dYVmtQbkhrU1diS296VjN6YzBTb0V3aV81azNaRGFQMkFCWV9lc3NJV29zUk44Z0JrR3gtZ0pXYk4yZUtGTEZTRUhZTHE2Uk5rVlB6ZzBpUm8tWkJtTkk?oc=5",
+    "date": "Wed, 07 Oct 2026 08:32:02 GMT",
     "summary": "",
-    "source": "Daum"
+    "source": "오늘경제"
    },
    {
-    "title": "이소영 \"'노란우산' 건강보험료 이중 부과 성격…복지부와 협의\"",
-    "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5FVHFFMl9yN1dtcFU1RWVfUjE0czlET3lCTVU1S2hCaGRJU2FVU0c5MVJrZ2dhSVVkWkNYV0I1UkU5YWVRTDViU3JTRXJYcmM?oc=5",
-    "date": "Wed, 07 Oct 2026 04:45:00 GMT",
+    "title": "개인 간 중고 거래도 신용카드로 결제 가능해진다",
+    "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBSb1RhRTJNTktEdjdSR2hQVGRKUlRzU2ZKZlprZDBUNHhiNF9DeXhIUmE4NFdWRXZkams2cmJoS0ZnRTVVdVN1VGJwODVyYjBLSlE?oc=5",
+    "date": "Wed, 07 Oct 2026 08:29:14 GMT",
     "summary": "",
-    "source": "Daum"
+    "source": "매일경제 마켓"
+   }
+  ],
+  "biz": [
+   {
+    "title": "[2026 국감] 취임 보름만에 국감 치르는 이소영 중기부 장관…최저임금 질문엔 5초 침묵",
+    "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5objhzN3JoaHB4RFhFV3lYWkdLanEtOVBoYnVJTzhsYkJMeFFUVXRGeWdaRFpySU9oWDd0NW93V1ZlSkhwMHoyam5EbkUwcTktMGRIbnAyUW5HNXFlV1ZwWndtVzlSWWJJdkE?oc=5",
+    "date": "Wed, 07 Oct 2026 13:43:08 GMT",
+    "summary": "",
+    "source": "월요신문"
    },
    {
-    "title": "\"채소가게 한곳서 122억 결제\"…'온누리깡' 의혹",
-    "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9zbmdOa2NEa0l0bktzbjdoXzZTTXhPTFRNbWdHNW52MTU5Zk52RnA5V1IyQXNhZ2l0SWVLUWItdnJhZGVDQ2VvZWpfZGJWWHhxdnhSQzN0NFZPQ3BfUDZxWdIBeEFVX3lxTE96cWhWMV9WRGNrNEVQVDdXUmppQ0VRNWxycW90bEN5WGpNWVRzQzU1azN5R05nNkItdndsN0l5aUxQejlTUm1aZENfT2dJOWZ6MDlSWVpmVFV3cFJ5SU5UVVVUdkFWa2Y1R0xrYVdnTWoxeE9ZWnBiQQ?oc=5",
-    "date": "Wed, 07 Oct 2026 04:35:16 GMT",
+    "title": "[스코어보드-산중위]\"소상공인은 뭐 먹고사냐\"...민생 앞에 여야 없었다 - 머니투데이",
+    "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFAxcDU3emtZU3AyX2hSaVhWWm1fT1JxMk12aGhaLVkwU3hOT0V3Nld5anhHc0xxdzJnalFfajF0MklSdkNSZG1NY3lnbmlUYzhLTF9sZXBpS1Vha2xCMXMxb1FsSFdOWWp6ZWpTQdIBckFVX3lxTFB5QVpObUJVMWhXZWdNNVBOa0VNYVdhazVPbGlsVHVMMThHMWFLWHpyQVFoa2xlQ2N0dmxhZ1dmT0tVRkdJU0dSd3dPdFY1TkZWcWNaZndRYWFmRURhYm1BT3ZBQkJsTGtpa3VocEtrUm1BZw?oc=5",
+    "date": "Wed, 07 Oct 2026 12:39:39 GMT",
+    "summary": "",
+    "source": "머니투데이"
+   },
+   {
+    "title": "홈플러스 협력업체 정책자금 금리 낮아지나…이소영 장관 “적극 검토”",
+    "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQSFlZVWZaS0tzLWU2VmFmS0RiY0NoM240ZFBFYmxJQUNfNV9JN1lXVnlUX2cyTFpJSnhKZEYxZjRvZFVRWS1XZm4weXhaUng5UjRoNEdlRHdxY1pjZHRpOWRJX04wcTlWXzJVZmVmX2VycjNkNFZjSEZ4WGxLdnBxU3RTTDVZUE1OajBB?oc=5",
+    "date": "Wed, 07 Oct 2026 12:31:38 GMT",
+    "summary": "",
+    "source": "글로벌이코노믹"
+   },
+   {
+    "title": "이소영 중기부 장관 \"최저임금 문제는 을과 을의 전쟁\"",
+    "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5YenQ2eTJYd3NSVmFZU1VzaUc0NGZaTmJySFByclNPbWJYNEJ0VmNDdk8xRGFoQm9GOXVEWmt4YTBvaTd0RXoyYUNPUkYzVTZZbVo0eUZvR2RxTW5TOUFNQU1qRXI1NVU?oc=5",
+    "date": "Wed, 07 Oct 2026 12:03:00 GMT",
+    "summary": "",
+    "source": "연합뉴스TV"
+   },
+   {
+    "title": "중기부 장관, 최저임금 업종별 차등 적용 고민 필요",
+    "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBsNzNFOFQ5VnBxaW9yM1V1eWM4RFFfVUVkRU1GYTFCb1VrOWFUazFoS2REX1E5WnFZZS1NLVA1U09pbHZkUWx3b1V3aWpGaUp1OXQySDVjb1JlaXRUWXA0U1RadmFYSGx3bXdBaFR5WjA?oc=5",
+    "date": "Wed, 07 Oct 2026 12:00:44 GMT",
+    "summary": "",
+    "source": "숙박매거진"
+   },
+   {
+    "title": "이소영 \"모두의 창업, 내년 새 플랫폼 구축\"…최저임금 차등화엔 \"고민 필요\"",
+    "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5yTWlHdURrQS1QanR6QzRsVVRzRXFOc25aLTN6SUZqUjdQWUhMcFVZdXdJMmNiM0tRN1A0elRLSVM5eXBtZjA0UDZCZWNzWTY4S0J3dnhFQWNVSkxZbHR4dHFnNE9LOUZHLUE?oc=5",
+    "date": "Wed, 07 Oct 2026 11:23:00 GMT",
+    "summary": "",
+    "source": "경북도민일보"
+   },
+   {
+    "title": "이소영 \"모두의창업 업체 재지정해 새 플랫폼 구축…보안 조치\"(종합)",
+    "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1zamJBZzdQbS1CR0NKRzBrdTJsVFJ1el9WWmFjeDVpX1Rjc2xXWEItZkE5LUhRYVVvaE5LTGU0UjdjNktsemY1M0QyVGc5cEVUUHc?oc=5",
+    "date": "Wed, 07 Oct 2026 11:05:03 GMT",
+    "summary": "",
+    "source": "매일경제 마켓"
+   },
+   {
+    "title": "[2026국감]'규제혁신위' 띄운 이소영…첫 국감서 과제 쏟아져(종합)",
+    "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBEQng4TnJDUWV3WDdUVWhFSXRSS213ZXNLRmMzNGl3LVFCQUI2VDB3ZE1HZ1B2Wm1QVWdmZG9tb3g1RHZBbF9JRW8wbUR5MnZpXzRoMzVCRWxJMHZ5bkRyRA?oc=5",
+    "date": "Wed, 07 Oct 2026 11:04:57 GMT",
+    "summary": "",
+    "source": "아시아경제"
+   },
+   {
+    "title": "이소영 중기부 장관, 국감서 내년 최저임금 질문에 답변 못 해",
+    "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5Eaktqd3hkMndSaFpXaFlILVVyazNVR0p3WlJtZ2xmMVRjRmxkYXlxcGVpa1pkbWdWelAtVHlRdDEyUmpfck5MM1d4dUFJN0F4dlB6dHVNS3NaWlFBN2xQMVF2QWVkWk41SlJ6Tmg5eTUydw?oc=5",
+    "date": "Wed, 07 Oct 2026 10:54:29 GMT",
+    "summary": "",
+    "source": "스페셜타임스"
+   },
+   {
+    "title": "이소영, '내년 최저임금' 질문에 즉답 못해…국힘 \"꼭 아셔야\"(종합)",
+    "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5KaVFkUE9oTTZPNnhMdjBRblFCV2V1RENhbENPai00SFpiZXVOdVFqcWp4eDBNYWlwcWcxWEdZWmdMSXo1Tm1fTkRjZ0s5YUVlVkE?oc=5",
+    "date": "Wed, 07 Oct 2026 10:49:12 GMT",
+    "summary": "",
+    "source": "매일경제 마켓"
+   },
+   {
+    "title": "이소영 장관 \"홈플러스 협력업체 정책자금 금리 인하 적극 검토\"",
+    "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1kNGtzYUJjSnpmbF9UZllCVWxXM0N1Rkpya0J1MWRCNW91akhpRDNOWW9icWNOYzQyOXAzNXNxQkw3Vk11Sm94Rk8wanBuSVdObFo5eGpEVXI0MnZ6OW9RUzNNckZfOS1PLVE?oc=5",
+    "date": "Wed, 07 Oct 2026 10:34:41 GMT",
+    "summary": "",
+    "source": "SBS 뉴스"
+   },
+   {
+    "title": "이소영 \"내년 '모두의 창업' 업체 재지정해 새 플랫폼 구축\"",
+    "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE50VUJwYU9wQ3VBZF9GT2dUX0hnc284dlZvOVpUSFZObkpsTTl5WE9TalE0WUtTd0Y3WTg1Z3lfdW9ENWlkZUxtel82RTVDYmpwNFY5N2h4dEdvWEVLLUd3ZEpfRXl4SVhHbFE?oc=5",
+    "date": "Wed, 07 Oct 2026 10:28:09 GMT",
+    "summary": "",
+    "source": "SBS 뉴스"
+   },
+   {
+    "title": "티메프·홈플러스에 배달앱까지…입점 소상공인 '리스크' 국감 도마",
+    "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1zc3R5cGlId1FHMWpaUGsyNG0yaFliWmxqRVRJYk5zTzNWS0xJZ2p2U1Q5eTA1NzdCMzJoSGNCS1pyZmpkUVhFam5lZ3JMTjRWdFh3aEJwTDc2Unhn?oc=5",
+    "date": "Wed, 07 Oct 2026 10:14:27 GMT",
+    "summary": "",
+    "source": "뉴스1"
+   },
+   {
+    "title": "이소영 \"정책자금 목적외 사용한 중기 제재조치\"",
+    "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE04dTg4S2pjNVlDTy00YlZrdkdvZ3cxdFByRFZXRzBsem9XNUljazg3eTFYbWo3WVF6cFNWVWc1UEphbWJ0WTl6WXl6TTRUeExKeVl5WUJOQUFDN2t6WGFVVtIBeEFVX3lxTE1yMjRJN2JuMWxHSmxYd2FmbFcyc2VyS2lEQkRzTlh6NXFBcVl0SGF3MFNIMU44Y0swSWYwdldzY1ppclZOb2VQZUNVTlhSVGhZOXNtSjJTOGxUSkZjdVdYemN5OTlvLTNxMXJPZk9JWlBDRzNRV295Tw?oc=5",
+    "date": "Wed, 07 Oct 2026 10:10:29 GMT",
     "summary": "",
     "source": "뉴시스"
    },
    {
-    "title": "“소상공인 비용 부담 지표화”…온누리 상품권 부정유통 전면 조사",
-    "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPSjJtcEFlUGxFbXdOMGV3eGtjdjEyc3RNVjA2UFZFZTZpLVZwa1l5V1VMXzM0dFFpWVQzeElIRjRSdmtUMVB3TGpzeWVEdjlWVE1hWnZDMkhLWS14Q29yeUxrZ3BOYXdqMWN4SUZ5QnpYSHc2ODRSaWZ5NGszU2pTYg?oc=5",
-    "date": "Wed, 07 Oct 2026 04:32:44 GMT",
+    "title": "금융위와 담판 짓나…이소영 장관 “루센트블록 탈락 문제”",
+    "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOOTVKanZNTUJHenlzWFM0VmpsUWFhY1k3Q2g5MHdST3RfYlRWV2dEMnlmdXFPeXBWWkpUbF9adjNLMk5ldXduM0dDcG9QYktjd2E2cGdHYkphLVYxMkt5Y0NZNHJFWnY1QWUtZjR1ZDV6dGJaUHBHSHZfX2ZGT3prcw?oc=5",
+    "date": "Wed, 07 Oct 2026 09:47:05 GMT",
     "summary": "",
     "source": "이데일리"
    },
    {
-    "title": "김종민 “첫 직장, 20대→30대로 밀렸다…일자리 창출 부서는 중기부”",
-    "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1OaWFDX1NFQndwRURpMWlhTWhZX2xEbkZkaTEtMXRRZnpRSjlvcF9lVjhXd0FGa29RS2x3ZEU5T3h0R0dTOE5yb1RWSS1vTW5La2pGTUQ2LW5lalQwMGFVRmJ6NHd4Rks5OUo2Yw?oc=5",
-    "date": "Wed, 07 Oct 2026 04:27:15 GMT",
+    "title": "이소영 장관 \"홈플러스 협력업체 정책자금 금리인하 적극 검토\"",
+    "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5zUlE3UjRiVENIOVdlTnd6R0p6QnRQcm1nQVdnWVZkOUhuSUVvdXBTRC0zQ3NKckxfcTRtcWxiN3ZUZ04xWHByZ2RyS25QN0ExM1VDRkN3WVBUakHSAWBBVV95cUxOblVVOVFJUU15ODFqOEdJUmQzaWdHaThNTXVRZHVfY3RkcUwzX2RMVlRaSTNnSUZqZmpWcDdQcE1uQmlvdlhoU0o1Zi15X2gtekxQYmlOV0tZMmlnci03TVU?oc=5",
+    "date": "Wed, 07 Oct 2026 09:38:44 GMT",
     "summary": "",
-    "source": "백제뉴스"
+    "source": "연합뉴스"
+   },
+   {
+    "title": "최수진 “제넨셀 중기부 R&D 관리, 이렇게 허술해서 되겠나”…김승원 ‘굳은 표정’ - 조선비즈",
+    "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPSGdORTFuUkFFXzg0R2hqTGxLU0FLZmhKNkY4V2ZKempfX1BPWUNYanRKTmlGWDFNYXQtR0s2SkN0Y0duMWVCXzQtaDJ0bmlrRldpUm9LdC1lOXBZRjJxbS0yeC1GbHE1LU9tLVlqSnNpZlltVFpGeXdXd2pxamtpeXc0SW96V3RmWlh1RVpyTlXSAaQBQVVfeXFMTVF1cmVreVFwWFBQUUloRjlqN1dLU3BsdVNXRnZlbmstbG5YYWUxX3EzMXNrSkpJX0tHT2xjZmM2Si1RUkJxTWE0ZmV2SFhUY3hfWFpfMURhUVFvSFNISFpXYmxOcjlRUXBNejJybzFPam9YUm8xYU5fZGw2b3c3alIyV245YW5raHlGbC1yVUs2M0FDcDBCS3V3eFhFUXo1R3hLbE0?oc=5",
+    "date": "Wed, 07 Oct 2026 09:31:00 GMT",
+    "summary": "",
+    "source": "Chosunbiz"
+   },
+   {
+    "title": "정보유출 ‘모두의 창업’…중기부, 내년 새 플랫폼 구축하기로",
+    "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9yYkdBam52ZzdpbFd5bk5STjJySk44TVViU21FeTV3T0NJRGpncmF0Z0pQcHhMZWVuREZXX0swTnlsR3NvWk1RenNwWlpUY1c5WXB3ajRkN1ZocjA?oc=5",
+    "date": "Wed, 07 Oct 2026 09:24:00 GMT",
+    "summary": "",
+    "source": "KBS 뉴스"
+   },
+   {
+    "title": "현실성 떨어지는 납품대금연동제 \"전면 재검토\"",
+    "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9wY3pjamhkaUNNbmZGT0VRRzl0TXhTQndfR1NZamZyYjNDZHJub3pJbTNMcUU5WmdGQzVXbUQ0ajA2dE5iYjB4ZVR3bGZiU0YtZC1rMWp6cWVxQQ?oc=5",
+    "date": "Wed, 07 Oct 2026 09:15:30 GMT",
+    "summary": "",
+    "source": "파이낸셜뉴스"
+   },
+   {
+    "title": "이소영 \"'모두의 창업' 새 플랫폼 구축…코스닥 상폐기준 기준 우려\"(종합2보)",
+    "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1RemJXSDdnYXNvNVdhcGlkaWNhWGk4TTUtWjduRmpYOW5acV8tZk1HU3Q4Q0hFR20wUlE5QzhvOUlxdTVHQWswUDR0S0RIRnhxcFMtQjJNcDg3M3dh?oc=5",
+    "date": "Wed, 07 Oct 2026 09:14:33 GMT",
+    "summary": "",
+    "source": "뉴스1"
+   },
+   {
+    "title": "이소영 장관 “할인쿠폰에 편중된 공공배달앱 예산, 라이더 인센티브 전환 등 검토”",
+    "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE95a1IwUFNyM2R0RGhvQkZoMUN6TTFfWHFjVG00V0Qzb2d0bC1yeC1mOGxIWFk2clpWTm9zNnZINXM4T2VTczBtVTEtU240b3NyZ1NfSHQ4VloxQdIBX0FVX3lxTE1wSFYtdFU5V2RMM0VudVdMQjQxOG42bG5Ya2FrVlMtRElTdVFIa0ZJenh1bWMtN3V6WWFydTRqWF9CUkZkd3RabWVSaFBZSnkyQ1NOTlJobUMxSFZZQUUw?oc=5",
+    "date": "Wed, 07 Oct 2026 09:04:00 GMT",
+    "summary": "",
+    "source": "경향신문"
+   },
+   {
+    "title": "[2026 국감] 탄소자료 요구 커지는데...중기부, 지원기업 대응 현황도 파악 못해",
+    "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5KZHdyVUxXLXpVVnMzSXlidmhVV2xyeTVIY0FOMjUzMnBQWjVlcC0xbUJydDdXcDJSTWpwMkV3OEN2OGJaRk5GR0FwTlJQVnlzeWg1MnlIMmY3TFR6?oc=5",
+    "date": "Wed, 07 Oct 2026 08:57:00 GMT",
+    "summary": "",
+    "source": "뉴스핌"
+   },
+   {
+    "title": "이소영 \"티메프 피해 가슴 아파…상환유예 검토\"",
+    "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE56bnRUb2FtcjVPWHpsTjJjQmY4djNWM08yX1p6emViRHpvX2dNc3RCbzg3cG4xZXhyTVlrN1k4U0dRRkxnMTE4ckh3dlhWOGUtc2l4eV96OWZOUzJYcktTbdIBeEFVX3lxTE15NHd5LVRJRGNGNnZmb2dTU0dmOXNLS01IdnByZ3Q0R29nVzlhd3VTaUswek13ODRHeU0tVk9OY1prbVZGWlhFWGFvcUVDMWVVaVBvaTQ4dEM0Z1NUbjdOVVFnNnJQTW5lSWZWOERZZkEyWTF0aEtVWg?oc=5",
+    "date": "Wed, 07 Oct 2026 08:50:40 GMT",
+    "summary": "",
+    "source": "뉴시스"
+   },
+   {
+    "title": "이소영 \"노란우산 건보료 이중 부과…전통시장관 품목 제한 검토\"",
+    "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5WMEJYM2pNYjM3Ql9JcEFULU8zSnp4RDVhamxTdWJXd3V5TUpBWU5jM29NTFRDT2pRZnR3NUczQV8tckpJM1lJenRObl9UUVlVXzQxZy14TlktYURVWFA3MTNDTkRnaTQzMlE?oc=5",
+    "date": "Wed, 07 Oct 2026 08:48:52 GMT",
+    "summary": "",
+    "source": "SBS 뉴스"
+   },
+   {
+    "title": "‘모두의창업’ 정보 유출 사고 후 기존 플랫폼 사용…이소영 장관 “내년 재구축”",
+    "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE53SEpJTlpnQ0tPR2pXVWl2al95OWhjZnZjVXJRZHVZUEtLNjBtS3p3NmMzUGhQdnJWcWhUQTRSWm15VVluNnJZZFRCNWtGSjhudnpkWmk0THdQRmpUem1Udw?oc=5",
+    "date": "Wed, 07 Oct 2026 08:39:49 GMT",
+    "summary": "",
+    "source": "뉴스토마토"
    }
   ],
   "money": [
@@ -965,11 +965,25 @@
     "source": "경인방송 뉴스"
    },
    {
+    "title": "강화군, 소상공인 경영안정지원금 30만원 지급",
+    "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1tUXZVTGdhYzlLbEZpQWpkUTgydkNUcWo0OG9kNERMQ3NGRklBQnNRQjBYY20zd2h5MWFEQjI1amU4R2xMbTFrOS15QjhGX2VVYi1ZNFJ3R05nODB1dkctd2syREdwaU1HazROaTNHNlk?oc=5",
+    "date": "Tue, 01 Sep 2026 07:00:00 GMT",
+    "summary": "",
+    "source": "신아일보"
+   },
+   {
     "title": "“내 조건에 맞는 지원금 알아서 찾아준다”…소상공인 AI 도우미 9월 도입",
     "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBYT21fd0lQa0FtdFZFa1pXSXp5bzFVanBMNHBGczNMNTJrNG1ldWFwV3NpX29rdkZjNjh3RWlUZks4MG5oRjJzLWJ2YURhMzlmS3plc25fR2JCM1NSOFJ0Q3kyZEZoRUpfQXF5NnA0bElBbzg?oc=5",
     "date": "Tue, 01 Sep 2026 07:00:00 GMT",
     "summary": "",
     "source": "경제시그널"
+   },
+   {
+    "title": "강화군, 소상공인에 경영안정지원금 30만 원 지급",
+    "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1NR09aV3VKQ3lseFJRSmMySTk3MVhUU3BzUGpjcWotVVUxS0tpOW4yTHdtLWVpRWJRbWx0RTlEanZiMHRBbWxHV29wYmNBal9FcjY2aFQ0MDdLSVpLa0M0NDJR0gFmQVVfeXFMTXBRcXU1aG41NWd1ekVDMHhrMFdJSkhZcmlFWkJneDZORHRpcG03ajNpdTI3UHJOY1RSM2FmeHpRZjlOc1hhSjZSVXNnRC1GeFhFSmRoUTlQU2tCSTJrbG5CaFNIN3Bn?oc=5",
+    "date": "Tue, 01 Sep 2026 07:00:00 GMT",
+    "summary": "",
+    "source": "강화신문"
    },
    {
     "title": "강화군, 소상공인 경영안정지원금 30만원 지급",
@@ -1047,20 +1061,6 @@
     "date": "Mon, 18 May 2026 07:00:00 GMT",
     "summary": "",
     "source": "뉴스저널리즘"
-   },
-   {
-    "title": "소상공인 AI 지원금 2026년 정부지원사업 4천만원",
-    "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9uaVdtU0hGSVlacmg3QUluMXd6VVVkV1dScWJ5QklwMWNxdG9BaXJfNG0yYmN0UG5vQmd6bFBYaVNBT3lZdHo0LUlBMDhUd0ZXUWRz?oc=5",
-    "date": "Mon, 04 May 2026 03:57:08 GMT",
-    "summary": "",
-    "source": "브런치"
-   },
-   {
-    "title": "2026년 전쟁 추경, 소상공인 최대 1000만원 지원…10월 신청 안 하면 못 받는다",
-    "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFB3a01EbGs1SzFzWnZDSVpOVG5LOTNzNEE1R3RKX0VBSm9rbkhRYmk5WFJuVDRmY1V2bnNhY0ZuTm5PcmVQVGh0NXA3bnBqUkpSY2c5WFZJcjZOSVZUOFZmR2FkbFh3Wk3SAWtBVV95cUxQd19MdXNvRUJLUEF0alZkakc2bG15TWFNeU5ETE9VMG40djExdUl0N2Njbmo1ZE5HR0w0R1Fmcy0xY1lKbmdEeVpPUGlmT29lXzI1SnpOVVBtMzdQX2dNamE4eE9tQkowQm1mMA?oc=5",
-    "date": "Thu, 23 Apr 2026 07:00:00 GMT",
-    "summary": "",
-    "source": "창원특례신문"
    }
   ],
   "guide": [
