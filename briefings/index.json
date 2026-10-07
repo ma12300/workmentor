@@ -2,6 +2,15 @@
  {
   "date": "2026-10-08",
   "kind": "market",
+  "edition": "아침판",
+  "title": "10월 8일 (목) 투자 브리핑 · 아침판",
+  "file": "briefings/2026-10-08-market-아침판.pdf",
+  "top": "[가상화폐 24시] 비트코인 8만6000달러의 함정…이번 반등은 진짜 상승장인가 - 뉴스임팩트",
+  "count": 8
+ },
+ {
+  "date": "2026-10-08",
+  "kind": "market",
   "edition": "자정판",
   "title": "10월 8일 (목) 투자 브리핑 · 자정판",
   "file": "briefings/2026-10-08-market-자정판.pdf",
