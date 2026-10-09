@@ -2,6 +2,15 @@
  {
   "date": "2026-10-10",
   "kind": "market",
+  "edition": "아침판",
+  "title": "10월 10일 (토) 투자 브리핑 · 아침판",
+  "file": "briefings/2026-10-10-market-아침판.pdf",
+  "top": "뉴욕증시, 유가 하락·기술주 반등에 상승 출발…나스닥 0.34%↑ - 뉴시스",
+  "count": 5
+ },
+ {
+  "date": "2026-10-10",
+  "kind": "market",
   "edition": "자정판",
   "title": "10월 10일 (토) 투자 브리핑 · 자정판",
   "file": "briefings/2026-10-10-market-자정판.pdf",
