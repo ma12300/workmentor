@@ -2,6 +2,15 @@
  {
   "date": "2026-10-10",
   "kind": "market",
+  "edition": "자정판",
+  "title": "10월 10일 (토) 투자 브리핑 · 자정판",
+  "file": "briefings/2026-10-10-market-자정판.pdf",
+  "top": "비트코인 가격 전망: 비트코인 82,000달러선 유지, ETF 자금 유입으로 87,000달러 돌파할 수 있을까? - TradingKey",
+  "count": 4
+ },
+ {
+  "date": "2026-10-10",
+  "kind": "market",
   "edition": "아침판",
   "title": "10월 10일 (토) 투자 브리핑 · 아침판",
   "file": "briefings/2026-10-10-market-아침판.pdf",
