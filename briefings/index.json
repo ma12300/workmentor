@@ -2,6 +2,15 @@
  {
   "date": "2026-10-11",
   "kind": "market",
+  "edition": "아침판",
+  "title": "10월 11일 (일) 투자 브리핑 · 아침판",
+  "file": "briefings/2026-10-11-market-아침판.pdf",
+  "top": "머스크의 테라팹, 화성 로켓보다 무서운 30년 양산의 벽 - 글로벌이코노믹",
+  "count": 4
+ },
+ {
+  "date": "2026-10-11",
+  "kind": "market",
   "edition": "자정판",
   "title": "10월 11일 (일) 투자 브리핑 · 자정판",
   "file": "briefings/2026-10-11-market-자정판.pdf",
