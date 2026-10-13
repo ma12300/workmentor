@@ -2,6 +2,15 @@
  {
   "date": "2026-10-14",
   "kind": "market",
+  "edition": "아침판",
+  "title": "10월 14일 (수) 투자 브리핑 · 아침판",
+  "file": "briefings/2026-10-14-market-아침판.pdf",
+  "top": "피크아웃 우려 피한 AI서버·광통신·보안주 뜬다 - 한국경제",
+  "count": 10
+ },
+ {
+  "date": "2026-10-14",
+  "kind": "market",
   "edition": "자정판",
   "title": "10월 14일 (수) 투자 브리핑 · 자정판",
   "file": "briefings/2026-10-14-market-자정판.pdf",
