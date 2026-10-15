@@ -2,6 +2,15 @@
  {
   "date": "2026-10-15",
   "kind": "market",
+  "edition": "아침판",
+  "title": "10월 15일 (목) 투자 브리핑 · 아침판",
+  "file": "briefings/2026-10-15-market-아침판.pdf",
+  "top": "뉴욕증시, 유가 상승·기술주 약세에 하락…나스닥 1.88%↓ - 동행미디어 시대",
+  "count": 17
+ },
+ {
+  "date": "2026-10-15",
+  "kind": "market",
   "edition": "자정판",
   "title": "10월 15일 (목) 투자 브리핑 · 자정판",
   "file": "briefings/2026-10-15-market-자정판.pdf",
