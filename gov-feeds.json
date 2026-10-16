@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-16T21:35:50.448Z",
+ "updatedAt": "2026-10-16T23:55:25.527Z",
  "groups": {
   "tax": [
    {
@@ -11,7 +11,7 @@
    },
    {
     "title": "한은·국세청 대구 국감…“지역 경제 지원·부실 과세 개선”",
-    "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBHWkxKLVdoVHBxcGw5Um9UX1BpZVkzUDFHdlhUa0ZjWHREeXdFMzB3NVh6eFpHbTh3MXhxUDgydElvYUdEaUhEOTBEQzVKQ1VPaGJLdnF0Q1dVSEVvLXdhVU1WdzNnZw?oc=5",
+    "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBhaGg2VnRLS1lrZkJ1SG9DekFITmx1VDljazl3V1UzTGwzZGRuTUJOWFllUXR2TENtRDV6XzBHQVJhcmd3TGF0dlZ3cGpHYy1KLVpRclNqWHpLSDA?oc=5",
     "date": "Fri, 16 Oct 2026 12:38:00 GMT",
     "summary": "",
     "source": "KBS 뉴스"
@@ -180,6 +180,20 @@
   ],
   "labor": [
    {
+    "title": "김정호 김해乙 의원 \"고용노동청 김해지청 신설 시급\"",
+    "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1ZQ2c4YUZyT3ZWQ0JpNmNiNm53TDFWM1diMVNQNWlwZXVycVlrNnpaWGprdjlxbWJCVDRKbVdFbXVWcnN6M0Z0WmVOdV9idkhCNUw2U18yMG4yaWZIZTVtYmdHR2ZheEdDa0Zn?oc=5",
+    "date": "Fri, 16 Oct 2026 23:29:49 GMT",
+    "summary": "",
+    "source": "프레시안"
+   },
+   {
+    "title": "노동부 전주, 미래모빌리티 산업, ‘채용’에서 ‘정착·고용유지’모색",
+    "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBHdEI3a2lranlaWGhNSUVzMjVuV1F5LTdfcEVoZmRKOVlkNDNuRExaNXhIUjdqTjRrSkZpclBxN1pIQ3hLcHFSenFKZVlIYTEwVXhKZHlIR3hDMHc3SEp3Y0ZRRDBkVHpBTDVjbTFZV09ZSHU3?oc=5",
+    "date": "Fri, 16 Oct 2026 23:12:21 GMT",
+    "summary": "",
+    "source": "글로벌뉴스통신GNA"
+   },
+   {
     "title": "대구고용노동청 임금체불 청산율 29.9%···전국 7개 지방청 중 최하위",
     "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE84ZTJZbVF4N1Vfc2UxN09rMlhhbm5ETUpQMmRaWDlwbDZxVllacUM0MlJ3UHpHTDgyR2lQOUxpRHc4VzRhN2VHOTNNZng3Z1k?oc=5",
     "date": "Fri, 16 Oct 2026 14:19:58 GMT",
@@ -199,13 +213,6 @@
     "date": "Fri, 16 Oct 2026 14:01:49 GMT",
     "summary": "",
     "source": "안전정보"
-   },
-   {
-    "title": "고용노동부 장관, 부산 건설현장 붕괴사고 예방 불시점검",
-    "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1YRjFhOXUwekVTeXZLLWljOG02aTZITGVlYVdEckYtSXZPVjZzb01qOTlQTjFSNUFiQ1FWSlJPS1BhM1JnRmV2YmdiZFdyd0Q5dF9QSTVvREVDai15aEh5eg?oc=5",
-    "date": "Fri, 16 Oct 2026 13:59:43 GMT",
-    "summary": "",
-    "source": "충남도민일보"
    },
    {
     "title": "[2026 노동 국감] 개정 노조법 현장 혼란 더하나? ‘아니다’",
@@ -255,6 +262,13 @@
     "date": "Fri, 16 Oct 2026 11:09:52 GMT",
     "summary": "",
     "source": "행정신문"
+   },
+   {
+    "title": "고용노동부 장관, 부산 건설현장 붕괴사고 예방 불시점검",
+    "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5JQU82bGZ2dWQybGVkVUFmOTFQSTE3LURaOTJOYjdPelhtVlJHeU5uekxYYzVWbFpsZnh4ejdqQzBObkI0bXJzV2FhM0VDZWwtZUhheXFWU0RCS0o2WEFLcGxCTVJPSFNfTUIxdTlPQy1DYjZnYXc?oc=5",
+    "date": "Fri, 16 Oct 2026 09:53:00 GMT",
+    "summary": "",
+    "source": "케이에스피뉴스"
    },
    {
     "title": "김영훈 노동부 장관, 건설현장 불시점검",
@@ -339,20 +353,6 @@
     "date": "Fri, 16 Oct 2026 06:18:08 GMT",
     "summary": "",
     "source": "머니투데이"
-   },
-   {
-    "title": "근로기준법 위반 신고 45%는 '5인 미만'…종사자 비중 3배",
-    "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5GM3gyNXNrREVUbi1LQmRtZ0M0dmMzYjZyM1h1emlnT0dSTmhENmRkQ2ZseDlWdThpX25IZWx6SFE2dkUtRlhSeXR6UTh1NHphV0JKYW5CSXE1RkcyMkVGWNIBeEFVX3lxTE1RVTQ1bWdDUlU5NTBidUUya3AwdzZDRGNQWktVZUREMGtPSEkzcVNmTm5DVkhlNmMwMmJxMm1feC1tQzBNZ2tndjRuY0RXNTk3TW5hV3NRZ3NSR0VBQmtCeFA4VmxlZU9GRFVYdTJEaW56eC1QMUkzMQ?oc=5",
-    "date": "Fri, 16 Oct 2026 06:13:37 GMT",
-    "summary": "",
-    "source": "뉴시스"
-   },
-   {
-    "title": "'노봉법 설계자' 중노위원장, 재심 92% 참여 … \"법 만들고 심판까지?\" 공정성 도마",
-    "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFA4M1JuM2dCTG91LXJVQXJvVEJpUENQekNyUklDaWVfQnFVajJvMGVFLWx1SjctOWhBb3NxWGM0MGNSMldzUU5hcXF5Q2doRTI4Y3RUeEtqSkl4Wmo4bFB1bDlYTU9RcEZvcWNza180SGw3aDdaaVR6Umw1d9IBgAFBVV95cUxPUG1VTzFQaFZhNEdOQzhVOXBxMW0xQlF4ZG5reHgzZ1BFQ082SDJ3X3UxeE95RVdDR3BSbm81R3N4X3dFeXk5RkYtZURMM0ViMmhZRktWMXo5Q2ZoZHlmMFBpU01TT01vOHd0U21yZl9VMUc5dmY5dUh5TjdsV1ZNSg?oc=5",
-    "date": "Fri, 16 Oct 2026 06:06:36 GMT",
-    "summary": "",
-    "source": "뉴데일리"
    }
   ],
   "law": [
@@ -427,6 +427,13 @@
     "source": "연합뉴스"
    },
    {
+    "title": "고삼물류, 신한자산신탁 계약조항 공정위 심사 요청…’우선수익권 변경 적정성’ 쟁점",
+    "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5xR0xqcU5KVmw4WHZQTGNkdzVCUm1HWk5NVGxId1g1WUlDWWhmUGN2Q3FGa09mSWNCQzRaMjVaYm53YldjbWRrZUZtdlRZN0E1UUliZnNIS1Z0VW54Qjk1MA?oc=5",
+    "date": "Fri, 16 Oct 2026 11:40:11 GMT",
+    "summary": "",
+    "source": "유교신문"
+   },
+   {
     "title": "경마공원에 법무부까지…과천 \"기관 떠나고 부담 늘고\"",
     "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1OM1UySFppU21BcmNvLTZUNENfeUp1YXIyVGR5RG0yMVYtZnVNR0hCWk14dlZhcmZzRDJmMkFDT19LdGJnODJndlhBX3ExdzRIX1I5R3NKRTRxLXpoaXhZR3RDU0MwWjNiNkJEVk1B?oc=5",
     "date": "Fri, 16 Oct 2026 11:09:30 GMT",
@@ -460,13 +467,6 @@
     "date": "Fri, 16 Oct 2026 07:34:28 GMT",
     "summary": "",
     "source": "SBS 뉴스"
-   },
-   {
-    "title": "법무부, 신규 검사 98명 선발…내년 10월 공소청 배치",
-    "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBRSnpqNWZIUHpwelRUVUpnVmhIektLSnZySmVEV0NsQi1uZE42OTRVbjlMM3VlMDZjQU83NmVqVXZjWEhQMXRDTDZRYkx5bmp6cTEtNWRGeGNDQdIBWEFVX3lxTE9lUjdIY3R0OW1uTHVXVEstQXBJbXFiNEx4UTF1SFRLY2Ixc19XODJCWkZLY0VHalhlNGtqUm8zYWtBTklnYk5kb0VpaHlEQ3Jra01qZ1hhdVA?oc=5",
-    "date": "Fri, 16 Oct 2026 07:32:58 GMT",
-    "summary": "",
-    "source": "아주경제"
    },
    {
     "title": "법무부, 신규 검사 98명 선발…내년 공소청 배치",
@@ -526,13 +526,34 @@
    },
    {
     "title": "미 법무부, 캘리포니아주 상대로 \"2만명 우편투표 집계 중단\" 소송 - 머니투데이",
-    "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1GMnNOQmR4UDJ5SDdYTXhEaDgzOEU3NWZRekhBTkdXTHVYNkhZaU02THcyUjhseDl4czFXSDdxcjktUkY3ZlRUZVJjVHoxM0dsTzJTN3ptVEQ2UmJnSENJcldZVVFtWVQtUG8xSXVYN2xaNUVZZmfSAXtBVV95cUxOeFlCaDNSMjZGdUw4cHZqSFdRYS1MOW9rWkxaQ1V6YlVsTjRUTzdYS3JDNnd0bUhScVFXWko4S2NuR0hZM1gyamQ5UUVSVW9ER3RkQmMtal9BSkRCcEpUcktQbjhOdWdlZC1zVzl2M3Y3TmJMRzV3M0NlZW8?oc=5",
+    "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1ydE8tX1BBdC1vaF8tMWxWWFZMZTVYczZ4cDJyamp4N1oxa2VMU1MxS3R1aHBZQTdjMWZnRWlVQUtkby1DQWJEMVRwVVJqRm5PMmxwLVVFWlBOMmVjOE45OXo4OEc3eGQx0gFuQVVfeXFMUGRjTzRGVW1tV2VMeFdxR2dGZFMzN3QzX3Nnb21qal91SjJBa0c2MWRQRkItY2FjRzk4OG9FS0paM25JZkNVdjVyTDRLRHdHTXZxeml5bWdQSm9TRnVCMlgtaEVkdjlER253N1M2aHc?oc=5",
     "date": "Fri, 16 Oct 2026 02:22:28 GMT",
     "summary": "",
     "source": "머니투데이"
    }
   ],
   "fund": [
+   {
+    "title": "[다음주 한국은행 및 금융위·금감원 일정]",
+    "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1TelBOYS1lODN0NUtkUEE1djF6ZU1TMUlUaW5yU0FxYjFTME5jNmYxaHFfOUlPYm1wRmo3dHpFWUo5VGhZVnhKVmJUS1ZjU2Roam9JVUltVzVqekwxVlRlZ3ZtNTdpb0RSUnYzOG5zVTXSAXRBVV95cUxOY1pibXBDT2djd2tNYnBsYnZFVk1PVzFLSVV1LTc4UW00MExBMEtLSHZDbUdtUFRyQkpRNm5tTzRzLUxYbXJMalN4b3gtNGN3Q2s4SnU3VkVVM0QwWlFGUlNDRlNIVk5iUzI2UExIUk5RQTZRVw?oc=5",
+    "date": "Fri, 16 Oct 2026 23:00:18 GMT",
+    "summary": "",
+    "source": "연합인포맥스"
+   },
+   {
+    "title": "금융위 세종 이전 추진에 금감원·국책은행도 동요 : 금융",
+    "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFBRaHhPQXowMUZPVmcxM0FkbmxTMmt1TmE4Z0U1cWRKVFdHd2dhZkgxUzhFRWMycUdqdENXZ3NucHMzWXVuMXk5V1ZXaw?oc=5",
+    "date": "Fri, 16 Oct 2026 22:12:00 GMT",
+    "summary": "",
+    "source": "재경일보"
+   },
+   {
+    "title": "[단독] 금융위, 징검다리론 외면한 4대 은행 살핀다… 국감 후 개선 논의",
+    "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1LLU5aOERLenFVZTlHZmRxSWVPNHR0MmRkaDY3bFlEeGVhWHFLMU5oS2N6dTFoNlpta3k4Mml0eHV0MHY3Y2lyUFhuMkxUcmZZYngzZzkxMklGS0ZYY0VVbWdYVVRRU2tCRFBOMA?oc=5",
+    "date": "Fri, 16 Oct 2026 22:00:00 GMT",
+    "summary": "",
+    "source": "이코노미톡뉴스"
+   },
    {
     "title": "다음 주 금융당국 일정",
     "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQNGVJajdCMGprbW5RVjFjMW56S1VrN0VUaG01VVFmQnRxU0t6VVhOaDIwV0FLVUJndFNFaE1XaktIQVdQdVJVRnEwX2xRam9BcDJXVHNMWFJjaXlJRVhfa2lWVEFXLVpYZkd5NXF5dlo4akFtTndtc3JlU1BkTUlqUA?oc=5",
@@ -551,13 +572,6 @@
     "title": "[프로필]신진창 금융위 부위원장…'포용금융 해결사' 평판",
     "url": "https://news.google.com/rss/articles/CBMi6AJBVV95cUxNSEpkSXloelJQLUNaRmZ1UXlkYURHUEFoZXU0MHZmYmxGVWdJdFV6SjRVSFVjUzZhVlZfRUZQLUFUQl9wbGd4YUJMQ0xRU2ZDUms4Sk9LOWJtam9oS1htSU1RY04yZGtIVzBGUjU4UlpxdlRVNk9RU1lmVTJDNTJUSzJfUXhuZ2c5RWdNS01SR3pWQnFVWl9hanVpRFdIdEt2enhET003dlZqd2xNTkgtbXJiV1kyQlNLRS1uNnBXZkVQODF3SHE5cmVxcnJRSUFiVWt2b2hTZ2FCQ2FXaUVMc2ZGV1Fxa2Z4YXIyRTE0bmYzclVlQmNZZ2dBNXNaN3Frem9zTVA3SUo2THZPbkJnRkVQeFluSUQ2a215TVVsNFBQZG9YZHZpZ3hiVXlYMzF0VzZHMUcxbXpMTVJyUTYxYWk5WkpSdlI5RzBzdXhUZ09SRkRFWWZtS0dfV25ROVZLTmZtN3ExZWw?oc=5",
     "date": "Fri, 16 Oct 2026 18:03:58 GMT",
-    "summary": "",
-    "source": "중앙신문"
-   },
-   {
-    "title": "李대통령, 산업차관에 박동일·금융위 부위원장에 신진창 임명",
-    "url": "https://news.google.com/rss/articles/CBMi6AJBVV95cUxNQTJNbGlfb2JJWFJoYzB0YlM3Uk42UUlIRVZwMVZmSGJNTkZUaW5iWlZkcF9JMVNuQUwwLXZQaDdiUzB0OTVwZ3hHaEppRmJGSnoycGVCUTdXVUVPMFFYb2RaNW0yTGlxMzhsRWhrUDhfWU1lQWVKYjZFRHRSODdCYWdBRkc0Z2ZZdEtzbF80U0RrS3pvNFNEQkgwLTl2aEdMWXBUWTN2Tlk0Qnp0ekk5a1NCY3N4M0o4X3FfSDVITl9PWXoxMDVFcGNXM2NTVHpqbEN1VkdVWlFORnkyYzN1dklMQWczclNTdHpQU1NmUm1KYjd4R1N2Rnl1eWhVMnhhck9rNU5hdHh4cDhWZVNMcDRpUEtVbXRQZG40Vi15V3V0cUhKWERwUjJzYU5EZ2RxV05sQ3ZhbkNUQkd4ZC05T216bzRZWFI1U3NmQ1gxUkpDR2p2MXllMXl4U3VLTUJ3U1QtT3NsWWw?oc=5",
-    "date": "Fri, 16 Oct 2026 17:18:03 GMT",
     "summary": "",
     "source": "중앙신문"
    },
@@ -593,6 +607,13 @@
     "title": "금융위 해외거래소 무기한 선물 투자 주의 당부 : 금융",
     "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE82SE96MFZIUFJMN0pRWDdKS3Zfb3lOZXlsV2toc0FsT25rVm1PTUU0UW82Y05oOTU4cUFrc0premI5Ymh5QnAxc25SUQ?oc=5",
     "date": "Fri, 16 Oct 2026 11:56:38 GMT",
+    "summary": "",
+    "source": "재경일보"
+   },
+   {
+    "title": "금융위 삼성전자 200배 레버리지 무기한 선물 주의 당부 : 금융",
+    "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE9mbEE2YXJWQnZUTHg3R1VtRk9tSk1FZGtZSndMZnJCN05ndkRqWG1KQ1FpY2FfaG1iaUxnc3UtTUhxSzIyWl81ckxaSQ?oc=5",
+    "date": "Fri, 16 Oct 2026 11:13:28 GMT",
     "summary": "",
     "source": "재경일보"
    },
@@ -686,27 +707,6 @@
     "date": "Fri, 16 Oct 2026 08:12:46 GMT",
     "summary": "",
     "source": "서울경제"
-   },
-   {
-    "title": "‘금융권 침해사고 긴급회의 주재’ 신진창, 금융위 부위원장에",
-    "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE51VTF6dHhwWF9zY3RlWFF1TEI2LVp1VFRPOElpVkJjZ1Rrb3lFNDZIMWtwVlRlZjJMcGhtcDdsbEJuckpOYmJNMVRtWlNoeDZUbGNFR1hLMWpaWGNKZHU5M0U3d3ZrVXk1ekxiRUNyT3d6ajBIZHfSAWZBVV95cUxPdURjd1NQcnFGeUJSNHI4YXlkTi1zNmhqVTEyVnpYZVUzQ3VicTBLQzBiMzNXeDNBeU1QOU9zWHo2V2hRMmxnRjBqaFp0TVpzeV82YzN6eEx4QVNQZUVsRGo1ejhFQmc?oc=5",
-    "date": "Fri, 16 Oct 2026 08:07:48 GMT",
-    "summary": "",
-    "source": "동아일보"
-   },
-   {
-    "title": "금융위 신임 부위원장에 신진창···\"금융시장 안정 더 신경 써야\"",
-    "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5BM2lOZzJ4WWZsU2pEX04xWWt4LURjQkN6ck9tZnpERS1DTm1QYW5WaWpUanM3bEo1dGNDYU1uaElkSVFlX3lUNWx5eTlPX2tFbXVXdVVmdEFtU3hYSTgtV0FrTUFUejJ1Qmc?oc=5",
-    "date": "Fri, 16 Oct 2026 08:07:13 GMT",
-    "summary": "",
-    "source": "서울파이낸스"
-   },
-   {
-    "title": "[프로필] '정책통' 신진창 신임 금융위 부위원장",
-    "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBFSTdUTHFGQ014V2dRSjNEaUFaeTlWa0VYVHQ5dTlfVEZURXZRN3MwS1I1aXJqYjM4QjM4cVVkejl1b1gzM0VNZGhqdWtQYXk5M0xjSUxWVER6OFREbXBJd0xCNHFjVWtlQ2c?oc=5",
-    "date": "Fri, 16 Oct 2026 08:05:48 GMT",
-    "summary": "",
-    "source": "서울파이낸스"
    }
   ],
   "biz": [
@@ -753,11 +753,11 @@
     "source": "뉴시스"
    },
    {
-    "title": "1만 개의 아이디어, 창업의 첫발을 내딛다 2차 '모두의 창업' 1라운드 진출자 선발",
-    "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE56bzhkQkl1dnpXbVZCbThHLXJlYXVKMnVMQVdfZFhvVjNoNWZkOWRDLXFydHBoT181SFd2Q2lKOVZfOXNSdlBkS2Y5SEFMUGhPZC1rUzEtZW9QaEdLRU1TX3p3?oc=5",
-    "date": "Fri, 16 Oct 2026 09:13:26 GMT",
+    "title": "중소벤처기업부, 1만 개의 아이디어, 창업의 첫발을 내딛다 2차 '모두의 창업' 1라운드 진출자 선발",
+    "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFB3YUd0U2Q4QWlERUdQWWxLeS1QWnBIMUZfdnhUMThxaWRuSmZUekxSbzVrcV9vcGY4OFp5TW91X3RDZnNpRmtLUkZITEZZUk1FLV9TNU5fMEVlZ2c?oc=5",
+    "date": "Fri, 16 Oct 2026 09:30:22 GMT",
     "summary": "",
-    "source": "서울Pn"
+    "source": "아시아통신"
    },
    {
     "title": "6만2944명에서 200명으로…'모두의 창업' 3라운드 진출자 다음 주 확정",
@@ -809,13 +809,6 @@
     "source": "한국일보"
    },
    {
-    "title": "충북 바이오 특구 中企, 규제 장벽 호소...이소영 장관 \"제약바이오 전담 조직 만들 것\"",
-    "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBobzFONFFNNnBSR3NZVWlFRmlnOXhObk9jZ0MyU2NLSTB4R1FNV2lFNGdkVGJQM2lVdE0zekd4RHBuNXJ3SWVTcnE5VV9hSndJMHllbw?oc=5",
-    "date": "Fri, 16 Oct 2026 06:29:00 GMT",
-    "summary": "",
-    "source": "이투데이"
-   },
-   {
     "title": "지역 엔젤투자 스타트업의 후속투자유치 지원… 2026년 지역허브 후속투자유치 통합 투자설명회 개최",
     "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1hZWVKZ2tRenNrcGY4T052NTRoZXBPeWFNWjY2NWhEUWw1VldwZXNEcktxQXYzNzZwUG9wWmJzclBKUEJqWXVISlBESy1iMHZQekE?oc=5",
     "date": "Fri, 16 Oct 2026 05:51:00 GMT",
@@ -858,13 +851,6 @@
     "source": "뉴스1"
    },
    {
-    "title": "이소영 장관, 충북 재생바이오 특구 찾아 “규제 해소해 中企 기술 혁신, 글로벌 진출 지원” - 조선비즈",
-    "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOZ3pybWhseVJkVHhQOFBGbDVMRkRvZ0MzNlNPa2tKZWdfWGxhYmZscDQ2SnlKdGR5OU04VjhuNTZRcmwxaUk4dkZnaFBxTE5vR2JMM19YQmdhbm50b0N1LVd1N2dRQzIwYTZVR1AyQWRMZ2tSZjZHdFo2SHZmVWVLVWs2YnA4RTdNOHVjVGRJTDDSAaQBQVVfeXFMTklza0dyRkNKNnU0emdRXzBpVFMyeXRtYktWVml3b1NFVlV5ZkNYS2lvWlJQdW5nalhKNi1sZDhEdV9NT3MxSmhFeXdkN08ybXQ4SEhkTWdpVGp2M1dKdFZZdFBkTUtCOXNJZ2VEcEVtSHVfakhkaWV6MXJCZW9YWlprSDJzVjJKd2pCdUNxRmJOdGt0cm95SmVaNlJwRW1BN3dTaFU?oc=5",
-    "date": "Fri, 16 Oct 2026 04:02:32 GMT",
-    "summary": "",
-    "source": "Chosunbiz"
-   },
-   {
     "title": "이소영 중기부 장관 “기업 성장 막는 규제 걷어내는 게 더 좋은 정책”",
     "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5lUnhrakk3eG9qOGhOOTNQNk90RnJIMUJWNjlramNWZTN3aE4wUE02aWZheHB6cS1ZMV9rbzFfS0lEUXNXVlJGekNfaUpfb1VWRWNQazI5TVVDQQ?oc=5",
     "date": "Fri, 16 Oct 2026 04:01:00 GMT",
@@ -880,10 +866,24 @@
    },
    {
     "title": "이소영 \"기업 성장 막는 규제 걷어내는 게 더 좋은 정책\"",
-    "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9jckRMUElWSUdORU45QUJyN3BCVkxKdE1reHZOM1JmX3FaZWNhcGZDRFJ3cXI0RHpZRTBHSnNPRXRTTm9FTTFRSDFIMHlGUVZ6S0s5c3k1NWZVRTZ1QzV1dDNOZ2Z0dzNtWFJVbkVDT0dIVXJv?oc=5",
+    "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE01VXdNcjl2bDFlRFAwdXlybmZ5NmF6aVl6UFFwdUV5alBER0xpVnVEWS1QYmJsLXdQYlZNR0RPdm91NDR2ekU0R21ZVzBPSERPd256TTlGTV9QV1nSAWBBVV95cUxNb0NxTzdXQ3JHUmpUaWJUUVdvZDB5dWJSd04xSFVySlNuNEhLakk1VldId2RNWm1HdHJuemtEcmRKNDYzSXFOVmEzOU94Sm5TVC02c1RCaTdza3ZVamRRZEk?oc=5",
     "date": "Fri, 16 Oct 2026 04:00:01 GMT",
     "summary": "",
-    "source": "연합뉴스 한민족센터"
+    "source": "연합뉴스"
+   },
+   {
+    "title": "바이오벤처 “규제·자금 장벽 낮춰달라”…이소영 “전담조직 신설”",
+    "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1tdVJUc3BOYTRiYlBpd19zdzQ1Uy1hWnhuQXY1eHNRZWxRSm0tX25rOHprRC1oZ1lORlNXYUVCM2FUbW5IVGNMQzJidGV5QQ?oc=5",
+    "date": "Fri, 16 Oct 2026 04:00:00 GMT",
+    "summary": "",
+    "source": "전자신문"
+   },
+   {
+    "title": "이소영 중기부 장관 \"성장 가로막는 규제 걷어내는 것이 좋은 정책\" - 머니투데이",
+    "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1qY2o0a2t6VGpzc3BQUXhhak5mZTlPTmJmVUowZ1BmSDkwZXh1QzJGNWZ4SWxoWV80dy1ocnc0LUh0X0lvVVFyd25fLTJzUlBfNEI1dUdqQkN6eUc0MDEyb2ZBQXZvMkYwMXZabzNjWC00ZjlXRGlUY9IBfkFVX3lxTE5GczdQUmlxWGRkajVXMjdFYXk3TWkxZWhKSnhhc3lUMnVYWS1RVmZHOG55WEpqQ1hfUmdYMGdOdUlNT0Q5a0tkS3BveUhHX09lXy1pNDVSampCYVlRUTluOU1IR284WkNraGlLVjB1Mm1rM0dhYzZMck5FbndmUQ?oc=5",
+    "date": "Fri, 16 Oct 2026 04:00:00 GMT",
+    "summary": "",
+    "source": "머니투데이"
    }
   ],
   "money": [
@@ -916,18 +916,18 @@
     "source": "경제시그널"
    },
    {
-    "title": "정읍시, 상반기 놓친 소상공인에 50만원...안정지원금 추가 신청",
-    "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE00Q1JGd3JoQXRJdHhhcUlPS1B3dURObTFOdHlWb1V0Nk1DUnBvYnEtdm44QmVzdkE0dzNOR2llLWxkR3hHeUNZeDBfYWRPdnhPUnFuREN2WXdUdnljSVdaSThacy0wQmt4aEMyNUllU0pCQQ?oc=5",
-    "date": "Tue, 29 Sep 2026 08:19:12 GMT",
-    "summary": "",
-    "source": "디스커버리뉴스(DISCOVERYNEWS)"
-   },
-   {
     "title": "정읍시, 소상공인 대상 안정지원금 추가 접수…사업자당 50만원",
     "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5IZ2IxcnhqejcwTWhpMUFhLXNYX1FoWmlWU3ZSd1lHUktET0xyLVB5YmlGOXFnVS1CaHluNnVzYlU1MHhWTHBHb0lNYlptWG9UUThwUw?oc=5",
     "date": "Tue, 29 Sep 2026 07:00:00 GMT",
     "summary": "",
     "source": "뉴스1"
+   },
+   {
+    "title": "정읍시, 상반기 놓친 소상공인에 50만원...안정지원금 추가 신청",
+    "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE00Q1JGd3JoQXRJdHhhcUlPS1B3dURObTFOdHlWb1V0Nk1DUnBvYnEtdm44QmVzdkE0dzNOR2llLWxkR3hHeUNZeDBfYWRPdnhPUnFuREN2WXdUdnljSVdaSThacy0wQmt4aEMyNUllU0pCQQ?oc=5",
+    "date": "Tue, 29 Sep 2026 07:00:00 GMT",
+    "summary": "",
+    "source": "디스커버리뉴스(DISCOVERYNEWS)"
    },
    {
     "title": "소상공인지식배움터란 무엇인가…소상공인24·정책자금과 어떻게 다른가",
@@ -1114,13 +1114,6 @@
     "source": "스페셜타임스"
    },
    {
-    "title": "“매출 3분의 1 아래로 줄었다면 확인하세요”…10월 부가세 고지 취소받는 방법",
-    "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9udXBDVTRIazdhSkRNUlhkaTRWaElVRXVxeWR2dzVsT1prUGhvdkRfajREVVoxZmN5a19iMFhVdThVcm5qR0J6ajR5VmxWTlN5S0w4NVVkSjUwRGZDOTdKOW9ScVNKVmYxTC1HV2E4SEpWT3M?oc=5",
-    "date": "Thu, 08 Oct 2026 07:00:00 GMT",
-    "summary": "",
-    "source": "경제시그널"
-   },
-   {
     "title": "부산항만공사, 네덜란드 통관·부가세 안내서 발간…국내 기업 유럽 진출 지원",
     "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5qc1N5Q3YtSExUNFlYT1g5TEV2WVVRZVQ2U19BTnlWc2ZXUU95dFk3VUg3OW9SMk1SYUNodlI3VEViSjBzempfSHRqM25Ea0tGSnQ0aGxfSzd5QQ?oc=5",
     "date": "Thu, 08 Oct 2026 05:37:00 GMT",
@@ -1199,10 +1192,10 @@
    },
    {
     "title": "3분기 부가세 26일까지 신고·납부…호우·홈플 피해사업자 연장",
-    "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1mQXFqbVdxS1pEY1liN0Z0Tkh4Y3Q3OFR4TDlUa1RIb3dJV1hwYnRpbHk4Vk1Ld0JHcjZ5NUtPSjk5aTJkWTNzQlFpZHE2d1F1cWdDeDI4bldtTDDSAWBBVV95cUxQNDZCOWpTbXo4SDhnTV9qUFdPTk8ybmRwbzRRNVVfUTVEcm9kQWFHYzFhbjhsZ3NWNE5MV0ZPYjZOdDlNUEFocGp0c1k0OHA3TXNlRjJmTm1yenk4eDl5NzE?oc=5",
+    "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBvY2IwWHF3U2xydUdmUWpoZC1TWlZhRWp1NXlSVnV3anJ5RGU1UmdndllSNmtIaXVRNkFFQ2NuNUs3ckREWnd4cm1lRTZweTlqTURGS3NuOV9uSUdxTXZfanNESGZoTHVtb2c?oc=5",
     "date": "Mon, 05 Oct 2026 07:00:00 GMT",
     "summary": "",
-    "source": "연합뉴스"
+    "source": "SBS 뉴스"
    },
    {
     "title": "국세청, 23만개 법인 부가세 예정신고 꼼꼼히 살핀다",
@@ -1238,6 +1231,13 @@
     "date": "Mon, 05 Oct 2026 07:00:00 GMT",
     "summary": "",
     "source": "택스워치"
+   },
+   {
+    "title": "3분기 부가세 26일까지 신고·납부…호우·홈플러스 피해업체는 2개월 연장 - 조선비즈",
+    "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQTF9DNWI3LTF3NmFkMmloM0xsWWVJdm9wNC1sWlZ4V0d3RGtaQ1BPX2tDTWVLdDdjcmNlMVlzRzJGM0ZvbnNFeS1saTVJV1JmZTV5Z3F2SHhaZlJKb1RtVjkzU21BWTlvbnpxY1hOQURpUlItTzRKZF9nNGhzMndlMEZNaXZFZ9IBmgFBVV95cUxPam9Ed2dES3F3ZlpUVzB0bEVzY3cweVNIQXpZdVdDT3VJLS1ScDNoV0lhZUc1XzV3bW9LQWp5aVpUUHlvczhMdUZ4a2dOaUlCNEVLMlh6UGs5UERCenR0NlQ4OURVcjEyaG1tX1o4NE80N2NtUkhQQnR2bmJZQi1XOV9IYXVlbjB1dW5Sdnc1SGRWandXNWpTRGxR?oc=5",
+    "date": "Mon, 05 Oct 2026 07:00:00 GMT",
+    "summary": "",
+    "source": "Chosunbiz"
    }
   ]
  }
