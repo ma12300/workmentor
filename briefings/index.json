@@ -2,6 +2,15 @@
  {
   "date": "2026-10-17",
   "kind": "market",
+  "edition": "자정판",
+  "title": "10월 17일 (토) 투자 브리핑 · 자정판",
+  "file": "briefings/2026-10-17-market-자정판.pdf",
+  "top": "기술주 폭락과 AI 기업 부채, 나스닥 7월 이후 최대 하락의 이면 - 공감신문",
+  "count": 13
+ },
+ {
+  "date": "2026-10-17",
+  "kind": "market",
   "edition": "아침판",
   "title": "10월 17일 (토) 투자 브리핑 · 아침판",
   "file": "briefings/2026-10-17-market-아침판.pdf",
