@@ -2,6 +2,15 @@
  {
   "date": "2026-10-21",
   "kind": "market",
+  "edition": "자정판",
+  "title": "10월 21일 (수) 투자 브리핑 · 자정판",
+  "file": "briefings/2026-10-21-market-자정판.pdf",
+  "top": "나스닥 하락 속 다우 상승…극명하게 엇갈린 미장 왜? - 위키트리",
+  "count": 22
+ },
+ {
+  "date": "2026-10-21",
+  "kind": "market",
   "edition": "아침판",
   "title": "10월 21일 (수) 투자 브리핑 · 아침판",
   "file": "briefings/2026-10-21-market-아침판.pdf",
