@@ -2,6 +2,15 @@
  {
   "date": "2026-10-22",
   "kind": "market",
+  "edition": "자정판",
+  "title": "10월 22일 (목) 투자 브리핑 · 자정판",
+  "file": "briefings/2026-10-22-market-자정판.pdf",
+  "top": "스페이스X 첫 흑자에 기술주 반등…나스닥 1.05%↑ [투자360] - 헤럴드경제",
+  "count": 26
+ },
+ {
+  "date": "2026-10-22",
+  "kind": "market",
   "edition": "아침판",
   "title": "10월 22일 (목) 투자 브리핑 · 아침판",
   "file": "briefings/2026-10-22-market-아침판.pdf",
