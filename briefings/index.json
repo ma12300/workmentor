@@ -2,6 +2,15 @@
  {
   "date": "2026-10-22",
   "kind": "market",
+  "edition": "아침판",
+  "title": "10월 22일 (목) 투자 브리핑 · 아침판",
+  "file": "briefings/2026-10-22-market-아침판.pdf",
+  "top": "뉴욕증시, 기술주 강세에 3대 지수 상승…나스닥 1.05%↑ - 스페셜경제",
+  "count": 16
+ },
+ {
+  "date": "2026-10-22",
+  "kind": "market",
   "edition": "자정판",
   "title": "10월 22일 (목) 투자 브리핑 · 자정판",
   "file": "briefings/2026-10-22-market-자정판.pdf",
