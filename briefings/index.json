@@ -2,6 +2,15 @@
  {
   "date": "2026-10-24",
   "kind": "market",
+  "edition": "아침판",
+  "title": "10월 24일 (토) 투자 브리핑 · 아침판",
+  "file": "briefings/2026-10-24-market-아침판.pdf",
+  "top": "뉴욕증시, AI 자금 조달 부담에 기술주 급락…나스닥 6월 이후 최대 낙폭 - 디지털데일리",
+  "count": 10
+ },
+ {
+  "date": "2026-10-24",
+  "kind": "market",
   "edition": "자정판",
   "title": "10월 24일 (토) 투자 브리핑 · 자정판",
   "file": "briefings/2026-10-24-market-자정판.pdf",
