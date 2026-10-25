@@ -2,6 +2,15 @@
  {
   "date": "2026-10-25",
   "kind": "market",
+  "edition": "아침판",
+  "title": "10월 25일 (일) 투자 브리핑 · 아침판",
+  "file": "briefings/2026-10-25-market-아침판.pdf",
+  "top": "[요즘투자]'5천조 짜리 거대 공룡 기업 승부수’ 일론 머스크의 전략 4가지 - 저스트 이코노믹스",
+  "count": 8
+ },
+ {
+  "date": "2026-10-25",
+  "kind": "market",
   "edition": "자정판",
   "title": "10월 25일 (일) 투자 브리핑 · 자정판",
   "file": "briefings/2026-10-25-market-자정판.pdf",
