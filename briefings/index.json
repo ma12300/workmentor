@@ -2,6 +2,15 @@
  {
   "date": "2026-10-27",
   "kind": "market",
+  "edition": "아침판",
+  "title": "10월 27일 (화) 투자 브리핑 · 아침판",
+  "file": "briefings/2026-10-27-market-아침판.pdf",
+  "top": "세계 5위 연기금, 빅테크 주식 26% 축소…AI 투자 거품 우려 확산 - 블록미디어",
+  "count": 24
+ },
+ {
+  "date": "2026-10-27",
+  "kind": "market",
   "edition": "자정판",
   "title": "10월 27일 (화) 투자 브리핑 · 자정판",
   "file": "briefings/2026-10-27-market-자정판.pdf",
