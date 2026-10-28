@@ -2,6 +2,15 @@
  {
   "date": "2026-10-29",
   "kind": "market",
+  "edition": "아침판",
+  "title": "10월 29일 (목) 투자 브리핑 · 아침판",
+  "file": "briefings/2026-10-29-market-아침판.pdf",
+  "top": "테슬라·스페이스X 합병 심사, 머스크 측근 이사진에 공정성 논란 - 글로벌이코노믹",
+  "count": 15
+ },
+ {
+  "date": "2026-10-29",
+  "kind": "market",
   "edition": "자정판",
   "title": "10월 29일 (목) 투자 브리핑 · 자정판",
   "file": "briefings/2026-10-29-market-자정판.pdf",
