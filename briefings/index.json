@@ -2,6 +2,15 @@
  {
   "date": "2026-10-31",
   "kind": "market",
+  "edition": "자정판",
+  "title": "10월 31일 (토) 투자 브리핑 · 자정판",
+  "file": "briefings/2026-10-31-market-자정판.pdf",
+  "top": "AI 투자 회의론에 기술주 급락…나스닥 2.84%↓[뉴욕마감] - 뉴스1",
+  "count": 10
+ },
+ {
+  "date": "2026-10-31",
+  "kind": "market",
   "edition": "아침판",
   "title": "10월 31일 (토) 투자 브리핑 · 아침판",
   "file": "briefings/2026-10-31-market-아침판.pdf",
