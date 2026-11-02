@@ -2,6 +2,15 @@
  {
   "date": "2026-11-02",
   "kind": "market",
+  "edition": "아침판",
+  "title": "11월 2일 (월) 투자 브리핑 · 아침판",
+  "file": "briefings/2026-11-02-market-아침판.pdf",
+  "top": "S&P 500·다우·나스닥100 전망···이번 주 미국 증시 좌우할 핵심 변수는? - Benzinga",
+  "count": 18
+ },
+ {
+  "date": "2026-11-02",
+  "kind": "market",
   "edition": "자정판",
   "title": "11월 2일 (월) 투자 브리핑 · 자정판",
   "file": "briefings/2026-11-02-market-자정판.pdf",
