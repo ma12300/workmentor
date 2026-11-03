@@ -2,6 +2,15 @@
  {
   "date": "2026-11-04",
   "kind": "market",
+  "edition": "아침판",
+  "title": "11월 4일 (수) 투자 브리핑 · 아침판",
+  "file": "briefings/2026-11-04-market-아침판.pdf",
+  "top": "기술주 매도에 나스닥 1% 넘게 하락…나스닥100, 결국 조정장 진입 - 뉴스로드",
+  "count": 8
+ },
+ {
+  "date": "2026-11-04",
+  "kind": "market",
   "edition": "자정판",
   "title": "11월 4일 (수) 투자 브리핑 · 자정판",
   "file": "briefings/2026-11-04-market-자정판.pdf",
