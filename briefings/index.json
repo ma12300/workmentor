@@ -2,6 +2,15 @@
  {
   "date": "2026-11-07",
   "kind": "market",
+  "edition": "아침판",
+  "title": "11월 7일 (토) 투자 브리핑 · 아침판",
+  "file": "briefings/2026-11-07-market-아침판.pdf",
+  "top": "기술주 대규모 매도세, 나스닥 5.5% 급락 - IDNFinancials",
+  "count": 12
+ },
+ {
+  "date": "2026-11-07",
+  "kind": "market",
   "edition": "자정판",
   "title": "11월 7일 (토) 투자 브리핑 · 자정판",
   "file": "briefings/2026-11-07-market-자정판.pdf",
