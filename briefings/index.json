@@ -2,6 +2,15 @@
  {
   "date": "2026-11-10",
   "kind": "market",
+  "edition": "아침판",
+  "title": "11월 10일 (화) 투자 브리핑 · 아침판",
+  "file": "briefings/2026-11-10-market-아침판.pdf",
+  "top": "[뉴욕증시] 국제유가 급락에 기술주 반등…나스닥 2.74%↑ - 신아일보",
+  "count": 11
+ },
+ {
+  "date": "2026-11-10",
+  "kind": "market",
   "edition": "자정판",
   "title": "11월 10일 (화) 투자 브리핑 · 자정판",
   "file": "briefings/2026-11-10-market-자정판.pdf",
