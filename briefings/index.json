@@ -2,6 +2,15 @@
  {
   "date": "2026-11-11",
   "kind": "market",
+  "edition": "아침판",
+  "title": "11월 11일 (수) 투자 브리핑 · 아침판",
+  "file": "briefings/2026-11-11-market-아침판.pdf",
+  "top": "테슬라(TSLA) 사이버트럭 생산 중단...머스크 \"수익성 문제 아니다\" - 코인리더스",
+  "count": 8
+ },
+ {
+  "date": "2026-11-11",
+  "kind": "market",
   "edition": "자정판",
   "title": "11월 11일 (수) 투자 브리핑 · 자정판",
   "file": "briefings/2026-11-11-market-자정판.pdf",
