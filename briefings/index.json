@@ -2,6 +2,15 @@
  {
   "date": "2026-11-12",
   "kind": "market",
+  "edition": "아침판",
+  "title": "11월 12일 (목) 투자 브리핑 · 아침판",
+  "file": "briefings/2026-11-12-market-아침판.pdf",
+  "top": "[속보]뉴욕증시, 나스닥 1.50% 상승·S&P500 반등…다우는 하락, 기술주 강세 주목 - CBC뉴스",
+  "count": 5
+ },
+ {
+  "date": "2026-11-12",
+  "kind": "market",
   "edition": "자정판",
   "title": "11월 12일 (목) 투자 브리핑 · 자정판",
   "file": "briefings/2026-11-12-market-자정판.pdf",
