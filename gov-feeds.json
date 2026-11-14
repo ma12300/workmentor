@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-13T23:36:46.320Z",
+ "updatedAt": "2026-11-14T03:36:59.401Z",
  "groups": {
   "tax": [
    {
@@ -143,13 +143,6 @@
     "source": "이투데이"
    },
    {
-    "title": "국민연금공단, 국세청 소득자료 연계… 프리랜서 증빙서류 제출 간소화",
-    "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5tRFliTVJoczBQTXhuYkFfVzI3WW5wSTZPamoxdmgtNmpJSi1ncEdENjhzSEVuZmVLZlZ3Wks1ZGh5M2c4ZTRtYm9GdkxqbFVhbGw1OVFldmJpY2pGd19naVJRcFpDNTdm?oc=5",
-    "date": "Fri, 13 Nov 2026 01:13:26 GMT",
-    "summary": "",
-    "source": "투데이안"
-   },
-   {
     "title": "세무사 수석 'AI 안경' 의혹 확산…공단·국세청 진상 파악",
     "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9HSkFRdFh0ZXg3TW9yNlc0TUNjUWxoc3lCb09wYkV3UHVBRW9XdkZSTlJuSGR3SVVqM3NTSzNNRmw2RGY4S25zaU1wYUJSaEpIdWxkbm14eURZclFTX0tqMWhNU0xJT2t3ZVEw?oc=5",
     "date": "Fri, 13 Nov 2026 01:07:13 GMT",
@@ -176,9 +169,37 @@
     "date": "Thu, 12 Nov 2026 10:40:12 GMT",
     "summary": "",
     "source": "www.skedaily.com"
+   },
+   {
+    "title": "국세청장 후보, 강남 살며 강북 임대…해외파견‧세종발령 등으로 불가피",
+    "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5nb0lneTFENmZuQmNLOVAxdTBrdmxJblNwUlJibXFIbl9vUjlqeXpnUmRCMmxTMEpBWW9PV0lHYjk2WGk1cDZ4MEdVVW1YbVBpeGthZGRZdElUaXJ3VFQtSWlBYw?oc=5",
+    "date": "Thu, 12 Nov 2026 10:13:03 GMT",
+    "summary": "",
+    "source": "조세금융신문"
    }
   ],
   "labor": [
+   {
+    "title": "'가짜 3.3 계약'·'사업장 쪼개기' 잡는다…탈법 기획감독 착수",
+    "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1OSF9QQ1FTQTVzVFpaUk1LNzB6bDcxRzdadktWYzg5cHAwNHdIekxQZkR2RGZkSTlyTUxzZVNlU3d0LURSMnE1aEltSWI1a2RaUjZyRWlMVjZBVWFyMkE?oc=5",
+    "date": "Sat, 14 Nov 2026 01:55:04 GMT",
+    "summary": "",
+    "source": "한국방송뉴스"
+   },
+   {
+    "title": "\"노조 탈퇴 종용 의혹, 결국 압수수색으로\"... 동희오토 사내하청 부당노동행위 수사 본격화",
+    "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE92dzhlQzhiTzE3b2Uwb3ZwbkhQdXVFVUxrc2t6SDdzZkFUa0luWVR4VU1uSU0tVjdVakFVN01HV0xDeW5uS29ZRnVjZ0ZPTmNfLTlMempsU1lEb1V2T0pCblhkWWVnSTNF?oc=5",
+    "date": "Sat, 14 Nov 2026 01:05:09 GMT",
+    "summary": "",
+    "source": "한국NGO신문"
+   },
+   {
+    "title": "노동부 'K-노동복지회의소' 대국민 명칭 공모",
+    "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5ELWVhWnBHb0ktcXpoR0lWR1RFaV9wOVRjRkk1TUFKZlB5N0NIWXJ1WE5wZWlZQXRvM3hGaUhsQnJCREFMLWp4LUdBbmJuUllxTXRUN1FBZGx5UkJ5OWFHcC1JbU0xRDNKa2c?oc=5",
+    "date": "Fri, 13 Nov 2026 23:53:00 GMT",
+    "summary": "",
+    "source": "전파신문"
+   },
    {
     "title": "\"이딴 식으로 일하고 월급 받냐\"…'취업카드' 던진 민원인[노동TALK]",
     "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNRDFsbzBBMUFGZmlSU3VsSkVuSThUX2p6VmhRSEtxQ0xldk9mRTluN3JKUlJkYUcxZTdHUmtZMkI4Z29NNEpwbDFEeDFJTm1IdHB1RXFkdzZ5cHVQNnVTMDM5SkxZaU9LYms1WFRsZWstZkM2S0JSdW9EbXFXc0c2Ng?oc=5",
@@ -222,6 +243,13 @@
     "source": "구미일보"
    },
    {
+    "title": "\"새벽 옥외작업 시 주의\"…한파 취약사업장 3만여 곳 집중 관리",
+    "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9nOEdKcGMwQWlCQnJKTlBuaXRYZG1WUGZnd2FQcWdZTm9hWW9LUk90NGttdmQxaTVqUFowRUNrREY5dXl4Wjhza1FfNjlRcERsUUdsRmpfbFpTTHBQM3pjWmhMTHBCaVBJLWRUaQ?oc=5",
+    "date": "Fri, 13 Nov 2026 12:45:00 GMT",
+    "summary": "",
+    "source": "대한민국 정책브리핑"
+   },
+   {
     "title": "경북행복재단 연구원 사망 산재 인정…노조, 책임자 처벌 촉구",
     "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFA0VXFmd3lkeE52ZUpiZ1N3NTBUcHQ3RG9Ha1JhOGNTWTAxd3ZNSmQ1VTZfNmd4cFhYX2R5QmtQSkRjOEVCNjB3ellENG5vSTlYY0d0YlhpTm9yWXpjZFJDbzJwRGpDZmI1SGVuWU56VQ?oc=5",
     "date": "Fri, 13 Nov 2026 12:01:21 GMT",
@@ -243,6 +271,13 @@
     "source": "대한일보"
    },
    {
+    "title": "고용노동부, '가짜 3.3' 위장고용, '사업장 쪼개기' 등 노동법 회피 꼼수 기업 기획감독 착수",
+    "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9iV3A1c05LMy0tWWpabXotbW5xMmpJZGYtQzJ6aENLQWljcW5uVnJCQWJ1ZXRDRGJwaGp0ZkpjeDVSdGFhZ3JLOW5JYkhVRlk2NVJJT2NxOE9hZ1Bob1V5MHRXWHliSjloSXc?oc=5",
+    "date": "Fri, 13 Nov 2026 10:53:28 GMT",
+    "summary": "",
+    "source": "www.skedaily.com"
+   },
+   {
     "title": "고용부, ‘가짜 3.3 위장고용’ 등 탈법 사업장 140여 곳 기획감독",
     "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9sWXZSRHJZNjAxaENvVTBwSk5PYkUtTHZwXzdzbVVhWS1IblZtbnd3NllfRXVZd0dsTXB5YU9YRkd6dkN4ZVk1cWtObEFteDRucFpLU1U4Unh2UUdsczhpWVpWSGswQ0xlcFdBeGpzbw?oc=5",
     "date": "Fri, 13 Nov 2026 10:41:20 GMT",
@@ -262,13 +297,6 @@
     "date": "Fri, 13 Nov 2026 09:16:00 GMT",
     "summary": "",
     "source": "한겨레"
-   },
-   {
-    "title": "'위장고용·사업장 쪼개기' 등 꼼수 기업체 \"기획감독 착수\"",
-    "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9LLUE0bnZDMkVhZDBFR0x1c2tpb0VndF9jdGRZTlU4SEJqamtRRWJPa3dPR2Fna202enlYVkdVbkJ1SVVjYkxQZ20wRVJBUjR1MDkxMlZLbEVtMU0tQXJ6WlgxLWo5MzhHYWc?oc=5",
-    "date": "Fri, 13 Nov 2026 09:10:04 GMT",
-    "summary": "",
-    "source": "경북구미신문"
    },
    {
     "title": "‘가짜 3.3 계약’ ‘사업장 쪼개기’ 칼 빼든 노동부",
@@ -306,6 +334,13 @@
     "source": "투데이에너지"
    },
    {
+    "title": "'가짜 3.3 위장고용'·'사업장 쪼개기' 의심 140여 곳, 고용노동부가 기획감독 나선 이유는? 🔍",
+    "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1oVjU3Y2tVOHBDQkxPNmZMay1TQXRFcjUxaXNPSzJWMTVJNFpKTm5EYWVDSmZsbGV0UnREWFNuY2g0VHJCcGF4V3lEYm14dXVPallN?oc=5",
+    "date": "Fri, 13 Nov 2026 06:16:12 GMT",
+    "summary": "",
+    "source": "뉴닉"
+   },
+   {
     "title": "56년 지났지만…한국, OECD ‘계약·단기직’ 1위 [양종곤의 노동 톺아보기]",
     "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5BOXN1d0U2UGpmenZEejU4SWVKUHpXNHNybC1JMENyQVc2b1FoTTQ5WnI0TU44NDNrUGJyYlFjMzlEUGVYVlEtbkJsVjU0Um10ekHSAVNBVV95cUxQdVJmZEYxdlFiZVU5VWp1UE1IMnI1dDZ6WFpfcF82X2VMRW1nY2djU01UR1ZHNGNuSTV5RHFlaXdPUVRFdVQ1UjZNQ0lydXpWSEZwTQ?oc=5",
     "date": "Fri, 13 Nov 2026 05:11:41 GMT",
@@ -318,48 +353,27 @@
     "date": "Fri, 13 Nov 2026 04:58:17 GMT",
     "summary": "",
     "source": "서울경제"
-   },
-   {
-    "title": "4대 보험 빼고 수당도 안 주고…정부, ‘가짜 3.3’ 계약 집중점검",
-    "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE44RHlaXzkzNG1KdFNwWi1pTEtuNnM0ZFh4YUNydjFhN29DcTdTSDI3QmZFa0tRVk1TTkpyeC1OLTRRNXJhM0xiRUxxa3ZpMVVQLXZ2Y0xwR19qMXdDaTdIM1JraXVRY3RnMktsamRn?oc=5",
-    "date": "Fri, 13 Nov 2026 04:22:14 GMT",
-    "summary": "",
-    "source": "간호사신문"
-   },
-   {
-    "title": "‘가짜 3.3 계약·사업장 쪼개기’ 꼼수 사업장 140여 곳 집중 단속… 16일부터 두 달간 기획감독",
-    "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE0zMVVCblF4RmlNN2R6NXV0Y04xM1NVai1fLUo5eXVDZk9VUjc0U3hIVFVIVHF5aE53Q2JnV2tWb1NZMTQzaUd1V0Y0cXlPNWNTaHNSRThBQ25iUTV5aUs3UG9ESU1uQnNhTDFxVg?oc=5",
-    "date": "Fri, 13 Nov 2026 04:00:33 GMT",
-    "summary": "",
-    "source": "복지투데이"
-   },
-   {
-    "title": "구미고용노동지청, '청년 시즌2 페스타' 개최…현장 채용·취업 지원",
-    "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1uY2tER3lzUnVGWlNpeG1YSmRGQ3JadnF0UmxRX2pmSlhYX0pzVGdubmdwM0pVUndNQ3RJa3ExQ1ZrLXNZcncxdW03MzJjUjhyVEozRE9XT2dtYnFjS0FmZF9rNDY0MTVBTEE?oc=5",
-    "date": "Fri, 13 Nov 2026 02:30:00 GMT",
-    "summary": "",
-    "source": "경북도민일보"
-   },
-   {
-    "title": "노동법 피하려 '가짜 3.3'·사업장 쪼개기…노동부, 140곳 기획감독",
-    "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9xNmZDWllIbElPVGJLQVVnTnlLMlRhV3hQSUktSXRBakt0RXZWZUxydkVsVktjMEpfcTlwLTZ2LWZObzRVQjFzY053R21uSHVtUGliVzFnMXZ0NDd6LWlvV0Zxdm1CZTU2cmtpNdIBcEFVX3lxTE4zUEkzaXpnR1VQVldRSXQ4NXBWb1VmZmhBVDV6ZlJZRTV2UHVaRXJyb0dmaE83RnRxT01EQ3BDNXRiNEJJUzhVb2R4V0oxR1ZvUWh2RWwzY2M1dF9YOUl4T0JpSWxqTDVONFIzNEpqLUU?oc=5",
-    "date": "Fri, 13 Nov 2026 02:23:51 GMT",
-    "summary": "",
-    "source": "전기신문"
-   },
-   {
-    "title": "노동법 사각지대 노린 '가짜 3.3'·'쪼개기' 꼼수, 칼 빼 든 정부",
-    "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5OUXl4dWhCeVJhZzRJTmtScG1HT2JxX2F6RDg2WEdSNGxNU3JDNjNiQUVDV2l4c0RHN0xCRE5HNVpkU1hJbE1sT281a1BXRlVrQUd2U1hITmpJX19VNk9UNDZTOEhpT0pINHd0UQ?oc=5",
-    "date": "Fri, 13 Nov 2026 02:17:01 GMT",
-    "summary": "",
-    "source": "프라임경제"
    }
   ],
   "law": [
    {
+    "title": "대만 자유시보 “앨리스 황, 중국 국가안전부 반도체팀 소속”…미 법무부는 미확정",
+    "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBxWk1VMTFBT2EzcUdEelppN2pBTWZJR3l6a1pHYXFCQ3diSzZZdnNlQ3lfcUxrQ19rRmN2Tm9Xa2Mzd0FPU3Rjb1NCNllNbVpRd2tPUzhzaVkyQzdsUmM2RzZGYUwybGQ3WEswMEp3?oc=5",
+    "date": "Sat, 14 Nov 2026 02:13:29 GMT",
+    "summary": "",
+    "source": "아시아투데이"
+   },
+   {
     "title": "접촉보고 누락 50명…'한화 유출 의혹' 감찰 주목[공정위 내부감찰②]",
     "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1QRnhTNWlrNnRNT2RzbGVXTTR2blBGVDg3Y3pKNXlveXM2NEE0dG5IN1RZemNMaVJZR3k0WF9CSldkNmhrRDBsLWtVZnlQUHE0bS0zV2V4M1V0YmRqOVE4UdIBeEFVX3lxTE96alp0anhRM0V1aWdNdnZHVzZhMGdsX1VWYzBXdkVJWnMtZTkzay1CZGxpczlXN2pxellpb1BHSFdMOTRXVXBZNDN2X09nbzk1Z3VfRFNEb1RrbGYzbzdOUGlCZDR4US16Rld4WmQ1bWtNTWZZQ3NCLQ?oc=5",
     "date": "Fri, 13 Nov 2026 23:00:00 GMT",
+    "summary": "",
+    "source": "뉴시스"
+   },
+   {
+    "title": "[단독]5년 10개월간 경고 이상 조치 28건…중징계 11건[공정위 내부감찰①]",
+    "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1qelVDZTZjNk5fVEp5LTFnZ3Q4SEZUWVl0aDhSZ3ItS0dvNGI3cWUtbE9RYS11MjFwbElkVHhzaHZRTVVEUnp2aUM2a1hURDNpeUFBUGpHa3AwMlpuYVAxa9IBeEFVX3lxTE9tbWxYRHd3U3lwQW4yNHFuVy0xZEpkNmVveEgwNVVuNERkSW96aFByMDBqRDF6cmMwV2ZMS0pKN0JZOWtlMzJSZ1FCZTNwVHhFeFZiZDlfbmg1WVhJOFdhQ2tNWHNXUGdaY29QN0VCaWdQVmRNWFcxag?oc=5",
+    "date": "Fri, 13 Nov 2026 22:00:00 GMT",
     "summary": "",
     "source": "뉴시스"
    },
@@ -390,6 +404,13 @@
     "date": "Fri, 13 Nov 2026 15:10:00 GMT",
     "summary": "",
     "source": "데일리25"
+   },
+   {
+    "title": "KB증권, 공정위 과징금에 3분기 적자전환…순익 3322억 감소 : 네이버 블로그",
+    "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQdU9XRnVoQXpfQWxnek1TZzhyMjRQUDBhZk00azhrMFgwb3dDT3lpekhqY0VTdG91MXhSa1p5NExGVC10OUZPb0VkX1AzREZxTjNyUmMxbndUVFFwUXA2QVRhNlptV1JsSzFwUW0wWTI3UWF6eWw0N2dKSGZIVWNGZ2VVUVJvUEF4Sk1PaFNxMA?oc=5",
+    "date": "Fri, 13 Nov 2026 14:16:30 GMT",
+    "summary": "",
+    "source": "Naver Blog"
    },
    {
     "title": "공정거래위원회, 유통분야 표준거래계약서 7종 개정",
@@ -448,6 +469,13 @@
     "source": "주간시사매거진"
    },
    {
+    "title": "검수 늦어져도 납품대금 기한은 그대로…공정위, 표준계약서 손질",
+    "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBUNUJiSVJud1RVRWhUTklycUp6QVQ3Z0pqM3V5V1dNTXMzcnBFWUlzMlZPYUV6a2JPMTgyNWh5WTlzd0Q3TS1oSldEM2hSZjZ1dFBqVXB2T1ZFdVNhUzJEVU9yTnlVcGVxN0FXNjdB?oc=5",
+    "date": "Fri, 13 Nov 2026 07:29:00 GMT",
+    "summary": "",
+    "source": "뉴스후플러스"
+   },
+   {
     "title": "법무부, 원주교도소 봉산동 이전 개청…교정 환경 현대화",
     "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5tSU9TUGtlMXR2YzNWbDM3bXZ5cUJlTWFHVDFQUGdZVXBPSzlYdUdEUzhLaEdXRk5tdU9YbEVndGt5cTJtT0tJcXNTTFQ5MVctVXJzMG01MllUdw?oc=5",
     "date": "Fri, 13 Nov 2026 07:21:42 GMT",
@@ -502,34 +530,6 @@
     "date": "Fri, 13 Nov 2026 06:00:00 GMT",
     "summary": "",
     "source": "뉴스핌"
-   },
-   {
-    "title": "공정위, 기업·사업자단체 대상 담합 예방 설명회…위반 사례·최신 판례 소개",
-    "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBDUUE3eXAyam9lZHRaaWJBU043Qmdlc1ZYSzZvekZ0S25pZnU1WmxQRzkwazc5WC1nZWtCck1FY0YtcFN0YVUxa2ZmdE1ZUndNY2xjXw?oc=5",
-    "date": "Fri, 13 Nov 2026 06:00:00 GMT",
-    "summary": "",
-    "source": "뉴스1"
-   },
-   {
-    "title": "공정위, 기업 임직원 담합 예방 교육…실무 유의점 공유",
-    "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5ZYWFlc295UGx4S1h5QjA3VGtSZDBYaXlCcl93SzRwTk5FRDFxXy1BaHJOUWdDRmFXbC1fTVdaWnZMOURPSUs1RG82eE42QWVFYmg2STJLenlOanF0TzU4WdIBeEFVX3lxTE9DOHlwc05hMHRfREJLYjM5b1V6ZWdzSVNtR2h0alZRXzVPNTBxdFlWUGJ4WmhRZmNpaHRqTExEWTQxcXU1M29RdnpjRnh4N09kenZMazhBNVl6by1UbklzaGR1aHFyWnAyUXE4S0ltOHpLU1ZJZHpnaw?oc=5",
-    "date": "Fri, 13 Nov 2026 06:00:00 GMT",
-    "summary": "",
-    "source": "뉴시스"
-   },
-   {
-    "title": "공정위, 기업 임직원 220명 대상 담합 예방 교육",
-    "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE8yUy11S0xDV2VwWUdCLUJMMkc4MVJEVFJ6amZkZ1pJMVpsV3hwclZKT011Um1VaWtsRGlaZUNYZlNyN0hmRnpHQTFERlZlSmhhQ3Zic2JjaTZRUdIBWEFVX3lxTE9YYVdJcDZCQWw0aWR1Znh5ZjNNcGFoRTRpVTB3eF9nWjQzSm1VdVNQb3BTWVFtbk81VDdzeGdvQVZ6Z1EtTmI1S01HZkplbU1JWTlDam05VTg?oc=5",
-    "date": "Fri, 13 Nov 2026 06:00:00 GMT",
-    "summary": "",
-    "source": "아주경제"
-   },
-   {
-    "title": "유통업체 추가 비용 청구 제한…공정위, 표준계약서 개정",
-    "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5Gcl9XUTdYbFBuOEMxY2VWbXpPT3B3MTJNMGRYTm1VMnVsZjYzR0wyVGpQZG5nNDFJTl80V3ZMUVRUaHJTczZMVS1LaHMwcllaeGVhZTBueFoyRGJaYWFsNW9hT3k?oc=5",
-    "date": "Fri, 13 Nov 2026 05:43:55 GMT",
-    "summary": "",
-    "source": "포쓰저널"
    }
   ],
   "fund": [
@@ -588,13 +588,6 @@
     "date": "Fri, 13 Nov 2026 08:54:00 GMT",
     "summary": "",
     "source": "데일리안"
-   },
-   {
-    "title": "\"국민성장펀드 자금 비수도권에 9조원 지원… 비중 47%\"",
-    "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5WajRCWEVCaDZrM3dXMW11M3g4a1hqRW1ibG8wRHFHc0VEazVCWG9aYjJqQ0dyY1o5OUtRb0ZVSWkyc0trLUJVd3E0ejdEOTlWVWZiZmtRdDFvQkRXSjJLMUtB?oc=5",
-    "date": "Fri, 13 Nov 2026 08:51:05 GMT",
-    "summary": "",
-    "source": "매일신문"
    },
    {
     "title": "신진창 금융위 부위원장, 씨티그룹에 \"韓 혁신기업 금융지원 확대\" 요청",
@@ -707,9 +700,51 @@
     "date": "Fri, 13 Nov 2026 05:47:17 GMT",
     "summary": "",
     "source": "디지털투데이"
+   },
+   {
+    "title": "여행자 마약 밀수 적발 93% 증가…관세청 단속 사각지대 집중 점검",
+    "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE4xNG5aQTZOVVhTVnNhanlRYUJpVXNsdGZ0eWQ2d3hibVVxMjZDVFlfbWxfaTZwc0JZX0lQdUNvZ0k0OENBdVFrNzBrd3dHaGZXR3NuNXFwdjFCWWdyUHlFNg?oc=5",
+    "date": "Fri, 13 Nov 2026 05:41:28 GMT",
+    "summary": "",
+    "source": "뉴스1"
    }
   ],
   "biz": [
+   {
+    "title": "'모두의 창업' 5개월 만에 또 개인정보 유출…참가자들 \"경위·보상 대책 공개하라\"",
+    "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFAzc1kzbURGZ3lJSnZmclk4WnBMVXJHWFpvUEt5cHNrdzZIREdISXgwVFVzVldneWhkZk1JMUd6cjI4Y1pkTzAyb1dwQ3czUmFOUDA4cmI1VXBUZw?oc=5",
+    "date": "Sat, 14 Nov 2026 03:11:06 GMT",
+    "summary": "",
+    "source": "파이낸셜뉴스"
+   },
+   {
+    "title": "중기부 모두의창업 818명 정보 유출…참가자들 대책 촉구 : 사회",
+    "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE5kenJHRmVPWmt2YXoza2c2WUhTV2tQWVdGYk9NXzRpTzMtQUQzd3RwbGFia1diT0hFVHdTLTFEVEFnOFVrNi0yTks2RQ?oc=5",
+    "date": "Sat, 14 Nov 2026 03:06:30 GMT",
+    "summary": "",
+    "source": "재경일보"
+   },
+   {
+    "title": "'모두의 창업' 5개월 만에 '모두의 정보 유출'...참가자 경위·보상 밝혀야",
+    "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE0ybjRSYzdjemQ3LTJRTTNYdEg0TENCdkw2NkdzczE5SlZfWWVteFg0WmlyME1VbGUzd0txTnVIWjN6VnRmNnNoWTJSSU1nQllmQ3RZ0gFYQVVfeXFMT19PNXB0RmpQd0dWR2JybXExRFU4eVZMbjdzTjNvNXJ4SjR0Q3VkMnEwYzk5NkM0d2c4YzBQLVhEOFZYQWFMVHA0UWJtV1ZodVJVVldfNHVOOA?oc=5",
+    "date": "Sat, 14 Nov 2026 02:36:00 GMT",
+    "summary": "",
+    "source": "SBS Biz"
+   },
+   {
+    "title": "모두의창업 또 정보 유출에 참가자 '부글'…\"경위·보상 밝혀야\"",
+    "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE0wNVcycXVCVnBIWjVjRC1xTm9kcDdHa2xOOXZWY3AxQTJDSGpEOVVjY1NKb0VLbDZ5X29TdVFjaEk0cFBVZVFTZmhYSTF1SVRhdnFlV0hqRlgtcUHSAWBBVV95cUxONW5uOE9FbmRzRC1zdXVPUzRDclVsYWxZbkhNc2NYdkFpY2Z1NkFBN24zSC1xOEVlazJUZTJDeTNhWjBfbHgtN3dSd0NQQUFWdTZwR1AxR280WlRwR1FZMFM?oc=5",
+    "date": "Sat, 14 Nov 2026 02:14:56 GMT",
+    "summary": "",
+    "source": "연합뉴스"
+   },
+   {
+    "title": "모두의 창업 또 개인정보 유출… 이번엔 참여 업체 API 뚫려",
+    "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE92dmlQQTB6X1V1UHE2d1pOZm00VFV2X2dhNk9OMUc3NGNfMlBjeXJyLVF6MnpWME8yWkNyb1Bwd3F1Slc3WDhvdERoYUlhR01ocGJnVkpXaWFRb09Dajl0a01GWFI1cmV1S0lR?oc=5",
+    "date": "Sat, 14 Nov 2026 00:21:33 GMT",
+    "summary": "",
+    "source": "보안뉴스"
+   },
    {
     "title": "중기부 '모두의 창업' AI 공급기업 해킹…참가자 818명 정보 유출",
     "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1hci1uNElhbHNTVGRORG1kSEJETEVON2pDb0xJQzdhclM4YjRNbXJOaU1nWnh3NXNTNW9FcmgtNGZHamZxVjY5S1NvZllfQW90eHlrdFNKUnZxaUdmR291N1Y4SmczTEFmSWJHbUdn?oc=5",
@@ -849,41 +884,6 @@
     "date": "Fri, 13 Nov 2026 10:41:42 GMT",
     "summary": "",
     "source": "세계일보"
-   },
-   {
-    "title": "중기부 ‘모두의 창업’ 또 개인정보 유출…한번 털리고 모집까지 미뤘는데",
-    "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE1WSVFTRmtjRGNhclNSQmlqSTVUc0dFOTRfaDJTTjJkWlVlZDliZ2trZUJhQ1puTWZLdFQyajFhY2Qtc2VJVXlCM3R2UnZzNFBYV2FJWEFrN1lKc3hCT3Q1eWdHemZoYXZHMVZsU2dhQjZ2QQ?oc=5",
-    "date": "Fri, 13 Nov 2026 10:23:00 GMT",
-    "summary": "",
-    "source": "한겨레"
-   },
-   {
-    "title": "중소벤처기업부 ‘모두의 창업’ 또 개인정보 유출…AI 공급기업 해킹으로 2만28명 피해",
-    "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1QQ1VMckItTUxqWENxOGlBR2lteC1zaUEtYk14UTNSTE5KVVk2dU0yaGlUYjlydlZCQ3JqcWVPY2VjU09WRjIzaWhoM1k0V2pWN3FkWDdHdGVNaW9Ya2JETkl1a1pxS2VTSmxSSA?oc=5",
-    "date": "Fri, 13 Nov 2026 10:15:08 GMT",
-    "summary": "",
-    "source": "데일리시큐"
-   },
-   {
-    "title": "중소벤처기업부 '모두의 창업' 개인정보 유출 충격, 재발 방지 대책 실효성 논란",
-    "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE03Z05CN1ZBSEJHWExBeUx4djNBLW1zMDhWNFdmQmFiS3VPLXpzQklLSUlxemtaM29UWjl2ZExUS3J4RF9jM2Z3eWhJX1hXRVRNdUVYc0MwT25KSFR6NklXMUNKdXA2ZjhH?oc=5",
-    "date": "Fri, 13 Nov 2026 09:47:49 GMT",
-    "summary": "",
-    "source": "공감신문"
-   },
-   {
-    "title": "중기부 “2차 ‘모두의창업’ 지원 기업서 개인 정보 유출”",
-    "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5NOUdibWhwZ0lJLVBhUmVxQ2xGS2ozZHQxRDBSTmN1OGwzeFYwVjMweE1VeWN6MWh0aUo1MmpwMVhQY1NjYU1WZmhHY18taWhtN2VkdFFHZUZSX3c?oc=5",
-    "date": "Fri, 13 Nov 2026 09:45:00 GMT",
-    "summary": "",
-    "source": "KBS 뉴스"
-   },
-   {
-    "title": "중기부 '모두의 창업' 개인정보 '또' 유출…5개월 만에 사고 재발",
-    "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5VY0dWNzIxUHFBSUpnczltMkJqa2dTMWFKUm1Od0FlMVBSNVp3dTZDNDBfOG5WTjZQNU5SQzU4bkdoWXNsZVFaTWdPclB0emZ6SDdQVWI2TXhkR3hWOERxTGNmSHJUcHVqUE9Jd2Y3UTk?oc=5",
-    "date": "Fri, 13 Nov 2026 09:43:17 GMT",
-    "summary": "",
-    "source": "신아일보"
    }
   ],
   "money": [
@@ -993,13 +993,6 @@
     "source": "매일일보"
    },
    {
-    "title": "속초시, 소상공인 생애 첫 창업지원금 지원사업 추진",
-    "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFBZcFhKWXktTjRtVlAzX09tUVJnZ3VpbUpuSElDRTlRbUc5X3ptcGJiS3MzZFprbWFpOVE3Mno1OFpBRUZxMFVqWDlsdVBuQQ?oc=5",
-    "date": "Tue, 10 Mar 2026 07:00:00 GMT",
-    "summary": "",
-    "source": "시사일보"
-   },
-   {
     "title": "“지원 있다는데, 받을 수 없어”…홈플러스 입점 소상공인, 정책자금 괴리 지적",
     "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBUUmRnUWF5aG12NTUyMTVYeFFwcUhJNUZHT050LXpUQy1BY2RyN0w4S1lTMWlMQ0pnYTZURWNJMHctbnZuWXZDOE9zcDFyYl83Rm5tZ1lQajk3OThPQ0ZXT0F5Mk4?oc=5",
     "date": "Thu, 29 Jan 2026 08:00:00 GMT",
@@ -1040,6 +1033,13 @@
     "date": "Tue, 30 Sep 2025 07:00:00 GMT",
     "summary": "",
     "source": "쿠키뉴스"
+   },
+   {
+    "title": "[정책뉴스] 소상공인 금융지원 10조 패키지 가동…금리 낮추고 한도 높인다",
+    "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE9SZ1RDYk9BMGhOckZicGFhcGR2UnpLNUdNcEQ1YUUzZEk3WlVVV0E0SHNTbXlVNzh6OUpvTEYwLTlVLVNKV1BxYlpwcXozNVU3VkluZzJvMVZpUmxzVU44OXNjXzlrZF9ZYlpHb2pkMW5uUQ?oc=5",
+    "date": "Thu, 04 Sep 2025 07:00:00 GMT",
+    "summary": "",
+    "source": "아웃소싱타임스"
    },
    {
     "title": "소상공인 '전기·가스·수도요금 지원' 근거 마련…22일부터 시행",
