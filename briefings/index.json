@@ -2,6 +2,15 @@
  {
   "date": "2026-11-15",
   "kind": "market",
+  "edition": "아침판",
+  "title": "11월 15일 (일) 투자 브리핑 · 아침판",
+  "file": "briefings/2026-11-15-market-아침판.pdf",
+  "top": "[뉴욕증시 마감] 엔비디아發 기술주 매도…나스닥 0.91%↓ - 더페어",
+  "count": 13
+ },
+ {
+  "date": "2026-11-15",
+  "kind": "market",
   "edition": "자정판",
   "title": "11월 15일 (일) 투자 브리핑 · 자정판",
   "file": "briefings/2026-11-15-market-자정판.pdf",
