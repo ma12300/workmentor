@@ -2,6 +2,15 @@
  {
   "date": "2026-11-17",
   "kind": "market",
+  "edition": "저녁판",
+  "title": "11월 17일 (화) 투자 브리핑 · 저녁판",
+  "file": "briefings/2026-11-17-market-저녁판.pdf",
+  "top": "[속보]뉴욕증시 3대 지수 일제히 급락…나스닥 626포인트 폭락, 다우 5만2000선 붕괴 - CBC뉴스",
+  "count": 14
+ },
+ {
+  "date": "2026-11-17",
+  "kind": "market",
   "edition": "아침판",
   "title": "11월 17일 (화) 투자 브리핑 · 아침판",
   "file": "briefings/2026-11-17-market-아침판.pdf",
