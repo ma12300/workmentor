@@ -2,6 +2,15 @@
  {
   "date": "2026-11-22",
   "kind": "market",
+  "edition": "아침판",
+  "title": "11월 22일 (일) 투자 브리핑 · 아침판",
+  "file": "briefings/2026-11-22-market-아침판.pdf",
+  "top": "나스닥 5.28% 폭락…앤트로픽도 하루 만에 공모가 수준 하락 - 한겨레",
+  "count": 6
+ },
+ {
+  "date": "2026-11-22",
+  "kind": "market",
   "edition": "자정판",
   "title": "11월 22일 (일) 투자 브리핑 · 자정판",
   "file": "briefings/2026-11-22-market-자정판.pdf",
