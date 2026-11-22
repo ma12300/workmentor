@@ -2,6 +2,15 @@
  {
   "date": "2026-11-23",
   "kind": "market",
+  "edition": "아침판",
+  "title": "11월 23일 (월) 투자 브리핑 · 아침판",
+  "file": "briefings/2026-11-23-market-아침판.pdf",
+  "top": "이억원, FSB 총회서 AI·스테이블코인 등 논의…국제 금융 협력 강화 - 전자신문",
+  "count": 4
+ },
+ {
+  "date": "2026-11-23",
+  "kind": "market",
   "edition": "자정판",
   "title": "11월 23일 (월) 투자 브리핑 · 자정판",
   "file": "briefings/2026-11-23-market-자정판.pdf",
