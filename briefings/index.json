@@ -2,6 +2,15 @@
  {
   "date": "2026-11-24",
   "kind": "market",
+  "edition": "저녁판",
+  "title": "11월 24일 (화) 투자 브리핑 · 저녁판",
+  "file": "briefings/2026-11-24-market-저녁판.pdf",
+  "top": "[시세] 솔라나(SOL) ETF 자금 유입에도…70달러 지킬까 - 코인리더스",
+  "count": 24
+ },
+ {
+  "date": "2026-11-24",
+  "kind": "market",
   "edition": "아침판",
   "title": "11월 24일 (화) 투자 브리핑 · 아침판",
   "file": "briefings/2026-11-24-market-아침판.pdf",
