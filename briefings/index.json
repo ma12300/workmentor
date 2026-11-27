@@ -2,6 +2,15 @@
  {
   "date": "2026-11-27",
   "kind": "market",
+  "edition": "저녁판",
+  "title": "11월 27일 (금) 투자 브리핑 · 저녁판",
+  "file": "briefings/2026-11-27-market-저녁판.pdf",
+  "top": "일론 머스크, \"美 어린이에게 주식 2주씩 주겠다\" - 미디어데일",
+  "count": 23
+ },
+ {
+  "date": "2026-11-27",
+  "kind": "market",
   "edition": "아침판",
   "title": "11월 27일 (금) 투자 브리핑 · 아침판",
   "file": "briefings/2026-11-27-market-아침판.pdf",
